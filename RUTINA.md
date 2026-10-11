@@ -38,6 +38,8 @@ Si ya existe la carpeta `contenido/HOY/`, la edición está publicada: no hagas 
 - Noticias: 4 o 5 párrafos (250–350 palabras). Reportajes de arte, historia y literatura: 5 o 6 párrafos (350–450 palabras).
 - El primer párrafo cuenta lo esencial; los siguientes, el contexto y lo que queda abierto.
 - Titular informativo de una frase, sin punto final ni dos puntos de adorno.
+- Resalta en **negrita** las partes importantes para facilitar la lectura: entre 4 y 6 fragmentos por artículo, repartidos por todos los párrafos. Resalta el hecho esencial, las cifras clave, los nombres propios decisivos y la consecuencia principal. Cada fragmento tiene entre 3 y 12 palabras: nunca frases enteras largas ni párrafos completos. Leyendo solo las negritas debe entenderse lo esencial.
+- Ningún párrafo del cuerpo puede empezar por negrita: la web reserva ese formato para la línea final de fuentes.
 
 ## Formato de cada archivo
 
@@ -72,7 +74,17 @@ Más párrafos.
 - La URL de la imagen es `https://commons.wikimedia.org/wiki/Special:FilePath/` + el nombre del archivo codificado como URL (sin el prefijo `File:`) + `?width=1200`.
 - En las noticias casi nunca habrá foto libre del suceso: usa una imagen de archivo relacionada y dilo en el pie («Imagen de archivo: …»). El pie no debe dar a entender que la foto es del suceso.
 - El pie siempre incluye autor y licencia.
-- Comprueba cada URL con `curl -L` y confirma que devuelve 200 y una imagen. Si no encuentras una imagen adecuada, publica el artículo sin `<figure>`.
+- Comprueba cada URL con `curl -L` y confirma que devuelve 200 y una imagen.
+- **Todas las piezas llevan imagen, sin excepción.** Si la búsqueda concreta no da resultado, amplía el término paso a paso: del suceso al lugar (la ciudad, el edificio, el país), y del lugar al tema (un mapa, una bandera, una sede institucional, un objeto representativo). Siempre hay una imagen de archivo válida; no publiques una pieza sin `<figure>`.
+
+### Límite de peticiones de Wikimedia
+
+Wikimedia bloquea temporalmente a quien hace muchas consultas seguidas («You are making too many requests»). Para evitarlo:
+
+- Identifícate en todas las peticiones a Wikimedia, tanto a la API como al comprobar imágenes: `curl -A "SophyBot/1.0 (https://github.com/guillermopratscontacto-hash/Sophy)" …`.
+- Haz las peticiones de una en una, nunca en paralelo ni en bucle rápido, y espera 5 segundos entre una y otra (`sleep 5`).
+- Piensa bien el término antes de buscar: lo normal es una o dos búsquedas por pieza.
+- Si aun así recibes el aviso de demasiadas peticiones, espera 60 segundos antes de reintentar y sigue mientras tanto con la redacción de otra pieza.
 
 ## Índice
 

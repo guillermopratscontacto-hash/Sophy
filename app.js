@@ -68,6 +68,7 @@ if (typeof document !== "undefined") (function () {
   let progreso = []; // [{ fecha, tema, dia }]
   let usuario = null;
   let perfil = null; // { codigo, nombre } o null si aún no está disponible
+  let valoraciones = null; // Map "fecha|tema" -> 1 (me gusta) o -1 (no me gusta); null si no está disponible
   let limpiarVista = null;
   let turno = 0; // identifica la navegación en curso
   let leyendo = false;
@@ -78,10 +79,13 @@ if (typeof document !== "undefined") (function () {
     llama: svg('<path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/>'),
     hecho: svg('<path d="M20 6 9 17l-5-5"/>'),
     atras: svg('<path d="M19 12H5M12 19l-7-7 7-7"/>'),
+    gusta: svg('<path d="M7 10v12"/><path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z"/>'),
+    noGusta: svg('<path d="M17 14V2"/><path d="M9 18.12 10 14H4.17a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.5 2H20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.76a2 2 0 0 0-1.79 1.11L12 22a3.13 3.13 0 0 1-3-3.88Z"/>'),
   };
 
   // El progreso se guarda en Supabase o, sin configurar, en este navegador.
   const CLAVE_LOCAL = "aprendizaje.progreso";
+  const CLAVE_VOTOS = "aprendizaje.votos";
   const almacen = remoto
     ? {
         async cargar() {
@@ -507,10 +511,14 @@ if (typeof document !== "undefined") (function () {
         <p class="lectura-fecha">${esc(fechaLarga(fecha))}</p>
         <article class="articulo">${window.marked.parse(texto)}</article>
         <div id="fin" class="fin"></div>
+        <div id="valorar" class="valorar" hidden></div>
         <div id="siguiente" class="siguiente"></div>
       </div>`;
     maquetar($vista.querySelector(".articulo"));
     leyendo = true;
+    // Registro de lectura: una fila la primera vez que se abre; si ya existe o falla, no importa.
+    if (remoto) sb.from("aperturas").insert({ fecha, tema }).then(() => {});
+    activarValoracion(fecha, tema);
 
     const $fin = $("fin");
     const marcarHecha = () => {
@@ -560,6 +568,46 @@ if (typeof document !== "undefined") (function () {
       clearTimeout(cuenta);
       observador.disconnect();
     };
+  }
+
+  // Botones de me gusta / no me gusta al final de cada pieza. Pulsar el mismo otra vez lo quita.
+  function activarValoracion(fecha, tema) {
+    if (!valoraciones) return;
+    const $caja = $("valorar");
+    const clave = `${fecha}|${tema}`;
+    const pintar = () => {
+      const actual = valoraciones.get(clave) || 0;
+      $caja.hidden = false;
+      $caja.innerHTML = `<span>¿Te ha gustado?</span>
+        <button class="voto" data-valor="1" aria-pressed="${actual === 1}" aria-label="Me gusta" title="Me gusta">${ICONO.gusta}</button>
+        <button class="voto" data-valor="-1" aria-pressed="${actual === -1}" aria-label="No me gusta" title="No me gusta">${ICONO.noGusta}</button>`;
+    };
+    pintar();
+    $caja.addEventListener("click", async (e) => {
+      const $boton = e.target.closest(".voto");
+      if (!$boton) return;
+      const valor = Number($boton.dataset.valor);
+      const anterior = valoraciones.get(clave);
+      const quitar = anterior === valor;
+      if (quitar) valoraciones.delete(clave);
+      else valoraciones.set(clave, valor);
+      pintar();
+
+      let error = null;
+      if (!remoto) {
+        try {
+          localStorage.setItem(CLAVE_VOTOS, JSON.stringify(Object.fromEntries(valoraciones)));
+        } catch {}
+      } else if (quitar) {
+        ({ error } = await sb.from("valoraciones").delete().eq("fecha", fecha).eq("tema", tema));
+      } else {
+        ({ error } = await sb.from("valoraciones").upsert({ fecha, tema, valor }, { onConflict: "user_id,fecha,tema" }));
+      }
+      if (!error) return;
+      if (anterior) valoraciones.set(clave, anterior);
+      else valoraciones.delete(clave);
+      if ($caja.isConnected) pintar();
+    });
   }
 
   function vistaHistorial() {
@@ -883,9 +931,22 @@ if (typeof document !== "undefined") (function () {
 
   async function abrirSesion() {
     try {
-      const [datos, respuesta] = await Promise.all([almacen.cargar(), remoto ? sb.rpc("mi_perfil") : null]);
+      const [datos, respuesta, votos] = await Promise.all([
+        almacen.cargar(),
+        remoto ? sb.rpc("mi_perfil") : null,
+        remoto ? sb.from("valoraciones").select("fecha,tema,valor") : null,
+      ]);
       progreso = datos;
       perfil = respuesta && !respuesta.error ? respuesta.data : null;
+      if (remoto) {
+        valoraciones = votos.error ? null : new Map(votos.data.map((v) => [`${v.fecha}|${v.tema}`, v.valor]));
+      } else {
+        let guardados = {};
+        try {
+          guardados = JSON.parse(localStorage.getItem(CLAVE_VOTOS)) || {};
+        } catch {}
+        valoraciones = new Map(Object.entries(guardados));
+      }
     } catch {
       $vista.innerHTML = '<p class="error">No se ha podido cargar tu progreso. Recarga la página.</p>';
       return;

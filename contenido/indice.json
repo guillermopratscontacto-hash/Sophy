@@ -1,20 +1,19 @@
 {
   "temas": [
     { "id": "news", "nombre": "News" },
-    { "id": "ejemplo", "nombre": "Ejemplo" }
+    { "id": "ejemplo-1", "nombre": "Ejemplo 1" },
+    { "id": "ejemplo-2", "nombre": "Ejemplo 2" },
+    { "id": "ejemplo-3", "nombre": "Ejemplo 3" },
+    { "id": "ejemplo-4", "nombre": "Ejemplo 4" }
   ],
   "entradas": [
     {
       "fecha": "2026-10-11",
       "tema": "news",
       "titulo": "Tres noticias del sábado 10 de octubre",
+      "resumen": "Un ataque contra el aeropuerto de Riad, dos huracanes a ambos lados de Norteamérica y miles de detenidos en las protestas de Nueva Delhi.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Hurricane%20Agatha%20over%20Mexico%20%28MODIS%202022-06-01%29.jpg?width=1200",
       "archivo": "contenido/2026-10-11/news.md"
-    },
-    {
-      "fecha": "2026-10-11",
-      "tema": "ejemplo",
-      "titulo": "Cómo funciona esta biblioteca",
-      "archivo": "contenido/2026-10-11/ejemplo.md"
     }
   ]
 }

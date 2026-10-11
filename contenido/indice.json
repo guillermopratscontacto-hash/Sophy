@@ -1,0 +1,13 @@
+{
+  "temas": [
+    { "id": "ejemplo", "nombre": "Ejemplo" }
+  ],
+  "entradas": [
+    {
+      "fecha": "2026-10-11",
+      "tema": "ejemplo",
+      "titulo": "Cómo funciona esta biblioteca",
+      "archivo": "contenido/2026-10-11/ejemplo.md"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1f6f5c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>Aprendizaje</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="cabecera">
+    <a class="marca" href="#/hoy">Aprendizaje</a>
+    <div class="cabecera-derecha">
+      <span id="racha" class="racha" hidden></span>
+      <button id="salir" class="enlace" hidden>Salir</button>
+    </div>
+  </header>
+
+  <nav id="pestanas" class="pestanas" hidden></nav>
+
+  <main id="vista" class="vista">
+    <p class="aviso">Cargando…</p>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

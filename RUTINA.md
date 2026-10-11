@@ -20,6 +20,8 @@ Las cuatro primeras forman la sección News de la web; las tres últimas, la sec
 
 Antes de elegir tema para `arte`, `historia` y `literatura`, lee los títulos ya publicados de esa sección en `contenido/indice.json` y no repitas ninguno. Varía de época, región y disciplina respecto a las últimas ediciones. En las secciones de actualidad, si una historia continúa de un día anterior, cuenta solo lo nuevo.
 
+Ninguna sección puede quedar vacía por falta de noticia de ayer. Si ayer no hubo una noticia relevante en una sección (pasa sobre todo en `economia` los fines de semana, con los mercados cerrados), cubre la más relevante de los últimos tres días que no esté ya publicada en el índice, y pon en la data la fecha real del hecho.
+
 Si ya existe la carpeta `contenido/HOY/`, la edición está publicada: no hagas nada.
 
 ## Cómo investigar

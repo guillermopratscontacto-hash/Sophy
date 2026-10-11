@@ -151,10 +151,27 @@ if (typeof document !== "undefined") (function () {
       .map((t) => {
         const enlace = `<a class="sec${t.id === raiz ? " activa" : ""}" href="#/seccion/${enc(t.id)}"${t.id === raiz ? ' aria-current="page"' : ""}>${esc(t.nombre)}</a>`;
         if (!t.subsecciones) return enlace;
+        // Panel a todo el ancho con las subsecciones y el último titular de cada una.
         const opciones = t.subsecciones
-          .map((sub) => `<a href="#/seccion/${enc(sub.id)}"${sub.id === activa ? ' class="actual"' : ""}>${esc(sub.nombre)}${rachaSeccion(sub.id, hoy)}</a>`)
+          .map((sub, i) => {
+            const ultima = recientes(indice.entradas.filter((e) => e.tema === sub.id))[0];
+            return `<a class="opcion${sub.id === activa ? " actual" : ""}" style="--i:${i}" href="#/seccion/${enc(sub.id)}">
+              <span class="opcion-nombre">${esc(sub.nombre)}</span>
+              <span class="opcion-titular">${ultima ? esc(ultima.titulo) : "Próximamente"}</span>
+              ${rachaSeccion(sub.id, hoy)}
+            </a>`;
+          })
           .join("");
-        return `<div class="seccion-grupo${cerrarDesplegable ? " cerrado" : ""}">${enlace}<div class="desplegable">${opciones}</div></div>`;
+        return `<div class="seccion-grupo${cerrarDesplegable ? " cerrado" : ""}">${enlace}
+          <div class="desplegable"><div class="desplegable-dentro">
+            <div class="desplegable-intro">
+              <span class="antetitulo">Sección</span>
+              <span class="desplegable-titulo">${esc(t.nombre)}</span>
+              <a class="desplegable-todo" href="#/seccion/${enc(t.id)}">Ver todo</a>
+            </div>
+            <div class="desplegable-opciones">${opciones}</div>
+          </div></div>
+        </div>`;
       })
       .join("");
     cerrarDesplegable = false;

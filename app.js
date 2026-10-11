@@ -577,33 +577,39 @@ if (typeof document !== "undefined") (function () {
       // ----- Globo -----
       const $globo = $("globo");
       $globo.textContent = "";
-      globo = window.Globe()($globo)
-        .backgroundColor("rgba(0,0,0,0)")
-        .showAtmosphere(true)
-        .atmosphereColor(color("--arena"))
-        .atmosphereAltitude(0.14)
-        .polygonsData(geo.mapa)
-        .polygonSideColor(() => color("--arena"))
-        .polygonStrokeColor(() => `rgba(${color("--tinta-rgb")}, 0.45)`)
-        .polygonLabel((f) => `<span class="globo-etiqueta">${esc(f.properties.nombre)}</span>`)
-        .polygonsTransitionDuration(500)
-        .onPolygonHover((f) => {
-          $globo.style.cursor = f && estado(f) !== "resto" ? "pointer" : "grab";
-        })
-        .onPolygonClick((f) => {
-          const pais = porId.get(idDe(f));
-          if (pais && estado(f) !== "resto") mostrar(pais, true);
-        });
-      globo.globeMaterial().color.set(color("--papel"));
+      try {
+        globo = window.Globe()($globo)
+          .backgroundColor("rgba(0,0,0,0)")
+          .showAtmosphere(true)
+          .atmosphereColor(color("--arena"))
+          .atmosphereAltitude(0.14)
+          .polygonsData(geo.mapa)
+          .polygonSideColor(() => color("--arena"))
+          .polygonStrokeColor(() => `rgba(${color("--tinta-rgb")}, 0.45)`)
+          .polygonLabel((f) => `<span class="globo-etiqueta">${esc(f.properties.nombre)}</span>`)
+          .polygonsTransitionDuration(500)
+          .onPolygonHover((f) => {
+            $globo.style.cursor = f && estado(f) !== "resto" ? "pointer" : "grab";
+          })
+          .onPolygonClick((f) => {
+            const pais = porId.get(idDe(f));
+            if (pais && estado(f) !== "resto") mostrar(pais, true);
+          });
+        globo.globeMaterial().color.set(color("--papel"));
+      } catch {
+        globo = null;
+        $globo.innerHTML = '<p class="nota globo-aviso">Este navegador no puede mostrar el globo 3D. Puedes leer el país del día igualmente.</p>';
+      }
 
       const pintarGlobo = () => {
+        if (!globo) return;
         globo
           .polygonCapColor((f) => ({ hecho: color("--rojo"), hoy: color("--tinta"), resto: color("--blanco") }[estado(f)]))
           .polygonAltitude((f) => (f.encima ? 0.016 : 0.006) + (estado(f) === "resto" ? 0 : 0.012));
       };
       pintarGlobo();
 
-      const ajustar = () => globo.width($globo.clientWidth).height($globo.clientHeight);
+      const ajustar = () => globo && globo.width($globo.clientWidth).height($globo.clientHeight);
       ajustar();
       medidor = new ResizeObserver(ajustar);
       medidor.observe($globo);
@@ -611,7 +617,7 @@ if (typeof document !== "undefined") (function () {
       const volar = (pais, ms) => {
         const f = geo.mapa.find((x) => porId.get(idDe(x)) === pais);
         // Más lejos en pantallas estrechas, para que el globo quepa entero.
-        if (f) globo.pointOfView({ ...centro(f), altitude: $globo.clientWidth < 520 ? 2.5 : 2 }, ms);
+        if (f && globo) globo.pointOfView({ ...centro(f), altitude: $globo.clientWidth < 520 ? 2.5 : 2 }, ms);
       };
 
       // ----- Ficha -----
@@ -684,7 +690,7 @@ if (typeof document !== "undefined") (function () {
       resumen();
       if (delDia) {
         const inicio = geo.mapa.find((x) => porId.get(idDe(x)) === delDia);
-        if (inicio) globo.pointOfView({ lat: 10, lng: centro(inicio).lng - 70, altitude: 3 }, 0);
+        if (inicio && globo) globo.pointOfView({ lat: 10, lng: centro(inicio).lng - 70, altitude: 3 }, 0);
         mostrar(delDia, true);
       } else {
         $("geo-ficha").innerHTML = vacio("Sección completada", "Has recorrido todos los países disponibles. Pulsa cualquiera en rojo para volver a leerlo.");

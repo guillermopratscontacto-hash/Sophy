@@ -12,7 +12,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <script>
+    // Marca que cambia cada 5 minutos: evita que el navegador siga usando una versión antigua de la web.
+    window.VERSION = Math.floor(Date.now() / 300000);
+    document.write('<link rel="stylesheet" href="styles.css?v=' + window.VERSION + '">');
+  </script>
 </head>
 <body class="sin-sesion">
   <header class="cabecera" id="cabecera">
@@ -60,7 +64,8 @@
 
   <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script src="config.js"></script>
-  <script src="app.js"></script>
+  <script>
+    document.write('<script src="config.js?v=' + window.VERSION + '"><\/script><script src="app.js?v=' + window.VERSION + '"><\/script>');
+  </script>
 </body>
 </html>

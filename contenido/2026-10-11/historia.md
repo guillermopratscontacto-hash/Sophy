@@ -1,20 +1,20 @@
-## El mecanismo de Anticitera: el ordenador de bronce que durmió dos mil años bajo el mar
+## La piedra de Rosetta: el decreto olvidado que devolvió la voz al antiguo Egipto
 
-*Grecia, siglo II o I a. C.*
+*Egipto, 196 a. C.*
 
 <figure>
-  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/NAMA%20Machine%20d%27Anticyth%C3%A8re%201.jpg?width=1200" alt="Fragmento principal del mecanismo de Anticitera, con sus engranajes de bronce corroídos" loading="lazy">
-  <figcaption>El fragmento principal del mecanismo, en el Museo Arqueológico Nacional de Atenas. Foto: Marsyas, CC BY 2.5, vía Wikimedia Commons.</figcaption>
+  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Rosetta%20Stone.JPG?width=1200" alt="La piedra de Rosetta en el Museo Británico" loading="lazy">
+  <figcaption>La piedra de Rosetta, del 196 a. C., expuesta en el Museo Británico de Londres. Foto: Hans Hillewaert, CC BY-SA 4.0, vía Wikimedia Commons.</figcaption>
 </figure>
 
-En 1900, unos pescadores de esponjas refugiados de una tormenta junto a la isla griega de Anticitera encontraron a unos 45 metros de profundidad los restos de un barco romano cargado de estatuas de bronce y mármol. Entre las piezas recuperadas había un bloque de bronce corroído, del tamaño de una caja de zapatos, al que nadie prestó atención hasta que, en 1902, el arqueólogo Valerios Stais distinguió en él una rueda dentada.
+Durante casi mil quinientos años nadie supo leer los jeroglíficos. El último texto fechado en esa escritura es del año 394 d. C., y después el conocimiento se perdió. La llave apareció en julio de 1799, cuando soldados franceses que reforzaban un fuerte cerca de Rashid, en el delta del Nilo, encontraron una losa de granodiorita de unos 112 centímetros de alto cubierta de inscripciones.
 
-Aquello no encajaba con nada conocido. El objeto, fabricado entre los siglos II y I antes de Cristo, contenía al menos treinta engranajes de bronce tallados a mano, con dientes de apenas un milímetro. No se conserva ningún otro mecanismo de complejidad parecida hasta los relojes astronómicos de las catedrales europeas, más de mil años después.
+La piedra recoge un decreto sacerdotal aprobado en Menfis el 27 de marzo del 196 a. C. en honor de Ptolomeo V, un faraón niño de la dinastía macedonia. El texto confirma exenciones fiscales para los templos y los privilegios del rey. Lo decisivo es el formato: el mismo mensaje aparece en tres escrituras, jeroglífica, demótica y griega. Los eruditos de la expedición de Napoleón podían leer la tercera.
 
-Durante décadas solo pudo intuirse su función. En los años cincuenta, el físico Derek de Solla Price empezó a estudiarlo con radiografías y concluyó que era una calculadora astronómica. La confirmación llegó en 2005, cuando un equipo internacional lo examinó con tomografía de rayos X y pudo leer miles de letras grabadas en su interior: una especie de manual de instrucciones.
+Los británicos obtuvieron la piedra en 1801, tras la derrota francesa en Egipto, y llegó al Museo Británico en 1802. Los sabios compitieron durante dos décadas. El inglés Thomas Young identificó parte del texto demótico y reconoció el nombre de Ptolomeo dentro de un cartucho. Jean-François Champollion, que dominaba el copto, entendió que los signos funcionaban a la vez como imágenes y como sonidos, y lo anunció en su *Carta al señor Dacier* en septiembre de 1822.
 
-Hoy se sabe que, al girar una manivela lateral, el aparato mostraba la posición del Sol y de la Luna en el zodiaco, las fases lunares y la fecha de los eclipses. Un engranaje montado sobre otro reproducía incluso la velocidad variable de la Luna en el cielo. En la parte trasera, una esfera indicaba qué juegos panhelénicos tocaban cada año, entre ellos los de Olimpia.
+Con ese avance se abrió un archivo inmenso: templos, tumbas, papiros y cartas que habían sido mudos. La piedra es un fragmento: falta la parte alta del texto jeroglífico. Durante mucho tiempo se la describió como basalto, pero el análisis la identifica como granodiorita.
 
-Quedan preguntas abiertas: quién lo construyó, para quién, y si hubo otros. Se conservan 82 fragmentos, quizá un tercio del original, y la disposición de los planetas en la cara frontal sigue siendo una reconstrucción. Lo que nadie discute es lo que demuestra: que la tecnología griega llegó mucho más lejos de lo que sus textos dejaron escrito.
+Su destino sigue en disputa. Egipto reclama su devolución desde hace años, mientras el Museo Británico la conserva como una de sus piezas más visitadas y no la ha devuelto. Los historiadores debaten también cuánto debió Champollion a Young, una cuestión sobre la que no hay consenso.
 
-**Para saber más:** [Nature (2006)](https://www.nature.com/articles/nature05357) · [Scientific Reports (2021)](https://www.nature.com/articles/s41598-021-84310-w) · [Museo Arqueológico Nacional de Atenas](https://www.namuseum.gr/en/collection/klasiki-periodos-2/)
+**Para saber más:** [Wikipedia: Piedra de Rosetta](https://es.wikipedia.org/wiki/Piedra_de_Rosetta) · [Wikipedia: Jean-François Champollion](https://es.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Champollion)

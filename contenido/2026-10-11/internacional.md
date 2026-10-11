@@ -1,39 +1,20 @@
-## Un ataque contra el aeropuerto de Riad deja 12 muertos y más de 300 heridos
+## El huracán Isaias toca tierra en Florida y deja al menos cuatro muertos y cientos de miles de hogares sin luz
 
-*Riad, sábado 10 de octubre*
-
-<figure>
-  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Saudi%20Arabian%20Airlines%20SV%20B777%20aircraft%20tails%2C%20Riyadh%20King%20Khalid%20International%20Airport%2C%20Saudi%20Arabia%20-%2020081028.jpg?width=900" alt="Colas de aviones de Saudia en el aeropuerto Rey Jalid de Riad" loading="lazy">
-  <figcaption>Imagen de archivo: aviones de Saudia en el aeropuerto Rey Jalid de Riad, en 2008. Foto: Ned Russell, CC BY 2.0, vía Wikimedia Commons.</figcaption>
-</figure>
-
-El Aeropuerto Internacional Rey Jalid de Riad, el principal de la capital saudí, sufrió el sábado un ataque que dejó al menos 12 muertos y 309 heridos, varios de ellos en estado crítico, según el balance de la Autoridad General de Aviación Civil de Arabia Saudí. Las autoridades saudíes lo atribuyen a las milicias hutíes de Yemen.
-
-Entre los fallecidos hay cuatro ciudadanos saudíes, dos bangladesíes y un estadounidense, un egipcio, un jordano, un sirio, un palestino y un sudanés. Según *The Wall Street Journal*, la Terminal 3 fue evacuada tras recibir un impacto directo, y testigos citados por medios internacionales describieron varias detonaciones y columnas de humo. Los heridos fueron trasladados en ambulancias y helicópteros a hospitales de la ciudad.
-
-El aeropuerto suspendió temporalmente sus operaciones mientras se evalúan los daños. Kuwait Airways canceló vuelos a Riad, y Canadá, Alemania e Irlanda recomendaron a sus ciudadanos evitar la zona.
-
-Es el segundo ataque contra el mismo aeropuerto en pocos días: en el anterior murieron tres personas, entre ellas un piloto de la aerolínea Saudia. Según *El Financiero*, el presidente de Estados Unidos, Donald Trump, dijo que evalúa intervenir contra los hutíes. En el momento de publicarse estas informaciones, los hutíes no se habían pronunciado y no había confirmación independiente de las cifras oficiales.
-
-**Fuentes:** [The Objective](https://theobjective.com/internacional/2026-10-11/muertos-ataque-huties-aeropuerto-riad/) · [El Financiero](https://www.elfinanciero.com.mx/mundo/2026/10/10/ataque-al-aeropuerto-de-riad-deja-12-muertos-y-309-heridos-trump-evalua-intervenir-en-el-conflicto/) · [El Nacional](https://www.elnacional.com/2026/10/12-muertos-y-309-heridos-en-el-ataque-contra-el-aeropuerto-de-riad/)
-
----
-
-## El huracán Simón alcanza la categoría 4 frente a México mientras Isaías se disipa sobre Alabama
-
-*Manzanillo y Destin, sábado 10 de octubre*
+*Destin (Florida), sábado 10 de octubre*
 
 <figure>
-  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Hurricane%20Agatha%20over%20Mexico%20%28MODIS%202022-06-01%29.jpg?width=900" alt="Imagen de satélite de un huracán sobre la costa del Pacífico mexicano" loading="lazy">
-  <figcaption>Imagen de archivo: el huracán Agatha sobre el Pacífico mexicano en 2022, no Simón. Foto: MODIS Land Rapid Response Team, NASA GSFC, dominio público, vía Wikimedia Commons.</figcaption>
+  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/CBP%20AMO%20surveys%20the%20damage%20wrought%20by%20Hurricane%20Michael%20%2831378726378%29.jpg?width=1200" alt="Vista aérea de los daños del huracán Michael en el norte de Florida" loading="lazy">
+  <figcaption>Imagen de archivo: daños del huracán Michael en el norte de Florida en 2018; no corresponde a Isaias. Foto: CBP Photography, dominio público, vía Wikimedia Commons.</figcaption>
 </figure>
 
-Dos huracanes marcaron el sábado a ambos lados de Norteamérica. En el Pacífico, Simón se intensificó hasta la categoría 4, con vientos sostenidos de 240 km/h y rachas de 290 km/h, cuando se encontraba a unos 195 kilómetros al sur-suroeste de Manzanillo, en el estado mexicano de Colima, y avanzaba despacio hacia el norte.
+El huracán Isaias tocó tierra cerca de Destin, en el noroeste de Florida, a las 21:30 del viernes, hora local, como huracán de categoría 2 con vientos sostenidos de 169 km/h (105 mph), según el Centro Nacional de Huracanes citado por la prensa estadounidense. A primera hora del sábado se había debilitado hasta convertirse en ciclón postropical y avanzaba hacia el norte por Alabama.
 
-El Servicio Meteorológico Nacional de México pronosticó lluvias de más de 250 milímetros en Colima y precipitaciones torrenciales en zonas de Jalisco y Michoacán, con riesgo de deslaves, crecidas de ríos e inundaciones. La presidenta Claudia Sheinbaum pidió a quienes viven en zonas vulnerables que se trasladaran a refugios temporales, y el Ejército y la Marina activaron sus planes de emergencia en fase preventiva.
+El balance de víctimas varía según la fuente. WFTV contabiliza dos muertos por la caída de árboles sobre viviendas, uno en el condado de Escambia (Florida) y otro en Birmingham (Alabama). ABC News y The Washington Post hablan de al menos cuatro, dos en cada estado, según las autoridades. Las cifras pueden cambiar a medida que avancen las labores de rescate.
 
-En el Golfo de México, Isaías había tocado tierra la noche del viernes cerca de Destin, en Florida, con vientos de 165 km/h, equivalentes a categoría 2 según el Centro Nacional de Huracanes de Estados Unidos. El sábado ya era un ciclón postropical sobre Alabama, aunque seguía dejando lluvias intensas tierra adentro.
+Los cortes de luz son el principal daño. El sábado por la tarde, más de 420.000 clientes seguían sin electricidad en Florida, unos 130.000 de ellos en Escambia, y Alabama registraba unos 200.000, según WFTV. Según PowerOutage.us, citado por la prensa, en el conjunto del sureste había en torno a 700.000 abonados sin suministro por la tarde, frente a más de 900.000 por la mañana.
 
-Los balances de daños varían según la fuente y el momento. Telemundo cifra en al menos cuatro los muertos entre Florida y Alabama, y los cortes de electricidad afectaron a entre 860.000 y 900.000 hogares y comercios en su punto máximo.
+El temporal dejó una marejada ciclónica de unos 1,5 metros cerca de Panama City Beach y una emergencia por inundaciones repentinas en el sur del condado de Okaloosa, que incluye Destin y Fort Walton Beach. Los aeropuertos de Pensacola y de Destin-Fort Walton Beach cerraron al tráfico comercial, siete centros sanitarios evacuaron a 382 pacientes y se ordenó hervir el agua en el sistema de Escambia. Isaias es el primer huracán que golpea Florida desde Milton, hace dos años.
 
-**Fuentes:** [Directorio Cubano](https://www.directoriocubano.info/el-tiempo/huracan-simon-isaias-florida-octubre-2026/) · [Telemundo](https://www.telemundo.com/noticias/noticias-telemundo/desastres-naturales/live-blog/huracanes-tormentas-simon-isaias-rachel-lluvias-inundaciones-rcna602719) · [Milenio](https://www.milenio.com/el-clima/huracanes-simon-isaias-hoy-10-octubre-trayectoria-lluvias-en-vivo)
+Las autoridades todavía evalúan los daños y el tiempo que tardará en restablecerse la electricidad.
+
+**Fuentes:** [WFTV](https://www.wftv.com/news/local/live-updates-hurricane-isaias-weakened-post-tropical-cyclone-after-hitting-florida/TFHKTG6M5FG4NGPNM4TKANEVYE/) · [ABC News](https://abcnews.com/US/live-updates/hurricane-isaias-updates-isaias-strengthens-category-3/?id=137128637) · [The Washington Post](https://www.washingtonpost.com/weather/2026/10/10/isaias-makes-landfall-florida-leaving-hundreds-thousands-without-power/)

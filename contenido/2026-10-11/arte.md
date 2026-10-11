@@ -1,20 +1,20 @@
-## La gran ola de Kanagawa: la estampa de un anciano que cambió el arte occidental
+## Las Meninas: el cuadro de Velázquez en el que el pintor y el espectador cambian de sitio
 
-*Arte japonés, hacia 1831*
+*España, 1656*
 
 <figure>
-  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Tsunami%20by%20hokusai%2019th%20century.jpg?width=1200" alt="La gran ola de Kanagawa, estampa de Katsushika Hokusai" loading="lazy">
-  <figcaption>«La gran ola de Kanagawa», de Katsushika Hokusai, hacia 1831. Dominio público, vía Wikimedia Commons.</figcaption>
+  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Las%20Meninas%20%281656%29%2C%20by%20Velazquez.jpg?width=1200" alt="Las Meninas, óleo de Diego Velázquez" loading="lazy">
+  <figcaption>«Las Meninas», de Diego Velázquez, 1656. Museo del Prado, Madrid. Dominio público, vía Wikimedia Commons.</figcaption>
 </figure>
 
-Es una de las imágenes más reproducidas del mundo y mide poco más que un folio: unos 26 por 38 centímetros. Katsushika Hokusai la diseñó hacia 1831, cuando rondaba los setenta años, como parte de la serie *Treinta y seis vistas del monte Fuji*. No es un cuadro, sino una xilografía: un grabado en madera del que se imprimieron miles de copias que se vendían a un precio popular.
+Un lienzo de más de tres metros de alto, pintado en 1656 en el Real Alcázar de Madrid, plantea una pregunta que lleva siglos sin respuesta cerrada: ¿quién mira a quién? Diego de Velázquez, pintor de cámara de Felipe IV, se retrató a sí mismo ante un gran bastidor, con el pincel en una mano y la paleta en la otra, y miró hacia fuera del cuadro, hacia nosotros.
 
-La escena no representa un tsunami, como suele creerse, sino una gran ola en mar abierto. Bajo ella avanzan tres barcas rápidas de las que llevaban pescado fresco al mercado de Edo, la actual Tokio, con los remeros aferrados a la borda. Al fondo, diminuto, el monte Fuji: la ola lo empequeñece y la espuma que cae parece nieve sobre su cumbre.
+En el centro está la infanta Margarita Teresa, de cinco años, rodeada de sus meninas, las jóvenes de la corte que la atendían, identificadas como María Agustina Sarmiento e Isabel de Velasco. A la derecha, los enanos Maribárbola y Nicolasito Pertusato y un mastín que dormita bajo el pie del segundo. Al fondo, en una puerta abierta, el aposentador José Nieto observa la escena y, en la pared, un espejo refleja a dos figuras que no vemos de frente: el rey Felipe IV y su esposa, Mariana de Austria.
 
-Parte de su fuerza viene de un color nuevo. Hokusai utilizó el azul de Prusia, un pigmento sintético llegado de Europa que resistía la luz mucho mejor que los tintes tradicionales. También tomó de los grabados occidentales la perspectiva, con el horizonte bajo y la montaña alejada. La obra más famosa del arte japonés es, en realidad, una mezcla de dos tradiciones.
+Ese espejo es la clave. Según una lectura clásica, los reyes se encuentran donde estamos nosotros y la mirada de los personajes va hacia ellos; otra propone que el gran lienzo que pinta Velázquez es el propio retrato de los monarcas. Ambas explicaciones siguen vigentes, y por eso la composición funciona como una trampa: el espectador ocupa el lugar del rey sin haberlo pedido.
 
-El viaje de vuelta fue aún más influyente. Cuando Japón se abrió al comercio a mediados del siglo XIX, las estampas llegaron a Europa y fascinaron a los pintores: Van Gogh admiraba la ola en sus cartas y Debussy la eligió para la portada de la partitura de *La mer* en 1905. Aquella moda, el japonismo, ayudó a los impresionistas a romper con la perspectiva académica.
+La técnica es igual de sorprendente. Velázquez construyó el espacio con una pincelada suelta que, de cerca, se deshace en manchas y, a distancia, se convierte en encajes, cabellos y reflejos. Según el tratadista Palomino, que escribió en 1724, fue el propio rey quien mandó pintar después la cruz roja de Santiago en el pecho del pintor, tras concederle la orden en 1659; es una tradición que no se ha podido documentar.
 
-Hokusai, que firmó a lo largo de su vida con una treintena de nombres, escribió que nada de lo que había dibujado antes de los setenta años merecía atención, y que esperaba que a los ciento diez cada punto y cada línea cobrasen vida. Murió en 1849, cerca de los noventa.
+El cuadro permaneció en el Alcázar hasta que, tras el incendio de 1734, pasó a otras estancias reales, y entró en el Museo del Prado en 1819. Luca Giordano lo llamó «la teología de la pintura». Picasso pintó 58 variaciones suyas en 1957 y Michel Foucault abrió con él *Las palabras y las cosas*, en 1966.
 
-**Para saber más:** [Wikipedia: La gran ola de Kanagawa](https://es.wikipedia.org/wiki/La_gran_ola_de_Kanagawa) · [Wikipedia: Katsushika Hokusai](https://es.wikipedia.org/wiki/Katsushika_Hokusai)
+**Para saber más:** [Wikipedia: Las Meninas](https://es.wikipedia.org/wiki/Las_Meninas) · [Wikipedia: Diego Velázquez](https://es.wikipedia.org/wiki/Diego_Vel%C3%A1zquez)

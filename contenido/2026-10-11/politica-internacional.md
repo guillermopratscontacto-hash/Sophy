@@ -1,18 +1,20 @@
-## India blinda Nueva Delhi y detiene a miles de manifestantes que piden la dimisión del jefe electoral
+## Un ataque contra el aeropuerto de Riad mata a 12 personas y Trump estudia sumarse a la ofensiva saudí contra los hutíes
 
-*Nueva Delhi, sábado 10 de octubre*
+*Riad, sábado 10 de octubre*
 
 <figure>
-  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/The%20Electronic%20Digital%20Display%20Board%20at%20the%20office%20of%20the%20Election%20Commission%20of%20India%20displaying%20the%20results%20of%20General%20Election-2009%20for%20the%20public%2C%20at%20Nirvachan%20Sadan%2C%20in%20New%20Delhi%20on%20May%2016%2C%202009.jpg?width=900" alt="Sede de la Comisión Electoral de la India en Nueva Delhi" loading="lazy">
-  <figcaption>Imagen de archivo: la sede de la Comisión Electoral de la India en Nueva Delhi, en 2009. Foto: Election Commission of India, GODL-India, vía Wikimedia Commons.</figcaption>
+  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Domestic%20Departures%20Riyadh%20Airport.jpg?width=1200" alt="Zona de salidas nacionales de un aeropuerto de Riad" loading="lazy">
+  <figcaption>Imagen de archivo: zona de salidas nacionales de un aeropuerto de Riad, de fecha sin precisar; no corresponde al ataque. Foto: Kskhh, CC BY-SA 3.0, vía Wikimedia Commons.</figcaption>
 </figure>
 
-La policía india detuvo el sábado a un gran número de manifestantes en Nueva Delhi durante una protesta contra el comisionado electoral jefe, Gyanesh Kumar. Las cifras difieren mucho según la fuente: Reuters, que cita a un funcionario del Ministerio del Interior, habla de más de 2.000 detenidos, mientras que otros medios los cuentan por centenares.
+Un ataque contra el aeropuerto internacional Rey Jalid, en Riad, causó este sábado al menos 12 muertos y 309 heridos, algunos de ellos críticos, según las autoridades de aviación civil saudíes, citadas por NBC News y CBS News. Entre los fallecidos hay cuatro saudíes, dos bangladesíes y una persona de cada uno de estos países: Estados Unidos, Jordania, Palestina, Siria, Sudán y Egipto.
 
-La convocatoria partía del Cockroach Janta Party, un movimiento de protesta con fuerte presencia de jóvenes. Sus dirigentes, entre ellos el fundador Abhijeet Dipke, fueron detenidos al aterrizar en Delhi en un vuelo procedente de Bombay, según el propio grupo. También fueron arrestados periodistas, abogados y el diputado opositor John Brittas.
+La coalición liderada por Arabia Saudí atribuyó el ataque a los hutíes, el grupo yemení respaldado por Irán, y lo calificó de «crimen de guerra», recordando que el aeropuerto no tiene instalaciones militares. Según las cadenas estadounidenses, los hutíes no habían reivindicado este ataque en concreto, aunque sí otros anteriores contra el mismo aeropuerto esa semana, y acusaron a Riad de bombardear el aeropuerto de Saná el mismo día.
 
-Las autoridades prohibieron las reuniones de cinco o más personas en partes de la capital, suspendieron el internet móvil en el distrito financiero y cerraron decenas de estaciones de metro y mercados.
+El presidente Donald Trump dijo que Estados Unidos evalúa unirse a los ataques saudíes contra los rebeldes: «Quizá lo hagamos. Vamos a estudiarlo», según NBC y CBS, y añadió que hablaría con el príncipe heredero Mohamed bin Salmán. El secretario de Estado, Marco Rubio, confirmó la muerte de un ciudadano estadounidense y condenó los ataques. El enviado de la ONU para Yemen, Hans Grundberg, habló de una escalada peligrosa.
 
-El origen del conflicto es la revisión del censo electoral que lleva a cabo la Comisión Electoral. Sus críticos sostienen que el proceso ha eliminado más de 130 millones de nombres de las listas de votantes. Los convocantes han anunciado que volverán a manifestarse.
+El ataque llega tras una semana de escalada. Fuerzas yemeníes del Gobierno, con apoyo aéreo saudí, lanzaron el domingo anterior una ofensiva para recuperar territorio en la costa del mar Rojo, y los hutíes respondieron con misiles contra aeropuertos saudíes. Según la agencia AP, los ataques del miércoles mataron a tres personas en Abha y Riad. Las aerolíneas han suspendido vuelos: según FlightAware, citado por CBS, se cancelaron al menos 291 operaciones en Riad en 24 horas, y Lufthansa, Air India o flydubai figuran entre las compañías que han frenado su servicio.
 
-**Fuentes:** [ABC News Australia](https://www.abc.net.au/news/2026-10-11/cockroach-party-india-protesters-against-modi-vow-to-return/107252114) · [The Washington Times](https://www.washingtontimes.com/news/2026/oct/10/india-cracks-youth-protests-anger-grows-modi-election-chief/) · [The News](https://www.thenews.pk/story/1442393-india-detains-thousands-locks-down-delhi-to-crush-protest-against-election-chief)
+Queda por ver si Washington interviene y cómo responderá Riad. Las cifras de víctimas proceden de fuentes saudíes y no se han podido contrastar de forma independiente.
+
+**Fuentes:** [NBC News](https://www.nbcnews.com/world/middle-east/riyadh-airport-attacked-rcna602662) · [CBS News](https://www.cbsnews.com/news/riyadh-saudi-airport-attack-deaths-injuries/) · [Al Jazeera](https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured) · [OPB (AP)](https://www.opb.org/article/2026/10/11/attack-on-riyadh-airport-killed-12-people-and-wounded-over-300-more-saudi-authorities-say/)

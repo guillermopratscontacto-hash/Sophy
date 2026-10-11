@@ -56,58 +56,50 @@
   "entradas": [
     {
       "fecha": "2026-10-11",
-      "tema": "economia",
-      "titulo": "Trump pacta con Putin la compra de diésel ruso para frenar los precios antes de las elecciones",
-      "resumen": "Washington levanta parte de las sanciones para importar más de 4,8 millones de toneladas con el Brent en 104 dólares.",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Chemical%20Oil%20Products%20Tanker%20%27Stolt%20Petrel%27%20-%20North%20sea%20-%20Netherlands%20%2829132081475%29.jpg?width=1200",
-      "archivo": "contenido/2026-10-11/economia.md"
-    },
-    {
-      "fecha": "2026-10-11",
       "tema": "politica-espanola",
-      "titulo": "La vivienda y las encuestas marcan el arranque de la precampaña del 29 de noviembre",
-      "resumen": "Sánchez y Feijóo se lanzan a la calle a siete semanas de las generales, con los sondeos a favor del PP.",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Columnas%20y%20fachada%20del%20Congreso%20de%20los%20Diputados%20de%20Espa%C3%B1a.JPG?width=1200",
+      "titulo": "El Supremo tiene dos días para decidir si los nacionalizados por la ley de nietos votarán el 29 de noviembre",
+      "resumen": "La Fiscalía y el Gobierno piden levantar la suspensión cautelar; Vox e Iustitia Europa, mantenerla.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Madrid%20-%20Tribunal%20Supremo%20de%20Espa%C3%B1a%2001.jpg?width=1200",
       "archivo": "contenido/2026-10-11/politica-espanola.md"
     },
     {
       "fecha": "2026-10-11",
       "tema": "politica-internacional",
-      "titulo": "India blinda Nueva Delhi y detiene a miles de manifestantes que piden la dimisión del jefe electoral",
-      "resumen": "La protesta contra la revisión del censo electoral acaba con cortes de internet, metro cerrado y dirigentes arrestados.",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Electronic%20Digital%20Display%20Board%20at%20the%20office%20of%20the%20Election%20Commission%20of%20India%20displaying%20the%20results%20of%20General%20Election-2009%20for%20the%20public%2C%20at%20Nirvachan%20Sadan%2C%20in%20New%20Delhi%20on%20May%2016%2C%202009.jpg?width=1200",
+      "titulo": "Un ataque contra el aeropuerto de Riad mata a 12 personas y Trump estudia sumarse a la ofensiva saudí contra los hutíes",
+      "resumen": "Arabia Saudí cifra en 309 los heridos; la coalición culpa a los hutíes y Washington evalúa su respuesta.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Domestic%20Departures%20Riyadh%20Airport.jpg?width=1200",
       "archivo": "contenido/2026-10-11/politica-internacional.md"
     },
     {
       "fecha": "2026-10-11",
       "tema": "internacional",
-      "titulo": "Un ataque contra el aeropuerto de Riad deja 12 muertos y más de 300 heridos",
-      "resumen": "Además: el huracán Simón alcanza la categoría 4 frente a México mientras Isaías se disipa sobre Alabama.",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Hurricane%20Agatha%20over%20Mexico%20%28MODIS%202022-06-01%29.jpg?width=1200",
+      "titulo": "El huracán Isaias toca tierra en Florida y deja al menos cuatro muertos y cientos de miles de hogares sin luz",
+      "resumen": "Llegó cerca de Destin como categoría 2; las fuentes difieren en el balance de víctimas.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/CBP%20AMO%20surveys%20the%20damage%20wrought%20by%20Hurricane%20Michael%20%2831378726378%29.jpg?width=1200",
       "archivo": "contenido/2026-10-11/internacional.md"
     },
     {
       "fecha": "2026-10-11",
       "tema": "arte",
-      "titulo": "La gran ola de Kanagawa: la estampa de un anciano que cambió el arte occidental",
-      "resumen": "Hokusai la diseñó con setenta años, con un azul llegado de Europa. Medio siglo después fascinaba a Van Gogh y a Debussy.",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsunami%20by%20hokusai%2019th%20century.jpg?width=1200",
+      "titulo": "Las Meninas: el cuadro de Velázquez en el que el pintor y el espectador cambian de sitio",
+      "resumen": "Un lienzo de 1656 que sigue planteando quién mira a quién, con un espejo como clave.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Las%20Meninas%20%281656%29%2C%20by%20Velazquez.jpg?width=1200",
       "archivo": "contenido/2026-10-11/arte.md"
     },
     {
       "fecha": "2026-10-11",
       "tema": "historia",
-      "titulo": "El mecanismo de Anticitera: el ordenador de bronce que durmió dos mil años bajo el mar",
-      "resumen": "Treinta engranajes tallados a mano que predecían eclipses, y nada comparable durante los mil años siguientes.",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/NAMA%20Machine%20d%27Anticyth%C3%A8re%201.jpg?width=1200",
+      "titulo": "La piedra de Rosetta: el decreto olvidado que devolvió la voz al antiguo Egipto",
+      "resumen": "Un decreto de 196 a. C. en tres escrituras permitió a Champollion descifrar los jeroglíficos.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Rosetta%20Stone.JPG?width=1200",
       "archivo": "contenido/2026-10-11/historia.md"
     },
     {
       "fecha": "2026-10-11",
       "tema": "literatura",
-      "titulo": "Frankenstein: la novela que nació de un verano sin sol",
-      "resumen": "Mary Shelley tenía dieciocho años cuando un juego entre amigos, en una villa junto al lago de Ginebra, dio origen a la ciencia ficción.",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Frontispiece%20to%20Frankenstein%201831.jpg?width=1200",
+      "titulo": "Las mil y una noches: el libro sin autor que Europa descubrió gracias a un traductor francés",
+      "resumen": "Una colección anónima que creció durante siglos y que Galland llevó a Europa en 1704.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Marie-%C3%89l%C3%A9onore%20Godefroid%20-%20Scheherazade%20and%20Shahryar%20%28One%20Thousand%20and%20One%20Nights%29.jpg?width=1200",
       "archivo": "contenido/2026-10-11/literatura.md"
     }
   ]

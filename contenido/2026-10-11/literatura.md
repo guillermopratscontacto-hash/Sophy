@@ -1,20 +1,20 @@
-## Frankenstein: la novela que nació de un verano sin sol
+## Las mil y una noches: el libro sin autor que Europa descubrió gracias a un traductor francés
 
-*Lago de Ginebra, 1816*
+*Mundo árabe y Persia, siglos IX-XVIII*
 
 <figure>
-  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Frontispiece%20to%20Frankenstein%201831.jpg?width=1200" alt="Grabado de la edición de 1831 de Frankenstein: la criatura despierta ante su creador, que huye" loading="lazy">
-  <figcaption>Frontispicio de la edición de 1831 de «Frankenstein», grabado a partir de un dibujo de Theodor von Holst. Dominio público, vía Wikimedia Commons.</figcaption>
+  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Marie-%C3%89l%C3%A9onore%20Godefroid%20-%20Scheherazade%20and%20Shahryar%20%28One%20Thousand%20and%20One%20Nights%29.jpg?width=1200" alt="Sherezade y el sultán Shahriar, pintura de Marie-Éléonore Godefroid" loading="lazy">
+  <figcaption>Sherezade y Shahriar, pintura de Marie-Éléonore Godefroid (siglo XIX). Dominio público, vía Wikimedia Commons.</figcaption>
 </figure>
 
-En 1816 no hubo verano en Europa. La erupción del volcán Tambora, en Indonesia, había llenado la atmósfera de ceniza el año anterior, y sobre el lago de Ginebra llovió durante semanas. Encerrados en Villa Diodati, cinco jóvenes ingleses mataban el tiempo leyendo cuentos alemanes de fantasmas: el poeta Lord Byron, su médico John Polidori, el poeta Percy Shelley, Claire Clairmont y la pareja de Shelley, Mary Godwin, que tenía dieciocho años.
+Un rey que se venga de una traición matando cada mañana a la mujer con la que ha pasado la noche, y una joven, Sherezade, que se salva contando un cuento que deja sin terminar. Ese marco es la base de *Las mil y una noches*, una colección de relatos que no tiene un autor ni una fecha de nacimiento: creció durante siglos, de boca en boca y de copista en copista.
 
-Byron propuso un juego: que cada uno escribiera su propia historia de terror. Mary tardó días en dar con una idea. Llegó, según contó después, en una noche de insomnio, tras oír a Byron y a Shelley hablar de los experimentos que hacían contraerse con electricidad los músculos de animales muertos. Vio a un estudiante arrodillado junto al ser que había construido, y a ese ser abrir los ojos.
+Sus raíces se remontan a un libro persa perdido, el *Hazar afsan* («mil leyendas»), con ecos de cuentos indios. En el siglo X, el bibliógrafo bagdadí Ibn al-Nadim ya lo cita en su catálogo. El fragmento árabe más antiguo que se conserva, una hoja de papel del siglo IX, contiene apenas unas líneas del arranque. A partir de ahí, los manuscritos conocidos, en su mayoría sirios y egipcios, difieren en número de cuentos y en contenido.
 
-La novela se publicó el 1 de enero de 1818, en tres tomos, sin nombre de autor y con una tirada de apenas quinientos ejemplares. Muchos lectores la atribuyeron a Percy Shelley, que había escrito el prefacio. El nombre de Mary no apareció en la portada hasta la segunda edición, cinco años después.
+El gran salto lo dio Antoine Galland, orientalista francés, que publicó entre 1704 y 1717 una traducción en doce volúmenes. Fue un éxito inmediato en toda Europa. Galland incluyó cuentos que no figuran en ningún manuscrito árabe anterior, entre ellos *Aladino* y *Alí Babá*, que según su diario le dictó un narrador sirio llamado Hanna Diyab. Su origen exacto sigue debatiéndose entre los especialistas.
 
-El malentendido más famoso empieza en el título. Frankenstein no es el monstruo, sino Victor Frankenstein, el estudiante que lo crea y lo abandona nada más verlo. La criatura no tiene nombre, aprende sola a hablar y a leer, y solo se vuelve violenta tras ser rechazada por todos. El subtítulo, *El moderno Prometeo*, apunta al verdadero tema: la responsabilidad de quien crea algo que no sabe cuidar.
+Después llegaron más versiones, la inglesa de Richard Burton en 1885 con sus notas atrevidas, y adaptaciones infantiles que dejaron fuera lo más crudo. Jorge Luis Borges, que las leyó primero en inglés, las consideró una de las grandes lecturas de su vida y dedicó un ensayo a sus traductores. Muhsin Mahdi publicó en 1984 una edición crítica basada en el manuscrito sirio más antiguo, de los siglos XIV-XV.
 
-De aquel juego salieron dos mitos, porque Polidori escribió *El vampiro*, antecedente de Drácula. Pero fue el libro de Mary Shelley el que abrió un género: muchos críticos lo consideran la primera novela de ciencia ficción, porque el horror ya no viene de lo sobrenatural, sino de un laboratorio.
+Un detalle curioso: ese manuscrito, el más antiguo de los conocidos, solo llega a la noche 282. La cifra del título es una forma de decir «incontables», y la tradición posterior fue añadiendo cuentos hasta completar las mil y una. Lo que une a todos ellos es la idea de que contar puede salvar una vida.
 
-**Para saber más:** [Wikipedia: Frankenstein o el moderno Prometeo](https://es.wikipedia.org/wiki/Frankenstein_o_el_moderno_Prometeo)
+**Para saber más:** [Wikipedia: Las mil y una noches](https://es.wikipedia.org/wiki/Las_mil_y_una_noches) · [Wikipedia: Antoine Galland](https://es.wikipedia.org/wiki/Antoine_Galland)

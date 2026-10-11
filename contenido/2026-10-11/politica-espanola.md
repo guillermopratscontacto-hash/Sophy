@@ -1,18 +1,20 @@
-## La vivienda y las encuestas marcan el arranque de la precampaña del 29 de noviembre
+## El Supremo tiene dos días para decidir si los nacionalizados por la ley de nietos votarán el 29 de noviembre
 
 *Madrid, sábado 10 de octubre*
 
 <figure>
-  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Columnas%20y%20fachada%20del%20Congreso%20de%20los%20Diputados%20de%20Espa%C3%B1a.JPG?width=1200" alt="Columnas de la fachada del Congreso de los Diputados, en Madrid" loading="lazy">
-  <figcaption>Imagen de archivo: fachada del Congreso de los Diputados, en Madrid. Foto: Dilema, CC BY 3.0, vía Wikimedia Commons.</figcaption>
+  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Madrid%20-%20Tribunal%20Supremo%20de%20Espa%C3%B1a%2001.jpg?width=1200" alt="Fachada del Tribunal Supremo en Madrid" loading="lazy">
+  <figcaption>Imagen de archivo: sede del Tribunal Supremo, en Madrid. Foto: Zarateman, CC0, vía Wikimedia Commons.</figcaption>
 </figure>
 
-A siete semanas de las elecciones generales del 29 de noviembre, los partidos pasaron el sábado en la calle. El presidente del Gobierno, Pedro Sánchez, participó en un acto del PSOE en Dos Hermanas (Sevilla), mientras el líder del PP, Alberto Núñez Feijóo, apareció en Madrid junto a Isabel Díaz Ayuso y José Luis Martínez-Almeida.
+La Sala de lo Contencioso-Administrativo del Tribunal Supremo ha dado a las partes un plazo de dos días, que no admite prórroga, para presentar alegaciones antes de resolver si mantiene o levanta la suspensión cautelar de la llamada ley de nietos. Según Moncloa.com, que recoge información de Europa Press, el tribunal no descarta comunicar su decisión durante este fin de semana. De ella depende si los nuevos nacionalizados por esa norma podrán votar en las elecciones generales del 29 de noviembre.
 
-El PSOE intenta que la campaña gire en torno al acceso a la vivienda. El asunto ha ganado peso tras la caída en el Congreso de los decretos del Gobierno, la convocatoria de una huelga general y la muerte esta semana de una mujer desahuciada en Madrid.
+En septiembre, el Supremo suspendió de forma cautelar los efectos electorales de determinadas altas en el censo de residentes en el extranjero (CERA) vinculadas a la ley, y las nuevas inscripciones, salvo para quienes acrediten el exilio. La medida durará hasta que el tribunal resuelva sobre el fondo. Aquel auto no fue unánime: la magistrada María Alicia Millán discrepó al considerar que privaba del voto a un gran número de ciudadanos.
 
-Los sondeos publicados entre el viernes y el sábado sitúan al PP como primera fuerza y calculan que, sumado a Vox, podría acercarse a los 200 escaños o superarlos, según el resumen de *Periodista Digital*, que no identifica las casas encuestadoras. La mayoría absoluta del Congreso está en 176. Para limitar ese avance, los socialistas estudian candidaturas coordinadas de la izquierda al Senado.
+La Fiscalía y el Gobierno piden levantar la suspensión. La Fiscalía sostiene que el adelanto electoral altera la ponderación de intereses que llevó al tribunal a adoptarla y no solicita reabrir el censo. La Abogacía del Estado alega que es «materialmente imposible» distinguir antes del 29-N a quienes obtuvieron la nacionalidad por esta ley de quienes lo hicieron por otras vías. El ministro Félix Bolaños advirtió de que el censo quedaría distorsionado si la medida se mantiene.
 
-La izquierda alternativa sigue sin resolver si concurrirá unida: Podemos abrió sus primarias con Irene Montero como única aspirante. RTVE prepara hasta tres debates electorales, uno de ellos entre Sánchez y Feijóo, y el líder del PP ha puesto condiciones para participar.
+Iustitia Europa y Vox, que impugnaron la ley, piden mantener la suspensión y que se aplique a estos comicios; la primera ha pedido incluso detener las elecciones hasta aclarar el censo. Sostienen que el censo de referencia es el cerrado el 1 de agosto, anterior al auto. Según Moncloa.com, el CERA pasó de 2.328.260 electores en 2023 a 2.736.522 el 1 de julio de 2026.
 
-**Fuentes:** [Periodista Digital](https://www.periodistadigital.com/periodismo/20261010/10-temas-marcan-politica-periodismo-espana-sabado-10-octubre-2026-noticia-689405255545/) · [EFE, vía Infobae](https://www.infobae.com/espana/agencias/2026/10/09/temas-del-dia-de-efe-espana-del-sabado-10-de-octubre-de-2026/) · [El Español](https://www.elespanol.com/espana/politica/20261002/ultima-hora-politica-directo-sanchez-promete-no-dar-paso-vivienda-asegura-pp-vox-junts-retrataran-generaciones-enteras/1003744405755_10.html)
+Las cifras sobre cuántas personas podrían verse afectadas varían según la fuente y el titular, y no figuran en documentos judiciales públicos, por lo que este resumen no da una cifra concreta. Queda abierto el fondo del asunto: la decisión de estos días resolverá solo la cautelar.
+
+**Fuentes:** [Moncloa.com](https://www.moncloa.com/2026/10/10/ley-nietos-voto-nacionalizados-supremo-3445839) · [Qué!](https://www.que.es/2026/10/09/ley-de-nietos-fiscalia-supremo/) · [Euronews](https://es.euronews.com/2026/10/06/supremo-debe-aclarar-contrarreloj-si-los-nuevos-nacionalizados-por-ley-nietos-votaran-29n)

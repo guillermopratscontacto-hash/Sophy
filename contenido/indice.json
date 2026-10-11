@@ -4,18 +4,54 @@
       "id": "news",
       "nombre": "News",
       "subsecciones": [
-        { "id": "economia", "nombre": "Economía" },
-        { "id": "politica-espanola", "nombre": "Política Española" },
-        { "id": "politica-internacional", "nombre": "Política Internacional" },
-        { "id": "internacional", "nombre": "Internacional" },
-        { "id": "arte", "nombre": "Arte" },
-        { "id": "historia", "nombre": "Historia" }
+        {
+          "id": "economia",
+          "nombre": "Economía"
+        },
+        {
+          "id": "politica-espanola",
+          "nombre": "Política Española"
+        },
+        {
+          "id": "politica-internacional",
+          "nombre": "Política Internacional"
+        },
+        {
+          "id": "internacional",
+          "nombre": "Internacional"
+        }
       ]
     },
-    { "id": "ejemplo-1", "nombre": "Ejemplo 1" },
-    { "id": "ejemplo-2", "nombre": "Ejemplo 2" },
-    { "id": "ejemplo-3", "nombre": "Ejemplo 3" },
-    { "id": "ejemplo-4", "nombre": "Ejemplo 4" }
+    {
+      "id": "cultura",
+      "nombre": "Cultura",
+      "subsecciones": [
+        {
+          "id": "arte",
+          "nombre": "Arte"
+        },
+        {
+          "id": "historia",
+          "nombre": "Historia"
+        },
+        {
+          "id": "literatura",
+          "nombre": "Literatura"
+        }
+      ]
+    },
+    {
+      "id": "ejemplo-2",
+      "nombre": "Ejemplo 2"
+    },
+    {
+      "id": "ejemplo-3",
+      "nombre": "Ejemplo 3"
+    },
+    {
+      "id": "ejemplo-4",
+      "nombre": "Ejemplo 4"
+    }
   ],
   "entradas": [
     {
@@ -65,6 +101,14 @@
       "resumen": "Treinta engranajes tallados a mano que predecían eclipses, y nada comparable durante los mil años siguientes.",
       "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/NAMA%20Machine%20d%27Anticyth%C3%A8re%201.jpg?width=1200",
       "archivo": "contenido/2026-10-11/historia.md"
+    },
+    {
+      "fecha": "2026-10-11",
+      "tema": "literatura",
+      "titulo": "Frankenstein: la novela que nació de un verano sin sol",
+      "resumen": "Mary Shelley tenía dieciocho años cuando un juego entre amigos, en una villa junto al lago de Ginebra, dio origen a la ciencia ficción.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Frontispiece%20to%20Frankenstein%201831.jpg?width=1200",
+      "archivo": "contenido/2026-10-11/literatura.md"
     }
   ]
 }

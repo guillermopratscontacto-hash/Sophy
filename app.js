@@ -142,17 +142,37 @@ if (typeof document !== "undefined") (function () {
     );
   }
 
+  let cerrarDesplegable = false; // tras elegir una opción, el desplegable se cierra hasta que el ratón salga
+
   function pintarSecciones(activa) {
+    const hoy = fechaLocal();
     const raiz = temaDe(activa).padre || activa;
     $secciones.innerHTML = indice.temas
-      .map((t) => `<a href="#/seccion/${enc(t.id)}"${t.id === raiz ? ' class="activa" aria-current="page"' : ""}>${esc(t.nombre)}</a>`)
+      .map((t) => {
+        const enlace = `<a class="sec${t.id === raiz ? " activa" : ""}" href="#/seccion/${enc(t.id)}"${t.id === raiz ? ' aria-current="page"' : ""}>${esc(t.nombre)}</a>`;
+        if (!t.subsecciones) return enlace;
+        const opciones = t.subsecciones
+          .map((sub) => `<a href="#/seccion/${enc(sub.id)}"${sub.id === activa ? ' class="actual"' : ""}>${esc(sub.nombre)}${rachaSeccion(sub.id, hoy)}</a>`)
+          .join("");
+        return `<div class="seccion-grupo${cerrarDesplegable ? " cerrado" : ""}">${enlace}<div class="desplegable">${opciones}</div></div>`;
+      })
       .join("");
+    cerrarDesplegable = false;
+    for (const grupo of $secciones.querySelectorAll(".seccion-grupo")) {
+      grupo.addEventListener("pointerleave", () => grupo.classList.remove("cerrado"));
+    }
     const actual = $secciones.querySelector(".activa");
     if (actual) actual.scrollIntoView({ block: "nearest", inline: "center" });
-    for (const a of $menu.querySelectorAll(".menu-enlaces a")) {
-      a.classList.toggle("activa", a.getAttribute("href") === `#/${activa}`);
+    for (const enlace of $menu.querySelectorAll(".menu-enlaces a")) {
+      enlace.classList.toggle("activa", enlace.getAttribute("href") === `#/${activa}`);
     }
   }
+
+  $secciones.addEventListener("click", (e) => {
+    if (!e.target.closest(".seccion-grupo a")) return;
+    cerrarDesplegable = true;
+    if (document.activeElement) document.activeElement.blur();
+  });
 
   function abrirMenu(abrir) {
     document.body.classList.toggle("menu-abierto", abrir);
@@ -364,24 +384,27 @@ if (typeof document !== "undefined") (function () {
     const hoy = fechaLocal();
     const tema = temaDe(id);
 
-    // Sección con subsecciones (News): la última edición y el acceso a cada una.
+    // Sección con subsecciones (News, Cultura): todo lo publicado, en un listado por días.
     if (tema.subsecciones) {
-      const ids = tema.subsecciones.map((s) => s.id);
-      const entradas = recientes(indice.entradas.filter((e) => ids.includes(e.tema)));
-      const ultima = entradas.length ? entradas[0].fecha : null;
-      const edicion = entradas.filter((e) => e.fecha === ultima).sort((a, b) => ids.indexOf(a.tema) - ids.indexOf(b.tema));
-      const anteriores = entradas.filter((e) => e.fecha !== ultima).slice(0, 12);
+      const ids = tema.subsecciones.map((sub) => sub.id);
+      const entradas = indice.entradas.filter((e) => ids.includes(e.tema));
+      const fechas = [...new Set(entradas.map((e) => e.fecha))].sort().reverse().slice(0, 30);
+      const listado = fechas
+        .map((f) => {
+          const delDia = entradas.filter((e) => e.fecha === f).sort((x, y) => ids.indexOf(x.tema) - ids.indexOf(y.tema));
+          return `<h2 class="rotulo">${f === hoy ? "Hoy" : esc(fechaLarga(f))}</h2>
+            <ul class="listado">${delDia.map((e, i) => pieza(e, i, false)).join("")}</ul>`;
+        })
+        .join("");
       $vista.innerHTML = `
         <section data-reveal>
-          <span class="antetitulo">${ultima ? esc(fechaLarga(ultima)) : "Sección"}</span>
+          <span class="antetitulo">Sección</span>
           <h1 class="titular-xl">${esc(tema.nombre)}</h1>
         </section>
         <nav class="subsecciones" aria-label="Secciones de ${esc(tema.nombre)}" data-reveal>
-          ${tema.subsecciones.map((s) => `<a href="#/seccion/${enc(s.id)}">${esc(s.nombre)}${rachaSeccion(s.id, hoy)}</a>`).join("")}
+          ${tema.subsecciones.map((sub) => `<a href="#/seccion/${enc(sub.id)}">${esc(sub.nombre)}${rachaSeccion(sub.id, hoy)}</a>`).join("")}
         </nav>
-        <h2 class="rotulo">${ultima === hoy ? "La edición de hoy" : "Lo último publicado"}</h2>
-        ${edicion.length ? piezas(edicion, true) : vacio("Próximamente", "Aquí aparecerá el contenido de esta sección, día a día.")}
-        ${anteriores.length ? `<h2 class="rotulo">Ediciones anteriores</h2>${piezas(anteriores, false)}` : ""}`;
+        ${listado || `<div style="margin-top:44px">${vacio("Próximamente", "Aquí aparecerá el contenido de esta sección, día a día.")}</div>`}`;
       return;
     }
 

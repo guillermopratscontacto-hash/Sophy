@@ -1,6 +1,6 @@
 # Edición diaria de Sophy
 
-Instrucciones para el agente que publica la edición de cada mañana. Sophy es una web estática (GitHub Pages) que lee `contenido/indice.json` y los archivos Markdown que ese índice enumera. Tu trabajo es añadir la edición de hoy: seis piezas, una por sección. No toques nada más.
+Instrucciones para el agente que publica la edición de cada mañana. Sophy es una web estática (GitHub Pages) que lee `contenido/indice.json` y los archivos Markdown que ese índice enumera. Tu trabajo es añadir la edición de hoy: siete piezas, una por sección. No toques nada más.
 
 ## Qué publicar
 
@@ -14,8 +14,11 @@ Usa la fecha de hoy en la zona horaria Europe/Madrid (`HOY`, formato `AAAA-MM-DD
 | `internacional` | Sucesos generales de ayer en el mundo: catástrofes, accidentes, ciencia, sociedad. Puede llevar dos noticias. |
 | `arte` | Un reportaje atemporal sobre una obra, un artista, un movimiento o una técnica, al estilo de National Geographic. |
 | `historia` | Un reportaje atemporal sobre un episodio, un objeto, un personaje o una civilización, al estilo de National Geographic. |
+| `literatura` | Un reportaje atemporal sobre un libro, un autor, un género o un movimiento literario, con el mismo estilo. |
 
-Antes de elegir tema para `arte` e `historia`, lee los títulos ya publicados de esa sección en `contenido/indice.json` y no repitas ninguno. Varía de época, región y disciplina respecto a las últimas ediciones. En las secciones de actualidad, si una historia continúa de un día anterior, cuenta solo lo nuevo.
+Las cuatro primeras forman la sección News de la web; las tres últimas, la sección Cultura.
+
+Antes de elegir tema para `arte`, `historia` y `literatura`, lee los títulos ya publicados de esa sección en `contenido/indice.json` y no repitas ninguno. Varía de época, región y disciplina respecto a las últimas ediciones. En las secciones de actualidad, si una historia continúa de un día anterior, cuenta solo lo nuevo.
 
 Si ya existe la carpeta `contenido/HOY/`, la edición está publicada: no hagas nada.
 
@@ -26,13 +29,13 @@ Si ya existe la carpeta `contenido/HOY/`, la edición está publicada: no hagas 
 - Si las fuentes dan cifras distintas, dilo en el texto y atribuye cada cifra; no elijas una en silencio.
 - Distingue hechos de declaraciones: lo que afirma un partido o un gobierno se atribuye («según…»).
 - En política, tono neutral: sin adjetivos valorativos y con la posición de las partes enfrentadas.
-- Para `arte` e `historia`, limítate a hechos bien establecidos y señala lo que sigue en debate.
+- Para `arte`, `historia` y `literatura`, limítate a hechos bien establecidos y señala lo que sigue en debate.
 - No inventes datos, citas ni enlaces. Si no puedes verificar algo, déjalo fuera.
 
 ## Cómo escribir
 
 - En español de España, con tus propias palabras. Nunca copies párrafos de un medio: resume, ordena y enlaza las fuentes.
-- Noticias: 4 o 5 párrafos (250–350 palabras). Reportajes de arte e historia: 5 o 6 párrafos (350–450 palabras).
+- Noticias: 4 o 5 párrafos (250–350 palabras). Reportajes de arte, historia y literatura: 5 o 6 párrafos (350–450 palabras).
 - El primer párrafo cuenta lo esencial; los siguientes, el contexto y lo que queda abierto.
 - Titular informativo de una frase, sin punto final ni dos puntos de adorno.
 
@@ -73,7 +76,7 @@ Más párrafos.
 
 ## Índice
 
-Añade seis objetos al **principio** de `entradas` en `contenido/indice.json`, en el orden de la tabla:
+Añade siete objetos al **principio** de `entradas` en `contenido/indice.json`, en el orden de la tabla:
 
 ```json
 {
@@ -91,6 +94,6 @@ No modifiques `temas` ni las entradas anteriores.
 ## Reglas
 
 - Solo puedes crear archivos en `contenido/HOY/` y añadir entradas a `contenido/indice.json`. No edites ni borres ediciones anteriores, ni el código de la web (`index.html`, `app.js`, `styles.css`, `config.js`, `supabase/`).
-- Antes de publicar, comprueba que `contenido/indice.json` es JSON válido, que los seis archivos existen y que cada `archivo` del índice apunta a uno real.
+- Antes de publicar, comprueba que `contenido/indice.json` es JSON válido, que los siete archivos existen y que cada `archivo` del índice apunta a uno real.
 - Publica con un único commit en la rama `main`, con el mensaje `Edición del HOY`, y haz push. GitHub Pages actualiza la web solo.
 - Si una sección no puede completarse con garantías, publica las demás y explica en el mensaje del commit cuál falta y por qué. Es preferible una sección menos que una noticia sin verificar.

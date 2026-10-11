@@ -130,7 +130,7 @@ button, input { font: inherit; color: inherit; }
 }
 .secciones::-webkit-scrollbar { display: none; }
 
-.secciones a {
+.secciones .sec {
   position: relative;
   flex: none;
   display: inline-flex;
@@ -144,7 +144,7 @@ button, input { font: inherit; color: inherit; }
   color: var(--tinta);
   transition: color 0.35s var(--ease), transform 0.45s var(--ease-salida);
 }
-.secciones a::after {
+.secciones .sec::after {
   content: "";
   position: absolute;
   left: 12px;
@@ -155,11 +155,61 @@ button, input { font: inherit; color: inherit; }
   transform: scaleX(0);
   transition: transform 0.45s var(--ease-salida);
 }
-.secciones a:hover { color: var(--rojo); transform: scale(1.08); }
-.secciones a:hover::after,
-.secciones a.activa::after { transform: scaleX(1); }
-.secciones a.activa { color: var(--rojo); }
-.secciones a:active { transform: scale(0.98); }
+.secciones .sec:hover { color: var(--rojo); transform: scale(1.08); }
+.secciones .sec:hover::after,
+.secciones .sec.activa::after { transform: scaleX(1); }
+.secciones .sec.activa { color: var(--rojo); }
+.secciones .sec:active { transform: scale(0.98); }
+
+/* Desplegable de subsecciones: solo con ratón y en pantallas anchas. En el resto,
+   las subsecciones se muestran dentro de la página de la sección. */
+.seccion-grupo { position: relative; flex: none; display: flex; }
+.desplegable { display: none; }
+
+@media (min-width: 900px) and (hover: hover) {
+  .desplegable {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    display: grid;
+    min-width: 270px;
+    padding: 10px;
+    border: 1px solid var(--linea);
+    border-radius: 14px;
+    background: var(--blanco);
+    box-shadow: var(--sombra);
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-50%, -8px);
+    transition: opacity 0.3s var(--ease), transform 0.5s var(--ease-salida), visibility 0s linear 0.3s;
+  }
+  .seccion-grupo:hover .desplegable,
+  .seccion-grupo:focus-within .desplegable {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, 0);
+    transition-delay: 0s;
+  }
+  .seccion-grupo.cerrado .desplegable { opacity: 0; visibility: hidden; }
+
+  .desplegable a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 28px;
+    min-height: 46px;
+    padding: 0 14px;
+    border-radius: 10px;
+    font: 500 0.95rem/1 var(--sans);
+    text-decoration: none;
+    white-space: nowrap;
+    transition: color 0.35s var(--ease), background-color 0.35s var(--ease), padding 0.45s var(--ease-salida);
+  }
+  .desplegable a:hover { color: var(--rojo); background: var(--papel); padding-left: 22px; }
+  .desplegable a.actual { color: var(--rojo); }
+
+  .vista .subsecciones { display: none; }
+}
 
 .cabecera-acciones { grid-area: acciones; display: flex; align-items: center; gap: 6px; }
 
@@ -475,6 +525,25 @@ button, input { font: inherit; color: inherit; }
   .pieza.destacada .pieza-titulo { font-size: clamp(2.4rem, 3vw, 3.4rem); line-height: 1.1; }
   .pieza.destacada .pieza-foto { aspect-ratio: 16 / 9; }
   .pieza.destacada .pieza-resumen { font-size: 1.12rem; }
+}
+
+/* Listado: una pieza por fila, con miniatura */
+.listado { list-style: none; margin: 0; padding: 0; }
+.listado .pieza {
+  flex-direction: row;
+  align-items: center;
+  gap: clamp(16px, 3vw, 40px);
+  padding: 26px 0;
+  border-bottom: 1px solid var(--linea);
+}
+.listado .pieza:hover { transform: translateX(8px); }
+.listado .pieza-foto { flex: none; width: clamp(104px, 24vw, 340px); }
+.listado .pieza-texto { flex: 1; min-width: 0; }
+.listado .pieza.sin-imagen .pieza-texto { padding-top: 0; border-top: 0; }
+.listado .pieza-titulo { font-size: clamp(1.15rem, 2.4vw, 2.1rem); line-height: 1.15; }
+.listado .pieza-resumen { max-width: 760px; }
+@media (max-width: 599px) {
+  .listado .pieza-resumen { display: none; }
 }
 
 /* ---------- Lectura ---------- */

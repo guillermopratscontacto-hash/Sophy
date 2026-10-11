@@ -116,7 +116,11 @@ if (typeof document !== "undefined") (function () {
     aFecha(texto).toLocaleDateString("es-ES", { weekday: "long", day: "numeric", month: "long" });
   const fechaCorta = (texto) => aFecha(texto).toLocaleDateString("es-ES", { day: "numeric", month: "long", year: "numeric" });
 
-  const nombreTema = (id) => (indice.temas.find((t) => t.id === id) || { nombre: id }).nombre;
+  // Secciones finales (las que tienen contenido), con su sección madre si la hay.
+  const hojas = () => indice.temas.flatMap((t) => (t.subsecciones ? t.subsecciones.map((s) => ({ ...s, padre: t.id })) : [t]));
+  const temaDe = (id) => hojas().find((t) => t.id === id) || indice.temas.find((t) => t.id === id) || { id, nombre: id };
+  const nombreTema = (id) => temaDe(id).nombre;
+  const diasDe = (tema) => new Set(progreso.filter((p) => p.tema === tema).map((p) => p.dia));
   const registroDe = (e) => progreso.find((p) => p.fecha === e.fecha && p.tema === e.tema);
   const estaHecha = (e) => Boolean(registroDe(e));
   const diasHechos = () => new Set(progreso.map((p) => p.dia));
@@ -139,8 +143,9 @@ if (typeof document !== "undefined") (function () {
   }
 
   function pintarSecciones(activa) {
+    const raiz = temaDe(activa).padre || activa;
     $secciones.innerHTML = indice.temas
-      .map((t) => `<a href="#/seccion/${enc(t.id)}"${t.id === activa ? ' class="activa" aria-current="page"' : ""}>${esc(t.nombre)}</a>`)
+      .map((t) => `<a href="#/seccion/${enc(t.id)}"${t.id === raiz ? ' class="activa" aria-current="page"' : ""}>${esc(t.nombre)}</a>`)
       .join("");
     const actual = $secciones.querySelector(".activa");
     if (actual) actual.scrollIntoView({ block: "nearest", inline: "center" });
@@ -334,7 +339,8 @@ if (typeof document !== "undefined") (function () {
 
     const todas = recientes(indice.entradas);
     const ultima = todas.length ? todas[0].fecha : null;
-    const edicion = todas.filter((e) => e.fecha === ultima);
+    const orden = hojas().map((t) => t.id);
+    const edicion = todas.filter((e) => e.fecha === ultima).sort((a, b) => orden.indexOf(a.tema) - orden.indexOf(b.tema));
     const pendientes = todas.filter((e) => e.fecha !== ultima && !estaHecha(e)).slice(0, 6);
 
     $vista.innerHTML = `
@@ -348,20 +354,93 @@ if (typeof document !== "undefined") (function () {
       ${pendientes.length ? `<h2 class="rotulo">Pendiente de días anteriores</h2>${piezas(pendientes, false)}` : ""}`;
   }
 
+  const rachaSeccion = (id, hoy) => {
+    const dias = diasDe(id);
+    return `<span class="racha-seccion${dias.has(hoy) ? " encendida" : ""}">${ICONO.llama}${calcularRacha(dias, hoy)}</span>`;
+  };
+
   function vistaSeccion(id) {
     pintarSecciones(id);
+    const hoy = fechaLocal();
+    const tema = temaDe(id);
+
+    // Sección con subsecciones (News): la última edición y el acceso a cada una.
+    if (tema.subsecciones) {
+      const ids = tema.subsecciones.map((s) => s.id);
+      const entradas = recientes(indice.entradas.filter((e) => ids.includes(e.tema)));
+      const ultima = entradas.length ? entradas[0].fecha : null;
+      const edicion = entradas.filter((e) => e.fecha === ultima).sort((a, b) => ids.indexOf(a.tema) - ids.indexOf(b.tema));
+      const anteriores = entradas.filter((e) => e.fecha !== ultima).slice(0, 12);
+      $vista.innerHTML = `
+        <section data-reveal>
+          <span class="antetitulo">${ultima ? esc(fechaLarga(ultima)) : "Sección"}</span>
+          <h1 class="titular-xl">${esc(tema.nombre)}</h1>
+        </section>
+        <nav class="subsecciones" aria-label="Secciones de ${esc(tema.nombre)}" data-reveal>
+          ${tema.subsecciones.map((s) => `<a href="#/seccion/${enc(s.id)}">${esc(s.nombre)}${rachaSeccion(s.id, hoy)}</a>`).join("")}
+        </nav>
+        <h2 class="rotulo">${ultima === hoy ? "La edición de hoy" : "Lo último publicado"}</h2>
+        ${edicion.length ? piezas(edicion, true) : vacio("Próximamente", "Aquí aparecerá el contenido de esta sección, día a día.")}
+        ${anteriores.length ? `<h2 class="rotulo">Ediciones anteriores</h2>${piezas(anteriores, false)}` : ""}`;
+      return;
+    }
+
     const entradas = recientes(indice.entradas.filter((e) => e.tema === id));
     const hechas = entradas.filter(estaHecha).length;
+    const dias = diasDe(id);
+    const n = calcularRacha(dias, hoy);
+    const resumen = !entradas.length
+      ? "Esta sección todavía está en preparación."
+      : `Racha en esta sección: ${plural(n, "día", "días")}${dias.has(hoy) ? ", y hoy ya cuenta" : ""}. Has completado ${hechas} de ${plural(entradas.length, "edición", "ediciones")}.`;
     $vista.innerHTML = `
       <section data-reveal>
-        <span class="antetitulo">Sección</span>
-        <h1 class="titular-xl">${esc(nombreTema(id))}</h1>
-        <p class="entradilla">${
-          entradas.length ? `${hechas} de ${plural(entradas.length, "edición completada", "ediciones completadas")}.` : "Esta sección todavía está en preparación."
-        }</p>
+        ${
+          tema.padre
+            ? `<a class="volver" href="#/seccion/${enc(tema.padre)}">${ICONO.atras} ${esc(nombreTema(tema.padre))}</a>`
+            : '<span class="antetitulo">Sección</span>'
+        }
+        <h1 class="titular-xl">${esc(tema.nombre)}</h1>
+        <p class="entradilla">${esc(resumen)}</p>
       </section>
       <h2 class="rotulo">Biblioteca</h2>
       ${entradas.length ? piezas(entradas, true) : vacio("Próximamente", "Aquí aparecerá el contenido de esta sección, día a día.")}`;
+  }
+
+  // Reparte cada artículo en cabecera, imagen y texto para poder maquetarlo a dos columnas.
+  function maquetar($articulo) {
+    const grupos = [[]];
+    for (const nodo of [...$articulo.children]) {
+      if (nodo.tagName === "HR") grupos.push([]);
+      else grupos[grupos.length - 1].push(nodo);
+    }
+    $articulo.textContent = "";
+    const crear = (etiqueta, clase) => Object.assign(document.createElement(etiqueta), { className: clase });
+    for (const grupo of grupos) {
+      if (!grupo.length) continue;
+      const cabecera = crear("header", "noticia-cabecera");
+      const foto = crear("div", "noticia-foto");
+      const texto = crear("div", "noticia-texto");
+      let enCabecera = true;
+      for (const nodo of grupo) {
+        const em = nodo.tagName === "P" && nodo.children.length === 1 ? nodo.firstElementChild : null;
+        const esData = Boolean(em) && em.tagName === "EM" && nodo.textContent.trim() === em.textContent.trim();
+        if (nodo.tagName === "FIGURE") {
+          foto.append(nodo);
+          enCabecera = false;
+        } else if (enCabecera && (nodo.tagName === "H2" || esData)) {
+          cabecera.append(nodo);
+        } else {
+          enCabecera = false;
+          texto.append(nodo);
+        }
+      }
+      const cuerpo = crear("div", foto.children.length ? "noticia-cuerpo" : "noticia-cuerpo sin-foto");
+      if (foto.children.length) cuerpo.append(foto);
+      cuerpo.append(texto);
+      const noticia = crear("section", "noticia");
+      noticia.append(cabecera, cuerpo);
+      $articulo.append(noticia);
+    }
   }
 
   async function vistaLeer(fecha, tema, vigente) {
@@ -385,17 +464,27 @@ if (typeof document !== "undefined") (function () {
     $vista.innerHTML = `
       <div class="lectura">
         <a class="volver" href="#/seccion/${enc(tema)}">${ICONO.atras} ${esc(nombreTema(tema))}</a>
-        <h1 class="titular">${esc(entrada.titulo)}</h1>
         <p class="lectura-fecha">${esc(fechaLarga(fecha))}</p>
         <article class="articulo">${window.marked.parse(texto)}</article>
         <div id="fin" class="fin"></div>
+        <div id="siguiente" class="siguiente"></div>
       </div>`;
+    maquetar($vista.querySelector(".articulo"));
     leyendo = true;
 
     const $fin = $("fin");
     const marcarHecha = () => {
+      const n = calcularRacha(diasDe(tema), fechaLocal());
       $fin.classList.add("hecho");
-      $fin.innerHTML = `${ICONO.hecho} Sección completada`;
+      $fin.innerHTML = `${ICONO.hecho} Sección completada · Racha en ${esc(nombreTema(tema))}: ${plural(n, "día", "días")}`;
+      // Enlace a la siguiente pieza sin completar de la misma edición.
+      const orden = hojas().map((t) => t.id);
+      const resto = indice.entradas
+        .filter((e) => e.fecha === fecha && !estaHecha(e))
+        .sort((a, b) => orden.indexOf(a.tema) - orden.indexOf(b.tema));
+      $("siguiente").innerHTML = resto.length
+        ? `<a class="boton" href="#/leer/${resto[0].fecha}/${enc(resto[0].tema)}">Siguiente: ${esc(nombreTema(resto[0].tema))}</a>`
+        : '<a class="boton linea" href="#/">Edición completada · Volver al inicio</a>';
     };
     if (estaHecha(entrada)) {
       marcarHecha();
@@ -421,6 +510,7 @@ if (typeof document !== "undefined") (function () {
           progreso = progreso.filter((p) => p !== registro);
           pintarRacha();
           $fin.classList.remove("hecho");
+          $("siguiente").textContent = "";
           $fin.textContent = "No se ha podido guardar el progreso. Recarga la página para reintentarlo.";
         }
       }, SEGUNDOS_AL_FINAL * 1000);
@@ -461,12 +551,27 @@ if (typeof document !== "undefined") (function () {
           .join("")}</ul>`
       : vacio("Aún no hay nada aquí", "Las secciones que completes aparecerán en este registro.");
 
+    const conContenido = hojas().filter((t) => indice.entradas.some((e) => e.tema === t.id));
+    const porSeccion = conContenido.length
+      ? `<h2 class="rotulo">Racha por sección</h2>
+         <ul class="registro">${conContenido
+           .map((t, i) => {
+             const d = diasDe(t.id);
+             return `<li data-reveal style="--i:${Math.min(i, 6)}"><a href="#/seccion/${enc(t.id)}">
+               <b>${esc(t.nombre)}</b>
+               <span class="fila">${rachaSeccion(t.id, hoy)} mejor racha: ${plural(mejorRacha(d), "día", "días")} · ${plural(d.size, "día activo", "días activos")}</span>
+             </a></li>`;
+           })
+           .join("")}</ul>`
+      : "";
+
     $vista.innerHTML = `
       <section data-reveal>
         <span class="antetitulo">Tu recorrido</span>
         <h1 class="titular-xl">Historial</h1>
       </section>
       ${cifras()}
+      ${porSeccion}
       <h2 class="rotulo">Últimas cinco semanas</h2>
       <div class="calendario" data-reveal>${celdas}</div>
       <h2 class="rotulo">Secciones completadas</h2>

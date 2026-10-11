@@ -1,6 +1,17 @@
 {
   "temas": [
-    { "id": "news", "nombre": "News" },
+    {
+      "id": "news",
+      "nombre": "News",
+      "subsecciones": [
+        { "id": "economia", "nombre": "Economía" },
+        { "id": "politica-espanola", "nombre": "Política Española" },
+        { "id": "politica-internacional", "nombre": "Política Internacional" },
+        { "id": "internacional", "nombre": "Internacional" },
+        { "id": "arte", "nombre": "Arte" },
+        { "id": "historia", "nombre": "Historia" }
+      ]
+    },
     { "id": "ejemplo-1", "nombre": "Ejemplo 1" },
     { "id": "ejemplo-2", "nombre": "Ejemplo 2" },
     { "id": "ejemplo-3", "nombre": "Ejemplo 3" },
@@ -9,11 +20,51 @@
   "entradas": [
     {
       "fecha": "2026-10-11",
-      "tema": "news",
-      "titulo": "Tres noticias del sábado 10 de octubre",
-      "resumen": "Un ataque contra el aeropuerto de Riad, dos huracanes a ambos lados de Norteamérica y miles de detenidos en las protestas de Nueva Delhi.",
+      "tema": "economia",
+      "titulo": "Trump pacta con Putin la compra de diésel ruso para frenar los precios antes de las elecciones",
+      "resumen": "Washington levanta parte de las sanciones para importar más de 4,8 millones de toneladas con el Brent en 104 dólares.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Chemical%20Oil%20Products%20Tanker%20%27Stolt%20Petrel%27%20-%20North%20sea%20-%20Netherlands%20%2829132081475%29.jpg?width=1200",
+      "archivo": "contenido/2026-10-11/economia.md"
+    },
+    {
+      "fecha": "2026-10-11",
+      "tema": "politica-espanola",
+      "titulo": "La vivienda y las encuestas marcan el arranque de la precampaña del 29 de noviembre",
+      "resumen": "Sánchez y Feijóo se lanzan a la calle a siete semanas de las generales, con los sondeos a favor del PP.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Columnas%20y%20fachada%20del%20Congreso%20de%20los%20Diputados%20de%20Espa%C3%B1a.JPG?width=1200",
+      "archivo": "contenido/2026-10-11/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-10-11",
+      "tema": "politica-internacional",
+      "titulo": "India blinda Nueva Delhi y detiene a miles de manifestantes que piden la dimisión del jefe electoral",
+      "resumen": "La protesta contra la revisión del censo electoral acaba con cortes de internet, metro cerrado y dirigentes arrestados.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Electronic%20Digital%20Display%20Board%20at%20the%20office%20of%20the%20Election%20Commission%20of%20India%20displaying%20the%20results%20of%20General%20Election-2009%20for%20the%20public%2C%20at%20Nirvachan%20Sadan%2C%20in%20New%20Delhi%20on%20May%2016%2C%202009.jpg?width=1200",
+      "archivo": "contenido/2026-10-11/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-10-11",
+      "tema": "internacional",
+      "titulo": "Un ataque contra el aeropuerto de Riad deja 12 muertos y más de 300 heridos",
+      "resumen": "Además: el huracán Simón alcanza la categoría 4 frente a México mientras Isaías se disipa sobre Alabama.",
       "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Hurricane%20Agatha%20over%20Mexico%20%28MODIS%202022-06-01%29.jpg?width=1200",
-      "archivo": "contenido/2026-10-11/news.md"
+      "archivo": "contenido/2026-10-11/internacional.md"
+    },
+    {
+      "fecha": "2026-10-11",
+      "tema": "arte",
+      "titulo": "La gran ola de Kanagawa: la estampa de un anciano que cambió el arte occidental",
+      "resumen": "Hokusai la diseñó con setenta años, con un azul llegado de Europa. Medio siglo después fascinaba a Van Gogh y a Debussy.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsunami%20by%20hokusai%2019th%20century.jpg?width=1200",
+      "archivo": "contenido/2026-10-11/arte.md"
+    },
+    {
+      "fecha": "2026-10-11",
+      "tema": "historia",
+      "titulo": "El mecanismo de Anticitera: el ordenador de bronce que durmió dos mil años bajo el mar",
+      "resumen": "Treinta engranajes tallados a mano que predecían eclipses, y nada comparable durante los mil años siguientes.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/NAMA%20Machine%20d%27Anticyth%C3%A8re%201.jpg?width=1200",
+      "archivo": "contenido/2026-10-11/historia.md"
     }
   ]
 }

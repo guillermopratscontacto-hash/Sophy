@@ -41,8 +41,9 @@
       ]
     },
     {
-      "id": "ejemplo-2",
-      "nombre": "Ejemplo 2"
+      "id": "geografia",
+      "nombre": "Geografía",
+      "tipo": "geografia"
     },
     {
       "id": "ejemplo-3",

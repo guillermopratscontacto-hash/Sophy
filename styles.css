@@ -798,6 +798,57 @@ button, input { font: inherit; color: inherit; }
 .racha-seccion svg { width: 15px; height: 15px; }
 .racha-seccion.encendida { color: var(--rojo); }
 
+/* ---------- Geografía ---------- */
+
+.geo { display: grid; grid-template-columns: minmax(0, 1fr); gap: 36px; margin-top: 44px; }
+.geo-globo { position: relative; }
+.globo {
+  width: 100%;
+  height: 46vh;
+  min-height: 320px;
+  max-height: 780px;
+  display: grid;
+  place-items: center;
+  border-radius: 14px;
+  overflow: hidden;
+  cursor: grab;
+  touch-action: none;
+}
+.globo:active { cursor: grabbing; }
+.globo-aviso { margin: 0; }
+.globo-etiqueta {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: var(--tinta);
+  color: var(--blanco);
+  font: 500 0.82rem/1.2 var(--sans);
+}
+.geo-hoy { position: absolute; top: 12px; right: 12px; z-index: 2; }
+
+.geo-ficha.entrando { animation: entrar 0.52s var(--ease-salida) both; }
+.ficha-cabecera { display: flex; align-items: center; gap: 22px; }
+.ficha-bandera {
+  flex: none;
+  width: clamp(88px, 14vw, 132px);
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px var(--linea);
+  background: var(--papel);
+}
+.ficha-cabecera .titular { margin-top: 8px; }
+.ficha-capital { margin: 8px 0 0; color: var(--suave); }
+.ficha-capital b { color: var(--tinta); font-weight: 600; }
+.geo-ficha .articulo { margin-top: 28px; padding-top: 28px; }
+.geo-ficha .articulo > figure:first-child { margin-top: 0; }
+
+@media (min-width: 1000px) {
+  .geo { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 64px; align-items: start; }
+  .geo-globo { position: sticky; top: 104px; }
+  .globo { height: calc(100vh - 150px); }
+}
+
 /* ---------- Cifras, calendario, historial ---------- */
 
 .cifras { display: grid; grid-template-columns: repeat(2, 1fr); gap: 28px 0; margin-top: 44px; }

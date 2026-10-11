@@ -401,10 +401,11 @@ if (typeof document !== "undefined") (function () {
     return `<span class="racha-seccion${dias.has(hoy) ? " encendida" : ""}">${ICONO.llama}${calcularRacha(dias, hoy)}</span>`;
   };
 
-  function vistaSeccion(id) {
+  function vistaSeccion(id, vigente) {
     pintarSecciones(id);
     const hoy = fechaLocal();
     const tema = temaDe(id);
+    if (tema.tipo === "geografia") return vistaGeografia(tema, vigente);
 
     // Sección con subsecciones (News, Cultura): todo lo publicado, en un listado por días.
     if (tema.subsecciones) {
@@ -449,6 +450,247 @@ if (typeof document !== "undefined") (function () {
       </section>
       <h2 class="rotulo">Biblioteca</h2>
       ${entradas.length ? piezas(entradas, true) : vacio("Próximamente", "Aquí aparecerá el contenido de esta sección, día a día.")}`;
+  }
+
+  // ---------- Geografía: globo 3D y país del día ----------
+
+  const GLOBO_URL = "https://cdn.jsdelivr.net/npm/globe.gl@2.46.2/dist/globe.gl.min.js";
+  const geo = { paises: null, mapa: null }; // se cargan una vez por sesión
+
+  const cargarScript = (src) =>
+    new Promise((ok, mal) => {
+      const s = document.createElement("script");
+      s.src = src;
+      s.onload = ok;
+      s.onerror = mal;
+      document.head.append(s);
+    });
+
+  // El progreso de Geografía se guarda en la misma tabla, con tema "geo:<id del país>".
+  const geoHechos = () => new Map(progreso.filter((p) => p.tema.startsWith("geo:")).map((p) => [p.tema.slice(4), p.dia]));
+  const geoDias = () => new Set(progreso.filter((p) => p.tema.startsWith("geo:")).map((p) => p.dia));
+
+  // País del día: el completado hoy, si lo hay; si no, uno al azar entre los pendientes.
+  // El sorteo depende del usuario y de cuántos lleva, así que no cambia hasta completarlo.
+  function paisDelDia(paises) {
+    const hoy = fechaLocal();
+    const hechos = geoHechos();
+    const deHoy = [...hechos].find(([, dia]) => dia === hoy);
+    if (deHoy) return paises.find((p) => p.id === deHoy[0]) || null;
+    const pendientes = paises.filter((p) => !hechos.has(p.id)).sort((a, b) => a.id.localeCompare(b.id));
+    if (!pendientes.length) return null;
+    let h = 2166136261;
+    for (const c of `${usuario ? usuario.id : "local"}:${hechos.size}`) {
+      h ^= c.charCodeAt(0);
+      h = Math.imul(h, 16777619);
+    }
+    return pendientes[(h >>> 0) % pendientes.length];
+  }
+
+  async function cargarGeografia() {
+    if (!geo.paises) {
+      const leer = async (ruta) => {
+        const r = await fetch(ruta, { cache: "no-cache" });
+        if (!r.ok) throw new Error(r.status);
+        return r.json();
+      };
+      const [lista, mundo] = await Promise.all([leer("contenido/geografia/paises.json"), leer("contenido/geografia/mundo.json")]);
+      // Territorios con contorno propio (los que no son un país del mapa base) se dibujan encima.
+      const propios = await Promise.all(lista.paises.filter((p) => p.geo).map((p) => leer(p.geo)));
+      geo.mapa = [...mundo.features, ...propios.map((f) => ({ ...f, encima: true }))];
+      geo.paises = lista.paises;
+    }
+    if (!window.Globe) await cargarScript(GLOBO_URL);
+  }
+
+  function centro(feature) {
+    let minX = 180, maxX = -180, minY = 90, maxY = -90;
+    const recorrer = (c) => {
+      if (typeof c[0] === "number") {
+        minX = Math.min(minX, c[0]);
+        maxX = Math.max(maxX, c[0]);
+        minY = Math.min(minY, c[1]);
+        maxY = Math.max(maxY, c[1]);
+      } else c.forEach(recorrer);
+    };
+    recorrer(feature.geometry.coordinates);
+    return { lat: (minY + maxY) / 2, lng: (minX + maxX) / 2 };
+  }
+
+  function vistaGeografia(tema, vigente) {
+    $vista.innerHTML = `
+      <section data-reveal>
+        <span class="antetitulo">Sección</span>
+        <h1 class="titular-xl">${esc(tema.nombre)}</h1>
+        <p class="entradilla" id="geo-resumen">Un país cada día. Gira el globo y descubre el de hoy.</p>
+      </section>
+      <div class="geo">
+        <div class="geo-globo" data-reveal>
+          <div id="globo" class="globo"><p class="nota globo-aviso">Cargando el globo…</p></div>
+          <button class="boton pequeno geo-hoy" id="geo-hoy" hidden>País del día</button>
+        </div>
+        <div class="geo-ficha" id="geo-ficha"></div>
+      </div>`;
+
+    let globo = null;
+    let medidor = null;
+    limpiarVista = () => {
+      if (medidor) medidor.disconnect();
+      if (globo) {
+        globo.pauseAnimation();
+        if (globo._destructor) globo._destructor();
+      }
+    };
+
+    (async () => {
+      try {
+        await cargarGeografia();
+      } catch {
+        if (vigente()) $("globo").innerHTML = '<p class="error globo-aviso">No se ha podido cargar el globo. Recarga la página.</p>';
+        return;
+      }
+      if (!vigente()) return;
+
+      const paises = geo.paises;
+      const porId = new Map(paises.map((p) => [p.geo ? p.id : p.iso, p]));
+      const idDe = (f) => f.properties.id;
+      const textos = new Map();
+      const estilos = getComputedStyle(document.documentElement);
+      const color = (v) => estilos.getPropertyValue(v).trim();
+      const hoy = fechaLocal();
+      let delDia = paisDelDia(paises);
+      let visible = null; // país cuya ficha se está mostrando
+
+      const estado = (f) => {
+        const pais = porId.get(idDe(f));
+        if (!pais) return "resto";
+        if (geoHechos().has(pais.id)) return "hecho";
+        return delDia && pais.id === delDia.id ? "hoy" : "resto";
+      };
+
+      function resumen() {
+        const hechos = geoHechos();
+        const dias = geoDias();
+        $("geo-resumen").textContent = `${hechos.size} de ${plural(paises.length, "país completado", "países completados")} · Racha en Geografía: ${plural(calcularRacha(dias, hoy), "día", "días")}${dias.has(hoy) ? ", y hoy ya cuenta" : ""}.`;
+      }
+
+      // ----- Globo -----
+      const $globo = $("globo");
+      $globo.textContent = "";
+      globo = window.Globe()($globo)
+        .backgroundColor("rgba(0,0,0,0)")
+        .showAtmosphere(true)
+        .atmosphereColor(color("--arena"))
+        .atmosphereAltitude(0.14)
+        .polygonsData(geo.mapa)
+        .polygonSideColor(() => color("--arena"))
+        .polygonStrokeColor(() => `rgba(${color("--tinta-rgb")}, 0.45)`)
+        .polygonLabel((f) => `<span class="globo-etiqueta">${esc(f.properties.nombre)}</span>`)
+        .polygonsTransitionDuration(500)
+        .onPolygonHover((f) => {
+          $globo.style.cursor = f && estado(f) !== "resto" ? "pointer" : "grab";
+        })
+        .onPolygonClick((f) => {
+          const pais = porId.get(idDe(f));
+          if (pais && estado(f) !== "resto") mostrar(pais, true);
+        });
+      globo.globeMaterial().color.set(color("--papel"));
+
+      const pintarGlobo = () => {
+        globo
+          .polygonCapColor((f) => ({ hecho: color("--rojo"), hoy: color("--tinta"), resto: color("--blanco") }[estado(f)]))
+          .polygonAltitude((f) => (f.encima ? 0.016 : 0.006) + (estado(f) === "resto" ? 0 : 0.012));
+      };
+      pintarGlobo();
+
+      const ajustar = () => globo.width($globo.clientWidth).height($globo.clientHeight);
+      ajustar();
+      medidor = new ResizeObserver(ajustar);
+      medidor.observe($globo);
+
+      const volar = (pais, ms) => {
+        const f = geo.mapa.find((x) => porId.get(idDe(x)) === pais);
+        // Más lejos en pantallas estrechas, para que el globo quepa entero.
+        if (f) globo.pointOfView({ ...centro(f), altitude: $globo.clientWidth < 520 ? 2.5 : 2 }, ms);
+      };
+
+      // ----- Ficha -----
+      async function mostrar(pais, conVuelo) {
+        visible = pais;
+        $("geo-hoy").hidden = !delDia || pais.id === delDia.id;
+        if (conVuelo) volar(pais, 1400);
+        if (!textos.has(pais.id)) {
+          try {
+            const r = await fetch(pais.archivo, { cache: "no-cache" });
+            if (!r.ok) throw new Error(r.status);
+            textos.set(pais.id, await r.text());
+          } catch {
+            if (vigente()) $("geo-ficha").innerHTML = '<p class="error">No se ha podido cargar la ficha de este país.</p>';
+            return;
+          }
+        }
+        if (!vigente() || visible !== pais) return;
+
+        const completado = geoHechos().get(pais.id);
+        const esDelDia = delDia && pais.id === delDia.id;
+        const pie = completado
+          ? `<div class="fin hecho">${ICONO.hecho} Completado el ${esc(fechaCorta(completado))} · Racha en Geografía: ${plural(calcularRacha(geoDias(), hoy), "día", "días")}</div>`
+          : `<div class="siguiente"><button class="boton" id="geo-completar">Día completado</button></div>`;
+        $("geo-ficha").innerHTML = `
+          <article class="ficha-pais">
+            <header class="ficha-cabecera">
+              ${pais.bandera ? `<img class="ficha-bandera" src="${esc(pais.bandera)}" alt="Bandera de ${esc(pais.nombre)}">` : ""}
+              <div>
+                <span class="antetitulo">${esDelDia ? "País del día" : "País completado"}</span>
+                <h2 class="titular">${esc(pais.nombre)}</h2>
+                <p class="ficha-capital">Capital: <b>${esc(pais.capital)}</b></p>
+              </div>
+            </header>
+            <div class="articulo">${window.marked.parse(textos.get(pais.id))}</div>
+            ${pie}
+          </article>`;
+        $("geo-ficha").classList.remove("entrando");
+        void $("geo-ficha").offsetWidth;
+        $("geo-ficha").classList.add("entrando");
+
+        const $completar = $("geo-completar");
+        if ($completar) $completar.addEventListener("click", () => completar(pais, $completar));
+      }
+
+      async function completar(pais, $boton) {
+        $boton.disabled = true;
+        const registro = { fecha: hoy, tema: `geo:${pais.id}`, dia: hoy };
+        progreso.push(registro);
+        try {
+          await almacen.guardar(registro);
+        } catch {
+          progreso = progreso.filter((p) => p !== registro);
+          if (vigente()) {
+            $boton.disabled = false;
+            $boton.textContent = "No se ha podido guardar. Reintentar";
+          }
+          return;
+        }
+        pintarRacha();
+        celebrarDia();
+        if (!vigente()) return;
+        pintarGlobo();
+        resumen();
+        mostrar(pais, false);
+      }
+
+      $("geo-hoy").addEventListener("click", () => delDia && mostrar(delDia, true));
+
+      resumen();
+      if (delDia) {
+        const inicio = geo.mapa.find((x) => porId.get(idDe(x)) === delDia);
+        if (inicio) globo.pointOfView({ lat: 10, lng: centro(inicio).lng - 70, altitude: 3 }, 0);
+        mostrar(delDia, true);
+      } else {
+        $("geo-ficha").innerHTML = vacio("Sección completada", "Has recorrido todos los países disponibles. Pulsa cualquiera en rojo para volver a leerlo.");
+        $("geo-ficha").firstElementChild.classList.add("visto");
+      }
+    })();
   }
 
   // Reparte cada artículo en cabecera, imagen y texto para poder maquetarlo a dos columnas.
@@ -640,15 +882,15 @@ if (typeof document !== "undefined") (function () {
           .join("")}</ul>`
       : vacio("Aún no hay nada aquí", "Las secciones que completes aparecerán en este registro.");
 
-    const conContenido = hojas().filter((t) => indice.entradas.some((e) => e.tema === t.id));
+    const conContenido = hojas().filter((t) => t.tipo === "geografia" || indice.entradas.some((e) => e.tema === t.id));
     const porSeccion = conContenido.length
       ? `<h2 class="rotulo">Racha por sección</h2>
          <ul class="registro">${conContenido
            .map((t, i) => {
-             const d = diasDe(t.id);
+             const d = t.tipo === "geografia" ? geoDias() : diasDe(t.id);
              return `<li data-reveal style="--i:${Math.min(i, 6)}"><a href="#/seccion/${enc(t.id)}">
                <b>${esc(t.nombre)}</b>
-               <span class="fila">${rachaSeccion(t.id, hoy)} mejor racha: ${plural(mejorRacha(d), "día", "días")} · ${plural(d.size, "día activo", "días activos")}</span>
+               <span class="fila"><span class="racha-seccion${d.has(hoy) ? " encendida" : ""}">${ICONO.llama}${calcularRacha(d, hoy)}</span> mejor racha: ${plural(mejorRacha(d), "día", "días")} · ${plural(d.size, "día activo", "días activos")}</span>
              </a></li>`;
            })
            .join("")}</ul>`
@@ -949,7 +1191,7 @@ if (typeof document !== "undefined") (function () {
 
     const [, ruta, a, b] = location.hash.split("/").map(decodeURIComponent);
     if (!dentro) vistaAcceso();
-    else if (ruta === "seccion" && a) vistaSeccion(a);
+    else if (ruta === "seccion" && a) vistaSeccion(a, vigente);
     else if (ruta === "leer" && a && b) await vistaLeer(a, b, vigente);
     else if (ruta === "historial") vistaHistorial();
     else if (ruta === "usuario") vistaUsuario();

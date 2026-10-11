@@ -1,0 +1,12 @@
+{
+  "paises": [
+    {
+      "id": "tibet",
+      "nombre": "Tíbet",
+      "capital": "Lhasa",
+      "geo": "contenido/geografia/geo/tibet.json",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tibet.svg?width=640",
+      "archivo": "contenido/geografia/tibet.md"
+    }
+  ]
+}

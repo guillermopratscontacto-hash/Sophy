@@ -61,3 +61,8 @@ select tema,
 from public.estadisticas_piezas
 group by tema
 order by aperturas desc;
+
+-- Los recuentos solo se consultan desde el panel de Supabase: la web no tiene
+-- acceso a estos resúmenes, así que ningún usuario puede ver cuántos me gusta
+-- o no me gusta tiene una publicación.
+revoke all on public.estadisticas_piezas, public.estadisticas_secciones from anon, authenticated;

@@ -68,6 +68,7 @@ if (typeof document !== "undefined") (function () {
   let progreso = []; // [{ fecha, tema, dia }]
   let usuario = null;
   let perfil = null; // { codigo, nombre } o null si aún no está disponible
+  let solicitudes = []; // solicitudes de amistad pendientes: [{ tipo: "recibida" | "enviada", usuario_id, codigo, nombre }]
   let valoraciones = null; // Map "fecha|tema" -> 1 (me gusta) o -1 (no me gusta); null si no está disponible
   let limpiarVista = null;
   let turno = 0; // identifica la navegación en curso
@@ -732,13 +733,22 @@ if (typeof document !== "undefined") (function () {
     }
   }
 
+  // Aviso de solicitudes de amistad pendientes: punto en el botón del menú y contador junto a Friends.
+  function pintarAvisos() {
+    const n = solicitudes.filter((x) => x.tipo === "recibida").length;
+    $abrirMenu.classList.toggle("con-aviso", n > 0);
+    $abrirMenu.setAttribute("aria-label", n ? `Abrir menú (${plural(n, "solicitud de amistad", "solicitudes de amistad")})` : "Abrir menú");
+    const $enlace = $menu.querySelector('a[href="#/friends"]');
+    $enlace.innerHTML = `Friends${n ? ` <span class="contador">${n}</span>` : ""}`;
+  }
+
   async function vistaFriends(vigente) {
     pintarSecciones("friends");
     const cabecera = `
       <section data-reveal>
         <span class="antetitulo">Aprender acompañado</span>
         <h1 class="titular-xl">Friends</h1>
-        <p class="entradilla">Añade a otras personas con su código de usuario y sigue su constancia día a día.</p>
+        <p class="entradilla">Envía una solicitud con el código de otra persona. Cuando la acepte, veréis la constancia del otro día a día.</p>
       </section>`;
     if (!remoto || !perfil) {
       $vista.innerHTML = `${cabecera}<div style="margin-top:44px">${vacio(
@@ -752,49 +762,76 @@ if (typeof document !== "undefined") (function () {
       <h2 class="rotulo">Tu código</h2>
       <div class="tarjeta-papel" data-reveal>
         ${bloqueCodigo()}
-        <p class="nota" style="margin:14px 0 0">Compártelo con quien quieras. Quien lo tenga podrá ver qué días has completado algo, pero no tu correo ni qué has leído.</p>
+        <p class="nota" style="margin:14px 0 0">Compártelo con quien quieras. Quien lo tenga podrá enviarte una solicitud; solo si la aceptas veréis los días completados del otro. Nunca se muestra tu correo ni qué has leído.</p>
       </div>
       <h2 class="rotulo">Añadir a alguien</h2>
       <form class="fila" id="form-amigo" data-reveal>
         <input class="entrada" id="codigo-amigo" placeholder="#CÓDIGO" maxlength="12" autocapitalize="characters" autocomplete="off" required aria-label="Código de usuario">
-        <button class="boton">Añadir</button>
+        <button class="boton">Enviar solicitud</button>
       </form>
       <p class="nota" id="amigo-msg" role="status"></p>
-      <h2 class="rotulo">Siguiendo</h2>
       <div id="lista-amigos"><p class="nota">Cargando…</p></div>`;
     activarCopia();
 
     const hoy = fechaLocal();
     const ultimos7 = Array.from({ length: 7 }, (_, i) => sumarDias(hoy, i - 6));
+    const inicial = (titulo) => esc(titulo.replace("#", "").charAt(0).toUpperCase());
+
+    const filaSolicitud = (x) => {
+      const titulo = x.nombre || `#${x.codigo}`;
+      const acciones =
+        x.tipo === "recibida"
+          ? `<button class="boton pequeno" data-accion="aceptar" data-id="${esc(x.usuario_id)}">Aceptar</button>
+             <button class="boton linea pequeno" data-accion="rechazar" data-id="${esc(x.usuario_id)}">Rechazar</button>`
+          : `<span class="nota">Pendiente de respuesta</span>
+             <button class="quitar" data-accion="quitar" data-id="${esc(x.usuario_id)}">Cancelar</button>`;
+      return `<li class="amigo">
+        <span class="amigo-inicial">${inicial(titulo)}</span>
+        <span class="amigo-datos"><b>${esc(titulo)}</b><span>#${esc(x.codigo)}</span></span>
+        <span class="fila">${acciones}</span>
+      </li>`;
+    };
+
+    const filaAmigo = (a) => {
+      const dias = new Set(a.dias);
+      const titulo = a.nombre || `#${a.codigo}`;
+      return `<li class="amigo">
+        <span class="amigo-inicial">${inicial(titulo)}</span>
+        <span class="amigo-datos"><b>${esc(titulo)}</b><span>#${esc(a.codigo)} · ${plural(dias.size, "día activo", "días activos")}</span></span>
+        <span class="semana" title="Últimos 7 días">${ultimos7.map((d) => `<i${dias.has(d) ? ' class="hecho"' : ""}></i>`).join("")}</span>
+        <span class="amigo-racha${dias.has(hoy) ? " encendida" : ""}" title="Racha">${ICONO.llama}${calcularRacha(dias, hoy)}</span>
+        <button class="quitar" data-accion="quitar" data-id="${esc(a.amigo_id)}">Quitar</button>
+      </li>`;
+    };
 
     async function pintarAmigos() {
-      const { data, error } = await sb.rpc("progreso_amigos");
+      const [pendientes, amigos] = await Promise.all([sb.rpc("solicitudes"), sb.rpc("progreso_amigos")]);
       const $lista = $("lista-amigos");
       if (!vigente() || !$lista) return;
-      if (error) {
+      if (pendientes.error || amigos.error) {
         $lista.innerHTML = '<p class="error">No se ha podido cargar la lista.</p>';
         return;
       }
-      if (!data.length) {
-        $lista.innerHTML = vacio("Aún no sigues a nadie", "Pide su código a alguien y añádelo arriba.");
-        $lista.firstElementChild.classList.add("visto");
-        return;
-      }
-      $lista.innerHTML = `<ul class="amigos">${data
-        .map((a) => {
-          const dias = new Set(a.dias);
-          const n = calcularRacha(dias, hoy);
-          const titulo = a.nombre || `#${a.codigo}`;
-          return `<li class="amigo">
-            <span class="amigo-inicial">${esc(titulo.replace("#", "").charAt(0).toUpperCase())}</span>
-            <span class="amigo-datos"><b>${esc(titulo)}</b><span>#${esc(a.codigo)} · ${plural(dias.size, "día activo", "días activos")}</span></span>
-            <span class="semana" title="Últimos 7 días">${ultimos7.map((d) => `<i${dias.has(d) ? ' class="hecho"' : ""}></i>`).join("")}</span>
-            <span class="amigo-racha${dias.has(hoy) ? " encendida" : ""}" title="Racha">${ICONO.llama}${n}</span>
-            <button class="quitar" data-id="${esc(a.amigo_id)}">Quitar</button>
-          </li>`;
-        })
-        .join("")}</ul>`;
+      solicitudes = pendientes.data;
+      pintarAvisos();
+      const recibidas = solicitudes.filter((x) => x.tipo === "recibida");
+      const enviadas = solicitudes.filter((x) => x.tipo === "enviada");
+      const bloque = (titulo, filas) => (filas.length ? `<h2 class="rotulo">${titulo}</h2><ul class="amigos">${filas.join("")}</ul>` : "");
+      $lista.innerHTML = `
+        ${bloque("Solicitudes recibidas", recibidas.map(filaSolicitud))}
+        ${bloque("Solicitudes enviadas", enviadas.map(filaSolicitud))}
+        <h2 class="rotulo">Amigos</h2>
+        ${amigos.data.length ? `<ul class="amigos">${amigos.data.map(filaAmigo).join("")}</ul>` : vacio("Aún no tienes amigos aquí", "Envía una solicitud con el código de alguien, o comparte el tuyo.")}`;
+      $lista.querySelectorAll("[data-reveal]").forEach((el) => el.classList.add("visto"));
     }
+
+    const RESPUESTAS = {
+      enviada: "Solicitud enviada. Aparecerá en tu lista cuando la acepte.",
+      aceptada: "Esa persona ya te había enviado una solicitud: ahora sois amigos.",
+      ya_enviada: "Ya le habías enviado una solicitud.",
+      ya_amigos: "Ya sois amigos.",
+      eres_tu: "Ese es tu propio código.",
+    };
 
     $("form-amigo").addEventListener("submit", async (e) => {
       e.preventDefault();
@@ -806,24 +843,24 @@ if (typeof document !== "undefined") (function () {
       if (!vigente()) return;
       if (error) {
         $msg.className = "error";
-        $msg.textContent = "No se ha podido añadir. Inténtalo de nuevo.";
+        $msg.textContent = "No se ha podido enviar. Inténtalo de nuevo.";
       } else if (data === "no_existe") {
         $msg.className = "error";
         $msg.textContent = "No hay ningún usuario con ese código.";
-      } else if (data === "eres_tu") {
-        $msg.textContent = "Ese es tu propio código.";
       } else {
-        $msg.textContent = "Añadido.";
+        $msg.textContent = RESPUESTAS[data] || "Hecho.";
         $campo.value = "";
         pintarAmigos();
       }
     });
 
     $("lista-amigos").addEventListener("click", async (e) => {
-      const $quitar = e.target.closest(".quitar");
-      if (!$quitar) return;
-      $quitar.disabled = true;
-      await sb.from("amigos").delete().eq("amigo_id", $quitar.dataset.id);
+      const $boton = e.target.closest("[data-accion]");
+      if (!$boton) return;
+      $boton.disabled = true;
+      const id = $boton.dataset.id;
+      if ($boton.dataset.accion === "quitar") await sb.rpc("quitar_amigo", { otro: id });
+      else await sb.rpc("responder_solicitud", { solicitante: id, aceptar: $boton.dataset.accion === "aceptar" });
       if (vigente()) pintarAmigos();
     });
 
@@ -931,13 +968,16 @@ if (typeof document !== "undefined") (function () {
 
   async function abrirSesion() {
     try {
-      const [datos, respuesta, votos] = await Promise.all([
+      const [datos, respuesta, votos, pendientes] = await Promise.all([
         almacen.cargar(),
         remoto ? sb.rpc("mi_perfil") : null,
         remoto ? sb.from("valoraciones").select("fecha,tema,valor") : null,
+        remoto ? sb.rpc("solicitudes") : null,
       ]);
       progreso = datos;
       perfil = respuesta && !respuesta.error ? respuesta.data : null;
+      solicitudes = pendientes && !pendientes.error ? pendientes.data : [];
+      pintarAvisos();
       if (remoto) {
         valoraciones = votos.error ? null : new Map(votos.data.map((v) => [`${v.fecha}|${v.tema}`, v.valor]));
       } else {

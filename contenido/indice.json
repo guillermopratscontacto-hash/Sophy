@@ -1,8 +1,15 @@
 {
   "temas": [
+    { "id": "news", "nombre": "News" },
     { "id": "ejemplo", "nombre": "Ejemplo" }
   ],
   "entradas": [
+    {
+      "fecha": "2026-10-11",
+      "tema": "news",
+      "titulo": "Tres noticias del sábado 10 de octubre",
+      "archivo": "contenido/2026-10-11/news.md"
+    },
     {
       "fecha": "2026-10-11",
       "tema": "ejemplo",

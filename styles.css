@@ -95,16 +95,16 @@ button, input { font: inherit; color: inherit; }
   text-decoration: none;
 }
 .marca-icono {
-  width: 48px;
-  height: 48px;
-  border-radius: 12px;
+  width: 58px;
+  height: 58px;
+  border-radius: 14px;
   object-fit: cover;
   transition: transform 0.5s var(--ease-salida);
 }
 .marca:hover .marca-icono { transform: rotate(-6deg) scale(1.06); }
 .marca-icono.festejo { animation: festejo 0.9s var(--ease-salida); }
 .marca-nombre {
-  font: 600 1.95rem/1 var(--serif-titular);
+  font: 600 2.4rem/1 var(--serif-titular);
   letter-spacing: -0.01em;
   transition: color 0.35s var(--ease);
 }
@@ -137,7 +137,7 @@ button, input { font: inherit; color: inherit; }
   align-items: center;
   min-height: 44px;
   padding: 0 12px;
-  font: 500 0.92rem/1 var(--sans);
+  font: 500 1.06rem/1 var(--sans);
   letter-spacing: 0.14em;
   text-transform: uppercase;
   text-decoration: none;
@@ -278,18 +278,18 @@ button, input { font: inherit; color: inherit; }
   gap: 5px;
   min-height: 44px;
   padding: 0 8px;
-  font: 600 1.15rem/1 var(--sans);
+  font: 600 1.4rem/1 var(--sans);
   text-decoration: none;
   color: var(--suave);
   transition: color 0.35s var(--ease), transform 0.45s var(--ease-salida);
 }
-.racha svg { width: 23px; height: 23px; }
+.racha svg { width: 28px; height: 28px; }
 .racha.encendida { color: var(--rojo); }
 .racha:hover { color: var(--rojo); transform: scale(1.08); }
 
 .hamburguesa {
-  width: 48px;
-  height: 48px;
+  width: 54px;
+  height: 54px;
   margin-right: -10px;
   padding: 0;
   border: 0;
@@ -297,12 +297,12 @@ button, input { font: inherit; color: inherit; }
   cursor: pointer;
   display: grid;
   place-content: center;
-  gap: 6px;
+  gap: 7px;
 }
 .hamburguesa span {
   display: block;
-  width: 28px;
-  height: 2px;
+  width: 34px;
+  height: 2.5px;
   background: var(--tinta);
   transform-origin: center;
   transition: transform 0.45s var(--ease-salida), background-color 0.35s var(--ease), opacity 0.25s var(--ease);
@@ -731,7 +731,7 @@ button, input { font: inherit; color: inherit; }
 @media (min-width: 1000px) {
   .noticia-cuerpo { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 64px; align-items: start; }
   .noticia-cuerpo.sin-foto { grid-template-columns: minmax(0, 1fr); }
-  .noticia-foto { position: sticky; top: 104px; }
+  .noticia-foto { position: sticky; top: 116px; }
   .noticia-foto figure img { max-height: 68vh; }
   .noticia-texto { font-size: 1.22rem; }
 }
@@ -902,7 +902,7 @@ button, input { font: inherit; color: inherit; }
 
 @media (min-width: 1000px) {
   .geo { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 64px; align-items: start; }
-  .geo-globo { position: sticky; top: 104px; }
+  .geo-globo { position: sticky; top: 116px; }
   .globo { height: calc(100vh - 150px); }
   .geo-info { display: none; }
 }

@@ -1049,6 +1049,10 @@ button, input { font: inherit; color: inherit; }
 .acceso { max-width: 420px; margin: 4vh auto 0; display: grid; gap: 18px; }
 .acceso .titular { margin: 0; }
 .acceso .fila .boton { flex: 1; }
+.casilla { display: flex; align-items: flex-start; gap: 12px; font: 400 0.95rem/1.45 var(--sans); color: var(--tinta); cursor: pointer; }
+.casilla input { flex: none; width: 22px; height: 22px; margin: 0; accent-color: var(--rojo); cursor: pointer; }
+.casilla a { color: inherit; text-underline-offset: 3px; transition: color 0.35s var(--ease); }
+.casilla a:hover { color: var(--rojo); }
 .acceso-msg { min-height: 1.6em; margin: 0; font-size: 0.9rem; }
 
 /* ---------- Usuario y Friends ---------- */

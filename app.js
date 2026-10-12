@@ -1121,6 +1121,30 @@ if (typeof document !== "undefined") (function () {
   // Recordatorio de racha: una notificación a las 20:00 si ese día no se ha completado nada.
   // El navegador da una «dirección» del dispositivo, que se guarda en la tabla avisos;
   // el envío lo hace Supabase (supabase/functions/recordatorio).
+  const CLAVE_AVISOS = "sophy-avisos"; // "si" cuando el usuario ha aceptado los avisos en este dispositivo
+  const avisosPosibles = () =>
+    "serviceWorker" in navigator && "PushManager" in window && "Notification" in window && Boolean(cfg.VAPID_PUBLIC_KEY);
+
+  // Da de alta este dispositivo para recibir el recordatorio. Necesita sesión y el permiso
+  // de notificaciones ya concedido. Devuelve true si queda suscrito.
+  async function suscribirAvisos() {
+    if (!remoto || !usuario || !avisosPosibles() || Notification.permission !== "granted") return false;
+    const registro = await navigator.serviceWorker.register("sw.js");
+    await navigator.serviceWorker.ready;
+    // La clave pública, de texto (base64url) a bytes, que es como la pide Safari.
+    const b64 = cfg.VAPID_PUBLIC_KEY.replace(/-/g, "+").replace(/_/g, "/");
+    const clave = Uint8Array.from(atob(b64 + "=".repeat((4 - (b64.length % 4)) % 4)), (c) => c.charCodeAt(0));
+    const sus =
+      (await registro.pushManager.getSubscription()) ||
+      (await registro.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: clave }));
+    const datos = sus.toJSON();
+    const { error } = await sb
+      .from("avisos")
+      .upsert({ endpoint: datos.endpoint, user_id: usuario.id, p256dh: datos.keys.p256dh, auth: datos.keys.auth }, { onConflict: "endpoint" });
+    if (error) throw error;
+    return true;
+  }
+
   async function activarRecordatorio() {
     const $estado = $("aviso-estado");
     const $activar = $("aviso-activar");
@@ -1129,7 +1153,7 @@ if (typeof document !== "undefined") (function () {
     const sigue = () => $estado.isConnected;
     const HORA = "Cada día a las 20:00 (hora de Madrid), si aún no has completado nada, te avisaremos para que no pierdas la racha.";
 
-    if (!("serviceWorker" in navigator) || !("PushManager" in window) || !("Notification" in window) || !cfg.VAPID_PUBLIC_KEY) {
+    if (!avisosPosibles()) {
       const enIphone = /iPhone|iPad|iPod/.test(navigator.userAgent);
       $estado.textContent = enIphone
         ? "Para recibir el recordatorio en el iPhone, instala Sophy en la pantalla de inicio (Compartir > Añadir a pantalla de inicio) y ábrela desde su icono."
@@ -1146,10 +1170,6 @@ if (typeof document !== "undefined") (function () {
       return;
     }
     if (!sigue()) return;
-
-    // La clave pública, de texto (base64url) a bytes, que es como la pide Safari.
-    const b64 = cfg.VAPID_PUBLIC_KEY.replace(/-/g, "+").replace(/_/g, "/");
-    const clave = Uint8Array.from(atob(b64 + "=".repeat((4 - (b64.length % 4)) % 4)), (c) => c.charCodeAt(0));
 
     async function pintar() {
       const sus = await registro.pushManager.getSubscription();
@@ -1171,15 +1191,10 @@ if (typeof document !== "undefined") (function () {
       $activar.disabled = true;
       try {
         if ((await Notification.requestPermission()) === "granted") {
-          const sus = await registro.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: clave });
-          const datos = sus.toJSON();
-          const { error } = await sb
-            .from("avisos")
-            .upsert({ endpoint: datos.endpoint, user_id: usuario.id, p256dh: datos.keys.p256dh, auth: datos.keys.auth }, { onConflict: "endpoint" });
-          if (error) {
-            await sus.unsubscribe();
-            throw error;
-          }
+          await suscribirAvisos();
+          try {
+            localStorage.setItem(CLAVE_AVISOS, "si");
+          } catch {}
         }
         await pintar();
       } catch {
@@ -1194,6 +1209,9 @@ if (typeof document !== "undefined") (function () {
         await sb.from("avisos").delete().eq("endpoint", sus.endpoint);
         await sus.unsubscribe();
       }
+      try {
+        localStorage.setItem(CLAVE_AVISOS, "no");
+      } catch {}
       pintar();
     });
 
@@ -1402,6 +1420,15 @@ if (typeof document !== "undefined") (function () {
     pintarAmigos();
   }
 
+  function vistaTerminos() {
+    $vista.innerHTML = `
+      <section data-reveal>
+        <a class="volver" href="#/">${ICONO.atras} Volver</a>
+        <h1 class="titular-xl">Términos y condiciones</h1>
+        <p class="entradilla">Los términos y condiciones del servicio todavía no están publicados. Aparecerán en esta página.</p>
+      </section>`;
+  }
+
   function vistaAbout() {
     pintarSecciones("about");
     $vista.innerHTML = `
@@ -1428,6 +1455,10 @@ if (typeof document !== "undefined") (function () {
         <h1 class="titular">Aprende algo cada día.</h1>
         <label class="campo">Correo <input type="email" name="correo" autocomplete="email" required></label>
         <label class="campo">Contraseña <input type="password" name="clave" autocomplete="current-password" minlength="6" required></label>
+        <label class="casilla"><input type="checkbox" name="terminos" required>
+          <span>Acepto los <a href="#/terminos">términos y condiciones del servicio</a></span></label>
+        <label class="casilla"><input type="checkbox" name="avisos" required>
+          <span>Acepto recibir notificaciones de Sophy, como el recordatorio diario de la racha</span></label>
         <div class="fila">
           <button class="boton" name="entrar">Entrar</button>
           <button class="boton linea" name="crear" type="button">Crear cuenta</button>
@@ -1439,6 +1470,16 @@ if (typeof document !== "undefined") (function () {
 
     const enviar = async (crear) => {
       if (!$form.reportValidity()) return;
+      // El permiso de notificaciones hay que pedirlo aquí, en el mismo toque del botón:
+      // el iPhone no deja pedirlo más tarde. El alta del dispositivo se hace al abrir la sesión.
+      try {
+        localStorage.setItem(CLAVE_AVISOS, "si");
+      } catch {}
+      if (avisosPosibles() && Notification.permission === "default") {
+        Promise.resolve(Notification.requestPermission())
+          .then(() => suscribirAvisos())
+          .catch(() => {});
+      }
       const credenciales = { email: $form.correo.value.trim(), password: $form.clave.value };
       $form.entrar.disabled = $form.crear.disabled = true;
       $msg.className = "acceso-msg nota";
@@ -1557,7 +1598,8 @@ if (typeof document !== "undefined") (function () {
     }
 
     const [, ruta, a, b] = location.hash.split("/").map(decodeURIComponent);
-    if (!dentro) vistaAcceso();
+    if (ruta === "terminos") vistaTerminos();
+    else if (!dentro) vistaAcceso();
     else if (ruta === "seccion" && a) vistaSeccion(a, vigente);
     else if (ruta === "leer" && a && b) await vistaLeer(a, b, vigente);
     else if (ruta === "biblioteca") vistaBiblioteca(a);
@@ -1603,6 +1645,11 @@ if (typeof document !== "undefined") (function () {
     }
     pintarRacha();
     navegar();
+    let aceptados = "";
+    try {
+      aceptados = localStorage.getItem(CLAVE_AVISOS);
+    } catch {}
+    if (aceptados === "si") suscribirAvisos().catch(() => {});
   }
 
   async function iniciar() {

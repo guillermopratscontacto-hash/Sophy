@@ -612,7 +612,6 @@ if (typeof document !== "undefined") (function () {
           .polygonLabel(() => "")
           .polygonsTransitionDuration(500)
           .onPolygonHover((f) => {
-            $globo.style.cursor = f && estado(f) !== "resto" ? "pointer" : "grab";
             nombrar(f ? f.properties.nombre : elegido);
           })
           .onPolygonClick(pulsar);

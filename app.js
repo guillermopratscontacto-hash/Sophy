@@ -524,7 +524,11 @@ if (typeof document !== "undefined") (function () {
       <div class="geo">
         <div class="geo-globo" data-reveal>
           <div id="globo" class="globo"><p class="nota globo-aviso">Cargando el globo…</p></div>
+          <div id="mapa" class="globo mapa" hidden></div>
           <p class="geo-nombre" id="geo-nombre" aria-live="polite"></p>
+          <div class="geo-modo" id="geo-modo" role="group" aria-label="Tipo de mapa">
+            <button data-modo="3d" aria-pressed="true">3D</button><button data-modo="2d" aria-pressed="false">2D</button>
+          </div>
           <button class="boton pequeno geo-hoy" id="geo-hoy" hidden>País del día</button>
           <button class="geo-info" id="geo-info" aria-label="Ir a la información del país">Info ${svg('<path d="M12 5v14M5 12l7 7 7-7"/>')}</button>
         </div>
@@ -584,6 +588,15 @@ if (typeof document !== "undefined") (function () {
         $nombre.classList.add("entrando");
       };
 
+      // Pulsar un país, en el globo o en el mapa plano: muestra su nombre y, si es el del día
+      // o está completado, abre su ficha.
+      function pulsar(f) {
+        elegido = f.properties.nombre;
+        nombrar(elegido);
+        const pais = porId.get(idDe(f));
+        if (pais && estado(f) !== "resto") mostrar(pais, true);
+      }
+
       // ----- Globo -----
       const $globo = $("globo");
       $globo.textContent = "";
@@ -602,19 +615,148 @@ if (typeof document !== "undefined") (function () {
             $globo.style.cursor = f && estado(f) !== "resto" ? "pointer" : "grab";
             nombrar(f ? f.properties.nombre : elegido);
           })
-          .onPolygonClick((f) => {
-            elegido = f.properties.nombre;
-            nombrar(elegido);
-            const pais = porId.get(idDe(f));
-            if (pais && estado(f) !== "resto") mostrar(pais, true);
-          });
+          .onPolygonClick(pulsar);
         globo.globeMaterial().color.set(color("--papel"));
       } catch {
         globo = null;
-        $globo.innerHTML = '<p class="nota globo-aviso">Este navegador no puede mostrar el globo 3D. Puedes leer el país del día igualmente.</p>';
+        $globo.textContent = ""; // sin 3D en este navegador: se usa el mapa plano
+      }
+
+      // ----- Mapa plano (2D): el mismo mapa y los mismos colores, sin relieve -----
+      const $mapa = $("mapa");
+      const LIMITE = { x0: -180, x1: 180, y0: -86, y1: 60 }; // x = longitud, y = -latitud
+      const encuadre = { cx: 0, cy: -20, w: 360 }; // centro y ancho de lo que se ve
+      let modo = "3d";
+      let lienzo = null; // el <svg>; se crea la primera vez que se pide el mapa plano
+      let animacion = 0;
+
+      const altoDe = (w) => (w * $mapa.clientHeight) / Math.max(1, $mapa.clientWidth);
+      const anchoMax = () => Math.min(360, ((LIMITE.y1 - LIMITE.y0) * $mapa.clientWidth) / Math.max(1, $mapa.clientHeight));
+
+      function encuadrar() {
+        if (!lienzo || !$mapa.clientWidth) return;
+        const v = encuadre;
+        v.w = Math.min(anchoMax(), Math.max(10, v.w));
+        const h = altoDe(v.w);
+        v.cx = Math.min(LIMITE.x1 - v.w / 2, Math.max(LIMITE.x0 + v.w / 2, v.cx));
+        v.cy = Math.min(LIMITE.y1 - h / 2, Math.max(LIMITE.y0 + h / 2, v.cy));
+        lienzo.setAttribute("viewBox", `${v.cx - v.w / 2} ${v.cy - h / 2} ${v.w} ${h}`);
+      }
+
+      function pintarMapa() {
+        if (!lienzo) return;
+        for (const p of lienzo.children) p.dataset.estado = estado(p.rasgo);
+      }
+
+      function volarMapa(f, ms) {
+        if (!lienzo) return;
+        const c = centro(f);
+        const fin = { cx: c.lng, cy: -c.lat, w: Math.min(anchoMax(), 110) };
+        const ini = { ...encuadre };
+        const t0 = performance.now();
+        cancelAnimationFrame(animacion);
+        const paso = (t) => {
+          if (!vigente()) return;
+          const k = ms ? Math.min(1, (t - t0) / ms) : 1;
+          const s = 1 - Math.pow(1 - k, 3);
+          for (const campo of ["cx", "cy", "w"]) encuadre[campo] = ini[campo] + (fin[campo] - ini[campo]) * s;
+          encuadrar();
+          if (k < 1) animacion = requestAnimationFrame(paso);
+        };
+        paso(t0);
+      }
+
+      function crearMapa() {
+        const NS = "http://www.w3.org/2000/svg";
+        lienzo = document.createElementNS(NS, "svg");
+        lienzo.setAttribute("role", "img");
+        lienzo.setAttribute("aria-label", "Mapa del mundo");
+        const trazo = (anillos) => anillos.map((a) => `M${a.map(([x, y]) => `${x},${-y}`).join("L")}Z`).join("");
+        for (const f of geo.mapa) {
+          const p = document.createElementNS(NS, "path");
+          const g = f.geometry;
+          p.setAttribute("d", g.type === "Polygon" ? trazo(g.coordinates) : g.coordinates.map(trazo).join(""));
+          p.rasgo = f;
+          lienzo.append(p);
+        }
+        $mapa.append(lienzo);
+        pintarMapa();
+
+        // Arrastrar para moverse; rueda o pellizco para acercarse.
+        const dedos = new Map();
+        let movido = 0;
+        let separacion = 0;
+        let pulsado = null;
+        const aMundo = (x, y) => {
+          const r = $mapa.getBoundingClientRect();
+          const h = altoDe(encuadre.w);
+          return { x: encuadre.cx - encuadre.w / 2 + ((x - r.left) / r.width) * encuadre.w, y: encuadre.cy - h / 2 + ((y - r.top) / r.height) * h };
+        };
+        const acercar = (factor, x, y) => {
+          const antes = aMundo(x, y);
+          encuadre.w *= factor;
+          encuadrar();
+          const despues = aMundo(x, y);
+          encuadre.cx += antes.x - despues.x;
+          encuadre.cy += antes.y - despues.y;
+          encuadrar();
+        };
+        const distancia = () => {
+          const [p, q] = [...dedos.values()];
+          return Math.hypot(p.x - q.x, p.y - q.y) || 1;
+        };
+        $mapa.addEventListener("pointerdown", (e) => {
+          cancelAnimationFrame(animacion);
+          if (!dedos.size) {
+            movido = 0;
+            pulsado = e.target.rasgo || null;
+          }
+          dedos.set(e.pointerId, { x: e.clientX, y: e.clientY });
+          if (dedos.size === 2) separacion = distancia();
+          $mapa.setPointerCapture(e.pointerId);
+        });
+        $mapa.addEventListener("pointermove", (e) => {
+          const antes = dedos.get(e.pointerId);
+          if (!antes) return;
+          const dx = e.clientX - antes.x;
+          const dy = e.clientY - antes.y;
+          dedos.set(e.pointerId, { x: e.clientX, y: e.clientY });
+          if (dedos.size === 1) {
+            movido += Math.abs(dx) + Math.abs(dy);
+            encuadre.cx -= (dx / $mapa.clientWidth) * encuadre.w;
+            encuadre.cy -= (dy / $mapa.clientHeight) * altoDe(encuadre.w);
+            encuadrar();
+          } else if (dedos.size === 2) {
+            movido = 99;
+            const [p, q] = [...dedos.values()];
+            const ahora = distancia();
+            acercar(separacion / ahora, (p.x + q.x) / 2, (p.y + q.y) / 2);
+            separacion = ahora;
+          }
+        });
+        const soltar = (e) => {
+          if (!dedos.delete(e.pointerId)) return;
+          if (e.type === "pointerup" && !dedos.size && movido < 8 && pulsado) pulsar(pulsado);
+        };
+        $mapa.addEventListener("pointerup", soltar);
+        $mapa.addEventListener("pointercancel", soltar);
+        $mapa.addEventListener(
+          "wheel",
+          (e) => {
+            e.preventDefault();
+            cancelAnimationFrame(animacion);
+            acercar(e.deltaY > 0 ? 1.2 : 1 / 1.2, e.clientX, e.clientY);
+          },
+          { passive: false }
+        );
+        lienzo.addEventListener("pointerover", (e) => {
+          if (e.pointerType === "mouse" && e.target.rasgo && !dedos.size) nombrar(e.target.rasgo.properties.nombre);
+        });
+        lienzo.addEventListener("pointerleave", () => nombrar(elegido));
       }
 
       const pintarGlobo = () => {
+        pintarMapa();
         if (!globo) return;
         globo
           .polygonCapColor((f) => ({ hecho: color("--rojo"), hoy: color("--tinta"), resto: color("--blanco") }[estado(f)]))
@@ -622,16 +764,48 @@ if (typeof document !== "undefined") (function () {
       };
       pintarGlobo();
 
-      const ajustar = () => globo && globo.width($globo.clientWidth).height($globo.clientHeight);
+      const ajustar = () => {
+        if (globo && $globo.clientWidth) globo.width($globo.clientWidth).height($globo.clientHeight);
+        encuadrar();
+      };
       ajustar();
       medidor = new ResizeObserver(ajustar);
       medidor.observe($globo);
+      medidor.observe($mapa);
 
       const volar = (pais, ms) => {
         const f = geo.mapa.find((x) => porId.get(idDe(x)) === pais);
+        if (!f) return;
+        if (modo === "2d") return volarMapa(f, sinMovimiento ? 0 : ms * 0.6);
         // Más lejos en pantallas estrechas, para que el globo quepa entero.
-        if (f && globo) globo.pointOfView({ ...centro(f), altitude: $globo.clientWidth < 520 ? 2.5 : 2 }, ms);
+        if (globo) globo.pointOfView({ ...centro(f), altitude: $globo.clientWidth < 520 ? 2.5 : 2 }, ms);
       };
+
+      // ----- Globo o mapa -----
+      function ponerModo(nuevo, recordar) {
+        modo = nuevo === "2d" || !globo ? "2d" : "3d";
+        $globo.hidden = modo !== "3d";
+        $mapa.hidden = modo !== "2d";
+        $mapa.parentElement.classList.toggle("plano", modo === "2d");
+        for (const b of $("geo-modo").children) {
+          b.setAttribute("aria-pressed", String(b.dataset.modo === modo));
+          if (b.dataset.modo === "3d") b.disabled = !globo;
+        }
+        if (modo === "2d" && !lienzo) crearMapa();
+        if (globo) modo === "3d" ? globo.resumeAnimation() : globo.pauseAnimation();
+        ajustar();
+        const pais = visible || delDia;
+        if (pais) volar(pais, 0);
+        if (recordar) {
+          try {
+            localStorage.setItem("sophy-geo-modo", modo);
+          } catch {}
+        }
+      }
+      $("geo-modo").addEventListener("click", (e) => {
+        const b = e.target.closest("button");
+        if (b && b.dataset.modo !== modo) ponerModo(b.dataset.modo, true);
+      });
 
       // ----- Ficha -----
       async function mostrar(pais, conVuelo) {
@@ -705,6 +879,12 @@ if (typeof document !== "undefined") (function () {
         const y = $("geo-ficha").getBoundingClientRect().top + window.scrollY - $("cabecera").offsetHeight - 16;
         window.scrollTo({ top: y, behavior: sinMovimiento ? "auto" : "smooth" });
       });
+
+      let guardado = "3d";
+      try {
+        guardado = localStorage.getItem("sophy-geo-modo") || "3d";
+      } catch {}
+      ponerModo(guardado, false);
 
       resumen();
       if (delDia) {

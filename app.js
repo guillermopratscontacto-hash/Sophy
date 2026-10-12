@@ -525,6 +525,7 @@ if (typeof document !== "undefined") (function () {
         <div class="geo-globo" data-reveal>
           <div id="globo" class="globo"><p class="nota globo-aviso">Cargando el globo…</p></div>
           <button class="boton pequeno geo-hoy" id="geo-hoy" hidden>País del día</button>
+          <button class="geo-info" id="geo-info" aria-label="Ir a la información del país">Info ${svg('<path d="M12 5v14M5 12l7 7 7-7"/>')}</button>
         </div>
         <div class="geo-ficha" id="geo-ficha"></div>
       </div>`;
@@ -682,6 +683,10 @@ if (typeof document !== "undefined") (function () {
       }
 
       $("geo-hoy").addEventListener("click", () => delDia && mostrar(delDia, true));
+      $("geo-info").addEventListener("click", () => {
+        const y = $("geo-ficha").getBoundingClientRect().top + window.scrollY - $("cabecera").offsetHeight - 16;
+        window.scrollTo({ top: y, behavior: sinMovimiento ? "auto" : "smooth" });
+      });
 
       resumen();
       if (delDia) {

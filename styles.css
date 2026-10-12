@@ -858,6 +858,30 @@ button, input { font: inherit; color: inherit; }
   font: 500 0.82rem/1.2 var(--sans);
 }
 .geo-hoy { position: absolute; top: 12px; right: 12px; z-index: 2; }
+/* Aviso de que la ficha del país está debajo del globo (en pantallas anchas va al lado). */
+.geo-info {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  padding: 0 4px;
+  border: 0;
+  background: none;
+  color: var(--tinta);
+  font: 600 0.78rem/1 var(--sans);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 0.35s var(--ease);
+}
+.geo-info svg { width: 20px; height: 20px; animation: bajar 1.8s var(--ease) infinite; }
+.geo-info:hover { color: var(--rojo); }
+@keyframes bajar { 0%, 100% { transform: translateY(-2px); } 50% { transform: translateY(4px); } }
+@media (prefers-reduced-motion: reduce) { .geo-info svg { animation: none; } }
 
 .geo-ficha.entrando { animation: entrar 0.52s var(--ease-salida) both; }
 .ficha-cabecera { display: flex; align-items: center; gap: 22px; }
@@ -880,6 +904,7 @@ button, input { font: inherit; color: inherit; }
   .geo { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 64px; align-items: start; }
   .geo-globo { position: sticky; top: 104px; }
   .globo { height: calc(100vh - 150px); }
+  .geo-info { display: none; }
 }
 
 /* ---------- Cifras, calendario, historial ---------- */

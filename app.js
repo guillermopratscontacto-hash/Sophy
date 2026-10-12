@@ -1148,8 +1148,6 @@ if (typeof document !== "undefined") (function () {
   async function activarRecordatorio() {
     const $estado = $("aviso-estado");
     const $activar = $("aviso-activar");
-    const $probar = $("aviso-probar");
-    const $quitar = $("aviso-quitar");
     const sigue = () => $estado.isConnected;
     const HORA = "Cada día a las 20:00 (hora de Madrid), si aún no has completado nada, te avisaremos para que no pierdas la racha.";
 
@@ -1176,8 +1174,6 @@ if (typeof document !== "undefined") (function () {
       if (!sigue()) return;
       const activo = Boolean(sus) && Notification.permission === "granted";
       $activar.hidden = activo;
-      $probar.hidden = !activo;
-      $quitar.hidden = !activo;
       $estado.textContent =
         Notification.permission === "denied"
           ? "Las notificaciones de Sophy están bloqueadas en los ajustes de este dispositivo. Actívalas allí y vuelve a esta página."
@@ -1201,30 +1197,6 @@ if (typeof document !== "undefined") (function () {
         if (sigue()) $estado.textContent = "No se ha podido activar el recordatorio. Inténtalo de nuevo.";
       }
       $activar.disabled = false;
-    });
-
-    $quitar.addEventListener("click", async () => {
-      const sus = await registro.pushManager.getSubscription();
-      if (sus) {
-        await sb.from("avisos").delete().eq("endpoint", sus.endpoint);
-        await sus.unsubscribe();
-      }
-      try {
-        localStorage.setItem(CLAVE_AVISOS, "no");
-      } catch {}
-      pintar();
-    });
-
-    $probar.addEventListener("click", async () => {
-      $probar.disabled = true;
-      const { data, error } = await sb.functions.invoke("hyper-api", { body: {} });
-      if (sigue()) {
-        $estado.textContent =
-          error || !data || !data.enviados
-            ? "No se ha podido enviar el aviso de prueba."
-            : "Aviso de prueba enviado: debería llegarte en unos segundos.";
-        $probar.disabled = false;
-      }
     });
 
     pintar();
@@ -1265,8 +1237,6 @@ if (typeof document !== "undefined") (function () {
         <p class="nota" id="aviso-estado">Comprobando…</p>
         <p class="fila">
           <button class="boton" id="aviso-activar" hidden>Activar recordatorio</button>
-          <button class="boton linea" id="aviso-probar" hidden>Enviar aviso de prueba</button>
-          <button class="boton linea" id="aviso-quitar" hidden>Desactivar</button>
         </p>
       </div>
       <p style="margin-top:32px"><button class="boton linea" id="salir-cuenta">Cerrar sesión</button></p>`;
@@ -1457,7 +1427,7 @@ if (typeof document !== "undefined") (function () {
         <label class="campo">Contraseña <input type="password" name="clave" autocomplete="current-password" minlength="6" required></label>
         <label class="casilla"><input type="checkbox" name="terminos" required>
           <span>Acepto los <a href="#/terminos">términos y condiciones del servicio</a></span></label>
-        <label class="casilla"><input type="checkbox" name="avisos" required>
+        <label class="casilla"><input type="checkbox" name="avisos">
           <span>Acepto recibir notificaciones de Sophy, como el recordatorio diario de la racha</span></label>
         <div class="fila">
           <button class="boton" name="entrar">Entrar</button>
@@ -1472,10 +1442,11 @@ if (typeof document !== "undefined") (function () {
       if (!$form.reportValidity()) return;
       // El permiso de notificaciones hay que pedirlo aquí, en el mismo toque del botón:
       // el iPhone no deja pedirlo más tarde. El alta del dispositivo se hace al abrir la sesión.
+      const quiereAvisos = $form.avisos.checked;
       try {
-        localStorage.setItem(CLAVE_AVISOS, "si");
+        localStorage.setItem(CLAVE_AVISOS, quiereAvisos ? "si" : "no");
       } catch {}
-      if (avisosPosibles() && Notification.permission === "default") {
+      if (quiereAvisos && avisosPosibles() && Notification.permission === "default") {
         Promise.resolve(Notification.requestPermission())
           .then(() => suscribirAvisos())
           .catch(() => {});

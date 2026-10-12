@@ -182,6 +182,14 @@ if (typeof document !== "undefined") (function () {
     }
     const actual = $secciones.querySelector(".activa");
     if (actual) actual.scrollIntoView({ block: "nearest", inline: "center" });
+    // Biblioteca, en el menú lateral: las mismas subsecciones, agrupadas por sección.
+    $("menu-biblioteca").innerHTML = indice.temas
+      .filter((t) => t.subsecciones)
+      .map(
+        (t) => `<div class="menu-sub-grupo"><span class="antetitulo">${esc(t.nombre)}</span>
+          ${t.subsecciones.map((sub) => `<a href="#/biblioteca/${enc(sub.id)}">${esc(sub.nombre)}</a>`).join("")}</div>`
+      )
+      .join("");
     for (const enlace of $menu.querySelectorAll(".menu-enlaces a")) {
       enlace.classList.toggle("activa", enlace.getAttribute("href") === `#/${activa}`);
     }
@@ -1147,6 +1155,80 @@ if (typeof document !== "undefined") (function () {
     $form.crear.addEventListener("click", () => enviar(true));
   }
 
+  // ---------- Biblioteca ----------
+
+  // Sin tildes ni mayúsculas, para que «economia» encuentre «Economía».
+  const llano = (s) => String(s).normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+
+  function vistaBiblioteca(id) {
+    pintarSecciones("biblioteca");
+    const grupos = indice.temas.filter((t) => t.subsecciones);
+    const ids = grupos.flatMap((t) => t.subsecciones.map((sub) => sub.id));
+    const seccion = ids.includes(id) ? id : "";
+    const todas = indice.entradas.filter((e) => (seccion ? e.tema === seccion : ids.includes(e.tema)));
+    const fechas = todas.map((e) => e.fecha).sort();
+
+    $vista.innerHTML = `
+      <section class="biblio-cabecera" data-reveal>
+        <div>
+          ${seccion ? `<a class="volver" href="#/biblioteca">${ICONO.atras} Biblioteca</a>` : `<span class="antetitulo">Todo lo publicado</span>`}
+          <h1 class="titular-xl">${esc(seccion ? nombreTema(seccion) : "Biblioteca")}</h1>
+        </div>
+        <form class="biblio-filtros" id="biblio-filtros" role="search">
+          <input class="entrada" id="biblio-buscar" type="search" placeholder="Buscar por palabras" aria-label="Buscar por palabras" autocomplete="off">
+          <select class="entrada" id="biblio-orden" aria-label="Orden por fecha">
+            <option value="desc">Más recientes primero</option>
+            <option value="asc">Más antiguos primero</option>
+          </select>
+          <input class="entrada" id="biblio-fecha" type="date" aria-label="Ver solo una fecha"${fechas.length ? ` min="${fechas[0]}" max="${fechas[fechas.length - 1]}"` : ""}>
+          <button class="boton pequeno linea" id="biblio-limpiar" type="reset" hidden>Quitar filtros</button>
+        </form>
+      </section>
+      <nav class="subsecciones visibles" aria-label="Secciones de la biblioteca" data-reveal>
+        <a href="#/biblioteca"${seccion ? "" : ' class="actual"'}>Todas</a>
+        ${grupos
+          .flatMap((t) => t.subsecciones)
+          .map((sub) => `<a href="#/biblioteca/${enc(sub.id)}"${sub.id === seccion ? ' class="actual"' : ""}>${esc(sub.nombre)}</a>`)
+          .join("")}
+      </nav>
+      <p class="biblio-cuenta" id="biblio-cuenta" role="status"></p>
+      <div id="biblio-lista"></div>`;
+
+    const $buscar = $("biblio-buscar");
+    const $orden = $("biblio-orden");
+    const $fecha = $("biblio-fecha");
+
+    function pintar() {
+      const palabras = llano($buscar.value).split(/\s+/).filter(Boolean);
+      const signo = $orden.value === "asc" ? 1 : -1;
+      const orden = ids;
+      const lista = todas
+        .filter((e) => !$fecha.value || e.fecha === $fecha.value)
+        .filter((e) => {
+          const texto = llano(`${e.titulo} ${e.resumen || ""} ${nombreTema(e.tema)}`);
+          return palabras.every((p) => texto.includes(p));
+        })
+        .sort((x, y) => signo * x.fecha.localeCompare(y.fecha) || orden.indexOf(x.tema) - orden.indexOf(y.tema));
+      const filtrando = Boolean(palabras.length || $fecha.value);
+      $("biblio-limpiar").hidden = !filtrando && $orden.value === "desc";
+      $("biblio-cuenta").textContent = filtrando
+        ? `${plural(lista.length, "artículo", "artículos")} de ${todas.length}`
+        : plural(todas.length, "artículo", "artículos");
+      $("biblio-lista").innerHTML = lista.length
+        ? `<ul class="listado">${lista.map((e, i) => pieza(e, i, false)).join("")}</ul>`
+        : !todas.length
+        ? vacio("Próximamente", "Aquí aparecerá todo lo que se publique en esta sección.")
+        : vacio("Sin resultados", "Prueba con otras palabras o con otra fecha.");
+      activarApariciones();
+    }
+
+    const $filtros = $("biblio-filtros");
+    $filtros.addEventListener("input", pintar);
+    $filtros.addEventListener("submit", (e) => e.preventDefault());
+    $filtros.addEventListener("reset", () => setTimeout(pintar));
+    pintar();
+  }
+
   // ---------- Navegación y arranque ----------
 
   async function navegar() {
@@ -1171,6 +1253,7 @@ if (typeof document !== "undefined") (function () {
     if (!dentro) vistaAcceso();
     else if (ruta === "seccion" && a) vistaSeccion(a, vigente);
     else if (ruta === "leer" && a && b) await vistaLeer(a, b, vigente);
+    else if (ruta === "biblioteca") vistaBiblioteca(a);
     else if (ruta === "historial") vistaHistorial();
     else if (ruta === "usuario") vistaUsuario();
     else if (ruta === "friends") vistaFriends(vigente);

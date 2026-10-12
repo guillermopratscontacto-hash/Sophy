@@ -369,6 +369,8 @@ button, input { font: inherit; color: inherit; }
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 28px;
+  overflow-y: auto;
   background: var(--tinta);
   color: var(--blanco);
   box-shadow: var(--sombra);
@@ -407,7 +409,7 @@ button, input { font: inherit; color: inherit; }
 .menu-cerrar:hover::before, .menu-cerrar:hover::after { background: var(--rojo); }
 
 .menu-enlaces { display: grid; gap: 6px; }
-.menu-enlaces a {
+.menu-enlaces > a, .menu-grupo > a {
   display: block;
   padding: 10px 0;
   font: 500 clamp(2rem, 6vw, 2.6rem)/1.15 var(--serif-titular);
@@ -417,12 +419,30 @@ button, input { font: inherit; color: inherit; }
   transform: translateX(28px);
   transition: color 0.35s var(--ease), transform 0.6s var(--ease-salida), opacity 0.5s var(--ease);
 }
-.menu-abierto .menu-enlaces a { opacity: 1; transform: none; }
-.menu-abierto .menu-enlaces a:nth-child(1) { transition-delay: 0s, 0.12s, 0.12s; }
-.menu-abierto .menu-enlaces a:nth-child(2) { transition-delay: 0s, 0.18s, 0.18s; }
-.menu-abierto .menu-enlaces a:nth-child(3) { transition-delay: 0s, 0.24s, 0.24s; }
-.menu-abierto .menu-enlaces a:nth-child(4) { transition-delay: 0s, 0.3s, 0.3s; }
-.menu-abierto .menu-enlaces a:hover { color: var(--rojo); transform: translateX(8px); transition-delay: 0s; }
+.menu-abierto .menu-enlaces > a, .menu-abierto .menu-grupo > a { opacity: 1; transform: none; }
+.menu-abierto .menu-grupo > a { transition-delay: 0s, 0.12s, 0.12s; }
+.menu-abierto .menu-enlaces > a:nth-child(2) { transition-delay: 0s, 0.18s, 0.18s; }
+.menu-abierto .menu-enlaces > a:nth-child(3) { transition-delay: 0s, 0.24s, 0.24s; }
+.menu-abierto .menu-enlaces > a:nth-child(4) { transition-delay: 0s, 0.3s, 0.3s; }
+.menu-abierto .menu-enlaces > a:nth-child(5) { transition-delay: 0s, 0.36s, 0.36s; }
+.menu-abierto .menu-enlaces > a:hover, .menu-abierto .menu-grupo > a:hover { color: var(--rojo); transform: translateX(8px); transition-delay: 0s; }
+
+/* Biblioteca: sus subsecciones se despliegan al pasar el ratón (o siempre, en pantallas táctiles). */
+.menu-sub { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.55s var(--ease-salida); }
+.menu-sub-dentro { min-height: 0; overflow: hidden; display: grid; grid-template-columns: 1fr 1fr; gap: 0 24px; }
+.menu-grupo:hover .menu-sub, .menu-grupo:focus-within .menu-sub { grid-template-rows: 1fr; }
+.menu-sub-grupo { display: grid; align-content: start; padding: 6px 0 16px; }
+.menu-sub-grupo .antetitulo { margin-bottom: 6px; color: rgba(var(--blanco-rgb), 0.5); }
+.menu-sub-grupo a {
+  padding: 7px 0;
+  font: 500 1rem/1.25 var(--sans);
+  text-decoration: none;
+  color: rgba(var(--blanco-rgb), 0.82);
+  transition: color 0.35s var(--ease), transform 0.45s var(--ease-salida);
+}
+.menu-sub-grupo a:hover { color: var(--rojo); transform: translateX(6px); }
+.menu-sub-grupo a.activa { color: var(--blanco); font-style: italic; }
+@media (hover: none) { .menu-sub { grid-template-rows: 1fr; } }
 .menu-enlaces a.activa { font-style: italic; }
 .contador {
   display: inline-grid;
@@ -794,6 +814,22 @@ button, input { font: inherit; color: inherit; }
 .subsecciones a:hover { color: var(--rojo); border-color: var(--rojo); transform: scale(1.05); }
 .subsecciones a:active { transform: scale(0.98); }
 
+
+/* ---------- Biblioteca ---------- */
+
+.vista .subsecciones.visibles { display: flex; }
+.subsecciones a.actual { background: var(--tinta); border-color: var(--tinta); color: var(--blanco); }
+.biblio-cabecera { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 24px 40px; }
+.biblio-filtros { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 10px; flex: 1 1 520px; max-width: 860px; }
+.biblio-filtros .entrada { width: auto; flex: 0 1 auto; }
+.biblio-filtros #biblio-buscar { flex: 1 1 220px; }
+.biblio-filtros select.entrada { cursor: pointer; }
+.biblio-cuenta { margin: 28px 0 0; font: 500 0.72rem/1.3 var(--sans); letter-spacing: 0.14em; text-transform: uppercase; color: var(--suave); }
+@media (max-width: 640px) {
+  .biblio-filtros { justify-content: stretch; flex-basis: 100%; }
+  .biblio-filtros .entrada { flex: 1 1 140px; }
+  .biblio-filtros #biblio-buscar { flex-basis: 100%; }
+}
 
 /* ---------- Geografía ---------- */
 

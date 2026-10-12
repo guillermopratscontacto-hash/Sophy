@@ -56,6 +56,62 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-10-12",
+      "tema": "economia",
+      "titulo": "El FMI y el Banco Mundial abren en Bangkok sus reuniones bajo la sombra de la guerra de Irán y la deuda récord",
+      "resumen": "El FMI y el Banco Mundial se reúnen en Bangkok con la guerra de Irán, la energía y la deuda récord como asuntos centrales.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/202307%20Queen%20Sirikit%20National%20Convention%20Center%2001.jpg?width=1200",
+      "archivo": "contenido/2026-10-12/economia.md"
+    },
+    {
+      "fecha": "2026-10-12",
+      "tema": "politica-espanola",
+      "titulo": "Sánchez y Abascal abren la precampaña de las generales del 29 de noviembre con actos centrados en la vivienda y la inmigración",
+      "resumen": "Sánchez habla de vivienda en Ponferrada y Abascal de «prioridad nacional» en Estepona en el arranque de la precampaña del 29-N.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Congreso%20de%20los%20Diputados%2C%20Madrid.jpg?width=1200",
+      "archivo": "contenido/2026-10-12/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-10-12",
+      "tema": "politica-internacional",
+      "titulo": "Liberados en la India los tres líderes del movimiento «Cucaracha» tras la jornada de detenciones en Delhi",
+      "resumen": "Un tribunal libera a Dipke y a otros dos líderes del movimiento juvenil tras las detenciones en Delhi; el Gobierno rechaza las críticas.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Jantar%20Mantar%20New%20Delhi.jpg?width=1200",
+      "archivo": "contenido/2026-10-12/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-10-12",
+      "tema": "internacional",
+      "titulo": "Panamá declara el estado de emergencia nacional tras más de 200 réplicas del terremoto de magnitud 7,7",
+      "resumen": "Más de 200 réplicas, 27 heridos y casi 900 viviendas dañadas tras el seísmo de magnitud 7,7; el Gobierno prevé hasta 100 millones.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Catedral%20de%20penonom%C3%A9.jpg?width=1200",
+      "archivo": "contenido/2026-10-12/internacional.md"
+    },
+    {
+      "fecha": "2026-10-12",
+      "tema": "arte",
+      "titulo": "La gran ola de Hokusai: la estampa japonesa que convirtió una ola en icono mundial",
+      "resumen": "La estampa de Hokusai, hacia 1831, mezcla grabado en madera, azul de Prusia y una composición que rompió con la tradición.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Katsushika%20Hokusai%20-%20The%20Great%20Wave%20off%20the%20Coast%20of%20Kanagawa%20LCCN2008660568.jpg?width=1200",
+      "archivo": "contenido/2026-10-12/arte.md"
+    },
+    {
+      "fecha": "2026-10-12",
+      "tema": "historia",
+      "titulo": "Los guerreros de terracota: el ejército que un emperador se llevó a la tumba",
+      "resumen": "Hallado en 1974 junto a la tumba de Qin Shi Huang, el ejército de arcilla guarda miles de figuras y un mausoleo aún sin abrir.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Terracotta%20Army%20-%20Pit%201%201.JPG?width=1200",
+      "archivo": "contenido/2026-10-12/historia.md"
+    },
+    {
+      "fecha": "2026-10-12",
+      "tema": "literatura",
+      "titulo": "«Pedro Páramo»: la breve novela de Juan Rulfo en la que los muertos hablan",
+      "resumen": "La novela de Rulfo (1955), fragmentaria y habitada por muertos, marcó a García Márquez y a toda la narrativa latinoamericana.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Plaza%20de%20Comala.jpg?width=1200",
+      "archivo": "contenido/2026-10-12/literatura.md"
+    },
+    {
       "fecha": "2026-10-11",
       "tema": "politica-espanola",
       "titulo": "El Supremo tiene dos días para decidir si los nacionalizados por la ley de nietos votarán el 29 de noviembre",

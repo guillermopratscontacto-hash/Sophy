@@ -464,6 +464,9 @@ if (typeof document !== "undefined") (function () {
       document.head.append(s);
     });
 
+  // El contador muestra el total de Estados miembros de la ONU, aunque todavía no estén todos publicados.
+  const PAISES_ONU = 193;
+
   // El progreso de Geografía se guarda en la misma tabla, con tema "geo:<id del país>".
   const geoHechos = () => new Map(progreso.filter((p) => p.tema.startsWith("geo:")).map((p) => [p.tema.slice(4), p.dia]));
 
@@ -573,7 +576,7 @@ if (typeof document !== "undefined") (function () {
 
       function resumen() {
         const hechos = geoHechos();
-        $("geo-resumen").textContent = `${hechos.size} de ${plural(paises.length, "país completado", "países completados")}.`;
+        $("geo-resumen").textContent = `${hechos.size} de ${PAISES_ONU} países completados.`;
       }
 
       // El nombre del país señalado se escribe encima del globo, no junto al puntero:

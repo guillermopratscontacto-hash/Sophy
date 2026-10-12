@@ -7,6 +7,166 @@
       "geo": "contenido/geografia/geo/tibet.json",
       "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tibet.svg?width=640",
       "archivo": "contenido/geografia/tibet.md"
+    },
+    {
+      "id": "espana",
+      "iso": "ESP",
+      "nombre": "España",
+      "capital": "Madrid",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Spain.svg?width=640",
+      "archivo": "contenido/geografia/espana.md"
+    },
+    {
+      "id": "francia",
+      "iso": "FRA",
+      "nombre": "Francia",
+      "capital": "París",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20France.svg?width=640",
+      "archivo": "contenido/geografia/francia.md"
+    },
+    {
+      "id": "italia",
+      "iso": "ITA",
+      "nombre": "Italia",
+      "capital": "Roma",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Italy.svg?width=640",
+      "archivo": "contenido/geografia/italia.md"
+    },
+    {
+      "id": "grecia",
+      "iso": "GRC",
+      "nombre": "Grecia",
+      "capital": "Atenas",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Greece.svg?width=640",
+      "archivo": "contenido/geografia/grecia.md"
+    },
+    {
+      "id": "egipto",
+      "iso": "EGY",
+      "nombre": "Egipto",
+      "capital": "El Cairo",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Egypt.svg?width=640",
+      "archivo": "contenido/geografia/egipto.md"
+    },
+    {
+      "id": "marruecos",
+      "iso": "MAR",
+      "nombre": "Marruecos",
+      "capital": "Rabat",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Morocco.svg?width=640",
+      "archivo": "contenido/geografia/marruecos.md"
+    },
+    {
+      "id": "kenia",
+      "iso": "KEN",
+      "nombre": "Kenia",
+      "capital": "Nairobi",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kenya.svg?width=640",
+      "archivo": "contenido/geografia/kenia.md"
+    },
+    {
+      "id": "sudafrica",
+      "iso": "ZAF",
+      "nombre": "Sudáfrica",
+      "capital": "Pretoria",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Africa.svg?width=640",
+      "archivo": "contenido/geografia/sudafrica.md"
+    },
+    {
+      "id": "etiopia",
+      "iso": "ETH",
+      "nombre": "Etiopía",
+      "capital": "Adís Abeba",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ethiopia.svg?width=640",
+      "archivo": "contenido/geografia/etiopia.md"
+    },
+    {
+      "id": "japon",
+      "iso": "JPN",
+      "nombre": "Japón",
+      "capital": "Tokio",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Japan.svg?width=640",
+      "archivo": "contenido/geografia/japon.md"
+    },
+    {
+      "id": "china",
+      "iso": "CHN",
+      "nombre": "China",
+      "capital": "Pekín",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20People%27s%20Republic%20of%20China.svg?width=640",
+      "archivo": "contenido/geografia/china.md"
+    },
+    {
+      "id": "india",
+      "iso": "IND",
+      "nombre": "India",
+      "capital": "Nueva Delhi",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20India.svg?width=640",
+      "archivo": "contenido/geografia/india.md"
+    },
+    {
+      "id": "turquia",
+      "iso": "TUR",
+      "nombre": "Turquía",
+      "capital": "Ankara",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Turkey.svg?width=640",
+      "archivo": "contenido/geografia/turquia.md"
+    },
+    {
+      "id": "jordania",
+      "iso": "JOR",
+      "nombre": "Jordania",
+      "capital": "Amán",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Jordan.svg?width=640",
+      "archivo": "contenido/geografia/jordania.md"
+    },
+    {
+      "id": "estados-unidos",
+      "iso": "USA",
+      "nombre": "Estados Unidos",
+      "capital": "Washington D. C.",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20United%20States.svg?width=640",
+      "archivo": "contenido/geografia/estados-unidos.md"
+    },
+    {
+      "id": "mexico",
+      "iso": "MEX",
+      "nombre": "México",
+      "capital": "Ciudad de México",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mexico.svg?width=640",
+      "archivo": "contenido/geografia/mexico.md"
+    },
+    {
+      "id": "peru",
+      "iso": "PER",
+      "nombre": "Perú",
+      "capital": "Lima",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Peru.svg?width=640",
+      "archivo": "contenido/geografia/peru.md"
+    },
+    {
+      "id": "brasil",
+      "iso": "BRA",
+      "nombre": "Brasil",
+      "capital": "Brasilia",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Brazil.svg?width=640",
+      "archivo": "contenido/geografia/brasil.md"
+    },
+    {
+      "id": "argentina",
+      "iso": "ARG",
+      "nombre": "Argentina",
+      "capital": "Buenos Aires",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Argentina.svg?width=640",
+      "archivo": "contenido/geografia/argentina.md"
+    },
+    {
+      "id": "australia",
+      "iso": "AUS",
+      "nombre": "Australia",
+      "capital": "Canberra",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Australia.svg?width=640",
+      "archivo": "contenido/geografia/australia.md"
     }
   ]
 }

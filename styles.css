@@ -849,14 +849,21 @@ button, input { font: inherit; color: inherit; }
 }
 .globo:active { cursor: grabbing; }
 .globo-aviso { margin: 0; }
-.globo-etiqueta {
-  display: inline-block;
-  padding: 6px 12px;
-  border-radius: 999px;
-  background: var(--tinta);
-  color: var(--blanco);
-  font: 500 0.82rem/1.2 var(--sans);
+.geo-nombre {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  z-index: 2;
+  max-width: calc(100% - 150px);
+  min-height: 40px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  font: 600 clamp(1.5rem, 4.5vw, 2.4rem)/1.1 var(--serif-titular);
+  letter-spacing: -0.01em;
+  pointer-events: none;
 }
+.geo-nombre.entrando { animation: entrar 0.4s var(--ease-salida) both; }
 .geo-hoy { position: absolute; top: 12px; right: 12px; z-index: 2; }
 /* Aviso de que la ficha del país está debajo del globo (en pantallas anchas va al lado). */
 .geo-info {

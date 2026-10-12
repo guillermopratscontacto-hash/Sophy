@@ -524,6 +524,7 @@ if (typeof document !== "undefined") (function () {
       <div class="geo">
         <div class="geo-globo" data-reveal>
           <div id="globo" class="globo"><p class="nota globo-aviso">Cargando el globo…</p></div>
+          <p class="geo-nombre" id="geo-nombre" aria-live="polite"></p>
           <button class="boton pequeno geo-hoy" id="geo-hoy" hidden>País del día</button>
           <button class="geo-info" id="geo-info" aria-label="Ir a la información del país">Info ${svg('<path d="M12 5v14M5 12l7 7 7-7"/>')}</button>
         </div>
@@ -571,6 +572,18 @@ if (typeof document !== "undefined") (function () {
         $("geo-resumen").textContent = `${hechos.size} de ${plural(paises.length, "país completado", "países completados")}.`;
       }
 
+      // El nombre del país señalado se escribe encima del globo, no junto al puntero:
+      // así no se pisan varios nombres, sobre todo en el móvil.
+      let elegido = ""; // último país pulsado
+      const nombrar = (nombre) => {
+        const $nombre = $("geo-nombre");
+        if (!$nombre || $nombre.textContent === nombre) return;
+        $nombre.textContent = nombre;
+        $nombre.classList.remove("entrando");
+        void $nombre.offsetWidth;
+        $nombre.classList.add("entrando");
+      };
+
       // ----- Globo -----
       const $globo = $("globo");
       $globo.textContent = "";
@@ -583,12 +596,15 @@ if (typeof document !== "undefined") (function () {
           .polygonsData(geo.mapa)
           .polygonSideColor(() => color("--arena"))
           .polygonStrokeColor(() => `rgba(${color("--tinta-rgb")}, 0.45)`)
-          .polygonLabel((f) => `<span class="globo-etiqueta">${esc(f.properties.nombre)}</span>`)
+          .polygonLabel(() => "")
           .polygonsTransitionDuration(500)
           .onPolygonHover((f) => {
             $globo.style.cursor = f && estado(f) !== "resto" ? "pointer" : "grab";
+            nombrar(f ? f.properties.nombre : elegido);
           })
           .onPolygonClick((f) => {
+            elegido = f.properties.nombre;
+            nombrar(elegido);
             const pais = porId.get(idDe(f));
             if (pais && estado(f) !== "resto") mostrar(pais, true);
           });
@@ -620,6 +636,8 @@ if (typeof document !== "undefined") (function () {
       // ----- Ficha -----
       async function mostrar(pais, conVuelo) {
         visible = pais;
+        elegido = pais.nombre;
+        nombrar(elegido);
         $("geo-hoy").hidden = !delDia || pais.id === delDia.id;
         if (conVuelo) volar(pais, 1400);
         if (!textos.has(pais.id)) {

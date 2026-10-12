@@ -18,7 +18,26 @@ Usa la fecha de hoy en la zona horaria Europe/Madrid (`HOY`, formato `AAAA-MM-DD
 
 Las cuatro primeras forman la sección News de la web; las tres últimas, la sección Cultura.
 
-Antes de elegir tema para `arte`, `historia` y `literatura`, lee los títulos ya publicados de esa sección en `contenido/indice.json` y no repitas ninguno. Varía de época, región y disciplina respecto a las últimas ediciones. En las secciones de actualidad, si una historia continúa de un día anterior, cuenta solo lo nuevo.
+### Nada se repite
+
+Todas las piezas de cada edición son nuevas. Antes de elegir ningún tema, saca del índice todo lo ya publicado en cada sección (la lista completa, no solo los últimos días):
+
+```bash
+python3 -c "
+import json
+for e in json.load(open('contenido/indice.json', encoding='utf-8'))['entradas']:
+    print(e['tema'], '|', e['fecha'], '|', e['titulo'])
+" | sort
+```
+
+- **`arte`, `historia` y `literatura` no repiten nunca asunto.** No basta con cambiar el titular: si ya se publicó una pieza sobre una obra, un autor, un personaje, un objeto, un episodio o un movimiento, ese asunto queda agotado para siempre, también desde otro ángulo. Si ya hay un reportaje sobre *Las Meninas*, no vale otro sobre *Las Meninas* ni uno sobre el espejo de *Las Meninas*; elige otra obra.
+- Tampoco repitas autor, artista o civilización protagonista hasta que hayan pasado al menos 30 ediciones de esa sección.
+- Varía respecto a las cinco últimas ediciones de la sección: otra época, otra región del mundo y otra disciplina o género. Alterna Europa con Asia, África, América y Oceanía, y lo antiguo con lo moderno y lo contemporáneo.
+- Un mismo asunto no puede aparecer el mismo día en dos secciones de Cultura.
+- En las secciones de actualidad, cada pieza cuenta un hecho distinto de los ya publicados. Si una historia continúa de un día anterior, cuenta solo lo nuevo, con otro titular y otra imagen.
+- Tampoco repitas imagen: no uses una URL que ya esté en el campo `imagen` del índice.
+
+Cuando tengas elegidos los siete temas, vuelve a compararlos con esa lista antes de escribir.
 
 Ninguna sección puede quedar vacía por falta de noticia de ayer. Si ayer no hubo una noticia relevante en una sección (pasa sobre todo en `economia` los fines de semana, con los mercados cerrados), cubre la más relevante de los últimos tres días que no esté ya publicada en el índice, y pon en la data la fecha real del hecho.
 
@@ -108,6 +127,6 @@ No modifiques `temas` ni las entradas anteriores.
 ## Reglas
 
 - Solo puedes crear archivos en `contenido/HOY/` y añadir entradas a `contenido/indice.json`. No edites ni borres ediciones anteriores, ni el código de la web (`index.html`, `app.js`, `styles.css`, `config.js`, `supabase/`).
-- Antes de publicar, comprueba que `contenido/indice.json` es JSON válido, que los siete archivos existen y que cada `archivo` del índice apunta a uno real.
+- Antes de publicar, comprueba que `contenido/indice.json` es JSON válido, que los siete archivos existen, que cada `archivo` del índice apunta a uno real y que ningún asunto ni imagen de hoy coincide con una edición anterior.
 - Publica con un único commit en la rama `main`, con el mensaje `Edición del HOY`, y haz push. GitHub Pages actualiza la web solo.
 - Si una sección no puede completarse con garantías, publica las demás y explica en el mensaje del commit cuál falta y por qué. Es preferible una sección menos que una noticia sin verificar.

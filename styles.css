@@ -794,9 +794,6 @@ button, input { font: inherit; color: inherit; }
 .subsecciones a:hover { color: var(--rojo); border-color: var(--rojo); transform: scale(1.05); }
 .subsecciones a:active { transform: scale(0.98); }
 
-.racha-seccion { display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: var(--suave); }
-.racha-seccion svg { width: 15px; height: 15px; }
-.racha-seccion.encendida { color: var(--rojo); }
 
 /* ---------- Geografía ---------- */
 

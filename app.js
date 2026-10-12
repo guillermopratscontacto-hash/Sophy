@@ -125,7 +125,6 @@ if (typeof document !== "undefined") (function () {
   const hojas = () => indice.temas.flatMap((t) => (t.subsecciones ? t.subsecciones.map((s) => ({ ...s, padre: t.id })) : [t]));
   const temaDe = (id) => hojas().find((t) => t.id === id) || indice.temas.find((t) => t.id === id) || { id, nombre: id };
   const nombreTema = (id) => temaDe(id).nombre;
-  const diasDe = (tema) => new Set(progreso.filter((p) => p.tema === tema).map((p) => p.dia));
   const registroDe = (e) => progreso.find((p) => p.fecha === e.fecha && p.tema === e.tema);
   const estaHecha = (e) => Boolean(registroDe(e));
   const diasHechos = () => new Set(progreso.map((p) => p.dia));
@@ -150,7 +149,6 @@ if (typeof document !== "undefined") (function () {
   let cerrarDesplegable = false; // tras elegir una opción, el desplegable se cierra hasta que el ratón salga
 
   function pintarSecciones(activa) {
-    const hoy = fechaLocal();
     const raiz = temaDe(activa).padre || activa;
     $secciones.innerHTML = indice.temas
       .map((t) => {
@@ -163,7 +161,6 @@ if (typeof document !== "undefined") (function () {
             return `<a class="opcion${sub.id === activa ? " actual" : ""}" style="--i:${i}" href="#/seccion/${enc(sub.id)}">
               <span class="opcion-nombre">${esc(sub.nombre)}</span>
               <span class="opcion-titular">${ultima ? esc(ultima.titulo) : "Próximamente"}</span>
-              ${rachaSeccion(sub.id, hoy)}
             </a>`;
           })
           .join("");
@@ -396,11 +393,6 @@ if (typeof document !== "undefined") (function () {
       ${pendientes.length ? `<h2 class="rotulo">Pendiente de días anteriores</h2>${piezas(pendientes, false)}` : ""}`;
   }
 
-  const rachaSeccion = (id, hoy) => {
-    const dias = diasDe(id);
-    return `<span class="racha-seccion${dias.has(hoy) ? " encendida" : ""}">${ICONO.llama}${calcularRacha(dias, hoy)}</span>`;
-  };
-
   function vistaSeccion(id, vigente) {
     pintarSecciones(id);
     const hoy = fechaLocal();
@@ -425,7 +417,7 @@ if (typeof document !== "undefined") (function () {
           <h1 class="titular-xl">${esc(tema.nombre)}</h1>
         </section>
         <nav class="subsecciones" aria-label="Secciones de ${esc(tema.nombre)}" data-reveal>
-          ${tema.subsecciones.map((sub) => `<a href="#/seccion/${enc(sub.id)}">${esc(sub.nombre)}${rachaSeccion(sub.id, hoy)}</a>`).join("")}
+          ${tema.subsecciones.map((sub) => `<a href="#/seccion/${enc(sub.id)}">${esc(sub.nombre)}</a>`).join("")}
         </nav>
         ${listado || `<div style="margin-top:44px">${vacio("Próximamente", "Aquí aparecerá el contenido de esta sección, día a día.")}</div>`}`;
       return;
@@ -433,11 +425,9 @@ if (typeof document !== "undefined") (function () {
 
     const entradas = recientes(indice.entradas.filter((e) => e.tema === id));
     const hechas = entradas.filter(estaHecha).length;
-    const dias = diasDe(id);
-    const n = calcularRacha(dias, hoy);
     const resumen = !entradas.length
       ? "Esta sección todavía está en preparación."
-      : `Racha en esta sección: ${plural(n, "día", "días")}${dias.has(hoy) ? ", y hoy ya cuenta" : ""}. Has completado ${hechas} de ${plural(entradas.length, "edición", "ediciones")}.`;
+      : `Has completado ${hechas} de ${plural(entradas.length, "edición", "ediciones")}.`;
     $vista.innerHTML = `
       <section data-reveal>
         ${
@@ -468,7 +458,6 @@ if (typeof document !== "undefined") (function () {
 
   // El progreso de Geografía se guarda en la misma tabla, con tema "geo:<id del país>".
   const geoHechos = () => new Map(progreso.filter((p) => p.tema.startsWith("geo:")).map((p) => [p.tema.slice(4), p.dia]));
-  const geoDias = () => new Set(progreso.filter((p) => p.tema.startsWith("geo:")).map((p) => p.dia));
 
   // País del día: el completado hoy, si lo hay; si no, uno al azar entre los pendientes.
   // El sorteo depende del usuario y de cuántos lleva, así que no cambia hasta completarlo.
@@ -570,8 +559,7 @@ if (typeof document !== "undefined") (function () {
 
       function resumen() {
         const hechos = geoHechos();
-        const dias = geoDias();
-        $("geo-resumen").textContent = `${hechos.size} de ${plural(paises.length, "país completado", "países completados")} · Racha en Geografía: ${plural(calcularRacha(dias, hoy), "día", "días")}${dias.has(hoy) ? ", y hoy ya cuenta" : ""}.`;
+        $("geo-resumen").textContent = `${hechos.size} de ${plural(paises.length, "país completado", "países completados")}.`;
       }
 
       // ----- Globo -----
@@ -640,7 +628,7 @@ if (typeof document !== "undefined") (function () {
         const completado = geoHechos().get(pais.id);
         const esDelDia = delDia && pais.id === delDia.id;
         const pie = completado
-          ? `<div class="fin hecho">${ICONO.hecho} Completado el ${esc(fechaCorta(completado))} · Racha en Geografía: ${plural(calcularRacha(geoDias(), hoy), "día", "días")}</div>`
+          ? `<div class="fin hecho">${ICONO.hecho} Completado el ${esc(fechaCorta(completado))}</div>`
           : `<div class="siguiente"><button class="boton" id="geo-completar">Día completado</button></div>`;
         $("geo-ficha").innerHTML = `
           <article class="ficha-pais">
@@ -771,9 +759,8 @@ if (typeof document !== "undefined") (function () {
 
     const $fin = $("fin");
     const marcarHecha = () => {
-      const n = calcularRacha(diasDe(tema), fechaLocal());
       $fin.classList.add("hecho");
-      $fin.innerHTML = `${ICONO.hecho} Sección completada · Racha en ${esc(nombreTema(tema))}: ${plural(n, "día", "días")}`;
+      $fin.innerHTML = `${ICONO.hecho} Sección completada`;
       // Enlace a la siguiente pieza sin completar de la misma edición.
       const orden = hojas().map((t) => t.id);
       const resto = indice.entradas
@@ -888,27 +875,12 @@ if (typeof document !== "undefined") (function () {
           .join("")}</ul>`
       : vacio("Aún no hay nada aquí", "Las secciones que completes aparecerán en este registro.");
 
-    const conContenido = hojas().filter((t) => t.tipo === "geografia" || indice.entradas.some((e) => e.tema === t.id));
-    const porSeccion = conContenido.length
-      ? `<h2 class="rotulo">Racha por sección</h2>
-         <ul class="registro">${conContenido
-           .map((t, i) => {
-             const d = t.tipo === "geografia" ? geoDias() : diasDe(t.id);
-             return `<li data-reveal style="--i:${Math.min(i, 6)}"><a href="#/seccion/${enc(t.id)}">
-               <b>${esc(t.nombre)}</b>
-               <span class="fila"><span class="racha-seccion${d.has(hoy) ? " encendida" : ""}">${ICONO.llama}${calcularRacha(d, hoy)}</span> mejor racha: ${plural(mejorRacha(d), "día", "días")} · ${plural(d.size, "día activo", "días activos")}</span>
-             </a></li>`;
-           })
-           .join("")}</ul>`
-      : "";
-
     $vista.innerHTML = `
       <section data-reveal>
         <span class="antetitulo">Tu recorrido</span>
         <h1 class="titular-xl">Historial</h1>
       </section>
       ${cifras()}
-      ${porSeccion}
       <h2 class="rotulo">Últimas cinco semanas</h2>
       <div class="calendario" data-reveal>${celdas}</div>
       <h2 class="rotulo">Secciones completadas</h2>

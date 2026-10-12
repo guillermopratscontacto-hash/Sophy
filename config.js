@@ -6,4 +6,7 @@
 window.CONFIG = {
   SUPABASE_URL: "https://mgqryktywqdlifdksxjv.supabase.co",
   SUPABASE_ANON_KEY: "sb_publishable_hAPFgnZiCJ0lg3nDLX0CLg_UYwY3N21",
+  // Clave pública de los avisos (recordatorio de racha). También es pública por
+  // diseño; la privada vive solo en Supabase, como secreto de la función.
+  VAPID_PUBLIC_KEY: "BDnCM5f4fvDUvzaIksTS-nB5tHqtnYxg9X_f3tD6xTo0-_yEY6k8IhTfayrQWqdGtdAGLbFByar0HviV-F4VWOs",
 };

@@ -1118,6 +1118,100 @@ if (typeof document !== "undefined") (function () {
     });
   }
 
+  // Recordatorio de racha: una notificación a las 20:00 si ese día no se ha completado nada.
+  // El navegador da una «dirección» del dispositivo, que se guarda en la tabla avisos;
+  // el envío lo hace Supabase (supabase/functions/recordatorio).
+  async function activarRecordatorio() {
+    const $estado = $("aviso-estado");
+    const $activar = $("aviso-activar");
+    const $probar = $("aviso-probar");
+    const $quitar = $("aviso-quitar");
+    const sigue = () => $estado.isConnected;
+    const HORA = "Cada día a las 20:00 (hora de Madrid), si aún no has completado nada, te avisaremos para que no pierdas la racha.";
+
+    if (!("serviceWorker" in navigator) || !("PushManager" in window) || !("Notification" in window) || !cfg.VAPID_PUBLIC_KEY) {
+      const enIphone = /iPhone|iPad|iPod/.test(navigator.userAgent);
+      $estado.textContent = enIphone
+        ? "Para recibir el recordatorio en el iPhone, instala Sophy en la pantalla de inicio (Compartir > Añadir a pantalla de inicio) y ábrela desde su icono."
+        : "Este navegador no admite notificaciones.";
+      return;
+    }
+
+    let registro;
+    try {
+      registro = await navigator.serviceWorker.register("sw.js");
+      await navigator.serviceWorker.ready;
+    } catch {
+      if (sigue()) $estado.textContent = "No se han podido preparar las notificaciones en este dispositivo.";
+      return;
+    }
+    if (!sigue()) return;
+
+    // La clave pública, de texto (base64url) a bytes, que es como la pide Safari.
+    const b64 = cfg.VAPID_PUBLIC_KEY.replace(/-/g, "+").replace(/_/g, "/");
+    const clave = Uint8Array.from(atob(b64 + "=".repeat((4 - (b64.length % 4)) % 4)), (c) => c.charCodeAt(0));
+
+    async function pintar() {
+      const sus = await registro.pushManager.getSubscription();
+      if (!sigue()) return;
+      const activo = Boolean(sus) && Notification.permission === "granted";
+      $activar.hidden = activo;
+      $probar.hidden = !activo;
+      $quitar.hidden = !activo;
+      $estado.textContent =
+        Notification.permission === "denied"
+          ? "Las notificaciones de Sophy están bloqueadas en los ajustes de este dispositivo. Actívalas allí y vuelve a esta página."
+          : activo
+          ? `Recordatorio activado en este dispositivo. ${HORA}`
+          : HORA;
+      if (Notification.permission === "denied") $activar.hidden = true;
+    }
+
+    $activar.addEventListener("click", async () => {
+      $activar.disabled = true;
+      try {
+        if ((await Notification.requestPermission()) === "granted") {
+          const sus = await registro.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: clave });
+          const datos = sus.toJSON();
+          const { error } = await sb
+            .from("avisos")
+            .upsert({ endpoint: datos.endpoint, user_id: usuario.id, p256dh: datos.keys.p256dh, auth: datos.keys.auth }, { onConflict: "endpoint" });
+          if (error) {
+            await sus.unsubscribe();
+            throw error;
+          }
+        }
+        await pintar();
+      } catch {
+        if (sigue()) $estado.textContent = "No se ha podido activar el recordatorio. Inténtalo de nuevo.";
+      }
+      $activar.disabled = false;
+    });
+
+    $quitar.addEventListener("click", async () => {
+      const sus = await registro.pushManager.getSubscription();
+      if (sus) {
+        await sb.from("avisos").delete().eq("endpoint", sus.endpoint);
+        await sus.unsubscribe();
+      }
+      pintar();
+    });
+
+    $probar.addEventListener("click", async () => {
+      $probar.disabled = true;
+      const { data, error } = await sb.functions.invoke("recordatorio", { body: {} });
+      if (sigue()) {
+        $estado.textContent =
+          error || !data || !data.enviados
+            ? "No se ha podido enviar el aviso de prueba."
+            : "Aviso de prueba enviado: debería llegarte en unos segundos.";
+        $probar.disabled = false;
+      }
+    });
+
+    pintar();
+  }
+
   function vistaUsuario() {
     pintarSecciones("usuario");
     if (!remoto) {
@@ -1148,9 +1242,19 @@ if (typeof document !== "undefined") (function () {
         }
         <div><dt>Miembro desde</dt><dd>${esc(fechaCorta(fechaLocal(new Date(usuario.created_at))))}</dd></div>
       </dl>
+      <h2 class="rotulo">Recordatorio</h2>
+      <div class="recordatorio" data-reveal>
+        <p class="nota" id="aviso-estado">Comprobando…</p>
+        <p class="fila">
+          <button class="boton" id="aviso-activar" hidden>Activar recordatorio</button>
+          <button class="boton linea" id="aviso-probar" hidden>Enviar aviso de prueba</button>
+          <button class="boton linea" id="aviso-quitar" hidden>Desactivar</button>
+        </p>
+      </div>
       <p style="margin-top:32px"><button class="boton linea" id="salir-cuenta">Cerrar sesión</button></p>`;
 
     activarCopia();
+    activarRecordatorio();
     $("salir-cuenta").addEventListener("click", () => sb.auth.signOut());
     const $form = $("form-nombre");
     if ($form) {

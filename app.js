@@ -1199,7 +1199,7 @@ if (typeof document !== "undefined") (function () {
 
     $probar.addEventListener("click", async () => {
       $probar.disabled = true;
-      const { data, error } = await sb.functions.invoke("recordatorio", { body: {} });
+      const { data, error } = await sb.functions.invoke("hyper-api", { body: {} });
       if (sigue()) {
         $estado.textContent =
           error || !data || !data.enviados

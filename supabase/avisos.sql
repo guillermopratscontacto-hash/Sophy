@@ -1,6 +1,7 @@
 -- Recordatorio de racha a las 20:00 (hora de Madrid).
 -- Ejecutar una vez en Supabase: SQL Editor > New query > Run.
--- Antes hay que haber creado la función «recordatorio» (ver supabase/functions/recordatorio/index.ts).
+-- Antes hay que haber creado la función (código en supabase/functions/recordatorio/index.ts).
+-- En este proyecto su dirección es «hyper-api»: Supabase la asignó al crearla.
 
 -- Dispositivos que han activado los avisos. Cada fila es un móvil u ordenador.
 create table if not exists public.avisos (
@@ -45,7 +46,7 @@ create extension if not exists pg_net;
 select cron.schedule(
   'sophy-recordatorio-verano', '0 18 * * *',
   $$ select net.http_post(
-       url := 'https://mgqryktywqdlifdksxjv.supabase.co/functions/v1/recordatorio',
+       url := 'https://mgqryktywqdlifdksxjv.supabase.co/functions/v1/hyper-api',
        headers := '{"Content-Type": "application/json"}'::jsonb,
        body := '{}'::jsonb
      ) $$
@@ -53,7 +54,7 @@ select cron.schedule(
 select cron.schedule(
   'sophy-recordatorio-invierno', '0 19 * * *',
   $$ select net.http_post(
-       url := 'https://mgqryktywqdlifdksxjv.supabase.co/functions/v1/recordatorio',
+       url := 'https://mgqryktywqdlifdksxjv.supabase.co/functions/v1/hyper-api',
        headers := '{"Content-Type": "application/json"}'::jsonb,
        body := '{}'::jsonb
      ) $$

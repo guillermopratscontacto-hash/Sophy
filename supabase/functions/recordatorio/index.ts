@@ -8,7 +8,7 @@
 // «Enviar aviso de prueba» en la web), le envía su aviso solo a él, a cualquier hora.
 //
 // Ajustes al crearla en Supabase:
-//   - Nombre: recordatorio
+//   - Nombre: recordatorio (en este proyecto su dirección es «hyper-api»)
 //   - «Verify JWT» desactivado
 //   - Secreto VAPID_PRIVATE_KEY (Edge Functions > Secrets)
 

@@ -1,0 +1,14 @@
+{
+  "name": "Sophy",
+  "short_name": "Sophy",
+  "description": "Aprender, cada día.",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF",
+  "icons": [
+    { "src": "Sophya.png", "sizes": "383x405", "type": "image/png", "purpose": "any" }
+  ]
+}

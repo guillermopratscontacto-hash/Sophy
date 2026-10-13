@@ -188,6 +188,21 @@ if (typeof document !== "undefined") (function () {
       })
       .join("");
     cerrarDesplegable = false;
+    // Segunda fila fija, bajo las secciones: las subsecciones de la sección en la que se está.
+    const madre = indice.temas.find((t) => t.id === raiz && t.subsecciones);
+    const $subbarra = $("subbarra");
+    $subbarra.hidden = !madre;
+    document.body.classList.toggle("con-subbarra", Boolean(madre));
+    $subbarra.innerHTML = madre
+      ? `<div class="subbarra-dentro">
+          <a class="subbarra-titulo" href="#/seccion/${enc(madre.id)}">${esc(madre.nombre)}</a>
+          ${madre.subsecciones
+            .map((sub) => `<a class="sub${sub.id === activa ? " actual" : ""}" href="#/seccion/${enc(sub.id)}"${sub.id === activa ? ' aria-current="page"' : ""}>${esc(sub.nombre)}</a>`)
+            .join("")}
+        </div>`
+      : "";
+    const subActual = $subbarra.querySelector(".actual");
+    if (subActual) subActual.scrollIntoView({ block: "nearest", inline: "center" });
     for (const grupo of $secciones.querySelectorAll(".seccion-grupo")) {
       grupo.addEventListener("pointerleave", () => grupo.classList.remove("cerrado"));
     }
@@ -440,9 +455,6 @@ if (typeof document !== "undefined") (function () {
           <span class="antetitulo">Sección</span>
           <h1 class="titular-xl">${esc(tema.nombre)}</h1>
         </section>
-        <nav class="subsecciones" aria-label="Secciones de ${esc(tema.nombre)}" data-reveal>
-          ${tema.subsecciones.map((sub) => `<a href="#/seccion/${enc(sub.id)}">${esc(sub.nombre)}</a>`).join("")}
-        </nav>
         ${listado || `<div style="margin-top:44px">${vacio("Próximamente", "Aquí aparecerá el contenido de esta sección, día a día.")}</div>`}`;
       return;
     }

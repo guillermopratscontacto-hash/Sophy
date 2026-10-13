@@ -161,6 +161,58 @@ button, input { font: inherit; color: inherit; }
 .secciones .sec.activa { color: var(--rojo); }
 .secciones .sec:active { transform: scale(0.98); }
 
+/* Segunda fila de la cabecera: nombre de la sección y sus subsecciones, separada
+   de la fila de secciones por una línea. Solo aparece dentro de News, Cultura o Minijuegos. */
+.subbarra { border-top: 1px solid rgba(var(--tinta-rgb), 0.22); border-bottom: 1px solid var(--linea); }
+.subbarra-dentro {
+  max-width: var(--ancho);
+  margin: 0 auto;
+  padding: 0 var(--margen);
+  display: flex;
+  align-items: stretch;
+  gap: 4px 26px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.subbarra-dentro::-webkit-scrollbar { display: none; }
+.subbarra a {
+  position: relative;
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  min-height: 46px;
+  font: 400 1.02rem/1 var(--sans);
+  text-decoration: none;
+  color: var(--tinta);
+  white-space: nowrap;
+  transition: color 0.35s var(--ease);
+}
+.subbarra a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 3px;
+  background: var(--tinta);
+  transform: scaleX(0);
+  transition: transform 0.45s var(--ease-salida);
+}
+.subbarra a:hover { color: var(--rojo); }
+.subbarra a.actual::after { transform: scaleX(1); }
+.subbarra a.actual { font-weight: 500; }
+.subbarra .subbarra-titulo {
+  padding-right: 26px;
+  border-right: 1px solid rgba(var(--tinta-rgb), 0.22);
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--rojo);
+}
+.subbarra .subbarra-titulo::after { right: 26px; background: var(--rojo); transform: scaleX(1); }
+/* Con la segunda fila, lo que se queda fijo bajo la cabecera baja lo que ella ocupa. */
+body.con-subbarra { --alto-cabecera: 164px; --alto-subbarra: 48px; }
+
 /* Menú desplegable a todo el ancho, bajo la cabecera, al pasar el ratón por una
    sección con subsecciones. Solo con ratón y en pantallas anchas; en el resto,
    las subsecciones se muestran dentro de la página de la sección. */
@@ -174,7 +226,8 @@ button, input { font: inherit; color: inherit; }
 
   .desplegable {
     position: absolute;
-    top: 100%;
+    /* Si está la segunda fila, el panel se abre sobre ella, pegado a las secciones. */
+    top: calc(100% - var(--alto-subbarra, 0px));
     left: 0;
     right: 0;
     display: block;
@@ -755,7 +808,7 @@ button, input { font: inherit; color: inherit; }
 @media (min-width: 1000px) {
   .noticia-cuerpo { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 64px; align-items: start; }
   .noticia-cuerpo.sin-foto { grid-template-columns: minmax(0, 1fr); }
-  .noticia-foto { position: sticky; top: 116px; }
+  .noticia-foto { position: sticky; top: var(--alto-cabecera, 116px); }
   .noticia-foto figure img { max-height: 68vh; }
   .noticia-texto { font-size: 1.22rem; }
 }
@@ -979,7 +1032,7 @@ button, input { font: inherit; color: inherit; }
 
 @media (min-width: 1000px) {
   .geo { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 64px; align-items: start; }
-  .geo-globo { position: sticky; top: 116px; }
+  .geo-globo { position: sticky; top: var(--alto-cabecera, 116px); }
   .globo { height: calc(100vh - 150px); }
   .geo-info { display: none; }
 }

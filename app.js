@@ -439,15 +439,19 @@ if (typeof document !== "undefined") (function () {
     const resumen = !entradas.length
       ? "Esta sección todavía está en preparación."
       : `Has completado ${hechas} de ${plural(entradas.length, "edición", "ediciones")}.`;
+    // El lema de la sección (por ejemplo, «Recomendación del día» en Música) ocupa el hueco de la derecha.
     $vista.innerHTML = `
-      <section data-reveal>
-        ${
-          tema.padre
-            ? `<a class="volver" href="#/seccion/${enc(tema.padre)}">${ICONO.atras} ${esc(nombreTema(tema.padre))}</a>`
-            : '<span class="antetitulo">Sección</span>'
-        }
-        <h1 class="titular-xl">${esc(tema.nombre)}</h1>
-        <p class="entradilla">${esc(resumen)}</p>
+      <section class="${tema.lema ? "con-lema" : ""}" data-reveal>
+        <div>
+          ${
+            tema.padre
+              ? `<a class="volver" href="#/seccion/${enc(tema.padre)}">${ICONO.atras} ${esc(nombreTema(tema.padre))}</a>`
+              : '<span class="antetitulo">Sección</span>'
+          }
+          <h1 class="titular-xl">${esc(tema.nombre)}</h1>
+          <p class="entradilla">${esc(resumen)}</p>
+        </div>
+        ${tema.lema ? `<p class="lema">${esc(tema.lema)}</p>` : ""}
       </section>
       <h2 class="rotulo">Biblioteca</h2>
       ${entradas.length ? piezas(entradas, true) : vacio("Próximamente", "Aquí aparecerá el contenido de esta sección, día a día.")}`;

@@ -47,7 +47,8 @@
     },
     {
       "id": "musica",
-      "nombre": "Música"
+      "nombre": "Música",
+      "lema": "Recomendación del día"
     },
     {
       "id": "ejemplo-4",

@@ -450,7 +450,25 @@ if (typeof document !== "undefined") (function () {
   // ---------- Geografía: globo 3D y país del día ----------
 
   const GLOBO_URL = "https://cdn.jsdelivr.net/npm/globe.gl@2.46.2/dist/globe.gl.min.js";
-  const geo = { paises: null, mapa: null }; // se cargan una vez por sesión
+  const geo = { paises: null, mapa: null, galerias: {} }; // se cargan una vez por sesión
+
+  const COMMONS = "https://commons.wikimedia.org/wiki/Special:FilePath/";
+  function galeria(pais) {
+    const fotos = geo.galerias[pais.id] || [];
+    if (!fotos.length) return "";
+    return `<section class="galeria">
+      <h3 class="rotulo">Galería</h3>
+      <div class="galeria-fotos">${fotos
+        .map((f) => {
+          const base = COMMONS + enc(f.imagen);
+          return `<figure>
+            <img src="${base}?width=640" data-grande="${base}?width=1600" alt="Fotografía de ${esc(pais.nombre)}" loading="lazy">
+            <figcaption>Foto: ${esc(f.autor)}, ${esc(f.licencia)}, vía Wikimedia Commons.</figcaption>
+          </figure>`;
+        })
+        .join("")}</div>
+    </section>`;
+  }
 
   const cargarScript = (src) =>
     new Promise((ok, mal) => {
@@ -496,6 +514,8 @@ if (typeof document !== "undefined") (function () {
       const propios = await Promise.all(lista.paises.filter((p) => p.geo).map((p) => leer(p.geo)));
       geo.mapa = [...mundo.features, ...propios.map((f) => ({ ...f, encima: true }))];
       geo.paises = lista.paises;
+      // Galería de cada país: opcional; si no carga, las fichas salen sin ella.
+      geo.galerias = await leer("contenido/geografia/galerias.json").catch(() => ({}));
     }
     if (!window.Globe) await cargarScript(GLOBO_URL);
   }
@@ -841,6 +861,7 @@ if (typeof document !== "undefined") (function () {
               </div>
             </header>
             <div class="articulo">${window.marked.parse(textos.get(pais.id))}</div>
+            ${galeria(pais)}
             ${pie}
           </article>`;
         $("geo-ficha").classList.remove("entrando");
@@ -2149,7 +2170,7 @@ if (typeof document !== "undefined") (function () {
   // Al pulsar la imagen de una pieza abierta (no las miniaturas de los listados), se ve a pantalla completa.
   let cerrarVisor = null;
   $vista.addEventListener("click", (e) => {
-    const $img = e.target.closest(".articulo figure img");
+    const $img = e.target.closest(".articulo figure img, .galeria figure img");
     if (!$img) return;
     const $pie = $img.closest("figure").querySelector("figcaption");
     const $visor = document.createElement("div");
@@ -2157,7 +2178,7 @@ if (typeof document !== "undefined") (function () {
     $visor.setAttribute("role", "dialog");
     $visor.setAttribute("aria-label", "Imagen ampliada");
     $visor.innerHTML = `<button type="button" class="visor-cerrar" aria-label="Cerrar">×</button>
-      <img src="${esc($img.currentSrc || $img.src)}" alt="${esc($img.alt)}">
+      <img src="${esc($img.dataset.grande || $img.currentSrc || $img.src)}" alt="${esc($img.alt)}">
       ${$pie ? `<p>${esc($pie.textContent)}</p>` : ""}`;
     const alTeclear = (ev) => {
       if (ev.key === "Escape") cerrarVisor();

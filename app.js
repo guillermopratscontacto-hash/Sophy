@@ -2002,7 +2002,7 @@ if (typeof document !== "undefined") (function () {
         if (v) for (let j = 0; j < 81 && !mal; j++) mal = j !== i && valor(j) === v && vecinas(i, j);
         const clases = [
           "celda",
-          fijas[i] ? "fija" : "",
+          fijas[i] ? "fija" : v ? "" : "vacia",
           i === elegida ? "elegida" : elegida >= 0 && vecinas(i, elegida) ? "vecina" : "",
           v && v === visto && i !== elegida ? "igual" : "",
           mal ? "mal" : "",

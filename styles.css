@@ -1301,8 +1301,8 @@ body.con-subbarra { --alto-cabecera: 164px; }
   border-right: 1px solid var(--linea);
   border-bottom: 1px solid var(--linea);
   border-radius: 0;
-  background: var(--blanco);
-  color: var(--rojo);
+  background: rgba(var(--tinta-rgb), 0.07);
+  color: #4A4A4A;
   font: 500 clamp(1.05rem, 5vw, 1.6rem)/1 var(--sans);
   cursor: pointer;
 }
@@ -1311,10 +1311,13 @@ body.con-subbarra { --alto-cabecera: 164px; }
 .celda:nth-child(n+19):nth-child(-n+27), .celda:nth-child(n+46):nth-child(-n+54) { border-bottom: 2px solid var(--tinta); }
 .celda:nth-child(n+73) { border-bottom: 0; }
 .celda:focus-visible { outline-offset: -3px; border-radius: 0; }
+/* Las pistas y las casillas vacías van en blanco; las que rellena el jugador, en gris.
+   El rojo se reserva para los números repetidos. */
+.celda.fija, .celda.vacia { background: var(--blanco); }
 .celda.fija { color: var(--tinta); font-weight: 700; }
-.celda.vecina { background: var(--papel); }
-.celda.igual { background: rgba(var(--rojo-rgb), 0.16); }
-.celda.elegida { background: rgba(var(--rojo-rgb), 0.3); }
+.celda.vecina { background: rgba(var(--tinta-rgb), 0.12); }
+.celda.igual { background: rgba(var(--tinta-rgb), 0.24); }
+.celda.elegida { background: rgba(var(--tinta-rgb), 0.36); }
 .celda.mal { background: var(--rojo); color: var(--blanco); }
 .sudoku-rejilla.hecho .celda { cursor: default; }
 .notas { position: absolute; inset: 2px; display: grid; grid-template-columns: repeat(3, 1fr); place-items: center; }

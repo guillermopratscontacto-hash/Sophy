@@ -453,21 +453,55 @@ if (typeof document !== "undefined") (function () {
   const geo = { paises: null, mapa: null, galerias: {} }; // se cargan una vez por sesión
 
   const COMMONS = "https://commons.wikimedia.org/wiki/Special:FilePath/";
-  function galeria(pais) {
-    const fotos = geo.galerias[pais.id] || [];
-    if (!fotos.length) return "";
-    return `<section class="galeria">
-      <h3 class="rotulo">Galería</h3>
-      <div class="galeria-fotos">${fotos
-        .map((f) => {
-          const base = COMMONS + enc(f.imagen);
-          return `<figure>
-            <img src="${base}?width=640" data-grande="${base}?width=1600" alt="Fotografía de ${esc(pais.nombre)}" loading="lazy">
-            <figcaption>Foto: ${esc(f.autor)}, ${esc(f.licencia)}, vía Wikimedia Commons.</figcaption>
-          </figure>`;
-        })
-        .join("")}</div>
-    </section>`;
+  // Convierte la imagen principal de la ficha en un pase de fotos: la principal y, tras ella,
+  // las de la galería del país. Se cambia con las flechas o deslizando el dedo.
+  function montarCarrusel($articulo, pais) {
+    const $figura = $articulo.querySelector("figure");
+    const extra = geo.galerias[pais.id] || [];
+    if (!$figura || !extra.length) return;
+    const $img = $figura.querySelector("img");
+    const $pie = $figura.querySelector("figcaption");
+    const fotos = [
+      { src: $img.src, grande: $img.src, alt: $img.alt, pie: $pie ? $pie.textContent : "" },
+      ...extra.map((f) => ({
+        src: `${COMMONS}${enc(f.imagen)}?width=1200`,
+        grande: `${COMMONS}${enc(f.imagen)}?width=1600`,
+        alt: `Fotografía de ${pais.nombre}`,
+        pie: `Foto: ${f.autor}, ${f.licencia}, vía Wikimedia Commons.`,
+      })),
+    ];
+    let actual = 0;
+    $figura.classList.add("carrusel");
+    $figura.innerHTML = `
+      <div class="carrusel-marco">
+        <img alt="">
+        <button type="button" class="carrusel-flecha anterior" aria-label="Foto anterior">${ICONO.atras}</button>
+        <button type="button" class="carrusel-flecha siguiente" aria-label="Foto siguiente">${ICONO.atras}</button>
+        <span class="carrusel-cuenta"></span>
+      </div>
+      <figcaption></figcaption>`;
+    const $foto = $figura.querySelector("img");
+    const mostrar = (n) => {
+      actual = (n + fotos.length) % fotos.length;
+      const f = fotos[actual];
+      $foto.src = f.src;
+      $foto.alt = f.alt;
+      $foto.dataset.grande = f.grande;
+      $figura.querySelector("figcaption").textContent = f.pie;
+      $figura.querySelector(".carrusel-cuenta").textContent = `${actual + 1} / ${fotos.length}`;
+      new Image().src = fotos[(actual + 1) % fotos.length].src; // la siguiente, ya descargada
+    };
+    $figura.querySelector(".anterior").addEventListener("click", () => mostrar(actual - 1));
+    $figura.querySelector(".siguiente").addEventListener("click", () => mostrar(actual + 1));
+    let inicio = null;
+    $figura.addEventListener("touchstart", (e) => (inicio = e.touches[0].clientX), { passive: true });
+    $figura.addEventListener("touchend", (e) => {
+      if (inicio === null) return;
+      const paso = e.changedTouches[0].clientX - inicio;
+      inicio = null;
+      if (Math.abs(paso) > 45) mostrar(actual + (paso < 0 ? 1 : -1));
+    });
+    mostrar(0);
   }
 
   const cargarScript = (src) =>
@@ -861,13 +895,13 @@ if (typeof document !== "undefined") (function () {
               </div>
             </header>
             <div class="articulo">${window.marked.parse(textos.get(pais.id))}</div>
-            ${galeria(pais)}
             ${pie}
           </article>`;
         $("geo-ficha").classList.remove("entrando");
         void $("geo-ficha").offsetWidth;
         $("geo-ficha").classList.add("entrando");
 
+        montarCarrusel($("geo-ficha").querySelector(".articulo"), pais);
         const $completar = $("geo-completar");
         if ($completar) $completar.addEventListener("click", () => completar(pais, $completar));
       }
@@ -2170,7 +2204,7 @@ if (typeof document !== "undefined") (function () {
   // Al pulsar la imagen de una pieza abierta (no las miniaturas de los listados), se ve a pantalla completa.
   let cerrarVisor = null;
   $vista.addEventListener("click", (e) => {
-    const $img = e.target.closest(".articulo figure img, .galeria figure img");
+    const $img = e.target.closest(".articulo figure img");
     if (!$img) return;
     const $pie = $img.closest("figure").querySelector("figcaption");
     const $visor = document.createElement("div");

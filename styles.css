@@ -1379,14 +1379,3 @@ body.con-visor { overflow: hidden; }
 .articulo p { text-align: justify; -webkit-hyphens: auto; hyphens: auto; }
 .noticia-cabecera p,
 .articulo p:last-child:has(> strong:first-child) { text-align: left; -webkit-hyphens: manual; hyphens: manual; }
-
-/* Título de sección con una franja ancha debajo, en rojo pastel y de bordes difuminados. */
-.titular-xl.subrayado::after {
-  content: "";
-  display: block;
-  height: 26px;
-  margin: 10px 0 0 -6px;
-  border-radius: 999px;
-  background: linear-gradient(90deg, rgba(var(--rojo-rgb), 0.3), rgba(var(--rojo-rgb), 0.2) 60%, rgba(var(--rojo-rgb), 0.08));
-  filter: blur(5px);
-}

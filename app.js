@@ -236,13 +236,16 @@ if (typeof document !== "undefined") (function () {
   // ---------- Piezas comunes ----------
 
   function pieza(e, i, destacada) {
-    const clases = ["pieza", destacada ? "destacada" : "", e.imagen ? "" : "sin-imagen"].join(" ");
+    // Los álbumes de Música llevan artista y estilo bajo el título, y portada cuadrada.
+    const clases = ["pieza", destacada ? "destacada" : "", e.imagen ? "" : "sin-imagen", e.estilo ? "album" : ""].join(" ");
     return `<li data-reveal style="--i:${Math.min(i, 6)}"${destacada ? ' class="ancha"' : ""}>
       <a class="${clases}" href="#/leer/${e.fecha}/${enc(e.tema)}">
         ${e.imagen ? `<span class="pieza-foto"><img src="${esc(e.imagen)}" alt="" loading="lazy"></span>` : ""}
         <span class="pieza-texto">
           <span class="antetitulo">${esc(nombreTema(e.tema))}</span>
           <span class="pieza-titulo">${esc(e.titulo)}</span>
+          ${e.subtitulo ? `<span class="pieza-subtitulo">${esc(e.subtitulo)}</span>` : ""}
+          ${e.estilo ? `<span class="pieza-estilo">${esc(e.estilo)}</span>` : ""}
           ${e.resumen ? `<span class="pieza-resumen">${esc(e.resumen)}</span>` : ""}
           <span class="pieza-meta">
             <span>${esc(fechaLarga(e.fecha))}</span>
@@ -921,7 +924,7 @@ if (typeof document !== "undefined") (function () {
         if (nodo.tagName === "FIGURE") {
           foto.append(nodo);
           enCabecera = false;
-        } else if (enCabecera && (nodo.tagName === "H2" || esData)) {
+        } else if (enCabecera && (nodo.tagName === "H2" || nodo.tagName === "H3" || esData)) {
           cabecera.append(nodo);
         } else {
           enCabecera = false;
@@ -956,7 +959,7 @@ if (typeof document !== "undefined") (function () {
     if (!vigente()) return;
 
     $vista.innerHTML = `
-      <div class="lectura">
+      <div class="lectura${entrada.estilo ? " album" : ""}">
         <a class="volver" href="#/seccion/${enc(tema)}">${ICONO.atras} ${esc(nombreTema(tema))}</a>
         <p class="lectura-fecha">${esc(fechaLarga(fecha))}</p>
         <article class="articulo">${window.marked.parse(texto)}</article>

@@ -14,6 +14,7 @@ INDICE = os.path.join(RAIZ, "contenido", "indice.json")
 AGENTE = "SophyBot/1.0 (https://github.com/guillermopratscontacto-hash/Sophy)"
 NEWS = ["economia", "politica-espanola", "politica-internacional", "internacional"]
 CULTURA = ["arte", "historia", "literatura"]
+MUSICA = "musica"
 DIAS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto",
          "septiembre", "octubre", "noviembre", "diciembre"]
@@ -71,6 +72,10 @@ def bajar(url, espera=20):
 
 def url_imagen(archivo, ancho=1200):
     return "https://commons.wikimedia.org/wiki/Special:FilePath/" + urllib.parse.quote(archivo) + f"?width={ancho}"
+
+
+def url_portada(mbid):
+    return f"https://coverartarchive.org/release-group/{mbid}/front-500"
 
 
 def clave_imagen(url):
@@ -163,6 +168,14 @@ def preparar():
             for e in indice["entradas"]:
                 if e["tema"] == tema:
                     print(f"  - {e['titulo']}")
+
+    print("\n== MÚSICA DE HOY (álbum y portada ya decididos: solo hay que escribir la recomendación) ==")
+    album = next((a for a in leer_json(os.path.join(RAIZ, "rutina", "albumes.json")) if a["id"] not in hechos), None)
+    if album:
+        print(f"musica: «{album['album']}» ({album['anio']}), de {album['artista']} · estilo: {album['estilo']}  [asunto={album['id']}]")
+        print(f"  portada: {url_portada(album['mbid'])}")
+    else:
+        print("musica: LISTA AGOTADA. No escribas musica.md.")
 
     print("\n== IMÁGENES DE ARCHIVO YA COMPROBADAS (úsalas en News si encajan; si no, `imagenes`) ==")
     for r in leer_json(os.path.join(RAIZ, "rutina", "reserva.json")):
@@ -286,9 +299,10 @@ def publicar():
     ya = usadas(indice)
     temas = leer_json(os.path.join(RAIZ, "rutina", "temas.json"))
     asuntos = {clave_imagen(t["imagen"]): t["id"] for grupo in temas.values() for t in grupo}
+    albumes = {clave_imagen(url_portada(a["mbid"])): a for a in leer_json(os.path.join(RAIZ, "rutina", "albumes.json"))}
     errores, nuevas, faltan, textos = [], [], [], {}
 
-    for tema in NEWS + CULTURA:
+    for tema in NEWS + CULTURA + [MUSICA]:
         ruta = os.path.join(carpeta, tema + ".md")
         if not os.path.exists(ruta):
             faltan.append(tema)
@@ -301,11 +315,17 @@ def publicar():
         resumen, texto = limpio(m.group(1)), texto[m.end():]
         if len(resumen) > 160:
             errores.append(f"{tema}: el resumen tiene {len(resumen)} caracteres (máximo 160)")
-        final = "**Para saber más:**" if tema in CULTURA else "**Fuentes:**"
+        final = "**Fuentes:**" if tema in NEWS else "**Para saber más:**"
         for n, articulo in enumerate(re.split(r"\n---\n", texto)):
             aqui = f"{tema}" + (f" (artículo {n + 1})" if n else "")
             parrafos = [p.strip() for p in articulo.strip().split("\n\n") if p.strip()]
-            if len(parrafos) < 7 or not parrafos[0].startswith("## "):
+            if tema == MUSICA:
+                # Bajo el título va el artista como subtítulo; el resto se valida igual.
+                if len(parrafos) < 2 or not parrafos[1].startswith("### "):
+                    errores.append("musica: la segunda línea debe ser `### Artista`")
+                    continue
+                del parrafos[1]
+            if len(parrafos) < (6 if tema == MUSICA else 7) or not parrafos[0].startswith("## "):
                 errores.append(f"{aqui}: estructura incompleta (titular, data, figura, párrafos y línea final)")
                 continue
             if not re.fullmatch(r"\*[^*].*\*", parrafos[1]):
@@ -318,10 +338,11 @@ def publicar():
             if any(p.startswith("**") for p in cuerpo):
                 errores.append(f"{aqui}: un párrafo empieza por negrita")
             negritas = len(re.findall(r"\*\*[^*]+\*\*", "\n".join(cuerpo)))
-            if not 4 <= negritas <= 6:
-                errores.append(f"{aqui}: {negritas} negritas (deben ser entre 4 y 6)")
+            menos, mas = (2, 4) if tema == MUSICA else (4, 6)
+            if not menos <= negritas <= mas:
+                errores.append(f"{aqui}: {negritas} negritas (deben ser entre {menos} y {mas})")
             palabras = len(re.sub(r"\]\([^)]*\)|[*\[\]]", " ", "\n".join(cuerpo)).split())
-            minimo, maximo = (330, 480) if tema in CULTURA else (230, 400)
+            minimo, maximo = (330, 480) if tema in CULTURA else (130, 260) if tema == MUSICA else (230, 400)
             if not minimo <= palabras <= maximo:
                 errores.append(f"{aqui}: {palabras} palabras (entre {minimo} y {maximo})")
         titulo = re.search(r"^## (.+)$", texto, re.M)
@@ -336,13 +357,20 @@ def publicar():
                    "imagen": imagen.group(1), "archivo": f"contenido/{d}/{tema}.md"}
         if tema in CULTURA and clave in asuntos:
             entrada["asunto"] = asuntos[clave]
+        if tema == MUSICA:
+            album = albumes.get(clave)
+            if not album:
+                errores.append("musica: la portada no es la del álbum que indica `preparar`")
+                continue
+            # En Música el titular es el álbum; el artista y el estilo van aparte.
+            entrada.update(titulo=album["album"], subtitulo=album["artista"], estilo=album["estilo"], asunto=album["id"])
         nuevas.append(entrada)
         textos[ruta] = texto + "\n"
 
     if not errores:
         errores += [f"enlace de Wikipedia que no existe: {t}" for t in wikipedia_rotos("\n".join(textos.values()))]
     if not errores:
-        fiables = set(asuntos) | {clave_imagen(r["imagen"]) for r in leer_json(os.path.join(RAIZ, "rutina", "reserva.json"))}
+        fiables = set(asuntos) | set(albumes) | {clave_imagen(r["imagen"]) for r in leer_json(os.path.join(RAIZ, "rutina", "reserva.json"))}
         for e in nuevas:
             if clave_imagen(e["imagen"]) in fiables:
                 continue
@@ -362,6 +390,9 @@ def publicar():
 
     mensaje = f"Edición del {d}"
     motivo = next((a[8:] for a in sys.argv if a.startswith("--falta=")), "")
+    publicados = {e.get("asunto") for e in indice["entradas"]}
+    if MUSICA in faltan and all(a["id"] in publicados for a in albumes.values()):
+        faltan.remove(MUSICA)  # lista de álbumes agotada: no es una sección que falte
     if faltan:
         mensaje += f"\n\nFaltan: {', '.join(faltan)}. {motivo}".rstrip()
     if "--sin-subir" in sys.argv:

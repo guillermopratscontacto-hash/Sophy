@@ -1,0 +1,434 @@
+[
+ {
+  "id": "album-the-dark-side-of-the-moon",
+  "album": "The Dark Side of the Moon",
+  "artista": "Pink Floyd",
+  "estilo": "Rock progresivo",
+  "anio": 1973,
+  "mbid": "f5093c06-23e3-404f-aeaa-40f72885ee3a"
+ },
+ {
+  "id": "album-kind-of-blue",
+  "album": "Kind of Blue",
+  "artista": "Miles Davis",
+  "estilo": "Jazz modal",
+  "anio": 1959,
+  "mbid": "8e8a594f-2175-38c7-a871-abb68ec363e7"
+ },
+ {
+  "id": "album-buena-vista-social-club",
+  "album": "Buena Vista Social Club",
+  "artista": "Buena Vista Social Club",
+  "estilo": "Son cubano",
+  "anio": 1997,
+  "mbid": "32bbab8e-02c0-30d2-9e23-a19739864b84"
+ },
+ {
+  "id": "album-thriller",
+  "album": "Thriller",
+  "artista": "Michael Jackson",
+  "estilo": "Pop",
+  "anio": 1982,
+  "mbid": "f32fab67-77dd-3937-addc-9062e28e4c37"
+ },
+ {
+  "id": "album-el-mal-querer",
+  "album": "El mal querer",
+  "artista": "Rosalía",
+  "estilo": "Flamenco pop",
+  "anio": 2018,
+  "mbid": "bb525db3-81e4-4c05-b529-23fa05f35c12"
+ },
+ {
+  "id": "album-what-s-going-on",
+  "album": "What's Going On",
+  "artista": "Marvin Gaye",
+  "estilo": "Soul",
+  "anio": 1971,
+  "mbid": "c1fa4d2c-ec62-37d5-b01d-6df7f8fd2c90"
+ },
+ {
+  "id": "album-ok-computer",
+  "album": "OK Computer",
+  "artista": "Radiohead",
+  "estilo": "Rock alternativo",
+  "anio": 1997,
+  "mbid": "b1392450-e666-3926-a536-22c65f834433"
+ },
+ {
+  "id": "album-la-leyenda-del-tiempo",
+  "album": "La leyenda del tiempo",
+  "artista": "Camarón de la Isla",
+  "estilo": "Flamenco",
+  "anio": 1979,
+  "mbid": "568acacf-e205-3c28-9bb5-bf7374564f6f"
+ },
+ {
+  "id": "album-abbey-road",
+  "album": "Abbey Road",
+  "artista": "The Beatles",
+  "estilo": "Rock",
+  "anio": 1969,
+  "mbid": "9162580e-5df4-32de-80cc-f45a8d8a9b1d"
+ },
+ {
+  "id": "album-random-access-memories",
+  "album": "Random Access Memories",
+  "artista": "Daft Punk",
+  "estilo": "Electrónica",
+  "anio": 2013,
+  "mbid": "aa997ea0-2936-40bd-884d-3af8a0e064dc"
+ },
+ {
+  "id": "album-blue",
+  "album": "Blue",
+  "artista": "Joni Mitchell",
+  "estilo": "Folk",
+  "anio": 1971,
+  "mbid": "42d725fb-a8b7-388c-8866-3b02789af326"
+ },
+ {
+  "id": "album-illmatic",
+  "album": "Illmatic",
+  "artista": "Nas",
+  "estilo": "Hip hop",
+  "anio": 1994,
+  "mbid": "28298e2c-4d70-3eed-a0f5-a3280c662b3d"
+ },
+ {
+  "id": "album-nevermind",
+  "album": "Nevermind",
+  "artista": "Nirvana",
+  "estilo": "Grunge",
+  "anio": 1991,
+  "mbid": "1b022e01-4da6-387b-8658-8678046e4cef"
+ },
+ {
+  "id": "album-back-to-black",
+  "album": "Back to Black",
+  "artista": "Amy Winehouse",
+  "estilo": "Soul",
+  "anio": 2006,
+  "mbid": "6eac2e57-ee50-36f8-b0c4-c4c847a2c098"
+ },
+ {
+  "id": "album-zombie",
+  "album": "Zombie",
+  "artista": "Fela Kuti",
+  "estilo": "Afrobeat",
+  "anio": 1976,
+  "mbid": "517cbfb2-2279-4af9-8ca7-1c4c1a444925"
+ },
+ {
+  "id": "album-rumours",
+  "album": "Rumours",
+  "artista": "Fleetwood Mac",
+  "estilo": "Pop rock",
+  "anio": 1977,
+  "mbid": "416bb5e5-c7d1-3977-8fd7-7c9daf6c2be6"
+ },
+ {
+  "id": "album-a-love-supreme",
+  "album": "A Love Supreme",
+  "artista": "John Coltrane",
+  "estilo": "Jazz espiritual",
+  "anio": 1965,
+  "mbid": "77cf47ba-58cd-3f3d-a5f9-79bf89860421"
+ },
+ {
+  "id": "album-fuente-y-caudal",
+  "album": "Fuente y caudal",
+  "artista": "Paco de Lucía",
+  "estilo": "Flamenco",
+  "anio": 1973,
+  "mbid": "3e3eee7d-0fe9-37ce-98e9-0beb2af88bdf"
+ },
+ {
+  "id": "album-the-miseducation-of-lauryn-hill",
+  "album": "The Miseducation of Lauryn Hill",
+  "artista": "Lauryn Hill",
+  "estilo": "R&B y hip hop",
+  "anio": 1998,
+  "mbid": "8691d12c-abd8-385c-b1eb-d841190124f7"
+ },
+ {
+  "id": "album-exodus",
+  "album": "Exodus",
+  "artista": "Bob Marley & The Wailers",
+  "estilo": "Reggae",
+  "anio": 1977,
+  "mbid": "c5650313-60f3-34d3-92e4-300545133792"
+ },
+ {
+  "id": "album-pet-sounds",
+  "album": "Pet Sounds",
+  "artista": "The Beach Boys",
+  "estilo": "Pop barroco",
+  "anio": 1966,
+  "mbid": "fdd96703-7b21-365e-bdea-38029fbeb84e"
+ },
+ {
+  "id": "album-clandestino",
+  "album": "Clandestino",
+  "artista": "Manu Chao",
+  "estilo": "Rock latino",
+  "anio": 1998,
+  "mbid": "24a451c9-a8f3-33f9-a4fc-5e2d00cb7816"
+ },
+ {
+  "id": "album-to-pimp-a-butterfly",
+  "album": "To Pimp a Butterfly",
+  "artista": "Kendrick Lamar",
+  "estilo": "Hip hop",
+  "anio": 2015,
+  "mbid": "d9103c72-3807-4378-9ce7-b6f3e8fdd547"
+ },
+ {
+  "id": "album-the-koln-concert",
+  "album": "The Köln Concert",
+  "artista": "Keith Jarrett",
+  "estilo": "Jazz (piano solo)",
+  "anio": 1975,
+  "mbid": "516d4629-7bf3-3ac3-907a-ed9a022db840"
+ },
+ {
+  "id": "album-songs-in-the-key-of-life",
+  "album": "Songs in the Key of Life",
+  "artista": "Stevie Wonder",
+  "estilo": "Soul y funk",
+  "anio": 1976,
+  "mbid": "ea88b09b-fd34-33cf-a3e5-25a3a2fb4c6f"
+ },
+ {
+  "id": "album-unknown-pleasures",
+  "album": "Unknown Pleasures",
+  "artista": "Joy Division",
+  "estilo": "Post-punk",
+  "anio": 1979,
+  "mbid": "42352def-1aab-3000-b548-895ebd869cb6"
+ },
+ {
+  "id": "album-mediterraneo",
+  "album": "Mediterráneo",
+  "artista": "Joan Manuel Serrat",
+  "estilo": "Canción de autor",
+  "anio": 1971,
+  "mbid": "7c6dc4b6-c408-3225-95e6-9b902f9e4d79"
+ },
+ {
+  "id": "album-tapestry",
+  "album": "Tapestry",
+  "artista": "Carole King",
+  "estilo": "Canción de autor",
+  "anio": 1971,
+  "mbid": "6e4f39e6-3403-39d7-81c6-8e61a990d509"
+ },
+ {
+  "id": "album-london-calling",
+  "album": "London Calling",
+  "artista": "The Clash",
+  "estilo": "Punk rock",
+  "anio": 1979,
+  "mbid": "8d73e45e-7ca1-3cb4-ae28-6da76196c17c"
+ },
+ {
+  "id": "album-talking-timbuktu",
+  "album": "Talking Timbuktu",
+  "artista": "Ali Farka Touré y Ry Cooder",
+  "estilo": "Blues africano",
+  "anio": 1994,
+  "mbid": "a5a7a716-a039-3815-aee3-88ac135721c5"
+ },
+ {
+  "id": "album-purple-rain",
+  "album": "Purple Rain",
+  "artista": "Prince",
+  "estilo": "Pop funk",
+  "anio": 1984,
+  "mbid": "b93a7c47-a6d4-33f2-9034-53fdd991f4ba"
+ },
+ {
+  "id": "album-the-rise-and-fall-of-ziggy-stardust-and-the-spiders-from-mars",
+  "album": "The Rise and Fall of Ziggy Stardust and the Spiders From Mars",
+  "artista": "David Bowie",
+  "estilo": "Glam rock",
+  "anio": 1972,
+  "mbid": "6c9ae3dd-32ad-472c-96be-69d0a3536261"
+ },
+ {
+  "id": "album-lagrimas-negras",
+  "album": "Lágrimas negras",
+  "artista": "Bebo Valdés y Diego el Cigala",
+  "estilo": "Bolero flamenco",
+  "anio": 2003,
+  "mbid": "42d5ed7d-c35c-3f8f-a4d3-d13141a9f60f"
+ },
+ {
+  "id": "album-mezzanine",
+  "album": "Mezzanine",
+  "artista": "Massive Attack",
+  "estilo": "Trip hop",
+  "anio": 1998,
+  "mbid": "6f9f6899-c0d3-311d-ae87-a10ae6bc53a9"
+ },
+ {
+  "id": "album-paranoid",
+  "album": "Paranoid",
+  "artista": "Black Sabbath",
+  "estilo": "Heavy metal",
+  "anio": 1970,
+  "mbid": "cc053745-c447-3566-8f27-bed5438c9133"
+ },
+ {
+  "id": "album-lady-soul",
+  "album": "Lady Soul",
+  "artista": "Aretha Franklin",
+  "estilo": "Soul",
+  "anio": 1968,
+  "mbid": "05571372-5b11-39b7-89c5-1c02589a27c8"
+ },
+ {
+  "id": "album-artaud",
+  "album": "Artaud",
+  "artista": "Pescado Rabioso",
+  "estilo": "Rock argentino",
+  "anio": 1973,
+  "mbid": "8e50433a-c1d5-3019-a48d-0d6b97a5f32b"
+ },
+ {
+  "id": "album-remain-in-light",
+  "album": "Remain in Light",
+  "artista": "Talking Heads",
+  "estilo": "New wave",
+  "anio": 1980,
+  "mbid": "f6b1b900-6108-32f0-abbd-2855af9151eb"
+ },
+ {
+  "id": "album-graceland",
+  "album": "Graceland",
+  "artista": "Paul Simon",
+  "estilo": "Pop con raíces sudafricanas",
+  "anio": 1986,
+  "mbid": "19847822-1430-3380-9cf1-bc45545b34ac"
+ },
+ {
+  "id": "album-time-out",
+  "album": "Time Out",
+  "artista": "The Dave Brubeck Quartet",
+  "estilo": "Jazz",
+  "anio": 1959,
+  "mbid": "035a7881-3e2c-39d2-b110-fe26a4de94e5"
+ },
+ {
+  "id": "album-lemonade",
+  "album": "Lemonade",
+  "artista": "Beyoncé",
+  "estilo": "R&B",
+  "anio": 2016,
+  "mbid": "c1f22e07-7bdf-4a4f-8b50-7747c1091ef6"
+ },
+ {
+  "id": "album-el-patio",
+  "album": "El patio",
+  "artista": "Triana",
+  "estilo": "Rock andaluz",
+  "anio": 1975,
+  "mbid": "0ed0557a-bb8b-34e6-b4cc-05c76da2c7fd"
+ },
+ {
+  "id": "album-selected-ambient-works-85-92",
+  "album": "Selected Ambient Works 85-92",
+  "artista": "Aphex Twin",
+  "estilo": "Ambient techno",
+  "anio": 1992,
+  "mbid": "6842c81d-ea77-3dfd-abf7-4323add3f4d4"
+ },
+ {
+  "id": "album-the-velvet-underground-nico",
+  "album": "The Velvet Underground & Nico",
+  "artista": "The Velvet Underground",
+  "estilo": "Art rock",
+  "anio": 1967,
+  "mbid": "5cbd9d7b-597a-3c5e-bfd1-c2b364215560"
+ },
+ {
+  "id": "album-re",
+  "album": "Re",
+  "artista": "Café Tacvba",
+  "estilo": "Rock mexicano",
+  "anio": 1994,
+  "mbid": "05548ae5-6e3d-3e7b-baee-5e03a80fe5d2"
+ },
+ {
+  "id": "album-dummy",
+  "album": "Dummy",
+  "artista": "Portishead",
+  "estilo": "Trip hop",
+  "anio": 1994,
+  "mbid": "48140466-cff6-3222-bd55-63c27e43190d"
+ },
+ {
+  "id": "album-head-hunters",
+  "album": "Head Hunters",
+  "artista": "Herbie Hancock",
+  "estilo": "Jazz funk",
+  "anio": 1973,
+  "mbid": "322f18bb-5491-38e9-9044-c0a468651eec"
+ },
+ {
+  "id": "album-hounds-of-love",
+  "album": "Hounds of Love",
+  "artista": "Kate Bush",
+  "estilo": "Art pop",
+  "anio": 1985,
+  "mbid": "017f2a37-a78f-3578-9611-fa40408e5d90"
+ },
+ {
+  "id": "album-master-of-puppets",
+  "album": "Master of Puppets",
+  "artista": "Metallica",
+  "estilo": "Thrash metal",
+  "anio": 1986,
+  "mbid": "3d00fb45-f8ab-3436-a8e1-b4bfc4d66913"
+ },
+ {
+  "id": "album-funeral",
+  "album": "Funeral",
+  "artista": "Arcade Fire",
+  "estilo": "Indie rock",
+  "anio": 2004,
+  "mbid": "05affa96-5959-32da-8d75-1c9eb985ca59"
+ },
+ {
+  "id": "album-omega",
+  "album": "Omega",
+  "artista": "Enrique Morente y Lagartija Nick",
+  "estilo": "Flamenco rock",
+  "anio": 1996,
+  "mbid": "15cd32e1-8371-3681-9973-92bc9a2c03d1"
+ },
+ {
+  "id": "album-moon-safari",
+  "album": "Moon Safari",
+  "artista": "Air",
+  "estilo": "Electrónica downtempo",
+  "anio": 1998,
+  "mbid": "b0bf2b77-b8cf-32f6-8893-9741d757b400"
+ },
+ {
+  "id": "album-songs-of-leonard-cohen",
+  "album": "Songs of Leonard Cohen",
+  "artista": "Leonard Cohen",
+  "estilo": "Folk",
+  "anio": 1967,
+  "mbid": "34291a49-8df9-304e-bd39-16b11d829d5f"
+ },
+ {
+  "id": "album-is-this-it",
+  "album": "Is This It",
+  "artista": "The Strokes",
+  "estilo": "Indie rock",
+  "anio": 2001,
+  "mbid": "efea26d1-a016-30f6-b8e2-bc8c02336b0a"
+ }
+]

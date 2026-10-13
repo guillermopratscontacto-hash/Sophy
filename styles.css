@@ -1393,3 +1393,14 @@ body.con-subbarra { --alto-cabecera: 164px; --alto-subbarra: 48px; }
 .sudoku-numeros .tecla { font-size: 1.15rem; }
 .tecla.agotada { opacity: 0.3; }
 .tecla.activa { background: var(--tinta); color: var(--blanco); }
+
+/* ---------- Términos y privacidad ---------- */
+
+.legal { max-width: 760px; margin-top: 40px; font: 400 1.08rem/1.7 var(--serif-lectura); }
+.legal h2 { margin: 48px 0 8px; padding-top: 24px; border-top: 1px solid var(--tinta); font: 600 1.9rem/1.2 var(--serif-titular); }
+.legal h2:first-child { margin-top: 0; }
+.legal h3 { margin: 26px 0 6px; font: 600 0.8rem/1.3 var(--sans); letter-spacing: 0.14em; text-transform: uppercase; color: var(--rojo); }
+.legal p { margin: 0 0 12px; }
+.legal ul { margin: 0 0 12px; padding-left: 22px; }
+.legal li { margin-bottom: 8px; }
+.legal a { text-decoration: underline; text-decoration-color: var(--rojo); text-underline-offset: 3px; }

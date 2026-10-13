@@ -8,5 +8,8 @@ window.CONFIG = {
   SUPABASE_ANON_KEY: "sb_publishable_hAPFgnZiCJ0lg3nDLX0CLg_UYwY3N21",
   // Clave pública de los avisos (recordatorio de racha). También es pública por
   // diseño; la privada vive solo en Supabase, como secreto de la función.
+  // Correo de contacto que se muestra en la página de términos y privacidad, para
+  // que los usuarios puedan pedir sus datos o borrarlos. Vacío: no se muestra.
+  CONTACTO: "",
   VAPID_PUBLIC_KEY: "BDnCM5f4fvDUvzaIksTS-nB5tHqtnYxg9X_f3tD6xTo0-_yEY6k8IhTfayrQWqdGtdAGLbFByar0HviV-F4VWOs",
 };

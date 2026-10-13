@@ -1428,9 +1428,43 @@ if (typeof document !== "undefined") (function () {
     $vista.innerHTML = `
       <section data-reveal>
         <a class="volver" href="#/">${ICONO.atras} Volver</a>
-        <h1 class="titular-xl">Términos y condiciones</h1>
-        <p class="entradilla">Los términos y condiciones del servicio todavía no están publicados. Aparecerán en esta página.</p>
-      </section>`;
+        <h1 class="titular-xl">Términos y privacidad</h1>
+        <p class="entradilla">Qué es Sophy, qué datos guarda de ti y quién puede verlos.</p>
+      </section>
+      <div class="legal" data-reveal>
+        <h2>Privacidad</h2>
+        <h3>Qué datos se guardan</h3>
+        <ul>
+          <li>Tu <b>correo electrónico</b> y tu contraseña (cifrada), para que puedas entrar en tu cuenta.</li>
+          <li>El nombre que elijas y tu código de usuario.</li>
+          <li>Tu <b>actividad</b>: qué piezas abres y cuándo, cuáles completas, qué juegos terminas, tus valoraciones («me gusta» y «no me gusta») y los días que cuentan para tu racha.</li>
+          <li>Tus amistades dentro de Sophy.</li>
+          <li>Si activas los avisos, un identificador de tu dispositivo para poder enviarte el recordatorio.</li>
+        </ul>
+        <h3>Para qué se usan</h3>
+        <p>Para que Sophy funcione (guardar tu progreso y tu racha, mostrarte a tus amigos, enviarte el recordatorio) y para saber cómo se usa y mejorar el contenido.</p>
+        <h3>Quién puede verlos</h3>
+        <ul>
+          <li><b>El administrador de Sophy puede consultar tu actividad asociada a tu correo electrónico</b>: sabe qué persona ha abierto, completado o valorado cada cosa.</li>
+          <li>Tus amigos ven tu nombre, tu código y los días que has completado. No ven tu correo ni qué has leído.</li>
+          <li>Los demás usuarios no ven nada tuyo.</li>
+          <li>Tus datos no se venden ni se ceden a terceros, y Sophy no tiene publicidad. Se guardan en los servicios técnicos que hacen funcionar la web: Supabase (cuentas y base de datos) y GitHub Pages (alojamiento). Los avisos pasan por el servicio de notificaciones de tu dispositivo (Apple o Google).</li>
+        </ul>
+        <h3>Cuánto tiempo y cómo borrarlos</h3>
+        <p>Se conservan mientras tengas la cuenta. Puedes pedir en cualquier momento ver tus datos, corregirlos o borrarlos junto con tu cuenta${
+          cfg.CONTACTO ? `, escribiendo a <a href="mailto:${esc(cfg.CONTACTO)}">${esc(cfg.CONTACTO)}</a>` : ", escribiendo al administrador de Sophy"
+        }.</p>
+        <h3>En tu dispositivo</h3>
+        <p>Sophy no usa cookies de publicidad ni de seguimiento. Guarda en tu navegador lo necesario para mantener la sesión iniciada, tus preferencias y las partidas de los minijuegos.</p>
+
+        <h2>Términos del servicio</h2>
+        <ul>
+          <li>Sophy es un proyecto personal y gratuito de aprendizaje diario. Se ofrece tal cual, sin garantía de disponibilidad.</li>
+          <li>Los textos se preparan con ayuda de inteligencia artificial a partir de las fuentes que se enlazan en cada pieza. Pueden contener errores: contrasta lo importante.</li>
+          <li>Las imágenes proceden de Wikimedia Commons y de Cover Art Archive, y pertenecen a sus autores, con la licencia que se indica en cada una.</li>
+          <li>La cuenta es personal. Si haces un uso abusivo del servicio, se puede cerrar.</li>
+        </ul>
+      </div>`;
   }
 
   function vistaAbout() {
@@ -1460,7 +1494,7 @@ if (typeof document !== "undefined") (function () {
         <label class="campo">Correo <input type="email" name="correo" autocomplete="email" required></label>
         <label class="campo">Contraseña <input type="password" name="clave" autocomplete="current-password" minlength="6" required></label>
         <label class="casilla"><input type="checkbox" name="terminos" required>
-          <span>Acepto los <a href="#/terminos">términos y condiciones del servicio</a></span></label>
+          <span>Acepto los <a href="#/terminos">términos y la política de privacidad</a>. El administrador de Sophy puede ver mi actividad asociada a mi correo.</span></label>
         <label class="casilla"><input type="checkbox" name="avisos">
           <span>Acepto recibir notificaciones de Sophy, como el recordatorio diario de la racha</span></label>
         <div class="fila">

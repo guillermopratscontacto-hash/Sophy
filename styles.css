@@ -164,6 +164,7 @@ button, input { font: inherit; color: inherit; }
 /* Segunda fila de la cabecera: nombre de la sección y sus subsecciones, separada
    de la fila de secciones por una línea. Solo aparece dentro de News, Cultura o Minijuegos. */
 .subbarra { border-top: 1px solid rgba(var(--tinta-rgb), 0.22); border-bottom: 1px solid var(--linea); }
+.cabecera:has(.subbarra:not([hidden])) .cabecera-fila { padding-bottom: 0; }
 .subbarra-dentro {
   max-width: var(--ancho);
   margin: 0 auto;
@@ -222,7 +223,7 @@ body.con-subbarra { --alto-cabecera: 164px; --alto-subbarra: 48px; }
 @media (min-width: 900px) and (hover: hover) {
   /* El grupo se alarga hasta el borde inferior de la cabecera para que el ratón
      no salga de él al bajar hacia el panel. */
-  .seccion-grupo { margin-bottom: -16px; padding-bottom: 16px; }
+  .seccion-grupo { margin-bottom: -6px; padding-bottom: 6px; }
 
   .desplegable {
     position: absolute;
@@ -387,15 +388,14 @@ body.con-subbarra { --alto-cabecera: 164px; --alto-subbarra: 48px; }
 .sin-sesion .pie { display: none; }
 .sin-sesion .cabecera-fila { padding-bottom: 10px; }
 
+/* En pantallas anchas las secciones van en su propia fila, alineadas a la izquierda,
+   para que formen un solo bloque con la fila de subsecciones que aparece debajo. */
 @media (min-width: 900px) {
-  .cabecera-fila {
-    grid-template-columns: 1fr auto 1fr;
-    grid-template-areas: "marca secciones acciones";
-    padding-top: 14px;
-    padding-bottom: 14px;
-  }
-  .secciones { margin: 0; padding: 0; gap: 10px; overflow: visible; }
+  .cabecera-fila { padding-top: 14px; padding-bottom: 4px; }
+  .secciones { margin: 8px 0 0 -12px; padding: 0; gap: 14px; overflow: visible; }
   .cabecera-acciones { justify-self: end; }
+  body { --alto-cabecera: 150px; }
+  body.con-subbarra { --alto-cabecera: 198px; }
 }
 
 /* ---------- Menú ---------- */

@@ -1335,3 +1335,39 @@ body.con-subbarra { --alto-cabecera: 164px; }
 .legal ul { margin: 0 0 12px; padding-left: 22px; }
 .legal li { margin-bottom: 8px; }
 .legal a { text-decoration: underline; text-decoration-color: var(--rojo); text-underline-offset: 3px; }
+
+/* ---------- Imagen ampliada ---------- */
+
+.articulo figure img { cursor: zoom-in; }
+body.con-visor { overflow: hidden; }
+.visor {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 56px 16px 24px;
+  background: rgba(var(--tinta-rgb), 0.94);
+  cursor: zoom-out;
+  animation: visor-entra 0.25s var(--ease);
+}
+.visor img { max-width: 100%; max-height: calc(100% - 70px); min-height: 0; object-fit: contain; border-radius: 6px; }
+.visor p { max-width: 900px; margin: 0; text-align: center; font: 400 0.85rem/1.45 var(--sans); color: rgba(var(--blanco-rgb), 0.78); }
+.visor-cerrar {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(var(--blanco-rgb), 0.14);
+  color: var(--blanco);
+  font: 400 1.8rem/1 var(--sans);
+  cursor: pointer;
+}
+@keyframes visor-entra { from { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .visor { animation: none; } }

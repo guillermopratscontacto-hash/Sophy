@@ -2134,6 +2134,37 @@ if (typeof document !== "undefined") (function () {
     if (Object.values(estado.partidas).some((p) => p.hecho)) registrarJuego("sudoku", hoy);
   }
 
+  // ---------- Ampliar las imágenes de los artículos ----------
+
+  // Al pulsar la imagen de una pieza abierta (no las miniaturas de los listados), se ve a pantalla completa.
+  let cerrarVisor = null;
+  $vista.addEventListener("click", (e) => {
+    const $img = e.target.closest(".articulo figure img");
+    if (!$img) return;
+    const $pie = $img.closest("figure").querySelector("figcaption");
+    const $visor = document.createElement("div");
+    $visor.className = "visor";
+    $visor.setAttribute("role", "dialog");
+    $visor.setAttribute("aria-label", "Imagen ampliada");
+    $visor.innerHTML = `<button type="button" class="visor-cerrar" aria-label="Cerrar">×</button>
+      <img src="${esc($img.currentSrc || $img.src)}" alt="${esc($img.alt)}">
+      ${$pie ? `<p>${esc($pie.textContent)}</p>` : ""}`;
+    const alTeclear = (ev) => {
+      if (ev.key === "Escape") cerrarVisor();
+    };
+    cerrarVisor = () => {
+      $visor.remove();
+      document.body.classList.remove("con-visor");
+      document.removeEventListener("keydown", alTeclear);
+      cerrarVisor = null;
+    };
+    $visor.addEventListener("click", () => cerrarVisor());
+    document.addEventListener("keydown", alTeclear);
+    document.body.classList.add("con-visor");
+    document.body.append($visor);
+    $visor.querySelector(".visor-cerrar").focus();
+  });
+
   // ---------- Navegación y arranque ----------
 
   async function navegar() {
@@ -2141,6 +2172,7 @@ if (typeof document !== "undefined") (function () {
     const vigente = () => yo === turno;
     if (limpiarVista) limpiarVista();
     limpiarVista = null;
+    if (cerrarVisor) cerrarVisor();
     leyendo = false;
     abrirMenu(false);
 

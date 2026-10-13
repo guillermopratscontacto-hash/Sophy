@@ -51,8 +51,14 @@
       "lema": "Recomendación del día"
     },
     {
-      "id": "ejemplo-4",
-      "nombre": "Ejemplo 4"
+      "id": "minijuegos",
+      "nombre": "Minijuegos",
+      "tipo": "juegos",
+      "subsecciones": [
+        { "id": "palabra", "nombre": "La palabra del día" },
+        { "id": "sudoku", "nombre": "Sudoku" },
+        { "id": "adivina-pais", "nombre": "Adivina el país" }
+      ]
     }
   ],
   "entradas": [

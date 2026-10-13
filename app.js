@@ -84,6 +84,15 @@ if (typeof document !== "undefined") (function () {
     noGusta: svg('<path d="M17 14V2"/><path d="M9 18.12 10 14H4.17a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.5 2H20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.76a2 2 0 0 0-1.79 1.11L12 22a3.13 3.13 0 0 1-3-3.88Z"/>'),
   };
 
+  // Minijuegos: se generan en el navegador a partir de la fecha, sin contenido diario.
+  // Al completar uno se guarda en el progreso con tema "juego:<id>", así que cuenta para la racha.
+  const JUEGOS = {
+    palabra: { texto: "Seis intentos para acertar una palabra de cinco letras.", listo: true },
+    sudoku: { texto: "Un sudoku nuevo cada día.", listo: false },
+    "adivina-pais": { texto: "Reconoce el país por su bandera o por su silueta.", listo: false },
+  };
+  const juegoHecho = (id, dia) => progreso.some((p) => p.tema === `juego:${id}` && p.fecha === dia);
+
   // El progreso se guarda en Supabase o, sin configurar, en este navegador.
   const CLAVE_LOCAL = "aprendizaje.progreso";
   const CLAVE_VOTOS = "aprendizaje.votos";
@@ -160,7 +169,9 @@ if (typeof document !== "undefined") (function () {
             const ultima = recientes(indice.entradas.filter((e) => e.tema === sub.id))[0];
             return `<a class="opcion${sub.id === activa ? " actual" : ""}" style="--i:${i}" href="#/seccion/${enc(sub.id)}">
               <span class="opcion-nombre">${esc(sub.nombre)}</span>
-              <span class="opcion-titular">${ultima ? esc(ultima.titulo) : "Próximamente"}</span>
+              <span class="opcion-titular">${
+                t.tipo === "juegos" ? ((JUEGOS[sub.id] || {}).listo ? "Juega el reto de hoy" : "Próximamente") : ultima ? esc(ultima.titulo) : "Próximamente"
+              }</span>
             </a>`;
           })
           .join("");
@@ -184,7 +195,7 @@ if (typeof document !== "undefined") (function () {
     if (actual) actual.scrollIntoView({ block: "nearest", inline: "center" });
     // Biblioteca, en el menú lateral: las mismas subsecciones, agrupadas por sección.
     $("menu-biblioteca").innerHTML = indice.temas
-      .filter((t) => t.subsecciones)
+      .filter((t) => t.subsecciones && t.tipo !== "juegos")
       .map(
         (t) => `<div class="menu-sub-grupo"><span class="antetitulo">${esc(t.nombre)}</span>
           ${t.subsecciones.map((sub) => `<a href="#/biblioteca/${enc(sub.id)}">${esc(sub.nombre)}</a>`).join("")}</div>`
@@ -409,6 +420,8 @@ if (typeof document !== "undefined") (function () {
     const hoy = fechaLocal();
     const tema = temaDe(id);
     if (tema.tipo === "geografia") return vistaGeografia(tema, vigente);
+    if (tema.tipo === "juegos") return vistaJuegos(tema);
+    if (tema.padre && temaDe(tema.padre).tipo === "juegos") return vistaJuego(tema, vigente);
 
     // Sección con subsecciones (News, Cultura): todo lo publicado, en un listado por días.
     if (tema.subsecciones) {
@@ -1490,7 +1503,7 @@ if (typeof document !== "undefined") (function () {
 
   function vistaBiblioteca(id) {
     pintarSecciones("biblioteca");
-    const grupos = indice.temas.filter((t) => t.subsecciones);
+    const grupos = indice.temas.filter((t) => t.subsecciones && t.tipo !== "juegos");
     const ids = grupos.flatMap((t) => t.subsecciones.map((sub) => sub.id));
     const seccion = ids.includes(id) ? id : "";
     const todas = indice.entradas.filter((e) => (seccion ? e.tema === seccion : ids.includes(e.tema)));
@@ -1555,6 +1568,260 @@ if (typeof document !== "undefined") (function () {
     $filtros.addEventListener("submit", (e) => e.preventDefault());
     $filtros.addEventListener("reset", () => setTimeout(pintar));
     pintar();
+  }
+
+  // ---------- Minijuegos ----------
+
+  function vistaJuegos(tema) {
+    const hoy = fechaLocal();
+    $vista.innerHTML = `
+      <section data-reveal>
+        <span class="antetitulo">Sección</span>
+        <h1 class="titular-xl">${esc(tema.nombre)}</h1>
+        <p class="entradilla">Un reto nuevo cada día. Completar uno también cuenta para tu racha.</p>
+      </section>
+      <ul class="juegos">${tema.subsecciones
+        .map((j, i) => {
+          const info = JUEGOS[j.id] || {};
+          const estado = !info.listo ? "Próximamente" : juegoHecho(j.id, hoy) ? "Completado hoy" : "Disponible";
+          return `<li data-reveal style="--i:${i}"><a class="juego-tarjeta${info.listo ? "" : " pronto"}" href="#/seccion/${enc(j.id)}">
+            <span class="antetitulo">${estado}</span>
+            <b>${esc(j.nombre)}</b>
+            <span>${esc(info.texto || "")}</span>
+          </a></li>`;
+        })
+        .join("")}</ul>`;
+  }
+
+  function vistaJuego(tema, vigente) {
+    if (tema.id === "palabra") return vistaPalabra(tema, vigente);
+    $vista.innerHTML = `
+      <section data-reveal>
+        <a class="volver" href="#/seccion/${enc(tema.padre)}">${ICONO.atras} ${esc(nombreTema(tema.padre))}</a>
+        <h1 class="titular-xl">${esc(tema.nombre)}</h1>
+      </section>
+      <div style="margin-top:44px">${vacio("Próximamente", "Este juego está en preparación.")}</div>`;
+  }
+
+  // La palabra del día: la misma para todos, elegida por la fecha en una lista fija.
+  const PALABRA = { inicio: "2026-10-13", intentos: 6, letras: 5, clave: "sophy-palabra", claveCifras: "sophy-palabra-cifras", datos: null };
+  const TECLAS = ["QWERTYUIOP", "ASDFGHJKLÑ", "↵ZXCVBNM⌫"];
+
+  // "si": letra en su sitio; "casi": está en otra posición; "no": no está. Cada letra de la solución se usa una vez.
+  function puntuar(intento, solucion) {
+    const marcas = Array(intento.length).fill("no");
+    const resto = {};
+    [...solucion].forEach((c, i) => {
+      if (intento[i] === c) marcas[i] = "si";
+      else resto[c] = (resto[c] || 0) + 1;
+    });
+    [...intento].forEach((c, i) => {
+      if (marcas[i] === "si" || !resto[c]) return;
+      marcas[i] = "casi";
+      resto[c]--;
+    });
+    return marcas;
+  }
+
+  const leerLocal = (clave, defecto) => {
+    try {
+      return JSON.parse(localStorage.getItem(clave)) || defecto;
+    } catch {
+      return defecto;
+    }
+  };
+  const guardarLocal = (clave, valor) => {
+    try {
+      localStorage.setItem(clave, JSON.stringify(valor));
+    } catch {}
+  };
+
+  async function vistaPalabra(tema, vigente) {
+    const hoy = fechaLocal();
+    $vista.innerHTML = `
+      <section class="palabra" data-reveal>
+        <a class="volver" href="#/seccion/${enc(tema.padre)}">${ICONO.atras} ${esc(nombreTema(tema.padre))}</a>
+        <h1 class="titular-xl">${esc(tema.nombre)}</h1>
+        <p class="entradilla">Acierta la palabra de cinco letras en seis intentos.</p>
+        <div id="palabra-tablero" class="tablero" role="grid" aria-label="Intentos"></div>
+        <p id="palabra-aviso" class="palabra-aviso" role="status"></p>
+        <div id="palabra-teclado" class="teclado"></div>
+        <div id="palabra-final" class="palabra-final" hidden></div>
+        <details class="palabra-reglas">
+          <summary>Cómo se juega</summary>
+          <p>Escribe una palabra de cinco letras y pulsa Enviar. Las tildes no cuentan.</p>
+          <p><b class="letra si mini">A</b> la letra está en su sitio · <b class="letra casi mini">A</b> está en la palabra, en otra posición · <b class="letra no mini">A</b> no está.</p>
+        </details>
+      </section>`;
+    if (!PALABRA.datos) {
+      try {
+        const r = await fetch("contenido/juegos/palabras.json", { cache: "no-cache" });
+        if (!r.ok) throw new Error(r.status);
+        const datos = await r.json();
+        const admitidas = new Set();
+        for (let i = 0; i < datos.admitidas.length; i += PALABRA.letras) admitidas.add(datos.admitidas.slice(i, i + PALABRA.letras));
+        PALABRA.datos = { soluciones: datos.soluciones, admitidas };
+      } catch {
+        if (vigente()) $("palabra-aviso").textContent = "No se ha podido cargar el juego. Recarga la página.";
+        return;
+      }
+    }
+    if (!vigente()) return;
+
+    const { soluciones, admitidas } = PALABRA.datos;
+    const numero = Math.round((aFecha(hoy) - aFecha(PALABRA.inicio)) / 86400000);
+    const solucion = soluciones[((numero % soluciones.length) + soluciones.length) % soluciones.length];
+    const guardado = leerLocal(PALABRA.clave, {});
+    const intentos = guardado.fecha === hoy && Array.isArray(guardado.intentos) ? guardado.intentos : [];
+    let actual = "";
+    let ocupado = false;
+    const $tablero = $("palabra-tablero");
+    const $aviso = $("palabra-aviso");
+    const $teclado = $("palabra-teclado");
+    const ganada = () => intentos.includes(solucion);
+    const acabada = () => ganada() || intentos.length >= PALABRA.intentos;
+
+    function pintar(revelar) {
+      let filas = "";
+      for (let f = 0; f < PALABRA.intentos; f++) {
+        const hecha = f < intentos.length;
+        const texto = hecha ? intentos[f] : f === intentos.length ? actual : "";
+        const marcas = hecha ? puntuar(texto, solucion) : [];
+        let celdas = "";
+        for (let c = 0; c < PALABRA.letras; c++) {
+          const clases = ["letra", marcas[c] || "", texto[c] && !hecha ? "llena" : "", hecha && revelar && f === intentos.length - 1 ? "gira" : ""].join(" ");
+          celdas += `<span class="${clases}" style="--i:${c}" role="gridcell">${esc(texto[c] || "")}</span>`;
+        }
+        filas += `<div class="fila" role="row">${celdas}</div>`;
+      }
+      $tablero.innerHTML = filas;
+
+      // Cada tecla toma el mejor resultado que haya tenido su letra.
+      const orden = { no: 1, casi: 2, si: 3 };
+      const mejor = {};
+      for (const intento of intentos) {
+        puntuar(intento, solucion).forEach((m, i) => {
+          if ((orden[m] || 0) > (orden[mejor[intento[i]]] || 0)) mejor[intento[i]] = m;
+        });
+      }
+      $teclado.innerHTML = TECLAS.map(
+        (fila) =>
+          `<div class="teclado-fila">${[...fila]
+            .map((t) => {
+              const nombre = t === "↵" ? "Enviar" : t === "⌫" ? "Borrar" : t;
+              const ancha = t === "↵" || t === "⌫";
+              return `<button type="button" class="tecla ${ancha ? "ancha" : mejor[t.toLowerCase()] || ""}" data-tecla="${t}" aria-label="${nombre}">${t === "↵" ? "Enviar" : t}</button>`;
+            })
+            .join("")}</div>`
+      ).join("");
+    }
+
+    function avisar(texto, temblar) {
+      $aviso.textContent = texto;
+      if (!temblar) return;
+      const $fila = $tablero.children[intentos.length];
+      if (!$fila) return;
+      $fila.classList.remove("tiembla");
+      void $fila.offsetWidth;
+      $fila.classList.add("tiembla");
+    }
+
+    function final() {
+      const cifras = leerLocal(PALABRA.claveCifras, { jugadas: 0, ganadas: 0, racha: 0, mejor: 0, ultima: "" });
+      const $final = $("palabra-final");
+      const cuadros = intentos.map((i) => puntuar(i, solucion).map((m) => (m === "si" ? "🟩" : m === "casi" ? "🟨" : "⬛")).join("")).join("\n");
+      const marcador = `${ganada() ? intentos.length : "X"}/${PALABRA.intentos}`;
+      $teclado.hidden = true;
+      $final.hidden = false;
+      $final.innerHTML = `
+        <b class="palabra-resultado">${ganada() ? ["¡Genial!", "¡Magnífico!", "¡Muy bien!", "¡Bien hecho!", "¡Conseguido!", "¡Por los pelos!"][intentos.length - 1] : "Otra vez será"}</b>
+        <p>La palabra de hoy era <b class="palabra-solucion">${esc(solucion.toUpperCase())}</b>.
+          <a href="https://dle.rae.es/${enc(solucion)}" target="_blank" rel="noopener">Ver su definición en el diccionario</a></p>
+        <div class="cifras">
+          <div class="cifra"><b>${cifras.jugadas}</b><span>Jugadas</span></div>
+          <div class="cifra"><b>${cifras.jugadas ? Math.round((100 * cifras.ganadas) / cifras.jugadas) : 0}%</b><span>Acertadas</span></div>
+          <div class="cifra"><b>${cifras.racha}</b><span>Seguidas</span></div>
+        </div>
+        <button type="button" class="boton" id="palabra-compartir">Compartir resultado</button>
+        <p class="palabra-manana">Mañana habrá una palabra nueva.</p>`;
+      $("palabra-compartir").addEventListener("click", async (e) => {
+        const texto = `Sophy · La palabra del día ${marcador}\n${cuadros}`;
+        try {
+          if (navigator.share) await navigator.share({ text: texto });
+          else {
+            await navigator.clipboard.writeText(texto);
+            e.target.textContent = "Copiado";
+          }
+        } catch {}
+      });
+    }
+
+    async function terminar() {
+      // Las cifras se actualizan una sola vez por día.
+      const cifras = leerLocal(PALABRA.claveCifras, { jugadas: 0, ganadas: 0, racha: 0, mejor: 0, ultima: "" });
+      if (cifras.ultima !== hoy) {
+        cifras.jugadas++;
+        if (ganada()) cifras.ganadas++;
+        cifras.racha = ganada() ? cifras.racha + 1 : 0;
+        cifras.mejor = Math.max(cifras.mejor, cifras.racha);
+        cifras.ultima = hoy;
+        guardarLocal(PALABRA.claveCifras, cifras);
+      }
+      final();
+      if (juegoHecho("palabra", hoy)) return;
+      const registro = { fecha: hoy, tema: "juego:palabra", dia: hoy };
+      const primeraDelDia = !diasHechos().has(hoy);
+      progreso.push(registro);
+      pintarRacha();
+      if (primeraDelDia) celebrarDia();
+      try {
+        await almacen.guardar(registro);
+      } catch {
+        progreso = progreso.filter((p) => p !== registro);
+        pintarRacha();
+      }
+    }
+
+    async function enviar() {
+      if (actual.length < PALABRA.letras) return avisar("Faltan letras.", true);
+      if (!admitidas.has(actual)) return avisar("Esa palabra no está en el diccionario del juego.", true);
+      intentos.push(actual);
+      actual = "";
+      guardarLocal(PALABRA.clave, { fecha: hoy, intentos });
+      $aviso.textContent = "";
+      ocupado = true;
+      pintar(true);
+      await espera(sinMovimiento ? 0 : 1300);
+      ocupado = false;
+      if (vigente() && acabada()) terminar();
+    }
+
+    function pulsar(tecla) {
+      if (ocupado || acabada()) return;
+      if (tecla === "↵") return enviar();
+      if (tecla === "⌫") actual = actual.slice(0, -1);
+      else if (actual.length < PALABRA.letras) actual += tecla.toLowerCase();
+      $aviso.textContent = "";
+      pintar(false);
+    }
+
+    $teclado.addEventListener("click", (e) => {
+      const $tecla = e.target.closest(".tecla");
+      if ($tecla) pulsar($tecla.dataset.tecla);
+    });
+    const alTeclear = (e) => {
+      if (e.ctrlKey || e.metaKey || e.altKey || document.body.classList.contains("menu-abierto")) return;
+      if (e.key === "Enter") pulsar("↵");
+      else if (e.key === "Backspace") pulsar("⌫");
+      else if (/^[a-zñ]$/i.test(e.key)) pulsar(e.key.toUpperCase());
+      else return;
+      e.preventDefault();
+    };
+    document.addEventListener("keydown", alTeclear);
+    limpiarVista = () => document.removeEventListener("keydown", alTeclear);
+
+    pintar(false);
+    if (acabada()) terminar();
   }
 
   // ---------- Navegación y arranque ----------

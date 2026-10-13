@@ -215,117 +215,7 @@ button, input { font: inherit; color: inherit; }
 }
 .subbarra .subbarra-titulo::after { right: 26px; background: var(--rojo); transform: scaleX(1); }
 /* Con la segunda fila, lo que se queda fijo bajo la cabecera baja lo que ella ocupa. */
-body.con-subbarra { --alto-cabecera: 164px; --alto-subbarra: 48px; }
-
-/* Menú desplegable a todo el ancho, bajo la cabecera, al pasar el ratón por una
-   sección con subsecciones. Solo con ratón y en pantallas anchas; en el resto,
-   las subsecciones se muestran dentro de la página de la sección. */
-.seccion-grupo { flex: none; display: flex; }
-.desplegable { display: none; }
-
-@media (min-width: 900px) and (hover: hover) {
-  /* El grupo se alarga hasta el borde inferior de la cabecera para que el ratón
-     no salga de él al bajar hacia el panel. */
-  .seccion-grupo { margin-bottom: -20px; padding-bottom: 20px; }
-
-  .desplegable {
-    position: absolute;
-    /* Si está la segunda fila, el panel se abre sobre ella, pegado a las secciones. */
-    top: calc(100% - var(--alto-subbarra, 0px));
-    left: 0;
-    right: 0;
-    display: block;
-    border-top: 1px solid var(--linea);
-    background: var(--blanco);
-    box-shadow: 0 30px 40px -20px rgba(var(--tinta-rgb), 0.18);
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(-10px);
-    transition: opacity 0.3s var(--ease), transform 0.5s var(--ease-salida), visibility 0s linear 0.3s;
-  }
-  .seccion-grupo:hover .desplegable,
-  .seccion-grupo:focus-within .desplegable {
-    opacity: 1;
-    visibility: visible;
-    transform: none;
-    transition-delay: 0s;
-  }
-  .seccion-grupo.cerrado .desplegable { opacity: 0; visibility: hidden; }
-
-  .desplegable-dentro {
-    max-width: var(--ancho);
-    margin: 0 auto;
-    padding: 44px var(--margen) 52px;
-    display: grid;
-    grid-template-columns: minmax(180px, 1fr) 4fr;
-    gap: 56px;
-  }
-
-  .desplegable-intro { display: grid; align-content: start; gap: 10px; }
-  .desplegable-titulo { font: 600 2.6rem/1 var(--serif-titular); letter-spacing: -0.015em; }
-  .desplegable-todo {
-    justify-self: start;
-    margin-top: 10px;
-    padding-bottom: 3px;
-    border-bottom: 1.5px solid var(--tinta);
-    font: 500 0.78rem/1.4 var(--sans);
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: color 0.35s var(--ease), border-color 0.35s var(--ease);
-  }
-  .desplegable-todo:hover { color: var(--rojo); border-color: var(--rojo); }
-
-  .desplegable-opciones { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px 40px; }
-
-  .opcion {
-    display: grid;
-    align-content: start;
-    gap: 10px;
-    padding-top: 18px;
-    border-top: 1px solid var(--tinta);
-    text-decoration: none;
-    opacity: 0;
-    transform: translateY(12px);
-    transition: opacity 0.5s var(--ease), transform 0.6s var(--ease-salida), border-color 0.35s var(--ease);
-  }
-  .seccion-grupo:hover .opcion,
-  .seccion-grupo:focus-within .opcion {
-    opacity: 1;
-    transform: none;
-    transition-delay: calc(var(--i) * 60ms + 80ms), calc(var(--i) * 60ms + 80ms), 0s;
-  }
-  .opcion-nombre { font: 600 1.6rem/1.15 var(--serif-titular); transition: color 0.35s var(--ease); }
-  .opcion-titular {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
-    overflow: hidden;
-    font: 400 0.95rem/1.5 var(--serif-lectura);
-    color: var(--suave);
-  }
-  .opcion:hover { border-color: var(--rojo); }
-  .opcion:hover .opcion-nombre,
-  .opcion.actual .opcion-nombre { color: var(--rojo); }
-
-  /* El resto de la página se oscurece mientras el menú está abierto. */
-  body::after {
-    content: "";
-    position: fixed;
-    inset: 0;
-    z-index: 20;
-    background: rgba(var(--tinta-rgb), 0.32);
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.4s var(--ease);
-  }
-  body:has(.seccion-grupo:not(.cerrado):hover)::after,
-  body:has(.seccion-grupo:not(.cerrado):focus-within)::after { opacity: 1; }
-  .cabecera:has(.seccion-grupo:not(.cerrado):hover),
-  .cabecera:has(.seccion-grupo:not(.cerrado):focus-within) { background: var(--blanco); }
-
-  .vista .subsecciones { display: none; }
-}
+body.con-subbarra { --alto-cabecera: 164px; }
 
 .cabecera-acciones { grid-area: acciones; display: flex; align-items: center; gap: 6px; }
 
@@ -411,7 +301,7 @@ body.con-subbarra { --alto-cabecera: 164px; --alto-subbarra: 48px; }
   }
   .cabecera-acciones { justify-self: end; }
   body { --alto-cabecera: 104px; }
-  body.con-subbarra { --alto-cabecera: 124px; --alto-subbarra: 51px; }
+  body.con-subbarra { --alto-cabecera: 124px; }
 }
 
 /* Ventanas medianas (portátil con zoom, tableta): el mismo reparto, más apretado. */

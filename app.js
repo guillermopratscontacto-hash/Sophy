@@ -155,39 +155,13 @@ if (typeof document !== "undefined") (function () {
     );
   }
 
-  let cerrarDesplegable = false; // tras elegir una opción, el desplegable se cierra hasta que el ratón salga
-
   function pintarSecciones(activa) {
     const raiz = temaDe(activa).padre || activa;
     $secciones.innerHTML = indice.temas
       .map((t) => {
-        const enlace = `<a class="sec${t.id === raiz ? " activa" : ""}" href="#/seccion/${enc(t.id)}"${t.id === raiz ? ' aria-current="page"' : ""}>${esc(t.nombre)}</a>`;
-        if (!t.subsecciones) return enlace;
-        // Panel a todo el ancho con las subsecciones y el último titular de cada una.
-        const opciones = t.subsecciones
-          .map((sub, i) => {
-            const ultima = recientes(indice.entradas.filter((e) => e.tema === sub.id))[0];
-            return `<a class="opcion${sub.id === activa ? " actual" : ""}" style="--i:${i}" href="#/seccion/${enc(sub.id)}">
-              <span class="opcion-nombre">${esc(sub.nombre)}</span>
-              <span class="opcion-titular">${
-                t.tipo === "juegos" ? ((JUEGOS[sub.id] || {}).listo ? "Juega el reto de hoy" : "Próximamente") : ultima ? esc(ultima.titulo) : "Próximamente"
-              }</span>
-            </a>`;
-          })
-          .join("");
-        return `<div class="seccion-grupo${cerrarDesplegable ? " cerrado" : ""}">${enlace}
-          <div class="desplegable"><div class="desplegable-dentro">
-            <div class="desplegable-intro">
-              <span class="antetitulo">Sección</span>
-              <span class="desplegable-titulo">${esc(t.nombre)}</span>
-              <a class="desplegable-todo" href="#/seccion/${enc(t.id)}">Ver todo</a>
-            </div>
-            <div class="desplegable-opciones">${opciones}</div>
-          </div></div>
-        </div>`;
+        return `<a class="sec${t.id === raiz ? " activa" : ""}" href="#/seccion/${enc(t.id)}"${t.id === raiz ? ' aria-current="page"' : ""}>${esc(t.nombre)}</a>`;
       })
       .join("");
-    cerrarDesplegable = false;
     // Segunda fila fija, bajo las secciones: las subsecciones de la sección en la que se está.
     const madre = indice.temas.find((t) => t.id === raiz && t.subsecciones);
     const $subbarra = $("subbarra");
@@ -203,9 +177,6 @@ if (typeof document !== "undefined") (function () {
       : "";
     const subActual = $subbarra.querySelector(".actual");
     if (subActual) subActual.scrollIntoView({ block: "nearest", inline: "center" });
-    for (const grupo of $secciones.querySelectorAll(".seccion-grupo")) {
-      grupo.addEventListener("pointerleave", () => grupo.classList.remove("cerrado"));
-    }
     const actual = $secciones.querySelector(".activa");
     if (actual) actual.scrollIntoView({ block: "nearest", inline: "center" });
     // Biblioteca, en el menú lateral: las mismas subsecciones, agrupadas por sección.
@@ -220,12 +191,6 @@ if (typeof document !== "undefined") (function () {
       enlace.classList.toggle("activa", enlace.getAttribute("href") === `#/${activa}`);
     }
   }
-
-  $secciones.addEventListener("click", (e) => {
-    if (!e.target.closest(".seccion-grupo a")) return;
-    cerrarDesplegable = true;
-    if (document.activeElement) document.activeElement.blur();
-  });
 
   function abrirMenu(abrir) {
     document.body.classList.toggle("menu-abierto", abrir);

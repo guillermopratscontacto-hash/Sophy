@@ -80,14 +80,30 @@ button, input { font: inherit; color: inherit; }
   margin: 0 auto;
   padding: 10px var(--margen) 0;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  grid-template-areas: "marca acciones" "secciones secciones" "subbarra subbarra";
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  grid-template-areas: "izq marca acciones" "secciones secciones secciones" "subbarra subbarra subbarra";
   align-items: center;
 }
 
+.cabecera-izq { grid-area: izq; display: flex; align-items: center; gap: 4px; }
+.lupa, .cuenta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 10px;
+  text-decoration: none;
+  color: var(--tinta);
+  font: 500 1rem/1 var(--sans);
+  transition: color 0.35s var(--ease), transform 0.45s var(--ease-salida);
+}
+.lupa svg, .cuenta svg { width: 26px; height: 26px; }
+.lupa:hover, .cuenta:hover { color: var(--rojo); transform: scale(1.06); }
+.cuenta { margin-right: -10px; white-space: nowrap; }
+
 .marca {
   grid-area: marca;
-  justify-self: start;
+  justify-self: center;
   display: inline-flex;
   align-items: center;
   gap: 12px;
@@ -237,7 +253,7 @@ body.con-subbarra { --alto-cabecera: 164px; }
 .hamburguesa {
   width: 54px;
   height: 54px;
-  margin-right: -10px;
+  margin-left: -10px;
   padding: 0;
   border: 0;
   background: none;
@@ -278,55 +294,30 @@ body.con-subbarra { --alto-cabecera: 164px; }
 
 .sin-sesion .secciones,
 .sin-sesion .cabecera-acciones,
+.sin-sesion .cabecera-izq,
 .sin-sesion .pie { display: none; }
 .sin-sesion .cabecera-fila { padding-bottom: 10px; }
 
-/* En pantallas anchas las secciones van en su propia fila, alineadas a la izquierda,
-   para que formen un solo bloque con la fila de subsecciones que aparece debajo. */
+/* Primera fila: menú y lupa a la izquierda, marca en el centro y cuenta a la derecha.
+   Debajo, las secciones y, si las hay, las subsecciones. */
+.cabecera-acciones { justify-self: end; }
 @media (min-width: 900px) {
-  .cabecera-fila {
-    grid-template-columns: auto minmax(0, 1fr) auto;
-    grid-template-areas: "marca secciones acciones";
-    column-gap: 48px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-  }
-  .secciones { margin: 0 0 0 -12px; padding: 0; gap: 14px; overflow: visible; }
-  .subbarra { margin: 0; border-bottom: 0; }
-  .subbarra-dentro { padding: 0; }
-  .cabecera:has(.subbarra:not([hidden])) .cabecera-fila {
-    grid-template-areas: "marca secciones acciones" "marca subbarra acciones";
-    padding-top: 6px;
-    padding-bottom: 4px;
-  }
-  .cabecera-acciones { justify-self: end; }
-  body { --alto-cabecera: 104px; }
-  body.con-subbarra { --alto-cabecera: 124px; }
+  .cabecera-fila { padding-top: 14px; }
+  .secciones { margin-top: 6px; gap: 14px; }
+  body { --alto-cabecera: 126px; }
+  body.con-subbarra { --alto-cabecera: 174px; }
 }
-
-/* Ventanas medianas (portátil con zoom, tableta): el mismo reparto, más apretado. */
-@media (min-width: 740px) and (max-width: 899px) {
-  .cabecera-fila {
-    grid-template-columns: auto minmax(0, 1fr) auto;
-    grid-template-areas: "marca secciones acciones";
-    column-gap: 22px;
-    padding-bottom: 10px;
-  }
-  .cabecera:has(.subbarra:not([hidden])) .cabecera-fila {
-    grid-template-areas: "marca secciones acciones" "marca subbarra acciones";
-    padding-bottom: 4px;
-  }
-  .marca-icono { width: 48px; height: 48px; }
-  .marca-nombre { font-size: 2rem; }
-  .secciones { margin: 0 0 0 -8px; padding: 0; gap: 0; }
-  .secciones .sec { padding: 0 8px; font-size: 0.86rem; letter-spacing: 0.1em; }
-  .secciones .sec::after { left: 8px; right: 8px; }
-  .subbarra { margin: 0; border-bottom: 0; }
-  .subbarra-dentro { padding: 0; gap: 4px 18px; }
-  .subbarra a { font-size: 0.92rem; min-height: 40px; }
-  .subbarra .subbarra-titulo { display: none; }
-  body { --alto-cabecera: 96px; }
-  body.con-subbarra { --alto-cabecera: 116px; }
+/* En el móvil la marca se encoge y la cuenta se queda en el icono. */
+@media (max-width: 599px) {
+  .marca { gap: 8px; }
+  .marca-icono { width: 42px; height: 42px; border-radius: 11px; }
+  .marca-nombre { font-size: 1.8rem; }
+  .hamburguesa { width: 46px; }
+  .hamburguesa span { width: 28px; }
+  .lupa, .cuenta { padding: 0 6px; }
+  .cuenta span { display: none; }
+  .racha { padding: 0 4px; font-size: 1.2rem; }
+  .racha svg { width: 24px; height: 24px; }
 }
 
 /* ---------- Menú ---------- */
@@ -345,7 +336,7 @@ body.con-subbarra { --alto-cabecera: 164px; }
 .menu {
   position: fixed;
   top: 0;
-  right: 0;
+  left: 0;
   bottom: 0;
   z-index: 40;
   width: min(440px, 100%);
@@ -358,7 +349,7 @@ body.con-subbarra { --alto-cabecera: 164px; }
   background: var(--tinta);
   color: var(--blanco);
   box-shadow: var(--sombra);
-  transform: translateX(100%);
+  transform: translateX(-100%);
   visibility: hidden;
   transition: transform 0.65s var(--ease-salida), visibility 0s linear 0.65s;
 }

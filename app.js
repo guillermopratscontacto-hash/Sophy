@@ -1547,6 +1547,8 @@ if (typeof document !== "undefined") (function () {
       <div id="biblio-lista"></div>`;
 
     const $buscar = $("biblio-buscar");
+    if (enfocarBusqueda) setTimeout(() => $buscar.isConnected && $buscar.focus(), 350);
+    enfocarBusqueda = false;
     const $orden = $("biblio-orden");
     const $fecha = $("biblio-fecha");
 
@@ -2133,6 +2135,14 @@ if (typeof document !== "undefined") (function () {
     pintar();
     if (Object.values(estado.partidas).some((p) => p.hecho)) registrarJuego("sudoku", hoy);
   }
+
+  // La lupa de la cabecera abre la Biblioteca con el cursor ya en el buscador.
+  let enfocarBusqueda = false;
+  $("ir-buscar").addEventListener("click", () => {
+    const $buscar = $("biblio-buscar");
+    if ($buscar) $buscar.focus();
+    else enfocarBusqueda = true;
+  });
 
   // ---------- Ampliar las imágenes de los artículos ----------
 

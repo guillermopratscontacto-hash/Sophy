@@ -24,6 +24,14 @@
 <body class="sin-sesion">
   <header class="cabecera" id="cabecera">
     <div class="cabecera-fila">
+      <div class="cabecera-izq">
+        <button id="abrir-menu" class="hamburguesa" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+          <span></span><span></span><span></span>
+        </button>
+        <a id="ir-buscar" class="lupa" href="#/biblioteca" aria-label="Buscar en la biblioteca" title="Buscar en la biblioteca">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
+        </a>
+      </div>
       <a class="marca" href="#/" aria-label="Sophy, inicio">
         <img id="icono" class="marca-icono" src="Sophya.png" alt="" width="38" height="38">
         <span class="marca-nombre">Sophy</span>
@@ -32,9 +40,10 @@
       <nav id="subbarra" class="subbarra" aria-label="Subsecciones" hidden></nav>
       <div class="cabecera-acciones">
         <a id="racha" class="racha" href="#/historial" hidden></a>
-        <button id="abrir-menu" class="hamburguesa" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
-          <span></span><span></span><span></span>
-        </button>
+        <a class="cuenta" href="#/usuario" aria-label="My Account">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>
+          <span>My Account</span>
+        </a>
       </div>
     </div>
     <div id="lectura-barra" class="lectura-barra"></div>

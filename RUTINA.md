@@ -1,79 +1,64 @@
 # Edición diaria de Sophy
 
-Instrucciones para el agente que publica la edición de cada mañana. Sophy es una web estática (GitHub Pages) que lee `contenido/indice.json` y los archivos Markdown que ese índice enumera. Tu trabajo es añadir la edición de hoy: siete piezas, una por sección. No toques nada más.
+Instrucciones para el agente que publica la edición de cada mañana: siete piezas, una por sección. Lo mecánico (fechas, temas de Cultura, imágenes, índice, validación y push) lo hace `rutina/sophy.py`; tu trabajo es elegir las cuatro noticias, contrastarlas y escribir.
+
+## Trabaja en pocos pasos
+
+Cada paso relee toda la conversación, así que el coste depende del número de pasos. Sigue este orden y no añadas otros:
+
+1. `python3 rutina/sophy.py preparar` — una sola vez. Devuelve la fecha, las noticias ya publicadas, los tres temas de Cultura con su imagen, las imágenes de archivo disponibles y los titulares de ayer por sección. Si dice que la edición ya está publicada, termina.
+2. Elige las cuatro noticias y abre **en un mismo paso, en paralelo**, dos fuentes de cada una (los enlaces vienen en los titulares). Usa la búsqueda web solo si un enlace falla o falta una segunda fuente.
+3. Si alguna noticia no encaja con ninguna imagen de archivo de la lista, pide todas las que falten en una única orden: `python3 rutina/sophy.py imagenes "término 1" "término 2"` (con un `timeout` de 10 minutos; el script ya espera y reintenta solo, no lo repitas ni consultes Wikimedia por tu cuenta).
+4. Escribe los siete archivos en uno o dos pasos, con varias llamadas en paralelo.
+5. `python3 rutina/sophy.py publicar` — valida, comprueba imágenes y enlaces, actualiza el índice, hace el commit y el push. Si devuelve errores, corrige solo eso y vuelve a ejecutarlo.
+
+No releas los archivos que acabas de escribir, no hagas comprobaciones que ya hace `publicar`, no edites `contenido/indice.json` a mano, no uses git directamente y no narres lo que vas haciendo. Al terminar, resume en una línea qué has publicado.
 
 ## Qué publicar
 
-Usa la fecha de hoy en la zona horaria Europe/Madrid (`HOY`, formato `AAAA-MM-DD`). Las cuatro secciones de actualidad cubren lo ocurrido **ayer**.
-
-| id (nombre de archivo y `tema`) | Contenido |
+| id (nombre de archivo) | Contenido |
 |---|---|
 | `economia` | La noticia económica más relevante de ayer: mercados, bancos centrales, empresas, energía, empleo. |
 | `politica-espanola` | La noticia más relevante de ayer en la política de España. |
 | `politica-internacional` | La noticia política más relevante de ayer fuera de España: gobiernos, elecciones, diplomacia, conflictos. |
-| `internacional` | Sucesos generales de ayer en el mundo: catástrofes, accidentes, ciencia, sociedad. Puede llevar dos noticias. |
-| `arte` | Un reportaje atemporal sobre una obra, un artista, un movimiento o una técnica, al estilo de National Geographic. |
-| `historia` | Un reportaje atemporal sobre un episodio, un objeto, un personaje o una civilización, al estilo de National Geographic. |
-| `literatura` | Un reportaje atemporal sobre un libro, un autor, un género o un movimiento literario, con el mismo estilo. |
+| `internacional` | Sucesos generales de ayer en el mundo: catástrofes, accidentes, ciencia, sociedad. |
+| `arte`, `historia`, `literatura` | Un reportaje atemporal, al estilo de National Geographic, sobre el asunto que indica `preparar`. |
 
-Las cuatro primeras forman la sección News de la web; las tres últimas, la sección Cultura.
-
-### Nada se repite
-
-Todas las piezas de cada edición son nuevas. Antes de elegir ningún tema, saca del índice todo lo ya publicado en cada sección (la lista completa, no solo los últimos días):
-
-```bash
-python3 -c "
-import json
-for e in json.load(open('contenido/indice.json', encoding='utf-8'))['entradas']:
-    print(e['tema'], '|', e['fecha'], '|', e['titulo'])
-" | sort
-```
-
-- **`arte`, `historia` y `literatura` no repiten nunca asunto.** No basta con cambiar el titular: si ya se publicó una pieza sobre una obra, un autor, un personaje, un objeto, un episodio o un movimiento, ese asunto queda agotado para siempre, también desde otro ángulo. Si ya hay un reportaje sobre *Las Meninas*, no vale otro sobre *Las Meninas* ni uno sobre el espejo de *Las Meninas*; elige otra obra.
-- Tampoco repitas autor, artista o civilización protagonista hasta que hayan pasado al menos 30 ediciones de esa sección.
-- Varía respecto a las cinco últimas ediciones de la sección: otra época, otra región del mundo y otra disciplina o género. Alterna Europa con Asia, África, América y Oceanía, y lo antiguo con lo moderno y lo contemporáneo.
-- Un mismo asunto no puede aparecer el mismo día en dos secciones de Cultura.
-- En las secciones de actualidad, cada pieza cuenta un hecho distinto de los ya publicados. Si una historia continúa de un día anterior, cuenta solo lo nuevo, con otro titular y otra imagen.
-- Tampoco repitas imagen: no uses una URL que ya esté en el campo `imagen` del índice.
-
-Cuando tengas elegidos los siete temas, vuelve a compararlos con esa lista antes de escribir.
-
-Ninguna sección puede quedar vacía por falta de noticia de ayer. Si ayer no hubo una noticia relevante en una sección (pasa sobre todo en `economia` los fines de semana, con los mercados cerrados), cubre la más relevante de los últimos tres días que no esté ya publicada en el índice, y pon en la data la fecha real del hecho.
-
-Si ya existe la carpeta `contenido/HOY/`, la edición está publicada: no hagas nada.
+- La noticia más relevante suele ser la que aparece en varios medios a la vez.
+- Cada noticia cuenta un hecho distinto de los ya publicados. Si una historia continúa, cuenta solo lo nuevo, con otro titular.
+- Ninguna sección queda vacía: si ayer no hubo noticia relevante (pasa en `economia` los fines de semana), cubre la más relevante de los últimos tres días que no esté publicada y pon en la data la fecha real del hecho.
+- En Cultura, el asunto y la imagen vienen dados y no se cambian: así nunca se repiten. Tú eliges el ángulo y el titular. Solo si `preparar` dice `LISTA AGOTADA` eliges tú un asunto que no esté entre los publicados (otra época, otra región y otro autor que los recientes) y buscas su imagen con `imagenes`.
 
 ## Cómo investigar
 
-- Busca en la web las noticias de ayer y contrasta cada una en al menos dos fuentes fiables. Abre los artículos; no escribas solo a partir de titulares.
-- Comprueba que el hecho ocurrió ayer y no días antes.
-- Si las fuentes dan cifras distintas, dilo en el texto y atribuye cada cifra; no elijas una en silencio.
-- Distingue hechos de declaraciones: lo que afirma un partido o un gobierno se atribuye («según…»).
+- Contrasta cada noticia en dos fuentes fiables y comprueba que el hecho ocurrió ayer.
+- Si las fuentes dan cifras distintas, dilo y atribuye cada una. Distingue hechos de declaraciones («según…»).
 - En política, tono neutral: sin adjetivos valorativos y con la posición de las partes enfrentadas.
-- Para `arte`, `historia` y `literatura`, limítate a hechos bien establecidos y señala lo que sigue en debate.
+- Los reportajes de Cultura se escriben sin buscar en la web: limítate a hechos bien establecidos y señala lo que sigue en debate.
 - No inventes datos, citas ni enlaces. Si no puedes verificar algo, déjalo fuera.
 
 ## Cómo escribir
 
-- En español de España, con tus propias palabras. Nunca copies párrafos de un medio: resume, ordena y enlaza las fuentes.
-- Noticias: 4 o 5 párrafos (250–350 palabras). Reportajes de arte, historia y literatura: 5 o 6 párrafos (350–450 palabras).
+- En español de España, con tus propias palabras; nunca copies párrafos de un medio.
+- Noticias: 4 o 5 párrafos (250–350 palabras). Reportajes: 5 o 6 párrafos (350–450 palabras).
 - El primer párrafo cuenta lo esencial; los siguientes, el contexto y lo que queda abierto.
-- Titular informativo de una frase, sin punto final ni dos puntos de adorno.
-- Resalta en **negrita** las partes importantes para facilitar la lectura: entre 4 y 6 fragmentos por artículo, repartidos por todos los párrafos. Resalta el hecho esencial, las cifras clave, los nombres propios decisivos y la consecuencia principal. Cada fragmento tiene entre 3 y 12 palabras: nunca frases enteras largas ni párrafos completos. Leyendo solo las negritas debe entenderse lo esencial.
-- Ningún párrafo del cuerpo puede empezar por negrita: la web reserva ese formato para la línea final de fuentes.
+- Titular informativo de una frase, sin punto final.
+- Entre 4 y 6 fragmentos en **negrita** por artículo, de 3 a 12 palabras, repartidos por los párrafos: el hecho esencial, las cifras clave, los nombres decisivos y la consecuencia. Ningún párrafo empieza por negrita.
+- Sin `#` de nivel 1 ni emojis.
 
 ## Formato de cada archivo
 
-Ruta: `contenido/HOY/<id>.md`. Cada artículo sigue exactamente esta estructura; la web depende de ella para maquetar:
+Ruta: `contenido/HOY/<id>.md`. Estructura exacta:
 
 ```markdown
+<!-- resumen: Una o dos frases para la portada, máximo 160 caracteres. -->
 ## Titular de la noticia
 
 *Ciudad, sábado 10 de octubre*
 
 <figure>
-  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/NOMBRE%20CODIFICADO.jpg?width=1200" alt="Descripción de la imagen" loading="lazy">
-  <figcaption>Imagen de archivo: qué muestra y de cuándo es. Foto: Autor, licencia, vía Wikimedia Commons.</figcaption>
+  <img src="URL DE LA IMAGEN" alt="Descripción de la imagen" loading="lazy">
+  <figcaption>Imagen de archivo: qué muestra. Foto: Autor, licencia, vía Wikimedia Commons.</figcaption>
 </figure>
 
 Primer párrafo.
@@ -83,50 +68,13 @@ Más párrafos.
 **Fuentes:** [Medio](https://…) · [Medio](https://…)
 ```
 
-- La línea en cursiva es la data: lugar y fecha del hecho en las noticias; época o ámbito en los reportajes (por ejemplo, `*Grecia, siglo II a. C.*`).
-- Si un archivo lleva dos artículos, sepáralos con una línea `---`.
-- En los reportajes, la última línea es `**Para saber más:**` en lugar de `**Fuentes:**`.
-- No uses `#` (título de nivel 1) ni emojis.
-
-## Imágenes
-
-- Solo imágenes de Wikimedia Commons con licencia libre (dominio público, CC0, CC BY, CC BY-SA). Nunca fotos de agencias o de medios.
-- Búscalas con la API: `https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrsearch=filetype:bitmap+TÉRMINOS&prop=imageinfo&iiprop=extmetadata|size|mime`.
-- La URL de la imagen es `https://commons.wikimedia.org/wiki/Special:FilePath/` + el nombre del archivo codificado como URL (sin el prefijo `File:`) + `?width=1200`.
-- En las noticias casi nunca habrá foto libre del suceso: usa una imagen de archivo relacionada y dilo en el pie («Imagen de archivo: …»). El pie no debe dar a entender que la foto es del suceso.
-- El pie siempre incluye autor y licencia.
-- Comprueba cada URL con `curl -L` y confirma que devuelve 200 y una imagen.
-- **Todas las piezas llevan imagen, sin excepción.** Si la búsqueda concreta no da resultado, amplía el término paso a paso: del suceso al lugar (la ciudad, el edificio, el país), y del lugar al tema (un mapa, una bandera, una sede institucional, un objeto representativo). Siempre hay una imagen de archivo válida; no publiques una pieza sin `<figure>`.
-
-### Límite de peticiones de Wikimedia
-
-Wikimedia bloquea temporalmente a quien hace muchas consultas seguidas («You are making too many requests»). Para evitarlo:
-
-- Identifícate en todas las peticiones a Wikimedia, tanto a la API como al comprobar imágenes: `curl -A "SophyBot/1.0 (https://github.com/guillermopratscontacto-hash/Sophy)" …`.
-- Haz las peticiones de una en una, nunca en paralelo ni en bucle rápido, y espera 5 segundos entre una y otra (`sleep 5`).
-- Piensa bien el término antes de buscar: lo normal es una o dos búsquedas por pieza.
-- Si aun así recibes el aviso de demasiadas peticiones, espera 60 segundos antes de reintentar y sigue mientras tanto con la redacción de otra pieza.
-
-## Índice
-
-Añade siete objetos al **principio** de `entradas` en `contenido/indice.json`, en el orden de la tabla:
-
-```json
-{
-  "fecha": "HOY",
-  "tema": "economia",
-  "titulo": "El mismo titular que el primer artículo del archivo",
-  "resumen": "Una o dos frases, máximo 160 caracteres.",
-  "imagen": "La misma URL de la imagen del artículo (omite el campo si no hay imagen)",
-  "archivo": "contenido/HOY/economia.md"
-}
-```
-
-No modifiques `temas` ni las entradas anteriores.
+- La línea en cursiva es la data: lugar y fecha del hecho en las noticias; época o ámbito en los reportajes (`*Grecia, siglo II a. C.*`).
+- La URL de la imagen y su crédito (autor y licencia) se copian tal cual de la salida de `preparar` o de `imagenes`. No repitas una imagen dentro de la edición.
+- En las noticias la imagen es de archivo: el pie empieza por «Imagen de archivo:» y no da a entender que la foto es del suceso.
+- En los reportajes, la última línea es `**Para saber más:**` con dos o tres enlaces a artículos de `https://es.wikipedia.org/wiki/…` que existan.
+- La línea `<!-- resumen: … -->` la retira `publicar` y la lleva al índice.
 
 ## Reglas
 
-- Solo puedes crear archivos en `contenido/HOY/` y añadir entradas a `contenido/indice.json`. No edites ni borres ediciones anteriores, ni el código de la web (`index.html`, `app.js`, `styles.css`, `config.js`, `supabase/`).
-- Antes de publicar, comprueba que `contenido/indice.json` es JSON válido, que los siete archivos existen, que cada `archivo` del índice apunta a uno real y que ningún asunto ni imagen de hoy coincide con una edición anterior.
-- Publica con un único commit en la rama `main`, con el mensaje `Edición del HOY`, y haz push. GitHub Pages actualiza la web solo.
-- Si una sección no puede completarse con garantías, publica las demás y explica en el mensaje del commit cuál falta y por qué. Es preferible una sección menos que una noticia sin verificar.
+- Solo creas archivos en `contenido/HOY/`. No toques ediciones anteriores, la carpeta `rutina/` ni el código de la web.
+- Si una sección no puede completarse con garantías, no escribas su archivo y publica con `python3 rutina/sophy.py publicar --falta="motivo"`. Es preferible una sección menos que una noticia sin verificar.

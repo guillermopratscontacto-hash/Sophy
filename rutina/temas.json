@@ -1,0 +1,638 @@
+{
+ "arte": [
+  {
+   "id": "jardin-delicias",
+   "asunto": "«El jardín de las delicias», de El Bosco",
+   "imagen": "Garden delights.jpg",
+   "autor": "Hieronymus Bosch",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "cabezas-ife",
+   "asunto": "Las cabezas de bronce de Ife (Nigeria, siglos XII-XV)",
+   "imagen": "British Museum Room 25 Head of a king Ife 17022019 5147.jpg",
+   "autor": "Vassil",
+   "licencia": "CC0"
+  },
+  {
+   "id": "taj-mahal",
+   "asunto": "El Taj Mahal y la arquitectura mogol",
+   "imagen": "Taj Mahal, Agra, India edit2.jpg",
+   "autor": "Yann",
+   "licencia": "CC BY-SA 4.0"
+  },
+  {
+   "id": "david-miguel-angel",
+   "asunto": "El «David» de Miguel Ángel",
+   "imagen": "Michelangelo's David - right view 2.jpg",
+   "autor": "Commonists",
+   "licencia": "CC BY-SA 4.0"
+  },
+  {
+   "id": "cabezas-olmecas",
+   "asunto": "Las cabezas colosales olmecas",
+   "imagen": "Olmec Colossal Head, San Lorenzo, Veracruz, 1200-600 BC.jpg",
+   "autor": "Gary Todd",
+   "licencia": "CC0"
+  },
+  {
+   "id": "joven-perla",
+   "asunto": "«La joven de la perla», de Vermeer",
+   "imagen": "Meisje met de parel.jpg",
+   "autor": "Johannes Vermeer",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "bronces-benin",
+   "asunto": "Los bronces de Benín",
+   "imagen": "Two warriors, single warrior, Benin bronzes at MFA.agr.jpg",
+   "autor": "ArnoldReinhold",
+   "licencia": "CC BY 4.0"
+  },
+  {
+   "id": "fusilamientos-goya",
+   "asunto": "«El 3 de mayo en Madrid», de Goya",
+   "imagen": "El Tres de Mayo, by Francisco de Goya, from Prado (cropped).jpg",
+   "autor": "Francisco Goya",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "ryoanji",
+   "asunto": "El jardín seco de Ryōan-ji y la estética zen",
+   "imagen": "Kare-sansui zen garden, Ryōan-ji, Kyoto 20190416 1.jpg",
+   "autor": "DXR",
+   "licencia": "CC BY-SA 4.0"
+  },
+  {
+   "id": "altamira",
+   "asunto": "Las pinturas rupestres de Altamira",
+   "imagen": "Altamira, bison.jpg",
+   "autor": "autor desconocido",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "frida-kahlo",
+   "asunto": "Frida Kahlo y el autorretrato",
+   "imagen": "Frida Kahlo, by Guillermo Kahlo.jpg",
+   "autor": "Guillermo Kahlo",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "santa-sofia",
+   "asunto": "Santa Sofía de Constantinopla y su cúpula",
+   "imagen": "Interior of Hagia Sophia (9) - Istanbul (2022).jpg",
+   "autor": "ImanFakhri",
+   "licencia": "CC BY-SA 4.0"
+  },
+  {
+   "id": "impresion-monet",
+   "asunto": "«Impresión, sol naciente», de Monet, y el nacimiento del impresionismo",
+   "imagen": "Monet - Impression, Sunrise.jpg",
+   "autor": "Claude Monet",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "miniatura-persa",
+   "asunto": "La miniatura persa y el «Shahnameh» de Shah Tahmasp",
+   "imagen": "Dust Muhammad, The Story Of Haftvad And The Worm, Folio From The Shahnama Of Shah Tahmasp ca. 1540 Sadruddin Aga khan Collection.jpg",
+   "autor": "atribuida a Dust Muhammad",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "arte-rupestre-kakadu",
+   "asunto": "El arte rupestre aborigen de Kakadu (Australia)",
+   "imagen": "Kakadu (AU), Kakadu National Park, Ubirr Rock Art -- 2019 -- 4169.jpg",
+   "autor": "Dietmar Rabich",
+   "licencia": "CC BY-SA 4.0"
+  },
+  {
+   "id": "nacimiento-venus",
+   "asunto": "«El nacimiento de Venus», de Botticelli",
+   "imagen": "Sandro Botticelli 046.jpg",
+   "autor": "Sandro Botticelli",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "moais",
+   "asunto": "Los moáis de Rapa Nui",
+   "imagen": "Moai Rano raraku.jpg",
+   "autor": "Aurbina",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "el-grito",
+   "asunto": "«El grito», de Edvard Munch",
+   "imagen": "Edvard Munch, 1893, The Scream, oil, tempera and pastel on cardboard, 91 x 73 cm, National Gallery of Norway.jpg",
+   "autor": "Edvard Munch",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "alhambra",
+   "asunto": "La Alhambra y el arte nazarí",
+   "imagen": "Fountain patio de los Leones Alhambra Granada Spain.jpg",
+   "autor": "Jebulon",
+   "licencia": "CC0"
+  },
+  {
+   "id": "gioconda",
+   "asunto": "«La Gioconda», de Leonardo da Vinci",
+   "imagen": "Mona Lisa, by Leonardo da Vinci, from C2RMF retouched.jpg",
+   "autor": "Leonardo da Vinci",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "mezquita-djenne",
+   "asunto": "La Gran Mezquita de Djenné y la arquitectura de adobe",
+   "imagen": "MaliDjennéMosquée.JPG",
+   "autor": "BluesyPete",
+   "licencia": "CC BY-SA 3.0"
+  },
+  {
+   "id": "pensador-rodin",
+   "asunto": "«El pensador», de Rodin",
+   "imagen": "Le Penseur Musée Rodin Paris S.1295.jpg",
+   "autor": "Musée Rodin",
+   "licencia": "CC0"
+  },
+  {
+   "id": "lineas-nazca",
+   "asunto": "Las líneas de Nazca",
+   "imagen": "Líneas de Nazca, Nazca, Perú, 2015-07-29, DD 52.JPG",
+   "autor": "Diego Delso",
+   "licencia": "CC BY-SA 4.0"
+  },
+  {
+   "id": "beso-klimt",
+   "asunto": "«El beso», de Gustav Klimt",
+   "imagen": "The Kiss - Gustav Klimt - Google Cultural Institute.jpg",
+   "autor": "Gustav Klimt",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "partenon",
+   "asunto": "El Partenón y sus mármoles",
+   "imagen": "Attica 06-13 Athens 50 View from Philopappos - Acropolis Hill.jpg",
+   "autor": "A.Savin",
+   "licencia": "CC BY-SA 3.0"
+  },
+  {
+   "id": "tapiz-bayeux",
+   "asunto": "El tapiz de Bayeux",
+   "imagen": "Bayeux Tapestry scene57 Harold death.jpg",
+   "autor": "Myrabella",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "sagrada-familia",
+   "asunto": "La Sagrada Familia de Gaudí",
+   "imagen": "Sagrada Familia March 2015-10a.jpg",
+   "autor": "Alvesgaspar",
+   "licencia": "CC BY-SA 4.0"
+  },
+  {
+   "id": "vocacion-caravaggio",
+   "asunto": "«La vocación de san Mateo», de Caravaggio, y el claroscuro",
+   "imagen": "Caravaggio, Michelangelo Merisi da - The Calling of Saint Matthew - 1599-1600 (hi res).jpg",
+   "autor": "Caravaggio",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "borobudur-relieves",
+   "asunto": "Los relieves de Borobudur",
+   "imagen": "Borobudur Relief Panel 0979.jpg",
+   "autor": "Michael Gunther",
+   "licencia": "CC BY-SA 4.0"
+  },
+  {
+   "id": "bauhaus",
+   "asunto": "La Bauhaus",
+   "imagen": "Bauhaus-Dessau main building.jpg",
+   "autor": "autor desconocido",
+   "licencia": "dominio público"
+  }
+ ],
+ "historia": [
+  {
+   "id": "caida-constantinopla",
+   "asunto": "La caída de Constantinopla en 1453",
+   "imagen": "Le siège de Constantinople (1453) by Jean Le Tavernier after 1455.jpg",
+   "autor": "autor desconocido",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "mansa-musa",
+   "asunto": "Mansa Musa y el Imperio de Malí",
+   "imagen": "Catalan Atlas BNF Sheet 6 Mansa Musa (cropped).jpg",
+   "autor": "atribuido a Abraham Cresques",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "pompeya",
+   "asunto": "Pompeya y la erupción del Vesubio",
+   "imagen": "Forum (Pompeii) and the Vesuvio.jpg",
+   "autor": "Commonists",
+   "licencia": "CC BY-SA 4.0"
+  },
+  {
+   "id": "revolucion-haitiana",
+   "asunto": "La Revolución haitiana",
+   "imagen": "Toussaint Louverture. Kupfer, 1806.jpg",
+   "autor": "Regge & Meineck",
+   "licencia": "CC BY-SA 4.0"
+  },
+  {
+   "id": "angkor",
+   "asunto": "Angkor y el Imperio jemer",
+   "imagen": "Angkor Wat Sunrise (209237385).jpeg",
+   "autor": "Reinhard Onasch",
+   "licencia": "CC BY-SA 3.0"
+  },
+  {
+   "id": "peste-negra",
+   "asunto": "La peste negra en Europa",
+   "imagen": "The Triumph of Death by Pieter Bruegel the Elder.jpg",
+   "autor": "Pieter Bruegel el Viejo",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "tenochtitlan",
+   "asunto": "Tenochtitlan, la capital mexica",
+   "imagen": "Templo Mayor - Model of the Cerimonial Center of Tenochtitlan - Templo Mayor Archeological Zone - Mexico 2024.jpg",
+   "autor": "José Luiz",
+   "licencia": "CC BY-SA 4.0"
+  },
+  {
+   "id": "gutenberg",
+   "asunto": "La imprenta de Gutenberg",
+   "imagen": "Gutenberg Bible, New York Public Library, USA. Pic 01.jpg",
+   "autor": "Joshua Keller",
+   "licencia": "CC BY 2.0"
+  },
+  {
+   "id": "gran-zimbabue",
+   "asunto": "Gran Zimbabue",
+   "imagen": "Great-zim-aerial-looking-West.JPG",
+   "autor": "Janice Bell",
+   "licencia": "CC BY-SA 4.0"
+  },
+  {
+   "id": "restauracion-meiji",
+   "asunto": "La Restauración Meiji en Japón",
+   "imagen": "Mutsuhito-Emperor-Meiji-1873.png",
+   "autor": "autor desconocido",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "muro-berlin",
+   "asunto": "La caída del Muro de Berlín",
+   "imagen": "Politicians at Brandenburg Gate opening 1989.JPEG",
+   "autor": "F. Lee Corkran",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "hammurabi",
+   "asunto": "El código de Hammurabi",
+   "imagen": "Code of Hammurabi-Sb 8-IMG 7753-gradient.jpg",
+   "autor": "Rama",
+   "licencia": "CC BY-SA 3.0 fr"
+  },
+  {
+   "id": "vuelta-mundo",
+   "asunto": "La primera vuelta al mundo de Magallanes y Elcano",
+   "imagen": "Nao Victoria (ship, 1992), Sète cf04.jpg",
+   "autor": "Christian Ferrer",
+   "licencia": "CC BY 4.0"
+  },
+  {
+   "id": "gengis-kan",
+   "asunto": "Gengis Kan y el Imperio mongol",
+   "imagen": "YuanEmperorAlbumGenghisPortrait.jpg",
+   "autor": "autor desconocido",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "toma-bastilla",
+   "asunto": "La toma de la Bastilla",
+   "imagen": "Prise de la Bastille clean.jpg",
+   "autor": "Jean-Pierre Houël",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "vikingos-america",
+   "asunto": "Los vikingos en América: L'Anse aux Meadows",
+   "imagen": "2022-08-27 04 Silhouette sculpture of Norsemen above L'Anse aux Meadows, NFL CAN.jpg",
+   "autor": "Gordon Leggett",
+   "licencia": "CC BY-SA 4.0"
+  },
+  {
+   "id": "aksum",
+   "asunto": "El reino de Aksum",
+   "imagen": "Axum stelae (5498491357).jpg",
+   "autor": "Katie Hunt",
+   "licencia": "CC BY 2.0"
+  },
+  {
+   "id": "apolo-11",
+   "asunto": "El Apolo 11 y la llegada a la Luna",
+   "imagen": "Aldrin Apollo 11.jpg",
+   "autor": "Neil A. Armstrong",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "valle-indo",
+   "asunto": "Mohenjo-Daro y la civilización del valle del Indo",
+   "imagen": "Great bath view Mohenjodaro.JPG",
+   "autor": "Saqib Qayyum",
+   "licencia": "CC BY-SA 3.0"
+  },
+  {
+   "id": "califato-cordoba",
+   "asunto": "El califato de Córdoba",
+   "imagen": "Arcos interiores Mezquita de Córdoba 04.jpg",
+   "autor": "Markanga",
+   "licencia": "CC BY-SA 3.0 es"
+  },
+  {
+   "id": "trata-atlantica",
+   "asunto": "La trata atlántica de esclavos y su abolición",
+   "imagen": "Brookes slave ship, British Library.jpg",
+   "autor": "James Phillips",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "tikal",
+   "asunto": "Tikal y las ciudades mayas del periodo clásico",
+   "imagen": "Tikal Temple1 2006 08 11.JPG",
+   "autor": "Raymond Ostertag",
+   "licencia": "CC BY-SA 2.5"
+  },
+  {
+   "id": "stonehenge",
+   "asunto": "Stonehenge",
+   "imagen": "Stonehenge, Condado de Wiltshire, Inglaterra, 2014-08-12, DD 09.JPG",
+   "autor": "Diego Delso",
+   "licencia": "CC BY-SA 4.0"
+  },
+  {
+   "id": "marcha-sal",
+   "asunto": "Gandhi y la Marcha de la Sal",
+   "imagen": "Marche sel.jpg",
+   "autor": "Yann",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "canal-panama",
+   "asunto": "La construcción del canal de Panamá",
+   "imagen": "Labourers at work on the panama canal at Culebra Cut 1904.jpg",
+   "autor": "autor desconocido",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "navegantes-polinesios",
+   "asunto": "Los navegantes polinesios y el poblamiento del Pacífico",
+   "imagen": "Hōkūleʻa voyaging canoe behind Hawaii convention Center.jpg",
+   "autor": "Miliefsk",
+   "licencia": "CC BY-SA 4.0"
+  },
+  {
+   "id": "persepolis",
+   "asunto": "Persépolis y el Imperio aqueménida",
+   "imagen": "20101229 Gates of the nations Persepolis Iran.jpg",
+   "autor": "Ggia",
+   "licencia": "CC BY-SA 3.0"
+  },
+  {
+   "id": "maquina-vapor",
+   "asunto": "La máquina de vapor y la Revolución Industrial",
+   "imagen": "Maquina vapor Watt ETSIIM.jpg",
+   "autor": "Nicolás Pérez",
+   "licencia": "CC BY-SA 3.0"
+  },
+  {
+   "id": "petra",
+   "asunto": "Petra y los nabateos",
+   "imagen": "Al Khazneh Petra edit 2.jpg",
+   "autor": "Graham Racher",
+   "licencia": "CC BY-SA 2.0"
+  },
+  {
+   "id": "ruta-seda",
+   "asunto": "La Ruta de la Seda",
+   "imagen": "Registan Samarkand Uzbekistan.JPG",
+   "autor": "Stomac",
+   "licencia": "CC BY-SA 2.0 fr"
+  }
+ ],
+ "literatura": [
+  {
+   "id": "quijote",
+   "asunto": "«Don Quijote de la Mancha», de Cervantes",
+   "imagen": "Gustave Doré - Miguel de Cervantes - Don Quixote - Part 1 - Chapter 1 - Plate 1 \"A world of disorderly notions, picked out of his books, crowded into his imagination\".jpg",
+   "autor": "Gustave Doré",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "genji",
+   "asunto": "«La historia de Genji», de Murasaki Shikibu",
+   "imagen": "Genji emaki Yadorigi.JPG",
+   "autor": "autor desconocido (siglo XII)",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "cien-anos-soledad",
+   "asunto": "«Cien años de soledad», de Gabriel García Márquez",
+   "imagen": "Gabriel García Márquez 02.jpg",
+   "autor": "Gorup de Besanez",
+   "licencia": "CC BY-SA 4.0"
+  },
+  {
+   "id": "odisea",
+   "asunto": "La «Odisea» de Homero",
+   "imagen": "Odysseus Sirens BM E440 n2.jpg",
+   "autor": "Pintor de las Sirenas",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "gilgamesh",
+   "asunto": "La epopeya de Gilgamesh",
+   "imagen": "British Museum Flood Tablet 1.jpg",
+   "autor": "Mike Peel",
+   "licencia": "CC BY-SA 4.0"
+  },
+  {
+   "id": "orgullo-prejuicio",
+   "asunto": "Jane Austen y «Orgullo y prejuicio»",
+   "imagen": "CassandraAusten-JaneAusten(c.1810) hires.jpg",
+   "autor": "Cassandra Austen",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "borges",
+   "asunto": "Jorge Luis Borges y «Ficciones»",
+   "imagen": "Jorge Luis Borges 1951, by Grete Stern.jpg",
+   "autor": "Grete Stern",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "mahabharata",
+   "asunto": "El «Mahabharata»",
+   "imagen": "'Asvatthama Fires the Narayana Weapon (Cosmic Fire) at the Pandavas', Folio from a Razmnama, ca. 1616-17, The Metropolitan Museum of Art 2.jpg",
+   "autor": "taller mogol (hacia 1616)",
+   "licencia": "CC0"
+  },
+  {
+   "id": "frankenstein",
+   "asunto": "«Frankenstein», de Mary Shelley",
+   "imagen": "RothwellMaryShelley.jpg",
+   "autor": "Richard Rothwell",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "divina-comedia",
+   "asunto": "La «Divina comedia» de Dante",
+   "imagen": "Domenico di Michelino Dante Duomo Florence duomofirenze.it.jpg",
+   "autor": "Domenico di Michelino",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "rumi",
+   "asunto": "Rumi y la poesía sufí",
+   "imagen": "Mevlana Müzesi 01.jpg",
+   "autor": "Bernard Gagnon",
+   "licencia": "CC BY-SA 3.0"
+  },
+  {
+   "id": "hamlet",
+   "asunto": "Shakespeare y «Hamlet»",
+   "imagen": "Title Page - Shakespeare First Folio (1623), title page - BL.jpg",
+   "autor": "Martin Droeshout",
+   "licencia": "CC0"
+  },
+  {
+   "id": "popol-vuh",
+   "asunto": "El «Popol Vuh»",
+   "imagen": "Popol vuh.jpg",
+   "autor": "Francisco Ximénez",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "crimen-castigo",
+   "asunto": "Dostoievski y «Crimen y castigo»",
+   "imagen": "Vasily Perov - Портрет Ф.М.Достоевского - Google Art Project.jpg",
+   "autor": "Vasily Perov",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "basho",
+   "asunto": "Matsuo Bashō y el haiku",
+   "imagen": "Matsuo Basho by Sugiyama Sanpu.jpg",
+   "autor": "Sugiyama Sanpū",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "metamorfosis",
+   "asunto": "Kafka y «La metamorfosis»",
+   "imagen": "Franz Kafka, 1923.jpg",
+   "autor": "autor desconocido",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "sor-juana",
+   "asunto": "Sor Juana Inés de la Cruz",
+   "imagen": "Cuadro de Sor Juana Inés de la Cruz Miguel Cabrera (1750).jpg",
+   "autor": "OliAzor",
+   "licencia": "CC BY 4.0"
+  },
+  {
+   "id": "tagore",
+   "asunto": "Rabindranath Tagore",
+   "imagen": "Rabindranath Tagore.jpg",
+   "autor": "autor desconocido",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "virginia-woolf",
+   "asunto": "Virginia Woolf y «La señora Dalloway»",
+   "imagen": "George Charles Beresford - Virginia Woolf in 1902 - Restoration.jpg",
+   "autor": "George Charles Beresford / Adam Cuerden",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "cantar-cid",
+   "asunto": "El «Cantar de mio Cid»",
+   "imagen": "Cantar de mio Cid f. 1r (rep).jpg",
+   "autor": "Per Abbat (copista)",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "griots",
+   "asunto": "Los griots y la epopeya de Sundiata",
+   "imagen": "Joueur de kora à Toubab Dialaw.jpg",
+   "autor": "M.GADJ!",
+   "licencia": "CC BY-SA 4.0"
+  },
+  {
+   "id": "moby-dick",
+   "asunto": "«Moby Dick», de Herman Melville",
+   "imagen": "Thomas Beale - Boats attacking whales.jpg",
+   "autor": "Thomas Beale",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "poe",
+   "asunto": "Edgar Allan Poe y el nacimiento del relato policial",
+   "imagen": "Edgar Allan Poe, circa 1849, restored, squared off.jpg",
+   "autor": "autor desconocido",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "li-bai",
+   "asunto": "Li Bai y la poesía de la dinastía Tang",
+   "imagen": "Liang Kai - Li Bai Strolling.jpg",
+   "autor": "Liang Kai",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "lorca",
+   "asunto": "Federico García Lorca y el «Romancero gitano»",
+   "imagen": "Salvador Dalí, Federico García Lorca, Barcelona, 1925.jpg",
+   "autor": "autor desconocido",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "emily-dickinson",
+   "asunto": "Emily Dickinson",
+   "imagen": "Black-white photograph of Emily Dickinson2.jpg",
+   "autor": "autor desconocido",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "ngugi",
+   "asunto": "Ngũgĩ wa Thiong'o y la decisión de escribir en kikuyu",
+   "imagen": "Ngugi wa Thiong'o - Festivaletteratura 2012.JPG",
+   "autor": "Niccolò Caranti",
+   "licencia": "CC BY-SA 3.0"
+  },
+  {
+   "id": "hermanos-grimm",
+   "asunto": "Los cuentos de los hermanos Grimm",
+   "imagen": "Alte Nationalgalerie-Jerichau-Baumann-Gebrüder Grimm DSC8174.jpg",
+   "autor": "Elisabeth Baumann",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "ruben-dario",
+   "asunto": "Rubén Darío y el modernismo",
+   "imagen": "Portrait of Rubén Darío.jpg",
+   "autor": "autor desconocido",
+   "licencia": "dominio público"
+  },
+  {
+   "id": "sherlock-holmes",
+   "asunto": "Arthur Conan Doyle y Sherlock Holmes",
+   "imagen": "Sherlock Holmes and Professor Moriarty at the Reichenbach Falls - Sidney Paget.jpg",
+   "autor": "Sidney Paget",
+   "licencia": "dominio público"
+  }
+ ]
+}

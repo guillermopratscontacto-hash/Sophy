@@ -87,6 +87,22 @@ def usadas(indice):
     return {clave_imagen(e["imagen"]) for e in indice["entradas"] if e.get("imagen")}
 
 
+REPOSO = 30  # días que tarda una imagen de archivo en poder volver a usarse
+
+
+def reserva_libre(indice, dia):
+    """Imágenes de archivo disponibles: las que no han salido en los últimos REPOSO días."""
+    limite = (dia - datetime.timedelta(days=REPOSO)).isoformat()
+    recientes = {clave_imagen(e["imagen"]) for e in indice["entradas"] if e.get("imagen") and e["fecha"] > limite}
+    return [r for r in leer_json(os.path.join(RAIZ, "rutina", "reserva.json")) if clave_imagen(r["imagen"]) not in recientes]
+
+
+def sin_tildes(texto):
+    import unicodedata
+    texto = unicodedata.normalize("NFD", texto.lower())
+    return re.sub(r"[^a-z0-9 ]+", " ", "".join(c for c in texto if unicodedata.category(c) != "Mn"))
+
+
 def limpio(texto):
     texto = html.unescape(re.sub(r"<[^>]+>", " ", texto or ""))
     return re.sub(r"\s+", " ", texto).strip()
@@ -177,10 +193,8 @@ def preparar():
     else:
         print("musica: LISTA AGOTADA. No escribas musica.md.")
 
-    print("\n== IMÁGENES DE ARCHIVO YA COMPROBADAS (úsalas en News si encajan; si no, `imagenes`) ==")
-    for r in leer_json(os.path.join(RAIZ, "rutina", "reserva.json")):
-        if clave_imagen(r["imagen"]) not in ya:
-            print(f"{r['tema']} | {url_imagen(r['imagen'])} | {r['autor']}, {r['licencia']}")
+    print("\n== IMÁGENES DE ARCHIVO DISPONIBLES (pídelas por su nombre con `imagenes`; si ninguna encaja, pide otro término) ==")
+    print("; ".join(sorted({r["tema"] for r in reserva_libre(indice, d)})))
 
     print(f"\n== TITULARES DEL {ayer.isoformat()} ==")
     for tema in NEWS:
@@ -257,13 +271,24 @@ def imagenes(terminos):
         datos = leer_json(os.path.join(RAIZ, "rutina", nombre))
         grupos = datos.values() if isinstance(datos, dict) else [datos]
         excluir |= {g["imagen"].lower() for grupo in grupos for g in grupo}
-    for n, termino in enumerate(terminos):
-        if n:
-            time.sleep(6)
+    libres = reserva_libre(indice, hoy())
+    buscado = False
+    for termino in terminos:
         print(f"== {termino}")
+        # Primero, la reserva: el nombre exacto o, si no, los que contienen todas las palabras.
+        llano = sin_tildes(termino).split()
+        exactas = [r for r in libres if sin_tildes(r["tema"]).split() == llano]
+        propias = exactas or [r for r in libres if llano and all(p in sin_tildes(r["tema"]).split() for p in llano)]
+        for r in propias[:3]:
+            print(f"  {url_imagen(r['imagen'])}\n    reserva: {r['tema']} · {r['autor']}, {r['licencia']}")
+        if propias:
+            continue
+        if buscado:
+            time.sleep(6)
+        buscado = True
         lista = buscar(termino, 3, excluir)
         if lista is None:
-            print("  Wikimedia no responde: usa una de las imágenes ya comprobadas de `preparar`.")
+            print("  Wikimedia no responde: pide por su nombre una imagen de archivo de la lista de `preparar`.")
         elif not lista:
             print("  sin resultados libres: prueba un término más general (el lugar, la institución, el tema).")
         for archivo, ancho, autor, licencia in lista or []:
@@ -300,6 +325,8 @@ def publicar():
     temas = leer_json(os.path.join(RAIZ, "rutina", "temas.json"))
     asuntos = {clave_imagen(t["imagen"]): t["id"] for grupo in temas.values() for t in grupo}
     albumes = {clave_imagen(url_portada(a["mbid"])): a for a in leer_json(os.path.join(RAIZ, "rutina", "albumes.json"))}
+    # Las imágenes de archivo pueden repetirse pasados REPOSO días; las demás, nunca.
+    descansadas = {clave_imagen(r["imagen"]) for r in reserva_libre(indice, hoy())}
     errores, nuevas, faltan, textos = [], [], [], {}
 
     for tema in NEWS + CULTURA + [MUSICA]:
@@ -350,7 +377,7 @@ def publicar():
         if not titulo or not imagen:
             continue
         clave = clave_imagen(imagen.group(1))
-        if clave in ya:
+        if clave in ya and clave not in descansadas:
             errores.append(f"{tema}: la imagen ya se usó en otra edición")
         ya.add(clave)
         entrada = {"fecha": d, "tema": tema, "titulo": titulo.group(1).strip(), "resumen": resumen,

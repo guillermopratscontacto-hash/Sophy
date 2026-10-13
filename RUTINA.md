@@ -8,7 +8,7 @@ Cada paso relee toda la conversación, así que el coste depende del número de 
 
 1. `python3 rutina/sophy.py preparar` — una sola vez. Devuelve la fecha, las noticias ya publicadas, los tres temas de Cultura con su imagen, el álbum de Música con su portada, las imágenes de archivo disponibles y los titulares de ayer por sección. Si dice que la edición ya está publicada, termina.
 2. Elige las cuatro noticias y abre **en un mismo paso, en paralelo**, dos fuentes de cada una (los enlaces vienen en los titulares). Usa la búsqueda web solo si un enlace falla o falta una segunda fuente.
-3. Si alguna noticia no encaja con ninguna imagen de archivo de la lista, pide todas las que falten en una única orden: `python3 rutina/sophy.py imagenes "término 1" "término 2"` (con un `timeout` de 10 minutos; el script ya espera y reintenta solo, no lo repitas ni consultes Wikimedia por tu cuenta).
+3. Pide las imágenes de las cuatro noticias en una única orden: `python3 rutina/sophy.py imagenes "nombre o término 1" "nombre o término 2" …` (con un `timeout` de 10 minutos). Para cada noticia, usa el nombre de una imagen de archivo de la lista de `preparar` si alguna encaja (la institución, la ciudad o el tema de la noticia): sale al instante. Solo si ninguna encaja, pon un término de búsqueda en inglés; el script consulta Wikimedia, espera y reintenta solo. No repitas la orden ni consultes Wikimedia por tu cuenta.
 4. Escribe los ocho archivos en uno o dos pasos, con varias llamadas en paralelo.
 5. `python3 rutina/sophy.py publicar` — valida, comprueba imágenes y enlaces, actualiza el índice, hace el commit y el push. Si devuelve errores, corrige solo eso y vuelve a ejecutarlo.
 
@@ -70,7 +70,7 @@ Más párrafos.
 ```
 
 - La línea en cursiva es la data: lugar y fecha del hecho en las noticias; época o ámbito en los reportajes (`*Grecia, siglo II a. C.*`).
-- La URL de la imagen y su crédito (autor y licencia) se copian tal cual de la salida de `preparar` o de `imagenes`. No repitas una imagen dentro de la edición.
+- La URL de la imagen y su crédito (autor y licencia) se copian tal cual de la salida de `preparar` o de `imagenes`. No repitas una imagen dentro de la edición. Las imágenes de archivo vuelven a estar disponibles a los 30 días de usarse; `preparar` solo lista las disponibles.
 - En las noticias la imagen es de archivo: el pie empieza por «Imagen de archivo:» y no da a entender que la foto es del suceso.
 - En los reportajes y en Música, la última línea es `**Para saber más:**` con enlaces a artículos de `https://es.wikipedia.org/wiki/…` que existan (dos o tres en los reportajes; uno o dos en Música).
 - La línea `<!-- resumen: … -->` la retira `publicar` y la lleva al índice.

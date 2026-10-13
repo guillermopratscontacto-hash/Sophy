@@ -56,6 +56,62 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-10-13",
+      "tema": "economia",
+      "titulo": "Robert Hall y Michael Woodford ganan el Nobel de Economía por sus modelos para estabilizar la economía",
+      "resumen": "La Academia Sueca premia a los estadounidenses por los fundamentos microeconómicos de la estabilización macroeconómica.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/PSM%20V70%20D094%20Nobel%20prize%20medals.jpg?width=1200",
+      "archivo": "contenido/2026-10-13/economia.md"
+    },
+    {
+      "fecha": "2026-10-13",
+      "tema": "politica-espanola",
+      "titulo": "El Supremo mantiene la suspensión del voto de los nacionalizados por la ley de nietos para el 29-N",
+      "resumen": "El tribunal rechaza el recurso de la Abogacía del Estado; el PP lo celebra y el Gobierno lo lamenta y estudia acudir al Constitucional.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Fachada%20-%20Tribunal%20Supremo%20de%20Espana%20-%20Madrid%2002.jpg?width=1200",
+      "archivo": "contenido/2026-10-13/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-10-13",
+      "tema": "politica-internacional",
+      "titulo": "Pakistán mantiene restricciones y control federal en Jaiber Pastunjuá tras destituir al Gobierno del partido de Imran Khan",
+      "resumen": "Tras declarar la emergencia y suspender al Ejecutivo regional, Islamabad mantiene cortes de internet; el PTI habla de golpe encubierto.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/City%20center%20Peshawar%20city.jpg?width=1200",
+      "archivo": "contenido/2026-10-13/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-10-13",
+      "tema": "internacional",
+      "titulo": "Comienza en Londres el juicio contra Russell Brand por violación y agresión sexual",
+      "resumen": "El cómico, de 51 años, se declara no culpable de tres violaciones, tres agresiones sexuales y un atentado contra el pudor.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/London%20Southwark%20Crown%20Court%20%2850604622932%29.jpg?width=1200",
+      "archivo": "contenido/2026-10-13/internacional.md"
+    },
+    {
+      "fecha": "2026-10-13",
+      "tema": "arte",
+      "titulo": "La noche estrellada: el cielo que Van Gogh pintó desde la ventana de un sanatorio",
+      "resumen": "Van Gogh pintó en 1889 un cielo de remolinos desde su sanatorio de Saint-Rémy; el pueblo del fondo es inventado.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Van%20Gogh%20-%20Starry%20Night%20-%20Google%20Art%20Project.jpg?width=1200",
+      "archivo": "contenido/2026-10-13/arte.md"
+    },
+    {
+      "fecha": "2026-10-13",
+      "tema": "historia",
+      "titulo": "Machu Picchu: la ciudad de los incas que los Andes escondieron a los conquistadores",
+      "resumen": "Levantada hacia el siglo XV como propiedad real inca, la ciudadela fue abandonada y no llegó al mundo hasta 1911.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Machu%20Picchu%2C%20Per%C3%BA%2C%202015-07-30%2C%20DD%2047.JPG?width=1200",
+      "archivo": "contenido/2026-10-13/historia.md"
+    },
+    {
+      "fecha": "2026-10-13",
+      "tema": "literatura",
+      "titulo": "«Todo se desmorona»: la novela con la que Chinua Achebe contó el colonialismo desde dentro de África",
+      "resumen": "La novela de 1958 sobre Okonkwo y la llegada de los misioneros y la administración colonial cambió el relato sobre África.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Chinua%20Achebe%20-%20Buffalo%2025Sep2008.jpg?width=1200",
+      "archivo": "contenido/2026-10-13/literatura.md"
+    },
+    {
       "fecha": "2026-10-12",
       "tema": "economia",
       "titulo": "El FMI y el Banco Mundial abren en Bangkok sus reuniones bajo la sombra de la guerra de Irán y la deuda récord",

@@ -414,6 +414,31 @@ body.con-subbarra { --alto-cabecera: 164px; --alto-subbarra: 48px; }
   body.con-subbarra { --alto-cabecera: 124px; --alto-subbarra: 51px; }
 }
 
+/* Ventanas medianas (portátil con zoom, tableta): el mismo reparto, más apretado. */
+@media (min-width: 740px) and (max-width: 899px) {
+  .cabecera-fila {
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    grid-template-areas: "marca secciones acciones";
+    column-gap: 22px;
+    padding-bottom: 10px;
+  }
+  .cabecera:has(.subbarra:not([hidden])) .cabecera-fila {
+    grid-template-areas: "marca secciones acciones" "marca subbarra acciones";
+    padding-bottom: 4px;
+  }
+  .marca-icono { width: 48px; height: 48px; }
+  .marca-nombre { font-size: 2rem; }
+  .secciones { margin: 0 0 0 -8px; padding: 0; gap: 0; }
+  .secciones .sec { padding: 0 8px; font-size: 0.86rem; letter-spacing: 0.1em; }
+  .secciones .sec::after { left: 8px; right: 8px; }
+  .subbarra { margin: 0; border-bottom: 0; }
+  .subbarra-dentro { padding: 0; gap: 4px 18px; }
+  .subbarra a { font-size: 0.92rem; min-height: 40px; }
+  .subbarra .subbarra-titulo { display: none; }
+  body { --alto-cabecera: 96px; }
+  body.con-subbarra { --alto-cabecera: 116px; }
+}
+
 /* ---------- Menú ---------- */
 
 .velo {

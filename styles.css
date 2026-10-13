@@ -1371,3 +1371,8 @@ body.con-visor { overflow: hidden; }
 }
 @keyframes visor-entra { from { opacity: 0; } }
 @media (prefers-reduced-motion: reduce) { .visor { animation: none; } }
+
+/* Texto de los artículos justificado, con guiones para que no queden huecos grandes. */
+.articulo p { text-align: justify; -webkit-hyphens: auto; hyphens: auto; }
+.noticia-cabecera p,
+.articulo p:last-child:has(> strong:first-child) { text-align: left; -webkit-hyphens: manual; hyphens: manual; }

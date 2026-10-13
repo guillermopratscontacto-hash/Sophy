@@ -88,7 +88,7 @@ if (typeof document !== "undefined") (function () {
   // Al completar uno se guarda en el progreso con tema "juego:<id>", así que cuenta para la racha.
   const JUEGOS = {
     palabra: { texto: "Seis intentos para acertar una palabra de cinco letras.", listo: true },
-    sudoku: { texto: "Un sudoku nuevo cada día.", listo: false },
+    sudoku: { texto: "Un sudoku nuevo cada día, en tres niveles de dificultad.", listo: true },
     "adivina-pais": { texto: "Reconoce el país por su bandera o por su silueta.", listo: false },
   };
   const juegoHecho = (id, dia) => progreso.some((p) => p.tema === `juego:${id}` && p.fecha === dia);
@@ -1595,6 +1595,7 @@ if (typeof document !== "undefined") (function () {
 
   function vistaJuego(tema, vigente) {
     if (tema.id === "palabra") return vistaPalabra(tema, vigente);
+    if (tema.id === "sudoku") return vistaSudoku(tema);
     $vista.innerHTML = `
       <section data-reveal>
         <a class="volver" href="#/seccion/${enc(tema.padre)}">${ICONO.atras} ${esc(nombreTema(tema.padre))}</a>
@@ -1756,7 +1757,7 @@ if (typeof document !== "undefined") (function () {
       });
     }
 
-    async function terminar() {
+    function terminar() {
       // Las cifras se actualizan una sola vez por día.
       const cifras = leerLocal(PALABRA.claveCifras, { jugadas: 0, ganadas: 0, racha: 0, mejor: 0, ultima: "" });
       if (cifras.ultima !== hoy) {
@@ -1768,18 +1769,7 @@ if (typeof document !== "undefined") (function () {
         guardarLocal(PALABRA.claveCifras, cifras);
       }
       final();
-      if (juegoHecho("palabra", hoy)) return;
-      const registro = { fecha: hoy, tema: "juego:palabra", dia: hoy };
-      const primeraDelDia = !diasHechos().has(hoy);
-      progreso.push(registro);
-      pintarRacha();
-      if (primeraDelDia) celebrarDia();
-      try {
-        await almacen.guardar(registro);
-      } catch {
-        progreso = progreso.filter((p) => p !== registro);
-        pintarRacha();
-      }
+      registrarJuego("palabra", hoy);
     }
 
     async function enviar() {
@@ -1822,6 +1812,315 @@ if (typeof document !== "undefined") (function () {
 
     pintar(false);
     if (acabada()) terminar();
+  }
+
+  // Guarda en el progreso que el juego de hoy está completado; cuenta para la racha.
+  async function registrarJuego(id, hoy) {
+    if (juegoHecho(id, hoy)) return;
+    const registro = { fecha: hoy, tema: `juego:${id}`, dia: hoy };
+    const primeraDelDia = !diasHechos().has(hoy);
+    progreso.push(registro);
+    pintarRacha();
+    if (primeraDelDia) celebrarDia();
+    try {
+      await almacen.guardar(registro);
+    } catch {
+      progreso = progreso.filter((p) => p !== registro);
+      pintarRacha();
+    }
+  }
+
+  // Sudoku del día: se genera en el navegador con la fecha como semilla, así que es el mismo para todos.
+  // De cada nivel: nombre y número de pistas al que se intenta llegar.
+  const SUDOKU = { clave: "sophy-sudoku", niveles: { facil: ["Fácil", 42], medio: ["Medio", 33], dificil: ["Difícil", 26] } };
+
+  // Generador de números pseudoaleatorios a partir de un texto: mismo texto, misma secuencia.
+  function azar(semilla) {
+    let a = 2166136261;
+    for (const c of semilla) {
+      a ^= c.charCodeAt(0);
+      a = Math.imul(a, 16777619);
+    }
+    return () => {
+      a = (a + 0x6d2b79f5) | 0;
+      let t = Math.imul(a ^ (a >>> 15), 1 | a);
+      t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+  function barajar(lista, rnd) {
+    for (let i = lista.length - 1; i > 0; i--) {
+      const j = Math.floor(rnd() * (i + 1));
+      [lista[i], lista[j]] = [lista[j], lista[i]];
+    }
+    return lista;
+  }
+
+  const cajaDe = (i) => ((i / 27) | 0) * 3 + (((i % 9) / 3) | 0);
+
+  // Cuenta las soluciones de un tablero (como mucho 2), rellenando siempre la casilla con menos candidatos.
+  function contarSoluciones(t) {
+    const filas = Array(9).fill(0);
+    const cols = Array(9).fill(0);
+    const cajas = Array(9).fill(0);
+    for (let i = 0; i < 81; i++) {
+      if (!t[i]) continue;
+      const b = 1 << t[i];
+      filas[(i / 9) | 0] |= b;
+      cols[i % 9] |= b;
+      cajas[cajaDe(i)] |= b;
+    }
+    let total = 0;
+    (function paso() {
+      let mejor = -1;
+      let menos = 10;
+      let mascara = 0;
+      for (let i = 0; i < 81 && menos > 1; i++) {
+        if (t[i]) continue;
+        const usados = filas[(i / 9) | 0] | cols[i % 9] | cajas[cajaDe(i)];
+        let n = 0;
+        for (let d = 1; d <= 9; d++) if (!(usados & (1 << d))) n++;
+        if (n < menos) {
+          menos = n;
+          mejor = i;
+          mascara = usados;
+        }
+      }
+      if (mejor < 0) {
+        total++;
+        return;
+      }
+      const f = (mejor / 9) | 0;
+      const c = mejor % 9;
+      const k = cajaDe(mejor);
+      for (let d = 1; d <= 9 && total < 2; d++) {
+        const b = 1 << d;
+        if (mascara & b) continue;
+        t[mejor] = d;
+        filas[f] |= b;
+        cols[c] |= b;
+        cajas[k] |= b;
+        paso();
+        t[mejor] = 0;
+        filas[f] &= ~b;
+        cols[c] &= ~b;
+        cajas[k] &= ~b;
+      }
+    })();
+    return total;
+  }
+
+  // Parte de una rejilla válida, la desordena sin romperla y quita números por parejas simétricas
+  // mientras la solución siga siendo única.
+  function generarSudoku(semilla, pistas) {
+    const rnd = azar(semilla);
+    const cifras = barajar([1, 2, 3, 4, 5, 6, 7, 8, 9], rnd);
+    const orden = () => barajar([0, 1, 2], rnd).flatMap((g) => barajar([0, 1, 2], rnd).map((x) => g * 3 + x));
+    const fs = orden();
+    const cs = orden();
+    const girar = rnd() < 0.5;
+    const solucion = Array(81);
+    for (let f = 0; f < 9; f++) {
+      for (let c = 0; c < 9; c++) {
+        const valor = cifras[(3 * (fs[f] % 3) + ((fs[f] / 3) | 0) + cs[c]) % 9];
+        solucion[girar ? c * 9 + f : f * 9 + c] = valor;
+      }
+    }
+    const inicial = solucion.slice();
+    let quedan = 81;
+    for (const i of barajar([...Array(81).keys()], rnd)) {
+      if (quedan <= pistas) break;
+      const j = 80 - i;
+      if (!inicial[i]) continue;
+      const [a, b] = [inicial[i], inicial[j]];
+      inicial[i] = inicial[j] = 0;
+      if (contarSoluciones(inicial.slice()) === 1) quedan -= i === j ? 1 : 2;
+      else [inicial[i], inicial[j]] = [a, b];
+    }
+    return { inicial, solucion };
+  }
+
+  const reloj = (seg) => `${Math.floor(seg / 60)}:${String(seg % 60).padStart(2, "0")}`;
+
+  function vistaSudoku(tema) {
+    const hoy = fechaLocal();
+    const guardado = leerLocal(SUDOKU.clave, {});
+    const estado = guardado.fecha === hoy && guardado.partidas ? guardado : { fecha: hoy, nivel: "facil", partidas: {} };
+    if (!(estado.nivel in SUDOKU.niveles)) estado.nivel = "facil";
+    const tableros = {};
+    let elegida = -1;
+    let conNotas = false;
+
+    $vista.innerHTML = `
+      <section class="sudoku" data-reveal>
+        <a class="volver" href="#/seccion/${enc(tema.padre)}">${ICONO.atras} ${esc(nombreTema(tema.padre))}</a>
+        <h1 class="titular-xl">${esc(tema.nombre)}</h1>
+        <div class="sudoku-barra">
+          <div id="sudoku-niveles" class="sudoku-niveles" role="group" aria-label="Dificultad"></div>
+          <span id="sudoku-reloj" class="sudoku-reloj" aria-label="Tiempo"></span>
+        </div>
+        <div id="sudoku-rejilla" class="sudoku-rejilla" role="grid" aria-label="Sudoku"></div>
+        <div id="sudoku-teclas" class="sudoku-teclas"></div>
+        <div id="sudoku-final" class="palabra-final" hidden></div>
+        <details class="palabra-reglas">
+          <summary>Cómo se juega</summary>
+          <p>Rellena la rejilla para que cada fila, cada columna y cada caja de 3×3 tenga los números del 1 al 9 sin repetir.</p>
+          <p>Toca una casilla y después un número. Con «Notas» apuntas candidatos en pequeño. Los números repetidos en una fila, columna o caja se marcan en rojo.</p>
+        </details>
+      </section>`;
+    const $rejilla = $("sudoku-rejilla");
+    const $teclas = $("sudoku-teclas");
+    const $final = $("sudoku-final");
+
+    const tablero = () => (tableros[estado.nivel] = tableros[estado.nivel] || generarSudoku(`${hoy}:${estado.nivel}`, SUDOKU.niveles[estado.nivel][1]));
+    const partida = () => (estado.partidas[estado.nivel] = estado.partidas[estado.nivel] || { valores: Array(81).fill(0), notas: {}, seg: 0, hecho: false });
+    const guardar = () => guardarLocal(SUDOKU.clave, estado);
+    const valor = (i) => tablero().inicial[i] || partida().valores[i];
+    const vecinas = (a, b) => ((a / 9) | 0) === ((b / 9) | 0) || a % 9 === b % 9 || cajaDe(a) === cajaDe(b);
+
+    function pintar() {
+      const p = partida();
+      const fijas = tablero().inicial;
+      const visto = elegida >= 0 ? valor(elegida) : 0;
+      const cuenta = Array(10).fill(0);
+      let celdas = "";
+      for (let i = 0; i < 81; i++) {
+        const v = valor(i);
+        cuenta[v]++;
+        let mal = false;
+        if (v) for (let j = 0; j < 81 && !mal; j++) mal = j !== i && valor(j) === v && vecinas(i, j);
+        const clases = [
+          "celda",
+          fijas[i] ? "fija" : "",
+          i === elegida ? "elegida" : elegida >= 0 && vecinas(i, elegida) ? "vecina" : "",
+          v && v === visto && i !== elegida ? "igual" : "",
+          mal ? "mal" : "",
+        ].join(" ");
+        const notas = !v && p.notas[i] && p.notas[i].length
+          ? `<span class="notas">${[1, 2, 3, 4, 5, 6, 7, 8, 9].map((d) => `<i>${p.notas[i].includes(d) ? d : ""}</i>`).join("")}</span>`
+          : "";
+        celdas += `<button type="button" class="${clases}" data-i="${i}" role="gridcell" aria-label="Fila ${((i / 9) | 0) + 1}, columna ${(i % 9) + 1}${v ? `: ${v}` : ", vacía"}">${v || notas}</button>`;
+      }
+      $rejilla.innerHTML = celdas;
+      $rejilla.classList.toggle("hecho", p.hecho);
+
+      $("sudoku-niveles").innerHTML = Object.entries(SUDOKU.niveles)
+        .map(([id, [nombre]]) => {
+          const hecho = estado.partidas[id] && estado.partidas[id].hecho;
+          return `<button type="button" data-nivel="${id}" aria-pressed="${id === estado.nivel}">${nombre}${hecho ? " ✓" : ""}</button>`;
+        })
+        .join("");
+      $("sudoku-reloj").textContent = reloj(p.seg);
+      $teclas.hidden = p.hecho;
+      $teclas.innerHTML = `<div class="sudoku-numeros">${[1, 2, 3, 4, 5, 6, 7, 8, 9]
+        .map((d) => `<button type="button" class="tecla${cuenta[d] >= 9 ? " agotada" : ""}" data-n="${d}">${d}</button>`)
+        .join("")}</div>
+        <div class="teclado-fila">
+          <button type="button" class="tecla ancha" data-n="0">Borrar</button>
+          <button type="button" class="tecla ancha${conNotas ? " activa" : ""}" data-notas aria-pressed="${conNotas}">Notas</button>
+        </div>`;
+
+      $final.hidden = !p.hecho;
+      if (!p.hecho) return;
+      const nombre = SUDOKU.niveles[estado.nivel][0].toLowerCase();
+      $final.innerHTML = `
+        <b class="palabra-resultado">¡Sudoku completado!</b>
+        <p>Nivel ${esc(nombre)}, resuelto en <b>${reloj(p.seg)}</b>.</p>
+        <button type="button" class="boton" id="sudoku-compartir">Compartir resultado</button>
+        <p class="palabra-manana">Puedes probar otro nivel. Mañana habrá sudokus nuevos.</p>`;
+      $("sudoku-compartir").addEventListener("click", async (e) => {
+        const texto = `Sophy · Sudoku del día (${nombre}) en ${reloj(p.seg)}`;
+        try {
+          if (navigator.share) await navigator.share({ text: texto });
+          else {
+            await navigator.clipboard.writeText(texto);
+            e.target.textContent = "Copiado";
+          }
+        } catch {}
+      });
+    }
+
+    function poner(d) {
+      const p = partida();
+      if (p.hecho || elegida < 0 || tablero().inicial[elegida]) return;
+      if (conNotas && d) {
+        const notas = p.notas[elegida] || [];
+        p.notas[elegida] = notas.includes(d) ? notas.filter((x) => x !== d) : [...notas, d];
+        p.valores[elegida] = 0;
+      } else {
+        p.valores[elegida] = p.valores[elegida] === d ? 0 : d;
+        delete p.notas[elegida];
+        // Al fijar un número, deja de ser candidato en su fila, columna y caja.
+        if (p.valores[elegida]) {
+          for (const i of Object.keys(p.notas)) {
+            if (vecinas(Number(i), elegida)) p.notas[i] = p.notas[i].filter((x) => x !== d);
+          }
+        }
+      }
+      if (tablero().solucion.every((s, i) => valor(i) === s)) {
+        p.hecho = true;
+        elegida = -1;
+        registrarJuego("sudoku", hoy);
+      }
+      guardar();
+      pintar();
+    }
+
+    $rejilla.addEventListener("click", (e) => {
+      const $celda = e.target.closest(".celda");
+      if (!$celda || partida().hecho) return;
+      elegida = Number($celda.dataset.i);
+      pintar();
+    });
+    $teclas.addEventListener("click", (e) => {
+      const $tecla = e.target.closest(".tecla");
+      if (!$tecla) return;
+      if ("notas" in $tecla.dataset) {
+        conNotas = !conNotas;
+        pintar();
+      } else poner(Number($tecla.dataset.n));
+    });
+    $("sudoku-niveles").addEventListener("click", (e) => {
+      const $nivel = e.target.closest("button");
+      if (!$nivel) return;
+      estado.nivel = $nivel.dataset.nivel;
+      elegida = -1;
+      guardar();
+      pintar();
+    });
+    const alTeclear = (e) => {
+      if (e.ctrlKey || e.metaKey || e.altKey || document.body.classList.contains("menu-abierto")) return;
+      const paso = { ArrowUp: -9, ArrowDown: 9, ArrowLeft: -1, ArrowRight: 1 }[e.key];
+      if (/^[1-9]$/.test(e.key)) poner(Number(e.key));
+      else if (e.key === "Backspace" || e.key === "Delete" || e.key === "0") poner(0);
+      else if (e.key.toLowerCase() === "n") {
+        conNotas = !conNotas;
+        pintar();
+      } else if (paso) {
+        const destino = elegida < 0 ? 40 : elegida + paso;
+        const mismaFila = Math.abs(paso) !== 1 || ((destino / 9) | 0) === ((elegida / 9) | 0);
+        if (destino >= 0 && destino < 81 && (elegida < 0 || mismaFila)) elegida = destino;
+        pintar();
+      } else return;
+      e.preventDefault();
+    };
+    document.addEventListener("keydown", alTeclear);
+    // El reloj solo corre con la pestaña a la vista y el sudoku sin terminar.
+    const tictac = setInterval(() => {
+      const p = partida();
+      if (p.hecho || document.visibilityState !== "visible") return;
+      p.seg++;
+      $("sudoku-reloj").textContent = reloj(p.seg);
+      if (p.seg % 5 === 0) guardar();
+    }, 1000);
+    limpiarVista = () => {
+      clearInterval(tictac);
+      document.removeEventListener("keydown", alTeclear);
+      guardar();
+    };
+
+    pintar();
+    if (Object.values(estado.partidas).some((p) => p.hecho)) registrarJuego("sudoku", hoy);
   }
 
   // ---------- Navegación y arranque ----------

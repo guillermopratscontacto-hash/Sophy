@@ -1376,3 +1376,6 @@ body.con-visor { overflow: hidden; }
 .articulo p { text-align: justify; -webkit-hyphens: auto; hyphens: auto; }
 .noticia-cabecera p,
 .articulo p:last-child:has(> strong:first-child) { text-align: left; -webkit-hyphens: manual; hyphens: manual; }
+
+/* Título de sección con una línea roja debajo, del ancho exacto del texto. */
+.titular-xl.subrayado { display: table; padding-bottom: 0.12em; border-bottom: 6px solid var(--rojo); }

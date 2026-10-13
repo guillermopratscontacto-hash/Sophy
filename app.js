@@ -418,7 +418,7 @@ if (typeof document !== "undefined") (function () {
       $vista.innerHTML = `
         <section data-reveal>
           <span class="antetitulo">Sección</span>
-          <h1 class="titular-xl">${esc(tema.nombre)}</h1>
+          <h1 class="titular-xl subrayado">${esc(tema.nombre)}</h1>
         </section>
         ${listado || `<div style="margin-top:44px">${vacio("Próximamente", "Aquí aparecerá el contenido de esta sección, día a día.")}</div>`}`;
       return;
@@ -438,7 +438,7 @@ if (typeof document !== "undefined") (function () {
               ? `<a class="volver" href="#/seccion/${enc(tema.padre)}">${ICONO.atras} ${esc(nombreTema(tema.padre))}</a>`
               : '<span class="antetitulo">Sección</span>'
           }
-          <h1 class="titular-xl">${esc(tema.nombre)}</h1>
+          <h1 class="titular-xl subrayado">${esc(tema.nombre)}</h1>
           <p class="entradilla">${esc(resumen)}</p>
         </div>
         ${tema.lema ? `<p class="lema">${esc(tema.lema)}</p>` : ""}
@@ -518,7 +518,7 @@ if (typeof document !== "undefined") (function () {
     $vista.innerHTML = `
       <section data-reveal>
         <span class="antetitulo">Sección</span>
-        <h1 class="titular-xl">${esc(tema.nombre)}</h1>
+        <h1 class="titular-xl subrayado">${esc(tema.nombre)}</h1>
         <p class="entradilla" id="geo-resumen">Un país cada día. Gira el globo y descubre el de hoy.</p>
       </section>
       <div class="geo">
@@ -1588,7 +1588,7 @@ if (typeof document !== "undefined") (function () {
     $vista.innerHTML = `
       <section data-reveal>
         <span class="antetitulo">Sección</span>
-        <h1 class="titular-xl">${esc(tema.nombre)}</h1>
+        <h1 class="titular-xl subrayado">${esc(tema.nombre)}</h1>
         <p class="entradilla">Un reto nuevo cada día. Completar uno también cuenta para tu racha.</p>
       </section>
       <ul class="juegos">${tema.subsecciones
@@ -1610,7 +1610,7 @@ if (typeof document !== "undefined") (function () {
     $vista.innerHTML = `
       <section data-reveal>
         <a class="volver" href="#/seccion/${enc(tema.padre)}">${ICONO.atras} ${esc(nombreTema(tema.padre))}</a>
-        <h1 class="titular-xl">${esc(tema.nombre)}</h1>
+        <h1 class="titular-xl subrayado">${esc(tema.nombre)}</h1>
       </section>
       <div style="margin-top:44px">${vacio("Próximamente", "Este juego está en preparación.")}</div>`;
   }
@@ -1653,7 +1653,7 @@ if (typeof document !== "undefined") (function () {
     $vista.innerHTML = `
       <section class="palabra" data-reveal>
         <a class="volver" href="#/seccion/${enc(tema.padre)}">${ICONO.atras} ${esc(nombreTema(tema.padre))}</a>
-        <h1 class="titular-xl">${esc(tema.nombre)}</h1>
+        <h1 class="titular-xl subrayado">${esc(tema.nombre)}</h1>
         <p class="entradilla">Acierta la palabra de cinco letras en seis intentos.</p>
         <div id="palabra-tablero" class="tablero" role="grid" aria-label="Intentos"></div>
         <p id="palabra-aviso" class="palabra-aviso" role="status"></p>
@@ -1965,7 +1965,7 @@ if (typeof document !== "undefined") (function () {
     $vista.innerHTML = `
       <section class="sudoku" data-reveal>
         <a class="volver" href="#/seccion/${enc(tema.padre)}">${ICONO.atras} ${esc(nombreTema(tema.padre))}</a>
-        <h1 class="titular-xl">${esc(tema.nombre)}</h1>
+        <h1 class="titular-xl subrayado">${esc(tema.nombre)}</h1>
         <div class="sudoku-barra">
           <div id="sudoku-niveles" class="sudoku-niveles" role="group" aria-label="Dificultad"></div>
           <span id="sudoku-reloj" class="sudoku-reloj" aria-label="Tiempo"></span>

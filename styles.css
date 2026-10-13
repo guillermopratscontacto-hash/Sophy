@@ -81,7 +81,7 @@ button, input { font: inherit; color: inherit; }
   padding: 10px var(--margen) 0;
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
-  grid-template-areas: "marca acciones" "secciones secciones";
+  grid-template-areas: "marca acciones" "secciones secciones" "subbarra subbarra";
   align-items: center;
 }
 
@@ -163,11 +163,14 @@ button, input { font: inherit; color: inherit; }
 
 /* Segunda fila de la cabecera: nombre de la sección y sus subsecciones, separada
    de la fila de secciones por una línea. Solo aparece dentro de News, Cultura o Minijuegos. */
-.subbarra { border-top: 1px solid rgba(var(--tinta-rgb), 0.22); border-bottom: 1px solid var(--linea); }
-.cabecera:has(.subbarra:not([hidden])) .cabecera-fila { padding-bottom: 0; }
+.subbarra {
+  grid-area: subbarra;
+  min-width: 0;
+  margin: 0 calc(var(--margen) * -1);
+  border-top: 1px solid rgba(var(--tinta-rgb), 0.22);
+  border-bottom: 1px solid var(--linea);
+}
 .subbarra-dentro {
-  max-width: var(--ancho);
-  margin: 0 auto;
   padding: 0 var(--margen);
   display: flex;
   align-items: stretch;
@@ -223,7 +226,7 @@ body.con-subbarra { --alto-cabecera: 164px; --alto-subbarra: 48px; }
 @media (min-width: 900px) and (hover: hover) {
   /* El grupo se alarga hasta el borde inferior de la cabecera para que el ratón
      no salga de él al bajar hacia el panel. */
-  .seccion-grupo { margin-bottom: -6px; padding-bottom: 6px; }
+  .seccion-grupo { margin-bottom: -20px; padding-bottom: 20px; }
 
   .desplegable {
     position: absolute;
@@ -391,11 +394,24 @@ body.con-subbarra { --alto-cabecera: 164px; --alto-subbarra: 48px; }
 /* En pantallas anchas las secciones van en su propia fila, alineadas a la izquierda,
    para que formen un solo bloque con la fila de subsecciones que aparece debajo. */
 @media (min-width: 900px) {
-  .cabecera-fila { padding-top: 14px; padding-bottom: 4px; }
-  .secciones { margin: 8px 0 0 -12px; padding: 0; gap: 14px; overflow: visible; }
+  .cabecera-fila {
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    grid-template-areas: "marca secciones acciones";
+    column-gap: 48px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .secciones { margin: 0 0 0 -12px; padding: 0; gap: 14px; overflow: visible; }
+  .subbarra { margin: 0; border-bottom: 0; }
+  .subbarra-dentro { padding: 0; }
+  .cabecera:has(.subbarra:not([hidden])) .cabecera-fila {
+    grid-template-areas: "marca secciones acciones" "marca subbarra acciones";
+    padding-top: 6px;
+    padding-bottom: 4px;
+  }
   .cabecera-acciones { justify-self: end; }
-  body { --alto-cabecera: 150px; }
-  body.con-subbarra { --alto-cabecera: 198px; }
+  body { --alto-cabecera: 104px; }
+  body.con-subbarra { --alto-cabecera: 124px; --alto-subbarra: 51px; }
 }
 
 /* ---------- Menú ---------- */

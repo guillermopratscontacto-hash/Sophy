@@ -91,7 +91,7 @@ if (typeof document !== "undefined") (function () {
   const JUEGOS = {
     palabra: { texto: "Seis intentos para acertar una palabra de cinco letras.", listo: true },
     sudoku: { texto: "Un sudoku nuevo cada día, en tres niveles de dificultad.", listo: true },
-    "adivina-pais": { texto: "Reconoce el país del día por su silueta, con pistas de distancia y dirección.", listo: true },
+    "adivina-pais": { texto: "Reconoce el país del día por su silueta, en tres niveles de ayuda.", listo: true },
   };
   const juegoHecho = (id, dia) => progreso.some((p) => p.tema === `juego:${id}` && p.fecha === dia);
 
@@ -2406,7 +2406,6 @@ if (typeof document !== "undefined") (function () {
   // Se elige por la fecha de una lista barajada con semilla fija, así que todos ven el mismo y no gasta tokens.
   const PAIS = {
     inicio: "2026-10-14",
-    intentos: 6,
     clave: "sophy-pais",
     // Territorios y casos discutidos que no se proponen como respuesta (sí se aceptan como intento).
     excluidos: new Set(["TWN", "SOL", "SAH", "GRL", "NCL"]),
@@ -2476,14 +2475,33 @@ if (typeof document !== "undefined") (function () {
     return ["↑", "↗", "→", "↘", "↓", "↙", "←", "↖"][Math.round(rumbo / 45) % 8];
   }
 
+  // Mapa del mundo (2D) con el país resaltado: se pinta una sola vez con todos los países en gris.
+  function mundoSvg(solucion, todos) {
+    if (!PAIS.mundo) {
+      const trazo = (anillos) => anillos.map((a) => `M${a.map(([x, y]) => `${x},${-y}`).join("L")}Z`).join("");
+      const d = (f) => (f.geometry.type === "Polygon" ? trazo(f.geometry.coordinates) : f.geometry.coordinates.map(trazo).join(""));
+      PAIS.mundo = todos.map((p) => d(p.f)).join("");
+    }
+    const resaltado = solucion.f.geometry.type === "Polygon" ? [solucion.f.geometry.coordinates] : solucion.f.geometry.coordinates;
+    const dr = resaltado.map((p) => p.map((a) => `M${a.map(([x, y]) => `${x},${-y}`).join("L")}Z`).join("")).join("");
+    const { lat, lng } = solucion.centro;
+    return `<svg viewBox="-180 -85 360 145" role="img" aria-label="Mapa del mundo con el país del día en rojo" preserveAspectRatio="xMidYMid meet">
+      <path class="resto" d="${PAIS.mundo}"/><path class="elegido" d="${dr}"/><circle cx="${lng}" cy="${-lat}" r="5" class="aro"/></svg>`;
+  }
+
+  const NIVELES = ["Difícil", "Medio", "Fácil"];
+  const POR_NIVEL = 3;
+
   async function vistaPais(tema, vigente) {
     const hoy = fechaLocal();
     $vista.innerHTML = `
       <section class="palabra pais" data-reveal>
         <a class="volver" href="#/seccion/${enc(tema.padre)}">${ICONO.atras} ${esc(nombreTema(tema.padre))}</a>
         <h1 class="titular-xl">${esc(tema.nombre)}</h1>
-        <p class="entradilla">Reconoce el país por su silueta. Tienes seis intentos y cada fallo te dice a qué distancia está y hacia dónde.</p>
+        <p class="entradilla">Reconoce el país por su silueta. Cada fallo te dice a qué distancia está y hacia dónde.</p>
         <div id="pais-mapa" class="pais-mapa"></div>
+        <div id="pais-pistas" class="pais-pistas"></div>
+        <div id="pais-nivel" class="pais-nivel"></div>
         <ol id="pais-intentos" class="pais-intentos"></ol>
         <form id="pais-form" class="pais-form" autocomplete="off">
           <div class="pais-campo">
@@ -2492,12 +2510,13 @@ if (typeof document !== "undefined") (function () {
           </div>
           <button class="boton" id="pais-enviar">Adivinar</button>
         </form>
+        <p class="pais-pista-fila"><button type="button" class="boton linea pequeno" id="pais-pista" hidden></button></p>
         <p id="pais-aviso" class="palabra-aviso" role="status"></p>
         <div id="pais-final" class="palabra-final" hidden></div>
         <details class="palabra-reglas">
           <summary>Cómo se juega</summary>
-          <p>La silueta es la de un país de hoy. Escribe un país y pulsa Adivinar: si no es el correcto, verás la distancia en kilómetros entre ambos, una flecha que apunta hacia el país buscado y un porcentaje de cercanía.</p>
-          <p>La distancia se mide entre los centros de los dos países. Las colonias lejanas no aparecen en la silueta.</p>
+          <p>Empiezas en nivel <b>difícil</b>: solo ves la silueta y tienes tres intentos. Tras tres fallos, o si pulsas «Pista», pasas al nivel <b>medio</b> y aparece la bandera, con tres intentos más. Tras otros tres fallos, o con otra pista, llegas al nivel <b>fácil</b>: se muestra el país en el mapa del mundo y tienes tres intentos finales.</p>
+          <p>Cada fallo indica la distancia en kilómetros entre ambos países, una flecha hacia el buscado y un porcentaje de cercanía. La distancia se mide entre los centros de los dos países. Las colonias lejanas no aparecen en la silueta.</p>
         </details>
       </section>`;
     if (!PAIS.datos) {
@@ -2521,18 +2540,25 @@ if (typeof document !== "undefined") (function () {
     const numero = Math.round((aFecha(hoy) - aFecha(PAIS.inicio)) / 86400000);
     const solucion = orden[((numero % orden.length) + orden.length) % orden.length];
     const guardado = leerLocal(PAIS.clave, {});
-    const intentos = guardado.fecha === hoy && Array.isArray(guardado.intentos) ? guardado.intentos.filter((id) => todos.some((p) => p.id === id)) : [];
+    const delDia = guardado.fecha === hoy;
+    const intentos = delDia && Array.isArray(guardado.intentos) ? guardado.intentos.filter((id) => todos.some((p) => p.id === id)) : [];
+    // Nivel en el que se hizo cada intento (las partidas guardadas antes de los niveles se reparten de tres en tres).
+    const niveles = delDia && Array.isArray(guardado.niveles) && guardado.niveles.length === intentos.length ? guardado.niveles : intentos.map((_, i) => Math.min(3, Math.floor(i / POR_NIVEL) + 1));
+    let nivel = delDia && [1, 2, 3].includes(guardado.nivel) ? guardado.nivel : Math.min(3, Math.floor(intentos.length / POR_NIVEL) + 1);
     const $entrada = $("pais-entrada");
     const $sug = $("pais-sugerencias");
     const $aviso = $("pais-aviso");
+    const usados = () => niveles.filter((n) => n === nivel).length;
     const ganado = () => intentos.includes(solucion.id);
-    const acabado = () => ganado() || intentos.length >= PAIS.intentos;
+    const acabado = () => ganado() || (nivel === 3 && usados() >= POR_NIVEL);
     const porId = (id) => todos.find((p) => p.id === id);
     const cercania = (km) => Math.max(0, Math.round(100 * (1 - km / 20000)));
+    const guardar = () => guardarLocal(PAIS.clave, { fecha: hoy, intentos, niveles, nivel });
 
     $("pais-mapa").innerHTML = siluetaSvg(solucion.f);
 
     function pintar() {
+      const fin = acabado();
       $("pais-intentos").innerHTML = intentos
         .map((id) => {
           const p = porId(id);
@@ -2541,20 +2567,36 @@ if (typeof document !== "undefined") (function () {
           return `<li><b>${esc(p.nombre)}</b><span>${km.toLocaleString("es-ES")} km</span><span class="flecha" aria-label="dirección">${flechaHacia(p.centro, solucion.centro)}</span><span>${cercania(km)} %</span></li>`;
         })
         .join("");
-      $("pais-form").hidden = acabado();
-      $("pais-final").hidden = !acabado();
-      if (!acabado()) return;
+
+      // Pistas: la bandera desde el nivel medio y el mapa desde el fácil; al terminar se ven las dos.
+      $("pais-pistas").innerHTML =
+        (nivel >= 2 || fin
+          ? `<figure class="pais-bandera"><img src="contenido/geografia/banderas/${solucion.id}.png" alt="Bandera del país del día" onerror="this.parentNode.hidden=true"><figcaption>La bandera</figcaption></figure>`
+          : "") +
+        (nivel >= 3 || fin ? `<figure class="pais-mundo">${mundoSvg(solucion, todos)}<figcaption>Dónde está</figcaption></figure>` : "");
+
+      $("pais-nivel").innerHTML = fin
+        ? ""
+        : `<span class="nivel-chips">${NIVELES.map((n, k) => `<i class="${k + 1 === nivel ? "actual" : k + 1 < nivel ? "pasado" : ""}">${n}</i>`).join("")}</span>
+           <span class="nivel-quedan">${POR_NIVEL - usados()} ${POR_NIVEL - usados() === 1 ? "intento" : "intentos"} en este nivel</span>`;
+
+      const $pista = $("pais-pista");
+      $pista.hidden = fin || nivel >= 3;
+      $pista.textContent = nivel === 1 ? "Pista: ver la bandera" : "Pista: ver dónde está";
+      $("pais-form").hidden = fin;
+      $("pais-final").hidden = !fin;
+      if (!fin) return;
       const cuadros = intentos
         .map((id) => (id === solucion.id ? "🟩" : cercania(distanciaKm(porId(id).centro, solucion.centro)) >= 85 ? "🟨" : "⬛"))
         .join("");
-      const marcador = `${ganado() ? intentos.length : "X"}/${PAIS.intentos}`;
+      const resumen = `nivel ${NIVELES[nivel - 1].toLowerCase()} · ${ganado() ? plural(intentos.length, "intento", "intentos") : "sin acertar"}`;
       $("pais-final").innerHTML = `
-        <b class="palabra-resultado">${ganado() ? ["¡Al instante!", "¡Magnífico!", "¡Muy bien!", "¡Bien hecho!", "¡Conseguido!", "¡Por los pelos!"][intentos.length - 1] : "Otra vez será"}</b>
+        <b class="palabra-resultado">${ganado() ? ["¡Sin pistas!", "¡Con una pista!", "¡Con las dos pistas!"][nivel - 1] : "Otra vez será"}</b>
         <p>El país de hoy era <b class="palabra-solucion">${esc(solucion.nombre.toUpperCase())}</b>.</p>
         <button type="button" class="boton" id="pais-compartir">Compartir resultado</button>
         <p class="palabra-manana">Mañana habrá un país nuevo.</p>`;
       $("pais-compartir").addEventListener("click", async (e) => {
-        const texto = `Sophy · Adivina el país ${marcador}\n${cuadros}`;
+        const texto = `Sophy · Adivina el país · ${resumen}\n${cuadros}`;
         try {
           if (navigator.share) await navigator.share({ text: texto });
           else {
@@ -2574,7 +2616,10 @@ if (typeof document !== "undefined") (function () {
 
     function adivinar(p) {
       intentos.push(p.id);
-      guardarLocal(PAIS.clave, { fecha: hoy, intentos });
+      niveles.push(nivel);
+      // Tres fallos en un nivel: se pasa al siguiente y aparece su pista.
+      if (!ganado() && usados() >= POR_NIVEL && nivel < 3) nivel++;
+      guardar();
       $entrada.value = "";
       $sug.hidden = true;
       $aviso.textContent = "";
@@ -2582,6 +2627,13 @@ if (typeof document !== "undefined") (function () {
       if (acabado()) registrarJuego("adivina-pais", hoy);
     }
 
+    $("pais-pista").addEventListener("click", () => {
+      if (acabado() || nivel >= 3) return;
+      nivel++;
+      guardar();
+      $aviso.textContent = "";
+      pintar();
+    });
     $entrada.addEventListener("input", sugerir);
     $sug.addEventListener("click", (e) => {
       const $b = e.target.closest("button");

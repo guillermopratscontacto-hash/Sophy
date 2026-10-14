@@ -1636,3 +1636,30 @@ body.con-visor { overflow: hidden; }
   cursor: pointer;
 }
 .pais-sugerencias button:hover, .pais-sugerencias button:focus-visible { background: var(--papel); }
+
+/* Adivina el país: niveles y pistas */
+.pais-pistas { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 14px; }
+.pais-pistas:empty { display: none; }
+.pais-pistas figure { margin: 0; }
+.pais-pistas figcaption { margin-top: 6px; font: 500 0.7rem/1.3 var(--sans); letter-spacing: 0.14em; text-transform: uppercase; color: var(--suave); }
+.pais-bandera img { display: block; height: 130px; width: auto; max-width: 100%; border: 1px solid var(--linea); border-radius: 8px; box-shadow: var(--sombra); }
+.pais-mundo { flex: 1 1 280px; min-width: 0; }
+.pais-mundo svg { display: block; width: 100%; height: auto; border: 1px solid var(--linea); border-radius: 12px; background: var(--papel); }
+.pais-mundo .resto { fill: rgba(var(--tinta-rgb), 0.16); }
+.pais-mundo .elegido { fill: var(--rojo); }
+.pais-mundo .aro { fill: none; stroke: var(--rojo); stroke-width: 1.6; }
+.pais-nivel { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; margin-top: 18px; }
+.pais-nivel:empty { display: none; }
+.nivel-chips { display: inline-flex; gap: 6px; }
+.nivel-chips i {
+  padding: 6px 12px;
+  border: 1px solid var(--linea);
+  border-radius: 999px;
+  font: 500 0.78rem/1 var(--sans);
+  font-style: normal;
+  color: var(--suave);
+}
+.nivel-chips i.actual { background: var(--tinta); border-color: var(--tinta); color: var(--blanco); }
+.nivel-chips i.pasado { text-decoration: line-through; }
+.nivel-quedan { font-size: 0.85rem; color: var(--suave); }
+.pais-pista-fila { margin: 12px 0 0; }

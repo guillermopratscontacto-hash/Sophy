@@ -23,6 +23,27 @@
       ]
     },
     {
+      "id": "finanzas",
+      "nombre": "Finanzas",
+      "subsecciones": [
+        {
+          "id": "politica-monetaria",
+          "nombre": "Política monetaria",
+          "lema": "Cada sábado"
+        },
+        {
+          "id": "fusiones",
+          "nombre": "Fusiones y adquisiciones",
+          "lema": "El caso de la semana"
+        },
+        {
+          "id": "aprende-finanzas",
+          "nombre": "Aprende finanzas",
+          "lema": "Concepto del día"
+        }
+      ]
+    },
+    {
       "id": "cultura",
       "nombre": "Cultura",
       "subsecciones": [
@@ -140,6 +161,16 @@
       "subtitulo": "Miles Davis",
       "estilo": "Jazz modal",
       "asunto": "album-kind-of-blue"
+    },
+    {
+      "fecha": "2026-10-14",
+      "tema": "aprende-finanzas",
+      "titulo": "Skew de volatilidad y sonrisa implícita",
+      "subtitulo": "Volatility skew and smile",
+      "estilo": "Derivados",
+      "resumen": "Black-Scholes supone una sola volatilidad; el mercado cotiza una superficie. Qué mide el skew y por qué es la prima del miedo a las colas.",
+      "asunto": "fin-skew-de-volatilidad-y-sonrisa-implicita",
+      "archivo": "contenido/2026-10-14/aprende-finanzas.md"
     },
     {
       "fecha": "2026-10-13",

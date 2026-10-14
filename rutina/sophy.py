@@ -16,6 +16,12 @@ AGENTE = "SophyBot/1.0 (https://github.com/guillermopratscontacto-hash/Sophy)"
 NEWS = ["economia", "politica-espanola", "politica-internacional", "internacional"]
 CULTURA = ["arte", "historia", "literatura"]
 MUSICA = "musica"
+# Finanzas: dos apartados semanales (solo los sábados) y uno diario, con un concepto avanzado de una lista.
+SEMANALES = ["politica-monetaria", "fusiones"]
+APRENDE = "aprende-finanzas"
+SABADO = 5
+BANCOS = r"\b(bce|fed|reserva federal|banco central|banco de inglaterra|banco de japon|lagarde|powell|tipos de interes|bank of england)\b"
+OPERACIONES = r"\b(opa|fusion|fusiones|adquisicion|adquisiciones|adquiere|absorbe|oferta publica|toma el control|participacion mayoritaria|oferta de compra|compra de la)\b"
 DIAS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto",
          "septiembre", "octubre", "noviembre", "diciembre"]
@@ -111,8 +117,10 @@ def limpio(texto):
 
 # ---------- preparar ----------
 
-def titulares(tema, dia):
-    """Titulares de un día en los medios de la sección, alternando medios."""
+def titulares(tema, dia, limite=10, patron=None):
+    """Titulares de un día (o de varios) en los medios de la sección, alternando medios.
+    Con `patron`, solo los que lo contienen en el titular o en el resumen."""
+    dias = dia if isinstance(dia, (set, frozenset)) else {dia}
     por_medio = []
     for medio, url in FUENTES[tema]:
         try:
@@ -137,16 +145,18 @@ def titulares(tema, dia):
                     momento = momento.replace(tzinfo=datetime.timezone.utc)
             except Exception:
                 continue
-            if madrid(momento) != dia or not dato.get("title"):
+            if madrid(momento) not in dias or not dato.get("title"):
                 continue
             resumen = limpio(dato.get("description") or dato.get("summary"))
+            if patron and not re.search(patron, sin_tildes(dato["title"] + " " + resumen)):
+                continue
             lista.append((limpio(dato["title"]), resumen[:110], medio, dato.get("link", "").split("#")[0]))
         if lista:
             por_medio.append(lista)
     salida, vistos = [], set()
-    while any(por_medio) and len(salida) < 10:
+    while any(por_medio) and len(salida) < limite:
         for lista in por_medio:
-            if lista and len(salida) < 10:
+            if lista and len(salida) < limite:
                 t = lista.pop(0)
                 marca = re.sub(r"\W+", "", t[0].lower())[:40]
                 if marca not in vistos:
@@ -194,6 +204,27 @@ def preparar():
         print(f"  portada: {url_portada(album['mbid'])}")
     else:
         print("musica: LISTA AGOTADA. No escribas musica.md.")
+
+    print("\n== FINANZAS ==")
+    concepto = next((c for c in leer_json(os.path.join(RAIZ, "rutina", "conceptos.json")) if c["id"] not in hechos), None)
+    if concepto:
+        print(f"aprende-finanzas (diario): «{concepto['concepto']}» · término: {concepto['termino']} · área: {concepto['area']}  [asunto={concepto['id']}]")
+    else:
+        print("aprende-finanzas: LISTA AGOTADA. No escribas aprende-finanzas.md.")
+    if d.weekday() == SABADO:
+        semana = {d - datetime.timedelta(days=i) for i in range(1, 8)}
+        print("HOY ES SÁBADO: además, escribe politica-monetaria (3 artículos distintos en el mismo archivo) y fusiones (1 caso).")
+        for etiqueta, patron in (("política monetaria", BANCOS), ("fusiones y adquisiciones", OPERACIONES)):
+            print(f"-- candidatos de {etiqueta} de los últimos 7 días --")
+            vistos = []
+            for tema in ("economia", "politica-internacional"):
+                vistos += titulares(tema, semana, 8, patron)
+            for titulo, resumen, medio, enlace in vistos:
+                print(f"· {titulo}. {resumen} [{medio}] {enlace}")
+            if not vistos:
+                print("(sin candidatos en los medios: usa la búsqueda web)")
+    else:
+        print("Hoy no es sábado: no escribas politica-monetaria ni fusiones.")
 
     print("\n== IMÁGENES DE ARCHIVO DISPONIBLES (pídelas por su nombre con `imagenes`; si ninguna encaja, pide otro término) ==")
     grupos = {}
@@ -330,16 +361,19 @@ def git(*orden):
 
 
 def wikipedia_rotos(texto):
-    """Títulos enlazados a es.wikipedia.org que no existen (una sola consulta)."""
-    titulos = sorted({urllib.parse.unquote(t).replace("_", " ") for t in re.findall(r"https://es\.wikipedia\.org/wiki/([^)\s#]+)", texto)})
-    if not titulos:
-        return []
-    url = "https://es.wikipedia.org/w/api.php?action=query&format=json&redirects=1&titles=" + urllib.parse.quote("|".join(titulos))
-    try:
-        paginas = json.loads(bajar(url, 30)[0].decode("utf-8"))["query"]["pages"].values()
-    except Exception:
-        return []
-    return [p["title"] for p in paginas if "missing" in p or "invalid" in p]
+    """Títulos enlazados a es.wikipedia.org o en.wikipedia.org que no existen (una consulta por idioma)."""
+    rotos = []
+    for idioma in ("es", "en"):
+        titulos = sorted({urllib.parse.unquote(t).replace("_", " ") for t in re.findall(rf"https://{idioma}\.wikipedia\.org/wiki/([^)\s#]+)", texto)})
+        if not titulos:
+            continue
+        url = f"https://{idioma}.wikipedia.org/w/api.php?action=query&format=json&redirects=1&titles=" + urllib.parse.quote("|".join(titulos))
+        try:
+            paginas = json.loads(bajar(url, 30)[0].decode("utf-8"))["query"]["pages"].values()
+        except Exception:
+            continue
+        rotos += [f"{idioma}:{p['title']}" for p in paginas if "missing" in p or "invalid" in p]
+    return rotos
 
 
 def publicar():
@@ -359,8 +393,10 @@ def publicar():
     # Las imágenes de archivo pueden repetirse pasados REPOSO días; las demás, nunca.
     descansadas = {clave_imagen(r["imagen"]) for r in reserva_libre(indice, hoy())}
     errores, nuevas, faltan, textos = [], [], [], {}
+    conceptos = {sin_tildes(c["concepto"]): c for c in leer_json(os.path.join(RAIZ, "rutina", "conceptos.json"))}
+    es_sabado = hoy().weekday() == SABADO
 
-    for tema in NEWS + CULTURA + [MUSICA]:
+    for tema in NEWS + (SEMANALES if es_sabado else []) + CULTURA + [MUSICA, APRENDE]:
         ruta = os.path.join(carpeta, tema + ".md")
         if not os.path.exists(ruta):
             faltan.append(tema)
@@ -373,46 +409,66 @@ def publicar():
         resumen, texto = limpio(m.group(1)), texto[m.end():]
         if len(resumen) > 160:
             errores.append(f"{tema}: el resumen tiene {len(resumen)} caracteres (máximo 160)")
-        final = "**Fuentes:**" if tema in NEWS else "**Para saber más:**"
-        for n, articulo in enumerate(re.split(r"\n---\n", texto)):
+        final = "**Fuentes:**" if tema in NEWS + SEMANALES else "**Para saber más:**"
+        articulos = re.split(r"\n---\n", texto)
+        if tema == "politica-monetaria" and len(articulos) != 3:
+            errores.append(f"{tema}: debe llevar 3 artículos separados por una línea `---` (lleva {len(articulos)})")
+        if tema == "fusiones" and len(articulos) != 1:
+            errores.append(f"{tema}: debe tratar un solo caso (un único artículo)")
+        for n, articulo in enumerate(articulos):
             aqui = f"{tema}" + (f" (artículo {n + 1})" if n else "")
             parrafos = [p.strip() for p in articulo.strip().split("\n\n") if p.strip()]
-            if tema == MUSICA:
-                # Bajo el título va el artista como subtítulo; el resto se valida igual.
+            if tema in (MUSICA, APRENDE):
+                # Bajo el título va un subtítulo (artista o término en inglés); el resto se valida igual.
                 if len(parrafos) < 2 or not parrafos[1].startswith("### "):
-                    errores.append("musica: la segunda línea debe ser `### Artista`")
+                    errores.append(f"{tema}: la segunda línea debe ser `### subtítulo`")
                     continue
                 del parrafos[1]
-            if len(parrafos) < (6 if tema == MUSICA else 7) or not parrafos[0].startswith("## "):
+            sin_figura = tema == APRENDE
+            if len(parrafos) < (5 if sin_figura else 6 if tema == MUSICA else 7) or not parrafos[0].startswith("## "):
                 errores.append(f"{aqui}: estructura incompleta (titular, data, figura, párrafos y línea final)")
                 continue
             if not re.fullmatch(r"\*[^*].*\*", parrafos[1]):
                 errores.append(f"{aqui}: la segunda línea debe ser la data en cursiva")
-            if not parrafos[2].startswith("<figure>") or "<figcaption>" not in parrafos[2]:
+            if not sin_figura and (not parrafos[2].startswith("<figure>") or "<figcaption>" not in parrafos[2]):
                 errores.append(f"{aqui}: falta la <figure> con su pie tras la data")
             if not parrafos[-1].startswith(final) or "](http" not in parrafos[-1]:
                 errores.append(f"{aqui}: la última línea debe ser {final} con enlaces")
-            cuerpo = parrafos[3:-1]
+            cuerpo = parrafos[2:-1] if sin_figura else parrafos[3:-1]
             if any(p.startswith("**") for p in cuerpo):
                 errores.append(f"{aqui}: un párrafo empieza por negrita")
             negritas = len(re.findall(r"\*\*[^*]+\*\*", "\n".join(cuerpo)))
-            menos, mas = (2, 4) if tema == MUSICA else (4, 6)
+            menos, mas = (2, 4) if tema == MUSICA else (3, 6) if tema == APRENDE else (4, 6)
             if not menos <= negritas <= mas:
                 errores.append(f"{aqui}: {negritas} negritas (deben ser entre {menos} y {mas})")
             palabras = len(re.sub(r"\]\([^)]*\)|[*\[\]]", " ", "\n".join(cuerpo)).split())
-            minimo, maximo = (330, 480) if tema in CULTURA else (130, 260) if tema == MUSICA else (230, 400)
+            minimo, maximo = ((330, 480) if tema in CULTURA else (130, 260) if tema == MUSICA else (330, 520) if tema == APRENDE
+                              else (260, 460) if tema == "fusiones" else (230, 400))
             if not minimo <= palabras <= maximo:
                 errores.append(f"{aqui}: {palabras} palabras (entre {minimo} y {maximo})")
         titulo = re.search(r"^## (.+)$", texto, re.M)
-        imagen = re.search(r'<img src="([^"]+)"', texto)
-        if not titulo or not imagen:
+        imagenes_pieza = re.findall(r'<img src="([^"]+)"', texto)
+        if tema == APRENDE:
+            c = conceptos.get(sin_tildes(titulo.group(1))) if titulo else None
+            if not c:
+                errores.append("aprende-finanzas: el titular debe ser exactamente el concepto que indica `preparar`")
+            elif c["id"] in {e.get("asunto") for e in indice["entradas"]}:
+                errores.append("aprende-finanzas: ese concepto ya se publicó")
+            else:
+                nuevas.append({"fecha": d, "tema": tema, "titulo": c["concepto"], "subtitulo": c["termino"], "estilo": c["area"],
+                               "resumen": resumen, "asunto": c["id"], "archivo": f"contenido/{d}/{tema}.md"})
+                textos[ruta] = texto + "\n"
             continue
-        clave = clave_imagen(imagen.group(1))
-        if clave in ya and clave not in descansadas:
-            errores.append(f"{tema}: la imagen ya se usó en otra edición")
-        ya.add(clave)
+        if not titulo or not imagenes_pieza:
+            continue
+        for otra in imagenes_pieza:
+            if clave_imagen(otra) in ya and clave_imagen(otra) not in descansadas:
+                errores.append(f"{tema}: la imagen ya se usó en otra edición")
+            ya.add(clave_imagen(otra))
+        imagen = imagenes_pieza[0]
+        clave = clave_imagen(imagen)
         entrada = {"fecha": d, "tema": tema, "titulo": titulo.group(1).strip(), "resumen": resumen,
-                   "imagen": imagen.group(1), "archivo": f"contenido/{d}/{tema}.md"}
+                   "imagen": imagen, "archivo": f"contenido/{d}/{tema}.md"}
         if tema in CULTURA and clave in asuntos:
             entrada["asunto"] = asuntos[clave]
         if tema == MUSICA:
@@ -430,7 +486,7 @@ def publicar():
     if not errores:
         fiables = set(asuntos) | set(albumes) | {clave_imagen(r["imagen"]) for r in leer_json(os.path.join(RAIZ, "rutina", "reserva.json"))}
         for e in nuevas:
-            if clave_imagen(e["imagen"]) in fiables:
+            if not e.get("imagen") or clave_imagen(e["imagen"]) in fiables:
                 continue
             time.sleep(3)
             if comprobar(e["imagen"]) is False:
@@ -451,6 +507,8 @@ def publicar():
     publicados = {e.get("asunto") for e in indice["entradas"]}
     if MUSICA in faltan and all(a["id"] in publicados for a in albumes.values()):
         faltan.remove(MUSICA)  # lista de álbumes agotada: no es una sección que falte
+    if APRENDE in faltan and all(c["id"] in publicados for c in conceptos.values()):
+        faltan.remove(APRENDE)
     if faltan:
         mensaje += f"\n\nFaltan: {', '.join(faltan)}. {motivo}".rstrip()
     if "--sin-subir" in sys.argv:

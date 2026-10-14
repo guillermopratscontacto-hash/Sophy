@@ -1,15 +1,15 @@
 # Edición diaria de Sophy
 
-Instrucciones para el agente que publica la edición de cada mañana: ocho piezas, una por sección. Lo mecánico (fechas, temas de Cultura, álbum de Música, imágenes, índice, validación y push) lo hace `rutina/sophy.py`; tu trabajo es elegir las cuatro noticias, contrastarlas y escribir.
+Instrucciones para el agente que publica la edición de cada mañana: nueve piezas al día (once los sábados), una por sección. Lo mecánico (fechas, temas de Cultura, álbum de Música, concepto de Finanzas, imágenes, índice, validación y push) lo hace `rutina/sophy.py`; tu trabajo es elegir las cuatro noticias, contrastarlas y escribir.
 
 ## Trabaja en pocos pasos
 
 Cada paso relee toda la conversación, así que el coste depende del número de pasos. Sigue este orden y no añadas otros:
 
-1. `python3 rutina/sophy.py preparar` — una sola vez. Devuelve la fecha, las noticias ya publicadas, los tres temas de Cultura con su imagen, el álbum de Música con su portada, las imágenes de archivo disponibles y los titulares de ayer por sección. Si dice que la edición ya está publicada, termina.
+1. `python3 rutina/sophy.py preparar` — una sola vez. Devuelve la fecha, las noticias ya publicadas, los tres temas de Cultura con su imagen, el álbum de Música con su portada, el concepto de Finanzas del día (y, los sábados, los candidatos de la semana), las imágenes de archivo disponibles y los titulares de ayer por sección. Si dice que la edición ya está publicada, termina.
 2. Elige las cuatro noticias y lee dos fuentes de cada una con una sola orden: `python3 rutina/sophy.py leer URL1 URL2 …` (las ocho URL juntas; vienen en los titulares). No uses WebFetch: no puede abrir la mayoría de los medios. Usa la búsqueda web solo si una fuente falla y necesitas otra.
 3. Pide las imágenes de las cuatro noticias en una única orden: `python3 rutina/sophy.py imagenes "nombre o término 1" "nombre o término 2" …` (con un `timeout` de 10 minutos). Para cada noticia, usa el nombre de una imagen de archivo de la lista de `preparar` si alguna encaja (la institución, la ciudad o el tema de la noticia): sale al instante. Solo si ninguna encaja, pon un término de búsqueda en inglés; el script consulta Wikimedia, espera y reintenta solo. No repitas la orden ni consultes Wikimedia por tu cuenta.
-4. Escribe los ocho archivos en uno o dos pasos, con varias llamadas en paralelo.
+4. Escribe todos los archivos (nueve; once los sábados) en uno o dos pasos, con varias llamadas en paralelo.
 5. `python3 rutina/sophy.py publicar` — valida, comprueba imágenes y enlaces, actualiza el índice, hace el commit y el push. Si devuelve errores, corrige solo eso y vuelve a ejecutarlo.
 
 No releas los archivos que acabas de escribir, no hagas comprobaciones que ya hace `publicar`, no edites `contenido/indice.json` a mano, no uses git directamente y no narres lo que vas haciendo. Al terminar, resume en una línea qué has publicado.
@@ -24,11 +24,22 @@ No releas los archivos que acabas de escribir, no hagas comprobaciones que ya ha
 | `internacional` | Sucesos generales de ayer en el mundo: catástrofes, accidentes, ciencia, sociedad. |
 | `arte`, `historia`, `literatura` | Un reportaje atemporal, al estilo de National Geographic, sobre el asunto que indica `preparar`. |
 | `musica` | La recomendación del álbum que indica `preparar`. |
+| `aprende-finanzas` | Cada día, un concepto de finanzas avanzado: el que indica `preparar`. |
+| `politica-monetaria` | **Solo los sábados.** Tres artículos distintos sobre política monetaria de la semana. |
+| `fusiones` | **Solo los sábados.** Un único caso de fusión o adquisición de la semana. |
 
 - La noticia más relevante suele ser la que aparece en varios medios a la vez.
 - Cada noticia cuenta un hecho distinto de los ya publicados. Si una historia continúa, cuenta solo lo nuevo, con otro titular.
 - Ninguna sección queda vacía: si ayer no hubo noticia relevante (pasa en `economia` los fines de semana), cubre la más relevante de los últimos tres días que no esté publicada y pon en la data la fecha real del hecho.
 - En Cultura, el asunto y la imagen vienen dados y no se cambian: así nunca se repiten. Tú eliges el ángulo y el titular. Solo si `preparar` dice `LISTA AGOTADA` eliges tú un asunto que no esté entre los publicados (otra época, otra región y otro autor que los recientes) y buscas su imagen con `imagenes`.
+
+### Finanzas
+
+Los apartados semanales (`politica-monetaria` y `fusiones`) solo se escriben los sábados; `preparar` te avisa de si es sábado y te da candidatos de los últimos 7 días. Si no bastan, haz una o dos búsquedas web. En ningún caso se da consejo de inversión: se explica y se contextualiza, sin recomendar comprar ni vender.
+
+- **`politica-monetaria`: tres artículos distintos en el mismo archivo**, separados por una línea `---`, cada uno con su titular, su data, su imagen y su línea `**Fuentes:**` (mismo formato que una noticia, 230–400 palabras cada uno). Elige tres hechos distintos de la semana de bancos centrales (BCE, Reserva Federal, Banco de Inglaterra, Banco de Japón, etc.): una decisión de tipos, unas actas, un discurso, un dato que condicione la próxima reunión. Explica qué decidieron, por qué y qué implica para tipos, deuda y crédito, con las cifras exactas. Para las imágenes pide por su nombre «Banco Central Europeo», «Reserva Federal», «Banco de Inglaterra», «Banco de Japón» o «Banco Popular de China», sin repetir ninguna dentro del mismo archivo. El `<!-- resumen: -->` resume los tres.
+- **`fusiones`: un solo caso**, el más relevante de la semana (260–460 palabras). Cuenta quién compra a quién, por cuánto, con qué estructura (efectivo, acciones, deuda), la lógica estratégica y las sinergias alegadas, y lo que falta: aprobaciones de competencia, oposición de accionistas, plazos. Distingue lo anunciado de lo cerrado. Imagen: la sede de una de las empresas (`imagenes`).
+- **`aprende-finanzas`: el concepto que indica `preparar`, sin cambiarlo.** Es para profesionales y estudiantes avanzados: no expliques lo básico (qué es un tipo de interés, una opción o un bono). Da por sabida la base del área y ve a la mecánica: definición precisa, de dónde sale, cuándo se rompe, cómo se usa en la práctica y qué discute la literatura. Se escribe sin buscar en la web, con hechos y fórmulas bien establecidos y sin cifras inventadas; lo que sigue en debate, se dice. Fórmulas en texto plano con símbolos Unicode (σ, Δ, Σ…), sin LaTeX. 330–520 palabras, entre 3 y 6 negritas. No lleva imagen.
 
 ## Cómo investigar
 
@@ -41,7 +52,7 @@ No releas los archivos que acabas de escribir, no hagas comprobaciones que ya ha
 ## Cómo escribir
 
 - En español de España, con tus propias palabras; nunca copies párrafos de un medio.
-- Noticias: 4 o 5 párrafos (250–350 palabras). Reportajes: 5 o 6 párrafos (350–450 palabras). Música: 3 párrafos (150–220 palabras).
+- Noticias: 4 o 5 párrafos (250–350 palabras). Reportajes: 5 o 6 párrafos (350–450 palabras). Música: 3 párrafos (150–220 palabras). Aprende finanzas: 4 o 5 párrafos (330–520 palabras).
 - El primer párrafo cuenta lo esencial; los siguientes, el contexto y lo que queda abierto.
 - Titular informativo de una frase, sin punto final.
 - **Entre 4 y 6 fragmentos en negrita por artículo** (cuéntalos antes de guardar: con menos, `publicar` lo rechaza), de 3 a 12 palabras, repartidos por los párrafos: el hecho esencial, las cifras clave, los nombres decisivos y la consecuencia. Ningún párrafo empieza por negrita.
@@ -98,6 +109,23 @@ Tres párrafos.
 ```
 
 El título, el artista, el estilo, el año y la URL de la portada se copian tal cual de `preparar`.
+
+El archivo de `aprende-finanzas.md` es como el de Música, pero sin imagen: lleva un subtítulo con el término en inglés y, como data, el área.
+
+```markdown
+<!-- resumen: Una frase que despierte el interés de un profesional, máximo 160 caracteres. -->
+## Concepto (exactamente como lo indica `preparar`)
+
+### Término en inglés
+
+*Área*
+
+Párrafos.
+
+**Para saber más:** [Wikipedia: …](https://en.wikipedia.org/wiki/…)
+```
+
+Los enlaces de `Para saber más` pueden ser de es.wikipedia.org o de en.wikipedia.org (para conceptos avanzados suele haber solo en inglés); `publicar` comprueba que existen.
 
 ## Reglas
 

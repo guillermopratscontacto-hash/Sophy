@@ -55,13 +55,92 @@
       "nombre": "Minijuegos",
       "tipo": "juegos",
       "subsecciones": [
-        { "id": "palabra", "nombre": "La palabra del día" },
-        { "id": "sudoku", "nombre": "Sudoku" },
-        { "id": "adivina-pais", "nombre": "Adivina el país" }
+        {
+          "id": "palabra",
+          "nombre": "La palabra del día"
+        },
+        {
+          "id": "sudoku",
+          "nombre": "Sudoku"
+        },
+        {
+          "id": "adivina-pais",
+          "nombre": "Adivina el país"
+        }
       ]
     }
   ],
   "entradas": [
+    {
+      "fecha": "2026-10-14",
+      "tema": "economia",
+      "titulo": "UGT y CCOO piden subir el salario mínimo un 7% en 2027, hasta unos 1.307 euros mensuales",
+      "resumen": "UGT y CCOO piden subir el salario mínimo un 7% en 2027, hasta 1.307 euros al mes, y la patronal critica que haya dos subidas en un año.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Nuevos%20Ministerios%20%28Madrid%29%2001.jpg?width=1200",
+      "archivo": "contenido/2026-10-14/economia.md"
+    },
+    {
+      "fecha": "2026-10-14",
+      "tema": "politica-espanola",
+      "titulo": "Felipe VI visita Ceuta por primera vez y proclama que su soberanía «no es negociable»",
+      "resumen": "En su primera visita a Ceuta, Felipe VI afirmó que «Ceuta es España» y pidió unidad institucional dos meses y medio después de la entrada masiva.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/En%20Ceuta%2C%20s%C3%AD%2049%20-%20Vista%20de%20la%20ciudad%20desde%20el%20mirador%20de%20San%20Antonio.jpg?width=1200",
+      "archivo": "contenido/2026-10-14/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-10-14",
+      "tema": "politica-internacional",
+      "titulo": "Bulgaria convoca a la embajadora rusa tras el ataque con drones a dos buques en el mar Negro",
+      "resumen": "Dos buques mercantes, uno hundido, fueron atacados con drones frente a Bulgaria; Sofía convoca a la embajadora rusa y pide ayuda a la OTAN.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/MQ-9%20Reaper%20UAV%20%28cropped%29.jpg?width=1200",
+      "archivo": "contenido/2026-10-14/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-10-14",
+      "tema": "internacional",
+      "titulo": "El Vaticano confirma que el nódulo extirpado al papa León XIV era un adenocarcinoma pulmonar",
+      "resumen": "El Papa León XIV fue operado con éxito del pulmón derecho y el Vaticano confirmó que el nódulo era un adenocarcinoma.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/St%20Peter%27s%20Square%2C%20Vatican%20City%20-%20April%202007.jpg?width=1200",
+      "archivo": "contenido/2026-10-14/internacional.md"
+    },
+    {
+      "fecha": "2026-10-14",
+      "tema": "arte",
+      "titulo": "«El jardín de las delicias»: el gran enigma de El Bosco",
+      "resumen": "El tríptico de El Bosco, pintado hacia 1500, sigue desafiando a quien lo mira: ¿advertencia moral, utopía o enigma?",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Garden%20delights.jpg?width=1200",
+      "archivo": "contenido/2026-10-14/arte.md",
+      "asunto": "jardin-delicias"
+    },
+    {
+      "fecha": "2026-10-14",
+      "tema": "historia",
+      "titulo": "La caída de Constantinopla: el día en que terminó el Imperio bizantino",
+      "resumen": "El 29 de mayo de 1453 los otomanos tomaron Constantinopla y pusieron fin a mil años de Imperio bizantino.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Le%20si%C3%A8ge%20de%20Constantinople%20%281453%29%20by%20Jean%20Le%20Tavernier%20after%201455.jpg?width=1200",
+      "archivo": "contenido/2026-10-14/historia.md",
+      "asunto": "caida-constantinopla"
+    },
+    {
+      "fecha": "2026-10-14",
+      "tema": "literatura",
+      "titulo": "«Don Quijote de la Mancha»: el hidalgo que inventó la novela moderna",
+      "resumen": "Un hidalgo enloquecido por los libros de caballerías inauguró la novela moderna: «Don Quijote de la Mancha», de Cervantes.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave%20Dor%C3%A9%20-%20Miguel%20de%20Cervantes%20-%20Don%20Quixote%20-%20Part%201%20-%20Chapter%201%20-%20Plate%201%20%22A%20world%20of%20disorderly%20notions%2C%20picked%20out%20of%20his%20books%2C%20crowded%20into%20his%20imagination%22.jpg?width=1200",
+      "archivo": "contenido/2026-10-14/literatura.md",
+      "asunto": "quijote"
+    },
+    {
+      "fecha": "2026-10-14",
+      "tema": "musica",
+      "titulo": "Kind of Blue",
+      "resumen": "«Kind of Blue» (1959), de Miles Davis, es el disco de jazz modal que enseñó a improvisar con espacio y calma.",
+      "imagen": "https://coverartarchive.org/release-group/8e8a594f-2175-38c7-a871-abb68ec363e7/front-500",
+      "archivo": "contenido/2026-10-14/musica.md",
+      "subtitulo": "Miles Davis",
+      "estilo": "Jazz modal",
+      "asunto": "album-kind-of-blue"
+    },
     {
       "fecha": "2026-10-13",
       "tema": "economia",

@@ -1685,17 +1685,35 @@ if (typeof document !== "undefined") (function () {
     pintarSecciones("biblioteca");
     const grupos = indice.temas.filter((t) => t.subsecciones && t.tipo !== "juegos");
     const ids = grupos.flatMap((t) => t.subsecciones.map((sub) => sub.id));
-    const seccion = ids.includes(id) ? id : "";
-    const todas = indice.entradas.filter((e) => (seccion ? e.tema === seccion : ids.includes(e.tema)));
+    // Si se llega desde el menú con una sección concreta, empieza marcada en el filtro.
+    const inicial = ids.includes(id) ? id : "";
+    const todas = indice.entradas.filter((e) => ids.includes(e.tema));
     const fechas = todas.map((e) => e.fecha).sort();
 
     $vista.innerHTML = `
       <section class="biblio-cabecera" data-reveal>
         <div>
-          ${seccion ? `<a class="volver" href="#/biblioteca">${ICONO.atras} Biblioteca</a>` : `<span class="antetitulo">Todo lo publicado</span>`}
-          <h1 class="titular-xl">${esc(seccion ? nombreTema(seccion) : "Biblioteca")}</h1>
+          <span class="antetitulo">Todo lo publicado</span>
+          <h1 class="titular-xl">Biblioteca</h1>
         </div>
         <form class="biblio-filtros" id="biblio-filtros" role="search">
+          <details class="filtro-secciones" id="biblio-secciones">
+            <summary class="entrada"><span>Secciones</span><b id="biblio-n" hidden></b></summary>
+            <div class="filtro-panel">
+              ${grupos
+                .map(
+                  (t) => `<fieldset>
+                    <legend>${esc(t.nombre)}</legend>
+                    ${t.subsecciones
+                      .map(
+                        (sub) => `<label class="casilla"><input type="checkbox" name="seccion" value="${esc(sub.id)}"${sub.id === inicial ? " checked" : ""}><span>${esc(sub.nombre)}</span></label>`
+                      )
+                      .join("")}
+                  </fieldset>`
+                )
+                .join("")}
+            </div>
+          </details>
           <input class="entrada" id="biblio-buscar" type="search" placeholder="Buscar por palabras" aria-label="Buscar por palabras" autocomplete="off">
           <select class="entrada" id="biblio-orden" aria-label="Orden por fecha">
             <option value="desc">Más recientes primero</option>
@@ -1705,13 +1723,6 @@ if (typeof document !== "undefined") (function () {
           <button class="boton pequeno linea" id="biblio-limpiar" type="reset" hidden>Quitar filtros</button>
         </form>
       </section>
-      <nav class="subsecciones visibles" aria-label="Secciones de la biblioteca" data-reveal>
-        <a href="#/biblioteca"${seccion ? "" : ' class="actual"'}>Todas</a>
-        ${grupos
-          .flatMap((t) => t.subsecciones)
-          .map((sub) => `<a href="#/biblioteca/${enc(sub.id)}"${sub.id === seccion ? ' class="actual"' : ""}>${esc(sub.nombre)}</a>`)
-          .join("")}
-      </nav>
       <p class="biblio-cuenta" id="biblio-cuenta" role="status"></p>
       <div id="biblio-lista"></div>`;
 
@@ -1721,18 +1732,25 @@ if (typeof document !== "undefined") (function () {
     const $orden = $("biblio-orden");
     const $fecha = $("biblio-fecha");
 
+    const $secciones = $("biblio-secciones");
+    const marcadas = () => [...$secciones.querySelectorAll("input:checked")].map((c) => c.value);
+
     function pintar() {
       const palabras = llano($buscar.value).split(/\s+/).filter(Boolean);
       const signo = $orden.value === "asc" ? 1 : -1;
       const orden = ids;
+      const elegidas = marcadas();
+      $("biblio-n").hidden = !elegidas.length;
+      $("biblio-n").textContent = elegidas.length;
       const lista = todas
+        .filter((e) => !elegidas.length || elegidas.includes(e.tema))
         .filter((e) => !$fecha.value || e.fecha === $fecha.value)
         .filter((e) => {
           const texto = llano(`${e.titulo} ${e.resumen || ""} ${nombreTema(e.tema)}`);
           return palabras.every((p) => texto.includes(p));
         })
         .sort((x, y) => signo * x.fecha.localeCompare(y.fecha) || orden.indexOf(x.tema) - orden.indexOf(y.tema));
-      const filtrando = Boolean(palabras.length || $fecha.value);
+      const filtrando = Boolean(palabras.length || $fecha.value || elegidas.length);
       $("biblio-limpiar").hidden = !filtrando && $orden.value === "desc";
       $("biblio-cuenta").textContent = filtrando
         ? `${plural(lista.length, "artículo", "artículos")} de ${todas.length}`
@@ -1748,7 +1766,22 @@ if (typeof document !== "undefined") (function () {
     const $filtros = $("biblio-filtros");
     $filtros.addEventListener("input", pintar);
     $filtros.addEventListener("submit", (e) => e.preventDefault());
-    $filtros.addEventListener("reset", () => setTimeout(pintar));
+    // «Quitar filtros» deja el desplegable sin ninguna sección marcada, también la que venía del menú.
+    $filtros.addEventListener("reset", () =>
+      setTimeout(() => {
+        $secciones.querySelectorAll("input").forEach((c) => (c.checked = false));
+        pintar();
+      })
+    );
+    // El desplegable se cierra al pulsar fuera de él o con Escape.
+    const cerrarFuera = (e) => {
+      if (!$secciones.contains(e.target)) $secciones.open = false;
+    };
+    document.addEventListener("click", cerrarFuera);
+    $secciones.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") $secciones.open = false;
+    });
+    limpiarVista = () => document.removeEventListener("click", cerrarFuera);
     pintar();
   }
 

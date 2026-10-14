@@ -184,7 +184,7 @@
       "titulo": "Skew de volatilidad y sonrisa implícita",
       "subtitulo": "Volatility skew and smile",
       "estilo": "Derivados",
-      "resumen": "Black-Scholes supone una sola volatilidad; el mercado cotiza una superficie. Qué mide el skew y por qué es la prima del miedo a las colas.",
+      "resumen": "Por qué las opciones sobre un mismo índice no cotizan con una sola volatilidad y qué dice la curva sobre el miedo a las caídas.",
       "asunto": "fin-skew-de-volatilidad-y-sonrisa-implicita",
       "archivo": "contenido/2026-10-14/aprende-finanzas.md"
     },

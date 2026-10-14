@@ -1663,3 +1663,11 @@ body.con-visor { overflow: hidden; }
 .nivel-chips i.pasado { text-decoration: line-through; }
 .nivel-quedan { font-size: 0.85rem; color: var(--suave); }
 .pais-pista-fila { margin: 12px 0 0; }
+
+/* La fila de secciones es una banda propia, separada por una línea de la del logo
+   (igual que la de subsecciones, que va debajo). */
+.secciones {
+  margin: 8px calc(var(--margen) * -1) 0;
+  padding: 0 calc(var(--margen) - 12px);
+  border-top: 1px solid rgba(var(--tinta-rgb), 0.22);
+}

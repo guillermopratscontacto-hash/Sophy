@@ -229,12 +229,21 @@ if (typeof document !== "undefined") (function () {
 
   // ---------- Piezas comunes ----------
 
+  // Marca de guardado en la tarjeta: abajo a la derecha de la imagen (o de la tarjeta, si no la tiene).
+  // Es un span con rol de botón porque va dentro del enlace de la pieza.
+  function marcaGuardar(e) {
+    if (!marcadores) return "";
+    const puesto = marcadores.has(`${e.fecha}|${e.tema}`);
+    const texto = puesto ? "Quitar de guardados" : "Guardar para después";
+    return `<span class="guardar-tarjeta${puesto ? " puesto" : ""}" role="button" tabindex="0" data-fecha="${e.fecha}" data-tema="${esc(e.tema)}" aria-pressed="${puesto}" aria-label="${texto}" title="${texto}">${ICONO.marcador}</span>`;
+  }
+
   function pieza(e, i, destacada) {
     // Los álbumes de Música llevan artista y estilo bajo el título, y portada cuadrada.
     const clases = ["pieza", destacada ? "destacada" : "", e.imagen ? "" : "sin-imagen", e.estilo ? "album" : ""].join(" ");
     return `<li data-reveal style="--i:${Math.min(i, 6)}"${destacada ? ' class="ancha"' : ""}>
       <a class="${clases}" href="#/leer/${e.fecha}/${enc(e.tema)}">
-        ${e.imagen ? `<span class="pieza-foto"><img src="${esc(e.imagen)}" alt="" loading="lazy"></span>` : ""}
+        ${e.imagen ? `<span class="pieza-foto"><img src="${esc(e.imagen)}" alt="" loading="lazy">${marcaGuardar(e)}</span>` : ""}
         <span class="pieza-texto">
           <span class="antetitulo">${esc(nombreTema(e.tema))}</span>
           <span class="pieza-titulo">${esc(e.titulo)}</span>
@@ -246,6 +255,7 @@ if (typeof document !== "undefined") (function () {
             ${estaHecha(e) ? `<span class="hecha">${ICONO.hecho} Completada</span>` : ""}
           </span>
         </span>
+        ${e.imagen ? "" : marcaGuardar(e)}
       </a>
     </li>`;
   }
@@ -1145,16 +1155,35 @@ if (typeof document !== "undefined") (function () {
           ? `<ul class="listado" style="margin-top:36px">${lista.map((e, i) => pieza(e, i, false)).join("")}</ul>`
           : `<div style="margin-top:44px">${vacio("Nada guardado todavía", "Pulsa «Guardar para después» al abrir una pieza y la encontrarás aquí.")}</div>`
       }`;
-    $vista.querySelectorAll(".listado > li").forEach(($li, i) => {
-      const e = lista[i];
-      $li.classList.add("con-quitar");
-      $li.insertAdjacentHTML("beforeend", `<button type="button" class="quitar" aria-label="Quitar de guardados" title="Quitar de guardados">${ICONO.marcador}</button>`);
-      $li.querySelector(".quitar").addEventListener("click", async () => {
-        if (!(await cambiarGuardado(e.fecha, e.tema))) return;
-        if ($vista.isConnected) vistaGuardados();
-      });
-    });
   }
+
+  // Guardar o quitar desde la tarjeta de cualquier listado, sin entrar en la pieza.
+  async function pulsarMarca(e) {
+    const $marca = e.target.closest(".guardar-tarjeta");
+    if (!$marca) return;
+    e.preventDefault();
+    e.stopPropagation();
+    if ($marca.dataset.ocupado) return;
+    $marca.dataset.ocupado = "1";
+    const { fecha, tema } = $marca.dataset;
+    const bien = await cambiarGuardado(fecha, tema);
+    delete $marca.dataset.ocupado;
+    if (!bien) return;
+    if (location.hash === "#/guardados") return vistaGuardados();
+    const puesto = marcadores.has(`${fecha}|${tema}`);
+    for (const $m of $vista.querySelectorAll(".guardar-tarjeta")) {
+      if ($m.dataset.fecha !== fecha || $m.dataset.tema !== tema) continue;
+      $m.classList.toggle("puesto", puesto);
+      $m.setAttribute("aria-pressed", puesto);
+      const texto = puesto ? "Quitar de guardados" : "Guardar para después";
+      $m.setAttribute("aria-label", texto);
+      $m.title = texto;
+    }
+  }
+  $vista.addEventListener("click", pulsarMarca);
+  $vista.addEventListener("keydown", (e) => {
+    if ((e.key === "Enter" || e.key === " ") && e.target.classList && e.target.classList.contains("guardar-tarjeta")) pulsarMarca(e);
+  });
 
   // Botones de me gusta / no me gusta al final de cada pieza. Pulsar el mismo otra vez lo quita.
   function activarValoracion(fecha, tema) {

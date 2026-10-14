@@ -126,6 +126,22 @@
     },
     {
       "fecha": "2026-10-14",
+      "tema": "politica-monetaria",
+      "titulo": "El acta del BCE revela que los mercados descontaban más subidas de tipos que los analistas",
+      "resumen": "El acta de septiembre muestra un mercado que veía 84 puntos básicos de subidas hasta 2027 y analistas que esperaban parar en el 2,50 %.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Seat%20of%20the%20European%20Central%20Bank%20and%20Frankfurt%20Skyline%20at%20dawn%2020150422%201.jpg?width=1200",
+      "archivo": "contenido/2026-10-14/politica-monetaria.md"
+    },
+    {
+      "fecha": "2026-10-14",
+      "tema": "fusiones",
+      "titulo": "CSG compra un 9,5 % de MDA Space y se convierte en su mayor accionista",
+      "resumen": "La checa CSG, matriz de la Fábrica de Municiones de Granada, entra en el sector espacial con una participación minoritaria en MDA.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/STS-114%20Steve%20Robinson%20on%20Canadarm2.jpg?width=1200",
+      "archivo": "contenido/2026-10-14/fusiones.md"
+    },
+    {
+      "fecha": "2026-10-14",
       "tema": "arte",
       "titulo": "«El jardín de las delicias»: el gran enigma de El Bosco",
       "resumen": "El tríptico de El Bosco, pintado hacia 1500, sigue desafiando a quien lo mira: ¿advertencia moral, utopía o enigma?",

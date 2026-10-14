@@ -7,7 +7,7 @@ Instrucciones para el agente que publica la edición de cada mañana: ocho pieza
 Cada paso relee toda la conversación, así que el coste depende del número de pasos. Sigue este orden y no añadas otros:
 
 1. `python3 rutina/sophy.py preparar` — una sola vez. Devuelve la fecha, las noticias ya publicadas, los tres temas de Cultura con su imagen, el álbum de Música con su portada, las imágenes de archivo disponibles y los titulares de ayer por sección. Si dice que la edición ya está publicada, termina.
-2. Elige las cuatro noticias y abre **en un mismo paso, en paralelo**, dos fuentes de cada una (los enlaces vienen en los titulares). Usa la búsqueda web solo si un enlace falla o falta una segunda fuente.
+2. Elige las cuatro noticias y lee dos fuentes de cada una con una sola orden: `python3 rutina/sophy.py leer URL1 URL2 …` (las ocho URL juntas; vienen en los titulares). No uses WebFetch: no puede abrir la mayoría de los medios. Usa la búsqueda web solo si una fuente falla y necesitas otra.
 3. Pide las imágenes de las cuatro noticias en una única orden: `python3 rutina/sophy.py imagenes "nombre o término 1" "nombre o término 2" …` (con un `timeout` de 10 minutos). Para cada noticia, usa el nombre de una imagen de archivo de la lista de `preparar` si alguna encaja (la institución, la ciudad o el tema de la noticia): sale al instante. Solo si ninguna encaja, pon un término de búsqueda en inglés; el script consulta Wikimedia, espera y reintenta solo. No repitas la orden ni consultes Wikimedia por tu cuenta.
 4. Escribe los ocho archivos en uno o dos pasos, con varias llamadas en paralelo.
 5. `python3 rutina/sophy.py publicar` — valida, comprueba imágenes y enlaces, actualiza el índice, hace el commit y el push. Si devuelve errores, corrige solo eso y vuelve a ejecutarlo.
@@ -44,12 +44,12 @@ No releas los archivos que acabas de escribir, no hagas comprobaciones que ya ha
 - Noticias: 4 o 5 párrafos (250–350 palabras). Reportajes: 5 o 6 párrafos (350–450 palabras). Música: 3 párrafos (150–220 palabras).
 - El primer párrafo cuenta lo esencial; los siguientes, el contexto y lo que queda abierto.
 - Titular informativo de una frase, sin punto final.
-- Entre 4 y 6 fragmentos en **negrita** por artículo, de 3 a 12 palabras, repartidos por los párrafos: el hecho esencial, las cifras clave, los nombres decisivos y la consecuencia. Ningún párrafo empieza por negrita.
+- **Entre 4 y 6 fragmentos en negrita por artículo** (cuéntalos antes de guardar: con menos, `publicar` lo rechaza), de 3 a 12 palabras, repartidos por los párrafos: el hecho esencial, las cifras clave, los nombres decisivos y la consecuencia. Ningún párrafo empieza por negrita.
 - Sin `#` de nivel 1 ni emojis.
 
 ## Formato de cada archivo
 
-Ruta: `contenido/HOY/<id>.md`. Estructura exacta:
+Ruta: `contenido/<fecha de hoy>/<id>.md`, por ejemplo `contenido/2026-10-15/economia.md` (`preparar` te dice la carpeta exacta). Estructura exacta:
 
 ```markdown
 <!-- resumen: Una o dos frases para la portada, máximo 160 caracteres. -->
@@ -77,7 +77,7 @@ Más párrafos.
 
 ## Música
 
-Una recomendación breve del álbum que indica `preparar` (no lo cambies): por qué merece escucharse, en qué momento y contexto se grabó y dos o tres canciones por las que empezar. Se escribe sin buscar en la web, con hechos bien establecidos, y lleva entre 2 y 4 negritas. El archivo `contenido/HOY/musica.md` tiene una línea más que los demás, el artista como subtítulo:
+Una recomendación breve del álbum que indica `preparar` (no lo cambies): por qué merece escucharse, en qué momento y contexto se grabó y dos o tres canciones por las que empezar. Se escribe sin buscar en la web, con hechos bien establecidos, y lleva entre 2 y 4 negritas. El archivo `musica.md` tiene una línea más que los demás, el artista como subtítulo:
 
 ```markdown
 <!-- resumen: Una frase que invite a escucharlo, máximo 160 caracteres. -->
@@ -101,5 +101,5 @@ El título, el artista, el estilo, el año y la URL de la portada se copian tal 
 
 ## Reglas
 
-- Solo creas archivos en `contenido/HOY/`. No toques ediciones anteriores, la carpeta `rutina/` ni el código de la web.
+- Solo creas archivos en la carpeta de hoy, `contenido/<fecha>/`. No toques ediciones anteriores, la carpeta `rutina/` ni el código de la web.
 - Si una sección no puede completarse con garantías, no escribas su archivo y publica con `python3 rutina/sophy.py publicar --falta="motivo"`. Es preferible una sección menos que una noticia sin verificar.

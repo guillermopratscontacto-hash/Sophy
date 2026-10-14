@@ -3,6 +3,7 @@
 
   python3 rutina/sophy.py preparar            todo lo que hace falta saber antes de escribir
   python3 rutina/sophy.py imagenes "a" "b"    busca imágenes libres en Wikimedia Commons
+  python3 rutina/sophy.py leer URL URL ...    texto de varios artículos de prensa, limpio y recortado
   python3 rutina/sophy.py publicar            valida la edición, actualiza el índice y la sube
 """
 import datetime, email.utils, html, io, json, os, re, subprocess, sys, time
@@ -139,13 +140,13 @@ def titulares(tema, dia):
             if madrid(momento) != dia or not dato.get("title"):
                 continue
             resumen = limpio(dato.get("description") or dato.get("summary"))
-            lista.append((limpio(dato["title"]), resumen[:150], medio, dato.get("link", "").split("#")[0]))
+            lista.append((limpio(dato["title"]), resumen[:110], medio, dato.get("link", "").split("#")[0]))
         if lista:
             por_medio.append(lista)
     salida, vistos = [], set()
-    while any(por_medio) and len(salida) < 12:
+    while any(por_medio) and len(salida) < 10:
         for lista in por_medio:
-            if lista and len(salida) < 12:
+            if lista and len(salida) < 10:
                 t = lista.pop(0)
                 marca = re.sub(r"\W+", "", t[0].lower())[:40]
                 if marca not in vistos:
@@ -162,6 +163,7 @@ def preparar():
     if os.path.isdir(os.path.join(RAIZ, "contenido", d.isoformat())):
         print("EDICIÓN YA PUBLICADA: termina sin cambiar nada.")
         return
+    print(f"Escribe los archivos en contenido/{d.isoformat()}/ (crea la carpeta al escribir el primero).")
     ya = usadas(indice)
 
     print("\n== NEWS YA PUBLICADAS (no repitas el mismo hecho; si la historia sigue, cuenta solo lo nuevo) ==")
@@ -194,7 +196,12 @@ def preparar():
         print("musica: LISTA AGOTADA. No escribas musica.md.")
 
     print("\n== IMÁGENES DE ARCHIVO DISPONIBLES (pídelas por su nombre con `imagenes`; si ninguna encaja, pide otro término) ==")
-    print("; ".join(sorted({r["tema"] for r in reserva_libre(indice, d)})))
+    grupos = {}
+    for r in reserva_libre(indice, d):
+        grupo, _, nombre = r["tema"].rpartition(" · ")
+        grupos.setdefault(grupo or "Varias", set()).add(nombre)
+    for grupo, nombres in sorted(grupos.items()):
+        print(f"{grupo}: " + "; ".join(sorted(nombres)))
 
     print(f"\n== TITULARES DEL {ayer.isoformat()} ==")
     for tema in NEWS:
@@ -295,6 +302,26 @@ def imagenes(terminos):
             print(f"  {url_imagen(archivo)}\n    {archivo} · {ancho}px · {autor}, {licencia}")
 
 
+# ---------- leer ----------
+
+def leer(urls):
+    """Texto principal de cada artículo: los párrafos largos, sin menús ni publicidad."""
+    for n, url in enumerate(urls):
+        print(f"== {url}")
+        try:
+            pagina = bajar(url, 30)[0].decode("utf-8", errors="ignore")
+        except Exception as e:
+            print(f"  no se ha podido abrir ({str(e)[:60]}): usa otra fuente o la búsqueda web")
+            continue
+        pagina = re.sub(r"(?is)<(script|style|nav|header|footer|aside|figure)[^>]*>.*?</\1>", " ", pagina)
+        titulo = re.search(r"(?is)<h1[^>]*>(.*?)</h1>", pagina)
+        if titulo:
+            print("  " + limpio(titulo.group(1)))
+        parrafos = [limpio(p) for p in re.findall(r"(?is)<p[^>]*>(.*?)</p>", pagina)]
+        texto = "\n".join(p for p in parrafos if len(p) > 80)
+        print(texto[:3000] or "  sin texto legible: usa otra fuente")
+
+
 # ---------- publicar ----------
 
 def git(*orden):
@@ -318,6 +345,10 @@ def wikipedia_rotos(texto):
 def publicar():
     d = hoy().isoformat()
     carpeta = os.path.join(RAIZ, "contenido", d)
+    # Por si los archivos se escribieron en contenido/HOY/ en lugar de en la carpeta con la fecha.
+    literal = os.path.join(RAIZ, "contenido", "HOY")
+    if os.path.isdir(literal) and not os.path.isdir(carpeta):
+        os.rename(literal, carpeta)
     indice = leer_json(INDICE)
     if any(e["fecha"] == d for e in indice["entradas"]):
         sys.exit("La edición de hoy ya está en el índice.")
@@ -452,6 +483,8 @@ if __name__ == "__main__":
         preparar()
     elif orden == "imagenes":
         imagenes([a for a in sys.argv[2:] if not a.startswith("--")])
+    elif orden == "leer":
+        leer([a for a in sys.argv[2:] if a.startswith("http")])
     elif orden == "publicar":
         publicar()
     else:

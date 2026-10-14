@@ -91,7 +91,7 @@ if (typeof document !== "undefined") (function () {
   const JUEGOS = {
     palabra: { texto: "Seis intentos para acertar una palabra de cinco letras.", listo: true },
     sudoku: { texto: "Un sudoku nuevo cada día, en tres niveles de dificultad.", listo: true },
-    "adivina-pais": { texto: "Reconoce el país por su bandera o por su silueta.", listo: false },
+    "adivina-pais": { texto: "Reconoce el país del día por su silueta, con pistas de distancia y dirección.", listo: true },
   };
   const juegoHecho = (id, dia) => progreso.some((p) => p.tema === `juego:${id}` && p.fecha === dia);
 
@@ -1811,6 +1811,7 @@ if (typeof document !== "undefined") (function () {
   function vistaJuego(tema, vigente) {
     if (tema.id === "palabra") return vistaPalabra(tema, vigente);
     if (tema.id === "sudoku") return vistaSudoku(tema);
+    if (tema.id === "adivina-pais") return vistaPais(tema, vigente);
     $vista.innerHTML = `
       <section data-reveal>
         <a class="volver" href="#/seccion/${enc(tema.padre)}">${ICONO.atras} ${esc(nombreTema(tema.padre))}</a>
@@ -2398,6 +2399,209 @@ if (typeof document !== "undefined") (function () {
     document.body.append($visor);
     $visor.querySelector(".visor-cerrar").focus();
   });
+
+  // ---------- Adivina el país ----------
+
+  // País del día: se reconoce por su silueta; cada intento fallido dice a qué distancia y en qué dirección está.
+  // Se elige por la fecha de una lista barajada con semilla fija, así que todos ven el mismo y no gasta tokens.
+  const PAIS = {
+    inicio: "2026-10-14",
+    intentos: 6,
+    clave: "sophy-pais",
+    // Territorios y casos discutidos que no se proponen como respuesta (sí se aceptan como intento).
+    excluidos: new Set(["TWN", "SOL", "SAH", "GRL", "NCL"]),
+    datos: null,
+  };
+
+  const poligonos = (f) => (f.geometry.type === "Polygon" ? [f.geometry.coordinates] : f.geometry.coordinates);
+  function cajaAnillo(anillo) {
+    let x0 = 180, x1 = -180, y0 = 90, y1 = -90;
+    for (const [x, y] of anillo) {
+      if (x < x0) x0 = x;
+      if (x > x1) x1 = x;
+      if (y < y0) y0 = y;
+      if (y > y1) y1 = y;
+    }
+    return { x0, x1, y0, y1 };
+  }
+  const areaCaja = (c) => (c.x1 - c.x0) * (c.y1 - c.y0);
+
+  // Polígono principal de un país (el de caja más grande) y su centro, para medir distancias.
+  function principal(f) {
+    let mejor = null;
+    for (const p of poligonos(f)) {
+      const caja = cajaAnillo(p[0]);
+      if (!mejor || areaCaja(caja) > areaCaja(mejor.caja)) mejor = { p, caja };
+    }
+    return mejor;
+  }
+  const centroPais = (f) => {
+    const { caja } = principal(f);
+    return { lat: (caja.y0 + caja.y1) / 2, lng: (caja.x0 + caja.x1) / 2 };
+  };
+
+  // Silueta: el polígono principal y los cercanos (islas próximas); las colonias lejanas se dejan fuera.
+  function siluetaSvg(f) {
+    const { caja } = principal(f);
+    const margen = Math.max(caja.x1 - caja.x0, caja.y1 - caja.y0) * 0.6;
+    const elegidos = poligonos(f).filter((p) => {
+      const c = cajaAnillo(p[0]);
+      return c.x1 >= caja.x0 - margen && c.x0 <= caja.x1 + margen && c.y1 >= caja.y0 - margen && c.y0 <= caja.y1 + margen;
+    });
+    let x0 = 180, x1 = -180, y0 = 90, y1 = -90;
+    for (const p of elegidos) {
+      const c = cajaAnillo(p[0]);
+      x0 = Math.min(x0, c.x0); x1 = Math.max(x1, c.x1); y0 = Math.min(y0, c.y0); y1 = Math.max(y1, c.y1);
+    }
+    const k = Math.cos((((y0 + y1) / 2) * Math.PI) / 180); // las longitudes se acortan lejos del ecuador
+    const ancho = (x1 - x0) * k;
+    const alto = y1 - y0;
+    const pad = Math.max(ancho, alto) * 0.08;
+    const d = elegidos
+      .map((p) => p.map((a) => `M${a.map(([x, y]) => `${((x - x0) * k).toFixed(3)},${(y1 - y).toFixed(3)}`).join("L")}Z`).join(""))
+      .join("");
+    return `<svg viewBox="${-pad} ${-pad} ${ancho + 2 * pad} ${alto + 2 * pad}" role="img" aria-label="Silueta del país del día" preserveAspectRatio="xMidYMid meet"><path d="${d}" fill-rule="evenodd"/></svg>`;
+  }
+
+  function distanciaKm(a, b) {
+    const r = (g) => (g * Math.PI) / 180;
+    const h = Math.sin(r(b.lat - a.lat) / 2) ** 2 + Math.cos(r(a.lat)) * Math.cos(r(b.lat)) * Math.sin(r(b.lng - a.lng) / 2) ** 2;
+    return 2 * 6371 * Math.asin(Math.sqrt(h));
+  }
+  function flechaHacia(a, b) {
+    const r = (g) => (g * Math.PI) / 180;
+    const y = Math.sin(r(b.lng - a.lng)) * Math.cos(r(b.lat));
+    const x = Math.cos(r(a.lat)) * Math.sin(r(b.lat)) - Math.sin(r(a.lat)) * Math.cos(r(b.lat)) * Math.cos(r(b.lng - a.lng));
+    const rumbo = ((Math.atan2(y, x) * 180) / Math.PI + 360) % 360;
+    return ["↑", "↗", "→", "↘", "↓", "↙", "←", "↖"][Math.round(rumbo / 45) % 8];
+  }
+
+  async function vistaPais(tema, vigente) {
+    const hoy = fechaLocal();
+    $vista.innerHTML = `
+      <section class="palabra pais" data-reveal>
+        <a class="volver" href="#/seccion/${enc(tema.padre)}">${ICONO.atras} ${esc(nombreTema(tema.padre))}</a>
+        <h1 class="titular-xl">${esc(tema.nombre)}</h1>
+        <p class="entradilla">Reconoce el país por su silueta. Tienes seis intentos y cada fallo te dice a qué distancia está y hacia dónde.</p>
+        <div id="pais-mapa" class="pais-mapa"></div>
+        <ol id="pais-intentos" class="pais-intentos"></ol>
+        <form id="pais-form" class="pais-form" autocomplete="off">
+          <div class="pais-campo">
+            <input class="entrada" id="pais-entrada" placeholder="Escribe un país" aria-label="País" autocapitalize="none" spellcheck="false">
+            <ul id="pais-sugerencias" class="pais-sugerencias" hidden></ul>
+          </div>
+          <button class="boton" id="pais-enviar">Adivinar</button>
+        </form>
+        <p id="pais-aviso" class="palabra-aviso" role="status"></p>
+        <div id="pais-final" class="palabra-final" hidden></div>
+        <details class="palabra-reglas">
+          <summary>Cómo se juega</summary>
+          <p>La silueta es la de un país de hoy. Escribe un país y pulsa Adivinar: si no es el correcto, verás la distancia en kilómetros entre ambos, una flecha que apunta hacia el país buscado y un porcentaje de cercanía.</p>
+          <p>La distancia se mide entre los centros de los dos países. Las colonias lejanas no aparecen en la silueta.</p>
+        </details>
+      </section>`;
+    if (!PAIS.datos) {
+      try {
+        const r = await fetch("contenido/geografia/mundo.json", { cache: "no-cache" });
+        if (!r.ok) throw new Error(r.status);
+        const { features } = await r.json();
+        const todos = features.map((f) => ({ id: f.properties.id, nombre: f.properties.nombre, f, centro: centroPais(f), llano: llano(f.properties.nombre) }));
+        const candidatos = todos
+          .filter((p) => !PAIS.excluidos.has(p.id) && areaCaja(principal(p.f).caja) >= 3)
+          .sort((a, b) => a.id.localeCompare(b.id));
+        PAIS.datos = { todos, orden: barajar(candidatos, azar("sophy-pais")) };
+      } catch {
+        if (vigente()) $("pais-aviso").textContent = "No se ha podido cargar el juego. Recarga la página.";
+        return;
+      }
+    }
+    if (!vigente()) return;
+
+    const { todos, orden } = PAIS.datos;
+    const numero = Math.round((aFecha(hoy) - aFecha(PAIS.inicio)) / 86400000);
+    const solucion = orden[((numero % orden.length) + orden.length) % orden.length];
+    const guardado = leerLocal(PAIS.clave, {});
+    const intentos = guardado.fecha === hoy && Array.isArray(guardado.intentos) ? guardado.intentos.filter((id) => todos.some((p) => p.id === id)) : [];
+    const $entrada = $("pais-entrada");
+    const $sug = $("pais-sugerencias");
+    const $aviso = $("pais-aviso");
+    const ganado = () => intentos.includes(solucion.id);
+    const acabado = () => ganado() || intentos.length >= PAIS.intentos;
+    const porId = (id) => todos.find((p) => p.id === id);
+    const cercania = (km) => Math.max(0, Math.round(100 * (1 - km / 20000)));
+
+    $("pais-mapa").innerHTML = siluetaSvg(solucion.f);
+
+    function pintar() {
+      $("pais-intentos").innerHTML = intentos
+        .map((id) => {
+          const p = porId(id);
+          if (id === solucion.id) return `<li class="acierto"><b>${esc(p.nombre)}</b><span>¡Correcto!</span></li>`;
+          const km = Math.round(distanciaKm(p.centro, solucion.centro));
+          return `<li><b>${esc(p.nombre)}</b><span>${km.toLocaleString("es-ES")} km</span><span class="flecha" aria-label="dirección">${flechaHacia(p.centro, solucion.centro)}</span><span>${cercania(km)} %</span></li>`;
+        })
+        .join("");
+      $("pais-form").hidden = acabado();
+      $("pais-final").hidden = !acabado();
+      if (!acabado()) return;
+      const cuadros = intentos
+        .map((id) => (id === solucion.id ? "🟩" : cercania(distanciaKm(porId(id).centro, solucion.centro)) >= 85 ? "🟨" : "⬛"))
+        .join("");
+      const marcador = `${ganado() ? intentos.length : "X"}/${PAIS.intentos}`;
+      $("pais-final").innerHTML = `
+        <b class="palabra-resultado">${ganado() ? ["¡Al instante!", "¡Magnífico!", "¡Muy bien!", "¡Bien hecho!", "¡Conseguido!", "¡Por los pelos!"][intentos.length - 1] : "Otra vez será"}</b>
+        <p>El país de hoy era <b class="palabra-solucion">${esc(solucion.nombre.toUpperCase())}</b>.</p>
+        <button type="button" class="boton" id="pais-compartir">Compartir resultado</button>
+        <p class="palabra-manana">Mañana habrá un país nuevo.</p>`;
+      $("pais-compartir").addEventListener("click", async (e) => {
+        const texto = `Sophy · Adivina el país ${marcador}\n${cuadros}`;
+        try {
+          if (navigator.share) await navigator.share({ text: texto });
+          else {
+            await navigator.clipboard.writeText(texto);
+            e.target.textContent = "Copiado";
+          }
+        } catch {}
+      });
+    }
+
+    function sugerir() {
+      const q = llano($entrada.value.trim());
+      const lista = q ? todos.filter((p) => p.llano.includes(q) && !intentos.includes(p.id)).sort((a, b) => a.llano.indexOf(q) - b.llano.indexOf(q) || a.llano.localeCompare(b.llano)).slice(0, 6) : [];
+      $sug.hidden = !lista.length;
+      $sug.innerHTML = lista.map((p) => `<li><button type="button" data-id="${p.id}">${esc(p.nombre)}</button></li>`).join("");
+    }
+
+    function adivinar(p) {
+      intentos.push(p.id);
+      guardarLocal(PAIS.clave, { fecha: hoy, intentos });
+      $entrada.value = "";
+      $sug.hidden = true;
+      $aviso.textContent = "";
+      pintar();
+      if (acabado()) registrarJuego("adivina-pais", hoy);
+    }
+
+    $entrada.addEventListener("input", sugerir);
+    $sug.addEventListener("click", (e) => {
+      const $b = e.target.closest("button");
+      if ($b) adivinar(porId($b.dataset.id));
+    });
+    $("pais-form").addEventListener("submit", (e) => {
+      e.preventDefault();
+      if (acabado()) return;
+      const q = llano($entrada.value.trim());
+      const p = todos.find((x) => x.llano === q) || (() => {
+        const parecidos = todos.filter((x) => x.llano.includes(q) && !intentos.includes(x.id));
+        return q && parecidos.length === 1 ? parecidos[0] : null;
+      })();
+      if (!p) return ($aviso.textContent = "Elige un país de la lista de sugerencias.");
+      if (intentos.includes(p.id)) return ($aviso.textContent = "Ya lo has probado.");
+      adivinar(p);
+    });
+    pintar();
+    if (acabado()) registrarJuego("adivina-pais", hoy);
+  }
 
   // ---------- Navegación y arranque ----------
 

@@ -1574,3 +1574,65 @@ body.con-visor { overflow: hidden; }
 .filtro-panel .casilla { align-items: center; min-height: 36px; font-size: 0.95rem; }
 .filtro-panel .casilla input { width: 18px; height: 18px; }
 @media (max-width: 700px) { .biblio-filtros .filtro-secciones { flex: 1 1 100%; } .biblio-filtros .filtro-secciones > summary { width: 100%; } }
+
+/* ---------- Adivina el país ---------- */
+
+.pais-mapa {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 4 / 3;
+  margin: 24px 0 0;
+  padding: 14px;
+  border: 1px solid var(--linea);
+  border-radius: 16px;
+  background: var(--papel);
+}
+.pais-mapa svg { width: 100%; height: 100%; }
+.pais-mapa path { fill: var(--tinta); }
+.pais-intentos { display: grid; gap: 6px; margin: 18px 0 0; padding: 0; list-style: none; }
+.pais-intentos li {
+  display: grid;
+  grid-template-columns: 1fr auto 28px auto;
+  align-items: center;
+  gap: 4px 14px;
+  padding: 10px 14px;
+  border: 1px solid var(--linea);
+  border-radius: 12px;
+  font-size: 0.95rem;
+}
+.pais-intentos li b { font-weight: 600; overflow-wrap: anywhere; }
+.pais-intentos li span { color: var(--suave); font-variant-numeric: tabular-nums; text-align: right; }
+.pais-intentos .flecha { font-size: 1.3rem; color: var(--rojo); text-align: center; }
+.pais-intentos .acierto { grid-template-columns: 1fr auto; background: #2E7D4F; border-color: #2E7D4F; color: #fff; }
+.pais-intentos .acierto span { color: #fff; }
+.pais-form { display: flex; gap: 10px; margin-top: 18px; align-items: flex-start; }
+.pais-campo { position: relative; flex: 1; min-width: 0; }
+.pais-campo .entrada { width: 100%; }
+.pais-sugerencias {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  z-index: 10;
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  border: 1px solid var(--linea);
+  border-radius: 12px;
+  background: var(--blanco);
+  box-shadow: var(--sombra);
+}
+.pais-sugerencias button {
+  display: block;
+  width: 100%;
+  min-height: 42px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: 8px;
+  background: none;
+  color: var(--tinta);
+  font: 400 1rem/1 var(--sans);
+  text-align: left;
+  cursor: pointer;
+}
+.pais-sugerencias button:hover, .pais-sugerencias button:focus-visible { background: var(--papel); }

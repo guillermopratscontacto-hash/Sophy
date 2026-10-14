@@ -1671,3 +1671,16 @@ body.con-visor { overflow: hidden; }
   padding: 0 calc(var(--margen) - 12px);
   border-top: 1px solid rgba(var(--tinta-rgb), 0.22);
 }
+
+/* El logo va a la derecha de My Account; en el centro queda solo el nombre. */
+.marca-logo { display: inline-flex; align-items: center; margin: 0 -4px 0 8px; }
+.marca:hover .marca-icono { transform: none; }
+.marca-logo:hover .marca-icono { transform: rotate(-6deg) scale(1.06); }
+@media (max-width: 599px) { .marca-logo { margin-left: 4px; } }
+@media (max-width: 599px) {
+  .cabecera-acciones { gap: 0; }
+  .marca-logo { margin: 0 0 0 2px; }
+  .marca-logo .marca-icono { width: 34px; height: 34px; border-radius: 9px; }
+  .cuenta { padding: 0 4px; margin-right: 0; }
+  .racha { padding: 0 2px; gap: 3px; }
+}

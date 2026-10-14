@@ -15,6 +15,7 @@
 
   --buho: #D4532B;
   --arena: #D9D3C7;
+  --num-jugador: #4A4A4A;
 
   --serif-titular: "Playfair Display", Georgia, serif;
   --serif-lectura: "Source Serif 4", Georgia, serif;
@@ -1293,7 +1294,7 @@ body.con-subbarra { --alto-cabecera: 164px; }
   border-bottom: 1px solid var(--linea);
   border-radius: 0;
   background: rgba(var(--tinta-rgb), 0.07);
-  color: #4A4A4A;
+  color: var(--num-jugador);
   font: 500 clamp(1.05rem, 5vw, 1.6rem)/1 var(--sans);
   cursor: pointer;
 }
@@ -1408,3 +1409,101 @@ body.con-visor { overflow: hidden; }
   font: 500 0.75rem/1 var(--sans);
   font-variant-numeric: tabular-nums;
 }
+
+/* ---------- Modo oscuro ---------- */
+
+:root[data-tema="oscuro"] {
+  --blanco: #141414;
+  --tinta: #ECE9E3;
+  --rojo: #EF5350;
+  --papel: #1F1F1F;
+  --tinta-rgb: 236, 233, 227;
+  --rojo-rgb: 239, 83, 80;
+  --blanco-rgb: 20, 20, 20;
+  --suave: rgba(236, 233, 227, 0.64);
+  --linea: rgba(236, 233, 227, 0.16);
+  --arena: #3A372F;
+  --num-jugador: #C4C1BA;
+  --sombra: 0 18px 40px rgba(0, 0, 0, 0.55);
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-tema="claro"]) {
+  --blanco: #141414;
+  --tinta: #ECE9E3;
+  --rojo: #EF5350;
+  --papel: #1F1F1F;
+  --tinta-rgb: 236, 233, 227;
+  --rojo-rgb: 239, 83, 80;
+  --blanco-rgb: 20, 20, 20;
+  --suave: rgba(236, 233, 227, 0.64);
+  --linea: rgba(236, 233, 227, 0.16);
+  --arena: #3A372F;
+  --num-jugador: #C4C1BA;
+  --sombra: 0 18px 40px rgba(0, 0, 0, 0.55);
+  color-scheme: dark;
+  }
+}
+/* Superficies que son oscuras (o claras) en cualquier tema conservan su propia paleta. */
+.menu, .visor, .carrusel-cuenta {
+  --blanco: #FFFFFF;
+  --tinta: #111111;
+  --rojo: #C62828;
+  --tinta-rgb: 17, 17, 17;
+  --blanco-rgb: 255, 255, 255;
+  --suave: rgba(17, 17, 17, 0.62);
+  --linea: rgba(17, 17, 17, 0.12);
+  color-scheme: light;
+}
+.menu { border-right: 1px solid rgba(255, 255, 255, 0.14); }
+:root[data-tema="oscuro"] .boton:hover, :root[data-tema="oscuro"] .voto[aria-pressed="true"], :root[data-tema="oscuro"] .carrusel-flecha:hover,
+:root[data-tema="oscuro"] .celda.mal, :root[data-tema="oscuro"] .guardar[aria-pressed="true"] { color: #fff; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-tema="claro"]) .boton:hover, :root:not([data-tema="claro"]) .voto[aria-pressed="true"],
+  :root:not([data-tema="claro"]) .carrusel-flecha:hover, :root:not([data-tema="claro"]) .celda.mal,
+  :root:not([data-tema="claro"]) .guardar[aria-pressed="true"] { color: #fff; }
+}
+.letra.si, .letra.casi, .letra.no, .tecla.si, .tecla.casi, .tecla.no { color: #fff; }
+
+/* ---------- Guardados ---------- */
+
+.menu-abierto .menu-enlaces > a:nth-child(6) { transition-delay: 0s, 0.42s, 0.42s; }
+.lectura-meta { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 20px; margin-top: 14px; }
+.lectura-meta .lectura-fecha { margin: 0; }
+.guardar {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 40px;
+  padding: 0 16px 0 12px;
+  border: 1px solid var(--linea);
+  border-radius: 999px;
+  background: var(--blanco);
+  color: var(--tinta);
+  font: 500 0.85rem/1 var(--sans);
+  cursor: pointer;
+  transition: color 0.35s var(--ease), background-color 0.35s var(--ease), border-color 0.35s var(--ease), transform 0.45s var(--ease-salida);
+}
+.guardar svg { width: 18px; height: 18px; }
+.guardar:hover { color: var(--rojo); border-color: var(--rojo); }
+.guardar[aria-pressed="true"] { background: var(--rojo); border-color: var(--rojo); color: var(--blanco); }
+.guardar[aria-pressed="true"] svg { fill: currentColor; }
+.listado > li.con-quitar { position: relative; }
+.quitar {
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: var(--blanco);
+  color: var(--rojo);
+  box-shadow: 0 2px 10px rgba(var(--tinta-rgb), 0.18);
+  cursor: pointer;
+}
+.quitar svg { width: 20px; height: 20px; fill: currentColor; }
+.quitar:hover { background: var(--rojo); color: var(--blanco); }

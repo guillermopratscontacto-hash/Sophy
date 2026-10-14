@@ -69,6 +69,7 @@ if (typeof document !== "undefined") (function () {
   let usuario = null;
   let perfil = null; // { codigo, nombre } o null si aún no está disponible
   let solicitudes = []; // solicitudes de amistad pendientes: [{ tipo: "recibida" | "enviada", usuario_id, codigo, nombre }]
+  let marcadores = null; // Map "fecha|tema" -> fecha en que se guardó; null si no está disponible
   let valoraciones = null; // Map "fecha|tema" -> 1 (me gusta) o -1 (no me gusta); null si no está disponible
   let limpiarVista = null;
   let turno = 0; // identifica la navegación en curso
@@ -80,6 +81,7 @@ if (typeof document !== "undefined") (function () {
     llama: svg('<path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/>'),
     hecho: svg('<path d="M20 6 9 17l-5-5"/>'),
     atras: svg('<path d="M19 12H5M12 19l-7-7 7-7"/>'),
+    marcador: svg('<path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4.5L5 21V4a1 1 0 0 1 1-1z"/>'),
     gusta: svg('<path d="M7 10v12"/><path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z"/>'),
     noGusta: svg('<path d="M17 14V2"/><path d="M9 18.12 10 14H4.17a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.5 2H20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.76a2 2 0 0 0-1.79 1.11L12 22a3.13 3.13 0 0 1-3-3.88Z"/>'),
   };
@@ -96,6 +98,7 @@ if (typeof document !== "undefined") (function () {
   // El progreso se guarda en Supabase o, sin configurar, en este navegador.
   const CLAVE_LOCAL = "aprendizaje.progreso";
   const CLAVE_VOTOS = "aprendizaje.votos";
+  const CLAVE_GUARDADOS = "aprendizaje.guardados";
   const almacen = remoto
     ? {
         async cargar() {
@@ -1010,7 +1013,10 @@ if (typeof document !== "undefined") (function () {
     $vista.innerHTML = `
       <div class="lectura${entrada.estilo ? " album" : ""}">
         <a class="volver" href="#/seccion/${enc(tema)}">${ICONO.atras} ${esc(nombreTema(tema))}</a>
-        <p class="lectura-fecha">${esc(fechaLarga(fecha))}</p>
+        <div class="lectura-meta">
+          <p class="lectura-fecha">${esc(fechaLarga(fecha))}</p>
+          <button type="button" id="guardar" class="guardar" hidden></button>
+        </div>
         <article class="articulo">${window.marked.parse(texto)}</article>
         <div id="fin" class="fin"></div>
         <div id="valorar" class="valorar" hidden></div>
@@ -1021,6 +1027,7 @@ if (typeof document !== "undefined") (function () {
     // Registro de lectura: una fila la primera vez que se abre; si ya existe o falla, no importa.
     if (remoto) sb.from("aperturas").insert({ fecha, tema }).then(() => {});
     activarValoracion(fecha, tema);
+    activarGuardado(fecha, tema);
 
     const $fin = $("fin");
     const marcarHecha = () => {
@@ -1069,6 +1076,84 @@ if (typeof document !== "undefined") (function () {
       clearTimeout(cuenta);
       observador.disconnect();
     };
+  }
+
+  // Guardar una pieza para leerla más tarde. Pulsar otra vez la quita de la lista.
+  async function cambiarGuardado(fecha, tema) {
+    const clave = `${fecha}|${tema}`;
+    const antes = marcadores.get(clave);
+    const ahora = new Date().toISOString();
+    if (antes) marcadores.delete(clave);
+    else marcadores.set(clave, ahora);
+    let error = null;
+    if (!remoto) {
+      try {
+        localStorage.setItem(CLAVE_GUARDADOS, JSON.stringify(Object.fromEntries(marcadores)));
+      } catch {}
+    } else if (antes) {
+      ({ error } = await sb.from("guardados").delete().eq("fecha", fecha).eq("tema", tema));
+    } else {
+      ({ error } = await sb.from("guardados").insert({ fecha, tema }));
+    }
+    if (error && error.code !== "23505") {
+      if (antes) marcadores.set(clave, antes);
+      else marcadores.delete(clave);
+      return false;
+    }
+    return true;
+  }
+
+  function activarGuardado(fecha, tema) {
+    const $boton = $("guardar");
+    if (!marcadores || !$boton) return;
+    const pintar = () => {
+      const puesto = marcadores.has(`${fecha}|${tema}`);
+      $boton.hidden = false;
+      $boton.setAttribute("aria-pressed", puesto);
+      $boton.innerHTML = `${ICONO.marcador}<span>${puesto ? "Guardada" : "Guardar para después"}</span>`;
+    };
+    pintar();
+    $boton.addEventListener("click", async () => {
+      $boton.disabled = true;
+      await cambiarGuardado(fecha, tema);
+      $boton.disabled = false;
+      if ($boton.isConnected) pintar();
+    });
+  }
+
+  function vistaGuardados() {
+    pintarSecciones("guardados");
+    const lista = marcadores
+      ? indice.entradas
+          .filter((e) => marcadores.has(`${e.fecha}|${e.tema}`))
+          .sort((a, b) => marcadores.get(`${b.fecha}|${b.tema}`).localeCompare(marcadores.get(`${a.fecha}|${a.tema}`)))
+      : [];
+    $vista.innerHTML = `
+      <section data-reveal>
+        <span class="antetitulo">Para leer después</span>
+        <h1 class="titular-xl">Guardados</h1>
+        <p class="entradilla">${
+          marcadores === null
+            ? "Esta función todavía no está disponible."
+            : lista.length
+            ? `Tienes ${plural(lista.length, "pieza guardada", "piezas guardadas")}.`
+            : "Aún no has guardado nada."
+        }</p>
+      </section>
+      ${
+        lista.length
+          ? `<ul class="listado" style="margin-top:36px">${lista.map((e, i) => pieza(e, i, false)).join("")}</ul>`
+          : `<div style="margin-top:44px">${vacio("Nada guardado todavía", "Pulsa «Guardar para después» al abrir una pieza y la encontrarás aquí.")}</div>`
+      }`;
+    $vista.querySelectorAll(".listado > li").forEach(($li, i) => {
+      const e = lista[i];
+      $li.classList.add("con-quitar");
+      $li.insertAdjacentHTML("beforeend", `<button type="button" class="quitar" aria-label="Quitar de guardados" title="Quitar de guardados">${ICONO.marcador}</button>`);
+      $li.querySelector(".quitar").addEventListener("click", async () => {
+        if (!(await cambiarGuardado(e.fecha, e.tema))) return;
+        if ($vista.isConnected) vistaGuardados();
+      });
+    });
   }
 
   // Botones de me gusta / no me gusta al final de cada pieza. Pulsar el mismo otra vez lo quita.
@@ -2199,6 +2284,28 @@ if (typeof document !== "undefined") (function () {
     else enfocarBusqueda = true;
   });
 
+  // ---------- Modo oscuro ----------
+
+  // Sin elección guardada se sigue al sistema; el botón del menú fija claro u oscuro.
+  const esOscuro = () => {
+    const t = document.documentElement.dataset.tema;
+    return t ? t === "oscuro" : window.matchMedia("(prefers-color-scheme: dark)").matches;
+  };
+  function pintarTema() {
+    $("tema").textContent = esOscuro() ? "Modo claro" : "Modo oscuro";
+    $("color-tema").content = esOscuro() ? "#141414" : "#FFFFFF";
+  }
+  $("tema").addEventListener("click", () => {
+    const nuevo = esOscuro() ? "claro" : "oscuro";
+    document.documentElement.dataset.tema = nuevo;
+    try {
+      localStorage.setItem("sophy-tema", nuevo);
+    } catch {}
+    pintarTema();
+  });
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", pintarTema);
+  pintarTema();
+
   // ---------- Ampliar las imágenes de los artículos ----------
 
   // Al pulsar la imagen de una pieza abierta (no las miniaturas de los listados), se ve a pantalla completa.
@@ -2257,6 +2364,7 @@ if (typeof document !== "undefined") (function () {
     else if (ruta === "seccion" && a) vistaSeccion(a, vigente);
     else if (ruta === "leer" && a && b) await vistaLeer(a, b, vigente);
     else if (ruta === "biblioteca") vistaBiblioteca(a);
+    else if (ruta === "guardados") vistaGuardados();
     else if (ruta === "historial") vistaHistorial();
     else if (ruta === "usuario") vistaUsuario();
     else if (ruta === "friends") vistaFriends(vigente);
@@ -2274,11 +2382,12 @@ if (typeof document !== "undefined") (function () {
 
   async function abrirSesion() {
     try {
-      const [datos, respuesta, votos, pendientes] = await Promise.all([
+      const [datos, respuesta, votos, pendientes, guardadas] = await Promise.all([
         almacen.cargar(),
         remoto ? sb.rpc("mi_perfil") : null,
         remoto ? sb.from("valoraciones").select("fecha,tema,valor") : null,
         remoto ? sb.rpc("solicitudes") : null,
+        remoto ? sb.from("guardados").select("fecha,tema,creado") : null,
       ]);
       progreso = datos;
       perfil = respuesta && !respuesta.error ? respuesta.data : null;
@@ -2286,7 +2395,14 @@ if (typeof document !== "undefined") (function () {
       pintarAvisos();
       if (remoto) {
         valoraciones = votos.error ? null : new Map(votos.data.map((v) => [`${v.fecha}|${v.tema}`, v.valor]));
+        // Sin la tabla (todavía no creada), el botón de guardar se oculta.
+        marcadores = guardadas.error ? null : new Map(guardadas.data.map((g) => [`${g.fecha}|${g.tema}`, g.creado]));
       } else {
+        try {
+          marcadores = new Map(Object.entries(JSON.parse(localStorage.getItem(CLAVE_GUARDADOS)) || {}));
+        } catch {
+          marcadores = new Map();
+        }
         let guardados = {};
         try {
           guardados = JSON.parse(localStorage.getItem(CLAVE_VOTOS)) || {};

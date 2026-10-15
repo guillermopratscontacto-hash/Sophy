@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-10-15",
+      "tema": "economia",
+      "titulo": "EE. UU. propone una tasa de 200.000 dólares por viaje a los buques españoles y restringir importaciones",
+      "resumen": "La Comisión Marítima Federal de EE. UU. propone una tasa de 200.000 dólares por viaje a los buques españoles y limitar ciertas importaciones.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Gruas%20puerto%20de%20Algeciras.JPG?width=1200",
+      "archivo": "contenido/2026-10-15/economia.md"
+    },
+    {
+      "fecha": "2026-10-15",
+      "tema": "politica-espanola",
+      "titulo": "El CIS da al PSOE un 34% y 11,8 puntos de ventaja sobre el PP tras la convocatoria electoral",
+      "resumen": "El barómetro de octubre del CIS da al PSOE un 34% y 11,8 puntos de ventaja sobre el PP, mientras otras encuestas apuntan a una victoria popular.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Elecciones%20CyL%202022%2005.jpg?width=1200",
+      "archivo": "contenido/2026-10-15/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-10-15",
+      "tema": "politica-internacional",
+      "titulo": "EE. UU. levanta las sanciones a Jorge Rodríguez, presidente de la Asamblea Nacional de Venezuela",
+      "resumen": "Washington retira de su lista de sancionados a Jorge Rodríguez, presidente de la Asamblea venezolana y hermano de la presidenta encargada, Delcy.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Caracas%20skyline%20and%20Avila%20mountain%20from%20my%20penthouse.JPG?width=1200",
+      "archivo": "contenido/2026-10-15/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-10-15",
+      "tema": "internacional",
+      "titulo": "Ucrania denuncia restricciones en Starlink que afectan a sus operaciones militares",
+      "resumen": "Ucrania denuncia límites de velocidad en las terminales Starlink que interrumpen misiones militares, tras dos noches de ataques con misiles sin aviso.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Maidan%20Nezalezhnosti%2020190505-2.jpg?width=1200",
+      "archivo": "contenido/2026-10-15/internacional.md"
+    },
+    {
+      "fecha": "2026-10-15",
+      "tema": "arte",
+      "titulo": "Los rostros de bronce de Ife, el naturalismo que Europa no esperaba",
+      "resumen": "Las cabezas de bronce de Ife, fundidas en la actual Nigeria, asombraron a Europa por su naturalismo y siguen planteando preguntas sobre su origen.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/British%20Museum%20Room%2025%20Head%20of%20a%20king%20Ife%2017022019%205147.jpg?width=1200",
+      "archivo": "contenido/2026-10-15/arte.md",
+      "asunto": "cabezas-ife"
+    },
+    {
+      "fecha": "2026-10-15",
+      "tema": "historia",
+      "titulo": "Mansa Musa, el rey de Malí que hizo famoso el oro de África occidental",
+      "resumen": "En 1324, el viaje de Mansa Musa a La Meca mostró al mundo la riqueza del Imperio de Malí y hasta alteró el valor del oro en El Cairo.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Catalan%20Atlas%20BNF%20Sheet%206%20Mansa%20Musa%20%28cropped%29.jpg?width=1200",
+      "archivo": "contenido/2026-10-15/historia.md",
+      "asunto": "mansa-musa"
+    },
+    {
+      "fecha": "2026-10-15",
+      "tema": "literatura",
+      "titulo": "«La historia de Genji», la novela de corte que Murasaki Shikibu escribió hace mil años",
+      "resumen": "Escrita hace unos mil años en la corte de Heian, «La historia de Genji» es considerada una de las primeras grandes novelas de la literatura universal.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Genji%20emaki%20Yadorigi.JPG?width=1200",
+      "archivo": "contenido/2026-10-15/literatura.md",
+      "asunto": "genji"
+    },
+    {
+      "fecha": "2026-10-15",
+      "tema": "musica",
+      "titulo": "Buena Vista Social Club",
+      "resumen": "Un puñado de veteranos cubanos grabó en La Habana un disco que devolvió el son al mundo y se convirtió en fenómeno global.",
+      "imagen": "https://coverartarchive.org/release-group/32bbab8e-02c0-30d2-9e23-a19739864b84/front-500",
+      "archivo": "contenido/2026-10-15/musica.md",
+      "subtitulo": "Buena Vista Social Club",
+      "estilo": "Son cubano",
+      "asunto": "album-buena-vista-social-club"
+    },
+    {
+      "fecha": "2026-10-15",
+      "tema": "aprende-finanzas",
+      "titulo": "Convexidad negativa en los MBS y riesgo de prepago",
+      "subtitulo": "Negative convexity in MBS",
+      "estilo": "Renta fija",
+      "resumen": "Por qué los bonos hipotecarios con prepago suben menos de lo esperado cuando bajan los tipos: la convexidad negativa explicada con un ejemplo.",
+      "asunto": "fin-convexidad-negativa-en-los-mbs-y-riesgo-de-prepa",
+      "archivo": "contenido/2026-10-15/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-10-14",
       "tema": "economia",
       "titulo": "UGT y CCOO piden subir el salario mínimo un 7% en 2027, hasta unos 1.307 euros mensuales",

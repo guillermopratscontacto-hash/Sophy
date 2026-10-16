@@ -127,6 +127,14 @@ Párrafos.
 
 Los enlaces de `Para saber más` pueden ser de es.wikipedia.org o de en.wikipedia.org (para conceptos avanzados suele haber solo en inglés); `publicar` comprueba que existen.
 
+## Antes de publicar: comprobación rápida
+
+`publicar` rechaza lo que no cumple y cada rechazo cuesta un paso. Los fallos más frecuentes, para evitarlos al escribir:
+
+- **Negritas:** noticias y Cultura, entre 4 y 6; Aprende finanzas, entre 3 y 6; Música, entre 2 y 4. Cuéntalas antes de guardar.
+- **Palabras de Cultura (arte, historia, literatura): entre 330 y 480.** Apunta a unas 380 para no quedarte corto.
+- **Enlaces de Wikipedia:** no uses títulos con paréntesis (como `Título_(álbum)`) salvo que sepas con certeza que existen; ante la duda, enlaza la página del artista o del tema.
+
 ## Reglas
 
 - Solo creas archivos en la carpeta de hoy, `contenido/<fecha>/`. No toques ediciones anteriores, la carpeta `rutina/` ni el código de la web.

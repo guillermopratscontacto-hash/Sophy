@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-10-16",
+      "tema": "economia",
+      "titulo": "La cumbre europea se divide sobre el mercado de carbono al pedir medidas contra la subida de la energía",
+      "resumen": "Los Veintisiete piden medidas urgentes por la energía, pero la cumbre se rompe por el mercado de carbono ETS2.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Europa%20Building%20in%20Brussels.jpg?width=1200",
+      "archivo": "contenido/2026-10-16/economia.md"
+    },
+    {
+      "fecha": "2026-10-16",
+      "tema": "politica-espanola",
+      "titulo": "Sánchez elige a Robles como número dos por Madrid y las listas del PSOE generan tensiones territoriales",
+      "resumen": "Sánchez elige a Margarita Robles como número dos por Madrid y su apuesta por ministros abre tensiones en las listas del PSOE.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Sede%20del%20PSOE%20%28Madrid%29%2001.jpg?width=1200",
+      "archivo": "contenido/2026-10-16/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-10-16",
+      "tema": "politica-internacional",
+      "titulo": "Trump cancela la retransmisión de la ejecución del autor de la matanza de Fort Hood",
+      "resumen": "Trump cancela la retransmisión de la ejecución por fusilamiento del autor de la matanza de Fort Hood, prevista para diciembre.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20White%20House%20June%202024.jpg?width=1200",
+      "archivo": "contenido/2026-10-16/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-10-16",
+      "tema": "internacional",
+      "titulo": "El Papa evoluciona con normalidad tras la operación del pulmón y retoma su actividad en el hospital",
+      "resumen": "El Papa León XIV evoluciona con normalidad dos días después de la operación del pulmón y retoma su trabajo de forma limitada.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Hospital%20Universitario%20La%20Paz%20%28Madrid%29%2001.jpg?width=1200",
+      "archivo": "contenido/2026-10-16/internacional.md"
+    },
+    {
+      "fecha": "2026-10-16",
+      "tema": "arte",
+      "titulo": "El Taj Mahal, el mausoleo que resume la arquitectura mogol",
+      "resumen": "Un mausoleo de mármol blanco levantado por amor: así nació el Taj Mahal y así resume la arquitectura mogol.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Taj%20Mahal%2C%20Agra%2C%20India%20edit2.jpg?width=1200",
+      "archivo": "contenido/2026-10-16/arte.md",
+      "asunto": "taj-mahal"
+    },
+    {
+      "fecha": "2026-10-16",
+      "tema": "historia",
+      "titulo": "Pompeya, la ciudad que el Vesubio dejó congelada en el tiempo",
+      "resumen": "En el año 79, el Vesubio sepultó Pompeya bajo ceniza y piroclastos y dejó una ciudad romana congelada en el tiempo.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Forum%20%28Pompeii%29%20and%20the%20Vesuvio.jpg?width=1200",
+      "archivo": "contenido/2026-10-16/historia.md",
+      "asunto": "pompeya"
+    },
+    {
+      "fecha": "2026-10-16",
+      "tema": "literatura",
+      "titulo": "«Cien años de soledad», la novela que hizo universal Macondo",
+      "resumen": "La saga de los Buendía en Macondo convirtió el realismo mágico en lenguaje universal y es un hito de la novela en español.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Gabriel%20Garc%C3%ADa%20M%C3%A1rquez%2002.jpg?width=1200",
+      "archivo": "contenido/2026-10-16/literatura.md",
+      "asunto": "cien-anos-soledad"
+    },
+    {
+      "fecha": "2026-10-16",
+      "tema": "musica",
+      "titulo": "Thriller",
+      "resumen": "Un disco que convirtió el pop en acontecimiento global: nueve canciones sin relleno y un sonido que aún suena moderno.",
+      "imagen": "https://coverartarchive.org/release-group/f32fab67-77dd-3937-addc-9062e28e4c37/front-500",
+      "archivo": "contenido/2026-10-16/musica.md",
+      "subtitulo": "Michael Jackson",
+      "estilo": "Pop",
+      "asunto": "album-thriller"
+    },
+    {
+      "fecha": "2026-10-16",
+      "tema": "aprende-finanzas",
+      "titulo": "Regla de Taylor y tipo de interés neutral r*",
+      "subtitulo": "Taylor rule and the neutral rate",
+      "estilo": "Política monetaria",
+      "resumen": "Una regla sencilla para decidir cuánto deberían subir o bajar los tipos, y por qué depende de una cifra que nadie ve: r*.",
+      "asunto": "fin-regla-de-taylor-y-tipo-de-interes-neutral-r",
+      "archivo": "contenido/2026-10-16/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-10-15",
       "tema": "economia",
       "titulo": "EE. UU. propone una tasa de 200.000 dólares por viaje a los buques españoles y restringir importaciones",

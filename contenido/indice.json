@@ -93,6 +93,102 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-10-17",
+      "tema": "economia",
+      "titulo": "Trabajo prepara una subida del salario mínimo en torno al 5% antes de las elecciones del 29-N",
+      "resumen": "Trabajo prepara una subida del salario mínimo cercana al 5% antes del 29-N, por debajo del 7% que piden los sindicatos.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/One%20stands%20out%20002%202025%2001%2001.jpg?width=1200",
+      "archivo": "contenido/2026-10-17/economia.md"
+    },
+    {
+      "fecha": "2026-10-17",
+      "tema": "politica-espanola",
+      "titulo": "Podemos y el Frente Amplio no logran un acuerdo en Madrid y Cataluña el último día para inscribir coaliciones",
+      "resumen": "Podemos y el Frente Amplio asumen que no irán juntos en Madrid ni Cataluña el 29-N, el último día para inscribir coaliciones.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Palacio%20de%20las%20Cortes%2C%20Madrid%20%28Ank%20Kumar%2C%20Infosys%20Limited%29%2001.jpg?width=1200",
+      "archivo": "contenido/2026-10-17/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-10-17",
+      "tema": "politica-internacional",
+      "titulo": "La UE lamenta el pacto de Trump sobre el diésel ruso y se compromete a abordar el déficit de 70.000 millones de Ucrania",
+      "resumen": "La UE lamenta que Trump levante las sanciones al diésel ruso y se compromete a cubrir el déficit de 70.000 millones de Ucrania para 2027.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20Union%20Flags%202.jpg?width=1200",
+      "archivo": "contenido/2026-10-17/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-10-17",
+      "tema": "internacional",
+      "titulo": "Katie Zacharia deja la portavocía de la Casa Blanca tras cinco días en el cargo",
+      "resumen": "Katie Zacharia deja la portavocía de la Casa Blanca tras cinco días, con una sola rueda de prensa y dudas sobre su título de abogada.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/News%20Microphones%20at%20Press%20Conference.jpg?width=1200",
+      "archivo": "contenido/2026-10-17/internacional.md"
+    },
+    {
+      "fecha": "2026-10-17",
+      "tema": "politica-monetaria",
+      "titulo": "El Foro de Davos podría designar a Lagarde presidenta y precipitar su salida del BCE",
+      "resumen": "Lagarde podría presidir el Foro de Davos, Hernández de Cos gana apoyos para el BCE y el IPC de EE. UU. sube al 3,7%.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Frankfurt%20am%20Main%20-%20Banco%20Central%20Europeo%20-%20Europ%C3%A4ische%20Zentralbank%20-%2003.jpg?width=1200",
+      "archivo": "contenido/2026-10-17/politica-monetaria.md"
+    },
+    {
+      "fecha": "2026-10-17",
+      "tema": "fusiones",
+      "titulo": "Un año después de la OPA fallida, BBVA se revaloriza un 40% y Sabadell apenas un 4,3%",
+      "resumen": "Un año después de que fracasara la OPA de BBVA sobre Sabadell, BBVA vale un 40% más en Bolsa y el banco catalán solo un 4,3% más.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Madrid%20-%20Ciudad%20BBVA%2C%20Edificio%20%27La%20Vela%27%2005.jpg?width=1200",
+      "archivo": "contenido/2026-10-17/fusiones.md"
+    },
+    {
+      "fecha": "2026-10-17",
+      "tema": "arte",
+      "titulo": "El «David» de Miguel Ángel: un gigante tallado en un bloque que nadie quería",
+      "resumen": "Cómo un bloque de mármol abandonado se convirtió en el «David» de Miguel Ángel, símbolo de la Florencia republicana.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Michelangelo%27s%20David%20-%20right%20view%202.jpg?width=1200",
+      "archivo": "contenido/2026-10-17/arte.md",
+      "asunto": "david-miguel-angel"
+    },
+    {
+      "fecha": "2026-10-17",
+      "tema": "historia",
+      "titulo": "La Revolución haitiana: la rebelión de esclavos que fundó una nación",
+      "resumen": "La única revuelta de esclavos que acabó fundando un Estado: cómo Haití derrotó a Francia y proclamó su independencia en 1804.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Toussaint%20Louverture.%20Kupfer%2C%201806.jpg?width=1200",
+      "archivo": "contenido/2026-10-17/historia.md",
+      "asunto": "revolucion-haitiana"
+    },
+    {
+      "fecha": "2026-10-17",
+      "tema": "literatura",
+      "titulo": "La «Odisea»: el largo regreso de Ulises a casa",
+      "resumen": "El viaje de regreso de Ulises a Ítaca, un poema que lleva casi tres mil años enseñando qué significa volver a casa.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Odysseus%20Sirens%20BM%20E440%20n2.jpg?width=1200",
+      "archivo": "contenido/2026-10-17/literatura.md",
+      "asunto": "odisea"
+    },
+    {
+      "fecha": "2026-10-17",
+      "tema": "musica",
+      "titulo": "El mal querer",
+      "resumen": "Rosalía convierte una novela medieval sobre un amor tóxico en un disco que cambió el flamenco pop.",
+      "imagen": "https://coverartarchive.org/release-group/bb525db3-81e4-4c05-b529-23fa05f35c12/front-500",
+      "archivo": "contenido/2026-10-17/musica.md",
+      "subtitulo": "Rosalía",
+      "estilo": "Flamenco pop",
+      "asunto": "album-el-mal-querer"
+    },
+    {
+      "fecha": "2026-10-17",
+      "tema": "aprende-finanzas",
+      "titulo": "Base de divisas en los swaps cruzados",
+      "subtitulo": "Cross-currency basis",
+      "estilo": "Divisas",
+      "resumen": "Por qué pedir dólares prestados a través de un swap sale más caro que el tipo oficial, y qué mide la base de divisas.",
+      "asunto": "fin-base-de-divisas-en-los-swaps-cruzados",
+      "archivo": "contenido/2026-10-17/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-10-16",
       "tema": "economia",
       "titulo": "La cumbre europea se divide sobre el mercado de carbono al pedir medidas contra la subida de la energía",

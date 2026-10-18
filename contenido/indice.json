@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-10-18",
+      "tema": "economia",
+      "titulo": "Irán dice que Ormuz podría reabrirse en siete días si Washington acepta su plan",
+      "resumen": "Irán ofrece reabrir Ormuz en siete días si EE. UU. acepta su plan, enviado a través de Catar.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/STS004-37-716%20-%20Strait%20of%20Hormuz.jpg?width=1200",
+      "archivo": "contenido/2026-10-18/economia.md"
+    },
+    {
+      "fecha": "2026-10-18",
+      "tema": "politica-espanola",
+      "titulo": "Sánchez abre la precampaña en Fuenlabrada con Begoña Gómez a su lado",
+      "resumen": "El PSOE ratifica sus listas y Sánchez lanza la precampaña en Fuenlabrada con Begoña Gómez en el escenario.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Palacio%20de%20la%20Moncloa%2C%20Madrid%2C%20Espa%C3%B1a%20edited.jpg?width=1200",
+      "archivo": "contenido/2026-10-18/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-10-18",
+      "tema": "politica-internacional",
+      "titulo": "Más de 500.000 personas protestan en Francia entre graves disturbios y más de mil detenidos",
+      "resumen": "Unas 550.000 personas marchan en Francia contra el Gobierno entre graves disturbios y más de 1.200 detenidos.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris%20skyline%2C%20summer%20of%202023.jpg?width=1200",
+      "archivo": "contenido/2026-10-18/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-10-18",
+      "tema": "internacional",
+      "titulo": "La dana Adam deja una desaparecida en Cataluña y alerta roja en Valencia para el domingo",
+      "resumen": "La dana Adam deja lluvias torrenciales, una desaparecida en Cataluña y alerta roja en la Comunidad Valenciana.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Closeup%20aerial%20view%20of%20bridge%20and%20flooded%20houses%20-%20NARA%20-%20285953.jpg?width=1200",
+      "archivo": "contenido/2026-10-18/internacional.md"
+    },
+    {
+      "fecha": "2026-10-18",
+      "tema": "arte",
+      "titulo": "Las cabezas colosales olmecas, rostros de piedra de la primera civilización mesoamericana",
+      "resumen": "Esculpidas en basalto hace unos 3.000 años, las cabezas olmecas siguen guardando el misterio de quiénes fueron.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Olmec%20Colossal%20Head%2C%20San%20Lorenzo%2C%20Veracruz%2C%201200-600%20BC.jpg?width=1200",
+      "archivo": "contenido/2026-10-18/arte.md",
+      "asunto": "cabezas-olmecas"
+    },
+    {
+      "fecha": "2026-10-18",
+      "tema": "historia",
+      "titulo": "Angkor, la gran capital del Imperio jemer y su ciudad de agua",
+      "resumen": "Angkor fue capital de un imperio que dominó el sudeste asiático y levantó el mayor templo religioso del mundo.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Angkor%20Wat%20Sunrise%20%28209237385%29.jpeg?width=1200",
+      "archivo": "contenido/2026-10-18/historia.md",
+      "asunto": "angkor"
+    },
+    {
+      "fecha": "2026-10-18",
+      "tema": "literatura",
+      "titulo": "La epopeya de Gilgamesh, el rey que quiso vencer a la muerte",
+      "resumen": "El poema de Gilgamesh, rey de Uruk, es una de las obras literarias más antiguas y habla de amistad y de la muerte.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/British%20Museum%20Flood%20Tablet%201.jpg?width=1200",
+      "archivo": "contenido/2026-10-18/literatura.md",
+      "asunto": "gilgamesh"
+    },
+    {
+      "fecha": "2026-10-18",
+      "tema": "musica",
+      "titulo": "What's Going On",
+      "resumen": "Marvin Gaye convirtió en 1971 la protesta social en un disco de soul suave, continuo y atemporal.",
+      "imagen": "https://coverartarchive.org/release-group/c1fa4d2c-ec62-37d5-b01d-6df7f8fd2c90/front-500",
+      "archivo": "contenido/2026-10-18/musica.md",
+      "subtitulo": "Marvin Gaye",
+      "estilo": "Soul",
+      "asunto": "album-what-s-going-on"
+    },
+    {
+      "fecha": "2026-10-18",
+      "tema": "aprende-finanzas",
+      "titulo": "Gamma scalping y cobertura delta dinámica",
+      "subtitulo": "Gamma scalping and dynamic delta hedging",
+      "estilo": "Derivados",
+      "resumen": "Cómo un operador de opciones convierte la oscilación del precio en beneficio manteniendo la cobertura delta al día.",
+      "asunto": "fin-gamma-scalping-y-cobertura-delta-dinamica",
+      "archivo": "contenido/2026-10-18/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-10-17",
       "tema": "economia",
       "titulo": "Trabajo prepara una subida del salario mínimo en torno al 5% antes de las elecciones del 29-N",

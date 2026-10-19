@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-10-19",
+      "tema": "economia",
+      "titulo": "La CEOE pide a los partidos un plan para abaratar la energía y cifra el ahorro en 25.730 millones",
+      "resumen": "La patronal pide a los partidos un plan estructural para abaratar la luz y cifra el ahorro en más de 25.000 millones en cinco años.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Anchor%20pylon%20of%20high-voltage%20overhead%20power%20line%20750%20kV.jpg?width=1200",
+      "archivo": "contenido/2026-10-19/economia.md"
+    },
+    {
+      "fecha": "2026-10-19",
+      "tema": "politica-espanola",
+      "titulo": "El Senado se perfila como la batalla central del 29-N, con dos bloques enfrentados",
+      "resumen": "PSOE y la izquierda concurren juntos al Senado y Vox estudia no presentarse en algunas provincias para apoyar al PP.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Madrid%20-%20Senado%20de%20Espa%C3%B1a%202.jpg?width=1200",
+      "archivo": "contenido/2026-10-19/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-10-19",
+      "tema": "politica-internacional",
+      "titulo": "Francia eleva a 2.397 los detenidos y a más de 500 los agentes heridos tras las protestas del sábado",
+      "resumen": "El Gobierno francés eleva a 2.397 los detenidos y a más de 500 los agentes heridos tras las protestas del sábado.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Michel%20de%20l%27Hospital%20statue%2C%20Louis-Pierre%20Deseine%2C%20Palais%20Bourbon%2C%20Paris%2C%202016.jpg?width=1200",
+      "archivo": "contenido/2026-10-19/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-10-19",
+      "tema": "internacional",
+      "titulo": "León XIV reaparece en el Ángelus tras su operación y anuncia que retomará gradualmente su actividad",
+      "resumen": "León XIV reaparece ante 35.000 personas tras su operación de pulmón y dice que retomará su actividad de forma gradual.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Breast%20Surgery%20Procedure%20in%20Modern%20Operating%20Room.jpg?width=1200",
+      "archivo": "contenido/2026-10-19/internacional.md"
+    },
+    {
+      "fecha": "2026-10-19",
+      "tema": "arte",
+      "titulo": "La joven de la perla: el rostro sin nombre que Vermeer volvió inmortal",
+      "resumen": "Un turbante azul, una mirada de reojo y una perla: el enigma de la obra más famosa de Vermeer.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Meisje%20met%20de%20parel.jpg?width=1200",
+      "archivo": "contenido/2026-10-19/arte.md",
+      "asunto": "joven-perla"
+    },
+    {
+      "fecha": "2026-10-19",
+      "tema": "historia",
+      "titulo": "La peste negra: la pandemia que vació Europa y cambió el mundo medieval",
+      "resumen": "Entre 1347 y 1353, la peste negra mató a buena parte de Europa y cambió su economía, su fe y su manera de entender la muerte.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Triumph%20of%20Death%20by%20Pieter%20Bruegel%20the%20Elder.jpg?width=1200",
+      "archivo": "contenido/2026-10-19/historia.md",
+      "asunto": "peste-negra"
+    },
+    {
+      "fecha": "2026-10-19",
+      "tema": "literatura",
+      "titulo": "Jane Austen y «Orgullo y prejuicio»: la ironía como forma de mirar la sociedad",
+      "resumen": "Una novela sobre bodas, dinero y orgullo que, dos siglos después, sigue siendo una de las más leídas en lengua inglesa.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/CassandraAusten-JaneAusten%28c.1810%29%20hires.jpg?width=1200",
+      "archivo": "contenido/2026-10-19/literatura.md",
+      "asunto": "orgullo-prejuicio"
+    },
+    {
+      "fecha": "2026-10-19",
+      "tema": "musica",
+      "titulo": "OK Computer",
+      "resumen": "Un disco sobre la ansiedad de la era digital que, casi treinta años después, suena más actual que nunca.",
+      "imagen": "https://coverartarchive.org/release-group/b1392450-e666-3926-a536-22c65f834433/front-500",
+      "archivo": "contenido/2026-10-19/musica.md",
+      "subtitulo": "Radiohead",
+      "estilo": "Rock alternativo",
+      "asunto": "album-ok-computer"
+    },
+    {
+      "fecha": "2026-10-19",
+      "tema": "aprende-finanzas",
+      "titulo": "Prima de riesgo de varianza",
+      "subtitulo": "Variance risk premium",
+      "estilo": "Derivados",
+      "resumen": "Por qué las opciones suelen «asegurar» contra la volatilidad a un precio superior al de los movimientos que luego ocurren.",
+      "asunto": "fin-prima-de-riesgo-de-varianza",
+      "archivo": "contenido/2026-10-19/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-10-18",
       "tema": "economia",
       "titulo": "Irán dice que Ormuz podría reabrirse en siete días si Washington acepta su plan",

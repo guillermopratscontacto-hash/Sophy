@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-10-20",
+      "tema": "economia",
+      "titulo": "Los sindicatos formalizan la huelga general del 11 de noviembre por la vivienda",
+      "resumen": "CCOO, UGT y otras organizaciones registran la huelga general del 11 de noviembre por el derecho a una vivienda digna.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/ES%20Madrid%20Cibeles%2020230325%20Mani%20por%20el%20derecho%20a%20la%20ciudad%20012.jpg?width=1200",
+      "archivo": "contenido/2026-10-20/economia.md"
+    },
+    {
+      "fecha": "2026-10-20",
+      "tema": "politica-espanola",
+      "titulo": "Sánchez evita aludir a la dimisión de Mínguez en Valladolid mientras el PSOE duda de llevar a Zapatero a los mítines",
+      "resumen": "Sánchez cierra en Valladolid su cuarto mitin de precampaña, con la dimisión de la portavoz del PSOE y la duda sobre Zapatero de fondo.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Congreso%20de%20los%20Diputados%2C%20Leones%2C%20Madrid%2C%20Espa%C3%B1a%2C%202015.JPG?width=1200",
+      "archivo": "contenido/2026-10-20/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-10-20",
+      "tema": "politica-internacional",
+      "titulo": "Florida obtiene una orden de detención contra Raúl Castro por el derribo de dos avionetas en 1996",
+      "resumen": "La Fiscalía de Florida obtiene una orden de detención contra Raúl Castro por el derribo de dos avionetas en 1996.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Exterior%20of%20the%20United%20States%20Department%20of%20State%20Harry%20S.%20Truman%20Building%2C%20Washington%2C%20D.C.%2C%20spring%202024%20-%2015.jpg?width=1200",
+      "archivo": "contenido/2026-10-20/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-10-20",
+      "tema": "internacional",
+      "titulo": "La dana Adam confina 145 municipios valencianos y deja víctimas mortales, aunque la emergencia baja de nivel",
+      "resumen": "La dana Adam deja inundaciones, 145 municipios confinados y varios muertos en la Comunidad Valenciana, aunque la situación mejora.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Fire%20Station%20No.%2030%20%28African%20American%20Firefighters%20Museum%29.jpg?width=1200",
+      "archivo": "contenido/2026-10-20/internacional.md"
+    },
+    {
+      "fecha": "2026-10-20",
+      "tema": "arte",
+      "titulo": "Los bronces de Benín: el arte de una corte africana y el largo camino de vuelta a casa",
+      "resumen": "Las placas y cabezas de latón del reino de Benín, saqueadas en 1897, resumen el debate actual sobre devolver el patrimonio colonial.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Two%20warriors%2C%20single%20warrior%2C%20Benin%20bronzes%20at%20MFA.agr.jpg?width=1200",
+      "archivo": "contenido/2026-10-20/arte.md",
+      "asunto": "bronces-benin"
+    },
+    {
+      "fecha": "2026-10-20",
+      "tema": "historia",
+      "titulo": "Tenochtitlan: la ciudad mexica construida sobre un lago",
+      "resumen": "Fundada en un islote del lago de Texcoco, Tenochtitlan fue una de las mayores ciudades del mundo antes de caer en 1521.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Templo%20Mayor%20-%20Model%20of%20the%20Cerimonial%20Center%20of%20Tenochtitlan%20-%20Templo%20Mayor%20Archeological%20Zone%20-%20Mexico%202024.jpg?width=1200",
+      "archivo": "contenido/2026-10-20/historia.md",
+      "asunto": "tenochtitlan"
+    },
+    {
+      "fecha": "2026-10-20",
+      "tema": "literatura",
+      "titulo": "Borges y «Ficciones»: el cuento como laberinto de ideas",
+      "resumen": "En «Ficciones», Borges convirtió bibliotecas infinitas, laberintos y libros imaginarios en una de las obras clave del siglo XX.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Jorge%20Luis%20Borges%201951%2C%20by%20Grete%20Stern.jpg?width=1200",
+      "archivo": "contenido/2026-10-20/literatura.md",
+      "asunto": "borges"
+    },
+    {
+      "fecha": "2026-10-20",
+      "tema": "musica",
+      "titulo": "La leyenda del tiempo",
+      "resumen": "Camarón abrió el flamenco a nuevos sonidos con un disco que sigue sonando moderno más de cuarenta años después.",
+      "imagen": "https://coverartarchive.org/release-group/568acacf-e205-3c28-9bb5-bf7374564f6f/front-500",
+      "archivo": "contenido/2026-10-20/musica.md",
+      "subtitulo": "Camarón de la Isla",
+      "estilo": "Flamenco",
+      "asunto": "album-la-leyenda-del-tiempo"
+    },
+    {
+      "fecha": "2026-10-20",
+      "tema": "aprende-finanzas",
+      "titulo": "Ajustes de valoración de derivados: CVA, DVA y FVA",
+      "subtitulo": "XVA adjustments",
+      "estilo": "Derivados",
+      "resumen": "CVA, DVA y FVA: cómo los bancos corrigen el precio de un derivado por el riesgo de impago y el coste de financiarlo.",
+      "asunto": "fin-ajustes-de-valoracion-de-derivados-cva-dva-y-fva",
+      "archivo": "contenido/2026-10-20/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-10-19",
       "tema": "economia",
       "titulo": "La CEOE pide a los partidos un plan para abaratar la energía y cifra el ahorro en 25.730 millones",

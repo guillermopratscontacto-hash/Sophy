@@ -355,6 +355,31 @@ def leer(urls):
 
 # ---------- publicar ----------
 
+IMAGENES_OK = ("https://commons.wikimedia.org/", "https://coverartarchive.org/")
+
+
+def html_peligroso(texto):
+    """Fallos de seguridad en una pieza: solo se admite <figure>, <figcaption> e <img> (con src, alt y loading)
+    y enlaces http(s). La web también sanea con DOMPurify; esto evita que llegue ahí nada raro."""
+    fallos = []
+    for m in re.finditer(r"<\s*/?\s*([a-zA-Z][\w:-]*)([^>]*)>", texto):
+        etiqueta, resto = m.group(1).lower(), m.group(2)
+        if etiqueta not in ("figure", "figcaption", "img"):
+            fallos.append(f"etiqueta HTML no permitida: <{etiqueta}>")
+        elif etiqueta == "img":
+            for atributo in re.findall(r"([\w:-]+)\s*=", re.sub(r'"[^"]*"|\'[^\']*\'', '""', resto)):
+                if atributo.lower() not in ("src", "alt", "loading"):
+                    fallos.append(f"atributo no permitido en <img>: {atributo}")
+            origen = re.search(r'src="([^"]*)"', resto)
+            if not origen or not origen.group(1).startswith(IMAGENES_OK):
+                fallos.append("<img> con un src que no es de Wikimedia Commons ni de Cover Art Archive")
+        elif resto.strip(" /"):
+            fallos.append(f"atributos no permitidos en <{etiqueta}>")
+    for destino in re.findall(r"\]\(\s*<?([^)\s>]*)", texto):
+        if not re.match(r"https?://", destino, re.I):
+            fallos.append(f"enlace que no es http(s): {destino[:40]}")
+    return sorted(set(fallos))
+
 def git(*orden):
     r = subprocess.run(["git", *orden], cwd=RAIZ, capture_output=True, text=True, encoding="utf-8", errors="replace")
     return r.returncode, (r.stdout + r.stderr).strip()
@@ -407,6 +432,7 @@ def publicar():
             errores.append(f"{tema}: falta la primera línea `<!-- resumen: … -->`")
             continue
         resumen, texto = limpio(m.group(1)), texto[m.end():]
+        errores += [f"{tema}: {f}" for f in html_peligroso(texto)]
         if len(resumen) > 160:
             errores.append(f"{tema}: el resumen tiene {len(resumen)} caracteres (máximo 160)")
         final = "**Fuentes:**" if tema in NEWS + SEMANALES else "**Para saber más:**"

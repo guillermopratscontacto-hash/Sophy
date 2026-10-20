@@ -127,6 +127,13 @@ if (typeof document !== "undefined") (function () {
   const esc = (t) =>
     String(t).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const enc = encodeURIComponent;
+  // Markdown a HTML, pasado siempre por DOMPurify: las piezas las escribe un agente que lee páginas ajenas,
+  // así que un <script>, un onerror= o un javascript: no deben llegar nunca al navegador. Si DOMPurify no
+  // ha cargado, se muestra el texto sin formato en vez de HTML sin sanear.
+  const md = (texto) =>
+    window.DOMPurify
+      ? window.DOMPurify.sanitize(window.marked.parse(texto), { ADD_ATTR: ["loading"] })
+      : `<p>${esc(texto)}</p>`;
   const espera = (ms) => new Promise((r) => setTimeout(r, ms));
 
   const fechaLarga = (texto) =>
@@ -907,7 +914,7 @@ if (typeof document !== "undefined") (function () {
                 <p class="ficha-capital">Capital: <b>${esc(pais.capital)}</b></p>
               </div>
             </header>
-            <div class="articulo">${window.marked.parse(textos.get(pais.id))}</div>
+            <div class="articulo">${md(textos.get(pais.id))}</div>
             ${pie}
           </article>`;
         $("geo-ficha").classList.remove("entrando");
@@ -1027,7 +1034,7 @@ if (typeof document !== "undefined") (function () {
           <p class="lectura-fecha">${esc(fechaLarga(fecha))}</p>
           <button type="button" id="guardar" class="guardar" hidden></button>
         </div>
-        <article class="articulo">${window.marked.parse(texto)}</article>
+        <article class="articulo">${md(texto)}</article>
         <div id="fin" class="fin"></div>
         <div id="valorar" class="valorar" hidden></div>
         <div id="siguiente" class="siguiente"></div>

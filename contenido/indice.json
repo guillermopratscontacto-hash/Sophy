@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-10-21",
+      "tema": "economia",
+      "titulo": "El Gobierno garantiza a los funcionarios una subida del 4,5% en enero y otro 0,5% retroactivo",
+      "resumen": "Función Pública garantiza a los sindicatos la subida salarial de 2027 pese al adelanto electoral, aunque no fija cuándo se aprobará.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Real%20Casa%20de%20la%20Aduana%20-%2004.jpg?width=1200",
+      "archivo": "contenido/2026-10-21/economia.md"
+    },
+    {
+      "fecha": "2026-10-21",
+      "tema": "politica-espanola",
+      "titulo": "El Supremo amnistía a Junqueras, Romeva, Turull y Bassa y reprocha su «grandilocuencia» al Constitucional",
+      "resumen": "La Sala Penal aplica la amnistía a Junqueras, Romeva, Turull y Bassa por orden del Constitucional, con un duro reproche a este tribunal.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Fachada%20-%20Tribunal%20Supremo%20de%20Espana%20-%20Madrid%2005.jpg?width=1200",
+      "archivo": "contenido/2026-10-21/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-10-21",
+      "tema": "politica-internacional",
+      "titulo": "Meloni aprueba por decreto la detención preventiva de menores tras los disturbios de Milán",
+      "resumen": "Tras los disturbios de Milán, el Gobierno italiano aprueba un decreto que permite detener preventivamente a menores y crea un nuevo delito.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Quirinale%20palazzo%20e%20obelisco%20con%20dioscuri%20Roma.jpg?width=1200",
+      "archivo": "contenido/2026-10-21/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-10-21",
+      "tema": "internacional",
+      "titulo": "Un satélite ruso acecha durante días a un satélite radar que presta servicio a Ucrania",
+      "resumen": "Un satélite militar ruso se mantiene a menos de cinco kilómetros de un satélite radar usado por Ucrania, en una maniobra poco habitual.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Falcon%209%20first%20stage%20at%20LZ-1%28two%29.jpg?width=1200",
+      "archivo": "contenido/2026-10-21/internacional.md"
+    },
+    {
+      "fecha": "2026-10-21",
+      "tema": "arte",
+      "titulo": "«El 3 de mayo en Madrid»: el momento en que Goya retrató el horror sin héroes",
+      "resumen": "Goya pintó en 1814 la matanza de madrileños por las tropas francesas y cambió para siempre la forma de representar la guerra.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/El%20Tres%20de%20Mayo%2C%20by%20Francisco%20de%20Goya%2C%20from%20Prado%20%28cropped%29.jpg?width=1200",
+      "archivo": "contenido/2026-10-21/arte.md",
+      "asunto": "fusilamientos-goya"
+    },
+    {
+      "fecha": "2026-10-21",
+      "tema": "historia",
+      "titulo": "Gutenberg y la imprenta: cómo un orfebre de Maguncia abarató el saber",
+      "resumen": "Hacia 1450, un orfebre de Maguncia combinó tipos móviles metálicos, tinta grasa y prensa para abaratar el libro y cambiar Europa.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Gutenberg%20Bible%2C%20New%20York%20Public%20Library%2C%20USA.%20Pic%2001.jpg?width=1200",
+      "archivo": "contenido/2026-10-21/historia.md",
+      "asunto": "gutenberg"
+    },
+    {
+      "fecha": "2026-10-21",
+      "tema": "literatura",
+      "titulo": "El «Mahabharata»: el poema más largo del mundo y su guerra entre primos",
+      "resumen": "Con cerca de cien mil dísticos, el «Mahabharata» es el poema más extenso conocido y contiene el Bhagavad Gita.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Asvatthama%20Fires%20the%20Narayana%20Weapon%20%28Cosmic%20Fire%29%20at%20the%20Pandavas%27%2C%20Folio%20from%20a%20Razmnama%2C%20ca.%201616-17%2C%20The%20Metropolitan%20Museum%20of%20Art%202.jpg?width=1200",
+      "archivo": "contenido/2026-10-21/literatura.md",
+      "asunto": "mahabharata"
+    },
+    {
+      "fecha": "2026-10-21",
+      "tema": "musica",
+      "titulo": "Abbey Road",
+      "resumen": "El último disco grabado por los Beatles, con su célebre medley final, suena como una despedida cuidada al detalle.",
+      "imagen": "https://coverartarchive.org/release-group/9162580e-5df4-32de-80cc-f45a8d8a9b1d/front-500",
+      "archivo": "contenido/2026-10-21/musica.md",
+      "subtitulo": "The Beatles",
+      "estilo": "Rock",
+      "asunto": "album-abbey-road"
+    },
+    {
+      "fecha": "2026-10-21",
+      "tema": "aprende-finanzas",
+      "titulo": "Prima de plazo y la hipótesis de las expectativas",
+      "subtitulo": "Term premium and the expectations hypothesis",
+      "estilo": "Renta fija",
+      "resumen": "Por qué un bono a diez años rinde más que dos a cinco años seguidos: expectativas de tipos y compensación por el riesgo.",
+      "asunto": "fin-prima-de-plazo-y-la-hipotesis-de-las-expectativa",
+      "archivo": "contenido/2026-10-21/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-10-20",
       "tema": "economia",
       "titulo": "Los sindicatos formalizan la huelga general del 11 de noviembre por la vivienda",

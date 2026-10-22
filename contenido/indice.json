@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-10-22",
+      "tema": "economia",
+      "titulo": "Un juez de Nuevo México condena a Meta a pagar 25.000 millones de dólares por engañar a los usuarios de Facebook",
+      "resumen": "Un juez de Nuevo México condena a Meta a pagar 25.000 millones de dólares por engañar a los usuarios de Facebook sobre su privacidad.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Meta%20Platforms%20Headquarters%20Menlo%20Park%20California.jpg?width=1200",
+      "archivo": "contenido/2026-10-22/economia.md"
+    },
+    {
+      "fecha": "2026-10-22",
+      "tema": "politica-espanola",
+      "titulo": "Exteriores condena los insultos de Milei a Sánchez, a quien llamó «dictador» en un acto en Madrid",
+      "resumen": "Milei llama «dictador» a Sánchez en Madrid y Exteriores condena sus palabras como «indignas» a las puertas del 29-N.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Palacio%20de%20Santa%20Cruz%2C%20Madrid%202.jpg?width=1200",
+      "archivo": "contenido/2026-10-22/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-10-22",
+      "tema": "politica-internacional",
+      "titulo": "Zelenski se abre a congelar el frente y el Kremlin acepta una nueva ronda de conversaciones en noviembre",
+      "resumen": "Zelenski se abre a congelar las líneas del frente mientras Moscú acepta volver a negociar a tres bandas en noviembre.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Vista%20general%20del%20Kremlin%2C%20Mosc%C3%BA%2C%20Rusia%2C%202016-10-03%2C%20DD%2018-19%20HDR.jpg?width=1200",
+      "archivo": "contenido/2026-10-22/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-10-22",
+      "tema": "internacional",
+      "titulo": "El Vaticano descarta más tratamientos para León XIV y mantiene su viaje a América Latina",
+      "resumen": "El Vaticano descarta más tratamientos para León XIV y prepara su viaje de once días a Uruguay, Argentina y Perú.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Basilica%20Sancti%20Petri%20blue%20hour.jpg?width=1200",
+      "archivo": "contenido/2026-10-22/internacional.md"
+    },
+    {
+      "fecha": "2026-10-22",
+      "tema": "arte",
+      "titulo": "Quince piedras y un enigma: el jardín seco de Ryōan-ji",
+      "resumen": "Quince piedras, grava rastrillada y ningún significado oficial: el jardín de Ryōan-ji sigue desafiando a quien lo mira.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Kare-sansui%20zen%20garden%2C%20Ry%C5%8Dan-ji%2C%20Kyoto%2020190416%201.jpg?width=1200",
+      "archivo": "contenido/2026-10-22/arte.md",
+      "asunto": "ryoanji"
+    },
+    {
+      "fecha": "2026-10-22",
+      "tema": "historia",
+      "titulo": "Gran Zimbabue: la ciudad de piedra que el colonialismo se negó a creer africana",
+      "resumen": "Las murallas de piedra sin argamasa de Gran Zimbabue revelan una potente ciudad africana medieval y un siglo de polémica arqueológica.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Great-zim-aerial-looking-West.JPG?width=1200",
+      "archivo": "contenido/2026-10-22/historia.md",
+      "asunto": "gran-zimbabue"
+    },
+    {
+      "fecha": "2026-10-22",
+      "tema": "literatura",
+      "titulo": "«Frankenstein»: la novela que una joven de dieciocho años escribió en el verano sin sol",
+      "resumen": "Escrita por una joven de dieciocho años en el verano sin sol de 1816, «Frankenstein» nació de un reto y sigue interrogando a la ciencia.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/RothwellMaryShelley.jpg?width=1200",
+      "archivo": "contenido/2026-10-22/literatura.md",
+      "asunto": "frankenstein"
+    },
+    {
+      "fecha": "2026-10-22",
+      "tema": "musica",
+      "titulo": "Random Access Memories",
+      "resumen": "Daft Punk cambió los samplers por músicos de estudio para firmar un disco de disco, funk y ambición que ganó el Grammy al álbum del año.",
+      "imagen": "https://coverartarchive.org/release-group/aa997ea0-2936-40bd-884d-3af8a0e064dc/front-500",
+      "archivo": "contenido/2026-10-22/musica.md",
+      "subtitulo": "Daft Punk",
+      "estilo": "Electrónica",
+      "asunto": "album-random-access-memories"
+    },
+    {
+      "fecha": "2026-10-22",
+      "tema": "aprende-finanzas",
+      "titulo": "Duración por vértices (key rate duration)",
+      "subtitulo": "Key rate duration",
+      "estilo": "Renta fija",
+      "resumen": "La duración dice cuánto sufre un bono si suben los tipos; la duración por vértices dice en qué tramo de la curva está ese riesgo.",
+      "asunto": "fin-duracion-por-vertices-key-rate-duration",
+      "archivo": "contenido/2026-10-22/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-10-21",
       "tema": "economia",
       "titulo": "El Gobierno garantiza a los funcionarios una subida del 4,5% en enero y otro 0,5% retroactivo",

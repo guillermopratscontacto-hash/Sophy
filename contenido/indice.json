@@ -93,6 +93,78 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-10-23",
+      "tema": "politica-espanola",
+      "titulo": "Sánchez acepta un cara a cara con Feijóo el 16 de noviembre, pero el PP rechaza que el debate a cuatro sea en RTVE",
+      "resumen": "El PSOE acepta un cara a cara con Feijóo el 16 de noviembre, pero exige que el debate a cuatro sea en RTVE; el PP lo rechaza.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Madrid%20-%20Hemiciclo%20del%20Congreso%20-%20141203%20100648.jpg?width=1200",
+      "archivo": "contenido/2026-10-23/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-10-23",
+      "tema": "politica-internacional",
+      "titulo": "Francia limita las manifestaciones a las convocadas por sindicatos y prolonga el toque de queda en París",
+      "resumen": "Macron solo permitirá las marchas sindicales este sábado y París prolonga el toque de queda en el centro hasta el lunes.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Palais%20de%20l%27%C3%89lys%C3%A9e%20Rue%20du%20Faubourg%20Saint-Honor%C3%A9%20Paris.jpg?width=1200",
+      "archivo": "contenido/2026-10-23/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-10-23",
+      "tema": "internacional",
+      "titulo": "Una IA destapa fallos críticos en PHP y desencadena una alerta mundial de ciberseguridad",
+      "resumen": "Una IA destapó fallos graves en PHP, base de cerca del 70 % de las webs, y desató una alerta mundial de ciberseguridad.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/BalticServers%20data%20center.jpg?width=1200",
+      "archivo": "contenido/2026-10-23/internacional.md"
+    },
+    {
+      "fecha": "2026-10-23",
+      "tema": "arte",
+      "titulo": "Altamira, la cueva que obligó a reescribir la historia del arte",
+      "resumen": "Descubierta en 1868 y negada durante décadas, la cueva cántabra de Altamira cambió lo que creíamos del arte de la Prehistoria.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Altamira%2C%20bison.jpg?width=1200",
+      "archivo": "contenido/2026-10-23/arte.md",
+      "asunto": "altamira"
+    },
+    {
+      "fecha": "2026-10-23",
+      "tema": "historia",
+      "titulo": "La Restauración Meiji: cómo Japón se reinventó en una generación",
+      "resumen": "En 1868, un grupo de samuráis devolvió el poder al emperador y puso en marcha la transformación más rápida de un Estado en el siglo XIX.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Mutsuhito-Emperor-Meiji-1873.png?width=1200",
+      "archivo": "contenido/2026-10-23/historia.md",
+      "asunto": "restauracion-meiji"
+    },
+    {
+      "fecha": "2026-10-23",
+      "tema": "literatura",
+      "titulo": "La «Divina comedia»: el viaje de un exiliado por el más allá",
+      "resumen": "Dante escribió en el exilio un viaje por el infierno, el purgatorio y el paraíso que fijó la lengua italiana y una imagen del más allá.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Domenico%20di%20Michelino%20Dante%20Duomo%20Florence%20duomofirenze.it.jpg?width=1200",
+      "archivo": "contenido/2026-10-23/literatura.md",
+      "asunto": "divina-comedia"
+    },
+    {
+      "fecha": "2026-10-23",
+      "tema": "musica",
+      "titulo": "Blue",
+      "resumen": "Joni Mitchell grabó en 1971 un disco íntimo y casi desnudo que sigue siendo una referencia de la confesión en la canción popular.",
+      "imagen": "https://coverartarchive.org/release-group/42d725fb-a8b7-388c-8866-3b02789af326/front-500",
+      "archivo": "contenido/2026-10-23/musica.md",
+      "subtitulo": "Joni Mitchell",
+      "estilo": "Folk",
+      "asunto": "album-blue"
+    },
+    {
+      "fecha": "2026-10-23",
+      "tema": "aprende-finanzas",
+      "titulo": "Convexidad, barbell y bullet",
+      "subtitulo": "Barbell versus bullet portfolios",
+      "estilo": "Renta fija",
+      "resumen": "Dos carteras con la misma duración pueden comportarse muy distinto ante los tipos: la convexidad explica la diferencia entre barbell y bullet.",
+      "asunto": "fin-convexidad-barbell-y-bullet",
+      "archivo": "contenido/2026-10-23/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-10-22",
       "tema": "economia",
       "titulo": "Un juez de Nuevo México condena a Meta a pagar 25.000 millones de dólares por engañar a los usuarios de Facebook",

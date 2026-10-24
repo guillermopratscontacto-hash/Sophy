@@ -93,6 +93,102 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-10-24",
+      "tema": "economia",
+      "titulo": "El Brent roza los 117 dólares, máximos desde abril, por el temor a una escalada en el Golfo",
+      "resumen": "El Brent roza los 117 dólares, su nivel más alto desde abril, por los ataques entre hutíes y Arabia Saudí y el temor a nuevos bombardeos sobre Irán.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Anna%20Chemical%20Oil%20tanker%20-%20IMO%207384986%20on%20De%C3%BBle%20%283%29.jpg?width=1200",
+      "archivo": "contenido/2026-10-24/economia.md"
+    },
+    {
+      "fecha": "2026-10-24",
+      "tema": "politica-espanola",
+      "titulo": "Feijóo integrará las competencias de Igualdad en otros ministerios y Sánchez le acusa de recortar derechos",
+      "resumen": "Feijóo dice que integrará Igualdad en otros ministerios y abrirá el debate sobre el consentimiento paterno al aborto; Sánchez le responde.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Madrid%20-%20La%20sede%20nacional%20del%20Partido%20Popular%20%28PP%29%2C%20en%20la%20calle%20G%C3%A9nova%2C%2013.jpg?width=1200",
+      "archivo": "contenido/2026-10-24/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-10-24",
+      "tema": "politica-internacional",
+      "titulo": "Netanyahu ordena preparar una gran operación en Cisjordania tras la muerte de dos soldados en Hebrón",
+      "resumen": "Netanyahu anuncia una gran operación en Cisjordania tras la muerte de dos soldados en Hebrón, cuatro días antes de las elecciones israelíes.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem%20Old%20City%20Street.jpg?width=1200",
+      "archivo": "contenido/2026-10-24/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-10-24",
+      "tema": "internacional",
+      "titulo": "Un tiroteo racista en Trappes, cerca de París, deja un muerto y cuatro heridos",
+      "resumen": "Un hombre armado dispara desde un coche en Trappes y La Verrière, cerca de París: un muerto y cuatro heridos; Macron habla de terrorismo racista.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/%22Police%20Line%22%20Tape.jpg?width=1200",
+      "archivo": "contenido/2026-10-24/internacional.md"
+    },
+    {
+      "fecha": "2026-10-24",
+      "tema": "politica-monetaria",
+      "titulo": "Hernández de Cos, favorito entre los economistas para suceder a Lagarde al frente del BCE",
+      "resumen": "Tres hechos de la semana monetaria: la carrera por suceder a Lagarde en el BCE, el caso Matolcsy en Hungría y el euríbor en el 3,2%.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Skyline%20Frankfurt%20am%20Main%202015.jpg?width=1200",
+      "archivo": "contenido/2026-10-24/politica-monetaria.md"
+    },
+    {
+      "fecha": "2026-10-24",
+      "tema": "fusiones",
+      "titulo": "Uber financiará a SSW Partners la compra de Glovo en 14 mercados, en plena OPA por Delivery Hero",
+      "resumen": "Uber financiará con 1.400 millones la venta de Glovo en 14 mercados a SSW Partners, un detalle que complica su OPA sobre Delivery Hero.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Uber%20offices%2C%20Mission%20Bay%20%28July%202020%29%20-2.jpg?width=1200",
+      "archivo": "contenido/2026-10-24/fusiones.md"
+    },
+    {
+      "fecha": "2026-10-24",
+      "tema": "arte",
+      "titulo": "Frida Kahlo y el autorretrato: pintar el dolor para entenderse",
+      "resumen": "Frida Kahlo pintó su rostro una y otra vez para contar su dolor, su identidad y su país; un recorrido por el autorretrato como lenguaje.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Frida%20Kahlo%2C%20by%20Guillermo%20Kahlo.jpg?width=1200",
+      "archivo": "contenido/2026-10-24/arte.md",
+      "asunto": "frida-kahlo"
+    },
+    {
+      "fecha": "2026-10-24",
+      "tema": "historia",
+      "titulo": "La caída del Muro de Berlín: la noche en que se abrió la frontera",
+      "resumen": "La noche del 9 de noviembre de 1989 cayó el símbolo de la Guerra Fría: cómo un malentendido y miles de berlineses abrieron el Muro.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Politicians%20at%20Brandenburg%20Gate%20opening%201989.JPEG?width=1200",
+      "archivo": "contenido/2026-10-24/historia.md",
+      "asunto": "muro-berlin"
+    },
+    {
+      "fecha": "2026-10-24",
+      "tema": "literatura",
+      "titulo": "Rumi y la poesía sufí: versos para volver a la fuente",
+      "resumen": "Rumi convirtió el duelo por un amigo en uno de los mayores poemas místicos; un viaje a la poesía sufí del siglo XIII y a la danza de los derviches.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Mevlana%20M%C3%BCzesi%2001.jpg?width=1200",
+      "archivo": "contenido/2026-10-24/literatura.md",
+      "asunto": "rumi"
+    },
+    {
+      "fecha": "2026-10-24",
+      "tema": "musica",
+      "titulo": "Illmatic",
+      "resumen": "Diez canciones, apenas 39 minutos y un debut que cambió el hip hop: Nas retrata el Queensbridge de su infancia con una precisión poética.",
+      "imagen": "https://coverartarchive.org/release-group/28298e2c-4d70-3eed-a0f5-a3280c662b3d/front-500",
+      "archivo": "contenido/2026-10-24/musica.md",
+      "subtitulo": "Nas",
+      "estilo": "Hip hop",
+      "asunto": "album-illmatic"
+    },
+    {
+      "fecha": "2026-10-24",
+      "tema": "aprende-finanzas",
+      "titulo": "Modelo de Merton y distancia al impago",
+      "subtitulo": "Merton model and distance to default",
+      "estilo": "Crédito",
+      "resumen": "Cómo convertir las acciones de una empresa en una medida de su riesgo de quiebra: la idea de Merton y la distancia al impago.",
+      "asunto": "fin-modelo-de-merton-y-distancia-al-impago",
+      "archivo": "contenido/2026-10-24/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-10-23",
       "tema": "politica-espanola",
       "titulo": "Sánchez acepta un cara a cara con Feijóo el 16 de noviembre, pero el PP rechaza que el debate a cuatro sea en RTVE",

@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-10-25",
+      "tema": "economia",
+      "titulo": "El bono francés a diez años supera el 5% y su prima de riesgo marca máximos desde 2011",
+      "resumen": "La prima de riesgo francesa roza los 170 puntos y el bono a diez años supera el 5%, con las protestas como telón de fondo.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Panorama%20La%20D%C3%A9fense.jpg?width=1200",
+      "archivo": "contenido/2026-10-25/economia.md"
+    },
+    {
+      "fecha": "2026-10-25",
+      "tema": "politica-espanola",
+      "titulo": "El PSOE cede al Frente Amplio el segundo puesto en 36 listas al Senado, y el PP cierra la de Madrid",
+      "resumen": "PSOE y Frente Amplio cederán el segundo puesto de sus listas al Senado, mientras el PP cierra nombres en Madrid.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Sede%20de%20la%20Asamblea%20de%20Madrid%20%28Espa%C3%B1a%29%2001.jpg?width=1200",
+      "archivo": "contenido/2026-10-25/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-10-25",
+      "tema": "politica-internacional",
+      "titulo": "Francia vive un segundo sábado de protestas multitudinarias con cerca de mil detenidos",
+      "resumen": "Unas 410.000 personas, según el Gobierno, vuelven a la calle en Francia en un segundo sábado de protestas con unas mil detenciones.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Global%20Debout%20-%20Place%20de%20la%20R%C3%A9publique%2C%202016.05.15%20%282%29.jpg?width=1200",
+      "archivo": "contenido/2026-10-25/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-10-25",
+      "tema": "internacional",
+      "titulo": "Una vacuna personalizada de ARNm reduce un 42% el riesgo de recaída en melanoma de alto riesgo",
+      "resumen": "Moderna y Merck presentan en Madrid los datos de su vacuna personalizada de ARNm contra el melanoma: un 42% menos de riesgo de recaída o muerte.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/20251019%20Replica%20DNA%20double%20helix%20model%20Berlin%2003.jpg?width=1200",
+      "archivo": "contenido/2026-10-25/internacional.md"
+    },
+    {
+      "fecha": "2026-10-25",
+      "tema": "arte",
+      "titulo": "Santa Sofía y la cúpula que parece flotar sobre Constantinopla",
+      "resumen": "La cúpula de Santa Sofía, levantada en cinco años, parece flotar sobre un espacio sin apoyos y cambió la historia de la arquitectura.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Interior%20of%20Hagia%20Sophia%20%289%29%20-%20Istanbul%20%282022%29.jpg?width=1200",
+      "archivo": "contenido/2026-10-25/arte.md",
+      "asunto": "santa-sofia"
+    },
+    {
+      "fecha": "2026-10-25",
+      "tema": "historia",
+      "titulo": "El código de Hammurabi, las leyes que Babilonia grabó en piedra",
+      "resumen": "Grabado hace unos 3.800 años en una estela de basalto, el código de Hammurabi es una de las colecciones de leyes más antiguas que se conservan.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Code%20of%20Hammurabi-Sb%208-IMG%207753-gradient.jpg?width=1200",
+      "archivo": "contenido/2026-10-25/historia.md",
+      "asunto": "hammurabi"
+    },
+    {
+      "fecha": "2026-10-25",
+      "tema": "literatura",
+      "titulo": "«Hamlet», la tragedia de Shakespeare que hizo de la duda un destino",
+      "resumen": "«Hamlet» convirtió la duda en el gran tema del teatro moderno y sigue siendo la obra más representada y debatida de Shakespeare.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Title%20Page%20-%20Shakespeare%20First%20Folio%20%281623%29%2C%20title%20page%20-%20BL.jpg?width=1200",
+      "archivo": "contenido/2026-10-25/literatura.md",
+      "asunto": "hamlet"
+    },
+    {
+      "fecha": "2026-10-25",
+      "tema": "musica",
+      "titulo": "Nevermind",
+      "resumen": "Un disco que en 1991 cambió el rock: guitarras sucias, melodías pop y una rabia generacional que llegó a todas partes.",
+      "imagen": "https://coverartarchive.org/release-group/1b022e01-4da6-387b-8658-8678046e4cef/front-500",
+      "archivo": "contenido/2026-10-25/musica.md",
+      "subtitulo": "Nirvana",
+      "estilo": "Grunge",
+      "asunto": "album-nevermind"
+    },
+    {
+      "fecha": "2026-10-25",
+      "tema": "aprende-finanzas",
+      "titulo": "Base CDS-bono",
+      "subtitulo": "CDS-bond basis",
+      "estilo": "Crédito",
+      "resumen": "Cuando el bono y su seguro de impago (CDS) no cuestan lo mismo, aparece una diferencia que los inversores intentan aprovechar.",
+      "asunto": "fin-base-cds-bono",
+      "archivo": "contenido/2026-10-25/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-10-24",
       "tema": "economia",
       "titulo": "El Brent roza los 117 dólares, máximos desde abril, por el temor a una escalada en el Golfo",

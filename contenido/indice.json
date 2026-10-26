@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-10-26",
+      "tema": "economia",
+      "titulo": "Más de 3,6 millones de trabajadores tienen blindado el sueldo ante la escalada del IPC",
+      "resumen": "Más de 3,6 millones de asalariados tienen cláusula de garantía salarial y cobrarán un extra si el IPC se dispara.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Extremely%20open%20plan%20office%20-%20geograph.org.uk%20-%205279397.jpg?width=1200",
+      "archivo": "contenido/2026-10-26/economia.md"
+    },
+    {
+      "fecha": "2026-10-26",
+      "tema": "politica-espanola",
+      "titulo": "Francisco Martín dimite como delegado del Gobierno en Madrid tras quedar fuera de las listas del PSOE",
+      "resumen": "El delegado del Gobierno en Madrid renuncia tras quedar fuera de las listas del PSOE y en plena acampada en Sol.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Puerta%20del%20Sol%2C%20placa%20de%20la%20Puerta%20del%20Sol%20en%20la%20Real%20Casa%20de%20Correos%2C%20Madrid%2C%20Espa%C3%B1a%2C%202015.JPG?width=1200",
+      "archivo": "contenido/2026-10-26/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-10-26",
+      "tema": "politica-internacional",
+      "titulo": "Lula da Silva gana por la mínima a Flávio Bolsonaro y es reelegido presidente de Brasil",
+      "resumen": "Lula remonta tras la primera vuelta y gana por un 51,77% a Flávio Bolsonaro en un balotaje marcado por el transporte.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Pal%C3%A1cio%20do%20Planalto%20em%202020.jpg?width=1200",
+      "archivo": "contenido/2026-10-26/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-10-26",
+      "tema": "internacional",
+      "titulo": "Un autobús cae por un terraplén en el Montseny y deja 83 heridos, siete de ellos graves",
+      "resumen": "Un autobús lanzadera cae por un terraplén de 20 metros en Fogars de Montclús: 83 heridos, siete graves.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Ambulancia-samur-leon-villadiego-junio-2021-a.jpg?width=1200",
+      "archivo": "contenido/2026-10-26/internacional.md"
+    },
+    {
+      "fecha": "2026-10-26",
+      "tema": "arte",
+      "titulo": "«Impresión, sol naciente»: el cuadro que bautizó al impresionismo",
+      "resumen": "Un cuadro desdeñado por un crítico dio nombre a un movimiento: así nació el impresionismo a partir de un amanecer en El Havre.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Monet%20-%20Impression%2C%20Sunrise.jpg?width=1200",
+      "archivo": "contenido/2026-10-26/arte.md",
+      "asunto": "impresion-monet"
+    },
+    {
+      "fecha": "2026-10-26",
+      "tema": "historia",
+      "titulo": "Magallanes y Elcano: tres años para dar la primera vuelta al mundo",
+      "resumen": "Tres años, 239 hombres al inicio y 18 de regreso: la expedición de Magallanes y Elcano que demostró que la Tierra se podía circunnavegar.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Nao%20Victoria%20%28ship%2C%201992%29%2C%20S%C3%A8te%20cf04.jpg?width=1200",
+      "archivo": "contenido/2026-10-26/historia.md",
+      "asunto": "vuelta-mundo"
+    },
+    {
+      "fecha": "2026-10-26",
+      "tema": "literatura",
+      "titulo": "El «Popol Vuh»: la memoria del pueblo quiché que sobrevivió a la conquista",
+      "resumen": "El libro sagrado de los mayas quichés sobrevivió a la conquista gracias a un fraile que lo copió y tradujo en el siglo XVIII.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Popol%20vuh.jpg?width=1200",
+      "archivo": "contenido/2026-10-26/literatura.md",
+      "asunto": "popol-vuh"
+    },
+    {
+      "fecha": "2026-10-26",
+      "tema": "musica",
+      "titulo": "Back to Black",
+      "resumen": "Soul con alma de los sesenta y letras sin filtro: el disco que convirtió a Amy Winehouse en un fenómeno mundial.",
+      "imagen": "https://coverartarchive.org/release-group/6eac2e57-ee50-36f8-b0c4-c4c847a2c098/front-500",
+      "archivo": "contenido/2026-10-26/musica.md",
+      "subtitulo": "Amy Winehouse",
+      "estilo": "Soul",
+      "asunto": "album-back-to-black"
+    },
+    {
+      "fecha": "2026-10-26",
+      "tema": "aprende-finanzas",
+      "titulo": "Cascada de pagos en un CLO",
+      "subtitulo": "CLO waterfall and tranching",
+      "estilo": "Crédito estructurado",
+      "resumen": "Cómo se reparte el dinero de una cartera de préstamos entre inversores con distinto riesgo: la cascada de pagos de un CLO.",
+      "asunto": "fin-cascada-de-pagos-en-un-clo",
+      "archivo": "contenido/2026-10-26/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-10-25",
       "tema": "economia",
       "titulo": "El bono francés a diez años supera el 5% y su prima de riesgo marca máximos desde 2011",

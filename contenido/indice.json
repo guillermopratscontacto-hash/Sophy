@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-10-27",
+      "tema": "economia",
+      "titulo": "La Bolsa de Brasil se desploma un 17% y el real se hunde un 11% tras la reelección de Lula",
+      "resumen": "La Bolsa brasileña cae un 17% y el real un 11% tras la reelección de Lula; los analistas anticipan meses de volatilidad.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Panorama%20of%20Sao%20Paulo%20from%20Avenida%20Santa%20Catarina.jpg?width=1200",
+      "archivo": "contenido/2026-10-27/economia.md"
+    },
+    {
+      "fecha": "2026-10-27",
+      "tema": "politica-espanola",
+      "titulo": "PP y Vox cierran un pacto para concurrir de forma coordinada al Senado",
+      "resumen": "PP y Vox pactan candidaturas coordinadas en 31 circunscripciones del Senado de cara al 29 de noviembre; Sánchez lo critica.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Torre%20Sacyr%20Vallehermoso%20%26%20Torre%20Caja%20Madrid%20de%20noche%20-%20at%20night.jpg?width=1200",
+      "archivo": "contenido/2026-10-27/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-10-27",
+      "tema": "politica-internacional",
+      "titulo": "La Lista Estudiantil logra la mayoría absoluta en Serbia y Vučić reconoce su derrota",
+      "resumen": "La Lista Estudiantil obtiene la mayoría absoluta en Serbia y Vučić reconoce su derrota tras 14 años de dominio político.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/House%20of%20the%20National%20Assembly%20of%20the%20Republic%20of%20Serbia%20Belgrade%202.jpg?width=1200",
+      "archivo": "contenido/2026-10-27/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-10-27",
+      "tema": "internacional",
+      "titulo": "El Vaticano confirma el viaje del Papa a Uruguay, Argentina y Perú tras su operación",
+      "resumen": "El Vaticano confirma que León XIV viajará del 6 al 17 de noviembre a Uruguay, Argentina y Perú tras su operación de pulmón.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Parte%20superior%20del%20Obelisco%20de%20Buenos%20Aires.jpg?width=1200",
+      "archivo": "contenido/2026-10-27/internacional.md"
+    },
+    {
+      "fecha": "2026-10-27",
+      "tema": "arte",
+      "titulo": "El libro de los reyes que convirtió la miniatura persa en espectáculo",
+      "resumen": "El «Shahnameh» de Shah Tahmasp reunió a los grandes pintores de Tabriz y fijó el ideal de la miniatura persa del siglo XVI.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Dust%20Muhammad%2C%20The%20Story%20Of%20Haftvad%20And%20The%20Worm%2C%20Folio%20From%20The%20Shahnama%20Of%20Shah%20Tahmasp%20ca.%201540%20Sadruddin%20Aga%20khan%20Collection.jpg?width=1200",
+      "archivo": "contenido/2026-10-27/arte.md",
+      "asunto": "miniatura-persa"
+    },
+    {
+      "fecha": "2026-10-27",
+      "tema": "historia",
+      "titulo": "Gengis Kan, el hombre que unió la estepa y estremeció Eurasia",
+      "resumen": "De jefe de un clan estepario a señor del mayor imperio terrestre: cómo Gengis Kan unió a los mongoles y cambió Eurasia.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/YuanEmperorAlbumGenghisPortrait.jpg?width=1200",
+      "archivo": "contenido/2026-10-27/historia.md",
+      "asunto": "gengis-kan"
+    },
+    {
+      "fecha": "2026-10-27",
+      "tema": "literatura",
+      "titulo": "«Crimen y castigo»: el laboratorio moral de Dostoievski",
+      "resumen": "«Crimen y castigo» convierte un asesinato en un laboratorio moral: Dostoievski explora culpa, pobreza y redención en San Petersburgo.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Vasily%20Perov%20-%20%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82%20%D0%A4.%D0%9C.%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20-%20Google%20Art%20Project.jpg?width=1200",
+      "archivo": "contenido/2026-10-27/literatura.md",
+      "asunto": "crimen-castigo"
+    },
+    {
+      "fecha": "2026-10-27",
+      "tema": "musica",
+      "titulo": "Zombie",
+      "resumen": "«Zombie» es Fela Kuti en estado puro: afrobeat largo, hipnótico y una sátira feroz contra el ejército nigeriano.",
+      "imagen": "https://coverartarchive.org/release-group/517cbfb2-2279-4af9-8ca7-1c4c1a444925/front-500",
+      "archivo": "contenido/2026-10-27/musica.md",
+      "subtitulo": "Fela Kuti",
+      "estilo": "Afrobeat",
+      "asunto": "album-zombie"
+    },
+    {
+      "fecha": "2026-10-27",
+      "tema": "aprende-finanzas",
+      "titulo": "Pérdida esperada bajo la NIIF 9",
+      "subtitulo": "IFRS 9 expected credit loss",
+      "estilo": "Contabilidad bancaria",
+      "resumen": "La NIIF 9 obliga a los bancos a provisionar las pérdidas por impago antes de que ocurran. Así funciona la pérdida esperada.",
+      "asunto": "fin-perdida-esperada-bajo-la-niif-9",
+      "archivo": "contenido/2026-10-27/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-10-26",
       "tema": "economia",
       "titulo": "Más de 3,6 millones de trabajadores tienen blindado el sueldo ante la escalada del IPC",

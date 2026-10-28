@@ -93,6 +93,70 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-10-28",
+      "tema": "economia",
+      "titulo": "Renfe adjudica a Siemens 30 trenes de alta velocidad por 1.218 millones de euros",
+      "resumen": "Renfe encarga a Siemens 30 trenes Velaro Novo por 1.218 millones, con plazos estrictos tras los retrasos de Talgo.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/AVE%20en%20Sevilla%2C%20en%20la%20estaci%C3%B3n%20de%20Santa%20Justa%2C%20tren%20Serie%20100%20de%20Renfe.JPG?width=1200",
+      "archivo": "contenido/2026-10-28/economia.md"
+    },
+    {
+      "fecha": "2026-10-28",
+      "tema": "politica-espanola",
+      "titulo": "Feijóo justifica que el PP no concurra al Senado en tres provincias por su pacto con Vox",
+      "resumen": "Feijóo defiende no presentarse al Senado en tres provincias: «Nadie puede renunciar a lo que no tiene».",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Palacio%20Real%20de%20Madrid.%20Fachada%20principal.jpg?width=1200",
+      "archivo": "contenido/2026-10-28/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-10-28",
+      "tema": "arte",
+      "titulo": "Kakadu: la galería de roca más antigua de Australia",
+      "resumen": "En Kakadu, las paredes de roca guardan una de las galerías de arte más largas del mundo, aún viva para sus custodios.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Kakadu%20%28AU%29%2C%20Kakadu%20National%20Park%2C%20Ubirr%20Rock%20Art%20--%202019%20--%204169.jpg?width=1200",
+      "archivo": "contenido/2026-10-28/arte.md",
+      "asunto": "arte-rupestre-kakadu"
+    },
+    {
+      "fecha": "2026-10-28",
+      "tema": "historia",
+      "titulo": "La Bastilla: cómo una prisión casi vacía se volvió símbolo de una revolución",
+      "resumen": "El 14 de julio de 1789, una multitud asaltó una fortaleza casi vacía y convirtió la Bastilla en el símbolo de la Revolución.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Prise%20de%20la%20Bastille%20clean.jpg?width=1200",
+      "archivo": "contenido/2026-10-28/historia.md",
+      "asunto": "toma-bastilla"
+    },
+    {
+      "fecha": "2026-10-28",
+      "tema": "literatura",
+      "titulo": "Matsuo Bashō y el arte de decir mucho en diecisiete sílabas",
+      "resumen": "Bashō convirtió un pasatiempo cortesano en poesía de viaje: diecisiete sílabas para atrapar un instante.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Matsuo%20Basho%20by%20Sugiyama%20Sanpu.jpg?width=1200",
+      "archivo": "contenido/2026-10-28/literatura.md",
+      "asunto": "basho"
+    },
+    {
+      "fecha": "2026-10-28",
+      "tema": "musica",
+      "titulo": "Rumours",
+      "resumen": "Un disco nacido de rupturas y reproches que se convirtió en uno de los más vendidos de la historia.",
+      "imagen": "https://coverartarchive.org/release-group/416bb5e5-c7d1-3977-8fd7-7c9daf6c2be6/front-500",
+      "archivo": "contenido/2026-10-28/musica.md",
+      "subtitulo": "Fleetwood Mac",
+      "estilo": "Pop rock",
+      "asunto": "album-rumours"
+    },
+    {
+      "fecha": "2026-10-28",
+      "tema": "aprende-finanzas",
+      "titulo": "Ratio de apalancamiento y ratios de liquidez en Basilea III",
+      "subtitulo": "Basel III leverage ratio, LCR and NSFR",
+      "estilo": "Regulación bancaria",
+      "resumen": "Tres números que miden si un banco aguanta una crisis: cuánto capital tiene, cuánta liquidez y cuánta financiación estable.",
+      "asunto": "fin-ratio-de-apalancamiento-y-ratios-de-liquidez-en-",
+      "archivo": "contenido/2026-10-28/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-10-27",
       "tema": "economia",
       "titulo": "La Bolsa de Brasil se desploma un 17% y el real se hunde un 11% tras la reelección de Lula",

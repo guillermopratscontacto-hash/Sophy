@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-10-29",
+      "tema": "economia",
+      "titulo": "La Fed mantiene los tipos en el 3,75-4% con dos votos a favor de subirlos",
+      "resumen": "La Fed mantiene los tipos en el 3,75-4% con dos votos a favor de subirlos, a una semana de las elecciones legislativas.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Eccles%20Building%20%2826088200676%29.jpg?width=1200",
+      "archivo": "contenido/2026-10-29/economia.md"
+    },
+    {
+      "fecha": "2026-10-29",
+      "tema": "politica-espanola",
+      "titulo": "Puente califica de «inexplicable» que el centro de control de Atocha autorizara la marcha del AVE",
+      "resumen": "Óscar Puente ve «inexplicable» que el control de Atocha dejara reanudar la marcha al AVE; Sánchez y Feijóo piden explicaciones.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Madrid%20Atocha%20R01.jpg?width=1200",
+      "archivo": "contenido/2026-10-29/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-10-29",
+      "tema": "politica-internacional",
+      "titulo": "Los partidos árabes, clave en el bloqueo político que dejan las elecciones de Israel",
+      "resumen": "Tras las elecciones israelíes, ningún bloque tiene mayoría y los partidos árabes, con récord de escaños, pueden decidir quién gobierna.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem%20Knesset%20Building%20%282543665854%29.jpg?width=1200",
+      "archivo": "contenido/2026-10-29/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-10-29",
+      "tema": "internacional",
+      "titulo": "El choque de dos trenes de alta velocidad en Urda deja 68 muertos y 107 heridos",
+      "resumen": "El choque de dos trenes de alta velocidad en Urda, Toledo, deja 68 muertos y 107 heridos hospitalizados, con cuatro cuerpos aún atrapados.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/00423%20Train%20loaded%20with%20containers%20bound%20for%20Hamburg%20harbour.jpg?width=1200",
+      "archivo": "contenido/2026-10-29/internacional.md"
+    },
+    {
+      "fecha": "2026-10-29",
+      "tema": "arte",
+      "titulo": "«El nacimiento de Venus»: la diosa que Botticelli devolvió a la pintura",
+      "resumen": "Botticelli pintó hacia 1485 a una Venus desnuda que llega a la orilla: un cuadro profano, nacido en la Florencia de los Médici.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Sandro%20Botticelli%20046.jpg?width=1200",
+      "archivo": "contenido/2026-10-29/arte.md",
+      "asunto": "nacimiento-venus"
+    },
+    {
+      "fecha": "2026-10-29",
+      "tema": "historia",
+      "titulo": "L'Anse aux Meadows, la huella vikinga que cambió la historia de América",
+      "resumen": "En Terranova, unas casas de turba prueban que los vikingos pisaron América hacia el año 1000, casi cinco siglos antes que Colón.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-08-27%2004%20Silhouette%20sculpture%20of%20Norsemen%20above%20L%27Anse%20aux%20Meadows%2C%20NFL%20CAN.jpg?width=1200",
+      "archivo": "contenido/2026-10-29/historia.md",
+      "asunto": "vikingos-america"
+    },
+    {
+      "fecha": "2026-10-29",
+      "tema": "literatura",
+      "titulo": "«La metamorfosis»: el insecto que Kafka no quiso dibujar",
+      "resumen": "Un viajante despierta convertido en un insecto monstruoso: así empezó Kafka a hablar de la culpa, la familia y el trabajo.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Franz%20Kafka%2C%201923.jpg?width=1200",
+      "archivo": "contenido/2026-10-29/literatura.md",
+      "asunto": "metamorfosis"
+    },
+    {
+      "fecha": "2026-10-29",
+      "tema": "musica",
+      "titulo": "A Love Supreme",
+      "resumen": "Una suite de cuatro partes que Coltrane grabó como oración de gratitud: jazz que se escucha de principio a fin.",
+      "imagen": "https://coverartarchive.org/release-group/77cf47ba-58cd-3f3d-a5f9-79bf89860421/front-500",
+      "archivo": "contenido/2026-10-29/musica.md",
+      "subtitulo": "John Coltrane",
+      "estilo": "Jazz espiritual",
+      "asunto": "album-a-love-supreme"
+    },
+    {
+      "fecha": "2026-10-29",
+      "tema": "aprende-finanzas",
+      "titulo": "Colchones de capital y CET1",
+      "subtitulo": "CET1 and capital buffers",
+      "estilo": "Regulación bancaria",
+      "resumen": "Por qué un banco con mucho capital total puede tener poco margen: el CET1 y los colchones que limitan sus dividendos.",
+      "asunto": "fin-colchones-de-capital-y-cet1",
+      "archivo": "contenido/2026-10-29/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-10-28",
       "tema": "economia",
       "titulo": "Renfe adjudica a Siemens 30 trenes de alta velocidad por 1.218 millones de euros",

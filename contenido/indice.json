@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-10-30",
+      "tema": "economia",
+      "titulo": "Muere Fátima Báñez, la ministra de la reforma laboral de 2012, en el accidente de Urda",
+      "resumen": "Murió en el accidente de Urda la expresidenta de la Fundación CEOE y exministra de Empleo que impulsó la reforma laboral de 2012.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Banco%20de%20Espa%C3%B1a%20%28Madrid%29%2002.jpg?width=1200",
+      "archivo": "contenido/2026-10-30/economia.md"
+    },
+    {
+      "fecha": "2026-10-30",
+      "tema": "politica-espanola",
+      "titulo": "La maquinista del Iryo intentó dos veces reiniciar el sistema LZB antes del choque de Urda",
+      "resumen": "La maquinista del Iryo reinició dos veces el LZB y avisó a Adif y a su empresa; Iryo ya había alertado en el Senado del sistema.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Veh%C3%ADculo%20patrulla%20de%20la%20Guardia%20Civil.jpg?width=1200",
+      "archivo": "contenido/2026-10-30/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-10-30",
+      "tema": "politica-internacional",
+      "titulo": "Un dron ruso mata al menos 13 personas en la estación de tren de Dnipró",
+      "resumen": "Un dron ruso mata al menos 13 o 14 personas en la estación de Dnipró en plena tregua local en Oleshki.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Verkhovna%20rada%20kyiv.jpg?width=1200",
+      "archivo": "contenido/2026-10-30/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-10-30",
+      "tema": "internacional",
+      "titulo": "El observatorio Rubin descubre un candidato a planeta enano más allá de Plutón",
+      "resumen": "El observatorio Rubin halla 2026 ED138, un posible planeta enano más allá de Plutón de entre 600 y 1.500 km.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Paranal%20and%20the%20Pacific%20at%20sunset%20%28dsc4088%2C%20retouched%2C%20cropped%29.jpg?width=1200",
+      "archivo": "contenido/2026-10-30/internacional.md"
+    },
+    {
+      "fecha": "2026-10-30",
+      "tema": "arte",
+      "titulo": "Los moáis de Rapa Nui: gigantes de piedra frente al océano",
+      "resumen": "Casi 900 gigantes de piedra vigilan Rapa Nui. Quién los talló, cómo se movieron y qué sigue sin respuesta.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Moai%20Rano%20raraku.jpg?width=1200",
+      "archivo": "contenido/2026-10-30/arte.md",
+      "asunto": "moais"
+    },
+    {
+      "fecha": "2026-10-30",
+      "tema": "historia",
+      "titulo": "Aksum, el reino africano que acuñó moneda y levantó obeliscos",
+      "resumen": "Entre el Mar Rojo y el Nilo, Aksum acuñó moneda, adoptó el cristianismo y rivalizó con Roma y Persia.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Axum%20stelae%20%285498491357%29.jpg?width=1200",
+      "archivo": "contenido/2026-10-30/historia.md",
+      "asunto": "aksum"
+    },
+    {
+      "fecha": "2026-10-30",
+      "tema": "literatura",
+      "titulo": "Sor Juana Inés de la Cruz, la monja que defendió el derecho a saber",
+      "resumen": "Monja, poeta y defensora del saber, Sor Juana fue la voz más brillante del barroco novohispano.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Cuadro%20de%20Sor%20Juana%20In%C3%A9s%20de%20la%20Cruz%20Miguel%20Cabrera%20%281750%29.jpg?width=1200",
+      "archivo": "contenido/2026-10-30/literatura.md",
+      "asunto": "sor-juana"
+    },
+    {
+      "fecha": "2026-10-30",
+      "tema": "musica",
+      "titulo": "Fuente y caudal",
+      "resumen": "El disco que llevó a Paco de Lucía al gran público y que contiene «Entre dos aguas».",
+      "imagen": "https://coverartarchive.org/release-group/3e3eee7d-0fe9-37ce-98e9-0beb2af88bdf/front-500",
+      "archivo": "contenido/2026-10-30/musica.md",
+      "subtitulo": "Paco de Lucía",
+      "estilo": "Flamenco",
+      "asunto": "album-fuente-y-caudal"
+    },
+    {
+      "fecha": "2026-10-30",
+      "tema": "aprende-finanzas",
+      "titulo": "Rehipotecación de colateral y mercado repo",
+      "subtitulo": "Rehypothecation and the repo market",
+      "estilo": "Mercados monetarios",
+      "resumen": "Cómo un mismo colateral puede sostener varios préstamos a la vez, y por qué eso mueve el mercado repo.",
+      "asunto": "fin-rehipotecacion-de-colateral-y-mercado-repo",
+      "archivo": "contenido/2026-10-30/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-10-29",
       "tema": "economia",
       "titulo": "La Fed mantiene los tipos en el 3,75-4% con dos votos a favor de subirlos",

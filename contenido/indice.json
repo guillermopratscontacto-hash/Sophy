@@ -93,6 +93,94 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-10-31",
+      "tema": "economia",
+      "titulo": "La economía española crece un 0,6% en el tercer trimestre, impulsada por el consumo y el gasto público",
+      "resumen": "El PIB crece un 0,6% en el tercer trimestre y un 2,7% interanual, sostenido por el consumo y el gasto público.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Apartment%20building%20under%20construction%20in%20Civic%20April%202018.jpg?width=1200",
+      "archivo": "contenido/2026-10-31/economia.md"
+    },
+    {
+      "fecha": "2026-10-31",
+      "tema": "politica-espanola",
+      "titulo": "Puente puso su cargo a disposición de Sánchez, que rechazó su dimisión por considerarla «injusta»",
+      "resumen": "Puente puso su cargo a disposición de Sánchez, que lo rechazó por «injusto»; el ministro dice que dará la cara.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Train%20arriving%20at%20Passy%20metro%20station%20in%20April%202019.jpg?width=1200",
+      "archivo": "contenido/2026-10-31/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-10-31",
+      "tema": "politica-internacional",
+      "titulo": "El cruce de vetos entre Rusia y EE. UU. deja en el aire la misión de la ONU en el Sáhara",
+      "resumen": "Rusia y EE. UU. vetan sus resoluciones y la misión de la ONU en el Sáhara, la Minurso, podría acabar este sábado.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/United%20Nations%20Headquarters%20-%20Security%20Council%20chamber%2C%20angled%20view.jpg?width=1200",
+      "archivo": "contenido/2026-10-31/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-10-31",
+      "tema": "politica-monetaria",
+      "titulo": "El BCE mantiene los tipos por unanimidad pero no descarta una tercera subida",
+      "resumen": "El BCE mantiene los tipos, deja abierta una subida en diciembre; Lagarde anuncia su salida y Francia tensiona la deuda.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Frankfurt%20am%20Main%20-%20Banco%20Central%20Europeo%20-%20Europ%C3%A4ische%20Zentralbank%20-%2002.jpg?width=1200",
+      "archivo": "contenido/2026-10-31/politica-monetaria.md"
+    },
+    {
+      "fecha": "2026-10-31",
+      "tema": "fusiones",
+      "titulo": "La familia Cosmen y Asterion lanzan una opa para excluir de bolsa a Mobico, matriz de Alsa",
+      "resumen": "La familia Cosmen y Asterion lanzan una opa de 283 millones de libras para sacar de bolsa a Mobico, matriz de Alsa.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/London%20-%20Wellington%20-%20Stock%20Exchange%20Tower%20-%20Royal%20Exchange.jpg?width=1200",
+      "archivo": "contenido/2026-10-31/fusiones.md"
+    },
+    {
+      "fecha": "2026-10-31",
+      "tema": "arte",
+      "titulo": "«El grito», el rostro de la angustia que Edvard Munch pintó en 1893",
+      "resumen": "Cómo un paseo al atardecer en Oslo acabó convertido en el grito más famoso del arte moderno.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Edvard%20Munch%2C%201893%2C%20The%20Scream%2C%20oil%2C%20tempera%20and%20pastel%20on%20cardboard%2C%2091%20x%2073%20cm%2C%20National%20Gallery%20of%20Norway.jpg?width=1200",
+      "archivo": "contenido/2026-10-31/arte.md",
+      "asunto": "el-grito"
+    },
+    {
+      "fecha": "2026-10-31",
+      "tema": "historia",
+      "titulo": "El Apolo 11 y la noche en que el ser humano pisó la Luna",
+      "resumen": "El 20 de julio de 1969, dos astronautas pisaron la Luna y 600 millones de personas lo vieron desde la Tierra.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Aldrin%20Apollo%2011.jpg?width=1200",
+      "archivo": "contenido/2026-10-31/historia.md",
+      "asunto": "apolo-11"
+    },
+    {
+      "fecha": "2026-10-31",
+      "tema": "literatura",
+      "titulo": "Rabindranath Tagore, el poeta bengalí que llevó la voz de la India al Nobel",
+      "resumen": "Tagore, el primer asiático Nobel de Literatura, escribió poemas, canciones y novelas desde Bengala hacia el mundo.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Rabindranath%20Tagore.jpg?width=1200",
+      "archivo": "contenido/2026-10-31/literatura.md",
+      "asunto": "tagore"
+    },
+    {
+      "fecha": "2026-10-31",
+      "tema": "musica",
+      "titulo": "The Miseducation of Lauryn Hill",
+      "resumen": "El debut en solitario de Lauryn Hill mezcla soul, hip hop y confesión personal en un disco que marcó una generación.",
+      "imagen": "https://coverartarchive.org/release-group/8691d12c-abd8-385c-b1eb-d841190124f7/front-500",
+      "archivo": "contenido/2026-10-31/musica.md",
+      "subtitulo": "Lauryn Hill",
+      "estilo": "R&B y hip hop",
+      "asunto": "album-the-miseducation-of-lauryn-hill"
+    },
+    {
+      "fecha": "2026-10-31",
+      "tema": "aprende-finanzas",
+      "titulo": "Márgenes iniciales y de variación en las cámaras de compensación",
+      "subtitulo": "Initial and variation margin at CCPs",
+      "estilo": "Infraestructura de mercado",
+      "resumen": "Por qué las cámaras de compensación exigen dos colchones de garantías, y cómo evitan que el impago de uno arrastre a todos.",
+      "asunto": "fin-margenes-iniciales-y-de-variacion-en-las-camaras",
+      "archivo": "contenido/2026-10-31/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-10-30",
       "tema": "economia",
       "titulo": "Muere Fátima Báñez, la ministra de la reforma laboral de 2012, en el accidente de Urda",

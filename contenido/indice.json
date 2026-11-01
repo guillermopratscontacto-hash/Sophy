@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-11-01",
+      "tema": "economia",
+      "titulo": "La gran banca pierde 26.700 millones de valor en Bolsa pese a una semana de beneficios récord",
+      "resumen": "La gran banca española pierde 26.723 millones en Bolsa en una semana de resultados récord, con Santander y BBVA como las más castigadas.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Palacio%20de%20la%20Bolsa%20de%20Madrid%2003.jpg?width=1200",
+      "archivo": "contenido/2026-11-01/economia.md"
+    },
+    {
+      "fecha": "2026-11-01",
+      "tema": "politica-espanola",
+      "titulo": "El blindaje policial frena a Blocus en Halloween tras detener a su presunto fundador",
+      "resumen": "El blindaje policial impide los disturbios que Blocus había convocado para Halloween, tras una decena de detenciones, entre ellas la de su presunto fundador.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Polic%C3%ADa%20fronteras%20Ceuta.JPG?width=1200",
+      "archivo": "contenido/2026-11-01/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-11-01",
+      "tema": "politica-internacional",
+      "titulo": "Tusk defiende la intervención en el Constitucional polaco y su coalición se divide ante Nawrocki",
+      "resumen": "Tusk defiende la intervención en el Constitucional polaco y descarta pactar con la oposición; su coalición se divide ante Nawrocki.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Entrance%20to%20Polish%20Parliament%20%28Sejm%29%2C%20Warsaw%20-%20panoramio.jpg?width=1200",
+      "archivo": "contenido/2026-11-01/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-11-01",
+      "tema": "internacional",
+      "titulo": "La cumbre de biodiversidad de Armenia cierra con acuerdos tímidos y sin ruta clara de financiación",
+      "resumen": "La COP17 de biodiversidad cierra en Ereván con acuerdos considerados tímidos y sin claridad sobre cómo financiar las 23 metas para 2030.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coral%20Outcrop%20Flynn%20Reef.jpg?width=1200",
+      "archivo": "contenido/2026-11-01/internacional.md"
+    },
+    {
+      "fecha": "2026-11-01",
+      "tema": "arte",
+      "titulo": "La Alhambra, un palacio de yeso y agua que desafía al tiempo",
+      "resumen": "La Alhambra de Granada condensa el esplendor del arte nazarí: yeserías, agua, luz y poesía en piedra frágil.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Fountain%20patio%20de%20los%20Leones%20Alhambra%20Granada%20Spain.jpg?width=1200",
+      "archivo": "contenido/2026-11-01/arte.md",
+      "asunto": "alhambra"
+    },
+    {
+      "fecha": "2026-11-01",
+      "tema": "historia",
+      "titulo": "Mohenjo-Daro, la ciudad del Indo que cuidaba sus desagües",
+      "resumen": "Mohenjo-Daro, la gran ciudad del Indo, ya tenía calles en cuadrícula, desagües y baños hace unos 4.500 años.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Great%20bath%20view%20Mohenjodaro.JPG?width=1200",
+      "archivo": "contenido/2026-11-01/historia.md",
+      "asunto": "valle-indo"
+    },
+    {
+      "fecha": "2026-11-01",
+      "tema": "literatura",
+      "titulo": "Virginia Woolf y el día único de «La señora Dalloway»",
+      "resumen": "En «La señora Dalloway», Virginia Woolf condensa la vida en un solo día de Londres y revoluciona la novela.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/George%20Charles%20Beresford%20-%20Virginia%20Woolf%20in%201902%20-%20Restoration.jpg?width=1200",
+      "archivo": "contenido/2026-11-01/literatura.md",
+      "asunto": "virginia-woolf"
+    },
+    {
+      "fecha": "2026-11-01",
+      "tema": "musica",
+      "titulo": "Exodus",
+      "resumen": "Un disco de reggae nacido en el exilio londinense que combina denuncia, espiritualidad y canciones inolvidables.",
+      "imagen": "https://coverartarchive.org/release-group/c5650313-60f3-34d3-92e4-300545133792/front-500",
+      "archivo": "contenido/2026-11-01/musica.md",
+      "subtitulo": "Bob Marley & The Wailers",
+      "estilo": "Reggae",
+      "asunto": "album-exodus"
+    },
+    {
+      "fecha": "2026-11-01",
+      "tema": "aprende-finanzas",
+      "titulo": "Valor en riesgo frente a déficit esperado",
+      "subtitulo": "Value at Risk versus Expected Shortfall",
+      "estilo": "Gestión de riesgos",
+      "resumen": "Por qué el VaR puede quedarse corto en las peores pérdidas y qué corrige el déficit esperado.",
+      "asunto": "fin-valor-en-riesgo-frente-a-deficit-esperado",
+      "archivo": "contenido/2026-11-01/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-10-31",
       "tema": "economia",
       "titulo": "La economía española crece un 0,6% en el tercer trimestre, impulsada por el consumo y el gasto público",

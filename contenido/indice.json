@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-11-02",
+      "tema": "economia",
+      "titulo": "Hernández de Cos y Knot, favoritos para suceder a Lagarde en un BCE que duda entre subir tipos o esperar",
+      "resumen": "Con Lagarde fuera el 7 de febrero, Hernández de Cos y Knot parten como favoritos, aunque los mercados apenas han reaccionado.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Frankfurt%20am%20Main%20-%20Banco%20Central%20Europeo%20-%20Europ%C3%A4ische%20Zentralbank%20-%2001.jpg?width=1200",
+      "archivo": "contenido/2026-11-02/economia.md"
+    },
+    {
+      "fecha": "2026-11-02",
+      "tema": "politica-espanola",
+      "titulo": "Renfe prepara una consigna para limitar a 40 km/h la marcha tras una caída del sistema LZB",
+      "resumen": "Renfe prepara una consigna para que, tras una caída del LZB, los maquinistas no superen los 40 km/h; aún no está en vigor.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Estaci%C3%B3n%20de%20Madrid%20Puerta%20de%20Atocha%2C%20tren%20AVE%20con%20destino%20Valencia%2C%20Espa%C3%B1a.%20Renfe%20serie%20112.JPG?width=1200",
+      "archivo": "contenido/2026-11-02/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-11-02",
+      "tema": "politica-internacional",
+      "titulo": "La ONU ordena desmantelar la Minurso y Guterres alerta del riesgo de escalada en el Sáhara",
+      "resumen": "La ONU ordena el desmantelamiento de la Minurso tras 35 años y Guterres alerta del riesgo de escalada entre Marruecos y el Polisario.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/International%20Day%20of%20United%20Nations%20Peacekeepers%20%2814296089491%29.jpg?width=1200",
+      "archivo": "contenido/2026-11-02/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-11-02",
+      "tema": "internacional",
+      "titulo": "Mueren nueve personas al estrellarse un jet privado en una zona residencial de Florida",
+      "resumen": "Nueve personas mueren al caer un Learjet 60 en una calle residencial de Palm Beach, Florida; la NTSB investiga las causas.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Pre-fight%2C%20Oil%20for%20the%20engine%20of%20an%20airliner%20preparatory%20to%20takeoff.%20Municipal%20airport%2C%20Washington%2C%20D.C.%20July%201941.%20-%20Flickr%20-%20polkbritton.jpg?width=1200",
+      "archivo": "contenido/2026-11-02/internacional.md"
+    },
+    {
+      "fecha": "2026-11-02",
+      "tema": "arte",
+      "titulo": "La Gioconda, el retrato inacabado que Leonardo no quiso soltar",
+      "resumen": "La sonrisa más famosa del mundo nació de una técnica lenta y de una vida errante: así llegó la Gioconda al Louvre.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Mona%20Lisa%2C%20by%20Leonardo%20da%20Vinci%2C%20from%20C2RMF%20retouched.jpg?width=1200",
+      "archivo": "contenido/2026-11-02/arte.md",
+      "asunto": "gioconda"
+    },
+    {
+      "fecha": "2026-11-02",
+      "tema": "historia",
+      "titulo": "El califato de Córdoba, la capital que deslumbró a Europa",
+      "resumen": "Del califato de Abderramán III a la fitna: así Córdoba se convirtió en la mayor ciudad de Occidente y por qué se derrumbó en 1031.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Arcos%20interiores%20Mezquita%20de%20C%C3%B3rdoba%2004.jpg?width=1200",
+      "archivo": "contenido/2026-11-02/historia.md",
+      "asunto": "califato-cordoba"
+    },
+    {
+      "fecha": "2026-11-02",
+      "tema": "literatura",
+      "titulo": "El «Cantar de mio Cid», la épica de un desterrado que gana su honra",
+      "resumen": "Un héroe desterrado, un rey que desconfía y una honra que recuperar: así nació la primera gran obra de la épica castellana.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Cantar%20de%20mio%20Cid%20f.%201r%20%28rep%29.jpg?width=1200",
+      "archivo": "contenido/2026-11-02/literatura.md",
+      "asunto": "cantar-cid"
+    },
+    {
+      "fecha": "2026-11-02",
+      "tema": "musica",
+      "titulo": "Pet Sounds",
+      "resumen": "Brian Wilson convirtió la melancolía en pop barroco; un disco que sigue sonando nuevo seis décadas después.",
+      "imagen": "https://coverartarchive.org/release-group/fdd96703-7b21-365e-bdea-38029fbeb84e/front-500",
+      "archivo": "contenido/2026-11-02/musica.md",
+      "subtitulo": "The Beach Boys",
+      "estilo": "Pop barroco",
+      "asunto": "album-pet-sounds"
+    },
+    {
+      "fecha": "2026-11-02",
+      "tema": "aprende-finanzas",
+      "titulo": "Modelo de Black-Litterman",
+      "subtitulo": "Black-Litterman model",
+      "estilo": "Gestión de carteras",
+      "resumen": "El modelo de Black-Litterman permite mezclar el equilibrio del mercado con tus opiniones sin que la cartera se vuelva extrema.",
+      "asunto": "fin-modelo-de-black-litterman",
+      "archivo": "contenido/2026-11-02/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-11-01",
       "tema": "economia",
       "titulo": "La gran banca pierde 26.700 millones de valor en Bolsa pese a una semana de beneficios récord",

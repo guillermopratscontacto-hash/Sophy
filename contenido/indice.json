@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-11-03",
+      "tema": "economia",
+      "titulo": "Apple cierra su año fiscal con ingresos récord y un beneficio un 18% mayor gracias al iPhone",
+      "resumen": "Apple cierra su año fiscal con ingresos récord de 478.834 millones de dólares y un beneficio un 18% mayor, impulsado por el iPhone.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Apple%20park%20cupertino%202019.jpg?width=1200",
+      "archivo": "contenido/2026-11-03/economia.md"
+    },
+    {
+      "fecha": "2026-11-03",
+      "tema": "politica-espanola",
+      "titulo": "Sánchez anuncia un «escudo social» para las víctimas de Urda y Feijóo se postula como alternativa de gestión",
+      "resumen": "Sánchez anuncia un escudo social para las víctimas de Urda y Feijóo reta al Gobierno a gestionar mejor, al retomarse la campaña electoral.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Palacio%20de%20la%20Moncloa%20%28Madrid%29%2001.jpg?width=1200",
+      "archivo": "contenido/2026-11-03/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-11-03",
+      "tema": "politica-internacional",
+      "titulo": "Siete carreras al Senado decidirán las elecciones de mitad de mandato en Estados Unidos",
+      "resumen": "A pocas horas de las elecciones de mitad de mandato en EE. UU., siete carreras al Senado decidirán si los demócratas arrebatan la Cámara Alta.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/United%20States%20Capitol%20-%20west%20front.jpg?width=1200",
+      "archivo": "contenido/2026-11-03/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-11-03",
+      "tema": "internacional",
+      "titulo": "Un ciberataque estropea el género de decenas de supermercados europeos al subir la temperatura de las neveras",
+      "resumen": "Un ciberataque disparó la temperatura de las neveras de decenas de supermercados en Suecia, Bélgica y otros países, tres semanas después de otro similar.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Aisle%20in%20L%20Intermarche%20supermarket%20in%20Quebec%20City.jpg?width=1200",
+      "archivo": "contenido/2026-11-03/internacional.md"
+    },
+    {
+      "fecha": "2026-11-03",
+      "tema": "arte",
+      "titulo": "La Gran Mezquita de Djenné, una catedral de barro que se renueva cada año",
+      "resumen": "La Gran Mezquita de Djenné, en Malí, es el mayor edificio de adobe del mundo y se reboza cada año entre toda la comunidad.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/MaliDjenn%C3%A9Mosqu%C3%A9e.JPG?width=1200",
+      "archivo": "contenido/2026-11-03/arte.md",
+      "asunto": "mezquita-djenne"
+    },
+    {
+      "fecha": "2026-11-03",
+      "tema": "historia",
+      "titulo": "La trata atlántica de esclavos: el mayor traslado forzoso de la historia y su larga abolición",
+      "resumen": "Entre los siglos XVI y XIX, millones de africanos fueron embarcados a la fuerza hacia América; su abolición fue lenta y desigual.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Brookes%20slave%20ship%2C%20British%20Library.jpg?width=1200",
+      "archivo": "contenido/2026-11-03/historia.md",
+      "asunto": "trata-atlantica"
+    },
+    {
+      "fecha": "2026-11-03",
+      "tema": "literatura",
+      "titulo": "Los griots y la epopeya de Sundiata, la memoria de un imperio hecha canto",
+      "resumen": "Los griots, custodios de la memoria oral de África occidental, conservan la epopeya de Sundiata Keita, fundador del imperio de Malí.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Joueur%20de%20kora%20%C3%A0%20Toubab%20Dialaw.jpg?width=1200",
+      "archivo": "contenido/2026-11-03/literatura.md",
+      "asunto": "griots"
+    },
+    {
+      "fecha": "2026-11-03",
+      "tema": "musica",
+      "titulo": "Clandestino",
+      "resumen": "El debut en solitario de Manu Chao mezcla rock, rumba, reggae y calle en un viaje por Latinoamérica que sigue sonando fresco.",
+      "imagen": "https://coverartarchive.org/release-group/24a451c9-a8f3-33f9-a4fc-5e2d00cb7816/front-500",
+      "archivo": "contenido/2026-11-03/musica.md",
+      "subtitulo": "Manu Chao",
+      "estilo": "Rock latino",
+      "asunto": "album-clandestino"
+    },
+    {
+      "fecha": "2026-11-03",
+      "tema": "aprende-finanzas",
+      "titulo": "Paridad de riesgo (risk parity)",
+      "subtitulo": "Risk parity",
+      "estilo": "Gestión de carteras",
+      "resumen": "La paridad de riesgo reparte la cartera según el riesgo que aporta cada activo, no según el dinero invertido.",
+      "asunto": "fin-paridad-de-riesgo-risk-parity",
+      "archivo": "contenido/2026-11-03/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-11-02",
       "tema": "economia",
       "titulo": "Hernández de Cos y Knot, favoritos para suceder a Lagarde en un BCE que duda entre subir tipos o esperar",

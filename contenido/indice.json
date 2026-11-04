@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-11-04",
+      "tema": "economia",
+      "titulo": "Las comunidades autónomas reducen a mínimos los préstamos del Estado y recurren más al mercado",
+      "resumen": "Las comunidades piden al mercado un 30% más y reciben el menor volumen de préstamos estatales desde 2012.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Palacio%20de%20Comunicaciones%2C%20Plaza%20de%20Cibeles%2C%20Madrid%2C%20Espa%C3%B1a%2C%202017-05-18%2C%20DD%2032-34%20HDR.jpg?width=1200",
+      "archivo": "contenido/2026-11-04/economia.md"
+    },
+    {
+      "fecha": "2026-11-04",
+      "tema": "politica-espanola",
+      "titulo": "Óscar Puente dimite como ministro de Transportes y renuncia a encabezar la lista del PSOE por Valladolid",
+      "resumen": "Óscar Puente anuncia por sorpresa su dimisión en el Congreso, seis días después del accidente de Urda.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/%C2%AE%20MADRID%20E.U.S.%20CONGRESO%20DE%20LOS%20DIPUTADOS%20-%20panoramio%20%285%29.jpg?width=1200",
+      "archivo": "contenido/2026-11-04/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-11-04",
+      "tema": "politica-internacional",
+      "titulo": "Las legislativas de EE. UU. arrancan con participación récord en los estados clave del Senado",
+      "resumen": "Estados Unidos vota en las legislativas con participación récord en estados clave del Senado.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Washington%20DC%20Skyline%20Illustration.jpg?width=1200",
+      "archivo": "contenido/2026-11-04/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-11-04",
+      "tema": "internacional",
+      "titulo": "El Gobierno obliga a los ayuntamientos a multar ya en las zonas de bajas emisiones",
+      "resumen": "El Consejo de Ministros obliga a los ayuntamientos a aplicar ya multas en las zonas de bajas emisiones.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Malaysia%20Federal%20Highway%20Traffic%20Jam.jpg?width=1200",
+      "archivo": "contenido/2026-11-04/internacional.md"
+    },
+    {
+      "fecha": "2026-11-04",
+      "tema": "arte",
+      "titulo": "«El pensador»: cómo un detalle de una puerta infernal se convirtió en icono universal",
+      "resumen": "De remate de una puerta monumental a símbolo universal del pensamiento: la historia de «El pensador» de Rodin.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Le%20Penseur%20Mus%C3%A9e%20Rodin%20Paris%20S.1295.jpg?width=1200",
+      "archivo": "contenido/2026-11-04/arte.md",
+      "asunto": "pensador-rodin"
+    },
+    {
+      "fecha": "2026-11-04",
+      "tema": "historia",
+      "titulo": "Tikal y el mundo de las ciudades-estado mayas del periodo clásico",
+      "resumen": "Tikal fue una de las grandes metrópolis mayas: templos, rivalidades políticas y una caída aún en estudio.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Tikal%20Temple1%202006%2008%2011.JPG?width=1200",
+      "archivo": "contenido/2026-11-04/historia.md",
+      "asunto": "tikal"
+    },
+    {
+      "fecha": "2026-11-04",
+      "tema": "literatura",
+      "titulo": "«Moby Dick»: la novela que fracasó en vida de Melville y acabó siendo clásico",
+      "resumen": "«Moby Dick», fracaso en su tiempo y clásico después: una novela sobre una ballena, una obsesión y el siglo XIX.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Beale%20-%20Boats%20attacking%20whales.jpg?width=1200",
+      "archivo": "contenido/2026-11-04/literatura.md",
+      "asunto": "moby-dick"
+    },
+    {
+      "fecha": "2026-11-04",
+      "tema": "musica",
+      "titulo": "To Pimp a Butterfly",
+      "resumen": "Un disco ambicioso de jazz, funk y hip hop que convirtió a Kendrick Lamar en voz de su generación.",
+      "imagen": "https://coverartarchive.org/release-group/d9103c72-3807-4378-9ce7-b6f3e8fdd547/front-500",
+      "archivo": "contenido/2026-11-04/musica.md",
+      "subtitulo": "Kendrick Lamar",
+      "estilo": "Hip hop",
+      "asunto": "album-to-pimp-a-butterfly"
+    },
+    {
+      "fecha": "2026-11-04",
+      "tema": "aprende-finanzas",
+      "titulo": "Inversión por factores: valor, momentum y calidad",
+      "subtitulo": "Factor investing",
+      "estilo": "Gestión de carteras",
+      "resumen": "Valor, momentum y calidad: los factores con los que los gestores explican por qué ciertas acciones rinden más.",
+      "asunto": "fin-inversion-por-factores-valor-momentum-y-calidad",
+      "archivo": "contenido/2026-11-04/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-11-03",
       "tema": "economia",
       "titulo": "Apple cierra su año fiscal con ingresos récord y un beneficio un 18% mayor gracias al iPhone",

@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-11-05",
+      "tema": "economia",
+      "titulo": "El Ibex 35 sube un 3% y el Brent cae un 8% tras la victoria demócrata en las legislativas de EE. UU.",
+      "resumen": "El Ibex 35 sube un 3% en su mejor sesión desde abril, el petróleo cae un 8% y el oro supera los 4.000 euros tras las elecciones de EE. UU.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Wall-Street-Sign-New-York.jpg?width=1200",
+      "archivo": "contenido/2026-11-05/economia.md"
+    },
+    {
+      "fecha": "2026-11-05",
+      "tema": "politica-espanola",
+      "titulo": "Dimite el presidente de Adif, Marco de la Peña, un día después de la salida de Puente",
+      "resumen": "Luis Pedro Marco de la Peña deja la presidencia de Adif ante Carlos Cuerpo, un día después de la dimisión de Óscar Puente.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/RENFE%20100%20Hornachuelos.jpg?width=1200",
+      "archivo": "contenido/2026-11-05/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-11-05",
+      "tema": "politica-internacional",
+      "titulo": "Los demócratas recuperan la Cámara y el Senado en las legislativas de EE. UU.",
+      "resumen": "Los demócratas recuperan la Cámara y el Senado en las legislativas de EE. UU.; Trump defiende la guerra de Irán pese al castigo en las urnas.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/US%20Capitol%20west%20side.JPG?width=1200",
+      "archivo": "contenido/2026-11-05/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-11-05",
+      "tema": "internacional",
+      "titulo": "Bruselas pide a España acelerar el sistema ERTMS tras los accidentes de Adamuz y Urda",
+      "resumen": "Bruselas ve «muy preocupantes» los accidentes de Adamuz y Urda y pide acelerar el ERTMS; los ingenieros cifran en 10.000 millones el mantenimiento.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Edificio%20Berlaymont%2C%20Bruselas%2C%20B%C3%A9lgica%2C%202021-12-15%2C%20DD%20107.jpg?width=1200",
+      "archivo": "contenido/2026-11-05/internacional.md"
+    },
+    {
+      "fecha": "2026-11-05",
+      "tema": "arte",
+      "titulo": "Las líneas de Nazca: un mensaje a escala de desierto",
+      "resumen": "Figuras gigantes trazadas sobre el desierto peruano hace dos milenios, visibles solo desde el aire: ¿para qué las hicieron los nazca?",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/L%C3%ADneas%20de%20Nazca%2C%20Nazca%2C%20Per%C3%BA%2C%202015-07-29%2C%20DD%2052.JPG?width=1200",
+      "archivo": "contenido/2026-11-05/arte.md",
+      "asunto": "lineas-nazca"
+    },
+    {
+      "fecha": "2026-11-05",
+      "tema": "historia",
+      "titulo": "Stonehenge: el círculo de piedras que aún guarda secretos",
+      "resumen": "Un círculo de piedras de hace unos 5.000 años, transportadas desde cientos de kilómetros: lo que sabemos y lo que sigue en debate sobre Stonehenge.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Stonehenge%2C%20Condado%20de%20Wiltshire%2C%20Inglaterra%2C%202014-08-12%2C%20DD%2009.JPG?width=1200",
+      "archivo": "contenido/2026-11-05/historia.md",
+      "asunto": "stonehenge"
+    },
+    {
+      "fecha": "2026-11-05",
+      "tema": "literatura",
+      "titulo": "Edgar Allan Poe y el nacimiento del relato policial",
+      "resumen": "En 1841, Edgar Allan Poe inventó con un solo cuento el esquema del detective, el misterio y el desenlace lógico que aún usamos.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Edgar%20Allan%20Poe%2C%20circa%201849%2C%20restored%2C%20squared%20off.jpg?width=1200",
+      "archivo": "contenido/2026-11-05/literatura.md",
+      "asunto": "poe"
+    },
+    {
+      "fecha": "2026-11-05",
+      "tema": "musica",
+      "titulo": "The Köln Concert",
+      "resumen": "Un concierto improvisado de piano solo, grabado en Colonia en 1975, que se convirtió en uno de los discos de jazz más vendidos de la historia.",
+      "imagen": "https://coverartarchive.org/release-group/516d4629-7bf3-3ac3-907a-ed9a022db840/front-500",
+      "archivo": "contenido/2026-11-05/musica.md",
+      "subtitulo": "Keith Jarrett",
+      "estilo": "Jazz (piano solo)",
+      "asunto": "album-the-koln-concert"
+    },
+    {
+      "fecha": "2026-11-05",
+      "tema": "aprende-finanzas",
+      "titulo": "Teoría de valoración por arbitraje frente al CAPM",
+      "subtitulo": "Arbitrage pricing theory versus CAPM",
+      "estilo": "Gestión de carteras",
+      "resumen": "El CAPM explica el rendimiento con un solo factor; la APT admite varios. Qué cambia y por qué importa al construir una cartera.",
+      "asunto": "fin-teoria-de-valoracion-por-arbitraje-frente-al-cap",
+      "archivo": "contenido/2026-11-05/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-11-04",
       "tema": "economia",
       "titulo": "Las comunidades autónomas reducen a mínimos los préstamos del Estado y recurren más al mercado",

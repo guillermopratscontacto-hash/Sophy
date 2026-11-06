@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-11-06",
+      "tema": "economia",
+      "titulo": "El salario mínimo subirá un 5,3% en 2027 sin acuerdo con sindicatos ni patronal",
+      "resumen": "Trabajo fija en 1.286 euros el salario mínimo de 2027, sin el respaldo formal de sindicatos ni patronal.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Distant%20construction%20cranes%20on%20Toronto%27s%20skyline%2C%202016-08-07%20%286%29%20-%20panoramio.jpg?width=1200",
+      "archivo": "contenido/2026-11-06/economia.md"
+    },
+    {
+      "fecha": "2026-11-06",
+      "tema": "politica-espanola",
+      "titulo": "La UCO detiene a seis personas y registra la casa de Ábalos en una nueva pieza secreta del caso Koldo",
+      "resumen": "La UCO detiene a seis personas y registra la casa de Ábalos en una nueva pieza secreta del caso Koldo.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Audiencia-Nacional-141115.jpg?width=1200",
+      "archivo": "contenido/2026-11-06/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-11-06",
+      "tema": "politica-internacional",
+      "titulo": "Santiago Peña dimite como presidente de Paraguay por el colapso de Ueno Bank",
+      "resumen": "Santiago Peña dimite como presidente de Paraguay tras el colapso de Ueno Bank y el retiro de apoyo de su partido.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Palacio%20de%20los%20L%C3%B3pez%20Asunci%C3%B3n%201.jpg?width=1200",
+      "archivo": "contenido/2026-11-06/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-11-06",
+      "tema": "internacional",
+      "titulo": "Francia vive su mayor jornada de protestas por los salarios desde septiembre",
+      "resumen": "Francia vive su mayor jornada de protestas desde septiembre: 575.000 manifestantes según Interior y 1,6 millones según la CGT.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/24th%20March%20University%20of%20Manchester%20Protest%20banner.jpg?width=1200",
+      "archivo": "contenido/2026-11-06/internacional.md"
+    },
+    {
+      "fecha": "2026-11-06",
+      "tema": "arte",
+      "titulo": "«El beso» de Klimt: el oro como lenguaje del deseo",
+      "resumen": "«El beso» de Klimt, icono del Modernismo vienés, mezcla oro bizantino y erotismo en un abrazo suspendido fuera del tiempo.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Kiss%20-%20Gustav%20Klimt%20-%20Google%20Cultural%20Institute.jpg?width=1200",
+      "archivo": "contenido/2026-11-06/arte.md",
+      "asunto": "beso-klimt"
+    },
+    {
+      "fecha": "2026-11-06",
+      "tema": "historia",
+      "titulo": "Gandhi y la Marcha de la Sal: desobedecer una ley con un puñado de sal",
+      "resumen": "En 1930, Gandhi recorrió 385 km a pie hasta el mar para desafiar el monopolio británico de la sal.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Marche%20sel.jpg?width=1200",
+      "archivo": "contenido/2026-11-06/historia.md",
+      "asunto": "marcha-sal"
+    },
+    {
+      "fecha": "2026-11-06",
+      "tema": "literatura",
+      "titulo": "Li Bai, el poeta que bebía con la luna",
+      "resumen": "Li Bai, el «inmortal de la poesía», llevó el vino, la luna y la libertad a la cumbre de la lírica Tang.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Liang%20Kai%20-%20Li%20Bai%20Strolling.jpg?width=1200",
+      "archivo": "contenido/2026-11-06/literatura.md",
+      "asunto": "li-bai"
+    },
+    {
+      "fecha": "2026-11-06",
+      "tema": "musica",
+      "titulo": "Songs in the Key of Life",
+      "resumen": "Stevie Wonder firmó en 1976 un doble álbum desbordante de soul, funk y jazz, uno de los grandes discos del siglo XX.",
+      "imagen": "https://coverartarchive.org/release-group/ea88b09b-fd34-33cf-a3e5-25a3a2fb4c6f/front-500",
+      "archivo": "contenido/2026-11-06/musica.md",
+      "subtitulo": "Stevie Wonder",
+      "estilo": "Soul y funk",
+      "asunto": "album-songs-in-the-key-of-life"
+    },
+    {
+      "fecha": "2026-11-06",
+      "tema": "aprende-finanzas",
+      "titulo": "Modigliani-Miller con fricciones",
+      "subtitulo": "Modigliani-Miller with frictions",
+      "estilo": "Finanzas corporativas",
+      "resumen": "Modigliani-Miller dice que la deuda no crea valor en un mundo perfecto; con fricciones reales, la estructura de capital sí importa.",
+      "asunto": "fin-modigliani-miller-con-fricciones",
+      "archivo": "contenido/2026-11-06/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-11-05",
       "tema": "economia",
       "titulo": "El Ibex 35 sube un 3% y el Brent cae un 8% tras la victoria demócrata en las legislativas de EE. UU.",

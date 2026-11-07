@@ -93,6 +93,62 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-11-07",
+      "tema": "economia",
+      "titulo": "Hernández de Cos y Knot, únicos aspirantes a suceder a Lagarde al frente del BCE",
+      "resumen": "Hernández de Cos y Knot, únicos candidatos a presidir el BCE; el Eurogrupo los examina el lunes.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Bull%20an%20Bear%20in%20Frankfurt%20stock%20exchange.jpg?width=1200",
+      "archivo": "contenido/2026-11-07/economia.md"
+    },
+    {
+      "fecha": "2026-11-07",
+      "tema": "arte",
+      "titulo": "El Partenón, de templo de Atenea a símbolo en disputa",
+      "resumen": "El templo que Atenas levantó en el siglo V a. C. y la larga disputa por sus esculturas.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Attica%2006-13%20Athens%2050%20View%20from%20Philopappos%20-%20Acropolis%20Hill.jpg?width=1200",
+      "archivo": "contenido/2026-11-07/arte.md",
+      "asunto": "partenon"
+    },
+    {
+      "fecha": "2026-11-07",
+      "tema": "historia",
+      "titulo": "El canal de Panamá: la zanja que unió dos océanos",
+      "resumen": "Una obra de ingeniería y de enfermedad: cómo se abrió el canal que unió dos océanos.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Labourers%20at%20work%20on%20the%20panama%20canal%20at%20Culebra%20Cut%201904.jpg?width=1200",
+      "archivo": "contenido/2026-11-07/historia.md",
+      "asunto": "canal-panama"
+    },
+    {
+      "fecha": "2026-11-07",
+      "tema": "literatura",
+      "titulo": "Lorca y el «Romancero gitano»: la tradición convertida en mito",
+      "resumen": "Cómo Lorca convirtió el romance popular en un mundo de luna, metal y destino trágico.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Salvador%20Dal%C3%AD%2C%20Federico%20Garc%C3%ADa%20Lorca%2C%20Barcelona%2C%201925.jpg?width=1200",
+      "archivo": "contenido/2026-11-07/literatura.md",
+      "asunto": "lorca"
+    },
+    {
+      "fecha": "2026-11-07",
+      "tema": "musica",
+      "titulo": "Unknown Pleasures",
+      "resumen": "El debut de Joy Division: un disco frío y oscuro que definió el post-punk.",
+      "imagen": "https://coverartarchive.org/release-group/42352def-1aab-3000-b548-895ebd869cb6/front-500",
+      "archivo": "contenido/2026-11-07/musica.md",
+      "subtitulo": "Joy Division",
+      "estilo": "Post-punk",
+      "asunto": "album-unknown-pleasures"
+    },
+    {
+      "fecha": "2026-11-07",
+      "tema": "aprende-finanzas",
+      "titulo": "Estructura de capital: trade-off frente a pecking order",
+      "subtitulo": "Trade-off theory versus pecking order",
+      "estilo": "Finanzas corporativas",
+      "resumen": "¿Se endeuda una empresa para equilibrar ventajas, o por orden de comodidad? Dos teorías, un debate abierto.",
+      "asunto": "fin-estructura-de-capital-trade-off-frente-a-pecking",
+      "archivo": "contenido/2026-11-07/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-11-06",
       "tema": "economia",
       "titulo": "El salario mínimo subirá un 5,3% en 2027 sin acuerdo con sindicatos ni patronal",

@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-11-08",
+      "tema": "economia",
+      "titulo": "El BOE obliga a mantener abierto el 20% de las gasolineras durante la huelga general del 11N",
+      "resumen": "El BOE fija que el 20% de las gasolineras abra el 11N y que nucleares y térmicas sigan disponibles durante la huelga general.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Xinyi%20Nantou%20Taiwan%20CCPC-Petrol-Station-01.jpg?width=1200",
+      "archivo": "contenido/2026-11-08/economia.md"
+    },
+    {
+      "fecha": "2026-11-08",
+      "tema": "politica-espanola",
+      "titulo": "El bonus de la cúpula de Adif irrumpe en la campaña del 29N mientras las encuestas apenas se mueven",
+      "resumen": "El bonus blindado de Adif reactiva la campaña del 29N: Feijóo y Abascal lo atacan, mientras las encuestas apenas se mueven tras Urda.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Madryt%20-%20budynek%20parlamentu%2C%20edificio%20del%20parlamento%20-%20panoramio.jpg?width=1200",
+      "archivo": "contenido/2026-11-08/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-11-08",
+      "tema": "politica-internacional",
+      "titulo": "Seis muertos en un atentado en la plaza del Mercado de Cracovia",
+      "resumen": "Un atacante de 24 o 25 años mata a seis personas en la plaza del Mercado de Cracovia; Tusk lo califica de atentado y decreta dos días de luto.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Warsaw%202023%20039%20Palace%20Cathedral%20Skyline.jpg?width=1200",
+      "archivo": "contenido/2026-11-08/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-11-08",
+      "tema": "internacional",
+      "titulo": "El Papa pide en Uruguay «ser puentes» en la primera misa de su viaje a América Latina",
+      "resumen": "León XIV celebra en Paysandú su primera misa de la gira latinoamericana y pide a 40.000 fieles «ser puentes» y transmitir la fe con «valentía creativa».",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope%20Leo%20XIV%202.jpg?width=1200",
+      "archivo": "contenido/2026-11-08/internacional.md"
+    },
+    {
+      "fecha": "2026-11-08",
+      "tema": "arte",
+      "titulo": "El tapiz de Bayeux, la conquista de Inglaterra contada en lana",
+      "resumen": "Setenta metros de lino bordado cuentan la conquista de Inglaterra en 1066 con una viveza que ningún cronista escrito igualó.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Bayeux%20Tapestry%20scene57%20Harold%20death.jpg?width=1200",
+      "archivo": "contenido/2026-11-08/arte.md",
+      "asunto": "tapiz-bayeux"
+    },
+    {
+      "fecha": "2026-11-08",
+      "tema": "historia",
+      "titulo": "Los navegantes polinesios, los exploradores que poblaron el Pacífico",
+      "resumen": "Sin brújula ni mapas, los polinesios cruzaron el mayor océano del planeta guiándose por estrellas, olas y pájaros.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/H%C5%8Dk%C5%ABle%CA%BBa%20voyaging%20canoe%20behind%20Hawaii%20convention%20Center.jpg?width=1200",
+      "archivo": "contenido/2026-11-08/historia.md",
+      "asunto": "navegantes-polinesios"
+    },
+    {
+      "fecha": "2026-11-08",
+      "tema": "literatura",
+      "titulo": "Emily Dickinson, la poeta que escribió en una habitación y cambió la poesía",
+      "resumen": "Casi nadie leyó a Emily Dickinson en vida; hoy sus versos breves y sus guiones la sitúan entre los grandes de la poesía moderna.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Black-white%20photograph%20of%20Emily%20Dickinson2.jpg?width=1200",
+      "archivo": "contenido/2026-11-08/literatura.md",
+      "asunto": "emily-dickinson"
+    },
+    {
+      "fecha": "2026-11-08",
+      "tema": "musica",
+      "titulo": "Mediterráneo",
+      "resumen": "Serrat pone música a su Mediterráneo en un disco de 1971 que mezcla ternura, nostalgia y canción de autor imperecedera.",
+      "imagen": "https://coverartarchive.org/release-group/7c6dc4b6-c408-3225-95e6-9b902f9e4d79/front-500",
+      "archivo": "contenido/2026-11-08/musica.md",
+      "subtitulo": "Joan Manuel Serrat",
+      "estilo": "Canción de autor",
+      "asunto": "album-mediterraneo"
+    },
+    {
+      "fecha": "2026-11-08",
+      "tema": "aprende-finanzas",
+      "titulo": "Coste medio ponderado del capital y su circularidad",
+      "subtitulo": "WACC and circularity",
+      "estilo": "Finanzas corporativas",
+      "resumen": "El WACC parece una media simple, pero depende del valor de la empresa que a su vez calcula: entender esa circularidad evita errores de valoración.",
+      "asunto": "fin-coste-medio-ponderado-del-capital-y-su-circulari",
+      "archivo": "contenido/2026-11-08/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-11-07",
       "tema": "economia",
       "titulo": "Hernández de Cos y Knot, únicos aspirantes a suceder a Lagarde al frente del BCE",

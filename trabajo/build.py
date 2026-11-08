@@ -238,9 +238,10 @@ if ESCRIBIR:
     io.open(R + "rutina/conceptos.json", "w", encoding="utf-8", newline="\n").write(json.dumps(viejos_c + orden_c, ensure_ascii=False, indent=1) + "\n")
     pj = leer(R + "contenido/geografia/paises.json")
     ya = {x["id"] for x in pj["paises"]}
-    pj["paises"] += [x for x in paises_nuevos if x["id"] not in ya]
+    con_ficha = {r.split("/")[-1][:-3] for r in salida if r.startswith("contenido/geografia/")}
+    pj["paises"] += [x for x in paises_nuevos if x["id"] not in ya and x["id"] in con_ficha]
     io.open(R + "contenido/geografia/paises.json", "w", encoding="utf-8", newline="\n").write(json.dumps(pj, ensure_ascii=False, indent=2) + "\n")
     gal = leer(R + "contenido/geografia/galerias.json")
-    gal.update(galerias_nuevas)
+    gal.update({k: v for k, v in galerias_nuevas.items() if k in con_ficha})
     io.open(R + "contenido/geografia/galerias.json", "w", encoding="utf-8", newline="\n").write(json.dumps(gal, ensure_ascii=False, indent=1) + "\n")
     print("Escrito.")

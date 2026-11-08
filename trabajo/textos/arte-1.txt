@@ -58,7 +58,7 @@ titulo: Los relieves de Borobudur: un libro de piedra que se lee subiendo hacia 
 data: Java (Indonesia), siglos VIII-IX
 alt: Panel en relieve de Borobudur con figuras talladas en piedra volcánica
 pie: Uno de los paneles en relieve del templo budista de Borobudur, en Java
-saber: Borobudur | Budismo | Dinastía Shailendra
+saber: Borobudur | Budismo | Dinastía Sailendra
 
 En el centro de la isla de Java, rodeado de volcanes y arrozales, se levanta Borobudur, **el mayor monumento budista del mundo**. Fue construido entre finales del siglo VIII y comienzos del IX, en tiempos de la dinastía Shailendra, con cientos de miles de bloques de piedra volcánica. No tiene salas interiores: es una montaña artificial que el peregrino recorre por fuera, terraza a terraza.
 

@@ -66,7 +66,7 @@ HISTORIA = [
     ("armisticio-1918", "El armisticio del 11 de noviembre de 1918", ["Armistice of 11 November 1918"]),
     ("persepolis", "Persépolis y el Imperio aqueménida", []),
     ("lepanto", "La batalla de Lepanto", ["Battle of Lepanto"]),
-    ("navegantes-polinesios", "Los navegantes polinesios y el poblamiento del Pacífico", []),
+    ("sufragio-nueva-zelanda", "Nueva Zelanda, el primer país donde votaron las mujeres", ["Women's suffrage in New Zealand", "Kate Sheppard"]),
     ("gran-muralla", "La Gran Muralla china", ["Great Wall of China"]),
     ("maquina-vapor", "La máquina de vapor y la Revolución Industrial", []),
     ("alejandro-magno", "Alejandro Magno y su imperio", ["Alexander the Great"]),
@@ -117,7 +117,7 @@ HISTORIA = [
 ]
 
 LITERATURA = [
-    ("emily-dickinson", "Emily Dickinson y sus poemas", []),
+    ("jane-eyre", "«Jane Eyre», de Charlotte Brontë", ["Jane Eyre", "Charlotte Brontë"]),
     ("madame-bovary", "«Madame Bovary», de Flaubert", ["Madame Bovary", "Gustave Flaubert"]),
     ("veinte-poemas-neruda", "«Veinte poemas de amor y una canción desesperada», de Neruda", ["Twenty Love Poems and a Song of Despair", "Pablo Neruda"]),
     ("ngugi", "Ngũgĩ wa Thiong'o y la decisión de escribir novelas en kikuyu", []),

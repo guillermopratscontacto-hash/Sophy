@@ -3,7 +3,7 @@ QUITAR = ["Medida neutral al riesgo y cambio de numerario", "Volatilidad local d
           "Modelo de Heston", "Modelo SABR", "Impacto de mercado y ejecución óptima de Almgren-Chriss",
           "Lema de Itô y ecuación de Black-Scholes"]
 ORDEN = [
-    "Coste medio ponderado del capital y su circularidad",
+    ("Valor actual neto frente a tasa interna de retorno", "NPV versus IRR", "Finanzas corporativas"),
     ("Diferencial de crédito y prima por impago", "Credit spread and default premium", "Crédito"),
     "Trilema de Mundell-Fleming",
     ("Griegas de las opciones: delta, gamma, vega y theta", "Option Greeks", "Derivados"),

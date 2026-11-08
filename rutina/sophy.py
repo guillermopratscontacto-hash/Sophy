@@ -6,7 +6,7 @@
   python3 rutina/sophy.py leer URL URL ...    texto de varios artículos de prensa, limpio y recortado
   python3 rutina/sophy.py publicar            valida la edición, actualiza el índice y la sube
 """
-import datetime, email.utils, html, io, json, os, re, subprocess, sys, time
+import datetime, email.utils, html, io, json, os, re, shutil, subprocess, sys, time
 import urllib.error, urllib.parse, urllib.request
 import xml.etree.ElementTree as ET
 
@@ -75,6 +75,17 @@ def bajar(url, espera=20):
     pet = urllib.request.Request(url, headers={"User-Agent": AGENTE})
     with urllib.request.urlopen(pet, timeout=espera) as r:
         return r.read(), r.headers.get("Content-Type", "")
+
+
+BORRADORES = os.path.join(RAIZ, "rutina", "borradores")
+
+
+def borradores(d):
+    """Piezas escritas de antemano para el día d: {tema: ruta}. Solo cuentan las de esa fecha exacta."""
+    carpeta = os.path.join(BORRADORES, d.isoformat())
+    if not os.path.isdir(carpeta):
+        return {}
+    return {f[:-3]: os.path.join(carpeta, f) for f in sorted(os.listdir(carpeta)) if f.endswith(".md")}
 
 
 def url_imagen(archivo, ancho=1200):
@@ -175,6 +186,9 @@ def preparar():
         return
     print(f"Escribe los archivos en contenido/{d.isoformat()}/ (crea la carpeta al escribir el primero).")
     ya = usadas(indice)
+    listos = borradores(d)
+    if listos:
+        print(f"\n== YA ESCRITAS DE ANTEMANO: {', '.join(listos)}. No las escribas ni las leas: `publicar` las copia sola. ==")
 
     print("\n== NEWS YA PUBLICADAS (no repitas el mismo hecho; si la historia sigue, cuenta solo lo nuevo) ==")
     limite = (d - datetime.timedelta(days=7)).isoformat()
@@ -186,6 +200,9 @@ def preparar():
     temas = leer_json(os.path.join(RAIZ, "rutina", "temas.json"))
     hechos = {e.get("asunto") for e in indice["entradas"]}
     for tema in CULTURA:
+        if tema in listos:
+            print(f"{tema}: ya escrita.")
+            continue
         libre = next((t for t in temas.get(tema, []) if t["id"] not in hechos and clave_imagen(t["imagen"]) not in ya), None)
         if libre:
             print(f"{tema}: {libre['asunto']}  [asunto={libre['id']}]")
@@ -199,7 +216,9 @@ def preparar():
 
     print("\n== MÚSICA DE HOY (álbum y portada ya decididos: solo hay que escribir la recomendación) ==")
     album = next((a for a in leer_json(os.path.join(RAIZ, "rutina", "albumes.json")) if a["id"] not in hechos), None)
-    if album:
+    if MUSICA in listos:
+        print("musica: ya escrita.")
+    elif album:
         print(f"musica: «{album['album']}» ({album['anio']}), de {album['artista']} · estilo: {album['estilo']}  [asunto={album['id']}]")
         print(f"  portada: {url_portada(album['mbid'])}")
     else:
@@ -207,7 +226,9 @@ def preparar():
 
     print("\n== FINANZAS ==")
     concepto = next((c for c in leer_json(os.path.join(RAIZ, "rutina", "conceptos.json")) if c["id"] not in hechos), None)
-    if concepto:
+    if APRENDE in listos:
+        print("aprende-finanzas: ya escrita.")
+    elif concepto:
         print(f"aprende-finanzas (diario): «{concepto['concepto']}» · término: {concepto['termino']} · área: {concepto['area']}  [asunto={concepto['id']}]")
     else:
         print("aprende-finanzas: LISTA AGOTADA. No escribas aprende-finanzas.md.")
@@ -408,6 +429,13 @@ def publicar():
     literal = os.path.join(RAIZ, "contenido", "HOY")
     if os.path.isdir(literal) and not os.path.isdir(carpeta):
         os.rename(literal, carpeta)
+    # Las piezas escritas de antemano para hoy se copian a la carpeta del día (sin pisar las que ya estén).
+    listos = borradores(hoy())
+    for tema, ruta in listos.items():
+        destino = os.path.join(carpeta, tema + ".md")
+        if not os.path.exists(destino):
+            os.makedirs(carpeta, exist_ok=True)
+            shutil.copyfile(ruta, destino)
     indice = leer_json(INDICE)
     if any(e["fecha"] == d for e in indice["entradas"]):
         sys.exit("La edición de hoy ya está en el índice.")
@@ -540,6 +568,9 @@ def publicar():
     if "--sin-subir" in sys.argv:
         print(f"Validado ({len(nuevas)} piezas). No se ha hecho commit por --sin-subir.")
         return
+    if listos:
+        shutil.rmtree(os.path.join(BORRADORES, d), ignore_errors=True)
+        git("add", "-A", f"rutina/borradores/{d}")
     git("add", f"contenido/{d}", "contenido/indice.json")
     codigo, salida = git("commit", "-m", mensaje)
     if codigo:

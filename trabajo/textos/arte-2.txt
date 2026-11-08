@@ -202,7 +202,7 @@ titulo: El Gran Buda de Kamakura: un gigante de bronce que medita a la intemperi
 data: Kamakura (Japón), siglo XIII
 alt: El Gran Buda de Kamakura, una enorme estatua sentada de bronce al aire libre
 pie: El Gran Buda del templo Kōtoku-in, en Kamakura
-saber: Gran Buda de Kamakura | Kamakura | Budismo de la Tierra Pura
+saber: Kōtoku-in | Kamakura | Budismo de la Tierra Pura
 
 En el templo Kōtoku-in de Kamakura, una ciudad costera al sur de Tokio, una enorme figura de bronce medita sentada al aire libre desde hace siglos. Es el Gran Buda, o Daibutsu, **una de las estatuas más famosas de Japón**. Mide más de once metros de altura con su pedestal y pesa unas 120 toneladas.
 

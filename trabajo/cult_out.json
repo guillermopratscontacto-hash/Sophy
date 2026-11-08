@@ -1118,5 +1118,21 @@
   "ancho": 2378,
   "alto": 3238,
   "titulo": "Mario Vargas Llosa"
+ },
+ "historia/sufragio-nueva-zelanda": {
+  "imagen": "Tribute to the Suffragettes, Christchurch, NZ - cropped.jpg",
+  "autor": "Robert Cutts",
+  "licencia": "CC BY 2.0",
+  "ancho": 571,
+  "alto": 699,
+  "titulo": "Women's suffrage in New Zealand"
+ },
+ "literatura/jane-eyre": {
+  "imagen": "Jane Eyre title page.jpg",
+  "autor": "Unknown author Unknown author",
+  "licencia": "dominio público",
+  "ancho": 1024,
+  "alto": 1755,
+  "titulo": "Jane Eyre"
  }
 }

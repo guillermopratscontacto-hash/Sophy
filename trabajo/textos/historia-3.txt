@@ -40,7 +40,7 @@ titulo: Zheng He: las flotas del tesoro con las que China llegó hasta África
 data: Océano Índico, 1405-1433
 alt: Estatua de piedra del almirante Zheng He en la ciudad de Malaca
 pie: Estatua de Zheng He en Malaca (Malasia), uno de los puertos que visitaron sus flotas
-saber: Zheng He | Viajes de Zheng He | Dinastía Ming
+saber: Zheng He | Dinastía Ming
 
 En 1405, casi noventa años antes del primer viaje de Colón, zarpó de China una flota formidable: según las fuentes chinas, más de sesenta grandes naves y unos doscientos barcos de apoyo, con cerca de 27.000 hombres a bordo. La mandaba **el almirante Zheng He**, y su destino eran los puertos del océano Índico.
 
@@ -202,7 +202,7 @@ titulo: Solimán el Magnífico: el sultán que llevó al Imperio otomano a su ap
 data: Imperio otomano, 1520-1566
 alt: Retrato del sultán Solimán el Magnífico con un gran turbante, atribuido al círculo de Tiziano
 pie: Retrato de Solimán el Magnífico, atribuido al círculo de Tiziano, en el Museo de Historia del Arte de Viena
-saber: Solimán el Magnífico | Imperio otomano | Sitio de Viena (1529)
+saber: Solimán el Magnífico | Imperio otomano | Sitio de Viena
 
 En 1520, un hombre de unos veinticinco años heredó el trono del Imperio otomano, que ya dominaba Anatolia, los Balcanes, Siria y Egipto. Durante sus 46 años de reinado, el más largo de la dinastía, **lo convirtió en una de las mayores potencias del mundo**. En Europa le llamaron el Magnífico; sus súbditos le conocían como Kanuni, «el legislador».
 

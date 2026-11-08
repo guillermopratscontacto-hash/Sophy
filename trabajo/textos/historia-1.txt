@@ -89,22 +89,22 @@ Entre los soldados españoles estaba un joven de veinticuatro años llamado Migu
 Las consecuencias inmediatas fueron limitadas. La Liga no aprovechó la victoria, Venecia firmó la paz con los otomanos en 1573 y renunció a Chipre, y el sultán reconstruyó su flota en pocos meses. Pero Lepanto tuvo un enorme valor simbólico: mostró que la armada otomana podía ser derrotada y marcó el inicio de un cierto equilibrio en el Mediterráneo.
 
 @@ 2026-11-14
-resumen: Sin brújula ni instrumentos, los navegantes polinesios colonizaron el mayor océano del planeta leyendo las estrellas, el oleaje y los pájaros.
-titulo: Los navegantes polinesios: cómo se pobló el océano más grande del mundo
-data: Océano Pacífico, entre 1000 a. C. y 1300 d. C.
-alt: La canoa de doble casco Hōkūleʻa navegando cerca de la costa de Hawái
-pie: La Hōkūleʻa, réplica de una canoa polinesia de doble casco, en Hawái
-saber: Polinesia | Navegación polinesia | Hōkūleʻa
+resumen: En 1893, Nueva Zelanda se convirtió en el primer país del mundo en reconocer el voto a las mujeres. Lo logró una campaña de firmas sin precedentes.
+titulo: Nueva Zelanda, 1893: el primer país donde votaron las mujeres
+data: Nueva Zelanda, 1893
+alt: Monumento de bronce en Christchurch que representa a varias sufragistas neozelandesas con sus pliegos de firmas
+pie: Monumento a las sufragistas en Christchurch, Nueva Zelanda, con la figura de Kate Sheppard
+saber: Sufragio femenino | Kate Sheppard | Nueva Zelanda
 
-El triángulo polinesio, con vértices en Hawái, Nueva Zelanda y la isla de Pascua, cubre una superficie de océano mayor que la de Europa y Asia juntas. Sus islas, pequeñas y separadas por miles de kilómetros de agua, fueron colonizadas por seres humanos mucho antes de que los europeos se atrevieran a alejarse de sus costas. Fue **una de las grandes hazañas de exploración de la historia**.
+El 19 de septiembre de 1893, el gobernador de Nueva Zelanda, entonces una colonia británica con autogobierno, firmó una ley electoral que concedía el derecho de voto a todas las mujeres mayores de 21 años. **Nueva Zelanda se convirtió así en el primer país del mundo** con un parlamento nacional en el que las mujeres podían votar. Diez semanas después, en las elecciones generales de noviembre, acudieron a las urnas más de 90.000 neozelandesas.
 
-El origen de estos navegantes está en el sudeste asiático y Taiwán. Pueblos de lengua austronesia se expandieron por las islas del Pacífico occidental, y hacia el 1000 a. C. una cultura conocida por su cerámica, llamada lapita, llegó a Fiyi, Tonga y Samoa. Desde allí, tras una larga pausa, se lanzaron hacia el este. Las dataciones más recientes indican que **la mayor parte de la Polinesia oriental se colonizó entre los siglos X y XIII**: Hawái, Pascua y, por último, Nueva Zelanda.
+Hubo antes algunos precedentes locales, como el territorio de Wyoming en Estados Unidos, la isla de Man o algunas colonias para elecciones municipales, pero ninguno a escala de un país. La campaña neozelandesa la encabezó la Unión Cristiana de Mujeres por la Templanza, una organización que luchaba contra el abuso del alcohol y que llegó a la conclusión de que **las mujeres necesitaban el voto** para conseguir leyes que protegieran a las familias.
 
-Viajaban en grandes canoas de doble casco unidas por una plataforma, con velas de fibras vegetales, capaces de llevar a decenas de personas, plantas, cerdos, perros y gallinas. No tenían brújula ni instrumentos. Se orientaban por **la salida y la puesta de las estrellas** en el horizonte, la dirección de las olas, el color del agua, el vuelo de las aves marinas y las nubes que se forman sobre las islas. Ese saber se transmitía oralmente de maestro a aprendiz.
+Su líder más conocida fue Kate Sheppard, una inmigrante nacida en Liverpool que vivía en Christchurch. Escribió folletos, artículos y cartas a los parlamentarios, y organizó **una campaña de recogida de firmas** sin precedentes. En 1893, la última petición reunió casi 32.000 firmas, cerca de una cuarta parte de las mujeres adultas del país. Los pliegos se pegaron uno detrás de otro y formaron un rollo de unos 270 metros que se desplegó en el Parlamento.
 
-Durante mucho tiempo, algunos estudiosos europeos dudaron de que aquellos viajes fueran intencionados y pensaron que las islas se habían poblado por canoas a la deriva. En 1976, la Hōkūleʻa, réplica de una canoa tradicional, navegó de Hawái a Tahití guiada por un maestro navegante de Micronesia, Mau Piailug, sin instrumentos. **El viaje demostró que la navegación polinesia era posible** y despertó un renacimiento cultural en todo el Pacífico.
+La ley se aprobó con dificultades. El primer ministro, Richard Seddon, se oponía y trató de bloquearla, en parte por la presión de la industria del alcohol, que temía el voto femenino. Pero dos miembros del Consejo Legislativo cambiaron su voto en protesta por sus maniobras, y el proyecto salió adelante por solo dos votos de diferencia. La reforma incluyó a **las mujeres maoríes**, el pueblo indígena, que también votaron en aquellas elecciones.
 
-Hay incluso indicios de contactos con América. La batata, de origen sudamericano, se cultivaba en la Polinesia antes de la llegada de los europeos, y estudios genéticos publicados en 2020 apuntan a un encuentro entre polinesios e indígenas americanos hacia el siglo XIII, aunque los detalles siguen en debate.
+Las neozelandesas pudieron votar desde 1893, pero no presentarse como candidatas al Parlamento hasta 1919. El ejemplo se extendió a Australia en 1902 y a Finlandia en 1906, el primer país europeo. En España, las mujeres votaron por primera vez en unas elecciones generales en 1933. El rostro de Kate Sheppard aparece hoy en el billete neozelandés de diez dólares.
 
 @@ 2026-11-15
 resumen: No es una sola muralla ni se ve desde el espacio, pero durante dos mil años fue la gran frontera de China frente a los pueblos nómadas.

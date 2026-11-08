@@ -4,7 +4,7 @@ titulo: «La Trinidad» de Rubliov: tres ángeles en silencio alrededor de una m
 data: Rusia, hacia 1411-1427
 alt: Icono de la Trinidad de Rubliov: tres ángeles alados sentados alrededor de una mesa con un cáliz
 pie: «La Trinidad», de Andréi Rubliov, en la Galería Tretiakov de Moscú
-saber: La Trinidad (Rubliov) | Andréi Rubliov | Icono
+saber: Trinidad (Andréi Rubliov) | Andréi Rubliov | Icono
 
 Tres ángeles con alas doradas están sentados alrededor de una mesa sobre la que hay un cáliz. Inclinan la cabeza unos hacia otros y forman un círculo casi perfecto. Detrás se distinguen una casa, un árbol y una montaña. Es «La Trinidad», el icono pintado por el monje Andréi Rubliov a comienzos del siglo XV, considerado **la obra maestra de la pintura religiosa rusa**.
 
@@ -40,7 +40,7 @@ titulo: «A lo largo del río durante el festival Qingming»: la ciudad china qu
 data: China, siglo XII
 alt: Detalle del rollo Qingming: la puerta de una ciudad china con viajeros, camellos y comerciantes
 pie: Detalle de «A lo largo del río durante el festival Qingming», atribuido a Zhang Zeduan, en el Museo del Palacio de Pekín
-saber: A lo largo del río durante el festival Qingming | Dinastía Song | Kaifeng
+saber: El festival Qingming junto al río | Dinastía Song | Kaifeng
 
 Para ver esta pintura no se cuelga de una pared: se desenrolla. Es un rollo de seda de algo más de cinco metros de largo y apenas 25 centímetros de alto que se contempla de derecha a izquierda, desplegándolo poco a poco, como quien recorre un camino. Se atribuye a Zhang Zeduan, un pintor de la corte de la dinastía Song del siglo XII, y es **una de las obras más célebres del arte chino**.
 
@@ -202,7 +202,7 @@ titulo: «La edad madura»: la escultura en la que Camille Claudel contó su rup
 data: París, 1890-1913
 alt: La edad madura: grupo de bronce con una joven arrodillada que tiende los brazos hacia un hombre arrastrado por una anciana
 pie: Uno de los bronces de «La edad madura», de Camille Claudel
-saber: Camille Claudel | Auguste Rodin | Escultura del siglo XIX
+saber: Camille Claudel | Auguste Rodin | Escultura
 
 Un hombre maduro avanza con las rodillas dobladas, arrastrado por una anciana que lo envuelve con sus brazos. Detrás, una joven arrodillada tiende las manos hacia él, suplicante, pero sus dedos ya no lo alcanzan. Es «La edad madura», el grupo escultórico de Camille Claudel que muchos consideran **su obra maestra y su obra más personal**.
 

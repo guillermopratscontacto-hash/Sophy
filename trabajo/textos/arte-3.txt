@@ -4,7 +4,7 @@ titulo: «¿De dónde venimos? ¿Qué somos? ¿Adónde vamos?»: el testamento p
 data: Tahití, 1897-1898
 alt: Lienzo alargado de Gauguin con figuras tahitianas en un paisaje de tonos azules y verdes, desde un bebé hasta una anciana
 pie: «¿De dónde venimos? ¿Qué somos? ¿Adónde vamos?» (1897-1898), de Paul Gauguin, en el Museo de Bellas Artes de Boston
-saber: ¿De dónde venimos? ¿Qué somos? ¿Adónde vamos? | Paul Gauguin | Postimpresionismo
+saber: ¿De dónde venimos? ¿Quiénes somos? ¿Adónde vamos? | Paul Gauguin | Postimpresionismo
 
 En 1897, Paul Gauguin vivía en Tahití enfermo, endeudado y aislado. Había abandonado una carrera de agente de bolsa y a su familia para dedicarse a la pintura, y desde 1891 buscaba en la Polinesia francesa una vida y un arte alejados de la civilización europea. Aquel año recibió la noticia de la muerte de su hija Aline. En esas circunstancias pintó **el cuadro más ambicioso de su carrera**, un lienzo de casi cuatro metros de ancho.
 
@@ -76,7 +76,7 @@ titulo: «El Descendimiento»: el llanto que Rogier van der Weyden pintó como u
 data: Lovaina, hacia 1435
 alt: El Descendimiento: el cuerpo de Cristo es bajado de la cruz ante la Virgen desmayada y otros personajes que lloran
 pie: «El Descendimiento» (hacia 1435), de Rogier van der Weyden, en el Museo del Prado
-saber: El Descendimiento (Van der Weyden) | Rogier van der Weyden | Primitivos flamencos
+saber: Descendimiento de la cruz (Rogier van der Weyden) | Rogier van der Weyden | Primitivos flamencos
 
 Hacia 1435, la cofradía de ballesteros de Lovaina, en la actual Bélgica, encargó a Rogier van der Weyden una gran tabla para el altar de su capilla. El pintor, que pronto sería pintor oficial de la ciudad de Bruselas, realizó **una de las obras más influyentes de la pintura flamenca**. Hoy se conserva en el Museo del Prado, adonde llegó por la pasión de los reyes españoles por el arte de los Países Bajos.
 
@@ -148,7 +148,7 @@ titulo: «Judith decapitando a Holofernes»: la violencia que pintó Artemisia G
 data: Roma y Florencia, hacia 1612-1620
 alt: Judith y su criada sujetan a Holofernes sobre una cama mientras Judith le corta el cuello con una espada
 pie: «Judith decapitando a Holofernes», de Artemisia Gentileschi
-saber: Artemisia Gentileschi | Judit decapitando a Holofernes (Artemisia Gentileschi) | Caravaggismo
+saber: Artemisia Gentileschi | Judit decapitando a Holofernes (Gentileschi, Nápoles) | Caravaggismo
 
 Dos mujeres sujetan a un hombre sobre una cama. Una le aprieta los brazos mientras la otra, con las mangas remangadas, le hunde una espada en el cuello. La sangre salpica las sábanas. La escena procede del libro bíblico de Judit, que cuenta cómo una viuda judía salvó su ciudad sitiada al decapitar al general asirio Holofernes. **Muchos pintores la representaron, pero pocos con tanta fuerza** como Artemisia Gentileschi.
 

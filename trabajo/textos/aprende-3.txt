@@ -1,0 +1,181 @@
+@@ 2026-12-06
+resumen: El PER compara el precio con el beneficio; el EV/EBITDA, el valor de todo el negocio con su resultado operativo. Cada uno sirve para algo distinto.
+saber: Ratio precio-beneficio | en:EV/Ebitda | en:Enterprise value
+
+Los múltiplos son la forma más rápida de valorar una empresa: se compara su precio con alguna magnitud de su negocio y se contrasta con otras empresas parecidas. Los dos más usados son el PER y el EV/EBITDA. Parecen intercambiables, pero **miden cosas diferentes** y pueden llevar a conclusiones opuestas.
+
+El PER, o relación precio-beneficio, divide el precio de la acción entre el beneficio por acción, o, lo que es lo mismo, la capitalización bursátil entre el beneficio neto. Un PER de 15 significa que el mercado paga 15 euros por cada euro de beneficio anual. Es sencillo, pero tiene un problema: el beneficio neto depende de cuánta deuda tiene la empresa, porque se calcula después de pagar intereses, y de factores contables y fiscales.
+
+El EV/EBITDA resuelve parte de ese problema. El EV, o valor empresa, es el valor de todo el negocio para todos sus financiadores: la capitalización bursátil más la deuda neta. El EBITDA es el resultado operativo antes de intereses, impuestos y amortizaciones. Al usar ambos, el múltiplo **no depende de cómo se financia la empresa**, lo que permite comparar compañías con mucha y con poca deuda.
+
+Ejemplo ilustrativo: dos empresas tienen el mismo negocio y un EBITDA de 100 millones. La A no tiene deuda y cotiza por 800 millones. La B tiene 400 millones de deuda y cotiza por 400. Ambas tienen un valor empresa de 800 millones y un EV/EBITDA de 8. Pero la B paga intereses y tiene menos beneficio neto: si el de A es 60 millones y el de B, 40, sus PER son 13,3 y 10. **La B parece más barata por PER**, pero solo porque está más endeudada y es más arriesgada.
+
+El EV/EBITDA también tiene limitaciones: ignora las inversiones que necesita el negocio, que pueden ser enormes en industrias como las telecomunicaciones o la energía, y es poco útil para bancos, donde la deuda forma parte del negocio. En la práctica, los analistas usan varios múltiplos a la vez, los comparan con empresas del mismo sector y miran siempre el crecimiento esperado: un múltiplo alto no significa caro si el beneficio va a crecer mucho.
+
+@@ 2026-12-07
+resumen: Si una empresa compra otra pagando con acciones, ¿sube o baja el beneficio por acción de sus accionistas? Depende de los PER de ambas.
+saber: en:Accretion/dilution analysis | Fusiones y adquisiciones
+
+Cuando una empresa anuncia una compra, una de las primeras preguntas de los analistas es si la operación será acretiva o dilutiva. **Acretiva significa que aumenta el beneficio por acción** del comprador; dilutiva, que lo reduce. Es un análisis rápido que los bancos de inversión incluyen en casi todas sus presentaciones, porque los mercados suelen reaccionar mal a las operaciones dilutivas.
+
+El resultado depende de cómo se pague. Si el comprador paga con acciones nuevas, emite más títulos, y el beneficio de la empresa comprada se reparte entre más acciones. La regla práctica es sencilla: si el comprador tiene un PER más alto que el que paga por la empresa comprada, la operación es acretiva. Si lo tiene más bajo, es dilutiva. Si paga con efectivo o con deuda, la comparación se hace con el coste después de impuestos de ese dinero: **si el rendimiento del beneficio comprado supera el coste de la financiación**, es acretiva.
+
+Ejemplo ilustrativo: la empresa A gana 100 millones, tiene 100 millones de acciones y cotiza a 20 euros, con un PER de 20. Compra la empresa B, que gana 50 millones, pagando 750 millones en acciones, es decir, a un PER de 15. A emite 37,5 millones de acciones nuevas a 20 euros. El beneficio conjunto es de 150 millones repartido entre 137,5 millones de acciones: 1,09 euros por acción, frente al 1 euro anterior. La operación es acretiva en un 9 %. Si A tuviera un PER de 12 y pagara uno de 15, sería dilutiva.
+
+Pero la acreción no significa que la compra cree valor. Una empresa con un PER alto puede comprar empresas peores con PER bajo y aumentar su beneficio por acción mientras destruye valor, porque el mercado acabará aplicando un múltiplo menor al conjunto. Lo que importa es si se paga un precio razonable y si las sinergias justifican la prima. **El beneficio por acción es una métrica contable**, no una medida del valor creado.
+
+En la práctica, los analistas miran la acreción a uno, dos y tres años, incluyendo las sinergias previstas y los costes de integración, y la complementan con el rendimiento sobre el capital invertido en la operación, comparado con el coste de capital del comprador.
+
+@@ 2026-12-08
+resumen: Las agencias de rating dividen la deuda en dos mundos. Pasar de uno a otro cambia quién puede comprar los bonos y cuánto cuesta financiarse.
+saber: Bono basura | Calificación crediticia | en:High-yield debt
+
+Las agencias de calificación crediticia, como S&P, Moody's y Fitch, asignan notas a las empresas y a sus bonos según su capacidad de pago. La escala va desde AAA, la máxima calidad, hasta D, que indica impago. Entre esas notas hay **una frontera crucial**: la que separa el grado de inversión, de AAA a BBB-, del llamado grado especulativo o «high yield», de BB+ hacia abajo, conocido también como bono basura.
+
+La frontera importa por razones prácticas. Muchos inversores institucionales, como fondos de pensiones, aseguradoras o ciertos fondos de inversión, tienen reglas internas o regulatorias que les impiden o limitan comprar bonos por debajo del grado de inversión. Por eso, cuando una empresa pierde el grado de inversión, muchos tenedores **se ven obligados a vender** sus bonos al mismo tiempo, lo que hunde su precio y encarece su financiación. A estas empresas se les llama «ángeles caídos».
+
+Los bonos high yield pagan intereses más altos porque su riesgo de impago es mucho mayor. Según los datos históricos de las agencias, la tasa media de impago anual de los bonos con grado de inversión es muy baja, por debajo del 0,2 %, mientras que la de los bonos especulativos ronda en promedio el 4 %, y puede superar el 10 % en recesiones. Pero sus precios también se mueven más con la economía: **se comportan en parte como acciones**.
+
+Ejemplo ilustrativo: una empresa con rating BBB- emite bonos al 5 %. Tras unos malos resultados, la rebajan a BB+. Un fondo de pensiones que tenía 50 millones en sus bonos debe venderlos. La avalancha de ventas hace caer el precio un 8 %, y la próxima vez que la empresa necesite financiarse tendrá que pagar un 6,5 %. La rebaja de un escalón le cuesta millones al año.
+
+El mercado de high yield nació en los años ochenta en Estados Unidos, impulsado por el banquero Michael Milken, y financió muchas compras apalancadas. En la práctica, para un inversor, estos bonos pueden ofrecer rentabilidades atractivas dentro de una cartera diversificada, pero conviene entender que su riesgo aflora precisamente en las crisis.
+
+@@ 2026-12-09
+resumen: Algunos bancos centrales no solo fijan el tipo a corto plazo: también se comprometen a mantener el tipo de los bonos a varios años.
+saber: en:Yield curve control | Banco de Japón
+
+Normalmente, un banco central controla solo los tipos de interés a muy corto plazo, como el tipo al que se prestan los bancos de un día para otro. Los tipos a largo plazo, como los de los bonos a diez años, los fija el mercado. El control de la curva de tipos, o «yield curve control», es una política en la que el banco central **fija también un objetivo para el tipo de un bono a más largo plazo** y se compromete a comprar o vender los bonos necesarios para mantenerlo.
+
+Su gran defensor ha sido el Banco de Japón, que lo introdujo en septiembre de 2016. Fijó el tipo del bono japonés a diez años en torno al 0 %, con una banda de tolerancia. Si el tipo subía por encima del límite, el banco compraba bonos sin límite de cantidad hasta devolverlo a su sitio. La Reserva Federal estadounidense aplicó algo parecido durante la Segunda Guerra Mundial y la posguerra, para abaratar la financiación del enorme gasto bélico, y el Banco de la Reserva de Australia lo hizo durante la pandemia con su bono a tres años.
+
+La diferencia con la expansión cuantitativa es importante. En la expansión cuantitativa, el banco anuncia una cantidad de compras y deja que el mercado fije el precio. En el control de la curva, anuncia un precio y deja que la cantidad se ajuste. Si el compromiso es creíble, **puede que ni siquiera necesite comprar mucho**, porque nadie vende por debajo del precio que el banco garantiza.
+
+Ejemplo ilustrativo: el banco central fija el bono a diez años en el 0,25 %. Con inflación en aumento, los inversores esperan tipos más altos y venden bonos, empujando su rentabilidad al 0,4 %. El banco compra todo lo que le ofrecen hasta que el tipo vuelve al 0,25 %. Si la presión persiste, sus compras pueden ser enormes y su balance crece sin control.
+
+Ese es el gran riesgo: la política es fácil de anunciar y muy difícil de abandonar. El Banco de Japón tuvo que ampliar la banda varias veces entre 2022 y 2023, provocando fuertes movimientos en los mercados, y en marzo de 2024 la abandonó junto con los tipos negativos. Australia la dejó en 2021 de forma desordenada, con un daño a la **credibilidad** que su propio banco central reconoció después.
+
+@@ 2026-12-10
+resumen: El creador de mercado compra y vende sin parar, pero no quiere acumular acciones. Así ajusta sus precios para controlar su inventario.
+saber: Creador de mercado | en:Market maker
+
+Un creador de mercado, o «market maker», es un intermediario que ofrece de forma continua precios a los que está dispuesto a comprar y a vender un activo. Gana con el diferencial entre ambos precios: compra un poco más barato de lo que vende. Su función es fundamental, porque **proporciona liquidez**: permite a los inversores comprar o vender en cualquier momento sin esperar a encontrar a alguien que quiera hacer justo la operación contraria.
+
+Pero tiene un problema. Si muchos clientes le venden y pocos le compran, acumula un inventario grande de acciones. Si después el precio baja, pierde dinero. El creador de mercado no quiere apostar por la dirección del mercado; quiere ganar el diferencial con el menor riesgo posible. Por eso gestiona activamente su inventario, y su herramienta principal es **mover sus precios**.
+
+La lógica la formalizaron modelos académicos como el de Marco Avellaneda y Sasha Stoikov en 2008. Cuando el creador de mercado tiene demasiadas acciones, baja tanto su precio de compra como el de venta. Así se vuelve menos atractivo para quienes quieren venderle y más para quienes quieren comprarle, y su inventario tiende a volver a cero. Cuando le faltan acciones, hace lo contrario. Además, amplía el diferencial cuando aumenta la volatilidad, porque el riesgo de mantener inventario es mayor.
+
+Ejemplo ilustrativo: una acción vale en torno a 50 euros y el creador de mercado cotiza 49,95 a la compra y 50,05 a la venta. Tras una oleada de órdenes de venta, acumula 10.000 acciones. Para deshacerse de ellas, baja sus precios a 49,90 y 50,00. Ahora vende más barato que otros intermediarios y atrae compradores, mientras que los vendedores prefieren otras ofertas. En pocos minutos, **su inventario vuelve a niveles cómodos**.
+
+Hoy la mayor parte de la creación de mercado en bolsa la hacen empresas de negociación de alta frecuencia con algoritmos que ajustan precios en microsegundos. Su presencia ha reducido mucho los diferenciales en condiciones normales, pero en momentos de pánico pueden retirarse a la vez, lo que provoca caídas bruscas de liquidez, como en el «flash crash» del 6 de mayo de 2010 en Wall Street.
+
+@@ 2026-12-11
+resumen: Los costes fijos amplifican los cambios en las ventas; la deuda amplifica los del beneficio. Juntos pueden multiplicar ganancias y pérdidas.
+saber: Apalancamiento | Margen de beneficio
+
+El apalancamiento, en general, es cualquier mecanismo que **amplifica los resultados**, tanto al alza como a la baja. En una empresa hay dos tipos principales que conviene distinguir, porque se suman y pueden convertir un pequeño cambio en las ventas en un gran cambio en el beneficio de los accionistas.
+
+El apalancamiento operativo depende de la estructura de costes. Una empresa con muchos costes fijos, que no cambian con las ventas, como fábricas, maquinaria o grandes plantillas, tiene un apalancamiento operativo alto: cuando las ventas suben, los costes apenas aumentan y el beneficio operativo se dispara; cuando bajan, el beneficio se hunde. Las aerolíneas, las acerías o las empresas de software son ejemplos de negocios con costes fijos elevados. Una empresa con costes sobre todo variables, como una consultora que paga a sus colaboradores por proyecto, tiene un apalancamiento operativo bajo.
+
+El apalancamiento financiero depende de la deuda. Los intereses son un coste fijo financiero: hay que pagarlos vaya bien o mal el negocio. Cuanta más deuda, más se amplifican los cambios del beneficio operativo al llegar al beneficio neto, que es el de los accionistas. **El efecto total es el producto de ambos**.
+
+Ejemplo ilustrativo: una empresa vende 1.000, tiene costes variables de 400, costes fijos de 400 y paga 100 de intereses. Su beneficio operativo es 200 y su beneficio antes de impuestos, 100. Si las ventas suben un 10 %, a 1.100, los costes variables suben a 440 y el beneficio operativo pasa a 260, un 30 % más: el apalancamiento operativo es de 3. El beneficio antes de impuestos pasa de 100 a 160, un 60 % más: el apalancamiento total es de 6. **Si las ventas caen un 10 %**, el beneficio cae también un 60 %.
+
+En la práctica, combinar un alto apalancamiento operativo con mucha deuda es una receta de riesgo, porque cualquier caída de ventas golpea doblemente. Las empresas con negocios muy cíclicos suelen endeudarse menos por esta razón, y las agencias de rating penalizan las estructuras en las que ambos apalancamientos son altos.
+
+@@ 2026-12-12
+resumen: El tipo de cambio a plazo debería reflejar exactamente la diferencia de tipos de interés. Desde 2008 no lo hace, y eso dice mucho del sistema.
+saber: Paridad de tasas de interés | en:Interest rate parity
+
+La paridad cubierta de tipos de interés es una de las relaciones más sólidas de las finanzas internacionales. Establece que **el tipo de cambio a plazo**, el que se pacta hoy para una operación de divisas en el futuro, debe reflejar exactamente la diferencia de tipos de interés entre las dos monedas. Si no fuera así, habría una oportunidad de ganar dinero sin riesgo.
+
+La lógica es un arbitraje. Supongamos que tengo euros. Puedo invertirlos un año en euros. O puedo cambiarlos hoy a dólares, invertirlos un año en dólares y, a la vez, firmar un contrato a plazo para volver a cambiarlos a euros dentro de un año a un precio fijado. Las dos operaciones no tienen riesgo cambiario, así que **deben dar el mismo resultado**. En texto plano: tipo a plazo = tipo al contado × (1 + tipo de interés de la moneda A) / (1 + tipo de interés de la moneda B).
+
+Ejemplo ilustrativo: un euro vale hoy 1,10 dólares. El tipo de interés a un año es del 2 % en euros y del 4 % en dólares. El tipo a plazo a un año debería ser 1,10 × 1,04 / 1,02, unos 1,1216 dólares por euro. El dólar cotiza «con descuento» a plazo, justo lo suficiente para compensar sus intereses más altos.
+
+Durante décadas, la paridad se cumplió casi a la perfección. Pero desde la crisis de 2008 se observan desviaciones persistentes, llamadas base de divisas: conseguir dólares a través del mercado de divisas a plazo cuesta más que pedirlos prestados directamente. La razón principal son **los límites al balance de los bancos**: la regulación posterior a la crisis exige más capital, y aprovechar el arbitraje consume balance, que ahora es caro. Además, hay una enorme demanda de financiación en dólares por parte de empresas y bancos de fuera de Estados Unidos.
+
+En la práctica, la base de divisas se ha convertido en un indicador de tensión en la financiación en dólares. En las crisis, como en marzo de 2020, se dispara, y la Reserva Federal responde abriendo líneas de intercambio de divisas, llamadas «swap lines», con otros bancos centrales para que puedan prestar dólares a sus bancos.
+
+@@ 2026-12-13
+resumen: La fórmula que en 1973 dio un precio racional a las opciones y transformó los mercados. Cómo se razona sin necesidad de matemáticas avanzadas.
+saber: Modelo de Black-Scholes | en:Black–Scholes model
+
+En 1973, los economistas Fischer Black y Myron Scholes publicaron un artículo con una fórmula para valorar opciones, completada por Robert Merton. Ese mismo año empezó a funcionar en Chicago el primer mercado organizado de opciones. La fórmula se extendió tan deprisa que en pocos años los operadores la llevaban en calculadoras. Scholes y Merton recibieron el Nobel de Economía en 1997; **Black había muerto en 1995** y el premio no se concede a título póstumo.
+
+La gran idea es la cobertura dinámica. Una opción de compra sube cuando sube la acción. Si un banco vende una opción y, a la vez, compra la cantidad justa de acciones, que depende de la delta de la opción, las ganancias de una posición compensan las pérdidas de la otra ante pequeños movimientos. Ajustando continuamente esa cantidad, **la cartera combinada no tiene riesgo**. Y una cartera sin riesgo solo puede rendir el tipo de interés sin riesgo; de lo contrario habría arbitraje. De esa condición sale una ecuación cuya solución es el precio de la opción.
+
+La fórmula final depende solo de cinco datos: el precio de la acción, el precio de ejercicio, el tiempo hasta el vencimiento, el tipo de interés sin riesgo y la volatilidad de la acción. Sorprendentemente, **no depende de la rentabilidad esperada** de la acción, ni de si el mercado es optimista o pesimista. Todo lo que importa del futuro está resumido en la volatilidad.
+
+Ejemplo ilustrativo: una acción cotiza a 100 euros y se quiere valorar una opción de compra con precio de ejercicio de 100, a un año, con un tipo de interés del 3 % y una volatilidad del 20 %. La fórmula da un precio de unos 9,4 euros. Si la volatilidad sube al 30 %, el precio de la opción sube a unos 13,3 euros: más incertidumbre hace más valioso el derecho a comprar.
+
+El modelo tiene supuestos irreales: volatilidad constante, movimientos de precios continuos sin saltos y posibilidad de negociar sin costes. Por eso los precios de mercado no encajan exactamente con él, y los operadores lo usan al revés: a partir del precio de la opción calculan la volatilidad implícita, que se ha convertido en el lenguaje común de los mercados de opciones.
+
+@@ 2026-12-14
+resumen: ¿Cuánto se aleja un fondo de su índice de referencia? El tracking error mide ese riesgo y ayuda a saber si se paga por gestión activa real.
+saber: en:Tracking error | Gestión pasiva
+
+Un fondo de gestión pasiva intenta replicar un índice, como el S&P 500 o el Ibex 35, con comisiones bajas. Uno de gestión activa intenta batirlo, eligiendo acciones o momentos, a cambio de comisiones más altas. El tracking error, o error de seguimiento, mide **cuánto se desvía la rentabilidad de un fondo** respecto a la de su índice de referencia. Técnicamente, es la volatilidad de la diferencia entre ambas rentabilidades.
+
+Para un fondo indexado, el objetivo es un tracking error lo más bajo posible, idealmente unas pocas centésimas de punto. Si es alto, el fondo replica mal su índice, por costes, por no tener todas las acciones o por mala gestión del efectivo. Para un fondo activo, en cambio, **el tracking error mide su grado de actividad**: cuanto más se aleje de su índice, más alto será. Un fondo activo con un tracking error muy bajo, por debajo del 2 % anual, se parece tanto a su índice que difícilmente podrá batirlo después de comisiones.
+
+Este fenómeno se conoce como gestión «pseudoactiva» o «closet indexing»: fondos que cobran comisiones de gestión activa pero se limitan a copiar casi su índice. Los reguladores europeos, incluida la CNMV, han investigado esta práctica y exigido más transparencia.
+
+Ejemplo ilustrativo: un fondo cobra un 1,8 % anual y tiene un tracking error del 1,5 %. Para compensar su comisión respecto a un fondo indexado que cobra un 0,2 %, debe superar al índice en 1,6 puntos al año antes de comisiones. Con tan poca desviación, conseguirlo de forma regular es muy difícil. **El inversor paga por algo que apenas recibe**. Una medida útil es el ratio de información, que divide el exceso de rentabilidad entre el tracking error: indica cuánto se gana por cada unidad de desviación asumida.
+
+En la práctica, el debate entre gestión activa y pasiva se apoya en datos persistentes: según los informes SPIVA de S&P, la gran mayoría de los fondos activos de renta variable no baten a su índice en periodos de diez años. Eso no significa que ninguno lo consiga, sino que identificarlos de antemano es difícil, y que si se paga por gestión activa conviene que lo sea de verdad.
+
+@@ 2026-12-15
+resumen: Cuando comprador y vendedor no se ponen de acuerdo en el precio, una parte puede quedar condicionada a los resultados futuros: el earn-out.
+saber: en:Earnout | Fusiones y adquisiciones
+
+En la compra de una empresa, el precio pactado al firmar casi nunca es el definitivo. Entre la firma y el cierre de la operación pasan semanas o meses, y el negocio sigue funcionando. Además, comprador y vendedor a menudo **discrepan sobre cuánto valdrá la empresa** en el futuro. Los contratos incluyen por eso mecanismos para ajustar el precio, y los dos más comunes son las cuentas de cierre y el earn-out.
+
+Las cuentas de cierre, o «completion accounts», ajustan el precio según la situación real de la empresa el día del cierre: su deuda neta y su capital circulante. Si la empresa tiene más deuda o menos caja de lo previsto, el precio baja. La alternativa es el «locked box», o caja cerrada: el precio se fija con un balance de referencia anterior, y el vendedor se compromete a no extraer dinero de la empresa hasta el cierre. Es más simple y es habitual en operaciones con fondos de capital privado.
+
+El earn-out es diferente: es una parte del precio que **solo se paga si la empresa alcanza ciertos objetivos** después de la compra, como un nivel de ventas o de EBITDA en los dos o tres años siguientes. Sirve para cerrar la brecha entre un vendedor optimista y un comprador escéptico: el vendedor cobra más si tenía razón, y el comprador no paga de más si no la tenía. Es muy común en la compra de empresas jóvenes, tecnológicas o farmacéuticas, cuyo valor depende de hitos futuros.
+
+Ejemplo ilustrativo: el vendedor pide 100 millones porque espera que el EBITDA llegue a 12 millones en dos años; el comprador solo ofrece 80, porque cree que se quedará en 9. Acuerdan 80 millones al cierre y un earn-out de hasta 20 millones adicionales si el EBITDA supera los 11 millones en el segundo año.
+
+En la práctica, los earn-outs son fuente frecuente de pleitos. Una vez vendida la empresa, el comprador controla las decisiones, como gastos, precios o integración, que afectan al resultado, y puede tener incentivos para que no se alcancen los objetivos. **Por eso los contratos detallan** cómo debe gestionarse el negocio durante ese periodo y cómo se calcularán las cifras.
+
+@@ 2026-12-16
+resumen: Por qué a veces compensa pagar más por tener el petróleo hoy que dentro de un mes: el rendimiento de conveniencia explica la curva de futuros.
+saber: en:Theory of storage | en:Convenience yield
+
+Para un activo financiero, el precio de un futuro se deduce fácilmente: el precio de hoy más el coste de financiarlo hasta la fecha. Para las materias primas físicas, la cosa es más compleja, porque **almacenarlas tiene costes**, como depósitos, seguros o deterioro, y tenerlas a mano puede tener ventajas. La teoría del almacenamiento, desarrollada por economistas como Nicholas Kaldor y Holbrook Working a mediados del siglo XX, explica cómo se relacionan los precios al contado y a futuro.
+
+Según la teoría, el precio de un futuro refleja el precio al contado más el coste de financiarlo y almacenarlo, menos el rendimiento de conveniencia. En texto plano: precio a futuro ≈ precio al contado × (1 + tipo de interés + coste de almacenamiento − rendimiento de conveniencia). El rendimiento de conveniencia es **el beneficio de tener la materia prima físicamente disponible**, en lugar de un contrato para recibirla más tarde. Para una refinería, tener crudo en el depósito evita parar la planta si hay un problema de suministro.
+
+Ese beneficio depende de la escasez. Cuando los inventarios son abundantes, tener más existencias aporta poco, el rendimiento de conveniencia es bajo y los futuros cotizan por encima del contado, en contango. Cuando los inventarios son escasos, tener la mercancía hoy vale mucho: el rendimiento de conveniencia se dispara, y los futuros pueden cotizar por debajo del contado, en backwardation.
+
+Ejemplo ilustrativo: el cobre cotiza a 9.000 dólares la tonelada. El tipo de interés es del 5 % y almacenar cuesta un 2 % anual. Sin rendimiento de conveniencia, el futuro a un año debería costar unos 9.630 dólares. Si cotiza a 9.180, el mercado está implícitamente valorando la disponibilidad inmediata en un 5 % anual: **señal de que los inventarios son escasos** y la industria necesita el metal ya.
+
+En la práctica, la teoría del almacenamiento convierte la forma de la curva de futuros en un indicador de los fundamentales del mercado físico. Los analistas vigilan juntos los inventarios y la diferencia entre futuros cercanos y lejanos: una curva en backwardation pronunciada suele indicar tensión de oferta, y en contango profundo, exceso de existencias.
+
+@@ 2026-12-17
+resumen: Convertir hipotecas o préstamos en bonos permite al banco prestar más y repartir el riesgo. Mal hecho, fue el detonante de la crisis de 2008.
+saber: Titulización | en:Securitization
+
+La titulización es el proceso por el que un banco, o cualquier otra entidad, agrupa muchos préstamos, como hipotecas, préstamos de coches o deudas de tarjetas de crédito, y **los transforma en bonos** que vende a inversores. Los pagos que hacen los deudores de esos préstamos sirven para pagar los intereses y el principal de los bonos.
+
+El mecanismo funciona así. El banco vende los préstamos a una sociedad creada solo para esa operación, separada de su balance, llamada vehículo o fondo de titulización. El vehículo emite bonos para pagar la compra. Los bonos suelen dividirse en tramos con distinta prioridad, en una especie de cascada: el tramo superior, o sénior, cobra primero y es el más seguro; los tramos intermedios, después; y el tramo inferior, el de primeras pérdidas, absorbe los impagos antes que nadie y paga más intereses.
+
+Para el banco tiene ventajas: recupera dinero que puede volver a prestar, reduce el capital que necesita y transfiere parte del riesgo a otros inversores. Para los inversores, ofrece bonos con distintos niveles de riesgo y rentabilidad. Para la economía, puede **abaratar el crédito**.
+
+Ejemplo ilustrativo: un banco agrupa hipotecas por valor de 1.000 millones. Emite un tramo sénior de 850 millones con calificación AAA, un tramo intermedio de 100 millones y un tramo inferior de 50, que retiene. Si los impagos suman 30 millones, los absorbe el tramo inferior y los demás cobran íntegramente. Si suman 120 millones, se pierde todo el tramo inferior, gran parte del intermedio, y el sénior sigue intacto.
+
+La crisis de 2008 mostró sus peligros. Si el banco vende todo el riesgo, tiene menos incentivos para conceder buenos préstamos: es el llamado modelo de «originar para distribuir». Los préstamos subprime estadounidenses se titulizaron, se volvieron a titulizar en productos cada vez más complejos y recibieron calificaciones demasiado altas. **Cuando los impagos subieron a la vez en todo el país**, tramos considerados seguros sufrieron grandes pérdidas. Desde entonces, la regulación europea obliga a quien tituliza a retener al menos un 5 % del riesgo y promueve titulizaciones simples y transparentes.
+
+@@ 2026-12-18
+resumen: Antes de 2008, los bancos centrales controlaban los tipos ajustando la escasez de reservas. Ahora inundan el sistema y pagan intereses por ellas.
+saber: Base monetaria | en:Excess reserves | Banco Central Europeo
+
+Los bancos comerciales tienen cuentas en el banco central, en las que guardan sus reservas: el dinero que usan para pagarse entre ellos y para cumplir los requisitos legales. El banco central controla los tipos de interés a corto plazo a través de esas reservas, y lo ha hecho de **dos maneras muy distintas** antes y después de la crisis de 2008.
+
+En el sistema de reservas escasas, vigente hasta 2008, los bancos tenían justo las reservas que necesitaban, y se prestaban los sobrantes entre ellos a un día. El banco central fijaba un objetivo para ese tipo interbancario y lo alcanzaba ajustando cada día la cantidad de reservas con pequeñas operaciones: si quería subir el tipo, retiraba un poco de liquidez y la hacía más escasa. Funcionaba como **un mercado con oferta controlada**.
+
+Tras la crisis, la expansión cuantitativa inundó el sistema de reservas: los bancos centrales compraron billones en bonos y pagaron con reservas nuevas. Con tanto dinero sobrante, ningún banco necesitaba pedir prestado, y el tipo interbancario se habría ido a cero. Los bancos centrales cambiaron de sistema: ahora pagan un tipo de interés por las reservas depositadas, que actúa como suelo, porque ningún banco prestará más barato de lo que le paga el banco central. Es el sistema de reservas abundantes, o de suelo. En la zona euro, ese papel lo cumple el tipo de la facilidad de depósito.
+
+Ejemplo ilustrativo: si el banco central paga un 2 % por las reservas, un banco con dinero sobrante no lo prestará a otro por menos de un 2 %. Si quiere subir los tipos al 2,5 %, **le basta con anunciar** que pagará un 2,5 % por las reservas, sin tocar su cantidad. El control de los tipos se separa del tamaño del balance.
+
+El sistema tiene ventajas: es sencillo, estable y permite usar el balance para otros fines. Pero tiene costes: pagar intereses por billones de reservas a los bancos supone grandes pérdidas para los bancos centrales cuando los tipos suben, como ocurrió desde 2022 en la zona euro y en Estados Unidos. El BCE anunció en 2024 que mantendría un sistema basado en reservas abundantes, aunque con un balance más pequeño.

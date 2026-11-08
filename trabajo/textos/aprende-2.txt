@@ -1,0 +1,181 @@
+@@ 2026-11-23
+resumen: Una empresa puede tener beneficios y quedarse sin caja. El ciclo de conversión de caja mide cuánto dinero se queda atrapado en el negocio.
+saber: Capital circulante | en:Cash conversion cycle
+
+Una empresa puede ganar dinero sobre el papel y, sin embargo, quedarse sin liquidez para pagar a sus proveedores o a sus empleados. La razón suele estar en el capital circulante: **el dinero inmovilizado en el día a día del negocio**. Se calcula, de forma simplificada, como las existencias más lo que deben los clientes menos lo que la empresa debe a sus proveedores.
+
+El ciclo de conversión de caja mide cuántos días pasan desde que la empresa paga sus compras hasta que cobra sus ventas. Tiene tres componentes. Los días de inventario: cuánto tiempo pasan las existencias en el almacén antes de venderse. Los días de cobro: cuánto tardan los clientes en pagar. Y los días de pago: cuánto tarda la empresa en pagar a sus proveedores. En texto plano: ciclo = días de inventario + días de cobro − días de pago.
+
+Ejemplo ilustrativo: una empresa de muebles tiene los productos 60 días en el almacén, cobra a sus clientes a 45 días y paga a sus proveedores a 30. Su ciclo es de 60 + 45 − 30 = 75 días. Si vende 365 millones al año, es decir, un millón al día, necesita financiar unos 75 millones de forma permanente. Si crece un 20 %, **necesitará 15 millones más de caja** solo para sostener ese crecimiento, aunque sea rentable. Por eso muchas empresas que crecen deprisa se quedan sin liquidez.
+
+Algunos negocios tienen ciclos negativos: cobran antes de pagar. Es el caso de los supermercados, que venden al contado y pagan a sus proveedores a varias semanas, o de algunas plataformas de comercio electrónico. En ellos, **los proveedores financian el crecimiento** sin coste. Amazon es un ejemplo clásico de empresa que durante años se benefició de un ciclo negativo.
+
+En la práctica, mejorar el ciclo libera caja sin necesidad de pedir préstamos: reducir inventarios, cobrar antes o negociar plazos de pago más largos. Pero hay límites y riesgos. Alargar demasiado los pagos puede ahogar a los proveedores, y en Europa existen leyes contra la morosidad que fijan plazos máximos. Algunas empresas recurren al llamado «confirming» o financiación de proveedores para alargar sus pagos, una práctica que puede ocultar deuda y que los reguladores contables han obligado a detallar.
+
+@@ 2026-11-24
+resumen: Pedir prestado en una divisa barata para invertir en otra que paga más: el carry trade funciona hasta que de pronto deja de hacerlo.
+saber: Carry trade | en:Carry (investment)
+
+El carry trade es una estrategia que consiste en **pedir prestado en una moneda con tipos de interés bajos** e invertir ese dinero en otra con tipos más altos. Durante años, el ejemplo clásico ha sido endeudarse en yenes japoneses, cuyo tipo de interés estuvo cerca de cero mucho tiempo, para invertir en dólares australianos, pesos mexicanos o reales brasileños, que pagaban bastante más.
+
+Si los tipos de cambio no se movieran, el inversor ganaría la diferencia de tipos de interés, el llamado «carry». La teoría económica dice que esa ganancia no debería existir: según la llamada paridad descubierta de tipos de interés, la moneda con tipos altos debería depreciarse lo suficiente para compensarla. Pero los datos muestran que, durante largos periodos, **eso no ocurre**: las monedas de tipos altos tienden a mantenerse o incluso a apreciarse, y el carry trade gana dinero.
+
+El problema es el riesgo de liquidación brusca. La estrategia gana poco a poco durante meses y puede perder en días todo lo acumulado. Cuando cambia el clima de los mercados, muchos inversores deshacen sus posiciones a la vez: venden la moneda de tipos altos y compran la de tipos bajos para devolver los préstamos. Ese movimiento masivo provoca una fuerte apreciación de la moneda de financiación. Los operadores lo describen con una imagen: **recoger monedas delante de una apisonadora**.
+
+Ejemplo ilustrativo: un inversor pide prestados 100 millones de yenes al 0,5 % y los invierte en pesos mexicanos al 10 %. En un año gana unos 9,5 puntos de diferencia. Pero si en una semana de pánico el yen se aprecia un 12 % frente al peso, para devolver el préstamo necesitará muchos más pesos, y la pérdida por el tipo de cambio superará con creces lo ganado.
+
+Ocurrió en 2008 y, de forma más breve, en agosto de 2024, cuando una subida de tipos del Banco de Japón y datos económicos débiles en Estados Unidos provocaron una salida masiva del carry trade en yenes y fuertes caídas bursátiles en Tokio. En la práctica, el carry trade se considera una forma de vender un seguro contra las crisis: da rentas regulares a cambio de pérdidas grandes y concentradas.
+
+@@ 2026-11-25
+resumen: Casi todas las fusiones prometen sinergias. Valorarlas bien es clave para no pagar de más, porque muchas no llegan nunca.
+saber: Sinergia | en:Synergy
+
+Cuando una empresa compra otra, casi siempre justifica el precio con las sinergias: **la idea de que juntas valen más que por separado**. Si una empresa vale 1.000 millones y otra 500, la combinación podría valer 1.700 gracias a ahorros y oportunidades que solo existen al unirlas. Esos 200 millones de diferencia son el valor de las sinergias.
+
+Hay dos grandes tipos. Las sinergias de costes proceden de eliminar duplicidades: una sola sede central, menos oficinas, compras conjuntas a mejor precio, sistemas informáticos comunes, menos personal en funciones repetidas. Las sinergias de ingresos proceden de vender más: ofrecer los productos de una empresa a los clientes de la otra o entrar en nuevos mercados. Las primeras son más fiables, porque dependen sobre todo de decisiones de la propia empresa. Las segundas dependen de los clientes y **son mucho más inciertas**.
+
+Para valorarlas no basta con la cifra anual prometida. Hay que tener en cuenta cuándo se conseguirán, porque suelen llegar poco a poco durante varios años; descontar los costes de integración, como indemnizaciones o cierres de instalaciones; aplicar impuestos y descontar todo al valor de hoy con una tasa que refleje su riesgo.
+
+Ejemplo ilustrativo: una compra promete 50 millones anuales de ahorro de costes a partir del tercer año. Exigirá 80 millones de costes de integración. Si los ahorros, tras impuestos, se mantienen indefinidamente y se descuentan al 9 %, su valor actual podría rondar los 300 millones, menos los costes de integración. Si el comprador paga una prima de 400 millones sobre el valor de la empresa comprada, **está pagando más de lo que valen las sinergias**: transfiere valor a los accionistas vendedores.
+
+Esa es la gran lección de los estudios sobre fusiones: en promedio, los accionistas de la empresa vendida ganan, porque cobran una prima, mientras que los de la compradora a menudo no ganan o pierden, porque se paga por adelantado por sinergias que luego no se materializan del todo. En la práctica, los analistas desconfían especialmente de las sinergias de ingresos y comprueban si la prima pagada es menor que el valor realista de los ahorros.
+
+@@ 2026-11-26
+resumen: La beta mide cuánto se mueve una acción con el mercado. Explica qué riesgo se paga y cuál se puede eliminar diversificando.
+saber: Coeficiente beta | Modelo de valoración de activos financieros
+
+El riesgo de una acción puede dividirse en dos partes. El riesgo específico es el que afecta solo a esa empresa: un mal lanzamiento de producto, un pleito o la salida de un directivo clave. El riesgo sistemático, o de mercado, es el que afecta a casi todas las empresas a la vez: una recesión, una subida de tipos o una crisis financiera. **El riesgo específico se puede eliminar diversificando**, al tener muchas acciones distintas; el sistemático, no.
+
+De ahí surge una idea central de las finanzas: los mercados solo pagan por el riesgo que no se puede eliminar. Si un inversor puede librarse del riesgo específico gratis con una cartera diversificada, nadie le compensará por asumirlo. La beta mide precisamente la exposición de una acción al riesgo sistemático: **cuánto tiende a moverse cuando se mueve el mercado**.
+
+Una beta de 1 significa que la acción se mueve, en promedio, como el mercado. Una beta de 1,5 indica que, si el mercado sube un 10 %, la acción tiende a subir un 15 %, y al revés en las caídas. Una beta de 0,5 indica una acción defensiva, que se mueve la mitad. Las eléctricas o las empresas de alimentación suelen tener betas bajas; las tecnológicas o las de bienes de lujo, altas.
+
+Ejemplo ilustrativo: según el modelo CAPM, la rentabilidad exigida a una acción es el tipo sin riesgo más la beta multiplicada por la prima de riesgo del mercado. Con un tipo sin riesgo del 3 % y una prima del 5 %, una acción con beta 1,4 debería rendir un 3 % + 1,4 × 5 % = 10 %. Una con beta 0,6 debería rendir **un 6 %**. Esa rentabilidad exigida se usa como tasa de descuento en las valoraciones.
+
+En la práctica, la beta se estima con datos históricos, y el resultado cambia según el periodo y el índice que se use. Además, el modelo CAPM explica de forma imperfecta las rentabilidades reales: las acciones de beta baja han rendido históricamente más de lo que el modelo predice. Por eso la beta es una herramienta útil y extendida, pero no una verdad exacta.
+
+@@ 2026-11-27
+resumen: Cuando un banco central compra bonos en masa, ¿cómo llega ese dinero a la economía? Hay varios canales, y no todos funcionan igual.
+saber: Flexibilización cuantitativa | en:Quantitative easing
+
+La expansión cuantitativa, o «quantitative easing», consiste en que un banco central **compra grandes cantidades de bonos**, sobre todo deuda pública, con dinero de nueva creación. Se utilizó de forma masiva tras la crisis de 2008 y durante la pandemia, cuando los tipos de interés oficiales ya estaban en cero y no podían bajar más. Pero ¿cómo afecta a la economía real que el banco central tenga más bonos en su balance? Los economistas distinguen varios canales de transmisión.
+
+El primero es el canal de reequilibrio de carteras. Al comprar bonos, el banco central reduce la cantidad disponible para los inversores privados. Estos, que reciben dinero a cambio, buscan otros activos: bonos de empresas, acciones, inmuebles. Eso **sube sus precios y baja sus rentabilidades**, lo que abarata la financiación de empresas y hogares.
+
+El segundo es el canal de señalización: las compras refuerzan el mensaje de que el banco central mantendrá los tipos bajos durante mucho tiempo, porque no tendría sentido comprar bonos y subir tipos a la vez. El tercero es el canal de liquidez: en momentos de pánico, el banco central actúa como comprador de último recurso y evita que los mercados se bloqueen. El cuarto es el del tipo de cambio: tipos más bajos tienden a depreciar la moneda y favorecen las exportaciones.
+
+Ejemplo ilustrativo: un fondo de pensiones vende al banco central bonos del Estado a diez años que rendían un 2 %. Con el dinero recibido necesita invertir y compra bonos de empresas, que pasan a rendir un 3,5 % en lugar de un 4 %. Una empresa que emite deuda para construir una fábrica ahorra así medio punto de intereses. Multiplicado por miles de empresas, **el efecto llega a la inversión**.
+
+Los estudios coinciden en que la expansión cuantitativa redujo los tipos a largo plazo, sobre todo en sus primeras rondas y en momentos de tensión. Su efecto sobre el crecimiento y la inflación es más discutido. También tiene efectos secundarios: el aumento del precio de los activos beneficia sobre todo a quienes ya los poseen, lo que puede aumentar la desigualdad de riqueza.
+
+@@ 2026-11-28
+resumen: Por qué siempre hay una diferencia entre el precio de compra y el de venta: el creador de mercado se protege de quien sabe más que él.
+saber: en:Bid–ask spread | en:Adverse selection | en:Market microstructure
+
+En cualquier mercado financiero hay dos precios para el mismo activo: el precio de compra, o «bid», al que alguien está dispuesto a comprar, y el de venta, o «ask», al que alguien está dispuesto a vender. La diferencia entre ambos se llama diferencial u horquilla. Para un inversor que compra y vende de inmediato, **ese diferencial es un coste**. La microestructura de mercado es la rama de las finanzas que estudia cómo se forman estos precios.
+
+Los creadores de mercado son intermediarios que ofrecen precios de compra y de venta de forma continua. El diferencial les compensa por tres costes. El primero son los costes operativos de su actividad. El segundo es el riesgo de inventario: si acumulan muchas acciones, pierden si el precio baja. El tercero, y el más interesante, es **la selección adversa**: el riesgo de negociar con alguien que sabe más que ellos.
+
+La idea se debe sobre todo a trabajos de los años ochenta, como el de Lawrence Glosten y Paul Milgrom. Un creador de mercado no sabe si quien le compra es un inversor que necesita invertir sus ahorros o alguien que tiene información, por ejemplo que la empresa va a anunciar buenos resultados. Con el primero gana el diferencial; con el segundo pierde, porque el precio subirá después. Para compensar esas pérdidas, amplía el diferencial con todos.
+
+Ejemplo ilustrativo: una acción vale 100 euros. El creador de mercado cree que un 10 % de sus clientes tiene información que moverá el precio a 102 o a 98. Si cotizara a 100 para comprar y para vender, perdería dinero con los informados. Para no perder, puede cotizar a 99,80 la compra y 100,20 la venta: **los inversores sin información pagan esa horquilla** y compensan las pérdidas frente a los informados.
+
+En la práctica, el diferencial se amplía cuando aumenta la incertidumbre, como antes de la publicación de resultados o en las crisis, y es mayor en acciones pequeñas y poco negociadas. Para un inversor particular, la lección es sencilla: en valores poco líquidos, el coste de entrar y salir puede ser mucho mayor que la comisión del intermediario.
+
+@@ 2026-11-29
+resumen: Dos medidas del dinero que genera una empresa: una para todos sus financiadores y otra solo para los accionistas. Mezclarlas lleva a errores.
+saber: Flujo de caja | en:Free cash flow
+
+El flujo de caja libre es el dinero que genera un negocio después de pagar sus gastos operativos, sus impuestos y las inversiones necesarias para mantenerse y crecer. Es **la base de las valoraciones por descuento de flujos**. Pero existen dos versiones, y conviene distinguirlas porque sirven para cosas diferentes.
+
+El flujo de caja libre para la empresa, conocido como FCFF por sus siglas en inglés, es el dinero disponible para todos los que la financian, tanto accionistas como acreedores. Se calcula antes de pagar intereses y devolver deuda. En texto plano, de forma simplificada: beneficio operativo después de impuestos + amortizaciones − inversiones en activos − aumento del capital circulante. El flujo de caja libre para el accionista, FCFE, es lo que queda **solo para los accionistas** después de pagar los intereses y de tener en cuenta la deuda nueva que se pide o se devuelve.
+
+Cada flujo se descuenta con una tasa diferente. El de la empresa se descuenta con el coste medio ponderado del capital, que combina el coste de la deuda y el de los fondos propios, y da como resultado el valor de la empresa, llamado valor empresa. A esa cifra hay que restarle la deuda neta para obtener el valor de las acciones. El del accionista se descuenta con el coste de los fondos propios y da directamente el valor de las acciones.
+
+Ejemplo ilustrativo: una empresa genera un FCFF de 100 millones. Paga 20 millones de intereses, que tras el ahorro fiscal le cuestan 15, y pide 10 millones de deuda nueva. Su FCFE es de unos 95 millones: 100 − 15 + 10. Si un analista descuenta por error el FCFF con el coste de los fondos propios, **sobrevalorará la empresa**, porque usa un flujo que pertenece también a los acreedores con una tasa que solo corresponde a los accionistas.
+
+Bien aplicados, ambos métodos deberían dar el mismo valor para las acciones. En la práctica, el FCFF es más habitual porque no depende de los cambios en la deuda de cada año, mientras que el FCFE se usa a menudo para bancos, donde la deuda forma parte del propio negocio y separar financiación y operaciones no tiene sentido.
+
+@@ 2026-11-30
+resumen: Una inversión no es solo una apuesta fija: a menudo incluye la opción de ampliarla, retrasarla o abandonarla. Ese margen de maniobra vale dinero.
+saber: Evaluación de opciones reales | en:Real options valuation
+
+El valor actual neto tradicional trata cada inversión como una decisión de todo o nada, tomada hoy y que no se puede cambiar. Pero en la realidad, las empresas pueden reaccionar a lo que pasa: ampliar un proyecto si va bien, retrasarlo si hay dudas o abandonarlo si fracasa. Esa flexibilidad se llama opción real, porque **funciona como una opción financiera** sobre activos reales, como fábricas, minas o patentes.
+
+Hay varios tipos. La opción de esperar permite retrasar una inversión hasta tener más información, por ejemplo sobre el precio del petróleo. La opción de ampliar permite invertir más si el proyecto sale bien. La de abandonar permite cerrar y vender los activos si sale mal, limitando las pérdidas. Y la de cambiar permite pasar de una materia prima o de un producto a otro. Todas comparten una propiedad clave: **cuanto mayor es la incertidumbre, más valen**, igual que una opción financiera.
+
+Ejemplo ilustrativo: una empresa farmacéutica estudia invertir 100 millones en la primera fase de un medicamento. Con el VAN tradicional, el proyecto vale −10 millones y se rechazaría. Pero si los ensayos van bien, la empresa podrá invertir 500 millones más en la fase siguiente, con un posible valor de 1.200 millones; si van mal, simplemente no seguirá. Teniendo en cuenta que solo invertirá la segunda parte si merece la pena, el proyecto puede tener un valor positivo. La primera inversión es, en realidad, **el precio de comprar una opción** sobre el futuro.
+
+Este enfoque explica comportamientos que el VAN clásico no recoge. Por qué las empresas aceptan proyectos piloto con VAN negativo; por qué los dueños de terrenos a veces esperan para construir aunque el edificio ya sería rentable, ya que construir mata la opción de esperar; o por qué la incertidumbre económica frena la inversión, porque aumenta el valor de esperar.
+
+En la práctica, las opciones reales son difíciles de valorar con precisión, porque los activos reales no cotizan y su volatilidad es difícil de estimar. Muchas empresas las usan más como forma de pensar que como fórmula exacta: identificar qué decisiones futuras quedan abiertas y cuánto valor añade mantenerlas.
+
+@@ 2026-12-01
+resumen: Cuando los bonos a corto plazo pagan más que los de largo, suele llegar una recesión. ¿Por qué funciona esta señal y cuándo puede fallar?
+saber: Curva de rendimiento | en:Inverted yield curve
+
+La curva de tipos, o curva de rendimientos, muestra cuánto rinden los bonos del Estado según su plazo, desde unos meses hasta treinta años. Normalmente tiene pendiente positiva: los bonos a largo plazo rinden más que los de corto, porque **prestar a más años implica más riesgo** de inflación y de tipos. Cuando ocurre lo contrario y los bonos cortos rinden más que los largos, se dice que la curva está invertida.
+
+En Estados Unidos, una curva invertida ha precedido a casi todas las recesiones desde los años setenta, con un adelanto de entre uno y dos años. Los indicadores más vigilados son la diferencia entre el bono a diez años y la letra a tres meses, y la diferencia entre el bono a diez y el bono a dos años. Por eso **la inversión de la curva es una de las señales de recesión más famosas** de la economía.
+
+La explicación tiene dos partes. Los tipos a corto plazo dependen sobre todo del banco central: cuando sube los tipos para frenar la inflación, la parte corta de la curva sube. Los tipos a largo reflejan lo que el mercado espera para el futuro: si los inversores creen que la economía se enfriará y que el banco central acabará bajando los tipos, los tipos largos bajan. La inversión indica, por tanto, que **el mercado cree que la política monetaria está demasiado restrictiva**. Además, una curva invertida reduce el margen de los bancos, que se financian a corto y prestan a largo, y puede frenar el crédito.
+
+Ejemplo ilustrativo: el banco central sube el tipo oficial al 5 % y la letra a tres meses rinde un 5,2 %. Los inversores esperan una recesión y bajadas de tipos, y el bono a diez años rinde un 4 %. La curva está invertida en 120 puntos básicos. Un banco que capta depósitos pagando cerca del 5 % y presta hipotecas a un tipo ligado al 4 % ve reducirse sus márgenes y presta con más cautela.
+
+La señal no es infalible. Entre 2022 y 2024, la curva estadounidense estuvo invertida durante un periodo excepcionalmente largo sin que llegara la recesión que muchos esperaban, en parte por el fuerte gasto público y por el ahorro acumulado durante la pandemia. En la práctica, la inversión es un indicador de riesgo, no una predicción segura.
+
+@@ 2026-12-02
+resumen: Si un precio es erróneo, alguien debería aprovecharlo y corregirlo. Pero el arbitraje tiene costes y riesgos que pueden mantener el error mucho tiempo.
+saber: en:Limits to arbitrage | Arbitraje (economía)
+
+La teoría de los mercados eficientes se apoya en el arbitraje: si un activo cotiza por debajo de su valor, los inversores racionales lo comprarán, y si cotiza por encima, lo venderán, **hasta que el precio se corrija**. Pero en 1997 los economistas Andrei Shleifer y Robert Vishny publicaron un artículo que mostraba que el arbitraje en la práctica tiene límites, y que esos límites permiten que los errores de precio duren mucho tiempo.
+
+El primer límite es el riesgo fundamental: incluso si un activo está barato, puede abaratarse aún más por noticias nuevas. El segundo es el riesgo de ruido: los inversores irracionales que han causado el error pueden empujar el precio todavía más lejos antes de que se corrija. El tercero son los costes: comisiones, coste de pedir prestados títulos para venderlos en corto y restricciones legales. Y el más importante: **los arbitrajistas trabajan con dinero ajeno**. Si su apuesta pierde temporalmente, sus clientes retiran el dinero justo cuando la oportunidad es mejor, y se ven obligados a cerrar con pérdidas.
+
+Un caso clásico es el de Royal Dutch y Shell. Durante décadas, estas dos empresas cotizaron por separado pero compartían los beneficios en una proporción fija de 60 a 40. Sus acciones deberían haber mantenido siempre esa relación de precios. Sin embargo, durante años se desviaron de ella, a veces más de un 20 %, sin que el arbitraje lo corrigiera.
+
+Ejemplo ilustrativo: un fondo detecta que la acción A cotiza un 10 % por debajo de B pese a ser equivalentes. Compra A y vende B en corto, esperando que la diferencia se cierre. Pero el diferencial se amplía al 20 %, el fondo pierde un 10 % sobre el papel y sus inversores, alarmados, retiran el dinero. Tiene que deshacer la posición con pérdidas, **justo antes de que el diferencial se cierre**. Esta dinámica fue clave en la caída del fondo Long-Term Capital Management en 1998.
+
+La lección práctica es una frase atribuida a Keynes: el mercado puede mantenerse irracional más tiempo del que uno puede mantenerse solvente. Detectar un precio erróneo no basta; hace falta tener tiempo, financiación estable y capacidad de soportar pérdidas temporales.
+
+@@ 2026-12-03
+resumen: Cómo cobran los gestores de capital privado: una rentabilidad mínima para los inversores, una fase de recuperación y un 20 % de las ganancias.
+saber: en:Carried interest | Capital riesgo
+
+Los fondos de capital privado y de capital riesgo cobran a sus inversores de dos formas. Una comisión de gestión anual, normalmente entre el 1,5 % y el 2 % del capital comprometido, que cubre los gastos del equipo. Y una participación en los beneficios llamada «carried interest», o simplemente carry, que suele ser del 20 % de las ganancias. Es **la parte más importante de la remuneración** de los gestores, y está diseñada para alinear sus intereses con los de los inversores.
+
+El carry no se cobra desde el primer euro de beneficio. Casi todos los fondos establecen una rentabilidad mínima para los inversores, llamada «hurdle rate» o rentabilidad preferente, normalmente del 8 % anual. Hasta que los inversores no hayan recuperado su capital y obtenido ese 8 %, **los gestores no cobran carry**. A partir de ahí entra en juego el «catch-up», o tramo de recuperación: los gestores reciben una parte muy alta de los beneficios siguientes, a veces el 100 %, hasta que han cobrado el 20 % del total de las ganancias. Después, el reparto pasa a ser 80 % para los inversores y 20 % para los gestores.
+
+Este orden de reparto se llama cascada de distribuciones, o «waterfall». Existen dos variantes principales. En la europea, el carry se calcula sobre el conjunto del fondo, al final. En la americana, se calcula operación por operación, lo que permite a los gestores cobrar antes, aunque suele incluir cláusulas de devolución si después hay pérdidas.
+
+Ejemplo ilustrativo: un fondo recibe 100 millones y los convierte en 200 en cinco años. Primero, los inversores recuperan sus 100 millones. Después reciben la rentabilidad preferente: un 8 % anual compuesto durante cinco años equivale a unos 47 millones. Luego, con un catch-up completo, los gestores reciben el siguiente dinero hasta tener el 20 % de lo ganado hasta ese punto. Al final, de los 100 millones de beneficio, **unos 20 van a los gestores y unos 80 a los inversores**.
+
+El carried interest es objeto de debate fiscal en muchos países, porque se suele tributar como ganancia de capital, a un tipo menor que el de los salarios, aunque es en realidad una remuneración por trabajo. En España, la ley de startups de 2022 fijó un tratamiento fiscal específico para él.
+
+@@ 2026-12-04
+resumen: Dos empresas intercambian pagos de intereses: una paga un tipo fijo y recibe uno variable. Es el derivado más negociado del mundo.
+saber: Permuta financiera | en:Interest rate swap
+
+Un swap de tipos de interés es un contrato en el que dos partes acuerdan intercambiar pagos de intereses durante un periodo de tiempo, calculados sobre una cantidad de referencia llamada nocional. Lo más habitual es que **una parte pague un tipo fijo y la otra un tipo variable**, ligado a un índice de referencia como el euríbor o, en dólares, el SOFR. El nocional no se intercambia: solo sirve para calcular los pagos.
+
+Se usa sobre todo para gestionar riesgos. Una empresa que ha pedido un préstamo a tipo variable y teme que los tipos suban puede contratar un swap en el que paga fijo y recibe variable. Los pagos variables que recibe compensan los de su préstamo, y en la práctica **convierte su deuda variable en fija**. Muchas hipotecas a tipo variable con «cobertura» funcionan con este mecanismo. Los bancos, las aseguradoras y los fondos de pensiones también usan swaps para ajustar la sensibilidad de sus balances a los tipos de interés.
+
+El tipo fijo del swap se fija para que, al firmarlo, el contrato no valga nada para ninguna de las dos partes: el valor actual de los pagos fijos esperados es igual al de los variables esperados según la curva de tipos del momento. A partir de ahí, su valor cambia con los tipos de mercado. **Si los tipos suben, gana quien paga fijo**, porque sigue pagando lo pactado mientras recibe más.
+
+Ejemplo ilustrativo: una empresa tiene un préstamo de 10 millones a euríbor más un 1 %. Contrata un swap a cinco años en el que paga un 3 % fijo y recibe euríbor. Si el euríbor sube al 4 %, paga un 5 % por el préstamo, pero recibe un 4 % del swap y paga un 3 %, con lo que su coste total queda en un 4 %. Si el euríbor baja al 1 %, paga un 2 % por el préstamo, recibe un 1 % y paga un 3 %: sigue pagando un 4 %. Ha fijado su coste, renunciando a beneficiarse de las bajadas.
+
+Los swaps son el mayor mercado de derivados del mundo, con cientos de billones de dólares en nocionales. Tras la crisis de 2008, la regulación obligó a que muchos se liquiden a través de cámaras de compensación para reducir el riesgo de que el impago de una parte contagie al sistema.
+
+@@ 2026-12-05
+resumen: Un corte de pelo es mucho más caro en Suiza que en la India, aunque sea el mismo servicio. El efecto Balassa-Samuelson explica por qué.
+saber: Efecto Balassa-Samuelson | Paridad del poder adquisitivo
+
+En los países ricos, los servicios son mucho más caros que en los países pobres. Un corte de pelo en Zúrich puede costar diez veces más que en Delhi, aunque el peluquero haga básicamente lo mismo. La teoría de la paridad del poder adquisitivo sugiere que, a largo plazo, los precios deberían igualarse entre países una vez convertidos a la misma moneda. **El efecto Balassa-Samuelson** explica por qué no ocurre, y lo formularon de forma independiente en 1964 los economistas Béla Balassa y Paul Samuelson.
+
+La explicación parte de distinguir dos tipos de bienes. Los comerciables, como coches, ordenadores o maquinaria, se venden en el mercado internacional, y su precio tiende a igualarse entre países. Los no comerciables, como los servicios personales, la vivienda o la restauración, se producen y consumen en el mismo lugar. Los países ricos son mucho más productivos que los pobres en los sectores comerciables, gracias a la tecnología y al capital, pero **apenas lo son en muchos servicios**: un peluquero no es mucho más rápido en Suiza que en la India.
+
+Como los trabajadores pueden cambiar de sector, los salarios tienden a igualarse dentro de cada país. Los altos salarios que paga la industria productiva de un país rico se extienden a los servicios, aunque estos no sean más productivos. Y como los servicios se pagan con esos salarios, son mucho más caros. El resultado: **cuanto más rico es un país, más alto es su nivel general de precios**.
+
+Ejemplo ilustrativo: en el país A, un trabajador industrial produce 10 unidades por hora y gana 50 euros; en el país B produce 2 y gana 10. Un corte de pelo lleva una hora en ambos. En A, el peluquero también cobrará unos 50 euros por hora para que no se marche a la fábrica; en B, 10. El mismo servicio cuesta cinco veces más en A, pese a ser igual de productivo.
+
+El efecto tiene implicaciones prácticas. Explica por qué los países que convergen con los ricos, como hicieron los de Europa del Este al entrar en la Unión Europea, suelen tener una inflación algo mayor o una apreciación real de su moneda. También por qué el PIB de los países pobres se ajusta por paridad de poder adquisitivo para comparar niveles de vida.

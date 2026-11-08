@@ -1,0 +1,181 @@
+@@ 2026-12-19
+resumen: Repartir dividendos o recomprar acciones: dos formas de devolver dinero al accionista que, en teoría, son iguales y en la práctica no tanto.
+saber: en:Share repurchase | Dividendo
+
+Cuando una empresa genera más dinero del que necesita para invertir, puede devolvérselo a sus accionistas de dos formas principales. Puede pagar un dividendo, es decir, una cantidad en efectivo por cada acción. O puede recomprar sus propias acciones en el mercado y amortizarlas, de modo que **cada accionista restante posee una parte mayor** de la empresa. En los últimos años, las recompras han superado a los dividendos en volumen en Estados Unidos.
+
+En un mundo ideal, sin impuestos ni costes, ambas opciones son equivalentes. Si una empresa vale 1.000 millones y reparte 100 en dividendos, pasa a valer 900, y los accionistas tienen 900 en acciones y 100 en efectivo. Si en vez de eso recompra acciones por 100 millones, los que venden reciben su dinero y los que se quedan tienen una parte mayor de una empresa de 900. En ambos casos, **el valor total para los accionistas no cambia**. Esta es una aplicación de las ideas de Modigliani y Miller.
+
+En la realidad aparecen diferencias. La primera es fiscal: en muchos países, los dividendos tributan cuando se cobran, mientras que con la recompra el accionista que no vende no paga nada hasta que venda, y entonces tributa solo por la ganancia. La segunda es la flexibilidad: los dividendos se consideran un compromiso, y recortarlos se interpreta como una mala señal; las recompras pueden ajustarse cada año sin dramas. La tercera es la señal: una recompra puede indicar que los directivos creen que la acción está barata.
+
+Ejemplo ilustrativo: una empresa con 100 millones de acciones gana 200 millones, es decir, 2 euros por acción, y cotiza a 30 euros. Dedica 300 millones a recomprar 10 millones de acciones. El año siguiente, con el mismo beneficio, gana 2,22 euros por acción porque hay menos títulos. El beneficio por acción sube un 11 % sin que el negocio haya mejorado. **Si pagó un precio demasiado alto**, destruyó valor para los accionistas que se quedaron.
+
+Las recompras reciben críticas: pueden usarse para inflar el beneficio por acción y, con él, los bonos de los directivos, o financiarse con deuda en lugar de invertir en el negocio. En 2023, Estados Unidos introdujo un impuesto del 1 % sobre ellas. En la práctica, lo importante no es la forma de devolver el dinero, sino a qué precio se recompra y si la empresa renuncia a buenas inversiones.
+
+@@ 2026-12-20
+resumen: Dos inversores en el mismo fondo pueden obtener rentabilidades muy distintas según cuándo metieron y sacaron dinero. Dos formas de medirlo.
+saber: en:Time-weighted return | Tasa interna de retorno
+
+Un fondo puede anunciar una rentabilidad del 10 % anual durante cinco años y, sin embargo, sus inversores, en conjunto, haber ganado mucho menos. La razón es que existen **dos formas de medir la rentabilidad** y responden a preguntas diferentes: qué tal lo ha hecho el gestor y qué tal le ha ido al inversor.
+
+La rentabilidad ponderada por el tiempo mide el rendimiento del fondo independientemente de cuándo entra y sale el dinero. Se calcula dividiendo el periodo en tramos entre cada aportación o retirada, calculando la rentabilidad de cada tramo y encadenándolas. Elimina el efecto de las decisiones de los inversores y por eso es **la medida estándar para evaluar a los gestores**: es la que publican los fondos y la que exigen las normas internacionales de presentación de resultados.
+
+La rentabilidad ponderada por el dinero mide lo que ha ganado realmente un inversor con sus aportaciones y retiradas concretas. Es, en esencia, la tasa interna de retorno de sus flujos de dinero. Si un inversor mete mucho dinero justo antes de una caída y lo saca tras ella, su rentabilidad será peor que la del fondo, aunque el fondo haya ido bien.
+
+Ejemplo ilustrativo: un fondo sube un 50 % el primer año y cae un 20 % el segundo. Su rentabilidad ponderada por el tiempo es de un 20 % en total: 1,5 × 0,8 = 1,2. Un inversor puso 1.000 euros al principio. Entusiasmado por la subida, añadió 10.000 euros al empezar el segundo año. Al final tiene 1.200 + 8.000 = 9.200 euros, tras haber invertido 11.000. **Ha perdido dinero**, aunque el fondo ha ganado un 20 %.
+
+Este fenómeno no es raro. Estudios como los de la firma Morningstar, que compara ambas medidas en los fondos estadounidenses, han encontrado durante años una brecha de alrededor de un punto anual entre lo que ganan los fondos y lo que ganan sus inversores, porque estos tienden a entrar tras las subidas y salir tras las caídas. En la práctica, conviene mirar las dos cifras: la primera para juzgar al gestor y la segunda para juzgarse a uno mismo.
+
+@@ 2026-12-21
+resumen: La píldora venenosa permite a un consejo de administración frenar una opa hostil. Cómo funciona y por qué es tan discutida.
+saber: en:Shareholder rights plan | Oferta pública de adquisición
+
+Una opa hostil es una oferta para comprar el control de una empresa sin el acuerdo de su consejo de administración: el comprador se dirige directamente a los accionistas. Para defenderse, las empresas han desarrollado distintas defensas antiopa. La más famosa es la píldora venenosa, o «poison pill», inventada en 1982 por el abogado estadounidense Martin Lipton. Su objetivo es **hacer prohibitivamente cara la compra** sin el visto bueno del consejo.
+
+El mecanismo más habitual funciona así. La empresa entrega a sus accionistas unos derechos que se activan si alguien supera un umbral de participación, por ejemplo el 15 % del capital, sin el acuerdo del consejo. Una vez activados, **todos los accionistas excepto el comprador** pueden comprar acciones nuevas con un gran descuento, normalmente a mitad de precio. La participación del comprador se diluye drásticamente, y su inversión pierde valor.
+
+Ejemplo ilustrativo: un inversor compra el 15 % de una empresa con 100 millones de acciones a 20 euros. Se activa la píldora y los demás accionistas compran 85 millones de acciones nuevas a 10 euros. Ahora hay 185 millones de acciones, y la participación del comprador cae a algo más del 8 %. Para alcanzar el control necesitaría comprar muchas más acciones, a un precio que se ha vuelto mucho mayor. En la práctica, **casi nadie llega a activar una píldora**: su función es obligar al comprador a negociar con el consejo.
+
+Hay otras defensas: los consejos escalonados, en los que solo se renueva una parte de los consejeros cada año; los paracaídas dorados, indemnizaciones millonarias para los directivos si son despedidos tras una compra; o la búsqueda de un «caballero blanco», otro comprador más amistoso.
+
+Las defensas son controvertidas. Sus defensores dicen que protegen a los accionistas de ofertas oportunistas y dan tiempo al consejo para buscar un precio mejor. Sus críticos sostienen que permiten a los directivos atrincherarse y protegen sus puestos frente a los intereses de los dueños. En Europa, la directiva de opas de 2004 establece como regla general que el consejo debe permanecer neutral durante una oferta y que las defensas requieren la aprobación de la junta de accionistas, aunque los países pueden aplicarla con matices.
+
+@@ 2026-12-22
+resumen: Buena parte de las acciones se negocian fuera de las bolsas, en plataformas donde las órdenes no se ven. Ventajas y riesgos de los dark pools.
+saber: Dark pool | en:Dark pool
+
+Durante mucho tiempo, comprar o vender acciones significaba hacerlo en una bolsa, donde todas las órdenes se ven en un libro público. Hoy el mercado está fragmentado: la misma acción se negocia a la vez en varias bolsas, en plataformas alternativas y en los llamados «dark pools», o mercados oscuros. Son sistemas de negociación en los que **las órdenes no se muestran antes de ejecutarse**; solo se informa de la operación una vez realizada.
+
+Su razón de ser es el problema de los grandes inversores. Si un fondo de pensiones quiere vender un millón de acciones de una empresa y lo anuncia en el libro público, los demás operadores verán la orden y el precio caerá antes de que pueda vender. Ese coste se llama impacto de mercado. En un dark pool, el fondo puede **buscar una contrapartida sin revelar sus intenciones**, normalmente al precio medio entre la mejor oferta de compra y de venta de las bolsas públicas.
+
+Ejemplo ilustrativo: una acción cotiza a 49,98 para comprar y 50,02 para vender en la bolsa. Un fondo que quiere vender 500.000 acciones podría tener que bajar a 49,50 o menos si lo hiciera a la vista de todos. En un dark pool, encuentra a otro fondo que quiere comprar una cantidad similar y ambos cruzan su operación a 50,00, el punto medio. Los dos ahorran.
+
+Los mercados oscuros también tienen riesgos. Si demasiadas órdenes se esconden, los precios públicos reflejan menos información y se vuelven menos fiables, a pesar de que los dark pools los usan como referencia: es un problema de **formación de precios**. Además, ha habido escándalos de operadores que tenían acceso privilegiado a las órdenes, y varios bancos fueron multados en Estados Unidos por engañar a sus clientes sobre quién negociaba en sus plataformas.
+
+La regulación europea MiFID II, en vigor desde 2018, introdujo límites al volumen que puede negociarse en estos sistemas por cada acción, con el objetivo de proteger la transparencia del mercado. En la práctica, para un inversor particular la fragmentación es casi invisible: su intermediario está obligado a buscar la mejor ejecución entre todos los centros disponibles.
+
+@@ 2026-12-23
+resumen: La deuda pública se estabiliza o se dispara según la diferencia entre el tipo de interés que se paga y el crecimiento de la economía.
+saber: Deuda pública | en:Debt-to-GDP ratio
+
+La sostenibilidad de la deuda de un país no se mide por su cantidad en euros, sino por su peso respecto al tamaño de la economía, es decir, el ratio de deuda sobre el producto interior bruto. Y su evolución depende de una relación sencilla pero decisiva: **la diferencia entre el tipo de interés** que el Estado paga por su deuda, que los economistas llaman «r», y la tasa de crecimiento nominal de la economía, llamada «g».
+
+La lógica es la siguiente. Cada año, la deuda crece por los intereses que hay que pagar. Pero la economía también crece, y eso reduce el peso relativo de la deuda. Si el tipo de interés es mayor que el crecimiento, r > g, la deuda tiende a aumentar sobre el PIB aunque el Estado no gaste más de lo que ingresa sin contar los intereses. Si r < g, **la deuda se diluye sola** con el tiempo. La fórmula aproximada, en texto plano: variación del ratio de deuda ≈ (r − g) × deuda sobre PIB − saldo primario, donde el saldo primario es el superávit o déficit antes de pagar intereses.
+
+Ejemplo ilustrativo: un país tiene una deuda del 100 % del PIB y un presupuesto equilibrado antes de intereses. Si paga un 4 % de interés medio y su economía crece un 3 % nominal, su deuda sube un punto de PIB al año sin hacer nada. Para estabilizarla necesitaría un superávit primario del 1 % del PIB. Si en cambio crece al 5 %, la deuda bajaría un punto al año por sí sola.
+
+Durante la década de 2010, con tipos muy bajos, muchos economistas, como Olivier Blanchard en un influyente discurso de 2019, argumentaron que r < g era la situación normal en las economías avanzadas, lo que hacía la deuda menos peligrosa. **La subida de tipos desde 2022** ha cambiado el debate: el coste de la deuda nueva ha aumentado, aunque el efecto tarda en notarse porque la deuda antigua se refinancia poco a poco.
+
+En la práctica, este cálculo explica por qué los mercados vigilan tanto el crecimiento como los tipos de interés de los países muy endeudados, y por qué una recesión puede empeorar rápidamente la situación fiscal: reduce g y a menudo eleva r al mismo tiempo.
+
+@@ 2026-12-24
+resumen: Un bono convertible es un bono y una opción a la vez: paga intereses y permite convertirse en acciones si la empresa va bien.
+saber: Bono (finanzas) | en:Convertible bond
+
+Un bono convertible es un bono que, además de pagar intereses y devolver el principal al vencimiento, da a su tenedor el derecho a **cambiarlo por un número determinado de acciones** de la empresa emisora. Es un instrumento híbrido: combina un bono normal con una opción de compra sobre las acciones. Lo emiten a menudo empresas en crecimiento, tecnológicas o de biotecnología, que quieren financiarse pagando poco interés.
+
+Para valorarlo, se separan sus dos componentes. El valor como bono, también llamado suelo, es lo que valdría si no tuviera la opción de conversión: los intereses y el principal descontados a la tasa que pagaría un bono normal de esa empresa. El valor de conversión es lo que valen hoy las acciones por las que se puede cambiar. El precio del convertible **siempre es al menos el mayor de los dos**, y en la práctica algo más, porque la opción tiene un valor adicional por el tiempo que queda.
+
+Ejemplo ilustrativo: una empresa emite un convertible de 1.000 euros con un cupón del 1 %, convertible en 20 acciones. La acción cotiza a 40 euros, así que el valor de conversión es de 800 euros. El precio de conversión, 50 euros por acción, supone una prima del 25 % sobre la cotización. Si un bono normal de la empresa pagaría un 5 %, el valor como bono a cinco años rondaría los 830 euros. El convertible podría cotizar en torno a 900: por encima de ambos, por el valor de la opción. **Si la acción sube a 70 euros**, el convertible valdrá al menos 1.400.
+
+Para la empresa, la ventaja es que paga un cupón mucho más bajo que con un bono normal. A cambio, acepta una posible dilución futura si los inversores convierten. Para el inversor, ofrece protección en las caídas, porque el suelo del bono limita las pérdidas, y participación en las subidas.
+
+En la práctica, muchos convertibles los compran fondos de arbitraje, que compran el bono y venden en corto acciones para cubrir la opción, ganando con la volatilidad. El riesgo principal es el de crédito: si la empresa se hunde, el suelo del bono también cae, y la protección desaparece justo cuando más se necesita.
+
+@@ 2026-12-25
+resumen: Las cláusulas de los préstamos limitan lo que puede hacer una empresa endeudada. Su relajación en los últimos años preocupa a los supervisores.
+saber: en:Covenant (law) | en:Cov-lite | en:Syndicated loan
+
+Los covenants, o cláusulas restrictivas, son **compromisos que una empresa acepta al pedir un préstamo** o emitir bonos, y que protegen a los acreedores. Pueden obligar a hacer algo, como presentar cuentas auditadas o mantener seguros, o prohibir hacer algo, como vender activos importantes, pedir más deuda o repartir dividendos por encima de un límite. Si la empresa los incumple, los acreedores pueden exigir la devolución anticipada o renegociar las condiciones.
+
+Hay dos grandes tipos. Los covenants de mantenimiento obligan a cumplir ciertos ratios de forma periódica, por ejemplo cada trimestre: que la deuda no supere cuatro veces el EBITDA, o que el EBITDA cubra al menos tres veces los intereses. Funcionan como **una alarma temprana**: si el negocio empeora, los acreedores pueden sentarse a negociar antes de que sea tarde. Los covenants de incurrencia, en cambio, solo se comprueban cuando la empresa quiere hacer algo concreto, como pedir más deuda o pagar un dividendo extraordinario. Son mucho más laxos.
+
+Ejemplo ilustrativo: una empresa tiene un préstamo con un covenant de mantenimiento que limita la deuda a 4 veces el EBITDA. Debe 400 millones y su EBITDA es de 110. Tras un mal año, el EBITDA cae a 90 y el ratio sube a 4,4: ha incumplido. Los bancos pueden exigir el pago, pero normalmente negocian: amplían el límite a cambio de un tipo de interés más alto, una comisión o garantías adicionales. Con un préstamo sin covenants de mantenimiento, nadie habría podido intervenir hasta mucho después.
+
+En la última década, el mercado de préstamos para compras apalancadas ha visto la expansión de los préstamos «covenant-lite», o con pocas cláusulas, que eliminan los covenants de mantenimiento. Con tanta demanda de los inversores, los fondos de capital privado consiguieron condiciones muy favorables. **En Estados Unidos, la gran mayoría** de los nuevos préstamos apalancados son ya de este tipo.
+
+La consecuencia, según advierten supervisores como el Banco de Pagos Internacionales, es que los acreedores detectan los problemas más tarde y recuperan menos en caso de impago. En la práctica, cuando se analiza la deuda de una empresa no basta con mirar el tipo de interés: también hay que leer qué cláusulas protegen al acreedor.
+
+@@ 2026-12-26
+resumen: Diversificar protege en tiempos normales. En las crisis, los activos tienden a caer a la vez justo cuando más falta haría que no lo hicieran.
+saber: Optimización de la cartera | en:Correlation | Cartera de valores
+
+La diversificación es el principio básico de la gestión de carteras: repartir el dinero entre activos distintos para que, si uno cae, los demás compensen. Su eficacia depende de la correlación, una medida entre −1 y 1 de **cuánto se mueven juntos dos activos**. Si dos activos tienen correlación 1, se mueven igual y diversificar no sirve; si es 0, sus movimientos son independientes; si es negativa, tienden a moverse en sentido contrario, y combinarlos reduce mucho el riesgo.
+
+El problema es que las correlaciones no son estables. En tiempos tranquilos, acciones de distintos países y sectores pueden tener correlaciones moderadas. Pero en las crisis, cuando los inversores venden todo lo que tienen riesgo para conseguir liquidez, **las correlaciones tienden a subir** de golpe hacia 1. Los activos que parecían independientes caen a la vez, y la diversificación falla precisamente cuando más se necesita.
+
+Ejemplo ilustrativo: una cartera reparte su dinero entre acciones europeas, acciones de países emergentes, bonos corporativos de alto rendimiento y materias primas. Con correlaciones históricas de alrededor de 0,4, su volatilidad estimada es moderada. En una crisis, las correlaciones suben a 0,9 y los cuatro activos caen entre un 25 % y un 40 %. La pérdida es casi la misma que si todo hubiera estado en acciones. **El modelo funcionaba con datos de tiempos normales**.
+
+Ocurrió en la crisis de 2008, cuando prácticamente todo lo que no era deuda pública de máxima calidad cayó a la vez, y en marzo de 2020. Además, la relación entre acciones y bonos del Estado, que durante dos décadas fue negativa y servía de colchón, se volvió positiva en 2022: con la inflación disparada, ambos cayeron juntos y las carteras clásicas de 60 % en acciones y 40 % en bonos tuvieron uno de sus peores años en décadas.
+
+En la práctica, la lección es usar correlaciones de periodos de estrés al construir carteras, mantener activos que realmente protejan en las crisis, como deuda pública de alta calidad o efectivo, y no confiar en que diversificar entre muchos activos de riesgo elimina el riesgo.
+
+@@ 2026-12-27
+resumen: Los bancos no se valoran como otras empresas: los inversores comparan su precio con el capital tangible y su rentabilidad sobre ese capital.
+saber: en:Price-to-book ratio | en:Return on tangible equity | Valoración usando múltiplos
+
+Valorar un banco es diferente de valorar una empresa industrial. En un banco, la deuda, que son los depósitos y las emisiones, forma parte del negocio: es su materia prima. Por eso los métodos basados en el flujo de caja o en el EBITDA no funcionan bien. Los analistas usan sobre todo dos métricas: **el precio sobre el valor contable tangible**, conocido como P/TBV, y la rentabilidad sobre el capital tangible, conocida como ROTE.
+
+El valor contable tangible es el patrimonio neto del banco menos los activos intangibles, como el fondo de comercio de adquisiciones pasadas o el software. Se eliminan porque en una crisis no sirven para absorber pérdidas. El P/TBV compara la capitalización bursátil con esa cifra. Un P/TBV de 1 significa que el mercado valora el banco exactamente por su capital tangible; por debajo de 1, que cree que **destruirá valor** o que sus activos valen menos de lo que dicen las cuentas.
+
+El ROTE mide el beneficio neto dividido entre el capital tangible: cuánto gana el banco por cada euro de capital de sus accionistas. La relación clave es la siguiente: un banco debería cotizar por encima de su valor tangible solo si su ROTE supera el coste de su capital, la rentabilidad que exigen los accionistas por el riesgo. De forma simplificada, en texto plano: P/TBV justo ≈ (ROTE − crecimiento) / (coste del capital − crecimiento).
+
+Ejemplo ilustrativo: un banco tiene un ROTE del 15 %, un coste del capital del 10 % y un crecimiento a largo plazo del 3 %. Su P/TBV justo sería (15 − 3) / (10 − 3), aproximadamente 1,7. Si su ROTE fuera del 8 %, por debajo del coste del capital, el P/TBV justo bajaría a 0,7: **el banco valdría menos que su capital**, porque cada euro reinvertido rinde menos de lo que exigen los inversores.
+
+Esto explica la evolución de los bancos europeos. Durante años de tipos negativos, muchos tuvieron ROTE muy bajos y cotizaron muy por debajo de su valor tangible. Con la subida de tipos desde 2022, sus márgenes y rentabilidades mejoraron, y sus cotizaciones se recuperaron con fuerza. En la práctica, al analizar un banco conviene preguntarse si su rentabilidad actual es sostenible o depende de un momento favorable del ciclo.
+
+@@ 2026-12-28
+resumen: Solvencia II obliga a las aseguradoras europeas a tener capital suficiente para sobrevivir a un año muy malo, de los que ocurren una vez cada 200 años.
+saber: Solvencia II | en:Solvency II Directive 2009
+
+Las compañías de seguros cobran primas por adelantado y pagan las indemnizaciones después, a veces décadas más tarde, como en los seguros de vida. Para que puedan cumplir sus promesas incluso en un escenario muy adverso, la Unión Europea aplica desde 2016 **un régimen de supervisión llamado Solvencia II**. Su pieza central es el capital de solvencia obligatorio, conocido por sus siglas en inglés como SCR.
+
+El SCR es la cantidad de capital que una aseguradora debe tener para poder absorber las pérdidas de un año extremadamente malo. Técnicamente, se calibra para que la compañía siga siendo solvente con una probabilidad del 99,5 % en un horizonte de un año. Dicho de otro modo, **debe sobrevivir a un año tan malo como el peor de cada 200**. Se calcula sumando los riesgos a los que está expuesta: de mercado, como caídas de la bolsa o de los tipos de interés; de suscripción, como catástrofes naturales o un aumento de la longevidad; de crédito y operacionales, teniendo en cuenta que no todos ocurren a la vez.
+
+Solvencia II tiene tres pilares. El primero son los requisitos cuantitativos: la valoración de activos y pasivos a precios de mercado y el cálculo del capital. El segundo, la gobernanza y la gestión de riesgos, incluida una autoevaluación de riesgos que cada compañía debe hacer. El tercero, la transparencia: las aseguradoras deben publicar cada año un informe sobre su situación financiera y de solvencia.
+
+Ejemplo ilustrativo: una aseguradora tiene un SCR de 1.000 millones y unos fondos propios admisibles de 1.800 millones. Su ratio de solvencia es del 180 %. Si un terremoto le causa pérdidas de 600 millones y la bolsa cae, sus fondos propios pueden bajar a 1.100 millones y el ratio al 110 %. Sigue cumpliendo, pero se acerca al mínimo y deberá presentar un plan al supervisor si lo perfora. **Por debajo de otro umbral**, el capital mínimo obligatorio, el supervisor puede retirarle la licencia.
+
+El ratio de solvencia se ha convertido en una cifra clave para los inversores en aseguradoras, que suelen mantenerlo muy por encima del 100 %. La normativa se ha revisado recientemente para reducir algunos requisitos de capital y reforzar la proporcionalidad para las compañías pequeñas.
+
+@@ 2026-12-29
+resumen: La estabilidad engendra inestabilidad: Hyman Minsky explicó cómo los buenos tiempos llevan a endeudarse cada vez más hasta el crac.
+saber: Hyman Minsky | en:Financial instability hypothesis | en:Minsky moment
+
+El economista estadounidense Hyman Minsky murió en 1996 siendo una figura secundaria de la profesión. Doce años después, durante la crisis de 2008, su nombre se convirtió en tendencia en los periódicos financieros. Su hipótesis de la inestabilidad financiera afirmaba algo que la economía dominante había descuidado: **las crisis no vienen de fuera, sino que se gestan dentro del propio sistema financiero**, durante los buenos tiempos.
+
+Minsky distinguió tres tipos de financiación. En la financiación cubierta, los deudores pueden pagar los intereses y devolver el principal con sus ingresos. En la financiación especulativa, pueden pagar los intereses, pero necesitan refinanciar el principal cuando vence. En la financiación Ponzi, ni siquiera pueden pagar los intereses con sus ingresos: dependen de que el valor de sus activos siga subiendo para vender o pedir más prestado.
+
+Su idea central es que **la estabilidad engendra inestabilidad**. Tras un largo periodo de crecimiento sin crisis, prestamistas y prestatarios se vuelven confiados. Se relajan los criterios de crédito, aumenta el endeudamiento y la economía se desplaza poco a poco de la financiación cubierta a la especulativa y a la Ponzi. Cuando algo frena la subida de los precios de los activos, los más endeudados tienen que vender, los precios caen y se desata una espiral. Ese punto de quiebre se conoce como **momento Minsky**, una expresión acuñada por el economista Paul McCulley en 1998.
+
+Ejemplo ilustrativo: durante años de precios de vivienda al alza, un comprador obtiene una hipoteca que no podría pagar con su sueldo, confiando en vender la casa más cara en dos años. Mientras los precios suben, funciona, y los bancos, viendo pocos impagos, relajan aún más sus criterios. Cuando los precios dejan de subir, miles de compradores como él no pueden pagar ni vender. Es lo que ocurrió con las hipotecas subprime en Estados Unidos.
+
+La hipótesis de Minsky influyó en la regulación posterior a 2008, que introdujo políticas macroprudenciales, como colchones de capital que los bancos deben acumular en los buenos tiempos para gastarlos en los malos. En la práctica, invita a desconfiar de los periodos largos de calma: cuando nadie espera una crisis es cuando más riesgo se acumula.
+
+@@ 2026-12-30
+resumen: Una póliza de vida genera beneficios durante décadas. El embedded value intenta medir hoy el valor de esos beneficios futuros para el accionista.
+saber: en:Embedded value | Seguro de vida
+
+Valorar una aseguradora de vida es especialmente difícil. Cuando vende una póliza, por ejemplo un seguro de ahorro a veinte años, cobra primas durante mucho tiempo y obtiene beneficios poco a poco a lo largo de la vida del contrato. En las cuentas de un año concreto, **la mayor parte del valor de esa póliza todavía no aparece**. El embedded value, o valor intrínseco, es una métrica que intenta capturar ese valor latente.
+
+El embedded value tiene dos componentes. El primero es el patrimonio neto ajustado: el capital que pertenece a los accionistas, corregido según criterios de mercado. El segundo es el valor de la cartera en vigor: el valor actual de los beneficios futuros que generarán las pólizas que la compañía ya tiene vendidas, descontado a una tasa que refleja el riesgo y restando el coste de inmovilizar el capital que exige el regulador. Lo que **no incluye** es el valor de las pólizas que se venderán en el futuro, que se mide por separado con el llamado valor de la nueva producción.
+
+Ejemplo ilustrativo: una aseguradora tiene un patrimonio neto ajustado de 2.000 millones. Sus pólizas en vigor generarán beneficios estimados de 300 millones al año durante los próximos quince años, decrecientes a medida que vencen. Descontados al 8 %, y tras restar el coste del capital inmovilizado, su valor actual es de unos 1.800 millones. El embedded value sería de 3.800 millones. Si la compañía cotiza por 3.000 millones, **el mercado la valora un 20 % por debajo** de su embedded value, quizá porque duda de las hipótesis o no confía en su capacidad para vender nuevas pólizas rentables.
+
+El cálculo depende de muchas hipótesis: tipos de interés, mortalidad, tasas de rescate de las pólizas, gastos y rentabilidad de las inversiones. Un pequeño cambio puede mover mucho el resultado. Por eso los estándares sectoriales, como los principios europeos de embedded value, intentan homogeneizar los cálculos, y muchas compañías publican análisis de sensibilidad.
+
+En la práctica, el embedded value y el valor de la nueva producción siguen siendo métricas habituales en las presentaciones de las aseguradoras de vida, especialmente en Asia. En Europa han perdido protagonismo desde la llegada de Solvencia II y de la nueva norma contable NIIF 17, que obliga a reconocer de forma más explícita el margen de beneficios futuros de los contratos.
+
+@@ 2026-12-31
+resumen: Los mercados no son siempre eficientes ni siempre irracionales: evolucionan. La hipótesis de Andrew Lo intenta reconciliar ambas visiones.
+saber: en:Adaptive market hypothesis | en:Andrew Lo | Finanzas conductuales
+
+Durante décadas, las finanzas han estado divididas entre dos visiones. Para la hipótesis de los mercados eficientes, los precios reflejan toda la información disponible y no se puede batir al mercado de forma sistemática. Para las finanzas del comportamiento, los inversores cometen errores sistemáticos y los precios pueden desviarse durante mucho tiempo de su valor. En 2004, el economista Andrew Lo, del MIT, propuso **una síntesis inspirada en la biología**: la hipótesis de los mercados adaptativos.
+
+Lo parte de la teoría de la evolución. Los participantes del mercado, como inversores, fondos o bancos, son como especies que compiten por recursos limitados, los beneficios, en un entorno que cambia constantemente. No son perfectamente racionales, pero aprenden y se adaptan por ensayo y error, usando reglas prácticas que funcionaron en el pasado. **La eficiencia del mercado no es un estado fijo**, sino que depende de cuántos competidores haya, de cuánto dinero esté en juego y de cuánto cambie el entorno.
+
+De ahí se derivan varias predicciones. Las oportunidades de ganar dinero existen, pero desaparecen a medida que los competidores las descubren y las explotan, y pueden reaparecer cuando cambian las condiciones. Las estrategias de inversión tienen ciclos: funcionan durante años y después dejan de hacerlo. La relación entre riesgo y rentabilidad no es estable. Y los comportamientos que parecen irracionales, como el pánico en una crisis, pueden ser respuestas que tenían sentido en otros contextos y que se aplican mal en uno nuevo.
+
+Ejemplo ilustrativo: una estrategia que compra las acciones que más han subido en el último año, llamada momentum, gana dinero durante una década. Cada vez más fondos la copian, sus beneficios se reducen y aumenta el riesgo de que todos intenten salir a la vez. Tras una fuerte pérdida, muchos la abandonan, y con menos competencia puede volver a funcionar. **La rentabilidad depende de la ecología del mercado**, no de una ley fija.
+
+La hipótesis de los mercados adaptativos ha recibido críticas por ser difícil de comprobar con precisión: casi cualquier comportamiento puede explicarse como adaptación. Pero ofrece una lección práctica útil para terminar el año: desconfiar tanto de quien asegura que el mercado es imbatible como de quien tiene una fórmula infalible, porque lo que funcionó ayer no tiene por qué funcionar mañana.

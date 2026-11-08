@@ -1,0 +1,195 @@
+@@ 2026-11-09
+resumen: Dos herramientas para decidir si una inversión merece la pena que a veces dan respuestas opuestas. Saber cuál usar evita errores caros.
+saber: en:Net present value | en:Internal rate of return
+
+Cuando una empresa estudia un proyecto, como abrir una fábrica o comprar una máquina, necesita saber si crea valor. Las dos herramientas más usadas son el valor actual neto (VAN) y la tasa interna de retorno (TIR). Ambas parten de la misma idea: **un euro hoy vale más que un euro dentro de cinco años**, porque se puede invertir mientras tanto. Por eso los flujos futuros se «descuentan», es decir, se traducen a su valor de hoy.
+
+El VAN suma todos los flujos del proyecto descontados a una tasa que refleja el coste del dinero y el riesgo, llamada coste de capital. La fórmula, en texto plano: VAN = suma de [flujo del año t / (1 + r) elevado a t] menos la inversión inicial. Si el resultado es positivo, el proyecto **crea valor por encima de lo que exigen los inversores**. La TIR, en cambio, es la tasa de descuento que hace que el VAN sea exactamente cero. Se interpreta como la rentabilidad anual del proyecto, y se acepta si supera el coste de capital.
+
+Ejemplo ilustrativo: el proyecto A cuesta 100 y devuelve 130 dentro de un año. El proyecto B cuesta 1.000 y devuelve 1.200 en un año. Con un coste de capital del 10 %, el VAN de A es unos 18 (130 / 1,10 − 100), y el de B, unos 91 (1.200 / 1,10 − 1.000). Pero la TIR de A es del 30 % y la de B, del 20 %. **Si solo se puede hacer uno**, la TIR elige A y el VAN elige B. La respuesta correcta para el accionista es B: deja 91 de valor frente a 18. La TIR ignora el tamaño del proyecto.
+
+La TIR tiene otras trampas. Supone implícitamente que los flujos intermedios se reinvierten a la propia TIR, algo poco realista cuando es muy alta. Y si los flujos cambian de signo varias veces, por ejemplo con grandes costes de desmantelamiento al final, puede haber **varias TIR o ninguna**. Para corregir el primer problema existe la TIR modificada, que supone la reinversión al coste de capital.
+
+En la práctica, la TIR sigue siendo muy popular porque un porcentaje es fácil de comunicar y de comparar, y en el capital privado se usa como medida estrella. La recomendación de los manuales es clara: usar el VAN para decidir y la TIR como información complementaria, sin dejar que un porcentaje alto oculte un proyecto pequeño.
+
+@@ 2026-11-10
+resumen: Por qué un bono de empresa paga más que uno del Estado, y por qué esa diferencia no se explica solo por el riesgo de impago.
+saber: en:Credit spread (bond) | en:Credit risk
+
+Cuando una empresa emite un bono, es decir, un título de deuda, paga un tipo de interés más alto que el Estado para el mismo plazo. Esa diferencia se llama diferencial de crédito, o «spread», y se mide en puntos básicos: cien puntos básicos son un punto porcentual. Si el bono del Estado a cinco años rinde un 3 % y el de una empresa, un 4,5 %, **el diferencial es de 150 puntos básicos**.
+
+La explicación intuitiva es el riesgo de impago: la empresa puede quebrar y no devolver todo. Para estimar cuánto compensa ese riesgo hacen falta dos datos. La probabilidad de impago, es decir, la posibilidad de que la empresa no pague en un año, y la tasa de recuperación, la parte de la deuda que los acreedores cobran pese al impago. La relación aproximada, en texto plano: diferencial ≈ probabilidad de impago anual × (1 − tasa de recuperación).
+
+Ejemplo ilustrativo: si una empresa tiene un 1 % de probabilidad anual de impago y en caso de quiebra los inversores recuperarían el 40 %, la pérdida esperada es de un 0,6 % al año, es decir, 60 puntos básicos. Pero en el mercado su bono paga 150. **Los otros 90 puntos básicos** no se explican por la pérdida esperada. Este fenómeno, observado en muchos estudios, se conoce como el enigma del diferencial de crédito.
+
+¿De dónde sale el resto? Una parte es una prima por riesgo: los impagos no llegan de uno en uno, sino que se concentran en las recesiones, justo cuando a los inversores más les duele perder dinero. Otra parte es una prima de liquidez, porque muchos bonos corporativos se negocian poco y venderlos con prisa sale caro. También influyen los impuestos y la falta de diversificación. Por eso los diferenciales se disparan en las crisis, aunque los impagos tarden en llegar: **sube el precio del miedo**, no solo el riesgo.
+
+En la práctica, los diferenciales son un termómetro del apetito de riesgo. Cuando se estrechan mucho, los inversores aceptan poca compensación y pueden estar infravalorando el riesgo; cuando se amplían bruscamente, anticipan tensiones económicas. Los bancos centrales y los analistas los vigilan como una señal temprana de problemas en la financiación de las empresas.
+
+@@ 2026-11-11
+resumen: Un país no puede tener a la vez tipo de cambio fijo, libre movimiento de capitales y política monetaria propia. Debe renunciar a uno.
+saber: Trinidad imposible | en:Mundell–Fleming model
+
+El trilema de Mundell-Fleming, llamado también trinidad imposible, es una de las ideas más útiles de la economía internacional. Afirma que un país solo puede conseguir a la vez dos de estos tres objetivos: **un tipo de cambio fijo**, libre circulación de capitales con el exterior y una política monetaria independiente, es decir, la capacidad de fijar sus propios tipos de interés. Debe renunciar siempre a uno.
+
+La lógica es sencilla. Si los capitales se mueven libremente y la moneda está fijada a otra, los inversores irán donde los tipos sean más altos. Supongamos que un país fija su moneda al dólar y baja sus tipos de interés por debajo de los estadounidenses. El dinero saldrá del país en busca de mejor rentabilidad, venderá la moneda local y presionará para que se deprecie. Para mantener el tipo fijo, el banco central tendrá que comprar su propia moneda con sus reservas de divisas, y **tarde o temprano tendrá que subir los tipos** o abandonar el tipo fijo.
+
+Ejemplo ilustrativo: un país pequeño fija su moneda al euro y permite la libre entrada y salida de capitales. Si el Banco Central Europeo sube los tipos al 4 %, ese país tendrá que subirlos también a un nivel parecido, aunque su economía esté en recesión y necesite tipos bajos. Ha elegido el tipo fijo y la movilidad de capitales, y ha perdido el control monetario. Es el caso de Dinamarca, cuya corona está ligada al euro.
+
+Cada país elige su combinación. La zona euro tiene libre circulación de capitales y una política monetaria común, pero sus miembros renunciaron a su moneda y a su banco central propio. Estados Unidos o el Reino Unido mantienen la política monetaria y la libertad de capitales, y **dejan flotar su moneda**. China ha combinado durante años un tipo de cambio gestionado y una política monetaria propia con controles sobre la salida de capitales.
+
+El trilema ayuda a entender las crisis cambiarias, como la de la libra en 1992 o las asiáticas de 1997: países que intentaban mantener los tres objetivos a la vez y acabaron perdiendo. Investigaciones recientes, como las de la economista Hélène Rey, matizan la idea: incluso con tipo flexible, el ciclo financiero global limita la autonomía monetaria de muchos países.
+
+@@ 2026-11-12
+resumen: Delta, gamma, vega y theta miden cómo cambia el precio de una opción cuando se mueven el mercado, la volatilidad o el tiempo.
+saber: Griegas (finanzas) | en:Greeks (finance)
+
+Una opción es un contrato que da el derecho, pero no la obligación, de comprar o vender un activo a un precio fijado de antemano, llamado precio de ejercicio. Su valor depende de varios factores que cambian todo el tiempo: el precio del activo, su volatilidad, el tiempo que queda hasta el vencimiento y los tipos de interés. Las «griegas» son **medidas de sensibilidad** que indican cuánto cambia el precio de la opción cuando se mueve cada uno de esos factores.
+
+La delta mide cuánto varía la opción cuando el activo sube un euro. Una opción de compra muy por encima de su precio de ejercicio tiene una delta cercana a 1: se mueve casi como la acción. Una muy alejada tiene una delta cercana a 0. La gamma mide **cuánto cambia la delta** cuando se mueve el activo; es máxima en opciones cuyo precio de ejercicio está cerca del precio actual y que vencen pronto. La vega mide la sensibilidad a la volatilidad: cuanto más incierto es el futuro, más valen las opciones. Y la theta mide cuánto valor pierde la opción cada día que pasa, el llamado desgaste temporal.
+
+Ejemplo ilustrativo: una opción de compra sobre una acción que cotiza a 100 euros vale 5 euros y tiene una delta de 0,5, una gamma de 0,04 y una theta de −0,05. Si la acción sube a 101 euros, la opción subirá aproximadamente 0,50 euros, hasta 5,50, y su nueva delta será de 0,54. Si al día siguiente no pasa nada, la opción perderá unos 5 céntimos por el paso del tiempo.
+
+Las griegas permiten gestionar el riesgo. Quien vende opciones, como un banco, suele cubrir la delta comprando o vendiendo el activo subyacente para que pequeños movimientos no le afecten. Pero como la delta cambia, esa cobertura hay que ajustarla, y ahí entra la gamma. Existe además un equilibrio entre gamma y theta: **quien compra opciones gana con los movimientos bruscos** pero paga el desgaste del tiempo; quien las vende cobra ese desgaste pero sufre con los sobresaltos.
+
+En la práctica, las griegas son aproximaciones válidas para movimientos pequeños y dependen del modelo utilizado para valorar las opciones. Los operadores las vigilan constantemente y las suman para toda la cartera, de modo que saben qué riesgo concentran ante cada tipo de movimiento del mercado.
+
+@@ 2026-11-13
+resumen: Perder 100 euros duele el doble de lo que alegra ganarlos. Kahneman y Tversky mostraron cómo ese sesgo distorsiona las decisiones financieras.
+saber: Teoría de las perspectivas | Daniel Kahneman | Finanzas conductuales
+
+La teoría clásica de las finanzas supone que los inversores son racionales: evalúan la riqueza total que obtendrán y eligen la opción con mayor utilidad esperada. En 1979, los psicólogos Daniel Kahneman y Amos Tversky publicaron una alternativa basada en experimentos: **la teoría de las perspectivas**, o teoría prospectiva. Kahneman recibió el Nobel de Economía en 2002 por este trabajo; Tversky había muerto en 1996.
+
+La teoría tiene tres ideas clave. La primera es el punto de referencia: las personas no valoran su riqueza total, sino las ganancias y pérdidas respecto a un punto de partida, como el precio al que compraron una acción. La segunda es la aversión a las pérdidas: **una pérdida duele más o menos el doble** de lo que alegra una ganancia del mismo tamaño. La tercera es que las personas sobrevaloran las probabilidades pequeñas, lo que explica por qué compran lotería y, a la vez, seguros contra riesgos muy improbables.
+
+De ahí se derivan comportamientos característicos. Ante ganancias seguras, la gente es prudente y prefiere asegurar el beneficio. Ante pérdidas, en cambio, busca el riesgo: prefiere jugársela antes que aceptar una pérdida segura.
+
+Ejemplo ilustrativo: un inversor compró dos acciones a 50 euros. Una sube a 60 y otra baja a 40. Necesita dinero y debe vender una. Según la teoría racional, debería vender la que tenga peores perspectivas, con independencia del precio de compra. Pero la mayoría vende la que ha subido, para «asegurar» la ganancia, y mantiene la que ha bajado, esperando recuperar. **Este sesgo se llama efecto disposición** y está bien documentado en estudios con datos reales de inversores particulares.
+
+En los mercados, estos sesgos ayudan a explicar fenómenos como la tendencia a mantener demasiado tiempo las inversiones perdedoras, la popularidad de productos con pequeñas probabilidades de grandes ganancias o la prima de riesgo de las acciones, que la teoría clásica considera demasiado alta. En la práctica, conocer la aversión a las pérdidas sirve para algo muy concreto: fijar de antemano reglas de venta y evaluar las inversiones por sus perspectivas futuras, no por el precio al que se compraron.
+
+@@ 2026-11-14
+resumen: En una valoración por descuento de flujos, el valor terminal suele pesar más de la mitad del resultado. Hay dos formas de calcularlo.
+saber: en:Terminal value (finance) | en:Dividend discount model
+
+Para valorar una empresa por descuento de flujos de caja, se proyectan sus flujos durante unos años, normalmente entre cinco y diez, y se traducen a su valor de hoy. Pero la empresa no desaparece al final de ese periodo: seguirá generando dinero. Ese valor de todos los años posteriores, resumido en una sola cifra, se llama valor terminal. Su importancia es enorme: **a menudo supone más de la mitad**, e incluso más del 70 %, del valor total de la empresa.
+
+El primer método es el modelo de crecimiento constante de Gordon. Supone que a partir del último año proyectado el flujo crece para siempre a una tasa fija y modesta. En texto plano: valor terminal = flujo del año siguiente / (coste de capital − crecimiento). La tasa de crecimiento debe ser baja y sostenible, normalmente no mayor que el crecimiento nominal de la economía a largo plazo, porque **ninguna empresa puede crecer más que la economía para siempre**.
+
+El segundo método es el múltiplo de salida. Supone que la empresa se vendería al final del periodo a un precio igual a un múltiplo de alguna magnitud, como el beneficio bruto de explotación (EBITDA), similar al que se paga hoy por empresas comparables. Es el método preferido en banca de inversión y capital privado, porque refleja precios de mercado.
+
+Ejemplo ilustrativo: una empresa generará un flujo de 100 millones el año próximo, tiene un coste de capital del 9 % y se espera que crezca un 2 % anual a largo plazo. Con Gordon, su valor terminal sería 100 / (0,09 − 0,02), unos 1.430 millones. Si se usa un 3 % de crecimiento, el resultado sube a casi 1.670 millones. Un punto de diferencia en una hipótesis mueve el valor más de un 15 %. **Esa sensibilidad** es el gran riesgo de cualquier valoración.
+
+Los dos métodos sirven para comprobarse mutuamente. Si el múltiplo de salida implica un crecimiento perpetuo del 6 %, es una señal de alarma: el mercado de hoy puede estar caro. Y si Gordon da un múltiplo muy inferior a los de empresas comparables, conviene revisar las hipótesis. En la práctica, los buenos analistas presentan siempre una tabla con varios escenarios en lugar de una cifra única.
+
+@@ 2026-11-15
+resumen: El ratio de Sharpe mide cuánto rinde una inversión por cada unidad de riesgo asumida. Es útil, pero puede engañar si se usa sin cuidado.
+saber: Ratio de Sharpe | William F. Sharpe
+
+Dos fondos han ganado un 10 % el último año. ¿Son igual de buenos? No necesariamente: uno puede haberlo conseguido con muy pocos sobresaltos y el otro con caídas y subidas violentas. Para comparar inversiones teniendo en cuenta el riesgo, el economista William Sharpe propuso en 1966 un indicador que lleva su nombre. El ratio de Sharpe mide **la rentabilidad obtenida por cada unidad de riesgo**.
+
+La fórmula, en texto plano, es: ratio de Sharpe = (rentabilidad de la inversión − rentabilidad sin riesgo) / volatilidad. La rentabilidad sin riesgo es la que se obtiene con un activo muy seguro, como una letra del Tesoro. La diferencia entre ambas se llama exceso de rentabilidad: es lo que se gana por asumir riesgo. La volatilidad, medida con la desviación típica de los rendimientos, indica cuánto oscila la inversión.
+
+Ejemplo ilustrativo: el tipo sin riesgo es del 3 %. El fondo A rinde un 10 % con una volatilidad del 10 %; su ratio es (10 − 3) / 10 = 0,7. El fondo B rinde también un 10 %, pero con una volatilidad del 20 %; su ratio es 0,35. **Por cada unidad de riesgo, A ofrece el doble** de rentabilidad extra que B. Como orientación, los índices bursátiles amplios suelen tener ratios históricos de largo plazo entre 0,3 y 0,5.
+
+El indicador tiene limitaciones importantes. Supone que la volatilidad resume todo el riesgo, lo que es razonable si los rendimientos siguen una distribución normal, la clásica campana. Pero muchas estrategias tienen riesgos ocultos: ganan poco y de forma regular durante años y de pronto sufren una pérdida enorme. Una estrategia que vende seguros contra caídas del mercado puede mostrar un Sharpe excelente durante mucho tiempo antes de una catástrofe. Además, **activos poco líquidos que se valoran rara vez**, como algunos fondos inmobiliarios o de capital privado, parecen menos volátiles de lo que son, lo que infla su ratio.
+
+En la práctica, el ratio de Sharpe es una buena primera herramienta para comparar, pero conviene completarlo con otras medidas, como la máxima caída sufrida, el ratio de Sortino, que solo penaliza la volatilidad a la baja, y un análisis de qué ocurre en las crisis. Un Sharpe sospechosamente alto merece más preguntas, no menos.
+
+@@ 2026-11-16
+resumen: Los bancos centrales no solo fijan los tipos de hoy: también anuncian los de mañana. Para que funcione, tienen que ser creíbles.
+saber: en:Forward guidance | Política económica
+
+La guía prospectiva, más conocida por su nombre en inglés, «forward guidance», es la comunicación que hace un banco central sobre la evolución futura de su política monetaria. En lugar de limitarse a fijar el tipo de interés de hoy, el banco anuncia lo que piensa hacer en los próximos meses o años. Su eficacia se basa en una idea: **lo que importa para la economía no es solo el tipo de hoy**, sino lo que los inversores esperan para el futuro.
+
+La razón es que las empresas y los hogares se financian a plazos largos. Una hipoteca o un préstamo para una inversión dependen de los tipos a cinco o diez años, y esos tipos reflejan las expectativas sobre los tipos oficiales futuros. Si el banco central convence al mercado de que mantendrá los tipos bajos durante mucho tiempo, los tipos a largo plazo bajan hoy, aunque el tipo oficial ya no pueda reducirse más. Por eso la guía prospectiva se volvió **una herramienta clave cuando los tipos llegaron a cero**, tras la crisis de 2008.
+
+Existen dos tipos. La guía «délfica», como el oráculo de Delfos, es una simple previsión: el banco cuenta lo que espera que ocurra según su lectura de la economía. La «odiseica», por Ulises atado al mástil, es un compromiso: el banco se ata las manos y promete mantener una política aunque más adelante pueda tener la tentación de cambiarla. Esta segunda es más potente, pero también más arriesgada.
+
+Ejemplo ilustrativo: un banco central anuncia que no subirá los tipos hasta que la inflación supere el 2 % de forma sostenida. Los inversores, que antes esperaban subidas en un año, retrasan sus previsiones. El tipo a cinco años baja del 2,5 % al 1,8 %, y las hipotecas se abaratan sin que el tipo oficial haya cambiado. Si después la inflación se dispara y el banco incumple su promesa, **su credibilidad se resiente** y futuras promesas tendrán menos efecto.
+
+Eso ocurrió en parte en 2021 y 2022: varios bancos centrales habían asegurado que mantendrían los tipos bajos durante mucho tiempo y tuvieron que subirlos con rapidez cuando la inflación se disparó. Desde entonces, muchos han vuelto a una comunicación más prudente, decidiendo «reunión a reunión» y vinculando sus mensajes a los datos.
+
+@@ 2026-11-17
+resumen: Invertir en petróleo o en trigo a través de futuros no da la misma rentabilidad que el precio al contado: la diferencia está en la curva.
+saber: en:Contango | en:Normal backwardation | Contrato de futuros
+
+Muchos inversores siguen el precio del petróleo, del oro o del trigo y creen que, si compran un fondo de materias primas, ganarán lo mismo que sube el precio. Casi nunca es así. Esos fondos no compran barriles ni sacos, sino contratos de futuros: acuerdos para comprar una cantidad de la materia prima en una fecha futura a un precio fijado hoy. La forma de la curva de precios de esos futuros **determina una parte importante de la rentabilidad**.
+
+Se habla de contango cuando los futuros a plazos más largos son más caros que los cercanos, es decir, cuando la curva sube con el tiempo. Es habitual cuando hay abundancia de oferta y almacenar cuesta dinero. Se habla de backwardation cuando ocurre lo contrario: los futuros lejanos son más baratos que los próximos, normalmente porque hay escasez y la mercancía se necesita ya.
+
+Como los futuros vencen, un fondo que quiera mantener su exposición debe venderlos antes del vencimiento y comprar los siguientes. Esa operación se llama rolar, o «roll». En contango, el fondo vende barato y compra caro, y pierde dinero en cada renovación aunque el precio al contado no cambie. En backwardation ocurre lo contrario: **gana con cada renovación**. Esa ganancia o pérdida se llama rendimiento del roll.
+
+Ejemplo ilustrativo: el petróleo cotiza al contado a 70 dólares, el futuro a un mes a 70 y el de dos meses a 72. Un fondo tiene el futuro a un mes y, al acercarse el vencimiento, lo vende a 70 y compra el siguiente a 72. Si al cabo de un año el precio al contado sigue en 70, el fondo puede haber perdido más de un 20 %, por el coste acumulado de renovar cada mes con un contango así. **El precio se ha quedado quieto; el inversor, no**.
+
+Esto ocurrió de forma espectacular en 2020, cuando el hundimiento de la demanda por la pandemia llenó los depósitos de crudo y el contango se disparó; en abril de aquel año, el futuro del petróleo estadounidense llegó a cotizar en negativo durante un día. En la práctica, antes de invertir en materias primas a través de fondos conviene mirar la forma de la curva y no solo el precio.
+
+@@ 2026-11-18
+resumen: Las empresas presentan un beneficio «ajustado» que excluye gastos extraordinarios. A veces aclara; otras, maquilla. Cómo distinguirlo.
+saber: EBITDA | en:Earnings before interest, taxes, depreciation and amortization
+
+El EBITDA es una de las cifras más citadas en los resultados de las empresas. Son las siglas en inglés de beneficio antes de intereses, impuestos, depreciaciones y amortizaciones. Mide **el resultado de explotación del negocio** antes de tener en cuenta cómo se financia la empresa, cuántos impuestos paga y cuánto se desgastan sus activos. Su ventaja es que permite comparar empresas con distintas estructuras de deuda o de fiscalidad.
+
+El EBITDA no es una medida regulada por las normas contables, a diferencia del beneficio neto. Por eso las empresas tienen libertad para presentar versiones «ajustadas», en las que eliminan gastos que consideran extraordinarios o no recurrentes: costes de reestructuración, indemnizaciones por despidos, gastos de una adquisición, pagos en acciones a directivos o pérdidas por un litigio. La idea, razonable en principio, es mostrar **la capacidad de generar beneficios del negocio recurrente**.
+
+El problema surge cuando los ajustes se vuelven habituales. Si una empresa tiene «costes de reestructuración extraordinarios» todos los años, no son extraordinarios: forman parte de su negocio. Los pagos en acciones a empleados son un coste real, porque diluyen a los accionistas. Y algunos ajustes son directamente agresivos, como sumar ahorros futuros que la empresa espera conseguir pero que todavía no existen.
+
+Ejemplo ilustrativo: una empresa tiene un EBITDA contable de 80 millones. La dirección suma 10 millones de reestructuración, 8 de pagos en acciones y 12 de «sinergias previstas» de una compra reciente, y presenta un EBITDA ajustado de 110 millones. Si el mercado valora la empresa a diez veces su EBITDA, la diferencia entre ambas cifras equivale a 300 millones de valor. **Un ajuste de 30 millones** se convierte así en una diferencia enorme de precio.
+
+En la práctica, los analistas recomiendan revisar la conciliación entre el EBITDA ajustado y el beneficio contable, que las empresas cotizadas deben publicar en Europa según las directrices de la ESMA, comprobar si los ajustes se repiten año tras año y fijarse en el flujo de caja, que es más difícil de maquillar. El EBITDA ajustado es útil, siempre que se lea con escepticismo.
+
+@@ 2026-11-19
+resumen: Un fondo compra una empresa poniendo poco dinero propio y mucha deuda. Así funciona una compra apalancada y así se multiplica la TIR.
+saber: Compra apalancada | en:Leveraged buyout
+
+Una compra apalancada, conocida por sus siglas en inglés LBO, es la adquisición de una empresa financiada en gran parte con deuda. Es la operación típica de los fondos de capital privado. El fondo aporta una parte del precio con dinero de sus inversores, normalmente entre un 30 % y un 50 %, y el resto lo pide prestado. La clave es que **esa deuda la paga después la propia empresa comprada**, con los flujos de caja que genera.
+
+El objetivo del fondo es vender la empresa al cabo de unos años, normalmente entre cuatro y siete, por más de lo que pagó. La rentabilidad para el fondo procede de tres fuentes. La primera, el crecimiento del beneficio de la empresa, gracias a mejoras operativas. La segunda, la reducción de la deuda con los flujos de caja, que hace que una parte mayor del valor pertenezca a los accionistas. La tercera, la expansión del múltiplo: **vender a un precio más alto en relación con el beneficio** que el de compra.
+
+La deuda multiplica el efecto. Como el fondo pone poco dinero propio, cualquier aumento del valor de la empresa se reparte entre una base pequeña de capital, lo que dispara la rentabilidad en porcentaje. Pero el efecto también funciona a la inversa: si el negocio va mal, la deuda puede asfixiar a la empresa.
+
+Ejemplo ilustrativo: un fondo compra una empresa por 1.000 millones, con 400 de capital propio y 600 de deuda. En cinco años, la empresa usa sus flujos para reducir la deuda a 300 millones y el fondo la vende por 1.200. Al pagar la deuda pendiente, al fondo le quedan 900 millones. Ha más que duplicado su capital, de 400 a 900, lo que equivale a una tasa interna de retorno de alrededor del 18 % anual. Si hubiera comprado sin deuda, con 1.000 millones propios, habría ganado solo un 20 % en total. **La deuda convierte una mejora modesta en una gran rentabilidad**.
+
+Las compras apalancadas tienen defensores y críticos. Unos destacan que el fondo impone disciplina y mejoras de gestión. Otros señalan que la deuda deja a las empresas expuestas a las recesiones y que algunas acaban en quiebra. Con los tipos de interés más altos de los últimos años, la deuda es más cara y el modelo depende más de las mejoras reales del negocio.
+
+@@ 2026-11-20
+resumen: Comprar una acción, comprar una opción de venta y vender una de compra con el mismo precio: la paridad put-call ata sus precios entre sí.
+saber: en:Put–call parity | Modelo de Black-Scholes
+
+Las opciones de compra, llamadas «call», dan derecho a comprar un activo a un precio fijado, el precio de ejercicio. Las opciones de venta, llamadas «put», dan derecho a venderlo. Podría pensarse que sus precios son independientes, pero no lo son. La paridad put-call es **una relación exacta** que une el precio de una call y el de una put con el mismo activo, el mismo precio de ejercicio y el mismo vencimiento.
+
+La idea se entiende comparando dos carteras que pagan lo mismo al vencimiento. La primera: comprar una call y depositar en el banco el dinero necesario para pagar el precio de ejercicio al vencimiento. La segunda: comprar la acción y comprar una put. En cualquier escenario, las dos carteras terminan valiendo lo mismo: si la acción sube por encima del precio de ejercicio, ambas valen la acción; si baja, ambas valen el precio de ejercicio. Si dos carteras pagan siempre lo mismo, **deben costar lo mismo hoy**.
+
+La relación, en texto plano, para opciones europeas, que solo se ejercen al vencimiento, y sin dividendos: call + valor actual del precio de ejercicio = put + precio de la acción.
+
+Ejemplo ilustrativo: una acción cotiza a 100 euros, el precio de ejercicio es 100, el vencimiento es a un año y el tipo de interés es del 4 %. El valor actual del precio de ejercicio es 100 / 1,04, unos 96,15 euros. Si la put cuesta 6 euros, la call debería costar aproximadamente 6 + 100 − 96,15 = 9,85 euros. Si cotizara a 12, un operador podría vender la call, comprar la acción y la put, pedir prestado el resto y **obtener un beneficio sin riesgo**: un arbitraje. Esas operaciones devuelven los precios a su relación.
+
+En la práctica, la paridad tiene varias utilidades. Permite construir posiciones sintéticas: por ejemplo, combinar una call y una put para replicar la compra de una acción. Sirve para detectar precios incoherentes y para deducir el tipo de interés o los dividendos implícitos que descuenta el mercado. En la realidad, los costes de transacción, los dividendos y las opciones americanas, que se pueden ejercer antes, hacen que la relación se cumpla de forma aproximada, dentro de un margen.
+
+@@ 2026-11-21
+resumen: Comparando un bono normal con uno protegido contra la inflación, el mercado revela cuánta inflación espera. Con algunos matices.
+saber: en:Inflation-indexed bond | Bono (finanzas)
+
+Algunos Estados emiten bonos cuyo principal y cuyos intereses se ajustan con la inflación. En Estados Unidos se llaman TIPS; en la zona euro, bonos ligados a la inflación, y España también los emite. Su rendimiento se expresa en términos reales: si un bono ligado rinde un 1 %, el inversor obtendrá **un 1 % por encima de la inflación** que se produzca, sea cual sea.
+
+Comparando ese rendimiento con el de un bono normal del mismo plazo, llamado nominal, se obtiene la inflación implícita, o «breakeven». En texto plano: inflación implícita ≈ rendimiento nominal − rendimiento real. Es la inflación media a la que un inversor obtendría lo mismo con los dos bonos. Si la inflación real resulta mayor, gana el bono ligado; si resulta menor, gana el nominal.
+
+Ejemplo ilustrativo: el bono nominal a diez años rinde un 3,2 % y el ligado a la inflación, un 0,9 %. La inflación implícita es del 2,3 % anual. Un inversor que espere una inflación media del 3 % preferirá el bono ligado; uno que espere un 1,5 % elegirá el nominal. Por eso los bancos centrales siguen estos datos de cerca: **son una lectura en tiempo real** de lo que el mercado cree que pasará con la inflación.
+
+La interpretación tiene matices. La inflación implícita no es una previsión pura. Incluye una prima de riesgo de inflación: los inversores pueden pagar algo más por protegerse contra sorpresas, lo que la eleva. Y también una prima de liquidez: los bonos ligados se negocian menos que los nominales, por lo que los inversores exigen un rendimiento algo mayor por ellos, lo que reduce la inflación implícita. En momentos de pánico, como en 2008 o en marzo de 2020, **los bonos ligados se vendieron con fuerza** por falta de liquidez y la inflación implícita se hundió más de lo que justificaban las expectativas.
+
+En la práctica, los analistas usan también medidas derivadas, como la inflación implícita a cinco años dentro de cinco años, que intenta aislar las expectativas a largo plazo de los efectos del momento. Si esa medida se aleja mucho del objetivo del 2 % de los bancos centrales, se interpreta como una señal de que su credibilidad se debilita.
+
+@@ 2026-11-22
+resumen: ¿Se puede ganar sistemáticamente al mercado? La hipótesis de mercados eficientes dice que no, y distingue tres grados de eficiencia.
+saber: Hipótesis del mercado eficiente | Eugene Fama
+
+La hipótesis de los mercados eficientes, formulada en su versión moderna por el economista Eugene Fama en los años sesenta y setenta, sostiene que **los precios de los activos reflejan toda la información disponible**. Si es así, nadie puede obtener de forma sistemática una rentabilidad superior a la del mercado, ajustada por el riesgo, usando esa información. Cualquier noticia relevante se incorpora al precio tan rápido que no da tiempo a aprovecharla.
+
+Fama distinguió tres formas, según qué información se considera. La forma débil afirma que los precios ya reflejan toda la información de precios pasados. Si es cierta, el análisis técnico, que busca patrones en los gráficos, no sirve para ganar al mercado. La forma semifuerte añade toda la información pública: resultados, noticias, informes. Si es cierta, tampoco el análisis fundamental de los estados financieros permite obtener ventaja. La forma fuerte incluye incluso la información privada: **ni siquiera los que tienen información privilegiada** podrían batir al mercado.
+
+Ejemplo ilustrativo: una empresa publica a las 8 de la mañana unos beneficios mucho mejores de lo esperado. Si el mercado es eficiente en forma semifuerte, la acción subirá en segundos hasta el nivel que refleja la noticia, y un inversor que lea el comunicado a las 8.05 ya no podrá comprar barato. Los estudios de eventos, que analizan cómo reaccionan los precios a los anuncios, muestran que la mayor parte del ajuste ocurre, en efecto, muy deprisa.
+
+Las pruebas son mixtas. La forma fuerte se rechaza: quienes operan con información privilegiada obtienen ganancias, y por eso es ilegal. Las formas débil y semifuerte resisten mejor, y el dato más sólido a su favor es que **la mayoría de los fondos de gestión activa** no superan a su índice de referencia a largo plazo tras descontar comisiones. Pero existen anomalías persistentes, como el efecto momentum o el de valor, y burbujas que la hipótesis explica con dificultad.
+
+Fama compartió el Nobel de Economía en 2013 con Robert Shiller, uno de los críticos más destacados de la eficiencia de los mercados. En la práctica, la hipótesis sirve como punto de partida razonable: si alguien promete ganarle al mercado con facilidad, la carga de la prueba está de su lado.

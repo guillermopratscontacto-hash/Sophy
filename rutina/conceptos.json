@@ -156,9 +156,129 @@
   "area": "Finanzas corporativas"
  },
  {
+  "id": "fin-valor-actual-neto-frente-a-tasa-interna-de-retorno",
+  "concepto": "Valor actual neto frente a tasa interna de retorno",
+  "termino": "NPV versus IRR",
+  "area": "Finanzas corporativas"
+ },
+ {
+  "id": "fin-diferencial-de-credito-y-prima-por-impago",
+  "concepto": "Diferencial de crédito y prima por impago",
+  "termino": "Credit spread and default premium",
+  "area": "Crédito"
+ },
+ {
+  "id": "fin-trilema-de-mundell-fleming",
+  "concepto": "Trilema de Mundell-Fleming",
+  "termino": "Mundell-Fleming trilemma",
+  "area": "Macroeconomía internacional"
+ },
+ {
+  "id": "fin-griegas-de-las-opciones-delta-gamma-vega-y-theta",
+  "concepto": "Griegas de las opciones: delta, gamma, vega y theta",
+  "termino": "Option Greeks",
+  "area": "Derivados"
+ },
+ {
+  "id": "fin-teoria-de-prospecto-y-sesgos-en-los-mercados",
+  "concepto": "Teoría de prospecto y sesgos en los mercados",
+  "termino": "Prospect theory in markets",
+  "area": "Finanzas del comportamiento"
+ },
+ {
   "id": "fin-valor-terminal-gordon-frente-a-multiplo-de-salid",
   "concepto": "Valor terminal: Gordon frente a múltiplo de salida",
   "termino": "Terminal value in a DCF",
+  "area": "Valoración"
+ },
+ {
+  "id": "fin-ratio-de-sharpe-y-sus-limites",
+  "concepto": "Ratio de Sharpe y sus límites",
+  "termino": "Sharpe ratio",
+  "area": "Gestión de carteras"
+ },
+ {
+  "id": "fin-guia-prospectiva-forward-guidance-y-compromiso-c",
+  "concepto": "Guía prospectiva (forward guidance) y compromiso creíble",
+  "termino": "Forward guidance and credibility",
+  "area": "Política monetaria"
+ },
+ {
+  "id": "fin-contango-backwardation-y-rendimiento-del-roll",
+  "concepto": "Contango, backwardation y rendimiento del roll",
+  "termino": "Contango, backwardation and roll yield",
+  "area": "Materias primas"
+ },
+ {
+  "id": "fin-ebitda-ajustado-y-sus-trampas",
+  "concepto": "EBITDA ajustado y sus trampas",
+  "termino": "Adjusted EBITDA",
+  "area": "Análisis contable"
+ },
+ {
+  "id": "fin-estructura-de-una-compra-apalancada-y-la-tir-del",
+  "concepto": "Estructura de una compra apalancada y la TIR del fondo",
+  "termino": "LBO structure and sponsor IRR",
+  "area": "Capital privado"
+ },
+ {
+  "id": "fin-paridad-put-call",
+  "concepto": "Paridad put-call",
+  "termino": "Put-call parity",
+  "area": "Derivados"
+ },
+ {
+  "id": "fin-inflacion-implicita-y-bonos-ligados-a-inflacion",
+  "concepto": "Inflación implícita y bonos ligados a inflación",
+  "termino": "Breakeven inflation and TIPS",
+  "area": "Renta fija"
+ },
+ {
+  "id": "fin-hipotesis-de-mercados-eficientes-y-sus-tres-form",
+  "concepto": "Hipótesis de mercados eficientes y sus tres formas",
+  "termino": "Efficient market hypothesis",
+  "area": "Teoría de mercados"
+ },
+ {
+  "id": "fin-capital-circulante-y-ciclo-de-conversion-de-caja",
+  "concepto": "Capital circulante y ciclo de conversión de caja",
+  "termino": "Working capital and cash conversion cycle",
+  "area": "Finanzas corporativas"
+ },
+ {
+  "id": "fin-carry-trade-y-riesgo-de-liquidacion-brusca",
+  "concepto": "Carry trade y riesgo de liquidación brusca",
+  "termino": "Carry trade unwind",
+  "area": "Divisas"
+ },
+ {
+  "id": "fin-valoracion-de-las-sinergias-en-una-fusion",
+  "concepto": "Valoración de las sinergias en una fusión",
+  "termino": "Synergy valuation in M&A",
+  "area": "Fusiones y adquisiciones"
+ },
+ {
+  "id": "fin-beta-y-riesgo-sistematico",
+  "concepto": "Beta y riesgo sistemático",
+  "termino": "Beta and systematic risk",
+  "area": "Gestión de carteras"
+ },
+ {
+  "id": "fin-canales-de-transmision-de-la-expansion-cuantitat",
+  "concepto": "Canales de transmisión de la expansión cuantitativa",
+  "termino": "Quantitative easing transmission channels",
+  "area": "Política monetaria"
+ },
+ {
+  "id": "fin-microestructura-de-mercado-diferencial-y-selecci",
+  "concepto": "Microestructura de mercado: diferencial y selección adversa",
+  "termino": "Bid-ask spread and adverse selection",
+  "area": "Microestructura"
+ },
+ {
+  "id": "fin-flujo-de-caja-libre-para-la-empresa-y-para-el-accionista",
+  "concepto": "Flujo de caja libre para la empresa y para el accionista",
+  "termino": "FCFF and FCFE",
   "area": "Valoración"
  },
  {
@@ -168,112 +288,10 @@
   "area": "Valoración"
  },
  {
-  "id": "fin-estructura-de-una-compra-apalancada-y-la-tir-del",
-  "concepto": "Estructura de una compra apalancada y la TIR del fondo",
-  "termino": "LBO structure and sponsor IRR",
-  "area": "Capital privado"
- },
- {
-  "id": "fin-carried-interest-hurdle-rate-y-catch-up",
-  "concepto": "Carried interest, hurdle rate y catch-up",
-  "termino": "Carried interest and distribution waterfall",
-  "area": "Capital privado"
- },
- {
-  "id": "fin-clausulas-de-ajuste-de-precio-y-earn-out-en-m-a",
-  "concepto": "Cláusulas de ajuste de precio y earn-out en M&A",
-  "termino": "Earn-outs and price adjustments",
-  "area": "Fusiones y adquisiciones"
- },
- {
-  "id": "fin-poison-pill-y-defensas-antiopa",
-  "concepto": "Poison pill y defensas antiopa",
-  "termino": "Poison pills and takeover defences",
-  "area": "Fusiones y adquisiciones"
- },
- {
-  "id": "fin-valoracion-de-las-sinergias-en-una-fusion",
-  "concepto": "Valoración de las sinergias en una fusión",
-  "termino": "Synergy valuation in M&A",
-  "area": "Fusiones y adquisiciones"
- },
- {
-  "id": "fin-dilucion-y-acrecion-por-accion-en-una-fusion",
-  "concepto": "Dilución y acreción por acción en una fusión",
-  "termino": "Accretion and dilution analysis",
-  "area": "Fusiones y adquisiciones"
- },
- {
-  "id": "fin-control-de-la-curva-de-tipos-yield-curve-control",
-  "concepto": "Control de la curva de tipos (yield curve control)",
-  "termino": "Yield curve control",
-  "area": "Política monetaria"
- },
- {
-  "id": "fin-canales-de-transmision-de-la-expansion-cuantitat",
-  "concepto": "Canales de transmisión de la expansión cuantitativa",
-  "termino": "Quantitative easing transmission channels",
-  "area": "Política monetaria"
- },
- {
-  "id": "fin-guia-prospectiva-forward-guidance-y-compromiso-c",
-  "concepto": "Guía prospectiva (forward guidance) y compromiso creíble",
-  "termino": "Forward guidance and credibility",
-  "area": "Política monetaria"
- },
- {
-  "id": "fin-sistema-de-reservas-abundantes-frente-a-reservas",
-  "concepto": "Sistema de reservas abundantes frente a reservas escasas",
-  "termino": "Ample versus scarce reserves framework",
-  "area": "Política monetaria"
- },
- {
-  "id": "fin-trilema-de-mundell-fleming",
-  "concepto": "Trilema de Mundell-Fleming",
-  "termino": "Mundell-Fleming trilemma",
-  "area": "Macroeconomía internacional"
- },
- {
-  "id": "fin-carry-trade-y-riesgo-de-liquidacion-brusca",
-  "concepto": "Carry trade y riesgo de liquidación brusca",
-  "termino": "Carry trade unwind",
-  "area": "Divisas"
- },
- {
-  "id": "fin-paridad-cubierta-de-tipos-de-interes-y-su-ruptur",
-  "concepto": "Paridad cubierta de tipos de interés y su ruptura",
-  "termino": "Covered interest parity breakdown",
-  "area": "Divisas"
- },
- {
-  "id": "fin-efecto-balassa-samuelson",
-  "concepto": "Efecto Balassa-Samuelson",
-  "termino": "Balassa-Samuelson effect",
-  "area": "Macroeconomía internacional"
- },
- {
-  "id": "fin-inflacion-implicita-y-bonos-ligados-a-inflacion",
-  "concepto": "Inflación implícita y bonos ligados a inflación",
-  "termino": "Breakeven inflation and TIPS",
+  "id": "fin-curva-de-tipos-invertida-como-senal-de-recesion",
+  "concepto": "Curva de tipos invertida como señal de recesión",
+  "termino": "Inverted yield curve",
   "area": "Renta fija"
- },
- {
-  "id": "fin-contango-backwardation-y-rendimiento-del-roll",
-  "concepto": "Contango, backwardation y rendimiento del roll",
-  "termino": "Contango, backwardation and roll yield",
-  "area": "Materias primas"
- },
- {
-  "id": "fin-teoria-del-almacenamiento-y-rendimiento-de-conve",
-  "concepto": "Teoría del almacenamiento y rendimiento de conveniencia",
-  "termino": "Theory of storage and convenience yield",
-  "area": "Materias primas"
- },
- {
-  "id": "fin-teoria-de-prospecto-y-sesgos-en-los-mercados",
-  "concepto": "Teoría de prospecto y sesgos en los mercados",
-  "termino": "Prospect theory in markets",
-  "area": "Finanzas del comportamiento"
  },
  {
   "id": "fin-limites-del-arbitraje",
@@ -282,16 +300,46 @@
   "area": "Finanzas del comportamiento"
  },
  {
-  "id": "fin-microestructura-de-mercado-diferencial-y-selecci",
-  "concepto": "Microestructura de mercado: diferencial y selección adversa",
-  "termino": "Bid-ask spread and adverse selection",
-  "area": "Microestructura"
+  "id": "fin-carried-interest-hurdle-rate-y-catch-up",
+  "concepto": "Carried interest, hurdle rate y catch-up",
+  "termino": "Carried interest and distribution waterfall",
+  "area": "Capital privado"
  },
  {
-  "id": "fin-impacto-de-mercado-y-ejecucion-optima-de-almgren",
-  "concepto": "Impacto de mercado y ejecución óptima de Almgren-Chriss",
-  "termino": "Market impact and optimal execution",
-  "area": "Microestructura"
+  "id": "fin-swap-de-tipos-de-interes",
+  "concepto": "Swap de tipos de interés",
+  "termino": "Interest rate swap",
+  "area": "Derivados"
+ },
+ {
+  "id": "fin-efecto-balassa-samuelson",
+  "concepto": "Efecto Balassa-Samuelson",
+  "termino": "Balassa-Samuelson effect",
+  "area": "Macroeconomía internacional"
+ },
+ {
+  "id": "fin-multiplos-de-valoracion-ev-ebitda-frente-a-per",
+  "concepto": "Múltiplos de valoración: EV/EBITDA frente a PER",
+  "termino": "EV/EBITDA versus P/E",
+  "area": "Valoración"
+ },
+ {
+  "id": "fin-dilucion-y-acrecion-por-accion-en-una-fusion",
+  "concepto": "Dilución y acreción por acción en una fusión",
+  "termino": "Accretion and dilution analysis",
+  "area": "Fusiones y adquisiciones"
+ },
+ {
+  "id": "fin-bonos-high-yield-frente-a-grado-de-inversion",
+  "concepto": "Bonos high yield frente a grado de inversión",
+  "termino": "High yield versus investment grade",
+  "area": "Crédito"
+ },
+ {
+  "id": "fin-control-de-la-curva-de-tipos-yield-curve-control",
+  "concepto": "Control de la curva de tipos (yield curve control)",
+  "termino": "Yield curve control",
+  "area": "Política monetaria"
  },
  {
   "id": "fin-creacion-de-mercado-y-gestion-de-inventario",
@@ -300,40 +348,82 @@
   "area": "Microestructura"
  },
  {
+  "id": "fin-apalancamiento-operativo-y-apalancamiento-financiero",
+  "concepto": "Apalancamiento operativo y apalancamiento financiero",
+  "termino": "Operating and financial leverage",
+  "area": "Finanzas corporativas"
+ },
+ {
+  "id": "fin-paridad-cubierta-de-tipos-de-interes-y-su-ruptur",
+  "concepto": "Paridad cubierta de tipos de interés y su ruptura",
+  "termino": "Covered interest parity breakdown",
+  "area": "Divisas"
+ },
+ {
+  "id": "fin-ecuacion-de-black-scholes",
+  "concepto": "Ecuación de Black-Scholes",
+  "termino": "Black-Scholes equation",
+  "area": "Derivados"
+ },
+ {
+  "id": "fin-tracking-error-y-gestion-activa-frente-a-pasiva",
+  "concepto": "Tracking error y gestión activa frente a pasiva",
+  "termino": "Tracking error and active versus passive management",
+  "area": "Gestión de carteras"
+ },
+ {
+  "id": "fin-clausulas-de-ajuste-de-precio-y-earn-out-en-m-a",
+  "concepto": "Cláusulas de ajuste de precio y earn-out en M&A",
+  "termino": "Earn-outs and price adjustments",
+  "area": "Fusiones y adquisiciones"
+ },
+ {
+  "id": "fin-teoria-del-almacenamiento-y-rendimiento-de-conve",
+  "concepto": "Teoría del almacenamiento y rendimiento de conveniencia",
+  "termino": "Theory of storage and convenience yield",
+  "area": "Materias primas"
+ },
+ {
+  "id": "fin-titulizacion-y-transferencia-del-riesgo",
+  "concepto": "Titulización y transferencia del riesgo",
+  "termino": "Securitization",
+  "area": "Crédito"
+ },
+ {
+  "id": "fin-sistema-de-reservas-abundantes-frente-a-reservas",
+  "concepto": "Sistema de reservas abundantes frente a reservas escasas",
+  "termino": "Ample versus scarce reserves framework",
+  "area": "Política monetaria"
+ },
+ {
+  "id": "fin-recompras-de-acciones-frente-a-dividendos",
+  "concepto": "Recompras de acciones frente a dividendos",
+  "termino": "Buybacks versus dividends",
+  "area": "Finanzas corporativas"
+ },
+ {
+  "id": "fin-rentabilidad-ponderada-por-tiempo-frente-a-ponderada-por-dinero",
+  "concepto": "Rentabilidad ponderada por tiempo frente a ponderada por dinero",
+  "termino": "Time-weighted versus money-weighted return",
+  "area": "Gestión de carteras"
+ },
+ {
+  "id": "fin-poison-pill-y-defensas-antiopa",
+  "concepto": "Poison pill y defensas antiopa",
+  "termino": "Poison pills and takeover defences",
+  "area": "Fusiones y adquisiciones"
+ },
+ {
   "id": "fin-dark-pools-y-fragmentacion-de-la-liquidez",
   "concepto": "Dark pools y fragmentación de la liquidez",
   "termino": "Dark pools and liquidity fragmentation",
   "area": "Microestructura"
  },
  {
-  "id": "fin-lema-de-ito-y-ecuacion-de-black-scholes",
-  "concepto": "Lema de Itô y ecuación de Black-Scholes",
-  "termino": "Ito's lemma and the Black-Scholes equation",
-  "area": "Finanzas cuantitativas"
- },
- {
-  "id": "fin-medida-neutral-al-riesgo-y-cambio-de-numerario",
-  "concepto": "Medida neutral al riesgo y cambio de numerario",
-  "termino": "Risk-neutral measure and change of numeraire",
-  "area": "Finanzas cuantitativas"
- },
- {
-  "id": "fin-volatilidad-local-de-dupire-frente-a-volatilidad",
-  "concepto": "Volatilidad local de Dupire frente a volatilidad estocástica",
-  "termino": "Dupire local volatility versus stochastic volatility",
-  "area": "Finanzas cuantitativas"
- },
- {
-  "id": "fin-modelo-de-heston",
-  "concepto": "Modelo de Heston",
-  "termino": "Heston model",
-  "area": "Finanzas cuantitativas"
- },
- {
-  "id": "fin-modelo-sabr",
-  "concepto": "Modelo SABR",
-  "termino": "SABR model",
-  "area": "Finanzas cuantitativas"
+  "id": "fin-dinamica-de-la-deuda-publica-la-diferencia-r-g",
+  "concepto": "Dinámica de la deuda pública: la diferencia r − g",
+  "termino": "Debt dynamics and r minus g",
+  "area": "Macroeconomía"
  },
  {
   "id": "fin-valoracion-de-bonos-convertibles",
@@ -348,10 +438,10 @@
   "area": "Crédito"
  },
  {
-  "id": "fin-recompras-de-acciones-frente-a-dividendos",
-  "concepto": "Recompras de acciones frente a dividendos",
-  "termino": "Buybacks versus dividends",
-  "area": "Finanzas corporativas"
+  "id": "fin-correlaciones-en-las-crisis-y-limites-de-la-diversificacion",
+  "concepto": "Correlaciones en las crisis y límites de la diversificación",
+  "termino": "Correlation breakdown in crises",
+  "area": "Gestión de riesgos"
  },
  {
   "id": "fin-valoracion-de-bancos-p-tbv-y-rote",
@@ -366,6 +456,12 @@
   "area": "Seguros"
  },
  {
+  "id": "fin-hipotesis-de-inestabilidad-financiera-de-minsky",
+  "concepto": "Hipótesis de inestabilidad financiera de Minsky",
+  "termino": "Financial instability hypothesis",
+  "area": "Macroeconomía financiera"
+ },
+ {
   "id": "fin-valor-intrinseco-en-seguros-de-vida-embedded-val",
   "concepto": "Valor intrínseco en seguros de vida (embedded value)",
   "termino": "Embedded value in life insurance",
@@ -375,12 +471,6 @@
   "id": "fin-hipotesis-de-mercados-adaptativos",
   "concepto": "Hipótesis de mercados adaptativos",
   "termino": "Adaptive markets hypothesis",
-  "area": "Teoría de mercados"
- },
- {
-  "id": "fin-hipotesis-de-mercados-eficientes-y-sus-tres-form",
-  "concepto": "Hipótesis de mercados eficientes y sus tres formas",
-  "termino": "Efficient market hypothesis",
   "area": "Teoría de mercados"
  }
 ]

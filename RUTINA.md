@@ -6,10 +6,10 @@ Instrucciones para el agente que publica la edición de cada mañana: nueve piez
 
 Cada paso relee toda la conversación, así que el coste depende del número de pasos. Sigue este orden y no añadas otros:
 
-1. `python3 rutina/sophy.py preparar` — una sola vez. Devuelve la fecha, las noticias ya publicadas, los tres temas de Cultura con su imagen, el álbum de Música con su portada, el concepto de Finanzas del día (y, los sábados, los candidatos de la semana), las imágenes de archivo disponibles y los titulares de ayer por sección. Si dice que la edición ya está publicada, termina.
+1. `python3 rutina/sophy.py preparar` — una sola vez. Devuelve la fecha, las noticias ya publicadas, los tres temas de Cultura con su imagen, el álbum de Música con su portada, el concepto de Finanzas del día (y, los sábados, los candidatos de la semana), las imágenes de archivo disponibles y los titulares de ayer por sección. Si dice que la edición ya está publicada, termina. Si dice `YA ESCRITAS DE ANTEMANO`, esas piezas (normalmente Cultura, Música y Aprende finanzas) ya están hechas en `rutina/borradores/`: no las escribas ni las leas; `publicar` las copia y las valida.
 2. Elige las cuatro noticias y lee dos fuentes de cada una con una sola orden: `python3 rutina/sophy.py leer URL1 URL2 …` (las ocho URL juntas; vienen en los titulares). No uses WebFetch: no puede abrir la mayoría de los medios. Usa la búsqueda web solo si una fuente falla y necesitas otra.
 3. Pide las imágenes de las cuatro noticias en una única orden: `python3 rutina/sophy.py imagenes "nombre o término 1" "nombre o término 2" …` (con un `timeout` de 10 minutos). Para cada noticia, usa el nombre de una imagen de archivo de la lista de `preparar` si alguna encaja (la institución, la ciudad o el tema de la noticia): sale al instante. Solo si ninguna encaja, pon un término de búsqueda en inglés; el script consulta Wikimedia, espera y reintenta solo. No repitas la orden ni consultes Wikimedia por tu cuenta.
-4. Escribe todos los archivos (nueve; once los sábados) en uno o dos pasos, con varias llamadas en paralelo.
+4. Escribe todos los archivos que falten (nueve en total, once los sábados, menos los ya escritos de antemano) en uno o dos pasos, con varias llamadas en paralelo.
 5. `python3 rutina/sophy.py publicar` — valida, comprueba imágenes y enlaces, actualiza el índice, hace el commit y el push. Si devuelve errores, corrige solo eso y vuelve a ejecutarlo.
 
 No releas los archivos que acabas de escribir, no hagas comprobaciones que ya hace `publicar`, no edites `contenido/indice.json` a mano, no uses git directamente y no narres lo que vas haciendo. Al terminar, resume en una línea qué has publicado.
@@ -31,7 +31,7 @@ No releas los archivos que acabas de escribir, no hagas comprobaciones que ya ha
 - La noticia más relevante suele ser la que aparece en varios medios a la vez.
 - Cada noticia cuenta un hecho distinto de los ya publicados. Si una historia continúa, cuenta solo lo nuevo, con otro titular.
 - Ninguna sección queda vacía: si ayer no hubo noticia relevante (pasa en `economia` los fines de semana), cubre la más relevante de los últimos tres días que no esté publicada y pon en la data la fecha real del hecho.
-- En Cultura, el asunto y la imagen vienen dados y no se cambian: así nunca se repiten. Tú eliges el ángulo y el titular. Solo si `preparar` dice `LISTA AGOTADA` eliges tú un asunto que no esté entre los publicados (otra época, otra región y otro autor que los recientes) y buscas su imagen con `imagenes`.
+- En Cultura, el asunto y la imagen vienen dados y no se cambian: así nunca se repiten. Tú eliges el ángulo y el titular. Solo si `preparar` dice `LISTA AGOTADA` eliges tú un asunto que no esté entre los publicados (otra época, otra región y otro autor que los recientes) y buscas su imagen con `imagenes`. En `arte`, solo cuadros o esculturas; en `literatura`, solo novelas o poemas.
 
 ### Finanzas
 

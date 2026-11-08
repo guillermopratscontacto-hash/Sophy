@@ -319,6 +319,342 @@
       "capital": "Wellington",
       "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20New%20Zealand.svg?width=640",
       "archivo": "contenido/geografia/nueva-zelanda.md"
+    },
+    {
+      "id": "irlanda",
+      "iso": "IRL",
+      "nombre": "Irlanda",
+      "capital": "Dublín",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ireland.svg?width=640",
+      "archivo": "contenido/geografia/irlanda.md"
+    },
+    {
+      "id": "noruega",
+      "iso": "NOR",
+      "nombre": "Noruega",
+      "capital": "Oslo",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Norway.svg?width=640",
+      "archivo": "contenido/geografia/noruega.md"
+    },
+    {
+      "id": "suecia",
+      "iso": "SWE",
+      "nombre": "Suecia",
+      "capital": "Estocolmo",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sweden.svg?width=640",
+      "archivo": "contenido/geografia/suecia.md"
+    },
+    {
+      "id": "finlandia",
+      "iso": "FIN",
+      "nombre": "Finlandia",
+      "capital": "Helsinki",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Finland.svg?width=640",
+      "archivo": "contenido/geografia/finlandia.md"
+    },
+    {
+      "id": "dinamarca",
+      "iso": "DNK",
+      "nombre": "Dinamarca",
+      "capital": "Copenhague",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Denmark.svg?width=640",
+      "archivo": "contenido/geografia/dinamarca.md"
+    },
+    {
+      "id": "paises-bajos",
+      "iso": "NLD",
+      "nombre": "Países Bajos",
+      "capital": "Ámsterdam",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Netherlands.svg?width=640",
+      "archivo": "contenido/geografia/paises-bajos.md"
+    },
+    {
+      "id": "belgica",
+      "iso": "BEL",
+      "nombre": "Bélgica",
+      "capital": "Bruselas",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Belgium.svg?width=640",
+      "archivo": "contenido/geografia/belgica.md"
+    },
+    {
+      "id": "suiza",
+      "iso": "CHE",
+      "nombre": "Suiza",
+      "capital": "Berna",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Switzerland.svg?width=640",
+      "archivo": "contenido/geografia/suiza.md"
+    },
+    {
+      "id": "austria",
+      "iso": "AUT",
+      "nombre": "Austria",
+      "capital": "Viena",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Austria.svg?width=640",
+      "archivo": "contenido/geografia/austria.md"
+    },
+    {
+      "id": "polonia",
+      "iso": "POL",
+      "nombre": "Polonia",
+      "capital": "Varsovia",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Poland.svg?width=640",
+      "archivo": "contenido/geografia/polonia.md"
+    },
+    {
+      "id": "chequia",
+      "iso": "CZE",
+      "nombre": "Chequia",
+      "capital": "Praga",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Czech%20Republic.svg?width=640",
+      "archivo": "contenido/geografia/chequia.md"
+    },
+    {
+      "id": "hungria",
+      "iso": "HUN",
+      "nombre": "Hungría",
+      "capital": "Budapest",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hungary.svg?width=640",
+      "archivo": "contenido/geografia/hungria.md"
+    },
+    {
+      "id": "croacia",
+      "iso": "HRV",
+      "nombre": "Croacia",
+      "capital": "Zagreb",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Croatia.svg?width=640",
+      "archivo": "contenido/geografia/croacia.md"
+    },
+    {
+      "id": "rumania",
+      "iso": "ROU",
+      "nombre": "Rumanía",
+      "capital": "Bucarest",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Romania.svg?width=640",
+      "archivo": "contenido/geografia/rumania.md"
+    },
+    {
+      "id": "ucrania",
+      "iso": "UKR",
+      "nombre": "Ucrania",
+      "capital": "Kiev",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ukraine.svg?width=640",
+      "archivo": "contenido/geografia/ucrania.md"
+    },
+    {
+      "id": "bulgaria",
+      "iso": "BGR",
+      "nombre": "Bulgaria",
+      "capital": "Sofía",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bulgaria.svg?width=640",
+      "archivo": "contenido/geografia/bulgaria.md"
+    },
+    {
+      "id": "georgia",
+      "iso": "GEO",
+      "nombre": "Georgia",
+      "capital": "Tiflis",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Georgia.svg?width=640",
+      "archivo": "contenido/geografia/georgia.md"
+    },
+    {
+      "id": "uzbekistan",
+      "iso": "UZB",
+      "nombre": "Uzbekistán",
+      "capital": "Taskent",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Uzbekistan.svg?width=640",
+      "archivo": "contenido/geografia/uzbekistan.md"
+    },
+    {
+      "id": "kazajistan",
+      "iso": "KAZ",
+      "nombre": "Kazajistán",
+      "capital": "Astaná",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kazakhstan.svg?width=640",
+      "archivo": "contenido/geografia/kazajistan.md"
+    },
+    {
+      "id": "mongolia",
+      "iso": "MNG",
+      "nombre": "Mongolia",
+      "capital": "Ulán Bator",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mongolia.svg?width=640",
+      "archivo": "contenido/geografia/mongolia.md"
+    },
+    {
+      "id": "corea-del-sur",
+      "iso": "KOR",
+      "nombre": "Corea del Sur",
+      "capital": "Seúl",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Korea.svg?width=640",
+      "archivo": "contenido/geografia/corea-del-sur.md"
+    },
+    {
+      "id": "filipinas",
+      "iso": "PHL",
+      "nombre": "Filipinas",
+      "capital": "Manila",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Philippines.svg?width=640",
+      "archivo": "contenido/geografia/filipinas.md"
+    },
+    {
+      "id": "malasia",
+      "iso": "MYS",
+      "nombre": "Malasia",
+      "capital": "Kuala Lumpur",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Malaysia.svg?width=640",
+      "archivo": "contenido/geografia/malasia.md"
+    },
+    {
+      "id": "camboya",
+      "iso": "KHM",
+      "nombre": "Camboya",
+      "capital": "Nom Pen",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cambodia.svg?width=640",
+      "archivo": "contenido/geografia/camboya.md"
+    },
+    {
+      "id": "sri-lanka",
+      "iso": "LKA",
+      "nombre": "Sri Lanka",
+      "capital": "Sri Jayawardenapura Kotte",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sri%20Lanka.svg?width=640",
+      "archivo": "contenido/geografia/sri-lanka.md"
+    },
+    {
+      "id": "pakistan",
+      "iso": "PAK",
+      "nombre": "Pakistán",
+      "capital": "Islamabad",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Pakistan.svg?width=640",
+      "archivo": "contenido/geografia/pakistan.md"
+    },
+    {
+      "id": "senegal",
+      "iso": "SEN",
+      "nombre": "Senegal",
+      "capital": "Dakar",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Senegal.svg?width=640",
+      "archivo": "contenido/geografia/senegal.md"
+    },
+    {
+      "id": "ghana",
+      "iso": "GHA",
+      "nombre": "Ghana",
+      "capital": "Acra",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ghana.svg?width=640",
+      "archivo": "contenido/geografia/ghana.md"
+    },
+    {
+      "id": "mali",
+      "iso": "MLI",
+      "nombre": "Malí",
+      "capital": "Bamako",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mali.svg?width=640",
+      "archivo": "contenido/geografia/mali.md"
+    },
+    {
+      "id": "namibia",
+      "iso": "NAM",
+      "nombre": "Namibia",
+      "capital": "Windhoek",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Namibia.svg?width=640",
+      "archivo": "contenido/geografia/namibia.md"
+    },
+    {
+      "id": "botsuana",
+      "iso": "BWA",
+      "nombre": "Botsuana",
+      "capital": "Gaborone",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Botswana.svg?width=640",
+      "archivo": "contenido/geografia/botsuana.md"
+    },
+    {
+      "id": "ruanda",
+      "iso": "RWA",
+      "nombre": "Ruanda",
+      "capital": "Kigali",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Rwanda.svg?width=640",
+      "archivo": "contenido/geografia/ruanda.md"
+    },
+    {
+      "id": "uganda",
+      "iso": "UGA",
+      "nombre": "Uganda",
+      "capital": "Kampala",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Uganda.svg?width=640",
+      "archivo": "contenido/geografia/uganda.md"
+    },
+    {
+      "id": "argelia",
+      "iso": "DZA",
+      "nombre": "Argelia",
+      "capital": "Argel",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Algeria.svg?width=640",
+      "archivo": "contenido/geografia/argelia.md"
+    },
+    {
+      "id": "bolivia",
+      "iso": "BOL",
+      "nombre": "Bolivia",
+      "capital": "Sucre (sede del Gobierno: La Paz)",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bolivia.svg?width=640",
+      "archivo": "contenido/geografia/bolivia.md"
+    },
+    {
+      "id": "ecuador",
+      "iso": "ECU",
+      "nombre": "Ecuador",
+      "capital": "Quito",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ecuador.svg?width=640",
+      "archivo": "contenido/geografia/ecuador.md"
+    },
+    {
+      "id": "venezuela",
+      "iso": "VEN",
+      "nombre": "Venezuela",
+      "capital": "Caracas",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Venezuela.svg?width=640",
+      "archivo": "contenido/geografia/venezuela.md"
+    },
+    {
+      "id": "uruguay",
+      "iso": "URY",
+      "nombre": "Uruguay",
+      "capital": "Montevideo",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Uruguay.svg?width=640",
+      "archivo": "contenido/geografia/uruguay.md"
+    },
+    {
+      "id": "costa-rica",
+      "iso": "CRI",
+      "nombre": "Costa Rica",
+      "capital": "San José",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Costa%20Rica.svg?width=640",
+      "archivo": "contenido/geografia/costa-rica.md"
+    },
+    {
+      "id": "guatemala",
+      "iso": "GTM",
+      "nombre": "Guatemala",
+      "capital": "Ciudad de Guatemala",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Guatemala.svg?width=640",
+      "archivo": "contenido/geografia/guatemala.md"
+    },
+    {
+      "id": "panama",
+      "iso": "PAN",
+      "nombre": "Panamá",
+      "capital": "Panamá",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Panama.svg?width=640",
+      "archivo": "contenido/geografia/panama.md"
+    },
+    {
+      "id": "oman",
+      "iso": "OMN",
+      "nombre": "Omán",
+      "capital": "Mascate",
+      "bandera": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Oman.svg?width=640",
+      "archivo": "contenido/geografia/oman.md"
     }
   ]
 }

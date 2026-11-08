@@ -1,0 +1,251 @@
+@@ 2026-11-09
+resumen: Una institutriz pobre y sin belleza que reclama ser tratada como igual: «Jane Eyre» revolucionó la novela victoriana en 1847.
+titulo: «Jane Eyre»: la institutriz que exigió ser tratada como un igual
+data: Inglaterra, 1847
+alt: Portada de la primera edición de Jane Eyre, publicada en 1847 bajo el seudónimo de Currer Bell
+pie: Portada de la primera edición de «Jane Eyre» (1847), firmada por Currer Bell
+saber: Jane Eyre | Charlotte Brontë | Hermanas Brontë
+
+En octubre de 1847, una editorial de Londres publicó una novela titulada «Jane Eyre. Una autobiografía», firmada por un tal Currer Bell. El libro tuvo un éxito inmediato, y en los salones literarios se discutía quién se escondía tras ese nombre. Era **Charlotte Brontë**, hija de un pastor de un pueblo de Yorkshire, que había elegido un seudónimo masculino para evitar los prejuicios contra las escritoras.
+
+La novela cuenta la vida de Jane, una huérfana maltratada por la familia de su tía y enviada a Lowood, un internado benéfico donde el frío, el hambre y una epidemia de tifus matan a varias alumnas, entre ellas su mejor amiga. Brontë se inspiró en su propia experiencia: dos de sus hermanas mayores murieron tras pasar por una escuela parecida. **La crítica a la crueldad con los niños pobres** fue una de las razones del impacto del libro.
+
+Ya adulta, Jane entra como institutriz en Thornfield Hall, la mansión del señor Rochester, un hombre brusco y misterioso con el que inicia una relación de igual a igual. En una de las escenas más famosas, Jane le dice que, aunque sea pobre, poco agraciada y pequeña, **tiene un alma y un corazón como los suyos**. Para muchos lectores de la época resultaba escandaloso que una mujer de clase baja hablara así a su señor.
+
+La casa guarda un secreto. Por las noches se oyen risas extrañas y una noche alguien prende fuego a la cama de Rochester. El misterio, que no conviene desvelar a quien no haya leído el libro, combina elementos de la novela gótica con un relato realista sobre la independencia moral de una mujer. Jane decide varias veces su camino aunque eso le cueste todo lo que quiere.
+
+La obra se convirtió en un clásico y ha tenido decenas de adaptaciones al cine y la televisión. En 1966, la escritora caribeña Jean Rhys le dio una réplica en «Ancho mar de los Sargazos», que cuenta la historia desde el punto de vista de un personaje secundario y **cuestiona la mirada colonial** de la novela. Ese mismo año de 1847, las hermanas de Charlotte publicaron también sus primeras novelas: Emily, «Cumbres borrascosas», y Anne, «Agnes Grey».
+
+@@ 2026-11-10
+resumen: Una mujer de provincias que se aburre y sueña con las novelas románticas: Flaubert la retrató con tanta precisión que acabó en los tribunales.
+titulo: «Madame Bovary»: la novela que llevó a Flaubert ante un tribunal
+data: Francia, 1856-1857
+alt: Portada de la primera edición de Madame Bovary, de Gustave Flaubert, publicada en 1857
+pie: Portada de la primera edición de «Madame Bovary» (1857)
+saber: Madame Bovary | Gustave Flaubert | Realismo literario
+
+En enero de 1857, el escritor Gustave Flaubert se sentó en el banquillo de un tribunal de París acusado de ofender la moral pública y la religión. El motivo era una novela que había publicado por entregas en una revista literaria: «Madame Bovary». El fiscal la consideraba **una incitación al adulterio**. Flaubert fue absuelto, y el escándalo convirtió el libro en un éxito de ventas cuando apareció en forma de volumen ese mismo año.
+
+La protagonista es Emma, hija de un granjero de Normandía, educada en un convento donde leyó novelas románticas que le hicieron soñar con pasiones arrebatadas, castillos y bailes. Se casa con Charles Bovary, un médico rural bondadoso pero gris, y descubre que la vida conyugal en un pueblo de provincias no se parece en nada a los libros. **El aburrimiento** la empuja a buscar la intensidad en dos amantes y en compras a crédito que la arruinan.
+
+Flaubert tardó casi cinco años en escribirla. Trabajaba con una obsesión legendaria por el estilo: leía cada frase en voz alta, buscaba la palabra exacta y podía pasar días reescribiendo una página. Quería que el narrador desapareciera, que no juzgara a los personajes y que la realidad se mostrara por sí misma. **Ese ideal de objetividad** convirtió la novela en un modelo del realismo y, para muchos críticos, en la primera novela moderna.
+
+Una de sus innovaciones técnicas es el estilo indirecto libre: la voz del narrador se mezcla con los pensamientos de Emma sin comillas ni avisos, de modo que el lector ve el mundo a través de sus ilusiones y, al mismo tiempo, percibe su ingenuidad. La famosa escena de los comicios agrícolas alterna los discursos sobre abonos y premios al ganado con las frases de seducción que el terrateniente Rodolphe susurra a Emma, con un efecto entre cómico y cruel.
+
+Se atribuye a Flaubert la frase «Madame Bovary soy yo», aunque **no hay pruebas** de que la dijera. Lo que sí dejó la novela es una palabra: el «bovarismo», que describe la insatisfacción de quien se imagina distinto de lo que es y vive pendiente de una vida ideal.
+
+@@ 2026-11-11
+resumen: Neruda tenía 19 años cuando publicó los «Veinte poemas de amor», el libro de poesía en español más vendido del siglo XX.
+titulo: «Veinte poemas de amor y una canción desesperada»: el libro con el que un joven Neruda conquistó a millones
+data: Chile, 1924
+alt: Fotografía en blanco y negro del poeta chileno Pablo Neruda en 1963
+pie: Pablo Neruda en 1963
+saber: Veinte poemas de amor y una canción desesperada | Pablo Neruda | Literatura de Chile
+
+En 1924, un estudiante de pedagogía en francés de la Universidad de Chile, que firmaba con el seudónimo de Pablo Neruda, publicó en Santiago un pequeño libro de poemas. Tenía diecinueve años. Su verdadero nombre era Ricardo Eliécer Neftalí Reyes, y había crecido en Temuco, en el sur lluvioso y boscoso del país. Aquel libro, «Veinte poemas de amor y una canción desesperada», se convertiría en **uno de los libros de poesía más vendidos de la historia** en lengua española.
+
+Los poemas hablan de un amor juvenil, de deseo y de pérdida. El cuerpo de la amada se compara con la tierra, el mar, los pájaros y la lluvia, y la naturaleza del sur de Chile está presente en cada imagen. Frente a la poesía elegante y llena de cisnes del modernismo, Neruda usa **un lenguaje sensual y directo**, con versos largos y libres que se acercan a la música del habla. Esa franqueza erótica escandalizó a algunos lectores de la época.
+
+Los versos más famosos pertenecen al poema 20, que empieza «Puedo escribir los versos más tristes esta noche». El poeta recuerda a una mujer que ya no está y repite, como un estribillo, la idea de que la ha perdido. Termina con una frase que muchos lectores conocen de memoria: **«Es tan corto el amor, y es tan largo el olvido»**. Otro poema muy citado, el 15, comienza con «Me gustas cuando callas porque estás como ausente».
+
+Durante años, los lectores se preguntaron quiénes eran las mujeres del libro. El propio Neruda explicó más tarde que se inspiró sobre todo en dos amores de juventud: una muchacha de Temuco y una estudiante de Santiago, Albertina Azócar, a la que escribió numerosas cartas. Los críticos coinciden en que el libro mezcla experiencias reales con una voz poética deliberadamente construida.
+
+Neruda escribiría después obras muy distintas, como «Residencia en la tierra» o el monumental «Canto general». Fue diplomático en España durante la Guerra Civil, militante comunista y senador. En 1971 recibió el Premio Nobel de Literatura. Murió en septiembre de 1973, pocos días después del golpe de Estado de Pinochet; las circunstancias de su muerte **siguen siendo objeto de investigación judicial**.
+
+@@ 2026-11-12
+resumen: Tras triunfar con novelas en inglés, Ngũgĩ wa Thiong'o decidió escribir en kikuyu, su lengua materna. Su primera novela en ella la escribió en la cárcel.
+titulo: Ngũgĩ wa Thiong'o: la novela escrita en papel higiénico que cambió de lengua
+data: Kenia, 1977-1986
+alt: El escritor keniano Ngũgĩ wa Thiong'o durante una charla en un festival literario
+pie: Ngũgĩ wa Thiong'o en el Festivaletteratura de Mantua, en 2012
+saber: Ngũgĩ wa Thiong'o | Kenia | Idioma kikuyu
+
+En la Navidad de 1977, la policía keniana detuvo al escritor Ngũgĩ wa Thiong'o en su casa de Limuru, cerca de Nairobi. No hubo juicio. Pasó casi un año en la prisión de máxima seguridad de Kamiti. El motivo, según se interpretó, fue una obra de teatro en kikuyu que había montado con campesinos de su pueblo y que **criticaba a la élite del país**. En la celda, sin papel para escribir, Ngũgĩ redactó una novela en hojas de papel higiénico.
+
+Aquella novela, «Caitaani Mũtharaba-inĩ», traducida al español como «El diablo en la cruz», fue la primera que escribió en su lengua materna. Ngũgĩ ya era entonces un autor reconocido en inglés: había publicado «No llores, niño», en 1964, una de las primeras novelas en inglés de un escritor de África oriental, y «Un grano de trigo», sobre la rebelión del Mau Mau contra el dominio colonial británico. **En la cárcel decidió que no volvería a escribir sus novelas en inglés**.
+
+Su razonamiento, que desarrolló en el ensayo «Descolonizar la mente», de 1986, era que la lengua es el vehículo de una cultura y de una memoria. Durante la colonización, a los niños kenianos se les castigaba por hablar sus lenguas en la escuela. Escribir en inglés, para Ngũgĩ, significaba seguir dirigiéndose a una élite educada y a los lectores extranjeros, mientras que **escribir en kikuyu era hablar con su propio pueblo**.
+
+Su siguiente novela en kikuyu, «Matigari», de 1986, cuenta la historia de un antiguo combatiente por la independencia que vuelve a casa y busca la verdad y la justicia. La ficción tuvo un efecto inesperado: según contó el autor, algunos lectores creyeron que el protagonista era una persona real, y las autoridades llegaron a retirar el libro de las librerías. Ngũgĩ vivía ya entonces en el exilio, que se prolongó durante más de dos décadas.
+
+Muchas de sus obras se tradujeron después al inglés por él mismo, y su novela más ambiciosa, «El brujo del cuervo», es una sátira de las dictaduras africanas. Fue candidato al Premio Nobel durante muchos años. Murió en 2025, convertido en **la gran voz de la literatura africana en lenguas africanas**.
+
+@@ 2026-11-13
+resumen: Cuarenta y nueve días de la guerra de Troya bastaron a Homero para crear el primer gran poema de la literatura europea.
+titulo: La «Ilíada»: la cólera de Aquiles y el primer gran poema de Europa
+data: Grecia, siglo VIII a. C.
+alt: Fragmento de papiro antiguo con versos en griego de la Ilíada
+pie: Fragmento de papiro con versos de la «Ilíada»
+saber: Ilíada | Homero | Guerra de Troya
+
+«Canta, oh diosa, la cólera de Aquiles». Así empieza la «Ilíada», el poema épico atribuido a Homero y considerado **la obra más antigua de la literatura europea**. Se compuso probablemente en el siglo VIII a. C., en la costa de Asia Menor, a partir de una larga tradición de poesía oral que los aedos, cantores profesionales, recitaban de memoria.
+
+El poema no cuenta toda la guerra de Troya, sino unas pocas semanas del décimo año del asedio. No incluye ni el rapto de Helena ni el caballo de madera. Todo gira en torno a una disputa: el rey Agamenón, jefe de los griegos, arrebata a Aquiles, su mejor guerrero, una esclava que le correspondía como botín. Ofendido, **Aquiles se retira del combate**, y los troyanos, dirigidos por Héctor, empiezan a ganar terreno.
+
+La cólera de Aquiles solo cambia de objeto cuando Héctor mata a su compañero más querido, Patroclo. Aquiles vuelve a la lucha, mata a Héctor en un duelo frente a las murallas de Troya y arrastra su cadáver con su carro. El final es uno de los momentos más conmovedores de la literatura: el anciano rey Príamo, padre de Héctor, entra de noche en la tienda de Aquiles y besa **las manos que mataron a su hijo** para suplicarle que le devuelva el cuerpo. Los dos enemigos lloran juntos.
+
+La «Ilíada» tiene casi 16.000 versos en hexámetros y está llena de fórmulas que se repiten, como «Aquiles, el de los pies ligeros» o «la aurora de rosados dedos». Esas fórmulas ayudaban a los cantores a improvisar y recordar. El poema describe con crudeza la violencia de la guerra, pero también **la dignidad de los dos bandos**: los troyanos no son villanos, y Héctor es quizá el personaje más humano.
+
+Sobre Homero no sabemos casi nada, y desde hace siglos se discute si existió una sola persona, si compuso también la «Odisea» o si los poemas son el resultado de muchas generaciones de cantores. Lo que es seguro es que los griegos lo consideraban la base de su educación, y que la «Ilíada» ha influido en toda la literatura posterior.
+
+@@ 2026-11-14
+resumen: «Todas las familias felices se parecen»: Tolstói abrió así una novela sobre el amor, la sociedad rusa y el sentido de la vida.
+titulo: «Anna Karénina»: la novela de Tolstói que empieza con la frase más famosa de la literatura rusa
+data: Rusia, 1873-1877
+alt: Portada de una edición antigua de Anna Karénina en ruso
+pie: Portada de una de las primeras ediciones de «Anna Karénina»
+saber: Anna Karénina | León Tolstói | Literatura rusa
+
+«Todas las familias felices se parecen; cada familia infeliz lo es a su manera». Con esta frase empieza «Anna Karénina», la novela que León Tolstói publicó por entregas entre 1875 y 1877 en una revista de Moscú. Su autor ya había escrito «Guerra y paz», pero consideraba que esta era **su primera verdadera novela**.
+
+Anna es una mujer de la alta sociedad de San Petersburgo, casada con Alexéi Karenin, un alto funcionario frío y respetable, con quien tiene un hijo. En un viaje a Moscú conoce al conde Vronski, un oficial joven y atractivo. Se enamoran, y Anna acaba abandonando a su marido para vivir con él. La sociedad que había tolerado discretamente otras infidelidades **no le perdona que lo haga a la vista de todos**. Aislada, celosa y separada de su hijo, Anna se hunde poco a poco.
+
+La novela tiene una segunda línea argumental casi tan importante. Konstantín Levin es un terrateniente que vive en el campo, desconfía de la vida mundana y busca el sentido de la existencia en el trabajo de la tierra, el matrimonio y la fe. Su historia de amor con Kitty, después de un primer rechazo, avanza en dirección contraria a la de Anna. Muchos críticos ven en Levin **un retrato del propio Tolstói** y de sus dudas religiosas y morales.
+
+Tolstói construye un enorme fresco de la Rusia de la época, con bailes, carreras de caballos, debates políticos sobre los campesinos y escenas de siega en el campo. Su capacidad para describir la vida interior de los personajes, incluso de un perro de caza, asombró a escritores como Dostoievski, que la calificó de obra perfecta. La novela usa además el tren como un símbolo inquietante: aparece en el primer encuentro de Anna y Vronski y vuelve en el desenlace.
+
+Tras terminarla, Tolstói vivió una profunda crisis espiritual y renegó de buena parte de su obra literaria anterior. Se dedicó a escribir sobre religión y moral, y desarrolló un cristianismo propio, pacifista y crítico con la Iglesia ortodoxa, que lo excomulgó. Hoy «Anna Karénina» figura habitualmente **entre las mejores novelas jamás escritas**.
+
+@@ 2026-11-15
+resumen: «Volverán las oscuras golondrinas»: las «Rimas» de Bécquer, publicadas tras su muerte, son los poemas de amor más recitados del español.
+titulo: Las «Rimas» de Bécquer: los poemas que salvaron sus amigos después de su muerte
+data: España, 1871
+alt: Retrato al óleo de Gustavo Adolfo Bécquer pintado por su hermano Valeriano
+pie: Retrato de Gustavo Adolfo Bécquer (1862), pintado por su hermano Valeriano Bécquer
+saber: Rimas (Bécquer) | Gustavo Adolfo Bécquer | Romanticismo en España
+
+Gustavo Adolfo Bécquer murió en Madrid en diciembre de 1870, con solo 34 años, enfermo y casi en la pobreza. Pocos meses antes había fallecido su hermano Valeriano, pintor y compañero inseparable. Sus amigos reunieron entonces sus escritos y en 1871 publicaron dos volúmenes con sus obras. Allí aparecieron por primera vez juntas las «Rimas», **unos ochenta poemas breves** que se convertirían en los más recitados de la poesía en español.
+
+La historia del manuscrito es casi novelesca. Bécquer había entregado una primera versión de los poemas a un ministro amigo, que debía ayudarle a publicarlos, pero el original se perdió en el saqueo de su casa durante la revolución de 1868. El poeta los reconstruyó de memoria en un cuaderno al que tituló «Libro de los gorriones». Ese cuaderno, que hoy conserva la Biblioteca Nacional de España, **es la fuente principal** de las ediciones actuales.
+
+Frente a la poesía romántica española anterior, grandilocuente y sonora, la de Bécquer es íntima y sencilla. Sus poemas son breves, con versos de rima asonante y un tono de confidencia, influido por la poesía popular andaluza y por el poeta alemán Heinrich Heine. Hablan de la propia poesía, del amor ilusionado, del desengaño y de la soledad. En la rima XXI, a la pregunta de una mujer, responde: **«¿Qué es poesía? Poesía... eres tú»**.
+
+La más famosa es quizá la LIII, «Volverán las oscuras golondrinas», que contrapone lo que volverá cada primavera, los pájaros y las flores, con un amor que no volverá jamás. Otras, como «Del salón en el ángulo oscuro» o «Por una mirada, un mundo», se han aprendido de memoria generaciones de escolares. Los críticos han intentado identificar a las mujeres que inspiraron los poemas, entre ellas la cantante Julia Espín, pero **la relación entre la vida y los versos** no siempre está clara.
+
+Bécquer escribió también sus «Leyendas», relatos de misterio y fantasía ambientados en lugares de España, y unas cartas desde el monasterio de Veruela. Su influencia sobre la poesía española posterior fue enorme: Rubén Darío, Antonio Machado y Juan Ramón Jiménez lo reconocieron como precursor.
+
+@@ 2026-11-16
+resumen: Un poeta nicaragüense renovó la lengua poética del español con «Azul...» y «Prosas profanas»: así nació el modernismo.
+titulo: Rubén Darío: el poeta que trajo la música nueva a la lengua española
+data: América y España, 1888-1905
+alt: Retrato fotográfico del poeta nicaragüense Rubén Darío
+pie: Retrato de Rubén Darío
+saber: Rubén Darío | Modernismo (literatura en español) | Azul...
+
+En 1888 apareció en Valparaíso, en Chile, un pequeño libro titulado «Azul...». Lo firmaba un joven nicaragüense de veintiún años que se hacía llamar Rubén Darío; su nombre real era Félix Rubén García Sarmiento. El libro, que mezclaba cuentos y poemas, llamó la atención del escritor español Juan Valera, que le dedicó dos cartas elogiosas. Fue **el comienzo del modernismo**, el primer gran movimiento literario nacido en América que influyó en España.
+
+Darío había leído con avidez a los poetas franceses de su tiempo, los parnasianos y los simbolistas, que buscaban la belleza formal, la musicalidad y las sensaciones. Llevó esas ideas al español y renovó la métrica con versos poco usados, como el alejandrino de catorce sílabas o el de nueve, y con ritmos nuevos. Su poesía está llena de cisnes, princesas, jardines versallescos y mitología griega: **un mundo de refinamiento** que se oponía a la vulgaridad de la sociedad materialista.
+
+«Prosas profanas», publicado en Buenos Aires en 1896, es la cima de esa estética. En él aparece la «Sonatina», que empieza con unos versos que muchos hispanohablantes saben de memoria: **«La princesa está triste... ¿qué tendrá la princesa?»**. La musicalidad del poema, con sus rimas y sus repeticiones, demostró que el español podía sonar de una manera nueva.
+
+Con los años, su poesía se hizo más reflexiva. En «Cantos de vida y esperanza», de 1905, junto al esteticismo aparecen la preocupación por el paso del tiempo, la muerte y la identidad de los pueblos hispánicos frente al poder de Estados Unidos, como en su célebre poema «A Roosevelt». En «Lo fatal», uno de sus textos más hondos, el poeta envidia al árbol y a la piedra porque no sienten. El libro **refleja también la crisis de 1898**, cuando España perdió Cuba y Filipinas.
+
+Darío llevó una vida errante como periodista y diplomático entre América y Europa, con largas estancias en Buenos Aires, París y Madrid, donde conoció a los jóvenes poetas que lo admiraban, como Antonio Machado o Juan Ramón Jiménez. Enfermo y arruinado, regresó a Nicaragua y murió en León en 1916, con 49 años.
+
+@@ 2026-11-17
+resumen: Un presidiario que roba unos candelabros y un obispo que lo perdona: «Los miserables» es la gran novela de la injusticia y la redención.
+titulo: «Los miserables»: la novela de Victor Hugo que convirtió a un presidiario en héroe
+data: Francia, 1862
+alt: Ilustración del siglo XIX que muestra a Jean Valjean como el señor Madeleine
+pie: Jean Valjean como el señor Madeleine, en una ilustración de Gustave Brion para «Los miserables»
+saber: Los miserables | Victor Hugo | Romanticismo
+
+En 1862, Victor Hugo vivía exiliado en la isla de Guernsey, en el canal de la Mancha, porque se había opuesto al golpe de Estado de Napoleón III. Desde allí publicó una novela inmensa, en varios volúmenes, que había empezado a escribir casi veinte años antes. Su lanzamiento fue un acontecimiento editorial en toda Europa. Según una anécdota muy repetida, el autor escribió a su editor solo un signo de interrogación para saber cómo iban las ventas, y recibió **un signo de exclamación** como respuesta.
+
+El protagonista es Jean Valjean, un campesino condenado a cinco años de trabajos forzados por robar un pan para alimentar a los hijos de su hermana, que pasa diecinueve en prisión por sus intentos de fuga. Al salir, amargado y rechazado por todos, es acogido por el obispo de Digne, a quien roba la cubertería de plata. Cuando la policía lo detiene, **el obispo afirma que se la había regalado** y le entrega además dos candelabros. Ese gesto cambia la vida de Valjean.
+
+Con una nueva identidad, Valjean se convierte en un empresario respetado y alcalde de un pueblo, el señor Madeleine. Pero lo persigue el inspector Javert, un policía honrado e inflexible para quien la ley está por encima de cualquier otra consideración. A lo largo de la novela, Valjean adopta a Cosette, hija de Fantine, una obrera que cae en la miseria y la prostitución, y la protege durante años. **El enfrentamiento entre la misericordia y la justicia implacable** es uno de los grandes temas del libro.
+
+La novela es también un retrato de la Francia de la primera mitad del siglo XIX. Hugo interrumpe la trama con largas digresiones sobre la batalla de Waterloo, las cloacas de París o los conventos, y culmina con la insurrección republicana de junio de 1832 en las barricadas de París, donde aparece el pilluelo Gavroche. El autor quiso denunciar **la pobreza, la ignorancia y el abandono** de los más débiles.
+
+«Los miserables» ha tenido innumerables adaptaciones. El musical estrenado en París en 1980 y en Londres en 1985 se convirtió en uno de los más representados del mundo. Cuando Hugo murió en 1885, más de un millón de personas acompañaron su ataúd hasta el Panteón.
+
+@@ 2026-11-18
+resumen: Soria, el Duero y una tierra dura y pobre: con «Campos de Castilla», Antonio Machado convirtió el paisaje en una meditación sobre España.
+titulo: «Campos de Castilla»: el paisaje castellano según Antonio Machado
+data: España, 1912
+alt: Fotografía en blanco y negro del poeta Antonio Machado
+pie: Antonio Machado
+saber: Campos de Castilla | Antonio Machado | Generación del 98
+
+En 1907, Antonio Machado, un poeta sevillano de 32 años que había vivido casi siempre en Madrid, obtuvo una plaza de profesor de francés en el instituto de Soria. Aquella pequeña ciudad castellana, junto al río Duero, le cambió la vida y la poesía. Allí se casó con Leonor Izquierdo, una joven de dieciséis años, y allí escribió buena parte de **«Campos de Castilla»**, publicado en 1912.
+
+Hasta entonces, Machado había escrito una poesía intimista, de jardines, fuentes y tardes melancólicas, influida por el modernismo de Rubén Darío. En Soria su mirada se volvió hacia fuera. Los poemas describen los campos pardos, las encinas, los álamos del Duero, las tierras pobres y los pueblos medio vacíos. Pero el paisaje no es solo paisaje: **es una reflexión sobre España**, su decadencia y su historia, muy cercana a las preocupaciones de la llamada generación del 98.
+
+El libro incluye un largo romance, «La tierra de Alvargonzález», que cuenta un crimen familiar por codicia, y poemas que critican la mentalidad de una Castilla «que desprecia cuanto ignora». También contiene los famosos «Proverbios y cantares», breves y llenos de sabiduría, entre ellos los versos que muchos conocen gracias a una canción de Joan Manuel Serrat: **«Caminante, no hay camino, se hace camino al andar»**.
+
+La felicidad de Soria duró poco. En 1911, durante un viaje a París, Leonor enfermó de tuberculosis, y murió en agosto de 1912, pocas semanas después de la publicación del libro. Machado, destrozado, pidió el traslado a Baeza, en Jaén. En las ediciones posteriores añadió poemas de duelo dirigidos a ella, como «A un olmo seco», que habla de un árbol viejo en el que brotan unas hojas verdes, y otros que recuerdan **la tierra soriana desde la distancia**.
+
+Machado fue después profesor en Segovia y Madrid, defensor de la Segunda República y partidario del bando republicano durante la Guerra Civil. En enero de 1939 cruzó la frontera francesa con su madre y murió en Colliure el 22 de febrero de ese año. En el bolsillo de su abrigo se encontró un papel con un último verso.
+
+@@ 2026-11-19
+resumen: Un niño pobre, un ciego astuto y un hidalgo sin dinero: el «Lazarillo de Tormes», anónimo, inauguró la novela picaresca en 1554.
+titulo: El «Lazarillo de Tormes»: la novela anónima que inventó la picaresca
+data: España, 1554
+alt: Portada de una edición de 1554 de La vida de Lazarillo de Tormes
+pie: Portada de una de las ediciones de 1554 de «La vida de Lazarillo de Tormes»
+saber: Lazarillo de Tormes | Novela picaresca | Siglo de Oro español
+
+En 1554 aparecieron, casi a la vez, varias ediciones de un librito titulado «La vida de Lazarillo de Tormes y de sus fortunas y adversidades». Se imprimieron en Burgos, Alcalá de Henares, Amberes y Medina del Campo, aunque se cree que hubo una edición anterior perdida. No llevaba nombre de autor. **Su autoría sigue siendo un misterio** que ha generado decenas de hipótesis, desde el diplomático Diego Hurtado de Mendoza hasta el erasmista Alfonso de Valdés.
+
+El libro es una carta en la que un tal Lázaro, ya adulto, cuenta su vida a un personaje al que se dirige como «Vuestra Merced». Nacido en una aceña junto al río Tormes, en Salamanca, hijo de un molinero ladrón, su madre lo entrega de niño como guía a un ciego. De él aprende la primera lección: en el mundo hay que ser listo para sobrevivir. Con humor y crueldad, el relato cuenta cómo **el niño engaña al ciego para robarle vino y comida**, y cómo el ciego se venga.
+
+Después sirve a otros amos: un clérigo avaro que casi lo mata de hambre; un escudero que, pese a su apariencia de caballero, no tiene qué comer y vive de la honra y la apariencia; un fraile, un vendedor de bulas que engaña a los fieles con falsos milagros, y otros. Cada uno representa **un vicio de la sociedad española de la época**, especialmente del clero y de la nobleza empobrecida. El escudero, que pasa hambre antes que trabajar, es uno de los retratos más agudos de la obsesión por la honra.
+
+Al final, Lázaro ha prosperado: es pregonero en Toledo y se ha casado con la criada de un arcipreste. Insinúa que su mujer es amante del clérigo, pero prefiere no saberlo para conservar su buena posición. Esa conclusión, profundamente irónica, muestra que **la «buena fortuna» del protagonista** es en realidad una forma de deshonra aceptada.
+
+La Inquisición incluyó el libro en el índice de obras prohibidas en 1559 por su crítica a la Iglesia, y después solo circuló en una versión expurgada. Su influencia fue enorme: inauguró la novela picaresca, que continuarían «Guzmán de Alfarache» o «El Buscón», y su narración en primera persona de una vida vulgar anticipó la novela moderna.
+
+@@ 2026-11-20
+resumen: Una leyenda familiar, un perro monstruoso y los páramos de Devon: Conan Doyle resucitó a Sherlock Holmes en su novela más famosa.
+titulo: «El sabueso de los Baskerville»: la novela con la que Sherlock Holmes volvió de entre los muertos
+data: Inglaterra, 1901-1902
+alt: Cubierta de la primera edición de El sabueso de los Baskerville, de 1902, con un perro dibujado
+pie: Cubierta de la primera edición de «El sabueso de los Baskerville» (1902)
+saber: El sabueso de los Baskerville | Arthur Conan Doyle | Sherlock Holmes
+
+En 1893, Arthur Conan Doyle, cansado de su personaje más famoso, lo había matado. En el relato «El problema final», Sherlock Holmes caía a las cataratas de Reichenbach, en Suiza, abrazado a su enemigo, el profesor Moriarty. Miles de lectores protestaron. Ocho años después, Conan Doyle publicó por entregas **«El sabueso de los Baskerville»**, una aventura situada antes de la muerte del detective. Fue un éxito clamoroso.
+
+La historia arranca con un antiguo manuscrito. Según una leyenda familiar, los Baskerville, una familia de terratenientes de Devon, en el suroeste de Inglaterra, están malditos desde que un antepasado cruel fue despedazado por un perro infernal en el páramo. Sir Charles Baskerville, el último señor, acaba de aparecer muerto junto a su mansión, con una expresión de terror en el rostro. Cerca del cuerpo había **las huellas de un sabueso gigantesco**.
+
+El doctor Mortimer, amigo del difunto, acude a Holmes para proteger al heredero, sir Henry, que llega desde Canadá. Holmes envía a Watson a Baskerville Hall y durante buena parte de la novela es el fiel doctor quien narra los acontecimientos a través de cartas e informes. El ambiente es decisivo: **el páramo envuelto en niebla**, una ciénaga que traga a quien se aventura en ella, un presidiario fugado, aullidos nocturnos y unos vecinos misteriosos.
+
+Conan Doyle combina con habilidad el relato policiaco con la novela gótica. Durante muchas páginas el lector duda si se enfrenta a un fenómeno sobrenatural o a un crimen. La resolución confirma el método de Holmes: la observación minuciosa y el razonamiento lógico frente a la superstición. La idea de la novela, según el propio autor, surgió de una conversación con un amigo periodista, Bertram Fletcher Robinson, que le habló de leyendas de perros fantasmales en Dartmoor.
+
+La presión de los lectores dio sus frutos: en 1903, Conan Doyle resucitó definitivamente a Holmes en el relato «La casa vacía», que explicaba cómo había sobrevivido. «El sabueso de los Baskerville» es hoy la más conocida de sus cuatro novelas protagonizadas por el detective y **una de las más adaptadas al cine** de la historia.
+
+@@ 2026-11-21
+resumen: Augusto encargó a Virgilio un poema sobre los orígenes de Roma. El resultado fue la «Eneida», que el poeta pidió quemar antes de morir.
+titulo: La «Eneida»: el poema que Virgilio quiso quemar
+data: Roma, 29-19 a. C.
+alt: Pintura renacentista de Eneas huyendo de Troya en llamas con su padre a hombros y su hijo de la mano
+pie: «La huida de Eneas de Troya» (1598), de Federico Barocci, en la Galería Borghese de Roma
+saber: Eneida | Virgilio | Augusto
+
+Hacia el año 29 a. C., después de décadas de guerras civiles, Octavio, el futuro emperador Augusto, se había convertido en el dueño de Roma. En ese contexto, el poeta Publio Virgilio Marón empezó a escribir un poema épico sobre los orígenes de la ciudad. Le dedicó los últimos once años de su vida. El resultado fue la «Eneida», **la gran epopeya de la literatura latina**.
+
+El protagonista es Eneas, un príncipe troyano, hijo de la diosa Venus, que logra escapar de Troya en llamas llevando a hombros a su anciano padre, Anquises, y de la mano a su hijo, Ascanio. Los dioses le han encomendado una misión: fundar en Italia un nuevo hogar para los troyanos, del que nacerá Roma. Virgilio tomó como modelo los poemas de Homero: **la primera mitad recuerda a la «Odisea»**, con un largo viaje por mar, y la segunda, a la «Ilíada», con guerras en tierras italianas.
+
+El episodio más famoso es el amor entre Eneas y Dido, reina de Cartago, que lo acoge tras un naufragio. Cuando los dioses le recuerdan su deber, Eneas la abandona en secreto, y Dido, desesperada, se quita la vida en una pira tras maldecir a los troyanos. La escena ofrecía una explicación mítica de **la enemistad entre Roma y Cartago**. En otro gran episodio, Eneas desciende al inframundo, donde su padre le muestra las almas de los futuros héroes de Roma, hasta llegar a Augusto.
+
+A diferencia de los héroes homéricos, Eneas es un hombre que antepone el deber a sus deseos personales, y que acepta con pesar el destino que le ha tocado. El adjetivo que lo acompaña con frecuencia es «pius», que significa leal a los dioses, a la familia y a la patria. El poema celebra el destino de Roma, pero no oculta el dolor y las víctimas que cuesta.
+
+Virgilio murió en el año 19 a. C. en Bríndisi, al volver de un viaje a Grecia. Según sus biógrafos antiguos, pidió que quemaran la «Eneida» porque la consideraba inacabada, y algunos versos están, en efecto, incompletos. **Augusto ordenó publicarla**. Durante siglos fue el libro de texto de las escuelas, y Dante eligió a Virgilio como guía en su «Divina comedia».
+
+@@ 2026-11-22
+resumen: Un solo día de junio en Dublín y cientos de páginas experimentales: «Ulises» de Joyce fue prohibido, admirado y temido a partes iguales.
+titulo: «Ulises»: el día de Dublín que James Joyce convirtió en una odisea
+data: Dublín y París, 1922
+alt: Ejemplar de la primera edición de Ulises, de James Joyce, con su cubierta azul
+pie: Primera edición de «Ulises» (1922), en el Little Museum de Dublín
+saber: Ulises (novela) | James Joyce | Bloomsday
+
+El 2 de febrero de 1922, el día en que James Joyce cumplía cuarenta años, una pequeña librería de París llamada Shakespeare and Company publicó una novela de más de setecientas páginas con cubierta azul, el color de la bandera griega. Se titulaba «Ulises». Su editora, la estadounidense Sylvia Beach, había aceptado publicarla porque **nadie más se atrevía**: fragmentos del libro aparecidos en una revista de Nueva York habían sido condenados por obscenidad.
+
+Toda la novela transcurre en un solo día, el 16 de junio de 1904, en Dublín. Sigue los pasos de tres personajes: Stephen Dedalus, un joven profesor con ambiciones literarias; Leopold Bloom, un agente de anuncios de origen judío, amable y curioso, y su esposa, Molly, una cantante que esa tarde recibe a su amante. Cada episodio corresponde a un canto de **la «Odisea» de Homero**: Bloom es un Ulises moderno que vaga por la ciudad, Stephen es Telémaco y Molly, Penélope.
+
+Lo revolucionario es la forma. Cada uno de los dieciocho capítulos está escrito con una técnica distinta: uno imita la evolución de la prosa inglesa desde la Edad Media hasta la jerga moderna; otro, los titulares de un periódico; otro, el formato de un guion teatral. Joyce lleva al extremo el **monólogo interior**, que reproduce el flujo desordenado de los pensamientos. El último capítulo, el de Molly, son decenas de páginas casi sin puntuación que terminan con la palabra «sí».
+
+La novela causó escándalo por su tratamiento abierto de la sexualidad y del cuerpo. Estuvo prohibida en Estados Unidos hasta 1933, cuando un juez dictaminó que no era pornográfica, y también en el Reino Unido durante años. Muchos lectores la encontraron incomprensible, mientras escritores como T. S. Eliot la consideraron decisiva. **Su dificultad es legendaria**, y aún hoy se publican guías para leerla.
+
+Joyce había abandonado Irlanda en 1904 y vivió en Trieste, Zúrich y París, pero sus libros transcurren siempre en Dublín. Cada 16 de junio, miles de lectores celebran en la ciudad el Bloomsday, recorriendo los lugares de la novela, a veces vestidos como en 1904.

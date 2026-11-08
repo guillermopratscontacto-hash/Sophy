@@ -1,0 +1,215 @@
+@@ 2026-12-20
+resumen: Un estudiante, un maestro solitario y una larga carta con un secreto: «Kokoro» retrata el Japón que dejaba atrás su pasado.
+titulo: «Kokoro»: la novela de Natsume Sōseki sobre la soledad en el Japón moderno
+data: Japón, 1914
+alt: Retrato fotográfico del escritor japonés Natsume Sōseki con bigote y traje occidental
+pie: Natsume Sōseki, fotografiado por Ogawa Kazumasa
+saber: Kokoro | Natsume Sōseki | Literatura de Japón
+
+En 1914, el periódico japonés Asahi Shimbun publicó por entregas una novela de Natsume Sōseki, el escritor más prestigioso del país. Se titulaba «Kokoro», una palabra difícil de traducir que significa a la vez corazón, mente y espíritu: **el núcleo de los sentimientos de una persona**. Es hoy una de las novelas más leídas de la literatura japonesa.
+
+La primera parte la narra un joven estudiante universitario que, durante unas vacaciones en la playa de Kamakura, conoce a un hombre mayor al que empieza a llamar «Sensei», maestro. Sensei vive retirado con su esposa en Tokio, no trabaja y visita cada mes la tumba de un amigo. Es un hombre amable pero distante, que **desconfía de todo el mundo**, incluido de sí mismo. El estudiante, fascinado, intenta descubrir su secreto.
+
+En la segunda parte, el joven vuelve a su pueblo, donde su padre está muriendo. Mientras tanto, el país entero vive pendiente de la enfermedad del emperador Meiji, que murió en 1912. Su muerte cerraba una época, la de la rápida modernización de Japón según modelos occidentales. Un general famoso, Nogi Maresuke, se quitó la vida ese mismo año siguiendo la antigua tradición de acompañar a su señor en la muerte, un hecho real que **conmocionó al país** y que aparece en la novela.
+
+La tercera parte es una larga carta de Sensei al estudiante, en la que por fin le cuenta su pasado: una historia de juventud, de traición y de culpa relacionada con su amigo K y con la mujer que acabó siendo su esposa. Sin desvelar el final, el relato muestra el peso de la conciencia y la soledad de un individuo que ya no encuentra apoyo ni en los valores tradicionales ni en los nuevos. Sensei afirma que la soledad es el precio que hay que pagar por vivir **en esta época moderna, llena de libertad e independencia**.
+
+Sōseki había estudiado en Londres entre 1900 y 1902 y conocía bien la literatura inglesa. Su obra explora el choque entre el individualismo occidental y la ética japonesa. Murió en 1916, con 49 años. Su retrato apareció durante dos décadas en el billete japonés de mil yenes.
+
+@@ 2026-12-21
+resumen: Cuartetas persas sobre el vino, el placer y la brevedad de la vida: los «Rubaiyat» de Omar Jayam conquistaron Occidente en el siglo XIX.
+titulo: Los «Rubaiyat» de Omar Jayam: el vino, el tiempo y la brevedad de la vida
+data: Persia, siglos XI-XII
+alt: Cubierta decorada de una edición de los Rubaiyat de Omar Jayam traducidos por Edward FitzGerald
+pie: Cubierta de una edición de los «Rubaiyat» de Omar Jayam en la traducción inglesa de Edward FitzGerald
+saber: Rubaiyat | Omar Jayam | Literatura persa
+
+Omar Jayam fue, en vida, un sabio respetado más que un poeta. Nació en Nishapur, en el noreste de Persia, en 1048, y fue matemático y astrónomo. Escribió un importante tratado sobre las ecuaciones cúbicas y participó en la reforma del calendario persa, el calendario jalalí, que resultó **más preciso que el gregoriano** de Europa. Pero hoy se le recuerda sobre todo por unos poemas breves, de cuatro versos, llamados rubaiyat, plural de «rubai», cuarteta.
+
+Los poemas atribuidos a Jayam tratan los grandes temas de la existencia con un tono escéptico y melancólico. La vida es breve, el pasado no vuelve y el futuro es incierto; nadie sabe qué hay después de la muerte. Ante esa incertidumbre, el poeta invita a disfrutar del presente: **una jarra de vino, un pedazo de pan, un libro de versos** y una compañía amada bajo la rama de un árbol. El vino aparece como símbolo del placer, del olvido y quizá también, según algunas lecturas, del éxtasis místico.
+
+Algunos poemas cuestionan las certezas de los religiosos y de los filósofos, lo que resultaba atrevido en su tiempo. Por eso se ha especulado con que Jayam los escribiera para sí mismo o para un círculo reducido. La atribución es uno de los grandes problemas: circulan cientos de cuartetas con su nombre, pero los especialistas creen que **solo una parte pequeña es suya** con seguridad, y que muchas se le adjudicaron siglos después.
+
+En Europa, Jayam era casi un desconocido hasta 1859, cuando el poeta inglés Edward FitzGerald publicó una versión de 75 cuartetas. No era una traducción literal, sino una recreación libre que ordenaba los poemas como un ciclo, de la mañana a la noche. El librito apenas se vendió al principio, pero años después **se convirtió en un fenómeno**: se publicaron cientos de ediciones ilustradas y surgieron clubes de admiradores de Jayam en Londres y Estados Unidos.
+
+Su tumba, en un jardín de Nishapur, es hoy un lugar de visita para iraníes y extranjeros. Un cráter de la Luna y un asteroide llevan su nombre en reconocimiento a su labor como astrónomo.
+
+@@ 2026-12-22
+resumen: Más de cuatrocientos personajes en una mansión de Pekín: «Sueño en el pabellón rojo» es la gran novela clásica china y un mundo entero.
+titulo: «Sueño en el pabellón rojo»: la gran novela clásica de China
+data: China, siglo XVIII
+alt: Pintura china del siglo XIX con una escena de Sueño en el pabellón rojo en un jardín con pabellones
+pie: Escena de «Sueño en el pabellón rojo» pintada por Sun Wen en el siglo XIX
+saber: Sueño en el pabellón rojo | Cao Xueqin | Literatura de China
+
+En China existe una disciplina académica dedicada solo a estudiar una novela. Se llama hongxue, «estudios rojos», y su objeto es «Sueño en el pabellón rojo», escrita a mediados del siglo XVIII por Cao Xueqin. Es **la más admirada de las cuatro grandes novelas clásicas** chinas, y tiene más de cien capítulos y cientos de personajes.
+
+La historia gira en torno a la familia Jia, un clan aristocrático que vive en dos grandes mansiones de la capital, con sus jardines, pabellones, criados y centenares de habitantes. El protagonista es Jia Baoyu, un joven sensible y rebelde, nacido con una piedra de jade en la boca, que detesta los estudios para los exámenes de funcionario y prefiere la compañía de las muchachas de la casa. Entre ellas destacan sus primas Lin Daiyu, frágil, inteligente y melancólica, y Xue Baochai, prudente y equilibrada. **El triángulo amoroso** entre los tres es el hilo central.
+
+La novela retrata con enorme detalle la vida de la élite durante la dinastía Qing: fiestas, banquetes, ceremonias, poemas compuestos en reuniones de jardín, intrigas entre criados, conflictos entre esposas y concubinas. Pero detrás del lujo se adivina la decadencia: la familia gasta más de lo que tiene, la corrupción se extiende y **la caída parece inevitable**. Todo está envuelto en un marco mitológico budista y taoísta que presenta la vida humana como un sueño ilusorio.
+
+Se cree que Cao Xueqin se inspiró en la historia de su propia familia, que había sido muy rica e influyente al servicio del emperador y que cayó en desgracia y perdió sus bienes. El autor murió hacia 1763 sin terminar la obra, que circuló durante años en copias manuscritas de unos ochenta capítulos. En 1791 se publicó una versión completa de 120 capítulos; los cuarenta finales se atribuyen a otros autores, y **su fidelidad al plan original** sigue debatiéndose.
+
+La novela ha inspirado óperas, series de televisión, películas y videojuegos en China. Su lenguaje, sus poemas y sus personajes forman parte de la cultura popular, y muchos chinos conocen de memoria sus versos más famosos.
+
+@@ 2026-12-23
+resumen: Un avaro que odia la Navidad recibe en una noche la visita de cuatro fantasmas: Dickens escribió en seis semanas su relato más querido.
+titulo: «Cuento de Navidad»: los fantasmas que cambiaron a Ebenezer Scrooge
+data: Londres, 1843
+alt: Ejemplar de la primera edición de Cuento de Navidad, con cubierta de tela roja y letras doradas
+pie: Primera edición de «Cuento de Navidad» (1843)
+saber: Canción de Navidad | Charles Dickens | Época victoriana
+
+En octubre de 1843, Charles Dickens, que tenía 31 años y era ya un autor de éxito, pasaba por apuros económicos. Decidió escribir un libro breve para la Navidad. Lo terminó en unas seis semanas y lo publicó el 19 de diciembre con su propio dinero, en una edición cuidada con tapas rojas e ilustraciones en color. La primera tirada, de **6.000 ejemplares, se agotó en pocos días**.
+
+El protagonista es Ebenezer Scrooge, un prestamista londinense rico, solitario y tacaño que desprecia la Navidad con una expresión que se hizo famosa: «¡Bah, paparruchas!». Paga un salario miserable a su empleado, Bob Cratchit, y rechaza la invitación de su sobrino y las peticiones de dinero para los pobres. La noche de Nochebuena se le aparece el fantasma de su antiguo socio, Jacob Marley, arrastrando las pesadas cadenas que forjó con su avaricia. Le anuncia que **recibirá la visita de tres espíritus**.
+
+El Fantasma de las Navidades Pasadas le muestra su infancia solitaria y su juventud, cuando perdió a la mujer que amaba por su obsesión por el dinero. El de las Navidades Presentes le lleva a la humilde casa de los Cratchit, donde la familia celebra la fiesta con alegría pese a su pobreza, y donde Scrooge conoce al pequeño Tim, un niño enfermo. El de las Navidades Futuras, silencioso y sombrío, le enseña **lo que ocurrirá si no cambia**: su propia muerte, sin nadie que lo llore.
+
+Dickens había conocido la pobreza en carne propia: de niño trabajó en una fábrica de betún mientras su padre estaba en la cárcel de deudores. Ese año había visitado escuelas para niños pobres y leído informes sobre el trabajo infantil. El relato, aunque lleno de humor y de ternura, es también una crítica a la indiferencia de las clases acomodadas hacia los más desfavorecidos en la Inglaterra industrial.
+
+El libro contribuyó a dar forma a la Navidad moderna como una fiesta familiar centrada en la generosidad, las comidas compartidas y la caridad. Dickens lo leyó en público muchas veces. Ha tenido innumerables adaptaciones, y el nombre de Scrooge se usa en inglés como sinónimo de **persona avara**.
+
+@@ 2026-12-24
+resumen: Un poeta y un burro pequeño y peludo pasean por Moguer: «Platero y yo» es la prosa poética más leída de la lengua española.
+titulo: «Platero y yo»: el burro de Moguer que Juan Ramón Jiménez convirtió en poesía
+data: Moguer (Huelva), 1914-1917
+alt: Ejemplar de la primera edición de Platero y yo, de 1914
+pie: Primera edición de «Platero y yo» (1914)
+saber: Platero y yo | Juan Ramón Jiménez | Moguer
+
+«Platero es pequeño, peludo, suave; tan blando por fuera, que se diría todo de algodón, que no lleva huesos». Así empieza «Platero y yo», el libro que Juan Ramón Jiménez publicó en 1914 en una edición reducida y completó en 1917 con 138 capítulos. Es **uno de los libros más traducidos de la literatura española**, y generaciones de escolares lo han leído en clase.
+
+El libro está escrito en prosa, pero es poesía: cada capítulo es un poema breve, una estampa en la que el narrador, un poeta vestido de luto con barba negra, pasea con su burro por Moguer, el pueblo de Huelva donde nació el propio Juan Ramón. Juntos recorren las calles encaladas, los campos, las viñas y la marisma, al ritmo de **las estaciones del año**. El poeta habla con Platero, que le escucha y le acompaña.
+
+Aunque se ha leído como un libro infantil, el autor advirtió en el prólogo que no lo escribió para niños. Junto a la belleza del paisaje andaluz y a la ternura, el libro está lleno de melancolía y de muerte: aparecen niños pobres, enfermos, animales maltratados, una niña que muere, un loco al que los niños tiran piedras. El pueblo es a la vez idílico y cruel. **La sensibilidad ante el sufrimiento** de los débiles atraviesa todas las páginas.
+
+El estilo es de una delicadeza extrema. Juan Ramón cuidaba cada palabra y cada sonido, con frases musicales llenas de color y de luz. Al final del libro, Platero muere y el poeta lo entierra al pie de un pino en el huerto. En el último capítulo, le habla desde la distancia: **«Platero, tú nos ves, ¿verdad?»**. Juan Ramón explicó que Platero no era un solo burro, sino varios, aunque en Moguer se señala el lugar donde estaría enterrado.
+
+Juan Ramón Jiménez, nacido en 1881, fue uno de los grandes renovadores de la poesía española y maestro de la generación del 27. Tras la Guerra Civil se exilió con su esposa, Zenobia Camprubí, en Estados Unidos, Cuba y Puerto Rico. Recibió el Premio Nobel de Literatura en 1956, pocos días antes de la muerte de Zenobia, y murió en Puerto Rico dos años después.
+
+@@ 2026-12-25
+resumen: Un héroe que lucha contra un monstruo, su madre y un dragón: «Beowulf», el gran poema anglosajón, sobrevivió en un único manuscrito chamuscado.
+titulo: «Beowulf»: el héroe y los monstruos del gran poema anglosajón
+data: Inglaterra, siglos VIII-XI
+alt: Página del manuscrito medieval de Beowulf, escrita en inglés antiguo
+pie: Primera página del manuscrito de «Beowulf», conservado en la Biblioteca Británica
+saber: Beowulf | Inglés antiguo | J. R. R. Tolkien
+
+Todo lo que sabemos de «Beowulf» procede de un único manuscrito copiado hacia el año 1000 por dos escribas anglosajones. En 1731, el manuscrito estuvo a punto de desaparecer en un incendio en la biblioteca del coleccionista Robert Cotton, en Londres. Se salvó, pero **los bordes de sus páginas quedaron chamuscados** y algunas palabras se perdieron. Hoy se conserva en la Biblioteca Británica.
+
+El poema, de más de 3.000 versos, está escrito en inglés antiguo, una lengua tan diferente del inglés actual que hay que estudiarla como un idioma extranjero. No sabemos quién lo compuso ni cuándo exactamente: las propuestas van del siglo VIII al XI. Curiosamente, la historia no transcurre en Inglaterra, sino en Escandinavia, la tierra de origen de los pueblos germánicos que se habían instalado en Gran Bretaña.
+
+El rey danés Hrothgar ha construido una gran sala de banquetes, Heorot, pero cada noche un monstruo llamado Grendel, descendiente de Caín, la ataca y devora a sus guerreros. Durante doce años nadie puede detenerlo. Entonces llega desde el país de los gautas, en el sur de la actual Suecia, un joven guerrero de fuerza extraordinaria, Beowulf, que **lucha contra Grendel sin armas** y le arranca un brazo. Después debe enfrentarse a la madre del monstruo en una cueva bajo un lago.
+
+En la segunda parte, cincuenta años después, Beowulf es un rey anciano que gobierna a su pueblo. Un dragón, enfurecido porque alguien le ha robado una copa de su tesoro, arrasa el reino. Beowulf combate contra él con la ayuda de un joven guerrero fiel, Wiglaf. El final es **una elegía al héroe** y al destino de su pueblo. El poema mezcla los valores guerreros paganos, como la fama, la lealtad y la venganza, con una visión cristiana.
+
+Durante mucho tiempo, los estudiosos se interesaron por el poema sobre todo como documento histórico. En 1936, el filólogo J. R. R. Tolkien, futuro autor de «El señor de los anillos», dio una conferencia que reivindicó su valor literario y la importancia de sus monstruos. **El dragón de «El hobbit»** le debe mucho. En 1999, el poeta irlandés Seamus Heaney publicó una traducción que se convirtió en un éxito de ventas.
+
+@@ 2026-12-26
+resumen: Una estudiante de 18 años llega a Barcelona tras la guerra y vive en un piso lleno de violencia: con «Nada», Carmen Laforet ganó el primer Nadal.
+titulo: «Nada»: la novela con la que una joven de 23 años sorprendió a la España de posguerra
+data: Barcelona, 1945
+alt: Retrato de la escritora Carmen Laforet
+pie: Retrato de Carmen Laforet
+saber: Nada (novela) | Carmen Laforet | Premio Nadal
+
+El 6 de enero de 1945 se falló en Barcelona la primera edición de un nuevo premio literario, el Nadal, convocado por la revista Destino. Lo ganó una novela de una autora desconocida de 23 años, Carmen Laforet, que se impuso a escritores con trayectoria. Su título era tan escueto como desolador: **«Nada»**. Fue un éxito inmediato de crítica y de ventas.
+
+La narradora es Andrea, una joven de dieciocho años que llega a Barcelona en 1939 o 1940, poco después del final de la Guerra Civil, para estudiar Letras en la universidad. Ilusionada, se instala en el piso de su abuela en la calle de Aribau. Pero la casa familiar, antes acomodada, se ha convertido en **un lugar sombrío**, sucio y lleno de muebles viejos, habitado por una familia arruinada y desquiciada.
+
+Allí viven su abuela, una anciana bondadosa y algo perdida; la tía Angustias, rígida y autoritaria, que controla cada paso de Andrea; y dos tíos, Juan y Román. Juan es violento y maltrata a su mujer, Gloria; Román, músico y pintor, es un personaje fascinante y siniestro que manipula a todos. Hay hambre, gritos, golpes y secretos. Andrea gasta su pequeña paga en dulces y pasa días sin comer. **La guerra ha dejado heridas** que nadie nombra.
+
+Fuera de la casa, Andrea encuentra un respiro en la amistad con Ena, una compañera de clase de familia rica, y en un grupo de jóvenes artistas bohemios. Pero incluso esa amistad acabará enredándose con el mundo de la calle de Aribau. La novela tiene algo de relato de aprendizaje: al final, tras un suceso trágico, Andrea abandona la casa con la sensación de no llevarse **nada** de lo que esperaba encontrar.
+
+En una época de censura y de novelas triunfalistas, «Nada» mostraba sin adornos la miseria material y moral de la posguerra, a través de una mirada femenina e independiente. Se ha relacionado con el existencialismo y con el llamado tremendismo. Laforet publicó después otras novelas, pero nunca repitió aquel éxito y vivió con incomodidad la fama. Murió en 2004.
+
+@@ 2026-12-27
+resumen: Un gaucho perseguido por la injusticia canta su vida en la pampa: «Martín Fierro» es el poema nacional de Argentina.
+titulo: «Martín Fierro»: el canto del gaucho que se convirtió en poema nacional de Argentina
+data: Argentina, 1872-1879
+alt: Portada de la primera edición de El gaucho Martín Fierro, de José Hernández, de 1872
+pie: Portada de la primera edición de «El gaucho Martín Fierro» (1872)
+saber: Martín Fierro | José Hernández | Literatura gauchesca
+
+«Aquí me pongo a cantar / al compás de la vigüela, / que el hombre que lo desvela / una pena estraordinaria, / como la ave solitaria / con el cantar se consuela». Así empieza «El gaucho Martín Fierro», el poema que el periodista y político argentino José Hernández publicó en Buenos Aires en 1872. En pocos años se vendieron decenas de miles de ejemplares, una cifra enorme para la época, y hoy se considera **el poema nacional de Argentina**.
+
+El protagonista es un gaucho, uno de los jinetes y vaqueros mestizos de la pampa, que cuenta su historia en primera persona, cantando con su guitarra. Vivía feliz con su mujer y sus hijos hasta que un juez lo envía por la fuerza a la frontera, a luchar contra los indígenas en un fortín, donde los soldados pasan hambre, no cobran y sufren los abusos de los oficiales. Cuando consigue desertar y volver, **su rancho ha desaparecido** y su familia se ha dispersado.
+
+Convertido en un fugitivo, Martín Fierro se pelea, mata en duelo a un hombre negro en un baile, en un episodio de crudo racismo de la época, y es perseguido por la policía. En una pelea contra una partida de soldados, uno de ellos, el sargento Cruz, se pasa a su lado. Al final de la primera parte, los dos amigos deciden marcharse a vivir con los indígenas, más allá de la frontera. Hernández usaba la historia para **denunciar la persecución de los gauchos** por el gobierno de Domingo Sarmiento, al que se oponía.
+
+En 1879, Hernández publicó una segunda parte, «La vuelta de Martín Fierro», de tono más conciliador. El protagonista regresa tras sufrir entre los indígenas, se reencuentra con dos de sus hijos y con el hijo de Cruz, y termina dando consejos sobre la prudencia y el trabajo, como los famosos versos sobre la unión de los hermanos.
+
+El poema está escrito imitando el habla de los gauchos, con sus giros y su ortografía popular, en sextinas de versos octosílabos. Escritores como Leopoldo Lugones o Jorge Luis Borges lo estudiaron y discutieron. En Argentina, **el Día de la Tradición** se celebra el 10 de noviembre, aniversario del nacimiento de José Hernández.
+
+@@ 2026-12-28
+resumen: Cervantes la salvó de la quema en el «Quijote» y la llamó el mejor libro del mundo: «Tirant lo Blanc» es una novela de caballerías distinta.
+titulo: «Tirant lo Blanc»: la novela de caballerías que Cervantes salvó de la hoguera
+data: Valencia, 1490
+alt: Portada de la traducción castellana de Tirant lo Blanc publicada en 1511
+pie: Portada de «Tirante el Blanco», la traducción castellana de 1511
+saber: Tirant lo Blanc | Joanot Martorell | Siglo de Oro valenciano
+
+En el capítulo sexto de la primera parte del «Quijote», el cura y el barbero revisan la biblioteca del hidalgo para quemar los libros de caballerías que lo han trastornado. Cuando encuentran «Tirante el Blanco», el cura exclama que es **«el mejor libro del mundo»**, porque en él los caballeros comen, duermen, mueren en sus camas y hacen testamento. Es uno de los elogios más famosos que Cervantes dedicó a otra novela.
+
+«Tirant lo Blanc» se publicó en Valencia en 1490, escrito en valenciano, la variedad del catalán de esa ciudad. Su autor principal fue Joanot Martorell, un caballero valenciano que murió en 1465 dejando la obra casi terminada. Martí Joan de Galba la preparó para la imprenta, y se discute cuánto añadió. Martorell era un hombre de armas que había vivido en Inglaterra y **se batió en duelos y desafíos caballerescos**, como algunos de sus personajes.
+
+El protagonista, Tirant, es un caballero bretón que gana fama en torneos en Inglaterra, combate contra los moros en Rodas y en el norte de África y acaba convirtiéndose en el defensor del Imperio bizantino contra los turcos. La novela evoca la caída de Constantinopla, ocurrida en 1453, y plantea una especie de historia alternativa en la que **un caballero cristiano salva el imperio**.
+
+Lo que la distingue de otras novelas de caballerías es su realismo. No hay magos, dragones ni encantamientos, o casi no los hay. Las batallas se resuelven con estrategia militar, los personajes enferman, tienen dudas y miedos, y hay mucho humor. Las escenas amorosas entre Tirant y la princesa Carmesina, ayudadas por la descarada doncella Placerdemivida, tienen un erotismo y una ironía que sorprenden aún hoy. El escritor peruano Mario Vargas Llosa la defendió como una de las primeras novelas modernas.
+
+La traducción al castellano, publicada en Valladolid en 1511, fue la que leyó Cervantes. Del original valenciano de 1490 se conservan muy pocos ejemplares. Hoy se considera **la obra cumbre de la literatura en catalán** de su tiempo.
+
+@@ 2026-12-29
+resumen: Pastor de cabras, autodidacta y poeta extraordinario: Miguel Hernández escribió sus mejores versos entre el amor, la guerra y la cárcel.
+titulo: Miguel Hernández: el poeta pastor de «El rayo que no cesa»
+data: España, 1910-1942
+alt: Fotografía en blanco y negro del poeta Miguel Hernández
+pie: Miguel Hernández
+saber: Miguel Hernández | El rayo que no cesa | Generación del 36
+
+Miguel Hernández nació en Orihuela, en Alicante, en 1910, en una familia humilde. Su padre, tratante de ganado, lo sacó pronto de la escuela para que cuidara de las cabras. Mientras pastoreaba, leía los libros que le prestaban un canónigo y unos amigos, sobre todo a los clásicos del Siglo de Oro: Garcilaso, Góngora, Quevedo, San Juan de la Cruz. **Aprendió a escribir poesía casi por su cuenta**.
+
+En 1934 se instaló en Madrid, donde conoció a Pablo Neruda, Vicente Aleixandre y otros poetas de la generación del 27. En 1936 publicó «El rayo que no cesa», un libro de poemas de amor, en su mayoría sonetos, que muchos críticos consideran una de las cumbres de la poesía amorosa en español. El amor aparece como una pena, un rayo que hiere sin descanso, **una pasión que es también tormento**. El libro incluye una de sus elegías más célebres, dedicada a su amigo Ramón Sijé, muerto con 22 años: «Yo quiero ser llorando el hortelano / de la tierra que ocupas y estercolas».
+
+Al estallar la Guerra Civil, Hernández se alistó como voluntario en el ejército republicano y participó en el frente como comisario de cultura, leyendo poemas a los soldados. Escribió entonces «Viento del pueblo», poesía de combate y de solidaridad con los campesinos y los trabajadores. En 1937 se casó con Josefina Manresa, la novia de Orihuela que había inspirado muchos de sus poemas de amor. Su primer hijo murió a los diez meses.
+
+Al terminar la guerra, intentó huir a Portugal, pero fue detenido en la frontera y entregado a las autoridades franquistas. Condenado a muerte, la pena le fue conmutada por treinta años de cárcel. Pasó por varias prisiones en condiciones durísimas. En la cárcel escribió las «Nanas de la cebolla», tras recibir una carta de su mujer que le contaba que **solo tenían pan y cebolla** para alimentar a su segundo hijo.
+
+Enfermo de tuberculosis, murió en la prisión de Alicante el 28 de marzo de 1942. Tenía 31 años. Sus poemas fueron difundidos después en la clandestinidad y, más tarde, cantados por músicos como Joan Manuel Serrat. La Ley de Memoria Democrática de 2022 **declaró nulas las condenas** de los tribunales franquistas, entre ellas la suya.
+
+@@ 2026-12-30
+resumen: Traicionado y encerrado catorce años en una fortaleza, Edmundo Dantès vuelve rico y con otro nombre para vengarse: el gran folletín de Dumas.
+titulo: «El conde de Montecristo»: la venganza más famosa de la literatura
+data: Francia, 1844-1846
+alt: Pintura de Edmundo Dantès sentado sobre una roca frente al mar
+pie: «Dantès sobre su roca», de François-Louis Français
+saber: El conde de Montecristo | Alejandro Dumas | Château d'If
+
+Entre 1844 y 1846, los lectores del Journal des Débats, un periódico de París, siguieron con avidez las entregas de una novela de Alejandro Dumas, el autor de «Los tres mosqueteros». Las ventas del periódico aumentaban con cada capítulo. La novela, **«El conde de Montecristo»**, sigue siendo una de las más leídas del mundo y un modelo de relato de aventuras y de venganza.
+
+En 1815, Edmundo Dantès es un joven marinero de Marsella de diecinueve años, a punto de ser nombrado capitán y de casarse con la bella Mercedes. Tres hombres lo envidian: Danglars, un compañero de barco; Fernand, que ama a Mercedes; y Caderousse, un vecino. Lo denuncian falsamente como agente de Napoleón, exiliado entonces en la isla de Elba. El fiscal Villefort, que descubre que la carta comprometedora iba dirigida a su propio padre, **lo encierra sin juicio** en el Castillo de If, una fortaleza en una isla frente a Marsella.
+
+Dantès pasa catorce años en prisión. Allí conoce al abate Faria, un sabio italiano que cavaba un túnel para escapar y que se convierte en su maestro: le enseña idiomas, ciencias e historia, y le revela la existencia de un tesoro escondido en la isla de Montecristo. Cuando Faria muere, Dantès ocupa su lugar en el saco mortuorio y **es arrojado al mar**, desde donde consigue escapar.
+
+Años después, Dantès reaparece en París convertido en el conde de Montecristo, un hombre inmensamente rico, misterioso y refinado. Sus enemigos han prosperado: Danglars es banquero, Fernand, conde y par de Francia, casado con Mercedes, y Villefort, procurador del rey. Con paciencia y astucia, el conde pone en marcha una venganza minuciosa contra cada uno. Pero a medida que avanza, Dantès descubre los límites de convertirse en instrumento de la justicia divina, y **la novela termina con una reflexión sobre la esperanza**: «Esperar y confiar».
+
+Dumas escribió la novela con un colaborador, Auguste Maquet, que preparaba borradores y documentación, algo habitual en su enorme producción. Se inspiró en parte en un caso real de un zapatero encarcelado por una denuncia falsa. Hoy el Castillo de If es un lugar turístico donde se muestra la supuesta celda de Dantès.
+
+@@ 2026-12-31
+resumen: Cadetes que se humillan en un colegio militar de Lima: la primera novela de Vargas Llosa fue quemada por los militares y lo hizo famoso.
+titulo: «La ciudad y los perros»: la novela de Vargas Llosa que los militares quemaron
+data: Lima, 1963
+alt: Fotografía en blanco y negro del escritor Mario Vargas Llosa
+pie: Mario Vargas Llosa, fotografiado por Bernard Gotfryd
+saber: La ciudad y los perros | Mario Vargas Llosa | Boom latinoamericano
+
+En 1963, la editorial Seix Barral publicó en Barcelona la primera novela de un joven peruano de 27 años que vivía en París. El manuscrito había ganado el año anterior el premio Biblioteca Breve, y la censura franquista había exigido algunos cambios antes de autorizarla. Se titulaba «La ciudad y los perros», y su autor era Mario Vargas Llosa. El libro **inauguró el boom de la novela latinoamericana** en España.
+
+La historia transcurre en el Colegio Militar Leoncio Prado de Lima, un internado al que muchas familias enviaban a sus hijos para que se hicieran hombres. El propio autor había estudiado allí dos años. Los alumnos de primer curso, los «perros», sufren las novatadas brutales de los mayores. Un grupo de cadetes, el Círculo, dirigido por un muchacho violento al que llaman el Jaguar, organiza **robos, contrabando de alcohol y venganzas**.
+
+Todo cambia cuando el Círculo roba las preguntas de un examen de química. Uno de los cadetes, Ricardo Arana, al que todos llaman el Esclavo por su timidez, delata a los culpables a cambio de un permiso de salida. Poco después muere de un disparo en unas maniobras militares. Alberto, un cadete de clase media al que llaman el Poeta porque escribe cartas de amor y novelitas eróticas para otros alumnos, cree que fue un asesinato. Los mandos prefieren **ocultar el caso** para proteger la reputación del colegio.
+
+Vargas Llosa combina varias voces y tiempos en una estructura compleja, con saltos entre el colegio y la vida de los personajes en los barrios de Lima, ricos y pobres. La novela retrata la violencia, el machismo, el racismo y la hipocresía de la sociedad peruana, de la que el colegio es un reflejo. Según se ha contado muchas veces, los militares quemaron ejemplares del libro en el patio del colegio en un acto público, un episodio que el propio autor recordó en entrevistas y que **contribuyó a su fama**.
+
+Vargas Llosa escribió después obras como «Conversación en La Catedral» o «La fiesta del Chivo». Fue candidato a la presidencia del Perú en 1990, recibió el Premio Nobel de Literatura en 2010 y fue elegido miembro de la Academia Francesa. Murió en Lima en 2025.

@@ -1,0 +1,251 @@
+@@ 2026-11-23
+resumen: Un hombre de espaldas frente a un océano de niebla: el cuadro de Friedrich se convirtió en la imagen misma del romanticismo.
+titulo: «El caminante sobre el mar de nubes»: la espalda más famosa del romanticismo
+data: Alemania, hacia 1818
+alt: El caminante sobre el mar de nubes: un hombre de espaldas en lo alto de una roca contempla montañas envueltas en niebla
+pie: «El caminante sobre el mar de nubes» (hacia 1818), de Caspar David Friedrich, en la Kunsthalle de Hamburgo
+saber: El caminante sobre el mar de nubes | Caspar David Friedrich | Romanticismo
+
+Un hombre vestido con levita verde oscuro y bastón está de pie sobre un saliente rocoso. Le vemos de espaldas, con el cabello agitado por el viento, mientras contempla un paisaje de cumbres que emergen de un mar de niebla. Pintado hacia 1818 por el alemán Caspar David Friedrich, este cuadro de tamaño modesto se ha convertido en **la imagen más reconocible del romanticismo**.
+
+El paisaje no es una vista real tomada de un solo lugar. Friedrich lo compuso en su estudio a partir de apuntes de varias montañas de la región de la Suiza sajona y de Bohemia, en el este de Alemania y la actual Chequia. Era su forma habitual de trabajar: observaba la naturaleza con minuciosidad y luego **recomponía sus elementos para expresar una idea**, no para documentar un sitio.
+
+La figura de espaldas, que los historiadores alemanes llaman «Rückenfigur», es un recurso que el pintor utilizó muchas veces. Al no mostrar el rostro, invita al espectador a ocupar su lugar y a mirar con él. El caminante se sitúa en el centro exacto de la composición, como un eje entre el primer plano oscuro y la inmensidad luminosa del fondo. La escena transmite **la experiencia de lo sublime**, una idea muy discutida en la época: la mezcla de admiración y vértigo que provoca una naturaleza que nos supera.
+
+No sabemos quién es el hombre. Algunos estudiosos han propuesto que se trata de un oficial muerto en las guerras contra Napoleón, porque su ropa recuerda a la de los voluntarios que lucharon contra la ocupación francesa y Friedrich era un patriota alemán. Otros creen que es una figura simbólica sin identidad concreta. La ausencia de documentos hace que **la cuestión siga abierta**.
+
+Durante buena parte del siglo XIX, Friedrich cayó en el olvido. Fue redescubierto a comienzos del siglo XX y hoy es uno de los pintores alemanes más admirados. Su caminante ha pasado a portadas de libros de filosofía, carteles y anuncios, y se ha convertido en símbolo del individuo moderno ante un mundo inabarcable. La obra se conserva en la Kunsthalle de Hamburgo, que la adquirió en 1970.
+
+@@ 2026-11-24
+resumen: Una diosa alada que se posa en la proa de un barco: la Victoria de Samotracia es puro movimiento tallado en mármol.
+titulo: La Victoria de Samotracia: el viento convertido en mármol
+data: Grecia, hacia 200-190 a. C.
+alt: La Victoria de Samotracia, estatua alada sin cabeza sobre una proa de barco de piedra, en lo alto de una escalinata
+pie: La Victoria de Samotracia, en lo alto de la escalera Daru del Museo del Louvre
+saber: Victoria alada de Samotracia | Escultura helenística | Samotracia
+
+Quien sube la gran escalera Daru del Louvre la ve aparecer poco a poco, recortada contra la luz: una figura femenina con las alas desplegadas, de pie sobre la proa de un barco. Es la Victoria de Samotracia, **una de las obras maestras de la escultura griega** y una de las pocas que conservamos en el lugar que mejor la hace lucir, aunque no sea el original.
+
+Fue descubierta en 1863 por Charles Champoiseau, cónsul francés y arqueólogo aficionado, en el santuario de los Grandes Dioses de la isla de Samotracia, en el norte del mar Egeo. Apareció rota en más de cien fragmentos. La base en forma de proa se identificó años después y se trasladó también a París. Representa a **Niké, la diosa griega de la victoria**, que desciende de los cielos para posarse sobre un barco de guerra.
+
+La escultura se suele fechar a comienzos del siglo II a. C., aunque hay debate. Lo más probable es que conmemorase una victoria naval, quizá de la isla de Rodas, conocida por sus astilleros y su escuela de escultores. Se colocó en un nicho elevado del santuario, sobre un estanque, de modo que el visitante la veía de tres cuartos, desde la izquierda. Por eso el lado derecho está **menos trabajado que el izquierdo**.
+
+Su gran logro es la sensación de movimiento. El viento pega la túnica al cuerpo y la arremolina entre las piernas, mientras las alas se abren hacia atrás. El escultor consiguió que el mármol pareciera tela mojada y que la figura avanzara contra el aire. **Es el ejemplo perfecto del dramatismo helenístico**, que buscaba efectos teatrales frente al equilibrio sereno del arte clásico.
+
+Le faltan la cabeza y los brazos. En 1950 se encontró en Samotracia la mano derecha, que se expone junto a ella. El ala derecha es una reconstrucción en yeso, copia invertida de la izquierda. Tras una restauración en 2013 y 2014, que limpió el mármol y reajustó la base, la estatua volvió a su escalinata, donde los visitantes siguen deteniéndose a mirarla.
+
+@@ 2026-11-25
+resumen: Leonardo experimentó con una técnica nueva en una pared de Milán y casi pierde su obra: así sobrevivió «La última cena».
+titulo: «La última cena»: el instante de conmoción que Leonardo pintó en una pared de Milán
+data: Milán, 1495-1498
+alt: La última cena, de Leonardo: Cristo en el centro de una larga mesa con los doce apóstoles agitados
+pie: «La última cena» (1495-1498), de Leonardo da Vinci, en el refectorio de Santa Maria delle Grazie de Milán
+saber: La última cena (Leonardo) | Leonardo da Vinci | Santa Maria delle Grazie
+
+En el antiguo comedor de los frailes dominicos de Santa Maria delle Grazie, en Milán, los visitantes entran en grupos pequeños y durante pocos minutos. Delante tienen **una de las pinturas más famosas y frágiles del mundo**: «La última cena», que Leonardo da Vinci realizó entre 1495 y 1498 por encargo del duque Ludovico Sforza.
+
+La escena representa la última comida de Jesús con sus discípulos. Leonardo eligió el momento inmediatamente posterior a la frase «uno de vosotros me traicionará». Cristo permanece inmóvil en el centro, mientras **los apóstoles reaccionan en cadena**, agrupados de tres en tres: unos se levantan, otros gesticulan, otros preguntan. Judas, en lugar de sentarse aparte como en la tradición, está entre ellos, echado hacia atrás y con la bolsa de monedas en la mano.
+
+La composición está calculada con precisión. Todas las líneas de la arquitectura convergen en la cabeza de Cristo, que se recorta contra la ventana del fondo como si tuviera un halo de luz natural. La mesa y la sala prolongan el espacio real del refectorio, de modo que los frailes comían ante una cena pintada **que parecía continuar la suya**.
+
+El problema fue la técnica. El fresco tradicional exige pintar rápido sobre yeso húmedo, algo incompatible con el método lento y meditado de Leonardo. Por eso aplicó témpera y óleo sobre la pared seca. El resultado le permitió matizar, pero la pintura empezó a desprenderse en vida del artista. A lo largo de los siglos se añadieron daños: humedad, repintes desafortunados, una puerta abierta en la parte inferior en el siglo XVII y **un bombardeo en 1943** que destruyó parte del edificio, aunque la pared, protegida con sacos de arena, resistió.
+
+Entre 1978 y 1999 se llevó a cabo una restauración de más de veinte años que retiró repintes y estabilizó lo que quedaba del original. Hoy la obra se conserva con control de temperatura, humedad y visitantes. Lo que vemos es un original muy dañado, pero suficiente para entender por qué cambió la manera de pintar escenas de grupo.
+
+@@ 2026-11-26
+resumen: Doscientas figuras talladas en granito recibían a los peregrinos en Santiago: el Pórtico de la Gloria es la cumbre del románico.
+titulo: El Pórtico de la Gloria: la gran puerta del románico al final del Camino de Santiago
+data: Santiago de Compostela, 1168-1188
+alt: Tímpano del Pórtico de la Gloria con Cristo en majestad rodeado de evangelistas y ancianos músicos
+pie: Tímpano del Pórtico de la Gloria, en la catedral de Santiago de Compostela
+saber: Pórtico de la Gloria | Maestro Mateo | Catedral de Santiago de Compostela
+
+Los peregrinos que llegaban a Santiago de Compostela al final de su camino entraban en la catedral por una puerta poblada de figuras de piedra pintadas de colores. Era el Pórtico de la Gloria, **la obra maestra de la escultura románica en España**. Lo dirigió el Maestro Mateo, un artista al que el rey Fernando II de León concedió una pensión en 1168 para trabajar en la catedral.
+
+La fecha de terminación figura en una inscripción en la propia obra: el 1 de abril de 1188 se colocaron los dinteles de la puerta central. El conjunto tiene tres arcos que corresponden a las tres naves del templo. En el central, **Cristo en majestad** muestra las heridas de la Pasión, rodeado de los cuatro evangelistas y de ángeles con los instrumentos del martirio. En el arco que lo envuelve, veinticuatro ancianos del Apocalipsis afinan instrumentos musicales, tan detallados que los especialistas los han usado para reconstruir instrumentos medievales.
+
+En el parteluz, la columna que divide la puerta, está sentado el apóstol Santiago con un bastón de peregrino. Durante siglos, los fieles apoyaron la mano en el fuste, y el desgaste dejó la huella de cinco dedos en la piedra. Detrás, mirando hacia el altar, una figura arrodillada se identifica tradicionalmente con el propio Maestro Mateo. Se la conoce como **el «Santo dos Croques»**, porque los estudiantes golpeaban su cabeza con la suya para recibir algo de su talento.
+
+Lo más innovador es la expresividad. Las figuras de los profetas de las jambas parecen conversar entre sí; el profeta Daniel esboza **una de las sonrisas más famosas del arte medieval**. Esa naturalidad anuncia ya el paso hacia el gótico.
+
+El pórtico estaba policromado, y conserva restos de pintura de distintas épocas. Entre 2008 y 2018 se llevó a cabo una restauración muy minuciosa, que limpió la suciedad acumulada, consolidó los colores y reguló la humedad. Para protegerlo, hoy el acceso está limitado, y las visitas se hacen en grupos reducidos y con entrada.
+
+@@ 2026-11-27
+resumen: Goya lo pintó en la pared de su comedor y nunca pensó mostrarlo: «Saturno» es el más terrible de los cuadros de la Quinta del Sordo.
+titulo: «Saturno devorando a su hijo»: el cuadro que Goya pintó para su comedor
+data: Madrid, 1819-1823
+alt: Saturno devorando a su hijo: un gigante de ojos desorbitados muerde el cuerpo de una figura humana
+pie: «Saturno devorando a su hijo» (1819-1823), de Francisco de Goya, en el Museo del Prado
+saber: Saturno devorando a su hijo | Pinturas negras | Francisco de Goya
+
+En 1819, Francisco de Goya compró una casa de campo a las afueras de Madrid, junto al río Manzanares. La finca se conocía como la Quinta del Sordo, por un propietario anterior, aunque el apodo encajaba también con el pintor, que había perdido el oído años atrás. Allí, con más de setenta años, cubrió las paredes de dos salas con catorce escenas inquietantes: **las llamadas Pinturas negras**.
+
+«Saturno devorando a su hijo» es la más conocida. Representa al dios romano del tiempo, que según el mito devoraba a sus hijos porque una profecía anunciaba que uno de ellos lo destronaría. Goya no pintó una escena mitológica serena, sino **una visión de locura**: el gigante, con el pelo enmarañado y los ojos desorbitados, sujeta un cuerpo sin cabeza mientras le arranca un brazo de un mordisco. Sobre un fondo negro, la figura surge de la oscuridad.
+
+No sabemos qué quería expresar exactamente. Las pinturas no tenían título ni estaban pensadas para el público. Los nombres actuales se los pusieron después. Se han propuesto muchas lecturas: el paso implacable del tiempo, la vejez y la melancolía, una España que devora a sus propios hijos tras años de guerra y represión política, o una reflexión sobre la violencia del poder. **Ninguna tiene apoyo documental definitivo**.
+
+Goya pintó directamente sobre el yeso de las paredes, con óleo, y con una pincelada rápida y libre que anticipa el expresionismo del siglo XX. Su autoría ha sido puesta en duda por algún investigador, pero **la gran mayoría de los especialistas** la considera indiscutible.
+
+El pintor se marchó a Burdeos en 1824 y la casa pasó por varios dueños. Hacia 1874, el banquero belga Frédéric Émile d'Erlanger, que la había comprado, encargó trasladar las pinturas a lienzo, una operación delicada que causó pérdidas. Las presentó en la Exposición Universal de París de 1878 y en 1881 las donó al Estado español. Desde entonces se exponen en el Museo del Prado, en una sala propia, donde siguen siendo de las obras que más impresionan a los visitantes.
+
+@@ 2026-11-28
+resumen: Un atleta congelado en el instante antes de lanzar: el Discóbolo de Mirón sobrevive solo en copias, pero fijó el ideal griego del cuerpo.
+titulo: El Discóbolo: el atleta que Mirón congeló justo antes del lanzamiento
+data: Grecia, hacia 450 a. C.
+alt: Escultura de un atleta desnudo que gira el cuerpo con el disco echado hacia atrás
+pie: Una copia del Discóbolo de Mirón, en la Gliptoteca de Múnich
+saber: Discóbolo | Mirón | Escultura griega
+
+Un joven desnudo flexiona las piernas y gira el torso hacia atrás, con el disco en la mano derecha en el punto más alto del movimiento. Dentro de un instante desplegará toda su fuerza y lo lanzará. El escultor griego Mirón de Eléuteras fijó ese momento en bronce hacia el año 450 a. C. y creó **una de las imágenes más conocidas del deporte antiguo**.
+
+El original de bronce se perdió hace muchos siglos, como casi toda la escultura griega en ese metal, que se fundía para reutilizarlo. Lo conocemos por **copias romanas en mármol**, hechas cuando las familias ricas de Roma decoraban sus villas con reproducciones de obras célebres. La más famosa es el Discóbolo Lancellotti, hallado en Roma en 1781 y conservado en el Museo Nacional Romano. En el siglo XX, Hitler compró ese ejemplar a Italia en 1938, y regresó a Roma después de la Segunda Guerra Mundial.
+
+La escultura pertenece al estilo que los historiadores llaman «severo», a medio camino entre el arte arcaico, más rígido, y el clásico pleno de Fidias. Mirón resolvió un problema nuevo: representar el movimiento en una figura que debía mantenerse en pie y verse con claridad. Lo consiguió con una composición que se lee como **dos arcos tensos que se cruzan**, uno formado por los brazos y otro por el tronco y las piernas.
+
+Llama la atención que el rostro esté tranquilo, sin rastro de esfuerzo. No es un descuido: para los griegos de la época, el atleta ideal mostraba dominio de sí mismo. El cuerpo, armonioso y bien proporcionado, encarnaba **el ideal de belleza y virtud** que se celebraba en los Juegos Olímpicos. El lanzamiento de disco formaba parte del pentatlón, junto a la carrera, el salto, la jabalina y la lucha.
+
+Algunos especialistas señalan que la postura no es del todo realista para un lanzador. A Mirón no le interesaba la exactitud técnica, sino una imagen clara y equilibrada del movimiento. Por eso el Discóbolo aparece hoy en carteles olímpicos, sellos y logotipos deportivos de todo el mundo.
+
+@@ 2026-11-29
+resumen: Un revolucionario asesinado en su bañera, pintado como un mártir: David convirtió el arte en propaganda política en plena Revolución francesa.
+titulo: «La muerte de Marat»: el mártir revolucionario que pintó Jacques-Louis David
+data: París, 1793
+alt: La muerte de Marat: un hombre muerto en una bañera, con una carta en una mano y una pluma en la otra
+pie: «La muerte de Marat» (1793), de Jacques-Louis David, en los Museos Reales de Bellas Artes de Bélgica, en Bruselas
+saber: La muerte de Marat | Jacques-Louis David | Jean-Paul Marat
+
+El 13 de julio de 1793, una joven de veinticuatro años llamada Charlotte Corday se presentó en casa de Jean-Paul Marat, uno de los líderes más radicales de la Revolución francesa. Marat la recibió en la bañera, donde pasaba muchas horas por una enfermedad de la piel. Corday le entregó una lista de supuestos enemigos de la Revolución y, mientras él escribía, **le clavó un cuchillo en el pecho**. Fue detenida al instante y guillotinada días después.
+
+El pintor Jacques-Louis David, amigo de Marat y diputado de la Convención, recibió el encargo de inmortalizarlo. Lo terminó en pocos meses. El cuadro muestra a Marat muerto, con la cabeza envuelta en un turbante húmedo y un brazo colgando fuera de la bañera, en una postura que recuerda al Cristo muerto de las pinturas religiosas. **El periodista se convierte en mártir laico**.
+
+David seleccionó con cuidado lo que aparece. No hay rastro de la asesina, solo el cuchillo en el suelo y la carta en la mano de Marat, con la que Corday consiguió acceder a él. Sobre una caja de madera que sirve de mesa hay un tintero, un billete y una nota. La caja lleva una inscripción a modo de lápida: «A Marat, David». La mitad superior del lienzo queda vacía, oscura, lo que da a la escena **un aire de recogimiento solemne**.
+
+La pintura es también un ejemplo de idealización. Marat tenía la piel cubierta de lesiones, pero David lo representa con un cuerpo limpio y sereno. El estilo neoclásico, con su dibujo nítido y su composición austera, servía para elevar un hecho político a la categoría de modelo moral. El cuadro se expuso en la Convención y circularon grabados para difundirlo.
+
+Tras la caída de Robespierre en 1794, el culto a Marat se desvaneció y la obra se retiró. David la conservó y, a su muerte en el exilio de Bruselas, pasó a sus herederos, que la donaron a la ciudad. Hoy se considera **una de las grandes imágenes políticas de la historia del arte**.
+
+@@ 2026-11-30
+resumen: Ghiberti pasó casi treinta años fundiendo unas puertas de bronce para el baptisterio de Florencia. Miguel Ángel las llamó dignas del Paraíso.
+titulo: Las Puertas del Paraíso: los relieves de bronce con los que Ghiberti abrió el Renacimiento
+data: Florencia, 1425-1452
+alt: Las Puertas del Paraíso: dos grandes hojas de bronce dorado con diez paneles en relieve
+pie: Copia de las Puertas del Paraíso en el baptisterio de San Juan de Florencia; los originales se conservan en el Museo de la Obra del Duomo
+saber: Puerta del Paraíso | Lorenzo Ghiberti | Baptisterio de San Juan (Florencia)
+
+En 1401, el gremio de comerciantes de tejidos de Florencia convocó un concurso para hacer unas nuevas puertas de bronce para el baptisterio de San Juan, frente a la catedral. Compitieron varios artistas, entre ellos un joven Filippo Brunelleschi, futuro arquitecto de la cúpula. Ganó Lorenzo Ghiberti, que dedicó más de veinte años a aquellas puertas. Al terminarlas, recibió un segundo encargo: **las que hoy se conocen como Puertas del Paraíso**.
+
+Ghiberti trabajó en ellas desde 1425 hasta 1452, con un amplio taller de colaboradores. Esta vez abandonó la fórmula tradicional de muchos paneles pequeños y optó por **diez grandes recuadros** con escenas del Antiguo Testamento: desde la creación de Adán y Eva hasta el encuentro de Salomón con la reina de Saba. Los relieves se fundieron en bronce y después se doraron.
+
+La gran novedad fue la perspectiva. Ghiberti aplicó las leyes de la perspectiva lineal, que Brunelleschi había formulado poco antes, a la escultura. En cada panel, las figuras del primer plano sobresalen casi como estatuas exentas, mientras las del fondo apenas se levantan unos milímetros. El resultado es **una ilusión de profundidad** que convierte el bronce en una especie de pintura. En el panel de José, por ejemplo, decenas de personajes se mueven entre arquitecturas clásicas que parecen reales.
+
+En el marco de las puertas, Ghiberti incluyó pequeñas cabezas de profetas y sibilas, y entre ellas un autorretrato: un hombre calvo que mira con cierta ironía al espectador. Según una anécdota que recoge Giorgio Vasari, Miguel Ángel dijo que aquellas puertas eran tan bellas que **podrían ser las del Paraíso**, y el nombre se quedó.
+
+La inundación del Arno en 1966 arrancó varios paneles de las puertas, que se recuperaron entre el barro. Aquella catástrofe impulsó una larga restauración. En 1990 los originales se retiraron al Museo de la Obra del Duomo, donde se conservan en vitrinas con atmósfera controlada, y en el baptisterio se colocó una copia. La restauración de los paneles, muy delicada, se completó en 2012 y devolvió al dorado su brillo original, oculto durante siglos bajo la suciedad.
+
+@@ 2026-12-01
+resumen: Una prostituta desnuda que mira de frente al público: «Olympia» escandalizó París en 1865 y abrió la puerta a la pintura moderna.
+titulo: «Olympia»: la mirada desafiante que escandalizó el Salón de París
+data: París, 1863
+alt: Olympia, de Manet: una mujer desnuda recostada en una cama mira al espectador mientras una sirvienta le trae flores
+pie: «Olympia» (1863), de Édouard Manet, en el Museo de Orsay de París
+saber: Olympia (Manet) | Édouard Manet | Museo de Orsay
+
+Cuando el público del Salón de París vio «Olympia» en 1865, la reacción fue tan violenta que hubo que colocar guardias junto al cuadro y después subirlo a una altura donde apenas se veía. Los críticos se burlaron y los visitantes intentaron golpearlo con bastones. Su autor, Édouard Manet, lo había pintado dos años antes, y **acababa de provocar uno de los grandes escándalos del arte moderno**.
+
+El tema no era nuevo. Los desnudos femeninos recostados eran un género prestigioso desde el Renacimiento, y Manet se inspiró directamente en la «Venus de Urbino» de Tiziano. Pero cambió lo esencial. Su modelo no es una diosa ni una ninfa, sino **una mujer real de su tiempo**, y todos los detalles indican que es una prostituta de lujo: la orquídea en el pelo, la cinta negra al cuello, las zapatillas, el ramo que trae la sirvienta, probablemente de un cliente. Incluso su nombre, Olympia, se asociaba entonces con las cortesanas.
+
+Lo que más molestó fue la mirada. La mujer, para la que posó la pintora y modelo Victorine Meurent, no se ofrece pasiva al espectador, sino que **lo mira de frente, con frialdad**, como si evaluara a quien la contempla. En lugar del gato dormido de la Venus de Tiziano, símbolo de fidelidad doméstica, Manet colocó a los pies de la cama un gato negro con el lomo erizado.
+
+La técnica también desconcertó. Manet pintó el cuerpo con poca sombra y contornos marcados, casi plano, en lugar del modelado suave de la pintura académica. A muchos les pareció tosco y sin terminar. Para los artistas jóvenes, en cambio, era **una declaración de libertad**. La segunda figura, la sirvienta negra, inspirada en una modelo llamada Laure, ha sido objeto en los últimos años de estudios y exposiciones que reivindican su presencia.
+
+Tras la muerte de Manet, el cuadro estuvo a punto de venderse en el extranjero. En 1890, Claude Monet organizó una suscripción entre artistas y amigos para comprarlo y donarlo al Estado. Hoy es una de las joyas del Museo de Orsay.
+
+@@ 2026-12-02
+resumen: El primer desnudo masculino de bronce desde la Antigüedad: el David de Donatello es un joven pastor con sombrero que pisa la cabeza de Goliat.
+titulo: El David de Donatello: el primer desnudo de bronce del Renacimiento
+data: Florencia, hacia 1440
+alt: El David de bronce de Donatello: un joven desnudo con sombrero y espada pisa la cabeza de Goliat
+pie: El David de bronce de Donatello, en el Museo Nacional del Bargello de Florencia
+saber: David (Donatello) | Donatello | Museo Nacional del Bargello
+
+Un muchacho desnudo, con un sombrero de pastor adornado con laurel y botas, apoya un pie sobre la cabeza cortada de un gigante. En la mano derecha sostiene una espada demasiado grande para él. Es el David de bronce de Donatello, **la primera estatua de un desnudo masculino de tamaño casi natural y exenta** que se hacía en Europa desde la Antigüedad.
+
+No conocemos la fecha exacta. La mayoría de los especialistas la sitúan hacia 1440, aunque algunas propuestas la retrasan a la década de 1450. Sí sabemos que en 1469 estaba en el patio del palacio de los Médici, la familia que dominaba la vida política de Florencia. Allí funcionaba como **un símbolo de la ciudad**: el pequeño David que vence al gigante Goliat representaba a la república florentina frente a enemigos poderosos.
+
+La escultura rompe con la manera medieval de representar al héroe bíblico, normalmente vestido y con aspecto de guerrero o de rey. Donatello lo concibe como un adolescente de cuerpo delgado, casi frágil, en una postura relajada, con el peso en una pierna y la mano en la cadera. Esa pose, llamada contraposto, se inspira en las estatuas clásicas que los artistas del Renacimiento estudiaban con avidez. **El cuerpo desnudo vuelve a ser un tema artístico** por sí mismo.
+
+La sensualidad de la figura ha suscitado muchos comentarios. El rostro ensimismado, la desnudez acompañada solo del sombrero y las botas, y la pluma del casco de Goliat que sube por la pierna de David han llevado a algunos historiadores a hablar de una lectura homoerótica. Otros insisten en el sentido político y religioso de la obra. El debate sigue abierto y forma parte del interés de la estatua.
+
+Tras la expulsión de los Médici en 1494, la ciudad confiscó la escultura y la trasladó al Palazzo Vecchio. Desde el siglo XIX se encuentra en el Museo del Bargello. Medio siglo después de Donatello, **Miguel Ángel daría su propia respuesta** con un David de mármol monumental, adulto y tenso, muy distinto de este joven pensativo.
+
+@@ 2026-12-03
+resumen: Miles de puntos de color puro forman una tarde de ocio junto al Sena: Seurat quiso pintar con la precisión de un científico.
+titulo: «Tarde de domingo en la isla de la Grande Jatte»: la pintura hecha de puntos
+data: París, 1884-1886
+alt: Tarde de domingo en la isla de la Grande Jatte: paseantes con sombrillas descansan a orillas de un río
+pie: «Tarde de domingo en la isla de la Grande Jatte» (1884-1886), de Georges Seurat, en el Instituto de Arte de Chicago
+saber: Tarde de domingo en la isla de la Grande Jatte | Georges Seurat | Puntillismo
+
+La isla de la Grande Jatte es una franja estrecha de tierra en el Sena, a las afueras de París. A finales del siglo XIX, los parisinos de distintas clases sociales iban allí los domingos a pasear, remar o descansar a la sombra. El joven pintor Georges Seurat pasó meses observándolos y en 1884 empezó **un lienzo de tres metros de ancho** que le llevó dos años terminar.
+
+En el cuadro aparecen unas cuarenta figuras: una pareja elegante con un mono atado con correa, una niña vestida de blanco, soldados, remeros, una mujer que pesca, un hombre que toca la trompa. Todos están quietos, casi rígidos, como estatuas o muñecos. **Nadie habla con nadie**. Esa inmovilidad contrasta con la escena de ocio y da a la obra un aire extraño, que se ha interpretado como una reflexión sobre la soledad en la ciudad moderna.
+
+Lo más original es la técnica. Seurat había estudiado los tratados de científicos de su tiempo sobre la percepción del color. En lugar de mezclar los pigmentos en la paleta, aplicó **pequeños toques de colores puros** uno junto a otro, para que se combinaran en el ojo del espectador. Un verde, por ejemplo, se forma con puntos de amarillo y azul. El método se llamó puntillismo o divisionismo, y Seurat pensaba que daba colores más luminosos.
+
+Para lograr la composición, el pintor hizo decenas de dibujos y bocetos al óleo, estudiando cada figura y cada sombra. Más tarde añadió al lienzo un borde pintado también con puntos, como un marco de color. Cuando se presentó en 1886 en la última exposición de los impresionistas, el cuadro fue **el centro de las discusiones**: unos lo vieron como el futuro de la pintura; otros, como un ejercicio frío y mecánico.
+
+Seurat murió en 1891 con solo 31 años. Su método influyó en pintores como Paul Signac, Van Gogh en una etapa de su obra o los primeros fauvistas. El Instituto de Arte de Chicago compró el cuadro en 1924 y, por deseo del donante, no lo presta nunca.
+
+@@ 2026-12-04
+resumen: Lleva casi siete siglos al aire libre desde que un maremoto destruyó su templo: el Gran Buda de Kamakura es un gigante de bronce sereno.
+titulo: El Gran Buda de Kamakura: un gigante de bronce que medita a la intemperie
+data: Kamakura (Japón), siglo XIII
+alt: El Gran Buda de Kamakura, una enorme estatua sentada de bronce al aire libre
+pie: El Gran Buda del templo Kōtoku-in, en Kamakura
+saber: Gran Buda de Kamakura | Kamakura | Budismo de la Tierra Pura
+
+En el templo Kōtoku-in de Kamakura, una ciudad costera al sur de Tokio, una enorme figura de bronce medita sentada al aire libre desde hace siglos. Es el Gran Buda, o Daibutsu, **una de las estatuas más famosas de Japón**. Mide más de once metros de altura con su pedestal y pesa unas 120 toneladas.
+
+Representa a Amida, el Buda de la Luz Infinita, venerado por la escuela budista de la Tierra Pura, muy popular en el Japón medieval. Esa corriente enseñaba que bastaba con invocar con fe el nombre de Amida para renacer en su paraíso. La estatua se empezó hacia 1252, cuando Kamakura era **la capital política del país** y sede del primer gobierno de los shogunes, los jefes militares que gobernaban en nombre del emperador.
+
+Según las crónicas, antes hubo un buda de madera, financiado con donaciones recogidas por un monje, que sufrió daños por una tormenta. El de bronce se fundió en varias piezas que se unieron con gran habilidad técnica. Originalmente estaba dorado y se alzaba dentro de un gran salón de madera. Los documentos indican que **el edificio fue destruido varias veces** por tormentas y maremotos, y a finales del siglo XV, tras un tsunami, ya no se reconstruyó. Desde entonces, la estatua está a la intemperie.
+
+El escultor no está identificado con seguridad. La figura sigue los modelos de la escultura japonesa de la época, pero muestra también la influencia del arte de la dinastía Song china. El rostro tiene una expresión de calma absoluta, con los ojos entornados; las manos, apoyadas en el regazo, forman **el gesto de la meditación**. La cabeza es algo grande respecto al cuerpo, probablemente para que se viera mejor desde abajo.
+
+El Gran Buda ha resistido terremotos, como el de 1923, que movió el pedestal. En el siglo XX se reforzó su base para protegerlo mejor de los sismos. El interior es hueco y durante años los visitantes han podido entrar a ver cómo se ensamblaron las piezas de bronce. Hoy recibe a millones de turistas y peregrinos cada año.
+
+@@ 2026-12-05
+resumen: Dos campesinos absortos ante una mesa: Cézanne convirtió una partida de cartas en un estudio de formas que anunció el arte moderno.
+titulo: «Los jugadores de cartas»: la partida silenciosa de Cézanne
+data: Aix-en-Provence, 1890-1895
+alt: Los jugadores de cartas: dos hombres con pipa y sombrero juegan sentados frente a frente ante una mesa
+pie: Una de las versiones de «Los jugadores de cartas» (1890-1895), de Paul Cézanne
+saber: Los jugadores de cartas | Paul Cézanne | Postimpresionismo
+
+En la Provenza, a comienzos de la década de 1890, Paul Cézanne pidió a varios trabajadores de la finca familiar de Jas de Bouffan, cerca de Aix-en-Provence, que posaran para él. De aquellas sesiones salió **una serie de cinco cuadros** sobre un tema muy modesto: unos hombres jugando a las cartas.
+
+Los dos primeros lienzos, más grandes, muestran varias figuras alrededor de la mesa, e incluso espectadores. Los tres siguientes se reducen a lo esencial: dos jugadores sentados frente a frente. En esas versiones la escena es casi abstracta. **Nadie habla, nadie gesticula**: los campesinos miran sus cartas con concentración absoluta, como si estuvieran inmóviles desde siempre. Las pinturas holandesas del siglo XVII mostraban partidas ruidosas en tabernas; Cézanne, en cambio, pinta un silencio solemne.
+
+El pintor no buscaba contar una historia, sino construir el cuadro. Simplificó los cuerpos en volúmenes, casi en cilindros y bloques, y organizó la composición de forma simétrica en torno a una botella que divide la mesa. **El color construye las formas**: pinceladas paralelas de tonos cálidos y fríos sustituyen al sombreado tradicional. Cézanne decía que quería hacer del impresionismo algo sólido y duradero, como el arte de los museos.
+
+Esa manera de pensar la pintura tuvo una influencia enorme. Picasso y Braque estudiaron sus obras con atención antes de inventar el cubismo, y muchos historiadores consideran a Cézanne el gran puente entre el siglo XIX y el arte moderno. **Matisse lo llamó «el padre de todos nosotros»**.
+
+Las cinco versiones, que difieren en tamaño y número de figuras, están hoy repartidas por varios museos: el Museo de Orsay de París, la Fundación Barnes de Filadelfia, el Metropolitan Museum de Nueva York, el Instituto Courtauld de Londres y una colección privada. Esta última, adquirida según la prensa por la familia real de Catar en 2011, alcanzó un precio que se estimó en más de 250 millones de dólares, una de las cifras más altas pagadas nunca por una pintura, aunque la operación no fue pública y la cifra no está confirmada.
+
+@@ 2026-12-06
+resumen: Degas la vistió con tutú de verdad y pelo natural, y el público de 1881 la encontró monstruosa. Hoy es una de las esculturas más queridas.
+titulo: «La pequeña bailarina de catorce años»: la escultura de Degas que escandalizó por realista
+data: París, 1878-1881
+alt: Escultura de una joven bailarina de pie, con las manos a la espalda, tutú de tela y lazo en el pelo
+pie: Uno de los vaciados en bronce de «La pequeña bailarina de catorce años», de Edgar Degas, en el Metropolitan Museum de Nueva York
+saber: La pequeña bailarina de catorce años | Edgar Degas | Ópera Garnier
+
+Edgar Degas es conocido sobre todo por sus pinturas y pasteles de bailarinas, pero solo expuso en vida una escultura. Fue en 1881, en la sexta exposición de los impresionistas en París: una figura de cera de tamaño casi natural que representaba a una joven alumna del ballet de la Ópera. **La reacción del público fue de rechazo** y muchos críticos la encontraron fea, vulgar e incluso inquietante.
+
+La modelo fue Marie van Goethem, una niña de familia humilde de origen belga que estudiaba en la escuela de danza de la Ópera de París. Las alumnas, llamadas «petits rats», recibían un pequeño sueldo, y muchas procedían de familias pobres. En aquella época, algunos hombres adinerados frecuentaban los camerinos y la relación de las jóvenes bailarinas con ellos era **un tema de escándalo y explotación** del que hablaba la prensa.
+
+Degas no la idealizó. La representó con la cabeza alta y los ojos entornados, las manos entrelazadas a la espalda y una pierna adelantada, en una pose de descanso propia de la danza. Lo que más sorprendió fue el material: la figura de cera estaba pintada y vestida con **un corpiño y un tutú de tela de verdad**, zapatillas de baile, peluca de pelo natural y una cinta de raso en la cabeza. Exhibida en una vitrina, recordaba a los modelos anatómicos de un museo de ciencias, y algunos comentaristas la compararon con un espécimen.
+
+Degas nunca volvió a exponer sus esculturas, aunque siguió modelando figuras de cera para estudiar el movimiento. A su muerte, en 1917, se encontraron decenas de ellas en su estudio. Sus herederos encargaron vaciarlas en bronce, y de la bailarina se hicieron **varias copias que conservan el tutú de tela**, hoy repartidas entre museos de Europa y América.
+
+El destino de Marie es poco conocido. Se sabe que fue expulsada de la escuela de la Ópera por faltas de asistencia y que después se pierde su rastro. Su figura, en cambio, es hoy una de las más visitadas y queridas de los museos que la exponen. La cera original se conserva en la National Gallery of Art de Washington.

@@ -1,0 +1,233 @@
+@@ 2026-12-07
+resumen: Gauguin pintó en Tahití tres preguntas sobre el sentido de la vida en un lienzo enorme, en uno de los peores momentos de su existencia.
+titulo: «¿De dónde venimos? ¿Qué somos? ¿Adónde vamos?»: el testamento pictórico de Gauguin
+data: Tahití, 1897-1898
+alt: Lienzo alargado de Gauguin con figuras tahitianas en un paisaje de tonos azules y verdes, desde un bebé hasta una anciana
+pie: «¿De dónde venimos? ¿Qué somos? ¿Adónde vamos?» (1897-1898), de Paul Gauguin, en el Museo de Bellas Artes de Boston
+saber: ¿De dónde venimos? ¿Qué somos? ¿Adónde vamos? | Paul Gauguin | Postimpresionismo
+
+En 1897, Paul Gauguin vivía en Tahití enfermo, endeudado y aislado. Había abandonado una carrera de agente de bolsa y a su familia para dedicarse a la pintura, y desde 1891 buscaba en la Polinesia francesa una vida y un arte alejados de la civilización europea. Aquel año recibió la noticia de la muerte de su hija Aline. En esas circunstancias pintó **el cuadro más ambicioso de su carrera**, un lienzo de casi cuatro metros de ancho.
+
+El título está escrito por el propio pintor en francés, en la esquina superior izquierda: tres preguntas sobre el origen, la identidad y el destino del ser humano. Gauguin explicó en cartas que la obra debía leerse **de derecha a izquierda**, como un ciclo vital. A la derecha, un bebé dormido junto a tres mujeres representa el comienzo de la vida. En el centro, una figura recoge fruta de un árbol, imagen de la juventud y quizá del conocimiento. A la izquierda, una anciana encogida se acerca a la muerte.
+
+Entre ellos aparecen otros elementos de significado incierto: un ídolo azul, un pájaro blanco con un lagarto, dos figuras vestidas de color púrpura que conversan. El propio Gauguin admitió que no todo tenía una interpretación precisa y que el cuadro debía funcionar **como una partitura musical**, por evocación más que por explicación. Los colores planos y arbitrarios, los azules y verdes intensos, refuerzan esa atmósfera de sueño.
+
+Según contó él mismo, después de terminar la obra intentó suicidarse con arsénico en las montañas, pero sobrevivió. Los historiadores tratan ese relato con cautela, aunque está claro que el pintor concibió el cuadro **como una especie de testamento**. Lo envió a París, donde se expuso en 1898 en la galería de su marchante Ambroise Vollard con reacciones divididas.
+
+Hoy la obra genera también otro tipo de preguntas. La mirada de Gauguin sobre Tahití estaba llena de idealización colonial, y su relación con muchachas muy jóvenes de las islas es objeto de una crítica cada vez más presente en los museos. El cuadro se conserva en el Museo de Bellas Artes de Boston desde 1936.
+
+@@ 2026-12-08
+resumen: Leones que rugen, saltan y mueren atravesados por flechas: los relieves de Nínive son la cumbre del arte asirio y una lección de poder.
+titulo: La caza de leones de Asurbanipal: el rey asirio y las fieras de piedra
+data: Nínive (actual Irak), hacia 645-635 a. C.
+alt: Relieve asirio en piedra con escenas de la caza real de leones
+pie: Relieves de la caza de leones del palacio de Asurbanipal en Nínive, en el Museo Británico de Londres
+saber: Asurbanipal | Nínive | Arte asirio
+
+En la sala 10 del Museo Británico, una larga sucesión de paneles de piedra muestra a un rey asirio cazando leones. Los animales saltan sobre su carro, rugen, se desploman atravesados por flechas. Son los relieves del palacio norte de Nínive, la capital de Asiria, tallados hacia el 645-635 a. C. para el rey Asurbanipal, y se consideran **la cumbre del arte asirio**.
+
+Asiria fue durante varios siglos el imperio más poderoso de Oriente Próximo, con un territorio que llegó a extenderse desde el golfo Pérsico hasta Egipto. Sus reyes decoraban las paredes de los palacios con relieves que narraban campañas militares y ceremonias. La caza del león era **un ritual reservado al monarca**: matar al animal más temible simbolizaba su deber de proteger al pueblo y mantener el orden frente al caos.
+
+Los relieves muestran también que aquellas cacerías no ocurrían en plena naturaleza. Los leones se liberaban de jaulas dentro de un recinto cerrado, rodeado de soldados con escudos y de público que observaba desde una colina. Era, por tanto, un espectáculo cuidadosamente organizado. En algunas escenas el rey lucha a pie y atraviesa con una espada a un león que se lanza sobre él, una imagen de **valor personal casi sobrehumano**.
+
+Lo que más impresiona a los visitantes es el tratamiento de los animales. Los escultores asirios representaron a los leones con una precisión anatómica sorprendente y con un dramatismo que parece moderno. La leona herida que arrastra las patas traseras paralizadas, con las flechas clavadas en el lomo, se ha convertido en **una de las imágenes más conmovedoras del arte antiguo**. No sabemos si los artistas buscaban despertar compasión o subrayar el poder del rey.
+
+Nínive fue destruida en el 612 a. C. por una coalición de babilonios y medos. Las ruinas del palacio se excavaron en el siglo XIX, sobre todo por arqueólogos británicos, y los paneles se enviaron a Londres. En el mismo lugar apareció parte de la biblioteca de Asurbanipal, con miles de tablillas cuneiformes, entre ellas la epopeya de Gilgamesh.
+
+@@ 2026-12-09
+resumen: Es el único desnudo femenino de Velázquez que se conserva y un cuadro audaz para la España del siglo XVII: la diosa que no muestra su rostro.
+titulo: «La Venus del espejo»: el desnudo que Velázquez pintó de espaldas
+data: España, hacia 1647-1651
+alt: La Venus del espejo: una mujer desnuda recostada de espaldas mira su reflejo en un espejo que sostiene Cupido
+pie: «La Venus del espejo» (hacia 1647-1651), de Diego Velázquez, en la National Gallery de Londres
+saber: La Venus del espejo | Diego Velázquez | Pintura barroca de España
+
+En la España del siglo XVII, los desnudos eran raros en la pintura. La Inquisición y la moral contrarreformista los veían con recelo, y los pintores españoles se dedicaban sobre todo a temas religiosos y retratos. Por eso «La Venus del espejo», pintada por Diego Velázquez hacia 1647-1651, es **una obra excepcional**: es el único desnudo femenino del pintor que ha llegado hasta nosotros.
+
+La diosa del amor aparece recostada de espaldas sobre un lecho de sábanas grises y negras. Cupido, su hijo, sostiene un espejo en el que ella se mira. La pose es elegante y natural, con una curva continua desde los hombros hasta las piernas. Velázquez se inspiró en las Venus de Tiziano y en esculturas antiguas, pero las transformó: **no hay atributos mitológicos llamativos**, y la mujer parece real, cercana, casi doméstica.
+
+El detalle más comentado es el reflejo. El rostro de Venus aparece en el espejo borroso y en penumbra, y además no corresponde a la perspectiva real: si ella se mirara, veríamos en el espejo su cuerpo y no su cara. Lo que muestra el reflejo es, en realidad, **la mirada de la diosa hacia el espectador**. Ese juego con los espejos y las miradas, que Velázquez llevaría al extremo en «Las meninas», convierte el cuadro en una reflexión sobre el acto de mirar.
+
+No se sabe con certeza para quién lo pintó ni dónde. Algunos historiadores creen que lo hizo durante su segundo viaje a Italia, entre 1649 y 1651, y otros que en Madrid poco antes. Lo que sí está documentado es que en 1651 figuraba en la colección de Gaspar Méndez de Haro, marqués del Carpio, gran coleccionista y amante del arte italiano. Más tarde pasó a la casa de Alba y, a comienzos del siglo XIX, se vendió a Inglaterra.
+
+En 1914, la sufragista Mary Richardson lo atacó con un cuchillo en la National Gallery para protestar por el encarcelamiento de la líder del movimiento, Emmeline Pankhurst. **El lienzo recibió siete cortes** que se restauraron con éxito. Desde 1906 pertenece a ese museo de Londres.
+
+@@ 2026-12-10
+resumen: Un dios que baila dentro de un círculo de fuego y aplasta la ignorancia: la imagen de Shiva Nataraja resume una filosofía en bronce.
+titulo: Shiva Nataraja: el dios que danza para crear y destruir el universo
+data: Sur de la India, siglos X-XII
+alt: Escultura de bronce de Shiva bailando con cuatro brazos dentro de un aro de llamas
+pie: Shiva Nataraja, bronce de la época Chola, en el Museo de Arte del Condado de Los Ángeles (LACMA)
+saber: Nataraja | Shiva | Imperio Chola
+
+Un dios de cuatro brazos baila sobre una pierna dentro de un círculo de llamas. Su cabello se despliega en mechones horizontales, como agitados por el giro, y con un pie aplasta a un pequeño ser. Es Shiva Nataraja, **el «señor de la danza»**, una de las imágenes más reconocibles del arte de la India.
+
+En el hinduismo, Shiva es el dios que destruye para que el mundo pueda renovarse. Su danza cósmica, el «tandava», representa el ritmo eterno del universo: creación, conservación, destrucción, ocultamiento y liberación. Cada elemento de la escultura tiene un significado. En una mano derecha sostiene un pequeño tambor, cuyo sonido marca el inicio de la creación; en una izquierda, una llama, símbolo de destrucción. Otra mano hace **el gesto de «no temas»**, y la cuarta señala el pie levantado, que promete la liberación a los fieles. El ser aplastado encarna la ignorancia.
+
+Aunque hay imágenes anteriores, el modelo que hoy conocemos alcanzó su forma clásica bajo la dinastía Chola, que gobernó el sur de la India entre los siglos IX y XIII. Los Chola fueron grandes constructores de templos y patrocinaron **una edad de oro de la escultura en bronce**. Las piezas se hacían con la técnica de la cera perdida: se modelaba la figura en cera, se cubría de arcilla y se calentaba para que la cera saliera y dejara un hueco donde verter el metal. Cada molde servía solo una vez.
+
+Muchos de estos bronces no se hicieron para estar quietos en un altar. Eran imágenes procesionales que se sacaban de los templos en las fiestas religiosas, vestidas con telas y adornadas con joyas y flores. El aro de llamas tiene por eso agujeros y anclajes para fijarlas en andas. El principal santuario dedicado a Nataraja está en Chidambaram, en el actual estado de Tamil Nadu.
+
+En el siglo XX, la imagen fascinó a escritores y científicos occidentales, que vieron en ella **una metáfora del movimiento de la materia**. En 2004, la India regaló una gran estatua de Nataraja al CERN, el laboratorio europeo de física de partículas de Ginebra, donde sigue expuesta.
+
+@@ 2026-12-11
+resumen: Diez figuras de tamaño casi natural lloran a Cristo en una caja dorada: «El Descendimiento» es la gran joya flamenca del Prado.
+titulo: «El Descendimiento»: el llanto que Rogier van der Weyden pintó como una escultura
+data: Lovaina, hacia 1435
+alt: El Descendimiento: el cuerpo de Cristo es bajado de la cruz ante la Virgen desmayada y otros personajes que lloran
+pie: «El Descendimiento» (hacia 1435), de Rogier van der Weyden, en el Museo del Prado
+saber: El Descendimiento (Van der Weyden) | Rogier van der Weyden | Primitivos flamencos
+
+Hacia 1435, la cofradía de ballesteros de Lovaina, en la actual Bélgica, encargó a Rogier van der Weyden una gran tabla para el altar de su capilla. El pintor, que pronto sería pintor oficial de la ciudad de Bruselas, realizó **una de las obras más influyentes de la pintura flamenca**. Hoy se conserva en el Museo del Prado, adonde llegó por la pasión de los reyes españoles por el arte de los Países Bajos.
+
+La escena representa el momento en que el cuerpo de Cristo es bajado de la cruz. Diez figuras de tamaño casi natural se apiñan en un espacio poco profundo, con un fondo dorado plano. El efecto recuerda **un retablo de escultura policromada**, muy común en la época, como si las figuras estuvieran talladas y colocadas en una caja de madera. Las pequeñas ballestas pintadas en las esquinas superiores recuerdan a quienes pagaron la obra.
+
+El centro emocional es el paralelismo entre Cristo y su madre. El cuerpo inerte de Jesús forma una curva diagonal, y la Virgen, desmayada de dolor, repite casi exactamente esa misma postura justo debajo. **Madre e hijo comparten la pasión**: una idea muy extendida en la devoción de la época, que hablaba de la «compasión» de María. Alrededor, cada personaje expresa el dolor de una forma distinta: san Juan sostiene a la Virgen, María Magdalena se retuerce las manos, las lágrimas corren por las mejillas.
+
+Van der Weyden combina la precisión minuciosa de la pintura flamenca, visible en los brocados, los cabellos o las lágrimas transparentes, con una intensidad emocional nueva. Su obra fue copiada y estudiada durante generaciones en toda Europa. En el siglo XVI, la reina María de Hungría, hermana de Carlos V, la adquirió para su palacio; más tarde la llevó a España, y **Felipe II la colocó en El Escorial**.
+
+En la Guerra Civil, la tabla salió de España con otras obras del Prado para protegerlas y regresó en 1939. Desde entonces está en el museo, donde una restauración terminada en 1993 le devolvió su colorido.
+
+@@ 2026-12-12
+resumen: Tallada en la roca de la meseta de Guiza hace unos 4.500 años, la Gran Esfinge sigue guardando secretos sobre quién la hizo y para qué.
+titulo: La Gran Esfinge de Guiza: el león con rostro humano tallado en la roca
+data: Egipto, hacia 2500 a. C.
+alt: La Gran Esfinge de Guiza en primer plano con una de las grandes pirámides al fondo
+pie: La Gran Esfinge de Guiza, con la pirámide de Micerino al fondo
+saber: Gran Esfinge de Guiza | Necrópolis de Guiza | Kefrén
+
+En la meseta de Guiza, a las afueras de El Cairo, un león tumbado con cabeza humana mira hacia el este desde hace unos 4.500 años. La Gran Esfinge mide unos 73 metros de largo y unos 20 de alto, y es **la mayor escultura monumental del mundo antiguo** que se conserva. No se construyó con bloques: se talló directamente en la roca caliza de la meseta.
+
+La mayoría de los egiptólogos atribuyen la obra al faraón Kefrén, de la IV dinastía, que gobernó hacia el 2500 a. C. y construyó la segunda gran pirámide de Guiza. La Esfinge está junto a la calzada que conduce a su templo funerario, y el rostro tendría **los rasgos idealizados del rey**. No hay ninguna inscripción contemporánea que lo confirme, y algunos especialistas la atribuyen a otro faraón de la misma dinastía, por lo que la cuestión no está cerrada.
+
+Las esfinges combinaban la fuerza del león con la inteligencia humana y se asociaban al poder del faraón y al dios sol. En el Imperio Nuevo, siglos después de su construcción, la Gran Esfinge se veneraba como una imagen del dios Horus en el horizonte. Entre sus patas se alza **la Estela del Sueño**, mandada colocar por Tutmosis IV hacia el 1400 a. C. Cuenta que el príncipe se quedó dormido a la sombra de la estatua y que la Esfinge le prometió el trono si la liberaba de la arena que la cubría.
+
+La arena del desierto la enterró hasta los hombros durante gran parte de su historia, lo que la protegió de la erosión. Se desenterró del todo en el siglo XX. Le falta la nariz, y circulan leyendas sobre los responsables, incluidos los soldados de Napoleón. Los dibujos anteriores a la campaña francesa ya la muestran sin nariz, y un historiador árabe del siglo XV atribuyó el daño a un hombre que quiso destruir un ídolo.
+
+La roca caliza en la que está tallada es frágil y sufre por el viento, la humedad y la contaminación. **Las restauraciones se han sucedido** desde la Antigüedad, y algunas del siglo XX causaron más daños de los que repararon.
+
+@@ 2026-12-13
+resumen: Tres cazadores vuelven de vacío por la nieve mientras abajo los aldeanos patinan: Brueghel pintó el invierno como nadie.
+titulo: «Cazadores en la nieve»: el invierno que pintó Brueghel el Viejo
+data: Amberes, 1565
+alt: Cazadores en la nieve: tres cazadores con perros regresan a una aldea nevada con lagos helados donde patinan los vecinos
+pie: «Cazadores en la nieve» (1565), de Pieter Brueghel el Viejo, en el Museo de Historia del Arte de Viena
+saber: Los cazadores en la nieve | Pieter Brueghel el Viejo | Pequeña Edad de Hielo
+
+Tres cazadores bajan por una colina nevada al atardecer, seguidos de sus perros. Llevan las lanzas al hombro y solo han conseguido un zorro. A su izquierda, unos aldeanos avivan un fuego delante de una posada. Abajo, en el valle, decenas de figuras diminutas patinan, juegan y arrastran trineos sobre lagos helados. El cuadro, pintado en 1565 por Pieter Brueghel el Viejo, es **una de las imágenes más famosas del invierno** en la historia del arte.
+
+Formaba parte de una serie de seis tablas sobre los meses o las estaciones del año, encargada por Niclaes Jongelinck, un rico comerciante de Amberes, para su casa. Se conservan cinco. Brueghel continuaba así la tradición de los calendarios ilustrados de los libros de horas medievales, que mostraban **los trabajos propios de cada mes**, pero llevó el tema a una escala nueva, con paisajes amplios y llenos de vida.
+
+La composición conduce la mirada en diagonal: desde los cazadores, en el primer plano, a lo largo de la fila de árboles desnudos, hasta el valle y unas montañas escarpadas que no existen en Flandes. Brueghel había cruzado los Alpes en su viaje a Italia y combinó **paisajes reales e imaginados**. Los colores, casi reducidos al blanco, el verde grisáceo y el negro, transmiten la sensación del frío y del silencio. Un pájaro que planea sobre el valle atrae la mirada hacia la lejanía.
+
+Algunos historiadores relacionan el cuadro con el clima de la época. El invierno de 1564-1565 fue especialmente duro en el norte de Europa, en una fase de temperaturas más bajas que los climatólogos llaman la Pequeña Edad de Hielo. Brueghel no pretendía ilustrar un fenómeno meteorológico, pero **su obra se ha usado como testimonio** de cómo se vivía el invierno en aquellas décadas.
+
+La tabla pasó a la colección de los Habsburgo a finales del siglo XVI y hoy se encuentra en el Museo de Historia del Arte de Viena, que tiene la mayor colección de obras de Brueghel del mundo. Ha inspirado a cineastas, poetas y novelistas.
+
+@@ 2026-12-14
+resumen: Un Cristo muerto de tamaño natural, con ojos de cristal y heridas que parecen reales: Gregorio Fernández llevó la imaginería al extremo.
+titulo: El Cristo yacente de Gregorio Fernández: la escultura barroca que buscaba conmover
+data: Valladolid, hacia 1625-1630
+alt: Escultura de madera policromada de Cristo muerto tendido sobre una sábana blanca
+pie: Cristo yacente de Gregorio Fernández, en el Museo Nacional de Escultura de Valladolid
+saber: Gregorio Fernández | Museo Nacional de Escultura | Imaginería
+
+El cuerpo de Cristo yace sobre un sudario blanco, con la cabeza ligeramente girada y apoyada en un almohadón. La boca entreabierta deja ver los dientes, las heridas sangran y la piel tiene el tono amarillento de la muerte. Todo está tallado en madera y pintado con tal realismo que el espectador **duda por un momento de que no sea un cuerpo real**. Es uno de los Cristos yacentes que talló Gregorio Fernández, el gran escultor del Barroco castellano.
+
+Fernández nació en Galicia en 1576 y desarrolló casi toda su carrera en Valladolid, donde murió en 1636. La ciudad había sido corte del rey Felipe III durante unos años y conservaba una intensa vida religiosa. Su taller produjo retablos, pasos procesionales e imágenes de devoción para iglesias y conventos de media España. **La imaginería**, la escultura religiosa en madera policromada, era entonces un arte destinado a emocionar y a mover a la piedad.
+
+El tema del Cristo yacente tuvo un gran éxito tras el Concilio de Trento, que recomendaba imágenes capaces de conmover a los fieles. Fernández hizo varias versiones, entre ellas la del convento de los Capuchinos de El Pardo, en Madrid, y la del Museo Nacional de Escultura de Valladolid, procedente de la casa profesa de los jesuitas. Para aumentar el efecto de verdad, añadía **ojos de cristal, dientes de marfil, uñas de asta** y gotas de resina que imitaban la sangre.
+
+La policromía era fundamental y la realizaban pintores especializados. Las carnaciones se trabajaban en mate para que parecieran piel y no madera barnizada. El resultado buscaba que el fiel sintiera que asistía al entierro de Cristo. Muchas de estas imágenes, además, salían en las procesiones de Semana Santa, y algunas lo siguen haciendo.
+
+Durante mucho tiempo, la escultura religiosa española se consideró un arte menor frente a la pintura. Exposiciones como la que el Prado dedicó a la escultura policromada en 2009, o la de la National Gallery de Londres titulada «Lo sagrado hecho real», han contribuido a **reivindicar su calidad** ante el público internacional.
+
+@@ 2026-12-15
+resumen: Artemisia Gentileschi pintó a Judith matando a Holofernes con una fuerza que ningún pintor había mostrado. Su vida explica parte de esa furia.
+titulo: «Judith decapitando a Holofernes»: la violencia que pintó Artemisia Gentileschi
+data: Roma y Florencia, hacia 1612-1620
+alt: Judith y su criada sujetan a Holofernes sobre una cama mientras Judith le corta el cuello con una espada
+pie: «Judith decapitando a Holofernes», de Artemisia Gentileschi
+saber: Artemisia Gentileschi | Judit decapitando a Holofernes (Artemisia Gentileschi) | Caravaggismo
+
+Dos mujeres sujetan a un hombre sobre una cama. Una le aprieta los brazos mientras la otra, con las mangas remangadas, le hunde una espada en el cuello. La sangre salpica las sábanas. La escena procede del libro bíblico de Judit, que cuenta cómo una viuda judía salvó su ciudad sitiada al decapitar al general asirio Holofernes. **Muchos pintores la representaron, pero pocos con tanta fuerza** como Artemisia Gentileschi.
+
+Artemisia nació en Roma en 1593, hija del pintor Orazio Gentileschi, seguidor de Caravaggio, que la formó en su taller. A los diecisiete años fue violada por Agostino Tassi, un pintor amigo de su padre. Orazio lo denunció, y en el juicio de 1612 **Artemisia fue sometida a tortura** con unas cuerdas en los dedos para comprobar que decía la verdad. Tassi fue condenado, aunque apenas cumplió la pena.
+
+Pintó la escena al menos dos veces. La primera versión, hacia 1612-1613, se conserva en el Museo de Capodimonte de Nápoles; la segunda, más grande y de colores más ricos, la realizó en Florencia hacia 1620 y está en la Galería de los Uffizi. Muchos críticos han leído el cuadro **como una venganza simbólica** contra su agresor. Otros historiadores advierten de que reducir toda su obra a ese episodio impide ver su talento y su ambición profesional.
+
+Lo indiscutible es la diferencia con otras versiones del tema. En la de Caravaggio, por ejemplo, Judith parece una joven delicada que mata con cierta repugnancia. En la de Artemisia, las dos mujeres actúan con **la determinación física de quien hace un trabajo duro**, y la criada no se limita a mirar, sino que ayuda. La luz dramática, heredada de Caravaggio, aumenta la violencia de la escena.
+
+Artemisia fue la primera mujer admitida en la Academia de las Artes del Dibujo de Florencia y trabajó para los Médici, para coleccionistas de Venecia y Nápoles e incluso para el rey Carlos I de Inglaterra. Tras siglos de olvido, desde la década de 1970 se ha convertido en una de las pintoras más estudiadas y expuestas del Barroco.
+
+@@ 2026-12-16
+resumen: Una figura de piedra que cabe en la mano y tiene unos 30.000 años: la Venus de Willendorf es uno de los primeros retratos del cuerpo humano.
+titulo: La Venus de Willendorf: una figura de 30.000 años que cabe en la palma de la mano
+data: Austria, hacia 30.000-28.000 a. C.
+alt: La Venus de Willendorf, pequeña figura de piedra de una mujer de formas voluminosas sin rostro visible
+pie: La Venus de Willendorf, en el Museo de Historia Natural de Viena
+saber: Venus de Willendorf | Venus paleolíticas | Paleolítico superior
+
+El 7 de agosto de 1908, durante las obras de una línea de ferrocarril junto al Danubio, en la localidad austriaca de Willendorf, un trabajador encontró en un yacimiento prehistórico una pequeña figura de piedra. Mide solo 11 centímetros, cabe en la palma de la mano y representa a una mujer de formas voluminosas. Es **una de las obras de arte más antiguas que se conocen**.
+
+Las dataciones más recientes la sitúan hacia el 30.000 a. C., en el Paleolítico superior, cuando grupos de cazadores y recolectores recorrían una Europa mucho más fría que la actual. Está tallada en piedra caliza oolítica, que no existe en Willendorf. Un estudio de 2022 comparó su composición con muestras de toda Europa y concluyó que **la piedra procede probablemente del norte de Italia**, lo que sugiere que la figura o su material viajaron cientos de kilómetros.
+
+La figura tiene pechos grandes, vientre abultado y caderas anchas, mientras que los brazos, finísimos, descansan sobre el pecho. La cabeza está cubierta por bandas concéntricas que pueden ser un peinado trenzado o un tocado, y **no muestra rasgos faciales**. Conserva restos de pigmento rojo, el ocre, que debió de cubrirla en parte. Los pies no se tallaron, lo que indica que no estaba pensada para sostenerse de pie.
+
+El nombre de «Venus» se lo dieron sus descubridores con cierta ironía, por comparación con las diosas clásicas, y se aplica a un conjunto de figurillas femeninas paleolíticas halladas desde Francia hasta Siberia. Su función es desconocida. Se han propuesto amuletos de fertilidad, imágenes de una diosa madre, representaciones de mujeres reales en distintas etapas de la vida o **símbolos de abundancia en tiempos de escasez**. Ninguna hipótesis puede probarse.
+
+La Venus se conserva en el Museo de Historia Natural de Viena, en una sala oscura dedicada a ella. En 2018 fue protagonista de una polémica en redes sociales cuando Facebook censuró una imagen suya por considerarla un desnudo, y la empresa terminó rectificando. La anécdota muestra que, 30.000 años después, sigue provocando reacciones.
+
+@@ 2026-12-17
+resumen: Una joven vuela en un columpio, pierde un zapato y un admirador la mira desde el suelo: el rococó en su versión más pícara.
+titulo: «El columpio»: el juego galante que pintó Fragonard
+data: París, hacia 1767
+alt: El columpio, de Fragonard: una joven con vestido rosa se balancea en un jardín y lanza al aire un zapato
+pie: «El columpio» (hacia 1767), de Jean-Honoré Fragonard, en la Colección Wallace de Londres
+saber: El columpio (Fragonard) | Jean-Honoré Fragonard | Rococó
+
+En un jardín frondoso, una joven con un vestido de seda rosa se balancea en un columpio. Un hombre mayor, en la sombra, tira de las cuerdas. Abajo, entre los arbustos, un joven recostado mira hacia arriba con el brazo extendido. En el momento culminante, la joven levanta una pierna y **su zapato sale volando por el aire**. Es «El columpio», pintado hacia 1767 por Jean-Honoré Fragonard y uno de los cuadros más representativos del rococó.
+
+La historia del encargo la conocemos por las memorias de un dramaturgo de la época, Charles Collé. Según su relato, un caballero de la corte pidió primero a otro pintor que retratara a su amante en un columpio empujado por un obispo, mientras él la contemplaba desde abajo. Aquel pintor rechazó el encargo y se lo pasó a Fragonard, que lo aceptó con alguna modificación: **el hombre que empuja no es un obispo**, y muchos lo interpretan como el marido engañado.
+
+El cuadro está lleno de símbolos que el público del siglo XVIII sabía leer. Una estatua de Cupido se lleva un dedo a los labios pidiendo silencio, como cómplice del secreto. El perrillo que ladra, símbolo de fidelidad, queda casi oculto. El zapato perdido aludía a la pérdida de la inocencia. Todo sugiere **un juego galante y ligero**, propio de la aristocracia francesa de la época.
+
+La pintura es también un alarde técnico. Fragonard usa una pincelada rápida y vaporosa, colores pastel y una luz que se filtra entre el follaje como en un escenario de teatro. El vestido rosa, en el centro, concentra toda la luminosidad, mientras los bordes del cuadro se pierden en verdes y marrones. **El rococó buscaba el placer de los sentidos**, frente a la solemnidad de la pintura histórica.
+
+Con la Revolución de 1789, ese arte quedó asociado a la frivolidad del Antiguo Régimen, y Fragonard perdió a sus clientes. Murió en 1806 casi olvidado. El cuadro pasó por varias colecciones y hoy está en la Colección Wallace de Londres, que no presta sus obras.
+
+@@ 2026-12-18
+resumen: Un caballo de bronce que galopa apoyado en una golondrina: el hallazgo de una tumba china se convirtió en símbolo del turismo del país.
+titulo: El caballo volador de Gansu: el galope de bronce que se apoya en una golondrina
+data: China, siglo II d. C.
+alt: Escultura de bronce de un caballo al galope con una pata apoyada sobre un pájaro
+pie: El caballo volador de Gansu, en el Museo Provincial de Gansu, en Lanzhou
+saber: Caballo volador de Gansu | Dinastía Han | Ruta de la Seda
+
+En 1969, unos campesinos que excavaban un refugio antiaéreo en Wuwei, en la provincia china de Gansu, dieron con una tumba de época de la dinastía Han. Entre más de doscientos objetos apareció un caballo de bronce de apenas 35 centímetros de altura que galopa con tres patas en el aire. La cuarta se apoya **sobre la espalda de un pájaro con las alas desplegadas**.
+
+La tumba pertenecía probablemente a un general o alto funcionario de la dinastía Han del Este, que gobernó China entre los años 25 y 220. Wuwei era entonces una plaza clave del corredor de Hexi, la franja de oasis por la que pasaba **la Ruta de la Seda** hacia Asia Central. El caballo apareció junto a todo un cortejo de figuras de bronce: jinetes, carros y guerreros que debían acompañar al difunto en la otra vida.
+
+Los caballos tenían una enorme importancia para los Han. Los necesitaban para defenderse de los pueblos nómadas del norte, y los emperadores enviaron expediciones a Asia Central en busca de los llamados «caballos celestiales», más grandes y resistentes que los chinos. La escultura muestra **un animal en pleno vuelo**: la cabeza ligeramente girada, la boca abierta, la cola y las crines al viento.
+
+El pájaro sobre el que se apoya ha dado lugar a interpretaciones. Durante años se identificó con una golondrina, y la idea de un caballo tan rápido que alcanza a un ave en vuelo dio a la obra su nombre popular. Otros estudiosos creen que es un ave mitológica o un vencejo. Más allá del simbolismo, el apoyo tiene una función técnica brillante: **concentra todo el peso en un solo punto** y permite que la figura se mantenga en equilibrio.
+
+En 1983, la Administración Nacional de Turismo de China adoptó el caballo como su emblema, y desde entonces aparece en carteles, monumentos y recuerdos de todo el país. El original se conserva en el Museo Provincial de Gansu, en Lanzhou, y está en la lista oficial de obras que no pueden salir de China para exposiciones.
+
+@@ 2026-12-19
+resumen: Un tren surge de la tormenta sobre un puente del Támesis: Turner pintó la velocidad de la era industrial antes de que nadie supiera cómo hacerlo.
+titulo: «Lluvia, vapor y velocidad»: el tren que Turner pintó en mitad de la tormenta
+data: Inglaterra, 1844
+alt: Lluvia, vapor y velocidad: una locomotora oscura avanza por un puente envuelta en luz dorada y bruma
+pie: «Lluvia, vapor y velocidad. El gran ferrocarril del Oeste» (1844), de J. M. W. Turner, en la National Gallery de Londres
+saber: Lluvia, vapor y velocidad | William Turner | Revolución Industrial
+
+Una mancha oscura avanza hacia el espectador a través de un remolino de luz dorada, lluvia y bruma. Poco a poco se distingue la chimenea de una locomotora y, detrás, los vagones sobre un puente. Así es «Lluvia, vapor y velocidad. El gran ferrocarril del Oeste», que el británico J. M. W. Turner expuso en la Real Academia de Londres en 1844. Es **una de las primeras grandes pinturas dedicadas al ferrocarril**.
+
+El puente es el de Maidenhead, sobre el río Támesis, construido por el ingeniero Isambard Kingdom Brunel para la línea del Great Western Railway, que unía Londres con Bristol. Era una obra audaz, con arcos de ladrillo muy planos que muchos creían que se derrumbarían. A la izquierda se ve otro puente más antiguo, de piedra, y en el río una barca: **lo viejo y lo nuevo** conviven en la escena.
+
+Turner tenía casi setenta años y llevaba décadas experimentando con la luz y la atmósfera. Aquí casi disuelve la forma. La lluvia, el vapor y el aire se funden en pinceladas amplias y empastes de color. Lo que interesa al pintor no es describir la máquina con detalle, sino transmitir **la sensación de la velocidad**, algo nuevo para una sociedad que hasta entonces no había viajado más deprisa que un caballo al galope.
+
+Un detalle casi invisible ha dado mucho que hablar: delante del tren corre una pequeña liebre. Para algunos historiadores representa la naturaleza que huye ante el progreso; para otros, una comparación irónica entre el animal más veloz del campo y la nueva máquina. Circula además una anécdota según la cual Turner sacó la cabeza por la ventanilla de un tren en plena tormenta para estudiar el efecto, pero **no hay pruebas** de que ocurriera.
+
+En su época, el cuadro desconcertó a muchos críticos, que lo encontraron confuso. Décadas después, los impresionistas franceses admiraron a Turner, y hoy se le considera un precursor de la pintura moderna. La obra forma parte del legado que el artista dejó a la nación británica y se expone en la National Gallery.

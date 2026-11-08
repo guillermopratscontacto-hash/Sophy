@@ -1,0 +1,233 @@
+@@ 2026-12-07
+resumen: La mañana del 7 de diciembre de 1941, aviones japoneses atacaron la flota estadounidense en Hawái. Estados Unidos entró en la guerra.
+titulo: Pearl Harbor: el ataque por sorpresa que llevó a Estados Unidos a la Segunda Guerra Mundial
+data: Hawái, 7 de diciembre de 1941
+alt: Fotografía tomada desde un avión japonés durante el ataque a Pearl Harbor, con columnas de agua y humo sobre los barcos
+pie: Fotografía tomada desde un avión japonés durante el ataque a Pearl Harbor
+saber: Ataque a Pearl Harbor | Guerra del Pacífico | Segunda Guerra Mundial
+
+A las 7.55 de la mañana del domingo 7 de diciembre de 1941, la primera oleada de aviones japoneses apareció sobre Pearl Harbor, la gran base de la flota estadounidense del Pacífico en la isla de Oahu, en Hawái. En menos de dos horas, unos 350 aviones lanzados desde seis portaaviones **hundieron o dañaron 19 barcos**, entre ellos ocho acorazados, y destruyeron cerca de 190 aviones en tierra.
+
+El ataque fue la consecuencia de un largo enfrentamiento. Japón llevaba años en guerra en China y en 1941 ocupó el sur de la Indochina francesa. Estados Unidos respondió con un embargo de petróleo, del que Japón dependía casi por completo. Los dirigentes japoneses decidieron apoderarse de los recursos del sudeste asiático, sobre todo **el petróleo de las Indias Orientales Neerlandesas**, y para ello necesitaban neutralizar la flota estadounidense durante el tiempo suficiente.
+
+El plan lo diseñó el almirante Isoroku Yamamoto, que conocía bien Estados Unidos y temía su poder industrial. La flota japonesa cruzó el Pacífico norte en secreto, con silencio de radio. Washington había descifrado los códigos diplomáticos japoneses y esperaba un ataque, pero **pensaba que sería en Filipinas o el sudeste asiático**, no en Hawái. Un radar detectó la llegada de los aviones, pero el aviso se interpretó como la llegada de bombarderos propios.
+
+Murieron unos 2.400 estadounidenses, la mayoría militares; más de mil de ellos en el acorazado Arizona, que estalló al ser alcanzado su depósito de munición y todavía yace en el fondo del puerto. Sin embargo, los tres portaaviones estadounidenses del Pacífico estaban fuera de la base y se salvaron, y los japoneses no destruyeron los depósitos de combustible ni los talleres. **Esas omisiones serían decisivas** en los meses siguientes.
+
+Al día siguiente, el presidente Franklin D. Roosevelt habló ante el Congreso de una fecha que viviría en la infamia, y Estados Unidos declaró la guerra a Japón. El 11 de diciembre, Alemania e Italia declararon la guerra a Estados Unidos. El conflicto se volvió verdaderamente mundial. Medio año después, en la batalla de Midway, los portaaviones estadounidenses infligieron a Japón una derrota que cambió el curso de la guerra en el Pacífico.
+
+@@ 2026-12-08
+resumen: Una campesina de 17 años convenció al heredero de Francia para que le diera un ejército. Liberó Orleans y murió en la hoguera a los 19.
+titulo: Juana de Arco: la campesina que cambió el rumbo de la guerra de los Cien Años
+data: Francia, 1429-1431
+alt: Miniatura medieval de Juana de Arco con armadura, espada y estandarte
+pie: Juana de Arco en una miniatura del siglo XV
+saber: Juana de Arco | Guerra de los Cien Años | Sitio de Orleans
+
+A comienzos del siglo XV, Francia estaba al borde del colapso. La guerra con Inglaterra, que había empezado en 1337 por disputas dinásticas y territoriales, se prolongaba desde hacía casi un siglo. Los ingleses, aliados con el poderoso duque de Borgoña, controlaban París y gran parte del norte del país, y el heredero francés, el delfín Carlos, ni siquiera había sido coronado. En 1428, los ingleses **sitiaron Orleans**, la llave del valle del Loira.
+
+Por entonces, una joven campesina de Domrémy, en Lorena, aseguraba oír desde los trece años las voces de san Miguel, santa Catalina y santa Margarita. Le ordenaban liberar Francia y llevar al delfín a coronarse en Reims. Se llamaba Juana. En 1429, con diecisiete años, consiguió que un capitán la escoltara hasta el castillo de Chinon, donde se encontraba Carlos. Tras ser examinada por teólogos, **el delfín le permitió acompañar al ejército** que debía socorrer Orleans.
+
+Vestida con armadura y con un estandarte blanco, Juana entró en la ciudad sitiada a finales de abril. Su presencia levantó la moral de los franceses, que en pocos días tomaron las fortificaciones inglesas. El 8 de mayo, los ingleses levantaron el sitio. Siguieron otras victorias en el Loira y, el 17 de julio, **Carlos VII fue coronado en la catedral de Reims**, con Juana a su lado. Los historiadores debaten cuánto se debió a su capacidad militar y cuánto a su efecto sobre las tropas.
+
+Su suerte cambió pronto. Fracasó un ataque contra París, y en mayo de 1430 los borgoñones la capturaron en Compiègne y la vendieron a los ingleses. Fue juzgada en Ruan por un tribunal eclesiástico favorable a Inglaterra, presidido por el obispo Pierre Cauchon, acusada de herejía y de vestir ropa de hombre. **Carlos VII no intentó rescatarla**. El 30 de mayo de 1431 murió en la hoguera en la plaza del Mercado Viejo de Ruan. Tenía diecinueve años.
+
+En 1456, un nuevo proceso impulsado por Carlos VII anuló la condena. La guerra terminó en 1453 con la expulsión de los ingleses de casi todo el territorio francés. Juana fue canonizada en 1920 y es una de las patronas de Francia.
+
+@@ 2026-12-09
+resumen: Décadas antes de Colón, un almirante chino dirigió siete expediciones con cientos de barcos hasta las costas de África. Luego China las suspendió.
+titulo: Zheng He: las flotas del tesoro con las que China llegó hasta África
+data: Océano Índico, 1405-1433
+alt: Estatua de piedra del almirante Zheng He en la ciudad de Malaca
+pie: Estatua de Zheng He en Malaca (Malasia), uno de los puertos que visitaron sus flotas
+saber: Zheng He | Viajes de Zheng He | Dinastía Ming
+
+En 1405, casi noventa años antes del primer viaje de Colón, zarpó de China una flota formidable: según las fuentes chinas, más de sesenta grandes naves y unos doscientos barcos de apoyo, con cerca de 27.000 hombres a bordo. La mandaba **el almirante Zheng He**, y su destino eran los puertos del océano Índico.
+
+Zheng He había nacido hacia 1371 en Yunnan, en una familia musulmana. De niño fue capturado por el ejército Ming, castrado y puesto al servicio de un príncipe que más tarde se convirtió en el emperador Yongle. Como eunuco de la corte se ganó su confianza, y el emperador le encargó **una serie de expediciones marítimas** para mostrar el poder de la nueva dinastía, establecer relaciones de tributo con otros reinos y, según algunos historiadores, buscar a un rival depuesto que había desaparecido.
+
+Entre 1405 y 1433 se organizaron siete viajes. Las flotas visitaron Champa, en el actual Vietnam, Java, Sumatra, Malaca, Sri Lanka y la costa de la India; llegaron a Ormuz, en el golfo Pérsico, a Adén y a Arabia, y alcanzaron **la costa oriental de África**, en las actuales Somalia y Kenia. Regresaron con embajadores, piedras preciosas, especias y animales exóticos, entre ellos una jirafa que en la corte china se interpretó como un unicornio de buen augurio.
+
+El tamaño de los barcos es objeto de discusión. Las crónicas describen «barcos del tesoro» de más de cien metros de eslora, lo que los convertiría en los mayores barcos de madera de la historia. Muchos especialistas consideran esas cifras **exageradas o imposibles** con la tecnología de la época y creen que medían bastante menos. Más allá de los números, las flotas eran mucho mayores que las europeas de aquellos años.
+
+Tras la muerte de Yongle, la corte cambió de política. Las expediciones eran muy caras, la amenaza mongola en el norte exigía recursos y los funcionarios confucianos desconfiaban de los eunucos. Zheng He murió hacia 1433, probablemente durante el séptimo viaje, y China suspendió las grandes expediciones. Pocas décadas después, los portugueses llegaron al Índico rodeando África.
+
+@@ 2026-12-10
+resumen: El 10 de diciembre de 1948, la ONU aprobó un texto que proclamaba los derechos de todas las personas. Eleanor Roosevelt lo impulsó.
+titulo: La Declaración Universal de los Derechos Humanos: el texto que nació de las ruinas de la guerra
+data: París, 10 de diciembre de 1948
+alt: Eleanor Roosevelt sostiene un gran cartel con el texto de la Declaración Universal de los Derechos Humanos
+pie: Eleanor Roosevelt con un ejemplar de la Declaración Universal de los Derechos Humanos, en 1949
+saber: Declaración Universal de los Derechos Humanos | Eleanor Roosevelt | Organización de las Naciones Unidas
+
+El 10 de diciembre de 1948, en el palacio de Chaillot de París, la Asamblea General de las Naciones Unidas aprobó la Declaración Universal de los Derechos Humanos. De los 58 Estados miembros de entonces, 48 votaron a favor, ninguno en contra y ocho se abstuvieron. Era **la primera vez que la comunidad internacional proclamaba derechos** que pertenecían a todas las personas, sin distinción.
+
+El texto nació de la experiencia de la Segunda Guerra Mundial y del Holocausto. La Carta de las Naciones Unidas, firmada en 1945, mencionaba los derechos humanos pero no los definía. Se creó entonces una comisión para redactar una declaración, presidida por **Eleanor Roosevelt**, viuda del presidente estadounidense Franklin D. Roosevelt, que había ganado prestigio internacional por su defensa de las causas sociales.
+
+En la redacción participaron personas de tradiciones muy distintas. El jurista canadiense John Humphrey preparó el primer borrador; el francés René Cassin le dio su estructura; el filósofo libanés Charles Malik y el diplomático chino Peng Chun Chang aportaron ideas de distintas culturas, y la india Hansa Mehta logró que **el texto hablara de «todos los seres humanos»** y no de «todos los hombres». Las negociaciones fueron difíciles en plena Guerra Fría.
+
+La Declaración tiene treinta artículos. El primero afirma que todos los seres humanos nacen libres e iguales en dignidad y derechos. Los siguientes recogen derechos civiles y políticos, como la vida, la libertad, la prohibición de la tortura y de la esclavitud, la libertad de expresión o el derecho a un juicio justo, y también derechos económicos y sociales, como el trabajo, la educación y la seguridad social. Se abstuvieron la Unión Soviética y otros países de su bloque, Arabia Saudí y Sudáfrica, que aplicaba el apartheid.
+
+No es un tratado vinculante, sino una declaración de principios. Sin embargo, inspiró después **pactos internacionales obligatorios**, aprobados en 1966, y numerosas constituciones, entre ellas la española, que la cita expresamente. Es el documento traducido a más idiomas del mundo, a más de 500. Cada 10 de diciembre se celebra el Día de los Derechos Humanos.
+
+@@ 2026-12-11
+resumen: En 1917, Rusia vivió dos revoluciones en ocho meses: la que derribó al zar y la que llevó a los bolcheviques al poder.
+titulo: La Revolución rusa: el año en que cayó el zar y llegaron los bolcheviques
+data: Rusia, 1917
+alt: Fotografía de una gran manifestación en la avenida Nevski de Petrogrado en 1917
+pie: Mitin en la avenida Nevski de Petrogrado, en 1917
+saber: Revolución rusa | Revolución de Octubre | Vladímir Lenin
+
+A comienzos de 1917, Rusia llevaba dos años y medio en la Primera Guerra Mundial y estaba agotada. Millones de soldados habían muerto o caído prisioneros, faltaban alimentos en las ciudades y la inflación se disparaba. El zar Nicolás II, que se había puesto al frente del ejército, era cada vez más impopular. En febrero, según el calendario juliano que usaba Rusia, **las huelgas y manifestaciones de Petrogrado** se convirtieron en una revolución cuando los soldados se negaron a disparar contra la multitud.
+
+En pocos días, Nicolás II abdicó y terminó la monarquía de los Románov, que había gobernado durante tres siglos. El poder quedó repartido entre un gobierno provisional, formado por liberales y socialistas moderados, y los sóviets, consejos de obreros y soldados. El gobierno provisional decidió **continuar la guerra** junto a los aliados y aplazó la reforma agraria hasta la elección de una asamblea constituyente.
+
+En abril regresó del exilio Vladímir Lenin, líder de los bolcheviques, el ala más radical de los socialistas. Con la ayuda de Alemania, que le facilitó el viaje en tren para debilitar a Rusia, volvió con un programa sencillo: **«paz, pan y tierra»** y todo el poder para los sóviets. Su apoyo creció a medida que la situación empeoraba. En octubre, los bolcheviques, con León Trotski al frente de la organización militar, tomaron los puntos clave de Petrogrado y asaltaron el Palacio de Invierno, sede del gobierno provisional.
+
+El nuevo gobierno firmó la paz con Alemania en Brest-Litovsk en marzo de 1918, con grandes pérdidas territoriales, y repartió la tierra entre los campesinos. Cuando la asamblea constituyente, elegida en noviembre de 1917, reunió una mayoría contraria a los bolcheviques, Lenin la disolvió tras su primera sesión. **Estalló una guerra civil** entre el Ejército Rojo y los blancos, una coalición diversa apoyada por potencias extranjeras, que duró hasta 1921 y causó millones de muertos por la violencia, el hambre y las epidemias.
+
+La familia imperial fue asesinada en Ekaterimburgo en julio de 1918. En 1922 nació la Unión Soviética, que durante casi setenta años sería un Estado de partido único y uno de los grandes protagonistas del siglo XX.
+
+@@ 2026-12-12
+resumen: Comerciantes y navegantes, los fenicios difundieron por el Mediterráneo un sistema de escritura de 22 signos del que deriva nuestro alfabeto.
+titulo: Los fenicios y el alfabeto: 22 letras que conquistaron el mundo
+data: Costa de Líbano y Mediterráneo, siglos XI-VI a. C.
+alt: Inscripción fenicia grabada en el borde del sarcófago de piedra del rey Ahiram
+pie: Inscripción del sarcófago de Ahiram, rey de Biblos, en el Museo Nacional de Beirut
+saber: Alfabeto fenicio | Fenicia | Biblos
+
+En la estrecha franja de costa del actual Líbano, entre las montañas y el mar, florecieron hace unos 3.000 años varias ciudades independientes: Biblos, Tiro, Sidón. Sus habitantes se llamaban a sí mismos cananeos, pero los griegos los conocían como fenicios, quizá por el tinte púrpura que fabricaban. Fueron **los grandes navegantes y comerciantes** del Mediterráneo antiguo.
+
+Con sus barcos llevaban madera de cedro, tejidos teñidos de púrpura, vidrio, marfil tallado y objetos de metal. Fundaron colonias y puertos comerciales por todo el Mediterráneo: Cartago, en el actual Túnez, y en la península ibérica Gadir, la actual Cádiz, según la tradición hacia el 1100 a. C., aunque los restos arqueológicos más antiguos son algo posteriores. También establecieron enclaves en Málaga, Ibiza, Cerdeña, Sicilia y Malta. **Cádiz se considera una de las ciudades más antiguas de Europa occidental**.
+
+Su legado más duradero fue la escritura. Hasta entonces, los grandes sistemas de escritura, como los jeroglíficos egipcios o la escritura cuneiforme de Mesopotamia, tenían cientos de signos y estaban reservados a escribas profesionales. Los fenicios usaban un sistema de solo **22 signos**, cada uno de los cuales representaba un sonido consonántico. No inventaron la idea desde cero: se basaron en escrituras anteriores de la región, pero la simplificaron y la difundieron.
+
+Una de las inscripciones más antiguas que se conservan está grabada en el sarcófago de Ahiram, rey de Biblos, datado en torno al siglo X a. C. Advierte a quien se atreva a abrir la tumba que su cetro será arrebatado y su trono derribado. Era un sistema práctico, fácil de aprender, **ideal para comerciantes** que necesitaban llevar cuentas y redactar contratos en distintos puertos.
+
+Los griegos adoptaron el alfabeto fenicio hacia el siglo VIII a. C. y añadieron signos para las vocales. De él derivaron después el alfabeto etrusco y el latino, que hoy usan cientos de lenguas. Por otra rama, del alfabeto fenicio surgieron el arameo y, a partir de él, el hebreo y el árabe. Nuestra palabra «alfabeto» procede del nombre de las dos primeras letras griegas, alfa y beta, herederas de las fenicias.
+
+@@ 2026-12-13
+resumen: Tras décadas de segregación racial, Sudáfrica negoció el fin del apartheid. En 1994, Nelson Mandela fue elegido presidente.
+titulo: El fin del apartheid: cómo Sudáfrica pasó de la segregación a la democracia
+data: Sudáfrica, 1990-1994
+alt: Fotografía de F. W. de Klerk y Nelson Mandela sentados juntos esperando para intervenir en un acto
+pie: F. W. de Klerk y Nelson Mandela en Filadelfia, en 1993, cuando recibieron juntos la Medalla de la Libertad
+saber: Apartheid | Nelson Mandela | Frederik de Klerk
+
+Desde 1948, Sudáfrica estaba gobernada por el Partido Nacional, que impuso un sistema de segregación racial llamado apartheid, «separación» en afrikáans. La ley clasificaba a cada persona por su raza, prohibía los matrimonios mixtos, separaba barrios, escuelas, transportes y playas, y **negaba el voto a la mayoría negra** de la población. Millones de personas fueron desplazadas a territorios llamados bantustanes.
+
+La oposición fue duramente reprimida. En 1960, la policía mató a 69 manifestantes en Sharpeville, y el Congreso Nacional Africano (ANC), el principal movimiento contra el apartheid, fue prohibido. Uno de sus líderes, Nelson Mandela, que había participado en la creación de su brazo armado, fue condenado a cadena perpetua en 1964. **Pasó 27 años en prisión**, la mayor parte en la isla de Robben. En las décadas siguientes, las revueltas en los barrios negros, como la de Soweto en 1976, y las sanciones internacionales aumentaron la presión sobre el régimen.
+
+En 1989 llegó a la presidencia Frederik Willem de Klerk, que comprendió que el sistema era insostenible. El 2 de febrero de 1990 anunció ante el Parlamento la legalización del ANC y de otros partidos, y el 11 de febrero **Mandela salió en libertad**. Empezaron negociaciones difíciles entre el gobierno, el ANC y otras fuerzas, en un clima de violencia política que causó miles de muertos. El asesinato en 1993 del dirigente comunista Chris Hani estuvo a punto de hacer descarrilar el proceso.
+
+Ese mismo año, Mandela y De Klerk recibieron conjuntamente el Premio Nobel de la Paz. El 27 de abril de 1994 se celebraron las primeras elecciones con sufragio universal. Las colas para votar se alargaron kilómetros. El ANC obtuvo cerca del 63 % de los votos, y el 10 de mayo **Nelson Mandela juró como presidente**, con De Klerk como uno de sus vicepresidentes.
+
+Para afrontar el pasado se creó la Comisión de la Verdad y la Reconciliación, presidida por el arzobispo Desmond Tutu, que escuchó a víctimas y ofreció amnistía a quienes confesaran crímenes políticos. Su balance sigue siendo discutido, al igual que las profundas desigualdades económicas que persisten en el país.
+
+@@ 2026-12-14
+resumen: Amundsen llegó al Polo Sur el 14 de diciembre de 1911. Scott lo alcanzó cinco semanas después y murió en el camino de regreso.
+titulo: La carrera al Polo Sur: la victoria de Amundsen y la tragedia de Scott
+data: Antártida, 1911-1912
+alt: Fotografía de los miembros de la expedición de Scott junto a la tienda que Amundsen dejó en el Polo Sur
+pie: Miembros de la expedición de Scott junto a la tienda que Amundsen dejó en el Polo Sur, en enero de 1912
+saber: Expedición de Amundsen al Polo Sur | Expedición Terra Nova | Roald Amundsen
+
+A comienzos del siglo XX, el Polo Sur era uno de los últimos grandes objetivos de la exploración. En 1910, dos expediciones se preparaban para alcanzarlo. Una era británica, dirigida por el oficial de marina Robert Falcon Scott. La otra, noruega, estaba al mando de Roald Amundsen, que había planeado ir al Polo Norte y **cambió de destino en secreto** al saber que otros lo habían reclamado. Solo informó a Scott cuando ya navegaba hacia el sur.
+
+Los métodos eran muy distintos. Amundsen había aprendido de los inuit del Ártico y apostó por los esquís, ropa de pieles y perros de trineo, de los que planeaba sacrificar una parte durante el viaje para alimentar a los demás y a los hombres. Scott confió en una combinación de trineos motorizados, ponis de Manchuria y perros, y al final **los hombres tiraron de los trineos** durante buena parte del trayecto. Los motores se averiaron pronto y los ponis no soportaron el frío.
+
+Amundsen partió con cuatro compañeros en octubre de 1911 desde la bahía de las Ballenas, por una ruta nueva y más corta. Superó un glaciar desconocido y, **el 14 de diciembre de 1911**, alcanzó el Polo. Plantó la bandera noruega, dejó una tienda con una carta para Scott y regresó sin mayores problemas a su base en enero de 1912.
+
+Scott y cuatro compañeros llegaron al Polo el 17 de enero de 1912 y encontraron la tienda noruega. Scott escribió en su diario que aquel era un lugar espantoso. El regreso fue un desastre. El suboficial Edgar Evans murió tras una caída; el capitán Lawrence Oates, con los pies congelados, salió de la tienda en plena tormenta para no retrasar a los demás. Scott y sus dos últimos compañeros murieron a finales de marzo, atrapados por una ventisca **a solo unos 18 kilómetros de un depósito de víveres**.
+
+Sus cuerpos y sus diarios se encontraron en noviembre. En el Reino Unido, Scott se convirtió en un héroe trágico, mientras que Amundsen recibió menos reconocimiento del que merecía. Los historiadores debaten desde entonces el peso de los errores de planificación de Scott y el de un tiempo excepcionalmente frío. La base estadounidense en el Polo Sur lleva el nombre de ambos.
+
+@@ 2026-12-15
+resumen: En octubre de 1962, el descubrimiento de misiles soviéticos en Cuba llevó al mundo más cerca que nunca de una guerra nuclear.
+titulo: La crisis de los misiles: los trece días en que el mundo rozó la guerra nuclear
+data: Cuba, Washington y Moscú, octubre de 1962
+alt: Fotografía aérea de reconocimiento de una base de misiles en Cuba, con anotaciones
+pie: Fotografía de reconocimiento estadounidense de una base de misiles soviéticos en Cuba, en octubre de 1962
+saber: Crisis de los misiles de Cuba | John F. Kennedy | Nikita Jrushchov
+
+El 14 de octubre de 1962, un avión espía estadounidense U-2 sobrevoló el oeste de Cuba y tomó fotografías de unas instalaciones en construcción. Los analistas identificaron **rampas para misiles soviéticos de alcance medio**, capaces de llevar cabezas nucleares hasta Washington y buena parte del territorio de Estados Unidos. El 16 de octubre, el presidente John F. Kennedy recibió la noticia. Empezaban los trece días más peligrosos de la Guerra Fría.
+
+Cuba se había convertido en aliada de la Unión Soviética tras la revolución de Fidel Castro en 1959. En 1961, Estados Unidos había apoyado una invasión de exiliados cubanos en la bahía de Cochinos, que fracasó. El líder soviético, Nikita Jrushchov, decidió instalar misiles en la isla para protegerla y para compensar **la superioridad nuclear estadounidense**, que tenía misiles en Turquía e Italia, cerca de las fronteras soviéticas.
+
+Kennedy reunió a un grupo de asesores. Algunos militares proponían bombardear las bases o invadir la isla. El presidente optó por una medida intermedia: un bloqueo naval, que llamó «cuarentena», para impedir la llegada de más armas. El 22 de octubre lo anunció por televisión y exigió la retirada de los misiles. Durante días, los barcos soviéticos se acercaban a la línea del bloqueo mientras **las fuerzas estadounidenses se ponían en máxima alerta**.
+
+El momento más grave llegó el 27 de octubre. Un U-2 fue derribado sobre Cuba y murió su piloto. Ese mismo día, un submarino soviético acosado por destructores estadounidenses estuvo a punto de lanzar un torpedo nuclear, según testimonios conocidos décadas después, y solo la negativa de uno de sus oficiales, Vasili Arjípov, lo impidió. Mientras tanto, a través de cartas y de contactos discretos entre el hermano del presidente, Robert Kennedy, y el embajador soviético, **se negociaba una salida**.
+
+El 28 de octubre, Jrushchov anunció que retiraría los misiles a cambio del compromiso estadounidense de no invadir Cuba. En secreto, Washington aceptó también retirar sus misiles de Turquía. Al año siguiente se instaló una línea directa de comunicación entre la Casa Blanca y el Kremlin, el llamado «teléfono rojo», y se firmó un tratado que limitaba los ensayos nucleares.
+
+@@ 2026-12-16
+resumen: En la noche del 16 de diciembre de 1773, colonos disfrazados arrojaron al mar 342 cajas de té en Boston. Fue el preludio de la independencia.
+titulo: El motín del té de Boston: la protesta que encendió la independencia de Estados Unidos
+data: Boston (Massachusetts), 16 de diciembre de 1773
+alt: Litografía del siglo XIX que muestra a colonos arrojando cajas de té desde un barco en el puerto de Boston
+pie: «La destrucción del té en el puerto de Boston», litografía de Nathaniel Currier (1846)
+saber: Motín del té | Guerra de Independencia de los Estados Unidos | Trece Colonias
+
+En la noche del 16 de diciembre de 1773, unos cien hombres, algunos disfrazados de indios mohawk, subieron a tres barcos atracados en el puerto de Boston. En unas tres horas, abrieron a hachazos y arrojaron al agua **342 cajas de té** de la Compañía Británica de las Indias Orientales. Miles de vecinos observaban desde el muelle. Fue el llamado motín del té de Boston.
+
+La protesta no se dirigía contra el té, sino contra la forma en que el Parlamento británico gobernaba las Trece Colonias de América del Norte. Tras la costosa guerra de los Siete Años contra Francia, Londres había impuesto nuevos impuestos a los colonos, que no tenían representantes en el Parlamento. Su lema era **«no hay impuestos sin representación»**. La mayoría de aquellos impuestos se retiraron, pero se mantuvo uno sobre el té como símbolo de la autoridad británica.
+
+En 1773, la Ley del Té concedió a la Compañía de las Indias Orientales, en graves dificultades económicas, el derecho a vender té directamente en las colonias. Paradójicamente, el té iba a ser más barato, pero los colonos lo vieron como un intento de que aceptaran el impuesto y como una amenaza para los comerciantes locales. En varias ciudades se impidió la descarga. En Boston, el gobernador se negó a dejar que los barcos se marcharan sin descargar, y los miembros de la organización conocida como **los Hijos de la Libertad** pasaron a la acción.
+
+La reacción de Londres fue muy dura. En 1774, el Parlamento aprobó un conjunto de leyes que los colonos llamaron «intolerables»: cerró el puerto de Boston hasta que se pagara el té destruido y limitó el autogobierno de Massachusetts. Lejos de aislar a Boston, las medidas unieron a las colonias, que convocaron un Congreso Continental en Filadelfia. En abril de 1775 estallaron **los primeros combates** en Lexington y Concord.
+
+El 4 de julio de 1776, el Segundo Congreso Continental aprobó la Declaración de Independencia, redactada principalmente por Thomas Jefferson. La guerra terminó en 1783 con el reconocimiento británico de los Estados Unidos, gracias también a la ayuda de Francia y España.
+
+@@ 2026-12-17
+resumen: El 17 de diciembre de 1903, en una playa de Carolina del Norte, un avión voló doce segundos. Comenzaba la era de la aviación.
+titulo: Los hermanos Wright: los doce segundos que inauguraron la aviación
+data: Kitty Hawk (Carolina del Norte), 17 de diciembre de 1903
+alt: Fotografía del primer vuelo del Flyer de los hermanos Wright, con Wilbur corriendo junto al ala
+pie: El primer vuelo del Wright Flyer, el 17 de diciembre de 1903, fotografiado por John T. Daniels
+saber: Hermanos Wright | Wright Flyer | Historia de la aviación
+
+Hacía frío y soplaba un viento fuerte en las dunas de Kill Devil Hills, cerca de Kitty Hawk, en la costa de Carolina del Norte, la mañana del 17 de diciembre de 1903. A las 10.35, Orville Wright, tumbado sobre el ala inferior de un biplano de madera y tela, puso en marcha el motor. El aparato avanzó por un raíl, se elevó y **voló durante doce segundos**, recorriendo unos 37 metros. Su hermano Wilbur corría a su lado. Era el primer vuelo controlado de un avión propulsado con un piloto a bordo.
+
+Los Wright tenían una tienda de bicicletas en Dayton, Ohio, y no habían ido a la universidad. Se interesaron por el vuelo tras conocer los experimentos con planeadores del alemán Otto Lilienthal, que murió en un accidente en 1896. Comprendieron que el gran problema no era el motor ni las alas, sino **el control del aparato en el aire**. Idearon un sistema para torcer las puntas de las alas y girar, igual que los pájaros, y probaron planeadores durante varios veranos en Kitty Hawk, elegida por sus vientos constantes y sus dunas blandas.
+
+En 1901, decepcionados porque los datos publicados por otros investigadores no funcionaban, construyeron un pequeño túnel de viento y probaron más de doscientos perfiles de ala. Como ningún fabricante les ofrecía un motor ligero y suficientemente potente, lo construyeron con su mecánico, Charlie Taylor. También diseñaron sus propias hélices, entendidas como **alas que giran**.
+
+Aquel día hicieron cuatro vuelos. El último, pilotado por Wilbur, duró 59 segundos y recorrió unos 260 metros. Poco después, una ráfaga de viento volcó el aparato y lo dañó. Solo cinco personas, vecinos de la zona, presenciaron los vuelos, y la prensa apenas les prestó atención. **La fotografía del primer despegue**, tomada por uno de ellos, John T. Daniels, que nunca había usado una cámara, se convirtió en una de las imágenes más célebres del siglo XX.
+
+En los años siguientes perfeccionaron sus aviones y en 1908 asombraron al público con vuelos de demostración en Francia y Estados Unidos. El Flyer original se expone en el Museo Nacional del Aire y el Espacio de Washington.
+
+@@ 2026-12-18
+resumen: Bajo Solimán el Magnífico, el Imperio otomano llegó a las puertas de Viena y vivió su edad de oro en el derecho, la arquitectura y la poesía.
+titulo: Solimán el Magnífico: el sultán que llevó al Imperio otomano a su apogeo
+data: Imperio otomano, 1520-1566
+alt: Retrato del sultán Solimán el Magnífico con un gran turbante, atribuido al círculo de Tiziano
+pie: Retrato de Solimán el Magnífico, atribuido al círculo de Tiziano, en el Museo de Historia del Arte de Viena
+saber: Solimán el Magnífico | Imperio otomano | Sitio de Viena (1529)
+
+En 1520, un hombre de unos veinticinco años heredó el trono del Imperio otomano, que ya dominaba Anatolia, los Balcanes, Siria y Egipto. Durante sus 46 años de reinado, el más largo de la dinastía, **lo convirtió en una de las mayores potencias del mundo**. En Europa le llamaron el Magnífico; sus súbditos le conocían como Kanuni, «el legislador».
+
+Solimán fue ante todo un conquistador. En 1521 tomó Belgrado, y en 1522 expulsó de Rodas a los caballeros de San Juan. En 1526 aplastó al ejército húngaro en la batalla de Mohács, donde murió el rey Luis II, y buena parte de Hungría quedó bajo control otomano. En 1529 llegó a **sitiar Viena**, la capital de los Habsburgo, aunque tuvo que retirarse con la llegada del invierno. También conquistó Bagdad e Irak frente a los persas safávidas, y su flota, dirigida por el corsario Barbarroja, dominó durante décadas el Mediterráneo.
+
+Su rivalidad con el emperador Carlos V marcó la política europea. Solimán llegó a aliarse con el rey de Francia, Francisco I, enemigo de los Habsburgo, algo que escandalizó a la cristiandad. En el Mediterráneo, la amenaza otomana obligó a España a mantener grandes flotas y fortalezas en el norte de África, y **el asedio de Malta en 1565**, que fracasó, fue uno de los grandes episodios de su última etapa.
+
+En el interior, impulsó una amplia recopilación de leyes que regulaban la administración, los impuestos y el derecho penal, compatibles con la ley islámica. Su arquitecto, Mimar Sinán, levantó cientos de edificios, entre ellos **la mezquita de Solimán en Estambul**, que domina todavía el perfil de la ciudad. Fue una época brillante para la poesía, la caligrafía y la cerámica de Iznik, y el propio sultán escribió poemas bajo un seudónimo.
+
+Su vida privada estuvo marcada por las intrigas de palacio. Se casó con Hürrem, una esclava de origen ruteno a la que en Europa llamaban Roxelana, que ejerció una gran influencia. Solimán ordenó ejecutar a su gran visir y amigo Ibrahim y a su hijo mayor, Mustafá, por sospechas de traición. Murió en 1566 durante el asedio de una fortaleza en Hungría.
+
+@@ 2026-12-19
+resumen: Bolívar dirigió las guerras que liberaron del dominio español a cinco países sudamericanos, pero vio fracasar su sueño de una gran unión.
+titulo: Simón Bolívar: el Libertador y el sueño de una gran América unida
+data: América del Sur, 1810-1830
+alt: Retrato de Simón Bolívar de pie con uniforme militar y espada
+pie: Retrato de Simón Bolívar (1922), de Luis Toro Moreno, en el Palacio Legislativo de La Paz
+saber: Simón Bolívar | Independencia de Hispanoamérica | Gran Colombia
+
+Simón Bolívar nació en Caracas en 1783 en una de las familias criollas más ricas de Venezuela. Huérfano desde niño, viajó por Europa, donde conoció las ideas de la Ilustración y vio la coronación de Napoleón. Según una tradición posterior, en 1805, en el monte Sacro de Roma, **juró no descansar hasta liberar América** del dominio español.
+
+La ocasión llegó con la invasión de España por Napoleón en 1808. Ante el vacío de poder, en muchas ciudades americanas se formaron juntas de gobierno. En 1811, Venezuela proclamó su independencia, aunque la primera república cayó al año siguiente. Bolívar se exilió y escribió el Manifiesto de Cartagena, en el que defendía un gobierno fuerte y centralizado. Siguieron años de guerra muy cruentos, con avances y derrotas, en los que **ambos bandos cometieron atrocidades**.
+
+En 1819, en una de las campañas más audaces de la época, Bolívar cruzó los Andes con su ejército desde los llanos venezolanos y derrotó a los realistas en Boyacá, lo que abrió el camino a Bogotá. Ese mismo año se proclamó la República de Colombia, conocida hoy como **la Gran Colombia**, que reunía los actuales territorios de Venezuela, Colombia, Panamá y Ecuador. En 1821 venció en Carabobo y aseguró la independencia de Venezuela.
+
+Después avanzó hacia el sur. En 1822 se reunió en Guayaquil con José de San Martín, el libertador de Argentina y Chile, que había proclamado la independencia de Perú; el contenido de la entrevista sigue siendo un misterio, pero San Martín se retiró y dejó a Bolívar al frente. Las victorias de Junín y Ayacucho, esta última dirigida por Antonio José de Sucre en 1824, pusieron fin al dominio español en Sudamérica. En su honor, Bolivia **tomó su nombre**.
+
+Bolívar soñaba con una gran confederación de las nuevas repúblicas, pero el Congreso de Panamá de 1826 no dio fruto, y las rivalidades regionales y personales despedazaron la Gran Colombia. Acusado por sus adversarios de aspirar a la dictadura, renunció en 1830 y murió ese mismo año en Santa Marta, enfermo y desengañado.

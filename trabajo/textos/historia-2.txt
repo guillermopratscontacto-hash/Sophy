@@ -1,0 +1,251 @@
+@@ 2026-11-23
+resumen: Un rey acorralado por sus barones firmó en 1215 un documento que limitaba su poder. Fracasó en pocos meses, pero su idea sobrevivió.
+titulo: La Carta Magna: el pacto de 1215 que puso límites al poder del rey
+data: Inglaterra, 1215
+alt: Uno de los ejemplares originales de la Carta Magna, un pergamino escrito en latín
+pie: Uno de los ejemplares de 1215 de la Carta Magna, conservado en la Biblioteca Británica
+saber: Carta Magna | Juan I de Inglaterra | Estado de derecho
+
+El 15 de junio de 1215, en un prado junto al río Támesis llamado Runnymede, el rey Juan de Inglaterra aceptó un documento redactado por un grupo de barones rebeldes. Escrito en latín sobre pergamino, contenía más de sesenta cláusulas y pasaría a la historia como la Carta Magna, **uno de los textos fundacionales del constitucionalismo**.
+
+Juan, conocido como Juan sin Tierra, era un rey muy impopular. Había perdido Normandía y otros territorios en Francia frente al rey Felipe Augusto, se había enfrentado al papa y, para financiar sus guerras, exigía impuestos y pagos arbitrarios a la nobleza. En 1215, un grupo de barones se rebeló y tomó Londres. **El rey tuvo que negociar**.
+
+La mayoría de las cláusulas trataban asuntos concretos de la época: herencias, deudas, bosques reales, pesos y medidas o la situación de la Iglesia. Pero algunas contenían principios de alcance general. El rey no podía imponer ciertos tributos sin el consentimiento del consejo del reino. Y, sobre todo, **ningún hombre libre podía ser arrestado, encarcelado ni despojado de sus bienes** salvo por el juicio legal de sus iguales o por la ley del país. El rey quedaba sometido a la ley.
+
+En la práctica, el acuerdo duró muy poco. Pocas semanas después, Juan pidió al papa Inocencio III que lo anulara, y este la declaró nula en agosto. Estalló una guerra civil, y los barones llegaron a ofrecer la corona al heredero del rey de Francia. Juan murió en 1216, y los regentes de su hijo, Enrique III, **volvieron a promulgar la Carta** en versiones revisadas para ganarse a la nobleza. La de 1225 se convirtió en ley del reino.
+
+Con los siglos, la Carta Magna adquirió un valor simbólico enorme. Juristas ingleses del siglo XVII la invocaron contra el poder absoluto de los Estuardo, y los colonos de América del Norte la citaron en su lucha contra la Corona británica. Sus principios inspiraron documentos como la Constitución de Estados Unidos o la Declaración Universal de los Derechos Humanos. Hoy se conservan cuatro ejemplares originales de 1215: dos en la Biblioteca Británica y uno en las catedrales de Lincoln y Salisbury.
+
+@@ 2026-11-24
+resumen: Un joven naturalista de 22 años se embarcó en un viaje de cinco años alrededor del mundo. Volvió con las preguntas que llevarían a la evolución.
+titulo: Darwin y el Beagle: el viaje que acabaría cambiando la biología
+data: Alrededor del mundo, 1831-1836
+alt: Pintura del barco HMS Beagle fondeado en una bahía de Tierra del Fuego
+pie: El HMS Beagle en Tierra del Fuego, pintado por Conrad Martens, dibujante de la expedición
+saber: Charles Darwin | HMS Beagle | El origen de las especies
+
+El 27 de diciembre de 1831 zarpó del puerto inglés de Plymouth un pequeño barco de la Marina británica, el HMS Beagle. Su misión era cartografiar las costas de Sudamérica. A bordo iba como naturalista un joven de 22 años que había abandonado los estudios de medicina y se había graduado en teología: **Charles Darwin**. El viaje, previsto para dos años, duró casi cinco.
+
+Darwin pasó la mayor parte del tiempo en tierra. Recorrió la selva de Brasil, las pampas argentinas, la Patagonia, Tierra del Fuego y los Andes, mientras el barco trabajaba en la costa. Recogió miles de especímenes de animales, plantas, rocas y fósiles. En Argentina encontró **restos de mamíferos gigantes extinguidos**, parecidos a los armadillos y perezosos actuales, y empezó a preguntarse por qué las especies vivas se parecían a las desaparecidas del mismo continente. En Chile vivió un terremoto y vio cómo la costa se elevaba varios metros.
+
+En septiembre de 1835, el Beagle llegó a las islas Galápagos, en el Pacífico. Darwin pasó allí cinco semanas. Observó que las tortugas gigantes y los sinsontes variaban de una isla a otra, y recogió unos pájaros que después resultaron ser varias especies distintas de pinzones. En aquel momento no sacó grandes conclusiones: **la idea de la evolución se formó años después**, al estudiar sus colecciones en Inglaterra con la ayuda de otros especialistas.
+
+El barco continuó por Tahití, Nueva Zelanda, Australia y el sur de África antes de regresar a Inglaterra en octubre de 1836. Darwin publicó un diario del viaje que tuvo mucho éxito. En 1838, tras leer a Thomas Malthus sobre la lucha por los recursos, formuló en sus cuadernos privados la teoría de la **selección natural**: los individuos con rasgos más ventajosos sobreviven y se reproducen más, y así las especies cambian con el tiempo.
+
+Tardó más de veinte años en publicarla, por prudencia y por el deseo de reunir pruebas. Lo hizo cuando supo que otro naturalista, Alfred Russel Wallace, había llegado a ideas parecidas. «El origen de las especies» se publicó el 24 de noviembre de 1859 y agotó su primera edición en el primer día.
+
+@@ 2026-11-25
+resumen: Un monje alemán publicó en 1517 noventa y cinco tesis contra la venta de indulgencias. La imprenta las difundió y Europa se dividió.
+titulo: Lutero y las 95 tesis: la protesta que partió en dos la cristiandad occidental
+data: Wittenberg (Alemania), 1517
+alt: Impresión antigua de las 95 tesis de Lutero en latín
+pie: Una edición impresa de las 95 tesis de Martín Lutero, de 1517
+saber: Martín Lutero | Noventa y cinco tesis | Reforma protestante
+
+El 31 de octubre de 1517, un monje agustino y profesor de teología de la Universidad de Wittenberg, en Sajonia, envió al arzobispo de Maguncia una carta con noventa y cinco tesis en latín. Se llamaba Martín Lutero. Según una tradición muy difundida, ese mismo día clavó el texto en la puerta de la iglesia del castillo de la ciudad, aunque **los historiadores discuten si ese gesto ocurrió realmente**.
+
+Lutero protestaba contra la venta de indulgencias. Según la doctrina de la Iglesia, una indulgencia perdonaba las penas que el pecador debía cumplir por sus pecados, también en el purgatorio. En aquellos años, el papa León X había autorizado una gran campaña de venta para financiar la nueva basílica de San Pedro en Roma, y un predicador dominico, Johann Tetzel, la promovía en Alemania con métodos muy agresivos. A Lutero le escandalizaba que **la salvación pareciera comprarse con dinero**.
+
+Las tesis estaban pensadas para un debate académico, pero se tradujeron al alemán y se imprimieron en pocas semanas. Gracias a la imprenta, que llevaba solo unas décadas en funcionamiento, el texto circuló por toda Alemania y despertó un enorme eco. Lutero siguió escribiendo y fue más allá: sostuvo que **la salvación depende solo de la fe**, no de las obras, y que la única autoridad en materia religiosa es la Biblia, no el papa ni los concilios.
+
+En 1521, el papa lo excomulgó y el emperador Carlos V lo convocó a la Dieta de Worms, donde se negó a retractarse. Fue declarado proscrito, pero el elector de Sajonia lo protegió y lo escondió en el castillo de Wartburg. Allí tradujo el Nuevo Testamento al alemán, una obra que influyó decisivamente en la lengua alemana moderna.
+
+El movimiento se extendió con rapidez y dio lugar a distintas Iglesias protestantes, desde la luterana hasta las inspiradas por Calvino en Ginebra. Europa se dividió religiosamente, y esa división **provocó guerras durante más de un siglo**, hasta la paz de Westfalia de 1648. La Iglesia católica respondió con su propia reforma, impulsada por el Concilio de Trento.
+
+@@ 2026-11-26
+resumen: El 26 de noviembre de 1922, Howard Carter se asomó por un agujero a la tumba de Tutankamón y vio «cosas maravillosas».
+titulo: Tutankamón: la tumba intacta que asombró al mundo en 1922
+data: Valle de los Reyes (Egipto), 1922
+alt: La máscara funeraria de oro de Tutankamón, con incrustaciones de piedras azules
+pie: La máscara funeraria de Tutankamón, en el Museo Egipcio de El Cairo
+saber: Tutankamón | Howard Carter | Valle de los Reyes
+
+En noviembre de 1922, el arqueólogo británico Howard Carter llevaba más de cinco temporadas buscando sin éxito una tumba en el Valle de los Reyes, cerca de Luxor, financiado por el aristócrata Lord Carnarvon. El 4 de noviembre, sus trabajadores encontraron un escalón tallado en la roca. Debajo apareció una puerta sellada. El 26 de noviembre, con Carnarvon a su lado, Carter abrió un pequeño agujero y acercó una vela. Cuando le preguntaron si veía algo, respondió, según su relato: **«Sí, cosas maravillosas»**.
+
+Era la tumba de Tutankamón, un faraón de la XVIII dinastía que reinó en el siglo XIV a. C. y murió hacia los diecinueve años. Llegó al trono siendo niño, después del reinado de Akenatón, el faraón que había impuesto el culto a un único dios. Durante su gobierno se restauraron los cultos tradicionales. Fue **un rey de poca importancia política**, cuyo nombre fue luego borrado de las listas oficiales.
+
+Precisamente por eso su tumba se salvó. Era pequeña y quedó cubierta por los escombros de una tumba posterior, de modo que pasó desapercibida para los saqueadores que vaciaron casi todas las demás. Aunque había sufrido dos robos menores en la Antigüedad, **conservaba la mayor parte de su ajuar**: más de 5.000 objetos, entre carros, camas, tronos, joyas, armas, ropa, alimentos y estatuas.
+
+Carter y su equipo tardaron diez años en documentar y vaciar la tumba. En 1925 abrieron el último de los tres sarcófagos que encerraban la momia y encontraron la máscara funeraria, de once kilos de oro macizo con incrustaciones de lapislázuli y otras piedras, que se convirtió en **un icono del antiguo Egipto**. Los estudios modernos de la momia, con tomografías y análisis de ADN, sugieren que el joven rey tenía problemas de salud, aunque la causa exacta de su muerte sigue en debate.
+
+Carnarvon murió en abril de 1923 por una infección. La prensa lanzó la leyenda de la «maldición del faraón», que no tenía base: Carter vivió hasta 1939. Los tesoros se trasladaron en su mayor parte al nuevo Gran Museo Egipcio de Guiza.
+
+@@ 2026-11-27
+resumen: Felipe II envió en 1588 una gran flota para invadir Inglaterra. La derrota, las tormentas y los naufragios acabaron con el proyecto.
+titulo: La Armada Invencible: la flota de Felipe II que nunca llegó a desembarcar en Inglaterra
+data: Canal de la Mancha y costas de Irlanda, 1588
+alt: Pintura de una batalla naval con galeones españoles e ingleses entre humo y llamas
+pie: «La derrota de la Armada Invencible» (1796), de Philip James de Loutherbourg
+saber: Grande y Felicísima Armada | Felipe II de España | Isabel I de Inglaterra
+
+En mayo de 1588 partió de Lisboa la mayor flota reunida hasta entonces en el Atlántico: unos 130 barcos con cerca de 30.000 hombres, entre marineros y soldados. Los españoles la llamaban la Grande y Felicísima Armada; el nombre de **«Armada Invencible»** se lo dieron después sus enemigos, con ironía. Su objetivo era invadir Inglaterra.
+
+Felipe II llevaba años enfrentado con la reina Isabel I. Inglaterra apoyaba a los rebeldes de los Países Bajos, que luchaban contra el dominio español, y corsarios como Francis Drake atacaban las flotas y los puertos de la monarquía hispánica. Además, Isabel era protestante, y la ejecución en 1587 de la reina católica de Escocia, María Estuardo, terminó de convencer al rey. El plan consistía en que la Armada, al mando del duque de Medina Sidonia, **recogiera en Flandes el ejército del duque de Parma** y lo escoltara a través del canal de la Mancha.
+
+La flota llegó al canal a finales de julio. Durante una semana, los barcos ingleses, más ágiles y con artillería de mayor alcance, hostigaron a los españoles sin lograr grandes daños. El problema era la coordinación: el ejército de Parma no estaba listo y no había un puerto profundo donde reunirse. La noche del 7 de agosto, frente a Calais, los ingleses lanzaron **barcos incendiarios** contra la Armada fondeada. Los españoles cortaron las anclas y se dispersaron, y al día siguiente fueron atacados en Gravelinas.
+
+El viento impidió el regreso por el canal, y Medina Sidonia decidió volver a España rodeando Escocia e Irlanda. Fue lo peor del viaje: las tormentas del Atlántico hundieron o estrellaron contra las costas irlandesas decenas de barcos, y muchos náufragos murieron ahogados o a manos de las tropas inglesas. Regresaron **unos 60 o 70 barcos** y quizá la mitad de los hombres, aunque las cifras varían según las fuentes.
+
+La derrota no acabó con el poder naval español: Felipe II envió nuevas armadas en los años siguientes, y en 1589 una contraofensiva inglesa contra la península también fracasó. Pero el desastre se convirtió en un mito fundacional de la identidad inglesa.
+
+@@ 2026-11-28
+resumen: Las ciudades griegas, divididas y pequeñas, resistieron dos invasiones del Imperio persa. Salamina, en el 480 a. C., fue la batalla decisiva.
+titulo: De Maratón a Salamina: cómo los griegos frenaron al Imperio persa
+data: Grecia, 490-479 a. C.
+alt: Pintura monumental de la batalla de Salamina con barcos, guerreros y dioses en el cielo
+pie: «La batalla de Salamina» (1868), de Wilhelm von Kaulbach
+saber: Guerras médicas | Batalla de Salamina | Batalla de Maratón
+
+A comienzos del siglo V a. C., el Imperio persa dominaba un territorio inmenso, desde Asia Central hasta Egipto. Las ciudades griegas de la costa de Asia Menor estaban bajo su control, y cuando se rebelaron, Atenas y Eretria les enviaron ayuda. El rey persa Darío I decidió castigarlas. Así comenzaron **las guerras médicas**, llamadas así porque los griegos llamaban «medos» a los persas.
+
+En el 490 a. C., un ejército persa desembarcó en la llanura de Maratón, a unos cuarenta kilómetros de Atenas. Los atenienses, con la ayuda de los plateos y en clara inferioridad numérica, atacaron a la carrera y vencieron. Según una tradición posterior, un mensajero corrió hasta Atenas para anunciar la victoria y murió al llegar: de ahí procede **la carrera de maratón**, aunque los historiadores dudan de la veracidad del episodio.
+
+Diez años después, el hijo de Darío, Jerjes, preparó una invasión mucho mayor, por tierra y por mar. Las ciudades griegas, que vivían enfrentadas entre sí, formaron una alianza dirigida por Esparta. En el paso de las Termópilas, el rey espartano Leónidas y unos pocos miles de hombres frenaron durante tres días al ejército persa, hasta que fueron rodeados. Los persas entraron en Atenas, que había sido evacuada, y **la incendiaron**.
+
+El político ateniense Temístocles había convencido años antes a sus conciudadanos de invertir en una gran flota de trirremes. En septiembre del 480 a. C., atrajo a la armada persa al estrecho canal entre la isla de Salamina y la costa del Ática. Allí, la flota persa, más numerosa, no podía maniobrar, y los trirremes griegos la embistieron. Jerjes, que observaba la batalla desde un trono en una colina, **vio la destrucción de buena parte de sus barcos**.
+
+El rey regresó a Asia, y al año siguiente los griegos derrotaron al ejército persa que había quedado en Grecia en la batalla de Platea. La victoria reforzó a Atenas, que encabezó una liga marítima y vivió su época de mayor esplendor, la de Pericles. Nuestra principal fuente sobre estas guerras es el historiador Heródoto, considerado el padre de la historia.
+
+@@ 2026-11-29
+resumen: Quiso reunir todos los libros del mundo. La biblioteca de Alejandría no desapareció en un gran incendio, sino en un lento declive.
+titulo: La biblioteca de Alejandría: el sueño de reunir todo el saber del mundo
+data: Alejandría (Egipto), siglo III a. C.-siglo III d. C.
+alt: Grabado del siglo XIX que imagina una gran sala con columnas y estanterías de la biblioteca de Alejandría
+pie: Recreación de la biblioteca de Alejandría en un grabado del siglo XIX, de O. von Corven
+saber: Biblioteca de Alejandría | Alejandría | Dinastía ptolemaica
+
+Tras la muerte de Alejandro Magno, uno de sus generales, Ptolomeo, se quedó con Egipto y fundó una dinastía que gobernó durante tres siglos. Su capital, Alejandría, se convirtió en una de las ciudades más ricas del Mediterráneo. Allí, a comienzos del siglo III a. C., los Ptolomeos crearon un gran centro de estudio, el Museo, y junto a él **la biblioteca más famosa de la Antigüedad**.
+
+El objetivo era ambicioso: reunir copias de todos los libros escritos en griego y traducir los de otras lenguas. Según las fuentes antiguas, los reyes enviaban emisarios a comprar manuscritos por todo el Mediterráneo, y los barcos que llegaban al puerto debían entregar sus libros para que se copiaran. Una anécdota cuenta que Ptolomeo III pidió prestados a Atenas los originales de las tragedias de Esquilo, Sófocles y Eurípides, pagó una gran fianza **y nunca los devolvió**.
+
+Las cifras sobre su tamaño varían mucho: las fuentes hablan de entre 40.000 y 700.000 rollos de papiro, y los historiadores las consideran exageradas o imposibles de verificar. Sí sabemos que allí trabajaron algunos de los grandes sabios de la época. Eratóstenes, director de la biblioteca, **calculó la circunferencia de la Tierra** con notable precisión. También se formaron o investigaron en Alejandría matemáticos, astrónomos y médicos que hicieron avanzar sus disciplinas, y se establecieron las ediciones de referencia de los poemas de Homero.
+
+Su destrucción es objeto de muchos mitos. Julio César provocó un incendio en el puerto de Alejandría en el 48 a. C., durante una guerra civil, y algunas fuentes dicen que ardieron libros, aunque no está claro cuántos ni dónde. Otra leyenda atribuye la quema a los árabes en el siglo VII, pero **los historiadores la consideran falsa**. Lo más probable es que la biblioteca decayera poco a poco por la falta de fondos, las purgas de intelectuales y las guerras de los siglos III y IV.
+
+En 2002 se inauguró en la ciudad la Bibliotheca Alexandrina, un gran edificio moderno impulsado por Egipto y la Unesco en homenaje a la biblioteca antigua.
+
+@@ 2026-11-30
+resumen: Sin rey ni ejército permanente, una alianza de ciudades mercantiles dominó durante siglos el comercio del mar del Norte y el Báltico.
+titulo: La Liga Hanseática: la alianza de mercaderes que dominó el norte de Europa
+data: Norte de Europa, siglos XIII-XVII
+alt: Mapa antiguo con la extensión de la Hansa en el norte de Europa hacia el año 1400
+pie: La extensión de la Liga Hanseática hacia el año 1400, en un atlas histórico de finales del siglo XIX
+saber: Liga Hanseática | Lübeck | Mar Báltico
+
+Durante más de tres siglos, el comercio del norte de Europa estuvo en manos de una organización singular: no era un Estado ni un imperio, sino una red de mercaderes y ciudades que se apoyaban mutuamente. Se llamaba la Hansa, una palabra alemana que significaba asociación, y en su apogeo **agrupó a cerca de doscientas ciudades** desde los Países Bajos hasta el golfo de Finlandia.
+
+Todo empezó en el siglo XII con asociaciones de comerciantes alemanes que viajaban juntos para protegerse de los piratas y negociar privilegios en el extranjero. La fundación de Lübeck, en la costa báltica, en 1143 fue clave. Con el tiempo, **las propias ciudades se aliaron**: Lübeck, Hamburgo, Bremen, Colonia, Danzig, Riga y muchas otras. Se reunían en asambleas llamadas dietas y tomaban decisiones comunes, aunque cada ciudad conservaba su autonomía.
+
+Los barcos hanseáticos, unos veleros robustos llamados cocas, transportaban grano de Prusia y Polonia, pieles y cera de Rusia, madera y brea de Escandinavia, arenques del Báltico, bacalao seco de Noruega, paños de Flandes e Inglaterra y vino del Rin. En las grandes plazas comerciales extranjeras, la Hansa tenía **factorías propias con privilegios especiales**: el Peterhof en Nóvgorod, el Steelyard en Londres, el muelle de Bryggen en Bergen y una oficina en Brujas.
+
+Cuando un rey o una ciudad perjudicaba sus intereses, la liga respondía con boicots comerciales o incluso con la guerra. En 1370, tras derrotar al rey de Dinamarca, obtuvo con la paz de Stralsund el control de varias fortalezas del estrecho del Sund y **una influencia decisiva en el Báltico**. Su poder económico se reflejó en una arquitectura propia de iglesias y ayuntamientos de ladrillo rojo, el llamado gótico báltico, que todavía se ve en muchas ciudades.
+
+La liga declinó a partir del siglo XVI. Surgieron estados fuertes con flotas propias, como Suecia, y competidores como los mercaderes holandeses e ingleses, y el comercio atlántico desplazó al del Báltico. La última dieta se celebró en 1669. Lübeck, Hamburgo y Bremen siguen llamándose hoy «ciudades hanseáticas».
+
+@@ 2026-12-01
+resumen: El 1 de diciembre de 1955, Rosa Parks se negó a ceder su asiento a un hombre blanco. El boicot que siguió cambió Estados Unidos.
+titulo: Rosa Parks y el boicot de Montgomery: el asiento que impulsó el movimiento por los derechos civiles
+data: Montgomery (Alabama), 1955-1956
+alt: Fotografía en blanco y negro de Rosa Parks sentada en un autobús en 1956
+pie: Rosa Parks en un autobús de Montgomery en diciembre de 1956, tras el fin de la segregación en el transporte de la ciudad
+saber: Rosa Parks | Boicot de autobuses de Montgomery | Martin Luther King
+
+En el sur de Estados Unidos de mediados del siglo XX, la segregación racial estaba impuesta por la ley. En Montgomery, la capital de Alabama, los pasajeros negros debían sentarse en la parte trasera de los autobuses y ceder su asiento a los blancos si se llenaba la zona delantera. El 1 de diciembre de 1955, una costurera de 42 años llamada Rosa Parks **se negó a levantarse** cuando el conductor se lo ordenó. Fue detenida y multada.
+
+Parks no era una pasajera cualquiera que actuó por cansancio, como se ha repetido a menudo. Era secretaria de la sección local de la NAACP, la principal organización de defensa de los derechos de la población negra, y llevaba años comprometida con esa causa. Ella misma escribió más tarde que no estaba cansada físicamente, sino **cansada de ceder**. Antes que ella, otras mujeres, como la adolescente Claudette Colvin, habían hecho lo mismo.
+
+Su detención fue la chispa de una protesta largamente preparada. Los líderes negros de la ciudad convocaron un boicot a los autobuses y eligieron como portavoz a un joven pastor de 26 años recién llegado a la ciudad: **Martin Luther King**. Durante 381 días, decenas de miles de personas caminaron kilómetros cada día, compartieron coches o usaron taxis de conductores negros que cobraban la tarifa del autobús. La compañía, que dependía en gran parte de esos viajeros, sufrió fuertes pérdidas.
+
+La reacción fue dura. Las casas de King y de otros líderes sufrieron atentados con bombas, y cerca de noventa organizadores fueron acusados de violar una ley contra los boicots. Mientras tanto, abogados del movimiento llevaron el caso a los tribunales federales. En noviembre de 1956, el Tribunal Supremo confirmó que **la segregación en los autobuses era inconstitucional**, y el 21 de diciembre los pasajeros negros volvieron a subir a los autobuses de Montgomery sentándose donde quisieron.
+
+El boicot convirtió a King en una figura nacional e inauguró una década de movilizaciones no violentas que culminó con las leyes de derechos civiles de 1964 y de derecho al voto de 1965. Rosa Parks perdió su trabajo y se trasladó a Detroit. Cuando murió, en 2005, su cuerpo fue velado en el Capitolio de Washington.
+
+@@ 2026-12-02
+resumen: El 2 de diciembre de 1805, Napoleón derrotó a Austria y Rusia en Austerlitz con una trampa magistral. Fue su victoria más célebre.
+titulo: Austerlitz: la batalla de los tres emperadores y la obra maestra de Napoleón
+data: Moravia (actual Chequia), 2 de diciembre de 1805
+alt: Pintura de Napoleón a caballo recibiendo a un oficial tras la batalla de Austerlitz
+pie: «La batalla de Austerlitz» (1810), de François Gérard
+saber: Batalla de Austerlitz | Napoleón Bonaparte | Tercera Coalición
+
+Un año después de coronarse emperador de los franceses, Napoleón Bonaparte se enfrentaba a una nueva alianza de sus enemigos, la Tercera Coalición, formada por el Reino Unido, Austria, Rusia y Suecia. En octubre de 1805, la flota británica destruyó a la francoespañola en Trafalgar. En tierra, sin embargo, **Napoleón avanzó con rapidez** a través de Alemania, rodeó a un ejército austriaco en Ulm y entró en Viena.
+
+Los ejércitos austriaco y ruso se reagruparon en Moravia, en la actual Chequia, con el zar Alejandro I y el emperador Francisco I al frente. Por eso se la conoce como **la batalla de los tres emperadores**. Los aliados sumaban unos 85.000 hombres frente a unos 70.000 franceses. Napoleón decidió provocarlos para que atacaran en las condiciones que él quería.
+
+Su plan fue un engaño. Abandonó a propósito las alturas de Pratzen, una meseta clave del campo de batalla, y debilitó su flanco derecho para que pareciera vulnerable. Los aliados mordieron el anzuelo: en la mañana del 2 de diciembre, bajaron de Pratzen para atacar ese flanco y cortar la retirada francesa hacia Viena. Entonces, entre la niebla que se disipaba y bajo **el llamado «sol de Austerlitz»**, los franceses del mariscal Soult subieron a la meseta y partieron en dos el ejército enemigo.
+
+Al final del día, los aliados habían perdido alrededor de 15.000 hombres entre muertos y heridos, además de unos 11.000 prisioneros, mientras que las bajas francesas rondaban las 9.000. Muchos soldados rusos murieron al intentar huir cruzando estanques helados, aunque la magnitud de ese episodio se ha exagerado. **Austria pidió la paz** pocos días después y firmó el tratado de Presburgo, por el que perdió amplios territorios.
+
+Austerlitz se estudia todavía en las academias militares como ejemplo de maniobra. Napoleón disolvió en 1806 el Sacro Imperio Romano Germánico, una institución de casi mil años, y reorganizó Alemania bajo su influencia. Mandó levantar el Arco de Triunfo de París para celebrar sus victorias, y la columna de la plaza Vendôme se fundió con el bronce de los cañones capturados.
+
+@@ 2026-12-03
+resumen: El 2 de enero de 1492, Boabdil entregó Granada a los Reyes Católicos y terminó el último reino musulmán de la península.
+titulo: La toma de Granada: el final de Al Ándalus en 1492
+data: Granada, 1482-1492
+alt: Pintura de Boabdil a caballo entregando las llaves de Granada a los Reyes Católicos
+pie: «La rendición de Granada» (1882), de Francisco Pradilla, en el Palacio del Senado de Madrid
+saber: Guerra de Granada | Reino nazarí de Granada | Reyes Católicos
+
+Durante más de dos siglos y medio, mientras los reinos cristianos avanzaban por la península ibérica, el reino nazarí de Granada sobrevivió como último territorio musulmán. Abarcaba aproximadamente las actuales provincias de Granada, Málaga y Almería, pagaba tributos a Castilla en muchas épocas y **construyó la Alhambra**, uno de los grandes palacios del mundo islámico.
+
+En 1482, tras la toma de la plaza de Alhama por los castellanos, empezó la guerra que acabaría con el reino. Isabel de Castilla y Fernando de Aragón, los Reyes Católicos, emprendieron una campaña de diez años. Aprovecharon las luchas internas de la dinastía nazarí: el rey Muley Hacén, su hermano el Zagal y su hijo **Boabdil** se disputaron el trono, y Boabdil llegó a ser capturado y liberado por los castellanos a cambio de convertirse en su vasallo.
+
+La guerra fue lenta y costosa. Los castellanos usaron artillería moderna para derribar las murallas de las ciudades y fortalezas una a una: Ronda en 1485, Málaga en 1487 tras un durísimo asedio, Baza y Almería en 1489. En 1491 levantaron frente a Granada un campamento fortificado, la ciudad de Santa Fe, y **sitiaron la capital**. Aislado y sin esperanza de ayuda exterior, Boabdil negoció la rendición.
+
+Las capitulaciones, firmadas en noviembre de 1491, eran generosas sobre el papel: garantizaban a los musulmanes la práctica de su religión, sus leyes, sus bienes y sus costumbres. El 2 de enero de 1492, Boabdil entregó las llaves de la ciudad. Según una leyenda posterior, al mirar Granada por última vez desde un puerto de montaña, lloró, y su madre le reprochó que llorara como mujer lo que no había sabido defender como hombre. El lugar se conoce como **el Suspiro del Moro**.
+
+Las promesas no se cumplieron. En pocos años se impulsaron conversiones forzosas que provocaron la rebelión de las Alpujarras de 1499, y en 1502 Castilla obligó a los musulmanes a bautizarse o marcharse. Ese mismo año de 1492 se decretó la expulsión de los judíos y Colón zarpó hacia el oeste.
+
+@@ 2026-12-04
+resumen: Tres barcos, unos noventa hombres y un error de cálculo: así llegó Colón en 1492 a unas islas que creyó en Asia.
+titulo: El primer viaje de Colón: tres barcos y un error que cambió el mundo
+data: Palos de la Frontera y el Caribe, 1492-1493
+alt: Pintura de Cristóbal Colón desembarcando en una playa con estandartes y marineros
+pie: «El desembarco de Colón» (1847), de John Vanderlyn, en el Capitolio de Estados Unidos
+saber: Primer viaje de Colón | Cristóbal Colón | Capitulaciones de Santa Fe
+
+En abril de 1492, pocos meses después de la toma de Granada, los Reyes Católicos firmaron en Santa Fe unas capitulaciones con un navegante genovés llamado Cristóbal Colón. Le concedían el título de almirante, el gobierno de las tierras que descubriera y una parte de las riquezas que encontrara. Colón llevaba años defendiendo un proyecto: **llegar a Asia navegando hacia el oeste**.
+
+Que la Tierra era redonda lo sabían todos los sabios de la época. El problema era su tamaño. Colón calculó que las costas de Asia estaban a unos 4.000 kilómetros de las Canarias, cuando en realidad están a más de 19.000. Los expertos que habían estudiado su propuesta en Portugal y Castilla sabían que el cálculo era erróneo y que ningún barco podría llevar provisiones para un viaje tan largo. **Tenían razón**, pero ninguno imaginaba que hubiera un continente en medio.
+
+Colón zarpó del puerto de Palos de la Frontera, en Huelva, el 3 de agosto de 1492, con dos carabelas, la Pinta y la Niña, y una nao, la Santa María. Le acompañaban unos noventa hombres, entre ellos los hermanos Pinzón, marinos experimentados de la zona. Tras hacer escala en las Canarias, navegaron más de un mes sin ver tierra. Hubo momentos de tensión entre la tripulación, inquieta por la duración del viaje. **El 12 de octubre**, un marinero de la Pinta, Rodrigo de Triana, avistó tierra.
+
+Era una pequeña isla de las Bahamas que sus habitantes, los taínos, llamaban Guanahaní, y que Colón bautizó como San Salvador. Su identificación exacta sigue debatiéndose. Después recorrió la costa de Cuba y de la isla que llamó La Española, donde la Santa María encalló la noche de Navidad. Con sus restos se construyó un fuerte, el de Navidad, donde quedaron 39 hombres. Colón creía estar en islas cercanas a Japón y China, y llamó **«indios» a sus habitantes**.
+
+Regresó a España en marzo de 1493 y fue recibido con honores en Barcelona. Hizo tres viajes más, pero murió en 1506 convencido de haber llegado a Asia. Para los pueblos indígenas, la llegada de los europeos supuso la conquista, el trabajo forzado y epidemias que causaron un hundimiento demográfico catastrófico.
+
+@@ 2026-12-05
+resumen: La Gran Pirámide fue durante casi 4.000 años el edificio más alto del mundo. Cómo se construyó sigue siendo objeto de investigación.
+titulo: Las pirámides de Guiza: cómo se levantaron las tumbas de los faraones
+data: Egipto, hacia 2600-2500 a. C.
+alt: Las tres grandes pirámides de Guiza en el desierto, junto a otras más pequeñas
+pie: Las pirámides de la necrópolis de Guiza, a las afueras de El Cairo
+saber: Pirámides de Guiza | Gran Pirámide de Guiza | Imperio Antiguo de Egipto
+
+En la meseta de Guiza, junto a El Cairo, se alzan tres grandes pirámides construidas por tres faraones de la IV dinastía, hace unos 4.500 años: Keops, su hijo Kefrén y su nieto Micerino. La mayor, la de Keops, medía originalmente unos 146 metros de altura y fue **el edificio más alto del mundo durante casi 4.000 años**, hasta que la superaron algunas catedrales medievales europeas.
+
+Las pirámides eran tumbas. Formaban parte de complejos funerarios con templos, calzadas y pirámides menores para las reinas. Los egipcios creían que el faraón, al morir, se reunía con los dioses, y la forma piramidal podía evocar los rayos del sol o la colina primigenia de la que surgió el mundo. La de Keops tiene **unos 2,3 millones de bloques de piedra**, con un peso medio de más de dos toneladas, y está orientada con gran precisión hacia los puntos cardinales.
+
+Su construcción sigue siendo objeto de investigación. Los bloques de caliza se extraían de canteras cercanas, y los de granito, para las cámaras interiores, llegaban por el Nilo desde Asuán, a más de 800 kilómetros. Para subirlos se usaron probablemente rampas de distintos tipos, trineos de madera y palancas. En 2013 se encontraron en el mar Rojo papiros del diario de un inspector llamado Merer, que describen **el transporte de piedra por barco** para la pirámide de Keops.
+
+Los constructores no eran esclavos, como sostenía una idea muy difundida. Las excavaciones de un poblado de trabajadores junto a la meseta han revelado panaderías, almacenes, viviendas y tumbas de obreros enterrados con honores cerca de las de su rey. Se trataba de **equipos organizados de trabajadores**, algunos permanentes y otros campesinos que trabajaban por turnos, alimentados con pan, cerveza y carne.
+
+La Gran Pirámide es la única de las siete maravillas del mundo antiguo que sigue en pie. Perdió su revestimiento exterior de caliza blanca pulida, reutilizado durante la Edad Media para construir El Cairo. En 2017, un estudio con partículas cósmicas detectó un gran espacio vacío desconocido en su interior, cuya función todavía no se ha aclarado.
+
+@@ 2026-12-06
+resumen: Votada el 6 de diciembre de 1978, la Constitución cerró la transición de la dictadura a la democracia tras un largo proceso de consensos.
+titulo: La Constitución de 1978: el pacto que cerró la transición a la democracia
+data: España, 1977-1978
+alt: Portada de un ejemplar original de la Constitución española de 1978
+pie: Ejemplar de la Constitución española de 1978
+saber: Constitución española de 1978 | Transición española | Padres de la Constitución
+
+El 6 de diciembre de 1978, los españoles fueron a las urnas para votar en referéndum una nueva Constitución. Votó cerca del 67 % del censo, y **casi el 88 % de los votantes dijo sí**. El rey Juan Carlos I la sancionó el 27 de diciembre y entró en vigor dos días después. Era la primera constitución democrática aprobada en España desde la de 1931.
+
+El camino había empezado con la muerte del dictador Francisco Franco, en noviembre de 1975. Su sucesor como jefe del Estado, el rey Juan Carlos, nombró presidente del Gobierno en 1976 a Adolfo Suárez, que impulsó la Ley para la Reforma Política, aprobada en referéndum. En junio de 1977 se celebraron **las primeras elecciones generales libres en cuatro décadas**, y las nuevas Cortes asumieron la tarea de redactar una constitución.
+
+La ponencia encargada del borrador la formaron siete diputados de distintos partidos, conocidos como los padres de la Constitución: tres de la UCD, el partido de Suárez, y uno del PSOE, uno del Partido Comunista, uno de Alianza Popular y uno de la minoría catalana. El texto se negoció durante meses dentro y fuera del Parlamento, en un ambiente marcado por la crisis económica y por **los atentados terroristas**. Se buscó un acuerdo amplio entre fuerzas que habían estado enfrentadas.
+
+La Constitución define España como un Estado social y democrático de derecho, con una monarquía parlamentaria como forma de gobierno. Reconoce derechos fundamentales y libertades, establece la separación de poderes y crea el Tribunal Constitucional. También reconoce el derecho a la autonomía de nacionalidades y regiones, lo que dio lugar al **Estado de las autonomías**, con diecisiete comunidades y dos ciudades autónomas.
+
+Su valoración sigue siendo objeto de debate político. Para unos, fue un ejemplo de consenso que garantizó décadas de estabilidad democrática; otros critican aspectos del modelo territorial o del propio proceso de transición. Se ha reformado solo dos veces: en 1992, para permitir el voto de ciudadanos de la Unión Europea en elecciones municipales, y en 2011, para introducir el principio de estabilidad presupuestaria.

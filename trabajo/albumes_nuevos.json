@@ -1,0 +1,426 @@
+[
+ {
+  "id": "album-london-calling",
+  "album": "London Calling",
+  "artista": "The Clash",
+  "estilo": "Punk rock",
+  "anio": 1979,
+  "mbid": "8d73e45e-7ca1-3cb4-ae28-6da76196c17c"
+ },
+ {
+  "id": "album-in-the-court-of-the-crimson-king",
+  "album": "In the Court of the Crimson King",
+  "artista": "King Crimson",
+  "estilo": "Rock progresivo",
+  "anio": 1969,
+  "mbid": "a50636b5-5233-3329-a7f3-dba3d0e00ef7"
+ },
+ {
+  "id": "album-led-zeppelin-iv",
+  "album": "Led Zeppelin IV",
+  "artista": "Led Zeppelin",
+  "estilo": "Hard rock",
+  "anio": 1971,
+  "mbid": "2e61da88-39e9-3473-81d2-c964cb394952"
+ },
+ {
+  "id": "album-senderos-de-traicion",
+  "album": "Senderos de traición",
+  "artista": "Héroes del Silencio",
+  "estilo": "Rock",
+  "anio": 1990,
+  "mbid": "5e0ebe19-fed7-3379-a1cd-3e038f511821"
+ },
+ {
+  "id": "album-the-rise-and-fall-of-ziggy-stardust-and-the-spiders-from-mars",
+  "album": "The Rise and Fall of Ziggy Stardust and the Spiders From Mars",
+  "artista": "David Bowie",
+  "estilo": "Glam rock",
+  "anio": 1972,
+  "mbid": "6c9ae3dd-32ad-472c-96be-69d0a3536261"
+ },
+ {
+  "id": "album-close-to-the-edge",
+  "album": "Close to the Edge",
+  "artista": "Yes",
+  "estilo": "Rock progresivo",
+  "anio": 1972,
+  "mbid": "5a59b948-1961-32ff-80d9-e970c7d4ebe9"
+ },
+ {
+  "id": "album-marquee-moon",
+  "album": "Marquee Moon",
+  "artista": "Television",
+  "estilo": "Art punk",
+  "anio": 1977,
+  "mbid": "2b9f99d8-becf-3fc3-86a6-2bdd4cef93fe"
+ },
+ {
+  "id": "album-paranoid",
+  "album": "Paranoid",
+  "artista": "Black Sabbath",
+  "estilo": "Heavy metal",
+  "anio": 1970,
+  "mbid": "cc053745-c447-3566-8f27-bed5438c9133"
+ },
+ {
+  "id": "album-wish-you-were-here",
+  "album": "Wish You Were Here",
+  "artista": "Pink Floyd",
+  "estilo": "Rock progresivo",
+  "anio": 1975,
+  "mbid": "1a272023-10d3-38ee-bab3-317b55fcc21d"
+ },
+ {
+  "id": "album-artaud",
+  "album": "Artaud",
+  "artista": "Pescado Rabioso",
+  "estilo": "Rock argentino",
+  "anio": 1973,
+  "mbid": "8e50433a-c1d5-3019-a48d-0d6b97a5f32b"
+ },
+ {
+  "id": "album-who-s-next",
+  "album": "Who's Next",
+  "artista": "The Who",
+  "estilo": "Rock",
+  "anio": 1971,
+  "mbid": "9584e28b-66a7-3846-8d52-b3008a283539"
+ },
+ {
+  "id": "album-selling-england-by-the-pound",
+  "album": "Selling England by the Pound",
+  "artista": "Genesis",
+  "estilo": "Rock progresivo",
+  "anio": 1973,
+  "mbid": "1fadec3d-7451-32e8-9194-ad7e5312cb9b"
+ },
+ {
+  "id": "album-horses",
+  "album": "Horses",
+  "artista": "Patti Smith",
+  "estilo": "Punk rock",
+  "anio": 1975,
+  "mbid": "ff8f533c-3cb3-3877-9209-11f433edaad2"
+ },
+ {
+  "id": "album-cancion-animal",
+  "album": "Canción animal",
+  "artista": "Soda Stereo",
+  "estilo": "Rock",
+  "anio": 1990,
+  "mbid": "fdf231ee-2d2b-3238-8adc-352475606e6a"
+ },
+ {
+  "id": "album-thick-as-a-brick",
+  "album": "Thick as a Brick",
+  "artista": "Jethro Tull",
+  "estilo": "Rock progresivo",
+  "anio": 1972,
+  "mbid": "13081627-5418-300c-af24-f65875ab61b7"
+ },
+ {
+  "id": "album-remain-in-light",
+  "album": "Remain in Light",
+  "artista": "Talking Heads",
+  "estilo": "New wave",
+  "anio": 1980,
+  "mbid": "f6b1b900-6108-32f0-abbd-2855af9151eb"
+ },
+ {
+  "id": "album-are-you-experienced",
+  "album": "Are You Experienced",
+  "artista": "The Jimi Hendrix Experience",
+  "estilo": "Rock psicodélico",
+  "anio": 1967,
+  "mbid": "da40e720-2097-3730-8a7f-0c2ddbff4a96"
+ },
+ {
+  "id": "album-tubular-bells",
+  "album": "Tubular Bells",
+  "artista": "Mike Oldfield",
+  "estilo": "Rock progresivo",
+  "anio": 1973,
+  "mbid": "d3f057b4-7e89-3018-9f84-9835ed9b4732"
+ },
+ {
+  "id": "album-el-patio",
+  "album": "El patio",
+  "artista": "Triana",
+  "estilo": "Rock andaluz",
+  "anio": 1975,
+  "mbid": "0ed0557a-bb8b-34e6-b4cc-05c76da2c7fd"
+ },
+ {
+  "id": "album-the-doors",
+  "album": "The Doors",
+  "artista": "The Doors",
+  "estilo": "Rock psicodélico",
+  "anio": 1967,
+  "mbid": "8ebffd15-06c3-3b88-a761-ec18c5513287"
+ },
+ {
+  "id": "album-moving-pictures",
+  "album": "Moving Pictures",
+  "artista": "Rush",
+  "estilo": "Rock progresivo",
+  "anio": 1981,
+  "mbid": "40e30dc1-55ac-33e1-85d3-1f1508140bfc"
+ },
+ {
+  "id": "album-exile-on-main-st",
+  "album": "Exile on Main St.",
+  "artista": "The Rolling Stones",
+  "estilo": "Rock",
+  "anio": 1972,
+  "mbid": "4838a3c9-fd2b-30a5-83eb-e32545b5d7fc"
+ },
+ {
+  "id": "album-the-velvet-underground-nico",
+  "album": "The Velvet Underground & Nico",
+  "artista": "The Velvet Underground",
+  "estilo": "Art rock",
+  "anio": 1967,
+  "mbid": "5cbd9d7b-597a-3c5e-bfd1-c2b364215560"
+ },
+ {
+  "id": "album-crime-of-the-century",
+  "album": "Crime of the Century",
+  "artista": "Supertramp",
+  "estilo": "Rock progresivo",
+  "anio": 1974,
+  "mbid": "c3749af5-0d0c-3ed1-b1c0-8b4a8f6c3436"
+ },
+ {
+  "id": "album-highway-61-revisited",
+  "album": "Highway 61 Revisited",
+  "artista": "Bob Dylan",
+  "estilo": "Folk rock",
+  "anio": 1965,
+  "mbid": "fb48b1dc-412f-36aa-8820-1023c08c46c6"
+ },
+ {
+  "id": "album-una-semana-en-el-motor-de-un-autobus",
+  "album": "Una semana en el motor de un autobús",
+  "artista": "Los Planetas",
+  "estilo": "Indie rock",
+  "anio": 1998,
+  "mbid": "1c99d609-bebf-333f-b2f6-f699e15f402e"
+ },
+ {
+  "id": "album-machine-head",
+  "album": "Machine Head",
+  "artista": "Deep Purple",
+  "estilo": "Hard rock",
+  "anio": 1972,
+  "mbid": "d00243c5-adcf-3018-9aa7-1957d7a5a774"
+ },
+ {
+  "id": "album-storia-di-un-minuto",
+  "album": "Storia di un minuto",
+  "artista": "Premiata Forneria Marconi",
+  "estilo": "Rock progresivo",
+  "anio": 1972,
+  "mbid": "8a3ea51c-ea62-3ebb-9b05-624aec86fae5"
+ },
+ {
+  "id": "album-re",
+  "album": "Re",
+  "artista": "Café Tacvba",
+  "estilo": "Rock mexicano",
+  "anio": 1994,
+  "mbid": "05548ae5-6e3d-3e7b-baee-5e03a80fe5d2"
+ },
+ {
+  "id": "album-a-night-at-the-opera",
+  "album": "A Night at the Opera",
+  "artista": "Queen",
+  "estilo": "Rock",
+  "anio": 1975,
+  "mbid": "6b47c9a0-b9e1-3df9-a5e8-50a6ce0dbdbd"
+ },
+ {
+  "id": "album-disintegration",
+  "album": "Disintegration",
+  "artista": "The Cure",
+  "estilo": "Rock gótico",
+  "anio": 1989,
+  "mbid": "494bf606-d2f7-36d0-8340-eadad8601d2b"
+ },
+ {
+  "id": "album-the-snow-goose",
+  "album": "The Snow Goose",
+  "artista": "Camel",
+  "estilo": "Rock progresivo",
+  "anio": 1975,
+  "mbid": "a2fa8db6-17b4-34da-88f6-a8204be451e3"
+ },
+ {
+  "id": "album-master-of-puppets",
+  "album": "Master of Puppets",
+  "artista": "Metallica",
+  "estilo": "Thrash metal",
+  "anio": 1986,
+  "mbid": "3d00fb45-f8ab-3436-a8e1-b4bfc4d66913"
+ },
+ {
+  "id": "album-born-to-run",
+  "album": "Born to Run",
+  "artista": "Bruce Springsteen",
+  "estilo": "Rock",
+  "anio": 1975,
+  "mbid": "39b22944-7503-3937-8bba-09b17281cc6a"
+ },
+ {
+  "id": "album-misplaced-childhood",
+  "album": "Misplaced Childhood",
+  "artista": "Marillion",
+  "estilo": "Rock progresivo",
+  "anio": 1985,
+  "mbid": "06896217-3aba-31d3-8b34-bd193c9e2b98"
+ },
+ {
+  "id": "album-funeral",
+  "album": "Funeral",
+  "artista": "Arcade Fire",
+  "estilo": "Indie rock",
+  "anio": 2004,
+  "mbid": "05affa96-5959-32da-8d75-1c9eb985ca59"
+ },
+ {
+  "id": "album-abraxas",
+  "album": "Abraxas",
+  "artista": "Santana",
+  "estilo": "Rock latino",
+  "anio": 1970,
+  "mbid": "43424c73-fc58-36b0-b9cf-f8b057ac0603"
+ },
+ {
+  "id": "album-the-joshua-tree",
+  "album": "The Joshua Tree",
+  "artista": "U2",
+  "estilo": "Rock",
+  "anio": 1987,
+  "mbid": "6f3e9fa6-be7a-3de8-a2b2-2072ece8a54d"
+ },
+ {
+  "id": "album-agila",
+  "album": "Agila",
+  "artista": "Extremoduro",
+  "estilo": "Rock",
+  "anio": 1996,
+  "mbid": "2d9dcaa2-fb3f-3fbd-a62d-d2f4094adf5b"
+ },
+ {
+  "id": "album-lateralus",
+  "album": "Lateralus",
+  "artista": "Tool",
+  "estilo": "Metal progresivo",
+  "anio": 2001,
+  "mbid": "02f79295-21e1-34cc-82f2-63219eec4f0a"
+ },
+ {
+  "id": "album-harvest",
+  "album": "Harvest",
+  "artista": "Neil Young",
+  "estilo": "Folk rock",
+  "anio": 1972,
+  "mbid": "b25419cf-71bf-3a54-8cd4-2161c61056a0"
+ },
+ {
+  "id": "album-omega",
+  "album": "Omega",
+  "artista": "Enrique Morente y Lagartija Nick",
+  "estilo": "Flamenco rock",
+  "anio": 1996,
+  "mbid": "15cd32e1-8371-3681-9973-92bc9a2c03d1"
+ },
+ {
+  "id": "album-doolittle",
+  "album": "Doolittle",
+  "artista": "Pixies",
+  "estilo": "Rock alternativo",
+  "anio": 1989,
+  "mbid": "1aa41b19-5a72-341b-bd91-4cf61d1dab6b"
+ },
+ {
+  "id": "album-images-and-words",
+  "album": "Images and Words",
+  "artista": "Dream Theater",
+  "estilo": "Metal progresivo",
+  "anio": 1992,
+  "mbid": "ee30c026-b4f4-3e2a-94cf-7e586f1ccae0"
+ },
+ {
+  "id": "album-hotel-california",
+  "album": "Hotel California",
+  "artista": "Eagles",
+  "estilo": "Rock",
+  "anio": 1976,
+  "mbid": "836f349a-0434-3e8b-a0bc-261f77a9f99c"
+ },
+ {
+  "id": "album-is-this-it",
+  "album": "Is This It",
+  "artista": "The Strokes",
+  "estilo": "Indie rock",
+  "anio": 2001,
+  "mbid": "efea26d1-a016-30f6-b8e2-bc8c02336b0a"
+ },
+ {
+  "id": "album-ten",
+  "album": "Ten",
+  "artista": "Pearl Jam",
+  "estilo": "Grunge",
+  "anio": 1991,
+  "mbid": "cea5d18a-1924-3cda-bebc-38933834b25d"
+ },
+ {
+  "id": "album-in-absentia",
+  "album": "In Absentia",
+  "artista": "Porcupine Tree",
+  "estilo": "Rock progresivo",
+  "anio": 2002,
+  "mbid": "94cfdc4c-5eb5-3b62-9dbe-8e051528c6e5"
+ },
+ {
+  "id": "album-back-in-black",
+  "album": "Back in Black",
+  "artista": "AC/DC",
+  "estilo": "Hard rock",
+  "anio": 1980,
+  "mbid": "d3bc1a64-7561-3787-b680-0003aa50f8f1"
+ },
+ {
+  "id": "album-la-cancion-de-juan-perro",
+  "album": "La canción de Juan Perro",
+  "artista": "Radio Futura",
+  "estilo": "Rock",
+  "anio": 1987,
+  "mbid": "15e44143-06bc-319b-b18e-69c86aca4cc2"
+ },
+ {
+  "id": "album-siamese-dream",
+  "album": "Siamese Dream",
+  "artista": "The Smashing Pumpkins",
+  "estilo": "Rock alternativo",
+  "anio": 1993,
+  "mbid": "a159e102-18bb-42ca-a59e-5f96a7eff241"
+ },
+ {
+  "id": "album-brothers-in-arms",
+  "album": "Brothers in Arms",
+  "artista": "Dire Straits",
+  "estilo": "Rock",
+  "anio": 1985,
+  "mbid": "b02f651e-32a1-30ae-bc23-070b59170278"
+ },
+ {
+  "id": "album-songs-for-the-deaf",
+  "album": "Songs for the Deaf",
+  "artista": "Queens of the Stone Age",
+  "estilo": "Stoner rock",
+  "anio": 2002,
+  "mbid": "cbffb669-c390-3a4d-b46f-1be8ea934b03"
+ }
+]

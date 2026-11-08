@@ -1,0 +1,215 @@
+@@ 2026-12-20
+resumen: En una ciudad sitiada por Napoleón, las Cortes de Cádiz aprobaron en 1812 la primera constitución española. Su vida fue breve, pero dejó huella.
+titulo: La Constitución de Cádiz: «la Pepa», la primera constitución española
+data: Cádiz, 1810-1812
+alt: Portada de un ejemplar de la Constitución política de la Monarquía española de 1812
+pie: Portada de la Constitución de 1812, promulgada en Cádiz
+saber: Constitución española de 1812 | Cortes de Cádiz | Guerra de la Independencia Española
+
+En 1808, Napoleón obligó a los reyes españoles, Carlos IV y su hijo Fernando VII, a renunciar al trono en Bayona y colocó en él a su hermano José Bonaparte. En buena parte del país estalló un levantamiento contra los franceses. Ante la ausencia del rey, se formaron juntas locales que organizaron la resistencia y, en 1810, **se convocaron unas Cortes** en la única gran ciudad libre de la ocupación: Cádiz, protegida por el mar y la flota británica.
+
+A las Cortes acudieron diputados de la península y también de los territorios americanos y de Filipinas. Muchos eran clérigos, abogados, funcionarios y militares. Pronto se dividieron entre los liberales, partidarios de reformas profundas, y los llamados serviles, defensores del absolutismo. Mientras las bombas francesas caían sobre la ciudad, los diputados aprobaron la libertad de imprenta y la abolición de los señoríos jurisdiccionales, y redactaron **una constitución**.
+
+Se promulgó el 19 de marzo de 1812, festividad de san José. Por eso se la conoce popularmente como «la Pepa». Establecía que **la soberanía residía en la nación**, y no en el rey, y fijaba la separación de poderes: las Cortes hacían las leyes, el rey las ejecutaba y los tribunales juzgaban. Instauraba un sufragio masculino indirecto muy amplio para la época, garantizaba ciertos derechos y la igualdad ante la ley, pero mantenía el catolicismo como religión oficial y única.
+
+Su vigencia fue corta. En 1814, al regresar a España tras la derrota de Napoleón, Fernando VII la derogó, persiguió a los liberales y restauró el absolutismo. Volvió a aplicarse durante el Trienio Liberal, entre 1820 y 1823, tras el pronunciamiento de Rafael del Riego, hasta que un ejército francés, los Cien Mil Hijos de San Luis, restableció el poder absoluto del rey. Tuvo un último periodo breve en 1836.
+
+Pese a ello, su influencia fue enorme. Inspiró constituciones en Portugal, Italia y varios países de América Latina, y la palabra «liberal», como término político, se difundió por Europa a partir de los debates de Cádiz. Para el liberalismo español del siglo XIX fue **un mito y una referencia** constante.
+
+@@ 2026-12-21
+resumen: Hace más de 5.000 años, en Mesopotamia, los sumerios empezaron a dejar marcas en tablillas de arcilla para contar cereal. Así nació la escritura.
+titulo: La escritura cuneiforme: cómo los sumerios inventaron la escritura en tablillas de arcilla
+data: Mesopotamia, hacia 3300 a. C.-siglo I d. C.
+alt: Tablilla sumeria de arcilla con signos cuneiformes grabados en forma de cuña
+pie: Tablilla de arcilla con escritura cuneiforme sumeria
+saber: Escritura cuneiforme | Sumeria | Uruk
+
+Entre los ríos Tigris y Éufrates, en el actual Irak, los sumerios construyeron hace más de cinco mil años algunas de las primeras ciudades del mundo. La mayor era Uruk, que hacia el 3300 a. C. pudo tener decenas de miles de habitantes. En sus templos se almacenaban grandes cantidades de cereal, ganado y otros bienes. Para llevar la cuenta, los administradores empezaron a dejar marcas sobre tablillas de arcilla húmeda. Así nació **uno de los sistemas de escritura más antiguos que se conocen**.
+
+Los primeros signos eran dibujos simplificados de objetos: una espiga para el cereal, una cabeza de buey para el ganado, acompañados de marcas numéricas. La mayoría de las tablillas más antiguas son **registros contables**: raciones, entregas, cuentas de trabajadores. Con el tiempo, los escribas dejaron de dibujar y empezaron a presionar la arcilla con un punzón de caña de punta triangular. Las marcas tenían forma de cuña, en latín «cuneus»: de ahí el nombre de escritura cuneiforme.
+
+La gran innovación llegó cuando los signos empezaron a representar sonidos además de objetos. Eso permitió escribir nombres propios, palabras abstractas y, finalmente, cualquier frase de la lengua hablada. El sistema llegó a tener **varios cientos de signos** y se tardaban años en dominarlo. Los futuros escribas aprendían en escuelas llamadas «casas de las tablillas», copiando listas de palabras y textos una y otra vez.
+
+La escritura cuneiforme se usó durante más de tres mil años y se adaptó a lenguas muy distintas del sumerio, como el acadio, el babilonio, el asirio, el hitita o el persa antiguo. En ella se escribieron leyes, como el código de Hammurabi, cartas diplomáticas, textos astronómicos y literatura, como la epopeya de Gilgamesh. Las tablillas de arcilla, endurecidas al sol o por los incendios de los palacios, han sobrevivido en enormes cantidades: **se conservan cientos de miles**.
+
+La escritura cayó en desuso a comienzos de nuestra era, desplazada por el arameo y el griego, y se olvidó por completo. En el siglo XIX, eruditos europeos lograron descifrarla gracias en parte a inscripciones trilingües, como la del rey Darío I en Behistún, en Irán.
+
+@@ 2026-12-22
+resumen: El 6 de junio de 1944, más de 150.000 soldados aliados desembarcaron en las playas de Normandía. Fue el comienzo del fin de la Alemania nazi.
+titulo: El desembarco de Normandía: el día D que abrió el frente occidental
+data: Normandía (Francia), 6 de junio de 1944
+alt: Fotografía de soldados estadounidenses saliendo de una lancha de desembarco hacia la playa de Omaha
+pie: Soldados estadounidenses desembarcan en la playa de Omaha el 6 de junio de 1944
+saber: Desembarco de Normandía | Batalla de Normandía | Dwight D. Eisenhower
+
+En la madrugada del 6 de junio de 1944, una flota de unos 7.000 barcos cruzó el canal de la Mancha desde Inglaterra. Al amanecer, decenas de miles de soldados estadounidenses, británicos y canadienses, junto a tropas de otros países aliados, empezaron a desembarcar en cinco playas de la costa de Normandía, a las que se dio los nombres en clave de Utah, Omaha, Gold, Juno y Sword. **Era el día D**, la mayor operación anfibia de la historia.
+
+La Unión Soviética llevaba años reclamando a sus aliados un segundo frente en Europa occidental que aliviara la presión alemana en el este. El mando supremo lo asumió el general estadounidense Dwight D. Eisenhower. La preparación se prolongó durante meses y movilizó a más de dos millones de soldados en Gran Bretaña. Para confundir a los alemanes, los aliados organizaron **una gran operación de engaño**, con un ejército ficticio, tanques hinchables y mensajes falsos, que les hizo creer que el ataque principal sería en Calais.
+
+Antes del desembarco, miles de paracaidistas cayeron detrás de las líneas enemigas para tomar puentes y cruces de carreteras, y los bombarderos y la artillería naval atacaron las defensas costeras. La resistencia varió mucho según la playa. En Omaha, los estadounidenses se encontraron con acantilados, obstáculos y búnkeres que no habían sido destruidos, y **sufrieron miles de bajas** en las primeras horas. Al final del día, unos 156.000 soldados habían llegado a tierra.
+
+La operación tuvo también una parte de suerte. El mal tiempo había hecho pensar a los alemanes que no habría ataque, y el mariscal Rommel, responsable de las defensas, estaba en Alemania celebrando el cumpleaños de su esposa. Hitler tardó horas en autorizar el envío de las divisiones blindadas de reserva, convencido de que se trataba de una maniobra de distracción.
+
+La batalla de Normandía duró casi tres meses y fue muy dura, con grandes pérdidas entre los soldados y la población civil francesa. A finales de agosto de 1944, **París fue liberada**. Menos de un año después, en mayo de 1945, Alemania se rindió, presionada desde el oeste por los aliados y desde el este por el Ejército Rojo.
+
+@@ 2026-12-23
+resumen: En agosto de 1947, la India y Pakistán nacieron como Estados independientes. La partición provocó una de las mayores migraciones de la historia.
+titulo: La partición de la India: la independencia que dividió un subcontinente
+data: India y Pakistán, 1947
+alt: Fotografía de una larga columna de refugiados con carros y animales durante la partición de la India
+pie: Columnas de refugiados procedentes del Punjab occidental en 1947
+saber: Partición de la India | Independencia de la India | Mahatma Gandhi
+
+A la medianoche del 14 al 15 de agosto de 1947, tras casi dos siglos de dominio británico, la India alcanzó la independencia. El primer ministro, Jawaharlal Nehru, habló ante la Asamblea Constituyente de una cita con el destino. Un día antes había nacido otro Estado, Pakistán. **La independencia llegó acompañada de la partición** del subcontinente según criterios religiosos.
+
+El movimiento independentista, encabezado por el Congreso Nacional Indio, con figuras como Mahatma Gandhi y Nehru, aspiraba a un país unido. Pero la Liga Musulmana, dirigida por Muhammad Ali Jinnah, sostenía que los musulmanes, minoría en el conjunto de la India, necesitaban **un Estado propio** para no quedar sometidos a la mayoría hindú. Tras la Segunda Guerra Mundial, el Reino Unido, agotado, decidió marcharse cuanto antes, y el último virrey, Lord Mountbatten, adelantó la fecha de la retirada.
+
+Las nuevas fronteras las trazó en apenas cinco semanas un abogado británico, Cyril Radcliffe, que nunca había estado en la India. Pakistán quedó formado por dos territorios separados por más de 1.500 kilómetros: el occidental, con el oeste del Punjab, y el oriental, en Bengala, que en 1971 se independizaría como Bangladés. Las dos grandes provincias del Punjab y Bengala **quedaron partidas en dos**, y la línea definitiva se publicó dos días después de la independencia.
+
+Millones de personas se encontraron del lado equivocado de la frontera. Hindúes y sijs huyeron hacia la India, y musulmanes hacia Pakistán. Se calcula que **entre 10 y 20 millones de personas** se desplazaron, una de las mayores migraciones de la historia. La violencia entre comunidades fue terrible: trenes cargados de refugiados llegaban con todos sus pasajeros asesinados y decenas de miles de mujeres fueron secuestradas o violadas. Las estimaciones de muertos oscilan entre varios cientos de miles y dos millones.
+
+Gandhi, que se había opuesto a la partición, ayunó para detener la violencia en Calcuta y Delhi. En enero de 1948 fue asesinado por un nacionalista hindú. La disputa por Cachemira provocó ese mismo año la primera guerra entre la India y Pakistán, y la región sigue dividida y en conflicto.
+
+@@ 2026-12-24
+resumen: En la Navidad de 1914, en varios puntos del frente occidental, soldados enemigos salieron de las trincheras para cantar, charlar e intercambiar regalos.
+titulo: La tregua de Navidad de 1914: cuando los soldados dejaron de disparar
+data: Frente occidental (Bélgica y Francia), diciembre de 1914
+alt: Fotografía de soldados británicos y alemanes reunidos en la tierra de nadie durante la tregua de Navidad de 1914
+pie: Soldados británicos y alemanes juntos durante la tregua de Navidad de 1914, en una fotografía del Museo Imperial de la Guerra
+saber: Tregua de Navidad | Primera Guerra Mundial | Frente occidental (Primera Guerra Mundial)
+
+Cuando estalló la Primera Guerra Mundial, en el verano de 1914, muchos pensaban que terminaría antes de Navidad. A finales de diciembre, sin embargo, los ejércitos llevaban semanas atrincherados frente a frente a lo largo de cientos de kilómetros, desde el mar del Norte hasta Suiza. Habían muerto cientos de miles de soldados. En algunos sectores, las trincheras enemigas estaban **a menos de cien metros** unas de otras.
+
+En la víspera de Navidad, en varios puntos del frente en Flandes, los soldados británicos vieron cómo los alemanes colocaban árboles iluminados con velas sobre los parapetos de sus trincheras y empezaban a cantar villancicos, entre ellos «Noche de paz». Los británicos respondieron con sus propios cantos. Poco a poco, **algunos hombres salieron a la tierra de nadie**, la franja entre las líneas enemigas, primero con precaución y después en grupos.
+
+Al día siguiente, en distintos lugares, soldados que hasta entonces se disparaban se estrecharon la mano, intercambiaron cigarrillos, chocolate, botones y botellas, se enseñaron fotografías de sus familias y enterraron juntos a los muertos que yacían entre las líneas. Hay testimonios de **partidos de fútbol improvisados**, aunque los historiadores creen que fueron más bien peloteos informales que verdaderos partidos. La tregua no fue general: en muchos sectores siguieron los combates y hubo muertos ese mismo día.
+
+Los mandos de ambos ejércitos vieron aquella confraternización con preocupación. Temían que los soldados perdieran la voluntad de luchar contra un enemigo al que habían visto de cerca. En los años siguientes **se prohibieron expresamente** este tipo de contactos, y la artillería recibió órdenes de bombardear en las fechas señaladas. Las Navidades de 1915 en adelante apenas registraron episodios similares.
+
+La guerra duraría casi cuatro años más y costaría millones de vidas. La tregua de 1914 quedó en la memoria como un símbolo de humanidad en medio de la barbarie. Se ha recordado en canciones, películas, novelas y monumentos, como el que se inauguró en 2014 en Mesen, en Bélgica, cerca de uno de los lugares donde ocurrió.
+
+@@ 2026-12-25
+resumen: El día de Navidad del año 800, el papa León III coronó a Carlomagno emperador en Roma. Nacía la idea de un imperio cristiano en Occidente.
+titulo: Carlomagno: el rey de los francos coronado emperador en la Navidad del año 800
+data: Roma, 25 de diciembre del año 800
+alt: Fresco renacentista que representa la coronación de Carlomagno por el papa en una basílica llena de personajes
+pie: «La coronación de Carlomagno», fresco del taller de Rafael en las Estancias Vaticanas (1516-1517)
+saber: Carlomagno | Imperio carolingio | Renacimiento carolingio
+
+El día de Navidad del año 800, en la basílica de San Pedro de Roma, el papa León III colocó una corona sobre la cabeza de Carlos, rey de los francos, mientras los asistentes lo aclamaban como emperador de los romanos. Por primera vez desde la caída del Imperio romano de Occidente, más de tres siglos antes, **un monarca de Europa occidental recibía el título imperial**.
+
+Carlos, a quien la historia conocería como Carlomagno, Carlos el Grande, había heredado en el 768 parte del reino de los francos y lo había unificado tras la muerte de su hermano. Durante décadas de campañas, conquistó el reino de los lombardos en Italia, sometió a los sajones del norte de Alemania tras una guerra larga y brutal, derrotó a los ávaros en Europa central y estableció una frontera frente a Al Ándalus en el norte de la península ibérica, **la Marca Hispánica**. En una de esas expediciones, en el 778, su retaguardia sufrió una derrota en Roncesvalles que inspiraría la «Canción de Rolando».
+
+La coronación tuvo motivos políticos para ambos protagonistas. León III había sido atacado en Roma por sus enemigos y había acudido a Carlomagno en busca de protección. El rey franco, por su parte, aspiraba a un título que lo pusiera a la altura del emperador bizantino de Constantinopla. Su biógrafo, Eginardo, afirmó que **Carlomagno no conocía de antemano** la intención del papa, algo que muchos historiadores ponen en duda.
+
+Su imperio se extendía desde el norte de España hasta el Elba y el centro de Italia. Para gobernarlo, Carlomagno se apoyó en condes y en enviados que recorrían las provincias, y fijó su corte en Aquisgrán. Impulsó lo que los historiadores llaman **el renacimiento carolingio**: atrajo a sabios de toda Europa, como el monje inglés Alcuino de York, fomentó la creación de escuelas en monasterios y catedrales y promovió la copia de textos antiguos con una letra clara, la minúscula carolina, de la que derivan nuestras letras minúsculas.
+
+Carlomagno murió en el 814. Sus nietos se repartieron el imperio en el tratado de Verdún del 843, origen lejano de Francia y Alemania, pero la idea de un imperio cristiano en Occidente perduró durante siglos en el Sacro Imperio Romano Germánico.
+
+@@ 2026-12-26
+resumen: El 25 de diciembre de 1991, Gorbachov dimitió y la bandera roja se arrió en el Kremlin. La Unión Soviética había dejado de existir.
+titulo: La disolución de la Unión Soviética: el final de una superpotencia
+data: Unión Soviética, 1991
+alt: Fotografía de la firma de los acuerdos de Belavezha por los dirigentes de Rusia, Ucrania y Bielorrusia
+pie: Firma del acuerdo que disolvía la URSS y creaba la Comunidad de Estados Independientes, el 8 de diciembre de 1991
+saber: Disolución de la Unión Soviética | Mijaíl Gorbachov | Comunidad de Estados Independientes
+
+En la tarde del 25 de diciembre de 1991, Mijaíl Gorbachov apareció en televisión para anunciar su dimisión como presidente de la Unión Soviética. Poco después, la bandera roja con la hoz y el martillo fue arriada del Kremlin y sustituida por la tricolor rusa. Al día siguiente, el Soviet Supremo reconoció formalmente que **la URSS había dejado de existir**. Un Estado que había sido una superpotencia durante casi medio siglo se disolvió sin una guerra entre sus repúblicas.
+
+Gorbachov había llegado al poder en 1985 con el objetivo de reformar un sistema estancado. Su política de perestroika, reestructuración económica, y de glasnost, transparencia, permitió una libertad de expresión desconocida hasta entonces. Pero las reformas económicas no lograron mejorar las condiciones de vida, y la apertura política **dio voz a los movimientos nacionalistas** de las quince repúblicas que formaban la Unión. En 1989, los países de Europa del Este se libraron de sus regímenes comunistas sin que Moscú interviniera.
+
+Las repúblicas bálticas, Lituania, Letonia y Estonia, fueron las primeras en declarar su independencia. En agosto de 1991, un grupo de dirigentes comunistas partidarios de la línea dura intentó un golpe de Estado y retuvo a Gorbachov en su residencia de Crimea. El golpe fracasó en tres días, en gran parte por **la resistencia en Moscú encabezada por Borís Yeltsin**, presidente de Rusia, que se subió a un tanque para arengar a la multitud. Desde entonces, el poder real pasó de Gorbachov a Yeltsin y a los dirigentes de las repúblicas.
+
+El 8 de diciembre de 1991, los presidentes de Rusia, Ucrania y Bielorrusia se reunieron en una residencia de caza en el bosque de Belavezha y firmaron un acuerdo que declaraba que la Unión Soviética, como sujeto del derecho internacional, dejaba de existir. En su lugar crearon **la Comunidad de Estados Independientes**, a la que se sumaron después la mayoría de las demás repúblicas.
+
+La disolución dio lugar a quince Estados independientes. Para muchos ciudadanos del antiguo bloque supuso la libertad; para otros, una década de crisis económica, inflación y pobreza. Sus consecuencias, incluidos los conflictos territoriales entre algunos de esos Estados, siguen muy presentes en la política internacional.
+
+@@ 2026-12-27
+resumen: Era el barco más grande del mundo y se creía casi insumergible. En su viaje inaugural, en abril de 1912, chocó con un iceberg y se hundió.
+titulo: El Titanic: el hundimiento que cambió la seguridad en el mar
+data: Atlántico Norte, 14-15 de abril de 1912
+alt: Fotografía del transatlántico Titanic navegando en 1912
+pie: El Titanic, fotografiado en abril de 1912
+saber: RMS Titanic | Hundimiento del Titanic | Convenio SOLAS
+
+El 10 de abril de 1912 zarpó del puerto inglés de Southampton el Titanic, el mayor barco de pasajeros del mundo. Medía casi 270 metros de eslora, pertenecía a la compañía White Star Line y ofrecía a sus pasajeros de primera clase un lujo desconocido en el mar: piscina, gimnasio, restaurantes y salones decorados como palacios. La prensa de la época llegó a describirlo como **prácticamente insumergible**.
+
+Llevaba a bordo unas 2.200 personas, entre pasajeros y tripulación. En primera clase viajaban algunos de los hombres más ricos del mundo; en tercera, cientos de emigrantes que buscaban una vida nueva en Estados Unidos. En la noche del 14 de abril, a unos 600 kilómetros al sur de Terranova, el barco navegaba a gran velocidad pese a los **avisos de hielo** recibidos por radio de otros buques. A las 23.40, los vigías avistaron un iceberg delante. El barco giró, pero no lo suficiente.
+
+El choque abrió una serie de brechas en el casco por debajo de la línea de flotación. El Titanic estaba dividido en compartimentos estancos y podía mantenerse a flote con cuatro inundados, pero el agua entraba en cinco o seis. El arquitecto naval que viajaba a bordo calculó que el barco se hundiría en pocas horas. El problema más grave era otro: **los botes salvavidas solo tenían plazas para unas 1.200 personas**, aproximadamente la mitad de los que iban a bordo. Las normas vigentes, anticuadas, no exigían más.
+
+La evacuación fue caótica. Muchos botes se arriaron medio vacíos al principio, cuando los pasajeros no creían que el barco fuera a hundirse. A las 2.20 del 15 de abril, el Titanic se partió en dos y desapareció. Unas 1.500 personas murieron, la mayoría en el agua helada. El trasatlántico Carpathia, que acudió a las llamadas de socorro, rescató a unos 700 supervivientes. **La tasa de supervivencia fue mucho mayor en primera clase** que en tercera.
+
+El desastre impulsó en 1914 el primer convenio internacional para la seguridad de la vida en el mar, que obligó a llevar botes para todos y a mantener la radio en servicio permanente. El pecio fue localizado en 1985 a casi 4.000 metros de profundidad.
+
+@@ 2026-12-28
+resumen: En una mañana de niebla de 1600, la batalla de Sekigahara decidió quién gobernaría Japón. La familia Tokugawa mandó durante 268 años.
+titulo: Sekigahara: la batalla que dio a los Tokugawa dos siglos y medio de poder en Japón
+data: Japón, 21 de octubre de 1600
+alt: Biombo japonés pintado con escenas de la batalla de Sekigahara, con ejércitos de samuráis y estandartes
+pie: Biombo con escenas de la batalla de Sekigahara, del siglo XVII
+saber: Batalla de Sekigahara | Tokugawa Ieyasu | Shogunato Tokugawa
+
+Durante más de un siglo, Japón vivió dividido por las guerras entre señores feudales, los daimios, en un periodo que los historiadores llaman Sengoku, «de los Estados en guerra». A finales del siglo XVI, dos grandes caudillos, Oda Nobunaga y su sucesor Toyotomi Hideyoshi, lograron unificar el país. Pero cuando Hideyoshi murió en 1598, su heredero era un niño de cinco años. **El poder quedó en disputa**.
+
+El daimio más poderoso era Tokugawa Ieyasu, que controlaba las ricas tierras del este en torno a Edo, la futura Tokio. Frente a él se formó una coalición de señores del oeste, dirigida por Ishida Mitsunari, un administrador fiel a la familia Toyotomi. Ambos bandos reunieron ejércitos enormes: **unos 80.000 hombres** por parte de Tokugawa y una cifra similar o superior por la del oeste, según estimaciones que varían.
+
+Los dos ejércitos se encontraron el 21 de octubre de 1600, según el calendario actual, en Sekigahara, un valle de montaña en el centro de Japón por el que pasaban las principales rutas entre el este y el oeste. La mañana amaneció con niebla. Durante horas, la batalla estuvo equilibrada. La clave fue la traición: Tokugawa había negociado en secreto con varios daimios del bando contrario, y en mitad del combate **Kobayakawa Hideaki cambió de lado** con sus tropas y atacó a sus antiguos aliados. El ejército del oeste se desmoronó.
+
+Ishida Mitsunari fue capturado y ejecutado en Kioto. Tokugawa redistribuyó las tierras de los vencidos entre sus aliados y, en 1603, el emperador le concedió el título de shogun, el gobernante militar del país. En 1615 eliminó a los últimos partidarios de los Toyotomi en el asedio del castillo de Osaka.
+
+El shogunato Tokugawa gobernó Japón durante **más de dos siglos y medio**, hasta 1868. Fue una época de paz interior, crecimiento de las ciudades y florecimiento cultural, con el teatro kabuki, los grabados ukiyo-e o la poesía haiku. Pero también de rígida jerarquía social y de aislamiento: desde la década de 1630, el país restringió casi por completo el contacto con el exterior.
+
+@@ 2026-12-29
+resumen: En 1848, un carpintero encontró pepitas de oro en un río de California. En pocos años llegaron unas 300.000 personas de todo el mundo.
+titulo: La fiebre del oro de California: el hallazgo que transformó el oeste de Estados Unidos
+data: California, 1848-1855
+alt: Fotografía antigua de mineros de California trabajando con un canal de madera para lavar oro
+pie: Mineros de la fiebre del oro de California con un «long tom», un canal para separar el oro, hacia 1852
+saber: Fiebre del oro de California | San Francisco | Sutter's Mill
+
+El 24 de enero de 1848, James Marshall, un carpintero que construía un aserradero para el empresario John Sutter junto al río American, en el norte de California, vio brillar algo en el canal. Eran **pepitas de oro**. Sutter intentó mantener el hallazgo en secreto, pero la noticia se difundió. Pocos días después, por coincidencia, México cedía California a Estados Unidos al terminar la guerra entre ambos países.
+
+Al principio llegaron los habitantes de la zona y de lugares cercanos, como Oregón, Hawái, México o Chile. A finales de 1848, el presidente James K. Polk confirmó el descubrimiento ante el Congreso y la noticia recorrió el mundo. En 1849, decenas de miles de personas partieron hacia California: por eso los buscadores de oro recibieron el nombre de **«forty-niners»**, los del 49. Llegaban en largas caravanas a través de las llanuras y las montañas, en barcos que rodeaban el cabo de Hornos o cruzando el istmo de Panamá.
+
+En pocos años, la población no indígena de California pasó de unos pocos miles a **más de 250.000 personas**. Llegaron estadounidenses, latinoamericanos, europeos y miles de chinos. San Francisco, un pequeño asentamiento, se convirtió en una ciudad de decenas de miles de habitantes, con su puerto lleno de barcos abandonados por tripulaciones que se habían marchado a las minas. California se convirtió en estado de la Unión en 1850.
+
+Muy pocos buscadores se hicieron ricos. Al principio el oro estaba en la superficie de los ríos y bastaba con lavar la arena en una batea, pero pronto se agotó y fueron necesarias técnicas más costosas, como la minería hidráulica, que destrozó laderas enteras. Los que más ganaron fueron a menudo **los comerciantes que vendían herramientas, comida y ropa** a precios muy altos. Uno de ellos fue Levi Strauss, que empezó vendiendo tejidos y años después patentó los pantalones vaqueros con remaches.
+
+Para los pueblos indígenas de California, la fiebre del oro fue una catástrofe. Sus tierras fueron invadidas, sus ríos contaminados y miles de personas murieron por enfermedades, hambre y ataques. Se calcula que su población cayó de unos 150.000 a unos 30.000 en pocas décadas. Los mineros chinos y latinoamericanos también sufrieron discriminación y impuestos especiales.
+
+@@ 2026-12-30
+resumen: Hace casi 2.000 años, Teotihuacán fue una de las mayores ciudades del mundo. Los mexicas la encontraron en ruinas y la llamaron «lugar de los dioses».
+titulo: Teotihuacán: la gran ciudad de Mesoamérica que los mexicas encontraron en ruinas
+data: Valle de México, siglos I-VII
+alt: Vista de la pirámide del Sol de Teotihuacán desde la calzada de los Muertos
+pie: La pirámide del Sol de Teotihuacán, cerca de Ciudad de México
+saber: Teotihuacán | Pirámide del Sol | Mesoamérica
+
+A unos cincuenta kilómetros al noreste de la actual Ciudad de México se extienden las ruinas de Teotihuacán, una ciudad que en su apogeo, hacia el año 400 o 500, pudo tener **más de 100.000 habitantes**. Era entonces una de las mayores ciudades del mundo y la más grande de América.
+
+No sabemos cómo se llamaba ni qué lengua hablaban sus habitantes, porque no dejaron textos que hayan podido descifrarse. El nombre de Teotihuacán, «el lugar donde fueron hechos los dioses», se lo dieron los mexicas siglos después, cuando encontraron la ciudad abandonada. Según sus mitos, allí se habían sacrificado los dioses para crear el Sol y la Luna. También fueron ellos quienes bautizaron **la calzada de los Muertos**, la gran avenida que atraviesa la ciudad, porque creían que los montículos que la bordeaban eran tumbas.
+
+La ciudad se planificó con un trazado regular y orientado con precisión astronómica. A lo largo de la calzada se levantan los grandes monumentos: la pirámide del Sol, una de las mayores construcciones de la América precolombina, de unos 65 metros de altura; la pirámide de la Luna, al final de la avenida; y el templo de la Serpiente Emplumada, decorado con cabezas esculpidas de esta divinidad. **Los edificios estaban pintados de rojo** y cubiertos de murales, algunos de los cuales se conservan.
+
+La mayoría de la población vivía en grandes conjuntos de viviendas de piedra con patios, donde residían varias familias, a menudo dedicadas a un mismo oficio, como la talla de obsidiana o la cerámica. En la ciudad había barrios de inmigrantes de otras regiones, como Oaxaca o la costa del golfo. Su influencia comercial, religiosa y quizá militar **llegó hasta las ciudades mayas**, a más de mil kilómetros: en Tikal, por ejemplo, hay pruebas de la llegada de gente de Teotihuacán en el año 378.
+
+Hacia el siglo VI, el centro de la ciudad sufrió un gran incendio y Teotihuacán entró en decadencia. Las causas siguen en debate: se han propuesto revueltas internas, sequías o conflictos con otras ciudades. En 1987, la Unesco declaró el sitio patrimonio de la humanidad.
+
+@@ 2026-12-31
+resumen: En octubre de 1582 se saltaron diez días de golpe: el papa Gregorio XIII reformó el calendario para corregir un desfase de siglos.
+titulo: El calendario gregoriano: el año en que octubre perdió diez días
+data: Europa, 1582
+alt: Retrato del papa Gregorio XIII sentado con vestiduras pontificias
+pie: Retrato del papa Gregorio XIII, atribuido a Bartolomeo Passarotti
+saber: Calendario gregoriano | Gregorio XIII | Calendario juliano
+
+En los países católicos, al jueves 4 de octubre de 1582 le siguió directamente el viernes 15 de octubre. **Diez días desaparecieron del calendario**. Santa Teresa de Jesús, que murió en Alba de Tormes en la noche del 4 de octubre, fue enterrada al día siguiente, que ya era 15. Así se puso en marcha el calendario que hoy usa casi todo el mundo, promulgado por el papa Gregorio XIII.
+
+Hasta entonces, Europa usaba el calendario juliano, impuesto por Julio César en el año 46 a. C. Establecía años de 365 días y añadía un día extra cada cuatro, de modo que el año duraba de media 365,25 días. Pero el año solar, el tiempo que tarda la Tierra en completar el ciclo de las estaciones, es algo más corto: **unos 11 minutos menos**. Parece poco, pero al cabo de los siglos el error se acumula a razón de un día cada 128 años.
+
+En el siglo XVI, el equinoccio de primavera había retrocedido unos diez días respecto al 21 de marzo. Para la Iglesia era un problema importante, porque la fecha de la Pascua depende de ese equinoccio. Tras décadas de propuestas, una comisión de expertos, en la que destacó el jesuita alemán Cristóbal Clavio, adoptó un sistema basado en las ideas del médico y astrónomo italiano **Luigi Lilio**. Además de suprimir los diez días, cambió la regla de los años bisiestos.
+
+La nueva regla es sencilla: los años divisibles por 4 son bisiestos, salvo los que terminan en 00, que solo lo son si se pueden dividir por 400. Por eso 1600 y 2000 fueron bisiestos, pero 1700, 1800 y 1900 no. Con este ajuste, el año medio dura 365,2425 días, y **el error se reduce a un día cada unos 3.000 años**.
+
+España, Portugal y los Estados italianos adoptaron el cambio en 1582, y Francia poco después. Los países protestantes y ortodoxos desconfiaron de una reforma papal y tardaron mucho más: el Imperio británico, incluidas sus colonias americanas, no lo adoptó hasta 1752, y Rusia, hasta 1918, tras la revolución. Por eso la Revolución de Octubre ocurrió en noviembre según el calendario actual. Algunas Iglesias ortodoxas siguen usando el juliano para sus fiestas.

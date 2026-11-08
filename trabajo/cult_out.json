@@ -1,0 +1,1122 @@
+{
+ "arte/venus-milo": {
+  "imagen": "Front views of the Venus de Milo.jpg",
+  "autor": "Livioandronico2013",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 3088,
+  "alto": 5808,
+  "titulo": "Venus de Milo"
+ },
+ "arte/escuela-atenas": {
+  "imagen": "\"The School of Athens\" by Raffaello Sanzio da Urbino.jpg",
+  "autor": "Raphael",
+  "licencia": "dominio público",
+  "ancho": 3820,
+  "alto": 2964,
+  "titulo": "The School of Athens"
+ },
+ "arte/matrimonio-arnolfini": {
+  "imagen": "The Arnolfini portrait (1434).jpg",
+  "autor": "Jan van Eyck",
+  "licencia": "dominio público",
+  "ancho": 8283,
+  "alto": 11331,
+  "titulo": "Arnolfini Portrait"
+ },
+ "arte/laocoonte": {
+  "imagen": "Laocoön and his sons group.jpg",
+  "autor": "Wilfredor",
+  "licencia": "CC0",
+  "ancho": 8744,
+  "alto": 9502,
+  "titulo": "Laocoön and His Sons"
+ },
+ "arte/ronda-noche": {
+  "imagen": "La ronda de noche, por Rembrandt van Rijn.jpg",
+  "autor": "Rembrandt",
+  "licencia": "dominio público",
+  "ancho": 14168,
+  "alto": 11528,
+  "titulo": "The Night Watch"
+ },
+ "arte/busto-nefertiti": {
+  "imagen": "Nofretete Neues Museum.jpg",
+  "autor": "Philip Pikart",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 1282,
+  "alto": 1877,
+  "titulo": "Nefertiti Bust"
+ },
+ "arte/entierro-orgaz": {
+  "imagen": "El Greco - The Burial of the Count of Orgaz.JPG",
+  "autor": "El Greco",
+  "licencia": "dominio público",
+  "ancho": 1316,
+  "alto": 1612,
+  "titulo": "The Burial of the Count of Orgaz"
+ },
+ "arte/apolo-dafne": {
+  "imagen": "Apollo and Daphne (Bernini) (cropped).jpg",
+  "autor": "Architas",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4640,
+  "alto": 7800,
+  "titulo": "Apollo and Daphne (Bernini)"
+ },
+ "arte/libertad-pueblo": {
+  "imagen": "La Liberté guidant le peuple - Eugène Delacroix - Musée du Louvre Peintures RF 129 - après restauration 2024.jpg",
+  "autor": "Eugène Delacroix",
+  "licencia": "dominio público",
+  "ancho": 10128,
+  "alto": 8103,
+  "titulo": "Liberty Leading the People"
+ },
+ "arte/dama-elche": {
+  "imagen": "Dama de Elche - MAN - 20241220e.jpg",
+  "autor": "Luis Fernández García",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 3103,
+  "alto": 3999,
+  "titulo": "Lady of Elche"
+ },
+ "arte/balsa-medusa": {
+  "imagen": "JEAN LOUIS THÉODORE GÉRICAULT - La Balsa de la Medusa (Museo del Louvre, 1818-19).jpg",
+  "autor": "Théodore Géricault",
+  "licencia": "dominio público",
+  "ancho": 5872,
+  "alto": 4008,
+  "titulo": "The Raft of the Medusa"
+ },
+ "arte/piedad-vaticano": {
+  "imagen": "Pieta de Michelangelo - Vaticano.jpg",
+  "autor": "original file by Stanislav Traykov",
+  "licencia": "CC BY 2.5",
+  "ancho": 1584,
+  "alto": 1660,
+  "titulo": "Pietà (Michelangelo)"
+ },
+ "arte/caminante-niebla": {
+  "imagen": "Caspar David Friedrich - Wanderer above the Sea of Fog.jpeg",
+  "autor": "Caspar David Friedrich",
+  "licencia": "dominio público",
+  "ancho": 5256,
+  "alto": 6742,
+  "titulo": "Wanderer above the Sea of Fog"
+ },
+ "arte/victoria-samotracia": {
+  "imagen": "Victoire de Samothrace - Musee du Louvre - 20190812.jpg",
+  "autor": "Shonagon",
+  "licencia": "CC0",
+  "ancho": 3616,
+  "alto": 4800,
+  "titulo": "Winged Victory of Samothrace"
+ },
+ "arte/ultima-cena": {
+  "imagen": "The Last Supper - Leonardo Da Vinci - High Resolution 32x16.jpg",
+  "autor": "Leonardo da Vinci",
+  "licencia": "dominio público",
+  "ancho": 9600,
+  "alto": 4800,
+  "titulo": "The Last Supper (Leonardo)"
+ },
+ "arte/portico-gloria": {
+  "imagen": "Santiago-Catedral-Portico de la gloria09 (3196740822).jpg",
+  "autor": "juantiagues",
+  "licencia": "CC BY-SA 2.0",
+  "ancho": 800,
+  "alto": 600,
+  "titulo": "Portico of Glory"
+ },
+ "arte/saturno-goya": {
+  "imagen": "Francisco de Goya, Saturno devorando a su hijo (1819-1823).jpg",
+  "autor": "Francisco Goya",
+  "licencia": "dominio público",
+  "ancho": 1661,
+  "alto": 3051,
+  "titulo": "Saturn Devouring His Son"
+ },
+ "arte/discobolo": {
+  "imagen": "Roman bronze copy of Myron’s Discobolos, 2nd century CE (Glyptothek Munich).jpg",
+  "autor": "No machine-readable author provided. MatthiasKabel assumed (based on copyright c",
+  "licencia": "CC BY 2.5",
+  "ancho": 2030,
+  "alto": 3274,
+  "titulo": "Discobolus"
+ },
+ "arte/muerte-marat": {
+  "imagen": "Death of Marat by David.jpg",
+  "autor": "Jacques-Louis David",
+  "licencia": "dominio público",
+  "ancho": 4045,
+  "alto": 5205,
+  "titulo": "The Death of Marat"
+ },
+ "arte/puertas-paraiso": {
+  "imagen": "Baptistery, Florence.jpg",
+  "autor": "Bradley Weber",
+  "licencia": "CC BY 2.0",
+  "ancho": 4493,
+  "alto": 3682,
+  "titulo": "Florence Baptistery"
+ },
+ "arte/olympia-manet": {
+  "imagen": "Edouard Manet - Olympia - Google Art ProjectFXD.jpg",
+  "autor": "Édouard Manet",
+  "licencia": "dominio público",
+  "ancho": 5876,
+  "alto": 3976,
+  "titulo": "Olympia (Manet)"
+ },
+ "arte/grande-jatte": {
+  "imagen": "A Sunday on La Grande Jatte, Georges Seurat, 1884.jpg",
+  "autor": "Georges Seurat",
+  "licencia": "dominio público",
+  "ancho": 20000,
+  "alto": 13313,
+  "titulo": "A Sunday Afternoon on the Island of La Grande Jatte"
+ },
+ "arte/buda-kamakura": {
+  "imagen": "Templo Kōtoku-in, Kamakura - 2026 - 05.jpg",
+  "autor": "ProtoplasmaKid",
+  "licencia": "CC BY 4.0",
+  "ancho": 5568,
+  "alto": 3712,
+  "titulo": "Kōtoku-in"
+ },
+ "arte/jugadores-cartas": {
+  "imagen": "Les Joueurs de cartes, par Paul Cézanne.jpg",
+  "autor": "Paul Cézanne",
+  "licencia": "dominio público",
+  "ancho": 6048,
+  "alto": 4961,
+  "titulo": "The Card Players"
+ },
+ "arte/bailarina-degas": {
+  "imagen": "The Little Fourteen-Year-Old Dancer MET DP-14939-005.jpg",
+  "autor": "Edgar Degas",
+  "licencia": "CC0",
+  "ancho": 2887,
+  "alto": 4000,
+  "titulo": "Little Dancer of Fourteen Years"
+ },
+ "arte/gauguin-venimos": {
+  "imagen": "Gauguin - Where Do We Come From? What Are We? Where Are We Going? (1897-98).jpg",
+  "autor": "Paul Gauguin",
+  "licencia": "dominio público",
+  "ancho": 5400,
+  "alto": 1987,
+  "titulo": "Where Do We Come From? What Are We? Where Are We Going?"
+ },
+ "arte/caza-leones-asurbanipal": {
+  "imagen": "Exhibition I am Ashurbanipal king of the world, king of Assyria, British Museum (45972455081).jpg",
+  "autor": "Carole Raddato from FRANKFURT, Germany",
+  "licencia": "CC BY-SA 2.0",
+  "ancho": 4928,
+  "alto": 3264,
+  "titulo": "Lion Hunt of Ashurbanipal"
+ },
+ "arte/venus-espejo": {
+  "imagen": "Diego Velázquez - Rokeby Venus.jpg",
+  "autor": "Diego Velázquez",
+  "licencia": "dominio público",
+  "ancho": 6162,
+  "alto": 4226,
+  "titulo": "Rokeby Venus"
+ },
+ "arte/shiva-nataraja": {
+  "imagen": "Shiva as the Lord of Dance LACMA edit.jpg",
+  "autor": "autor desconocido",
+  "licencia": "dominio público",
+  "ancho": 2876,
+  "alto": 3694,
+  "titulo": "Nataraja"
+ },
+ "arte/descendimiento-weyden": {
+  "imagen": "El Descendimiento, by Rogier van der Weyden, from Prado in Google Earth.jpg",
+  "autor": "Rogier van der Weyden",
+  "licencia": "dominio público",
+  "ancho": 30000,
+  "alto": 23277,
+  "titulo": "The Descent from the Cross (van der Weyden)"
+ },
+ "arte/esfinge-guiza": {
+  "imagen": "Sphinx with the third pyramid.jpg",
+  "autor": "Hesham Ebaid",
+  "licencia": "CC0",
+  "ancho": 3872,
+  "alto": 2404,
+  "titulo": "Great Sphinx of Giza"
+ },
+ "arte/cazadores-nieve": {
+  "imagen": "Pieter Bruegel the Elder - Hunters in the Snow (Winter) - Google Art Project.jpg",
+  "autor": "Pieter Brueghel the Elder",
+  "licencia": "dominio público",
+  "ancho": 6819,
+  "alto": 4853,
+  "titulo": "The Hunters in the Snow"
+ },
+ "arte/cristo-yacente": {
+  "imagen": "Retrato de Gregorio Fernandez.jpg",
+  "autor": "Diego Valentín Díaz",
+  "licencia": "dominio público",
+  "ancho": 651,
+  "alto": 886,
+  "titulo": "Gregorio Fernández"
+ },
+ "arte/judith-artemisia": {
+  "imagen": "Artemisia Gentileschi - Judith Beheading Holofernes - WGA8563.jpg",
+  "autor": "Artemisia Gentileschi",
+  "licencia": "dominio público",
+  "ancho": 1178,
+  "alto": 1500,
+  "titulo": "Judith Slaying Holofernes (Artemisia Gentileschi, Naples)"
+ },
+ "arte/venus-willendorf": {
+  "imagen": "Venus von Willendorf 01.jpg",
+  "autor": "User:MatthiasKabel",
+  "licencia": "CC BY 2.5",
+  "ancho": 1428,
+  "alto": 2684,
+  "titulo": "Venus of Willendorf"
+ },
+ "arte/columpio-fragonard": {
+  "imagen": "The Swing (P430).jpg",
+  "autor": "Jean-Honoré Fragonard",
+  "licencia": "dominio público",
+  "ancho": 1487,
+  "alto": 1920,
+  "titulo": "The Swing (Fragonard)"
+ },
+ "arte/caballo-gansu": {
+  "imagen": "Gansu Museum 2007 257.jpg",
+  "autor": "G41rn8",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 2592,
+  "alto": 1944,
+  "titulo": "Flying Horse of Gansu"
+ },
+ "arte/lluvia-vapor": {
+  "imagen": "Rain Steam and Speed the Great Western Railway.jpg",
+  "autor": "J. M. W. Turner",
+  "licencia": "dominio público",
+  "ancho": 5661,
+  "alto": 4226,
+  "titulo": "Rain, Steam and Speed – The Great Western Railway"
+ },
+ "arte/trinidad-rublev": {
+  "imagen": "Angelsatmamre-trinity-rublev-1410.jpg",
+  "autor": "Andrei Rublev",
+  "licencia": "dominio público",
+  "ancho": 1300,
+  "alto": 1619,
+  "titulo": "Trinity (Andrei Rublev)"
+ },
+ "arte/composicion-kandinsky": {
+  "imagen": "Kandinsky - Vassily Kandinsky by Adolf Elnain Photo credits - Georges Meguerditchian.jpg",
+  "autor": "Vassily Kandinsky by Adolf Elnain Photo credits : Georges Meguerditchian - Centr",
+  "licencia": "dominio público",
+  "ancho": 2880,
+  "alto": 4000,
+  "titulo": "Wassily Kandinsky"
+ },
+ "arte/qingming": {
+  "imagen": "Bianjing city gate.JPG",
+  "autor": "Zhang Zeduan",
+  "licencia": "dominio público",
+  "ancho": 2466,
+  "alto": 1766,
+  "titulo": "Along the River During the Qingming Festival"
+ },
+ "arte/capilla-scrovegni": {
+  "imagen": "Padova Cappella degli Scrovegni Innen Langhaus West 5.jpg",
+  "autor": "Zairon",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4447,
+  "alto": 3439,
+  "titulo": "Scrovegni Chapel"
+ },
+ "arte/paseo-sorolla": {
+  "imagen": "Joaquín Sorolla y Bastida - Strolling along the Seashore - Google Art Project.jpg",
+  "autor": "Joaquín Sorolla",
+  "licencia": "dominio público",
+  "ancho": 4832,
+  "alto": 4894,
+  "titulo": "Walk on the Beach"
+ },
+ "arte/moulin-galette": {
+  "imagen": "Renoir, Pierre-Auguste - Dance at Le Moulin de la Galette, 1876.jpg",
+  "autor": "Pierre-Auguste Renoir",
+  "licencia": "dominio público",
+  "ancho": 40869,
+  "alto": 30379,
+  "titulo": "Bal du moulin de la Galette"
+ },
+ "arte/sueno-rousseau": {
+  "imagen": "Henri Rousseau - Le Rêve - Google Art Project.jpg",
+  "autor": "Henri Rousseau",
+  "licencia": "dominio público",
+  "ancho": 4512,
+  "alto": 3072,
+  "titulo": "The Dream (Rousseau painting)"
+ },
+ "arte/embajadores-holbein": {
+  "imagen": "Hans Holbein the Younger - The Ambassadors - Google Art Project.jpg",
+  "autor": "Hans Holbein the Younger",
+  "licencia": "dominio público",
+  "ancho": 30000,
+  "alto": 29560,
+  "titulo": "The Ambassadors (Holbein)"
+ },
+ "arte/carlos-v-muhlberg": {
+  "imagen": "Carlos V en Mühlberg, by Titian, from Prado in Google Earth.jpg",
+  "autor": "Titian",
+  "licencia": "dominio público",
+  "ancho": 25284,
+  "alto": 30000,
+  "titulo": "Equestrian Portrait of Charles V"
+ },
+ "arte/edad-madura-claudel": {
+  "imagen": "Camille Claudel - photographie César.jpg",
+  "autor": "César",
+  "licencia": "dominio público",
+  "ancho": 501,
+  "alto": 747,
+  "titulo": "Camille Claudel"
+ },
+ "historia/noche-cristales-rotos": {
+  "imagen": "Interior view of the destroyed Fasanenstrasse Synagogue, Berlin.jpg",
+  "autor": "Center for Jewish History, NYC",
+  "licencia": "dominio público",
+  "ancho": 1000,
+  "alto": 702,
+  "titulo": "Kristallnacht"
+ },
+ "historia/armisticio-1918": {
+  "imagen": "Armisticetrain (slight crop).jpg",
+  "autor": "Unknown author Unknown author",
+  "licencia": "dominio público",
+  "ancho": 504,
+  "alto": 673,
+  "titulo": "Armistice of 11 November 1918"
+ },
+ "historia/lepanto": {
+  "imagen": "Laureys a Castro - The Battle of Lepanto.jpeg",
+  "autor": "Laureys a Castro",
+  "licencia": "dominio público",
+  "ancho": 2481,
+  "alto": 1529,
+  "titulo": "Battle of Lepanto"
+ },
+ "historia/gran-muralla": {
+  "imagen": "The Great Wall of China at Jinshanling-edit.jpg",
+  "autor": "Severin.stalder",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 4288,
+  "alto": 2848,
+  "titulo": "Great Wall of China"
+ },
+ "historia/alejandro-magno": {
+  "imagen": "Alexander Mosaic detail of Alexander the Great (3x4 cropped).jpg",
+  "autor": "Unknown author Unknown author",
+  "licencia": "dominio público",
+  "ancho": 1753,
+  "alto": 2337,
+  "titulo": "Alexander the Great"
+ },
+ "historia/gettysburg": {
+  "imagen": "Lincolnatgettysburg.jpg",
+  "autor": "Photographer attributions vary from unidentified (William Frassanito) to Mathew ",
+  "licencia": "dominio público",
+  "ancho": 7542,
+  "alto": 6151,
+  "titulo": "Gettysburg Address"
+ },
+ "historia/revolucion-mexicana": {
+  "imagen": "Decena trágica.JPG",
+  "autor": "Osuna",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 6098,
+  "alto": 4335,
+  "titulo": "Mexican Revolution"
+ },
+ "historia/juicios-nuremberg": {
+  "imagen": "Emblem of the International Military Tribunal, Nuremberg.png",
+  "autor": "Published in accordance with the direction of the International Military Tribuna",
+  "licencia": "dominio público",
+  "ancho": 1133,
+  "alto": 1133,
+  "titulo": "Nuremberg trials"
+ },
+ "historia/anibal-alpes": {
+  "imagen": "Hannibal traverse le Rhône Henri Motte 1878.jpg",
+  "autor": "Henri-Paul Motte",
+  "licencia": "dominio público",
+  "ancho": 8915,
+  "alto": 5840,
+  "titulo": "Hannibal's crossing of the Alps"
+ },
+ "historia/carta-magna": {
+  "imagen": "Magna Carta (British Library Cotton MS Augustus II.106).jpg",
+  "autor": "Original authors were the barons and King John of England . Uploaded by Earthsou",
+  "licencia": "dominio público",
+  "ancho": 7200,
+  "alto": 4800,
+  "titulo": "Magna Carta"
+ },
+ "historia/darwin-beagle": {
+  "imagen": "HMS Beagle by Conrad Martens.jpg",
+  "autor": "Conrad Martens (1801 - 21 August 1878)",
+  "licencia": "dominio público",
+  "ancho": 1235,
+  "alto": 821,
+  "titulo": "Second voyage of HMS Beagle"
+ },
+ "historia/lutero-reforma": {
+  "imagen": "Luther 95 Thesen.png",
+  "autor": "Martin Luther",
+  "licencia": "dominio público",
+  "ancho": 3228,
+  "alto": 4611,
+  "titulo": "Ninety-five Theses"
+ },
+ "historia/tutankamon": {
+  "imagen": "CairoEgMuseumTaaMaskMostlyPhotographed.jpg",
+  "autor": "Roland Unger",
+  "licencia": "dominio público",
+  "ancho": 1600,
+  "alto": 2000,
+  "titulo": "Mask of Tutankhamun"
+ },
+ "historia/armada-invencible": {
+  "imagen": "Armadaroute.jpg",
+  "autor": "Robert Adams, Augustine Ryther",
+  "licencia": "dominio público",
+  "ancho": 1330,
+  "alto": 918,
+  "titulo": "Spanish Armada"
+ },
+ "historia/salamina": {
+  "imagen": "Battle of salamis.png",
+  "autor": "The Department of History, United States Military Academy",
+  "licencia": "dominio público",
+  "ancho": 741,
+  "alto": 556,
+  "titulo": "Battle of Salamis"
+ },
+ "historia/biblioteca-alejandria": {
+  "imagen": "Ancientlibraryalex.jpg",
+  "autor": "O. Von Corven",
+  "licencia": "dominio público",
+  "ancho": 1072,
+  "alto": 1090,
+  "titulo": "Library of Alexandria"
+ },
+ "historia/liga-hanseatica": {
+  "imagen": "Ausbreitung der Hanse um das Jahr 1400-Droysens 28.jpg",
+  "autor": "Droysen/Andrée",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 8890,
+  "alto": 5853,
+  "titulo": "Hanseatic League"
+ },
+ "historia/boicot-montgomery": {
+  "imagen": "Rosa Parks 1956.jpg",
+  "autor": "UPI",
+  "licencia": "dominio público",
+  "ancho": 7088,
+  "alto": 7053,
+  "titulo": "Montgomery bus boycott"
+ },
+ "historia/austerlitz": {
+  "imagen": "La bataille d'Austerlitz. 2 decembre 1805 (François Gérard).jpg",
+  "autor": "François Gérard",
+  "licencia": "dominio público",
+  "ancho": 4000,
+  "alto": 1983,
+  "titulo": "Battle of Austerlitz"
+ },
+ "historia/toma-granada": {
+  "imagen": "La Rendición de Granada - Pradilla.jpg",
+  "autor": "Francisco Pradilla y Ortiz",
+  "licencia": "dominio público",
+  "ancho": 8133,
+  "alto": 5210,
+  "titulo": "Granada War"
+ },
+ "historia/piramides-guiza": {
+  "imagen": "Pyramids of the Giza Necropolis.jpg",
+  "autor": "KennyOMG",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 10104,
+  "alto": 4210,
+  "titulo": "Giza pyramid complex"
+ },
+ "historia/constitucion-1978": {
+  "imagen": "Constitución Española de 1978.JPG",
+  "autor": "Cortes Constituyentes",
+  "licencia": "dominio público",
+  "ancho": 1000,
+  "alto": 1450,
+  "titulo": "Spanish Constitution of 1978"
+ },
+ "historia/pearl-harbor": {
+  "imagen": "Attack on Pearl Harbor Japanese planes view.jpg",
+  "autor": "Imperial Japanese Navy",
+  "licencia": "dominio público",
+  "ancho": 6404,
+  "alto": 4543,
+  "titulo": "Attack on Pearl Harbor"
+ },
+ "historia/juana-arco": {
+  "imagen": "Joan of Arc miniature graded.jpg",
+  "autor": "autor desconocido",
+  "licencia": "dominio público",
+  "ancho": 1812,
+  "alto": 2700,
+  "titulo": "Joan of Arc"
+ },
+ "historia/zheng-he": {
+  "imagen": "2016 Malakka, Stadhuys (09).jpg",
+  "autor": "Marcin Konsek",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 3233,
+  "alto": 4849,
+  "titulo": "Zheng He"
+ },
+ "historia/declaracion-ddhh": {
+  "imagen": "Eleanor Roosevelt UDHR.jpg",
+  "autor": "FDR Presidential Library & Museum",
+  "licencia": "CC BY 2.0",
+  "ancho": 5912,
+  "alto": 4640,
+  "titulo": "Universal Declaration of Human Rights"
+ },
+ "historia/revolucion-rusa": {
+  "imagen": "Митинг на Невском проспекте (1917).jpg",
+  "autor": "unknown; photo retake by George Shuklin",
+  "licencia": "dominio público",
+  "ancho": 2254,
+  "alto": 1452,
+  "titulo": "Russian Revolution"
+ },
+ "historia/fin-apartheid": {
+  "imagen": "F.W. de Klerk, left, the last president of apartheid-era South Africa, and Nelson Mandela, his successor, wait to speak in Philadelphia, Pennsylvania LCCN2011634245.jpg",
+  "autor": "Carol M. Highsmith",
+  "licencia": "dominio público",
+  "ancho": 3296,
+  "alto": 2121,
+  "titulo": "Negotiations to end apartheid in South Africa"
+ },
+ "historia/crisis-misiles": {
+  "imagen": "PGM-19A Jupiter missile-02.jpg",
+  "autor": "USAF",
+  "licencia": "dominio público",
+  "ancho": 575,
+  "alto": 493,
+  "titulo": "Cuban Missile Crisis"
+ },
+ "historia/motin-te-boston": {
+  "imagen": "Boston Tea Party w.jpg",
+  "autor": "Original uploader was Cornischong at lb.wikipedia",
+  "licencia": "dominio público",
+  "ancho": 6477,
+  "alto": 3712,
+  "titulo": "Boston Tea Party"
+ },
+ "historia/hermanos-wright": {
+  "imagen": "First flight2.jpg",
+  "autor": "John T. Daniels",
+  "licencia": "dominio público",
+  "ancho": 6603,
+  "alto": 4280,
+  "titulo": "Wright Flyer"
+ },
+ "historia/soliman": {
+  "imagen": "EmperorSuleiman.jpg",
+  "autor": "Circle of Titian",
+  "licencia": "dominio público",
+  "ancho": 1810,
+  "alto": 2117,
+  "titulo": "Suleiman the Magnificent"
+ },
+ "historia/simon-bolivar": {
+  "imagen": "Simón Bolívar. Toro Moreno, Luis. 1922, Legislative Palace, La Paz.png",
+  "autor": "Luis Enrique Toro Moreno (1897-1933)",
+  "licencia": "dominio público",
+  "ancho": 6135,
+  "alto": 9206,
+  "titulo": "Simón Bolívar"
+ },
+ "historia/constitucion-cadiz": {
+  "imagen": "Constitucion Cadiz 1812.png",
+  "autor": "Cortes de Cádiz",
+  "licencia": "dominio público",
+  "ancho": 597,
+  "alto": 988,
+  "titulo": "Spanish Constitution of 1812"
+ },
+ "historia/cuneiforme": {
+  "imagen": "Xerxes Cuneiform Van.JPG",
+  "autor": "Bjørn Christian Tørrissen",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 3456,
+  "alto": 2592,
+  "titulo": "Cuneiform"
+ },
+ "historia/desembarco-normandia": {
+  "imagen": "Into the Jaws of Death 23-0455M edit.jpg",
+  "autor": "Chief Photographer's Mate (CPHoM) Robert F. Sargent",
+  "licencia": "dominio público",
+  "ancho": 2963,
+  "alto": 2385,
+  "titulo": "Normandy landings"
+ },
+ "historia/particion-india": {
+  "imagen": "Brit IndianEmpireReligions3.jpg",
+  "autor": "John George Bartholomew",
+  "licencia": "dominio público",
+  "ancho": 1534,
+  "alto": 1241,
+  "titulo": "Partition of India"
+ },
+ "historia/carlomagno": {
+  "imagen": "Charlemagne denier Mayence 812 814.jpg",
+  "autor": "Charlemagne. Autorité émettrice de monnaie indéterminé. Atelier monétaire. Émett",
+  "licencia": "dominio público",
+  "ancho": 2070,
+  "alto": 2070,
+  "titulo": "Charlemagne"
+ },
+ "historia/titanic": {
+  "imagen": "RMS Titanic 3 (cropped to ship).jpg",
+  "autor": "Francis Godolphin Osbourne Stuart",
+  "licencia": "dominio público",
+  "ancho": 4804,
+  "alto": 2942,
+  "titulo": "Titanic"
+ },
+ "historia/sekigahara": {
+  "imagen": "Sekigaharascreen.jpg",
+  "autor": "User LordAmeth on en.wikipedia Collection of The Town of Sekigahara Archive of H",
+  "licencia": "dominio público",
+  "ancho": 3816,
+  "alto": 1796,
+  "titulo": "Battle of Sekigahara"
+ },
+ "historia/fiebre-oro-california": {
+  "imagen": "1850 Woman and Men in California Gold Rush.jpg",
+  "autor": "Unknown author Unknown author",
+  "licencia": "dominio público",
+  "ancho": 500,
+  "alto": 362,
+  "titulo": "California gold rush"
+ },
+ "historia/teotihuacan": {
+  "imagen": "ZA77 Teotihuacán edo de mex Herberto de la rosa.jpg",
+  "autor": "Hdlrosa",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 3008,
+  "alto": 2000,
+  "titulo": "Teotihuacan"
+ },
+ "historia/calendario-gregoriano": {
+  "imagen": "Ritratto di Gregorio XIII - Passarotti.jpg",
+  "autor": "Attributed to Bartolomeo Passarotti",
+  "licencia": "dominio público",
+  "ancho": 3296,
+  "alto": 4079,
+  "titulo": "Pope Gregory XIII"
+ },
+ "literatura/madame-bovary": {
+  "imagen": "Madame Bovary 1857 (hi-res).jpg",
+  "autor": "Gustave Flaubert",
+  "licencia": "dominio público",
+  "ancho": 1740,
+  "alto": 2752,
+  "titulo": "Madame Bovary"
+ },
+ "literatura/veinte-poemas-neruda": {
+  "imagen": "Pablo Neruda 1963.jpg",
+  "autor": "Unknown ( Mondadori Publishers )",
+  "licencia": "dominio público",
+  "ancho": 738,
+  "alto": 936,
+  "titulo": "Pablo Neruda"
+ },
+ "literatura/iliada": {
+  "imagen": "Illiad fragmented papyrus.png",
+  "autor": "Homer",
+  "licencia": "dominio público",
+  "ancho": 652,
+  "alto": 510,
+  "titulo": "Iliad"
+ },
+ "literatura/anna-karenina": {
+  "imagen": "AnnaKareninaTitle.jpg",
+  "autor": "Leo Tolstoy",
+  "licencia": "dominio público",
+  "ancho": 1994,
+  "alto": 3200,
+  "titulo": "Anna Karenina"
+ },
+ "literatura/rimas-becquer": {
+  "imagen": "Portrait of Gustavo Adolfo Bécquer, by his brother Valeriano (1862).jpg",
+  "autor": "Valeriano Bécquer",
+  "licencia": "dominio público",
+  "ancho": 1000,
+  "alto": 1390,
+  "titulo": "Gustavo Adolfo Bécquer"
+ },
+ "literatura/miserables": {
+  "imagen": "Monsieur Madeleine par Gustave Brion.jpg",
+  "autor": "Gustave Brion",
+  "licencia": "dominio público",
+  "ancho": 3195,
+  "alto": 4725,
+  "titulo": "Les Misérables"
+ },
+ "literatura/campos-castilla": {
+  "imagen": "AntonioMachado.JPG",
+  "autor": "Unknow. El material gráfico André mas nah MACHADO del libro Historia de la Liter",
+  "licencia": "dominio público",
+  "ancho": 855,
+  "alto": 1357,
+  "titulo": "Antonio Machado"
+ },
+ "literatura/lazarillo": {
+  "imagen": "Lazarillo de Tormes.png",
+  "autor": "Diego Hurtado de Mendoza (Possibly)",
+  "licencia": "dominio público",
+  "ancho": 1406,
+  "alto": 2222,
+  "titulo": "Lazarillo de Tormes"
+ },
+ "literatura/sabueso-baskerville": {
+  "imagen": "Cover (Hound of Baskervilles, 1902).jpg",
+  "autor": "Alfred Garth Jones",
+  "licencia": "dominio público",
+  "ancho": 2243,
+  "alto": 3532,
+  "titulo": "The Hound of the Baskervilles"
+ },
+ "literatura/eneida": {
+  "imagen": "Aeneas' Flight from Troy by Federico Barocci.jpg",
+  "autor": "Federico Barocci",
+  "licencia": "dominio público",
+  "ancho": 1050,
+  "alto": 729,
+  "titulo": "Aeneid"
+ },
+ "literatura/ulises-joyce": {
+  "imagen": "JoyceUlysses2.jpg",
+  "autor": "James Joyce",
+  "licencia": "dominio público",
+  "ancho": 444,
+  "alto": 562,
+  "titulo": "Ulysses (novel)"
+ },
+ "literatura/coplas-manrique": {
+  "imagen": "Jorge Manrique portrait.jpg",
+  "autor": "Juan de Borgoña",
+  "licencia": "dominio público",
+  "ancho": 248,
+  "alto": 340,
+  "titulo": "Coplas por la muerte de su padre"
+ },
+ "literatura/busca-tiempo-perdido": {
+  "imagen": "MS A la recherche du temps perdu.jpg",
+  "autor": "Original upload: en.wikipedia 21:16, 4 October 2004 . . Solipsist",
+  "licencia": "dominio público",
+  "ancho": 506,
+  "alto": 337,
+  "titulo": "In Search of Lost Time"
+ },
+ "literatura/safo": {
+  "imagen": "Malarz Safony - Kalpis wykonana techniką Six.jpg",
+  "autor": "Sappho Painter",
+  "licencia": "dominio público",
+  "ancho": 600,
+  "alto": 800,
+  "titulo": "Sappho"
+ },
+ "literatura/la-regenta": {
+  "imagen": "Portada de La Regenta (1884-1885).jpg",
+  "autor": "Joan Llimona",
+  "licencia": "dominio público",
+  "ancho": 961,
+  "alto": 1395,
+  "titulo": "La Regenta"
+ },
+ "literatura/orwell-1984": {
+  "imagen": "George Orwell press photo.jpg",
+  "autor": "Branch of the National Union of Journalists (BNUJ).",
+  "licencia": "dominio público",
+  "ancho": 1176,
+  "alto": 1594,
+  "titulo": "George Orwell"
+ },
+ "literatura/cancionero-petrarca": {
+  "imagen": "Canzoniere7.JPG",
+  "autor": "Francesco Petrarca and unknown illustrator",
+  "licencia": "dominio público",
+  "ancho": 473,
+  "alto": 394,
+  "titulo": "Il Canzoniere"
+ },
+ "literatura/fortunata-jacinta": {
+  "imagen": "Fortunata y Jacinta front covers 1887.jpg",
+  "autor": "Benito Pérez Galdós, Unknown author Unknown author",
+  "licencia": "dominio público",
+  "ancho": 999,
+  "alto": 766,
+  "titulo": "Fortunata y Jacinta"
+ },
+ "literatura/sonetos-shakespeare": {
+  "imagen": "Sonnets1609titlepage.jpg",
+  "autor": "William Shakespeare",
+  "licencia": "dominio público",
+  "ancho": 1065,
+  "alto": 1536,
+  "titulo": "Shakespeare's sonnets"
+ },
+ "literatura/rayuela": {
+  "imagen": "Cortázar.jpg",
+  "autor": "Sara Facio",
+  "licencia": "dominio público",
+  "ancho": 1950,
+  "alto": 2617,
+  "titulo": "Julio Cortázar"
+ },
+ "literatura/soledades-gongora": {
+  "imagen": "Diego Rodríguez de Silva y Velázquez - Luis de Góngora y Argote - Google Art Project.jpg",
+  "autor": "Diego Velázquez",
+  "licencia": "dominio público",
+  "ancho": 3715,
+  "alto": 4615,
+  "titulo": "Luis de Góngora"
+ },
+ "literatura/gran-gatsby": {
+  "imagen": "The Great Gatsby Cover 1925 Retouched.jpg",
+  "autor": "Original cover illustration by Francis Cugat (1893–1981) and published by Charle",
+  "licencia": "dominio público",
+  "ancho": 1129,
+  "alto": 1600,
+  "titulo": "The Great Gatsby"
+ },
+ "literatura/paraiso-perdido": {
+  "imagen": "Houghton EC65.M6427P.1667aa - Paradise Lost, 1667.jpg",
+  "autor": "John Milton",
+  "licencia": "dominio público",
+  "ancho": 1917,
+  "alto": 3013,
+  "titulo": "Paradise Lost"
+ },
+ "literatura/cumbres-borrascosas": {
+  "imagen": "Houghton Lowell 1238.5 (A) - Wuthering Heights, 1847.jpg",
+  "autor": "Emily Brontë (under the pseudonym Ellis Bell)",
+  "licencia": "dominio público",
+  "ancho": 1037,
+  "alto": 1773,
+  "titulo": "Wuthering Heights"
+ },
+ "literatura/san-juan-cruz": {
+  "imagen": "Zurbarán (atribuido)-John of the Cross-1656.jpg",
+  "autor": "Unknown author Unknown author",
+  "licencia": "dominio público",
+  "ancho": 631,
+  "alto": 804,
+  "titulo": "John of the Cross"
+ },
+ "literatura/el-extranjero": {
+  "imagen": "Albert Camus, gagnant de prix Nobel, portrait en buste, posé au bureau, faisant face à gauche, cigarette de tabagisme.jpg",
+  "autor": "Photograph by United Press International",
+  "licencia": "dominio público",
+  "ancho": 719,
+  "alto": 863,
+  "titulo": "Albert Camus"
+ },
+ "literatura/flores-mal": {
+  "imagen": "Fleurs du mal.jpg",
+  "autor": "Charles Baudelaire",
+  "licencia": "dominio público",
+  "ancho": 1923,
+  "alto": 3187,
+  "titulo": "Les Fleurs du mal"
+ },
+ "literatura/montana-magica": {
+  "imagen": "1924 Der Zauberberg (3).jpg",
+  "autor": "© Foto H.-P.Haack Das Foto darf von jedermann gebührenfrei verwendet werden, sof",
+  "licencia": "CC BY 3.0",
+  "ancho": 1210,
+  "alto": 1084,
+  "titulo": "The Magic Mountain"
+ },
+ "literatura/hojas-hierba": {
+  "imagen": "Walt Whitman, steel engraving, July 1854.jpg",
+  "autor": "Samuel Hollyer (1826-1919) of a daguerreotype by Gabriel Harrison (1818-1902)(or",
+  "licencia": "dominio público",
+  "ancho": 2329,
+  "alto": 3052,
+  "titulo": "Leaves of Grass"
+ },
+ "literatura/robinson-crusoe": {
+  "imagen": "Robinson Crusoe 1719 1st edition.jpg",
+  "autor": "Unknown author Unknown author",
+  "licencia": "dominio público",
+  "ancho": 618,
+  "alto": 534,
+  "titulo": "Robinson Crusoe"
+ },
+ "literatura/quevedo-sonetos": {
+  "imagen": "Quevedo (copia de Velázquez).jpg",
+  "autor": "Attributed to Juan van der Hamen",
+  "licencia": "dominio público",
+  "ancho": 1185,
+  "alto": 1500,
+  "titulo": "Francisco de Quevedo"
+ },
+ "literatura/dracula": {
+  "imagen": "Dracula-First-Edition-1897.jpg",
+  "autor": "British Library Board",
+  "licencia": "dominio público",
+  "ancho": 4177,
+  "alto": 5818,
+  "titulo": "Dracula"
+ },
+ "literatura/tierra-baldia": {
+  "imagen": "Thomas Stearns Eliot by Lady Ottoline Morrell (1934).jpg",
+  "autor": "Thomas Stearns Eliot with his sister and his cousin by Lady Ottoline Morrell.jpg",
+  "licencia": "dominio público",
+  "ancho": 432,
+  "alto": 500,
+  "titulo": "T. S. Eliot"
+ },
+ "literatura/dorian-gray": {
+  "imagen": "Lippincott doriangray.jpg",
+  "autor": "Unknown author Unknown author",
+  "licencia": "dominio público",
+  "ancho": 1277,
+  "alto": 1928,
+  "titulo": "The Picture of Dorian Gray"
+ },
+ "literatura/pessoa": {
+  "imagen": "Pessoa chapeu.jpg",
+  "autor": "Template:Cavalão",
+  "licencia": "dominio público",
+  "ancho": 1084,
+  "alto": 1513,
+  "titulo": "Fernando Pessoa"
+ },
+ "literatura/beloved": {
+  "imagen": "Toni Morrison.jpg",
+  "autor": "John Mathew Smith ( celebrity-photos.com )",
+  "licencia": "CC BY-SA 2.0",
+  "ancho": 1540,
+  "alto": 2195,
+  "titulo": "Toni Morrison"
+ },
+ "literatura/eugenio-oneguin": {
+  "imagen": "Eugene Onegin book edition.jpg",
+  "autor": "JohnnysNewCar",
+  "licencia": "CC0",
+  "ancho": 666,
+  "alto": 1080,
+  "titulo": "Eugene Onegin"
+ },
+ "literatura/kokoro": {
+  "imagen": "Natsume Soseki photo.jpg",
+  "autor": "Ogawa Kazumasa",
+  "licencia": "dominio público",
+  "ancho": 1378,
+  "alto": 1881,
+  "titulo": "Natsume Sōseki"
+ },
+ "literatura/rubaiyat": {
+  "imagen": "Houghton AC85 M4977 Zz878o - Rubáiyát, cover.jpg",
+  "autor": "Omar Khayyam (author), Edward FitzGerald (translator)",
+  "licencia": "dominio público",
+  "ancho": 2905,
+  "alto": 4103,
+  "titulo": "Rubaiyat of Omar Khayyam"
+ },
+ "literatura/pabellon-rojo": {
+  "imagen": "Hongloumeng2.jpg",
+  "autor": "autor desconocido",
+  "licencia": "dominio público",
+  "ancho": 272,
+  "alto": 319,
+  "titulo": "Dream of the Red Chamber"
+ },
+ "literatura/cuento-navidad": {
+  "imagen": "Charles Dickens-A Christmas Carol-Cloth-First Edition 1843.jpg",
+  "autor": "Charles Dickens, Photographer: Heritage Auctions, Inc. Dallas, Texas",
+  "licencia": "dominio público",
+  "ancho": 1512,
+  "alto": 2308,
+  "titulo": "A Christmas Carol"
+ },
+ "literatura/platero-yo": {
+  "imagen": "Primera edicion de 1914 de PLATERO Y YO.JPG",
+  "autor": "Fedekuki",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 717,
+  "alto": 1024,
+  "titulo": "Platero y yo"
+ },
+ "literatura/beowulf": {
+  "imagen": "Beowulf Cotton MS Vitellius A XV f. 132r.jpg",
+  "autor": "anonymous Anglo-Saxon poet",
+  "licencia": "dominio público",
+  "ancho": 4098,
+  "alto": 6868,
+  "titulo": "Beowulf"
+ },
+ "literatura/nada-laforet": {
+  "imagen": "Portrait Carmen Laforet.jpg",
+  "autor": "Marina Romera",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 800,
+  "alto": 1123,
+  "titulo": "Carmen Laforet"
+ },
+ "literatura/martin-fierro": {
+  "imagen": "El gaucho martinfierro 1872.jpg",
+  "autor": "Unknown author Unknown author",
+  "licencia": "dominio público",
+  "ancho": 526,
+  "alto": 778,
+  "titulo": "El Gaucho Martín Fierro"
+ },
+ "literatura/tirant-blanc": {
+  "imagen": "Tirante el Blanco 1511.jpg",
+  "autor": "anonymous",
+  "licencia": "dominio público",
+  "ancho": 321,
+  "alto": 470,
+  "titulo": "Tirant lo Blanch"
+ },
+ "literatura/miguel-hernandez": {
+  "imagen": "Miguel hernandez.jpg",
+  "autor": "UNED Universidad Nacional de Educación a Distancia from Madrid, Spain",
+  "licencia": "dominio público",
+  "ancho": 800,
+  "alto": 1088,
+  "titulo": "Miguel Hernández"
+ },
+ "literatura/conde-montecristo": {
+  "imagen": "Louis Français-Dantès sur son rocher.jpg",
+  "autor": "François-Louis Français",
+  "licencia": "dominio público",
+  "ancho": 2911,
+  "alto": 4342,
+  "titulo": "The Count of Monte Cristo"
+ },
+ "literatura/ciudad-perros": {
+  "imagen": "Mario Vargas Llosa LCCN2020733847 (cropped).png",
+  "autor": "Bernard Gotfryd",
+  "licencia": "dominio público",
+  "ancho": 2378,
+  "alto": 3238,
+  "titulo": "Mario Vargas Llosa"
+ }
+}

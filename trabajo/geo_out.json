@@ -1,0 +1,2770 @@
+{
+ "irlanda/0": {
+  "imagen": "Cliffs-Of-Moher-OBriens-From-South.JPG",
+  "autor": "Bjørn Christian Tørrissen",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 4608,
+  "alto": 3456,
+  "titulo": "Cliffs of Moher"
+ },
+ "irlanda/1": {
+  "imagen": "Skellig Michael03(js).jpg",
+  "autor": "Jerzy Strzelecki",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 5608,
+  "alto": 3651,
+  "titulo": "Skellig Michael"
+ },
+ "irlanda/2": {
+  "imagen": "Rock of Cashel (49163525453).jpg",
+  "autor": "David Stanley from Nanaimo, Canada",
+  "licencia": "CC BY 2.0",
+  "ancho": 1024,
+  "alto": 768,
+  "titulo": "Rock of Cashel"
+ },
+ "irlanda/3": {
+  "imagen": "Atlantic Ocean, Ring of Kerry (506559) (27964189752).jpg",
+  "autor": "Robert Linsdell from St. Andrews, Canada",
+  "licencia": "CC BY 2.0",
+  "ancho": 5443,
+  "alto": 3068,
+  "titulo": "Ring of Kerry"
+ },
+ "irlanda/4": {
+  "imagen": "St. Kevin's Kitchen, Glendalough, Co. Wicklow (2023).jpg",
+  "autor": "Denzillacey",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 6048,
+  "alto": 4024,
+  "titulo": "Glendalough"
+ },
+ "irlanda/5": {
+  "imagen": "Connemara and Joyce country.png",
+  "autor": "Own work",
+  "licencia": "dominio público",
+  "ancho": 444,
+  "alto": 397,
+  "titulo": "Connemara"
+ },
+ "irlanda/6": {
+  "imagen": "Irelands history.jpg",
+  "autor": "Tjp finn",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 3264,
+  "alto": 2448,
+  "titulo": "Newgrange"
+ },
+ "irlanda/7": {
+  "imagen": "Kylemore October 2014-1a.jpg",
+  "autor": "Alvesgaspar",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 6311,
+  "alto": 3820,
+  "titulo": "Kylemore Abbey"
+ },
+ "irlanda/8": {
+  "imagen": "The entrance of the historic Trinity College (Unsplash).jpg",
+  "autor": "Stephen Bergin steve_",
+  "licencia": "CC0",
+  "ancho": 5760,
+  "alto": 3840,
+  "titulo": "Trinity College Dublin"
+ },
+ "noruega/0": {
+  "imagen": "Geirangerfjord .jpg",
+  "autor": "Andreas Trepte",
+  "licencia": "CC BY-SA 2.5",
+  "ancho": 7193,
+  "alto": 4795,
+  "titulo": "Geirangerfjord"
+ },
+ "noruega/1": {
+  "imagen": "Lyse Fjord et Preikestolen.jpg",
+  "autor": "Clementp.fr",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 5205,
+  "alto": 2809,
+  "titulo": "Preikestolen"
+ },
+ "noruega/2": {
+  "imagen": "Moskenes Reinebringen lub 2025-07-21 img09 Aussicht.jpg",
+  "autor": "Lukas Beck",
+  "licencia": "CC BY 4.0",
+  "ancho": 7952,
+  "alto": 5304,
+  "titulo": "Lofoten"
+ },
+ "noruega/3": {
+  "imagen": "Bryggen, Bergen, Noruega, 2019-09-08, DD 115-117 PAN.jpg",
+  "autor": "Diego Delso",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 6491,
+  "alto": 3338,
+  "titulo": "Bryggen"
+ },
+ "noruega/4": {
+  "imagen": "Urnes Stave Church 1.jpg",
+  "autor": "Leo-setä",
+  "licencia": "CC BY 2.0",
+  "ancho": 1024,
+  "alto": 768,
+  "titulo": "Urnes Stave Church"
+ },
+ "noruega/5": {
+  "imagen": "Trolltunga 2017.jpg",
+  "autor": "kallerna",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 4032,
+  "alto": 3024,
+  "titulo": "Trolltunga"
+ },
+ "noruega/6": {
+  "imagen": "Oslo Opera House - 2025.jpg",
+  "autor": "Pierre Blaché",
+  "licencia": "CC0",
+  "ancho": 5962,
+  "alto": 2366,
+  "titulo": "Oslo Opera House"
+ },
+ "noruega/7": {
+  "imagen": "P1000290Jostedalsbreen.JPG",
+  "autor": "G.Lanting",
+  "licencia": "CC BY 3.0",
+  "ancho": 3264,
+  "alto": 2448,
+  "titulo": "Jostedalsbreen"
+ },
+ "noruega/8": {
+  "imagen": "Naerøyfjorden.jpg",
+  "autor": "Karamell",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 2272,
+  "alto": 1704,
+  "titulo": "Nærøyfjord"
+ },
+ "suecia/0": {
+  "imagen": "Gamla stan September 2014 01.jpg",
+  "autor": "Arild Vågen",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 6016,
+  "alto": 4016,
+  "titulo": "Gamla stan"
+ },
+ "suecia/1": {
+  "imagen": "The Vasa from the Bow.jpg",
+  "autor": "JavierKohen",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 6048,
+  "alto": 4032,
+  "titulo": "Vasa (ship)"
+ },
+ "suecia/2": {
+  "imagen": "0522Visby domkyrka.jpg",
+  "autor": "L.G.foto",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4304,
+  "alto": 2869,
+  "titulo": "Visby"
+ },
+ "suecia/3": {
+  "imagen": "Lapporten 2.jpg",
+  "autor": "Lapplaender",
+  "licencia": "CC BY-SA 2.0 de",
+  "ancho": 1024,
+  "alto": 768,
+  "titulo": "Abisko National Park"
+ },
+ "suecia/4": {
+  "imagen": "Drottningholm kollage 2011abc.jpg",
+  "autor": "Holger.Ellgaard",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 1647,
+  "alto": 2289,
+  "titulo": "Drottningholm Palace"
+ },
+ "suecia/5": {
+  "imagen": "Stockholms stadshus February 2026 02.jpg",
+  "autor": "ArildV",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 7503,
+  "alto": 4689,
+  "titulo": "Stockholm City Hall"
+ },
+ "suecia/7": {
+  "imagen": "Pierikpakte in Sarek.jpg",
+  "autor": "Grapetonix",
+  "licencia": "dominio público",
+  "ancho": 1600,
+  "alto": 1200,
+  "titulo": "Sarek National Park"
+ },
+ "suecia/8": {
+  "imagen": "Uppsala domkyrka, flygbild.jpg",
+  "autor": "Kateryna Baiduzha",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 3881,
+  "alto": 2581,
+  "titulo": "Uppsala Cathedral"
+ },
+ "finlandia/0": {
+  "imagen": "Suomenlinna aerial.JPG",
+  "autor": "Migro",
+  "licencia": "dominio público",
+  "ancho": 1600,
+  "alto": 1057,
+  "titulo": "Suomenlinna"
+ },
+ "finlandia/1": {
+  "imagen": "Kirkko3.png",
+  "autor": "Manster323",
+  "licencia": "CC0",
+  "ancho": 3772,
+  "alto": 2660,
+  "titulo": "Helsinki Cathedral"
+ },
+ "finlandia/2": {
+  "imagen": "Lake Saimaa aerial.jpg",
+  "autor": "kallerna",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4820,
+  "alto": 2830,
+  "titulo": "Saimaa"
+ },
+ "finlandia/3": {
+  "imagen": "Koli hill view.jpg",
+  "autor": "Lobke Thijssen",
+  "licencia": "CC BY-SA 2.5",
+  "ancho": 2048,
+  "alto": 1536,
+  "titulo": "Koli National Park"
+ },
+ "finlandia/4": {
+  "imagen": "Olavinlinna Savonlinna Finland.jpg",
+  "autor": "HENKKA5",
+  "licencia": "CC0",
+  "ancho": 7360,
+  "alto": 4912,
+  "titulo": "Olavinlinna"
+ },
+ "finlandia/5": {
+  "imagen": "Hauenguano.jpg",
+  "autor": "Mikkoau",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4000,
+  "alto": 3000,
+  "titulo": "Old Rauma"
+ },
+ "finlandia/6": {
+  "imagen": "Turkucastle edit.jpg",
+  "autor": "Otto Jula",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 3917,
+  "alto": 3141,
+  "titulo": "Turku Castle"
+ },
+ "finlandia/7": {
+  "imagen": "Pallastunturi Finland.jpg",
+  "autor": "M.P.",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 1280,
+  "alto": 960,
+  "titulo": "Pallas-Yllästunturi National Park"
+ },
+ "finlandia/8": {
+  "imagen": "Rovaniemi Montage.jpg",
+  "autor": "Jari Kolehmainen , Flickr user lindstormORG , Idobi , Andriychenko , Biergerry ,",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 1750,
+  "alto": 2832,
+  "titulo": "Rovaniemi"
+ },
+ "dinamarca/0": {
+  "imagen": "The Nyhavn Canal 3.jpg",
+  "autor": "European Commission",
+  "licencia": "CC BY 4.0",
+  "ancho": 5464,
+  "alto": 3640,
+  "titulo": "Nyhavn"
+ },
+ "dinamarca/1": {
+  "imagen": "Kronborg April 2026 10.jpg",
+  "autor": "ArildV",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 8256,
+  "alto": 4644,
+  "titulo": "Kronborg"
+ },
+ "dinamarca/2": {
+  "imagen": "Møns Klint 7.jpg",
+  "autor": "Bob Collowan",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 2645,
+  "alto": 1971,
+  "titulo": "Møns Klint"
+ },
+ "dinamarca/3": {
+  "imagen": "Frederiksborg Castle and boat crop.jpg",
+  "autor": "Casper Moller from London, United Kingdom",
+  "licencia": "CC BY 2.0",
+  "ancho": 3833,
+  "alto": 2533,
+  "titulo": "Frederiksborg Palace"
+ },
+ "dinamarca/4": {
+  "imagen": "RibeVue.jpg",
+  "autor": "Hjart",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 3264,
+  "alto": 1836,
+  "titulo": "Ribe"
+ },
+ "dinamarca/5": {
+  "imagen": "Skagen rooftops.jpg",
+  "autor": "John Nuttall from Hampshire, United Kingdom",
+  "licencia": "CC BY 2.0",
+  "ancho": 1600,
+  "alto": 1055,
+  "titulo": "Skagen"
+ },
+ "dinamarca/6": {
+  "imagen": "Roskilde Cathedral aerial crop.jpg",
+  "autor": "CucombreLibre from New York, NY, USA",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 1524,
+  "alto": 2016,
+  "titulo": "Roskilde Cathedral"
+ },
+ "dinamarca/7": {
+  "imagen": "Egeskov Slot spejling Edit 2.jpg",
+  "autor": "Malene Thyssen",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 1723,
+  "alto": 1200,
+  "titulo": "Egeskov Castle"
+ },
+ "dinamarca/8": {
+  "imagen": "I12 174 Schloss Rosenborg.jpg",
+  "autor": "Falk2",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4213,
+  "alto": 2768,
+  "titulo": "Rosenborg Castle"
+ },
+ "paises-bajos/0": {
+  "imagen": "KinderdijkMolens02.jpg",
+  "autor": "Lucas Hirschegger",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 1480,
+  "alto": 1108,
+  "titulo": "Kinderdijk"
+ },
+ "paises-bajos/1": {
+  "imagen": "26Y 1599 2.jpg",
+  "autor": "Urdulife",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 6048,
+  "alto": 4032,
+  "titulo": "Keukenhof"
+ },
+ "paises-bajos/2": {
+  "imagen": "Imagen de los canales concéntricos en Ámsterdam.png",
+  "autor": "Andrés Barrios",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 2480,
+  "alto": 1654,
+  "titulo": "Canals of Amsterdam"
+ },
+ "paises-bajos/3": {
+  "imagen": "South facade of the Rijksmuseum Amsterdam (DSCF0528).jpg",
+  "autor": "Trougnouf (Benoit Brummer)",
+  "licencia": "CC BY 4.0",
+  "ancho": 4291,
+  "alto": 3123,
+  "titulo": "Rijksmuseum"
+ },
+ "paises-bajos/4": {
+  "imagen": "Zaanstad Zaanse Schans 22.jpg",
+  "autor": "Zairon",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4592,
+  "alto": 2301,
+  "titulo": "Zaanse Schans"
+ },
+ "paises-bajos/5": {
+  "imagen": "Delft Blick von der Nieuwe Kerk auf die Oude Kerk 1.jpg",
+  "autor": "Zairon",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4592,
+  "alto": 3154,
+  "titulo": "Delft"
+ },
+ "paises-bajos/6": {
+  "imagen": "Giethoorn Netherlands flckr05.jpg",
+  "autor": "PhotoBobil",
+  "licencia": "CC BY 2.0",
+  "ancho": 3648,
+  "alto": 2736,
+  "titulo": "Giethoorn"
+ },
+ "paises-bajos/7": {
+  "imagen": "13-09-29-nordfriesisches-wattenmeer-RalfR-19.jpg",
+  "autor": "Ralf Roletschek",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 4107,
+  "alto": 2642,
+  "titulo": "Wadden Sea"
+ },
+ "paises-bajos/8": {
+  "imagen": "Erasmusbrug, September 2019.jpg",
+  "autor": "Martin Falbisoner",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 5530,
+  "alto": 3202,
+  "titulo": "Erasmusbrug"
+ },
+ "belgica/0": {
+  "imagen": "Grand-Place, Brussels - panorama, June 2018.jpg",
+  "autor": "Celuici",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 10946,
+  "alto": 6226,
+  "titulo": "Grand-Place"
+ },
+ "belgica/1": {
+  "imagen": "Brügge Blick vom Belfried 4.jpg",
+  "autor": "Zairon",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4520,
+  "alto": 2896,
+  "titulo": "Bruges"
+ },
+ "belgica/2": {
+  "imagen": "Brugge Belfort HDR.jpg",
+  "autor": "Adiel lo",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 1600,
+  "alto": 2400,
+  "titulo": "Belfry of Bruges"
+ },
+ "belgica/3": {
+  "imagen": "Gent, de Graslei vanaf de Korenlei met oeg24758tm61+25159 IMG 0447 2021-08-13 18.37.jpg",
+  "autor": "Michielverbeek",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 5467,
+  "alto": 3648,
+  "titulo": "Ghent"
+ },
+ "belgica/4": {
+  "imagen": "Exterior of Onze-Lieve-Vrouwekathedraal (Antwerp)-.jpg",
+  "autor": "Yair Haklai",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 1941,
+  "alto": 1564,
+  "titulo": "Cathedral of Our Lady (Antwerp)"
+ },
+ "belgica/5": {
+  "imagen": "Dinant reflected.jpg",
+  "autor": "https://www.flickr.com/photos/jiuguangw/",
+  "licencia": "CC BY-SA 2.0",
+  "ancho": 5472,
+  "alto": 3648,
+  "titulo": "Dinant"
+ },
+ "belgica/6": {
+  "imagen": "Gent Gravensteen R01.jpg",
+  "autor": "Marc Ryckaert ( MJJR )",
+  "licencia": "CC BY 3.0",
+  "ancho": 4088,
+  "alto": 2945,
+  "titulo": "Gravensteen"
+ },
+ "belgica/7": {
+  "imagen": "Brussel Koninklijk paleis.jpg",
+  "autor": "Sally V",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 5472,
+  "alto": 2629,
+  "titulo": "Royal Palace of Brussels"
+ },
+ "belgica/8": {
+  "imagen": "42150 - België - Leuven - Stadhuis - 00.jpg",
+  "autor": "EmDee",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 2244,
+  "alto": 3668,
+  "titulo": "Leuven Town Hall"
+ },
+ "suiza/0": {
+  "imagen": "Matterhorn from Domhütte - 2.jpg",
+  "autor": "Photo: chil, on Camptocamp.org Derivative work: Zacharie Grossen",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 1610,
+  "alto": 1073,
+  "titulo": "Matterhorn"
+ },
+ "suiza/1": {
+  "imagen": "Lake Geneva by Sentinel-2.jpg",
+  "autor": "Copernicus Sentinel-2, ESA",
+  "licencia": "CC BY-SA 3.0 igo",
+  "ancho": 7843,
+  "alto": 5433,
+  "titulo": "Lake Geneva"
+ },
+ "suiza/2": {
+  "imagen": "001 Chateau de Chillon and Dents du Midi Photo by Giles Laurent.jpg",
+  "autor": "Giles Laurent",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 7952,
+  "alto": 5304,
+  "titulo": "Chillon Castle"
+ },
+ "suiza/3": {
+  "imagen": "Jungfrau03.jpg",
+  "autor": "4000er",
+  "licencia": "dominio público",
+  "ancho": 720,
+  "alto": 540,
+  "titulo": "Jungfrau"
+ },
+ "suiza/4": {
+  "imagen": "1 lauterbrunnen valley wengen 2022.jpg",
+  "autor": "Chensiyuan",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 14077,
+  "alto": 9464,
+  "titulo": "Lauterbrunnen"
+ },
+ "suiza/5": {
+  "imagen": "Kapellbruecke.JPG",
+  "autor": "Simon Koopmann",
+  "licencia": "CC BY-SA 2.5",
+  "ancho": 3008,
+  "alto": 2000,
+  "titulo": "Chapel Bridge"
+ },
+ "suiza/6": {
+  "imagen": "Switzerland, Bettmeralp (19505442736).jpg",
+  "autor": "Robert J Heath",
+  "licencia": "CC BY 2.0",
+  "ancho": 3402,
+  "alto": 2268,
+  "titulo": "Aletsch Glacier"
+ },
+ "suiza/7": {
+  "imagen": "Bern luftaufnahme.png",
+  "autor": "de:Benutzer:Reaast",
+  "licencia": "dominio público",
+  "ancho": 728,
+  "alto": 490,
+  "titulo": "Old City of Bern"
+ },
+ "suiza/8": {
+  "imagen": "Vierwaldstaettersee.jpg",
+  "autor": "Ttrainer",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 900,
+  "alto": 600,
+  "titulo": "Lake Lucerne"
+ },
+ "austria/0": {
+  "imagen": "Hallstatt - Zentrum .JPG",
+  "autor": "C.Stadler/Bwag",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 3937,
+  "alto": 2717,
+  "titulo": "Hallstatt"
+ },
+ "austria/1": {
+  "imagen": "Wien - Schloss Schönbrunn.JPG",
+  "autor": "C.Stadler/Bwag",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 5650,
+  "alto": 3860,
+  "titulo": "Schönbrunn Palace"
+ },
+ "austria/2": {
+  "imagen": "Stift Melk, Westansicht.jpg",
+  "autor": "Thomas Ledl",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 6000,
+  "alto": 4000,
+  "titulo": "Melk Abbey"
+ },
+ "austria/3": {
+  "imagen": "Großglockner from behind the glass panorama tower.JPG",
+  "autor": "Michieliosios",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 3072,
+  "alto": 1728,
+  "titulo": "Grossglockner"
+ },
+ "austria/4": {
+  "imagen": "Salzburg - Festung Hohensalzburg.JPG",
+  "autor": "C.Stadler/Bwag",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 5460,
+  "alto": 3641,
+  "titulo": "Hohensalzburg Fortress"
+ },
+ "austria/5": {
+  "imagen": "Wien - Stephansdom (1).JPG",
+  "autor": "C.Stadler/Bwag",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 2625,
+  "alto": 3937,
+  "titulo": "St. Stephen's Cathedral, Vienna"
+ },
+ "austria/6": {
+  "imagen": "Wachau (2).JPG",
+  "autor": "C.Stadler/Bwag",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4961,
+  "alto": 2827,
+  "titulo": "Wachau"
+ },
+ "austria/7": {
+  "imagen": "Bürgerstraße 26+24 (BT0A2830).jpg",
+  "autor": "Simon Legner ( User:simon04 )",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4823,
+  "alto": 3216,
+  "titulo": "Innsbruck"
+ },
+ "austria/8": {
+  "imagen": "Palacio Belvedere, Viena, Austria, 2020-02-01, DD 93-95 HDR.jpg",
+  "autor": "Diego Delso",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 7785,
+  "alto": 3428,
+  "titulo": "Belvedere, Vienna"
+ },
+ "polonia/0": {
+  "imagen": "Wawel (4).jpg",
+  "autor": "Monika Towiańska",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4032,
+  "alto": 3024,
+  "titulo": "Wawel Castle"
+ },
+ "polonia/1": {
+  "imagen": "Sukiennice and Main Market Square Krakow Poland.JPG",
+  "autor": "Jorge Lascar",
+  "licencia": "CC BY 2.0",
+  "ancho": 4095,
+  "alto": 2790,
+  "titulo": "Main Square, Kraków"
+ },
+ "polonia/2": {
+  "imagen": "Αλατωρυχεία Βιελίτσκα 5021.jpg",
+  "autor": "C messier",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4443,
+  "alto": 2962,
+  "titulo": "Wieliczka Salt Mine"
+ },
+ "polonia/3": {
+  "imagen": "Zespół Zamku Krzyżackiego MALBORK 01.jpg",
+  "autor": "Gregy",
+  "licencia": "CC BY-SA 3.0 pl",
+  "ancho": 1300,
+  "alto": 822,
+  "titulo": "Malbork Castle"
+ },
+ "polonia/4": {
+  "imagen": "Tatra mountains western side 2.jpg",
+  "autor": "Piotr J",
+  "licencia": "CC BY 2.5",
+  "ancho": 2048,
+  "alto": 1536,
+  "titulo": "Tatra Mountains"
+ },
+ "polonia/5": {
+  "imagen": "Bialowieza National Park in Poland0029.JPG",
+  "autor": "Jacek Karczmarz",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 4288,
+  "alto": 2848,
+  "titulo": "Białowieża Forest"
+ },
+ "chequia/0": {
+  "imagen": "Karlův most Praha, Staré Město 20170810 007.jpg",
+  "autor": "Tilman2007",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 6016,
+  "alto": 4016,
+  "titulo": "Prague Castle"
+ },
+ "chequia/2": {
+  "imagen": "Blick auf das Stadtzentrum von Krumau (2026).jpg",
+  "autor": "DominikCK1999",
+  "licencia": "CC BY 4.0",
+  "ancho": 2040,
+  "alto": 1536,
+  "titulo": "Český Krumlov"
+ },
+ "chequia/3": {
+  "imagen": "Burg Karlstein - Karlštejn - panoramio.jpg",
+  "autor": "Jürgen Regel, Marian…",
+  "licencia": "CC BY 3.0",
+  "ancho": 3456,
+  "alto": 2592,
+  "titulo": "Karlštejn"
+ },
+ "chequia/4": {
+  "imagen": "Kutná Hora (003).jpg",
+  "autor": "al.trcka",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 4384,
+  "alto": 3288,
+  "titulo": "Kutná Hora"
+ },
+ "chequia/5": {
+  "imagen": "Pravcicka brana 001.jpg",
+  "autor": "No machine-readable author provided. Olaf1541 assumed (based on copyright claims",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 1200,
+  "alto": 802,
+  "titulo": "Bohemian Switzerland"
+ },
+ "chequia/6": {
+  "imagen": "Panorama Telc namesti z vysky.jpg",
+  "autor": "Mgr. Pavel Kotrla",
+  "licencia": "CC0",
+  "ancho": 6000,
+  "alto": 2999,
+  "titulo": "Telč"
+ },
+ "chequia/8": {
+  "imagen": "Lednice–Valtice Cultural Landscape Montage II.jpg",
+  "autor": "Lednice (Eisgrub) - zámek.JPG : Marcin Szala Před zámkem Valtice.JPG : Me116 Chr",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 2000,
+  "alto": 4000,
+  "titulo": "Lednice–Valtice Cultural Landscape"
+ },
+ "hungria/0": {
+  "imagen": "Hungarian Parliament Building from across the Danube, 2025-01-11.jpg",
+  "autor": "Kilyann Le Hen",
+  "licencia": "CC BY 4.0",
+  "ancho": 4731,
+  "alto": 2649,
+  "titulo": "Hungarian Parliament Building"
+ },
+ "hungria/1": {
+  "imagen": "Budavári Palota, ABCDEF épület.jpg",
+  "autor": "Varius",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 3568,
+  "alto": 2408,
+  "titulo": "Buda Castle"
+ },
+ "hungria/2": {
+  "imagen": "Budapest Széchenyi Baths R02.jpg",
+  "autor": "Marc Ryckaert ( MJJR )",
+  "licencia": "CC BY 3.0",
+  "ancho": 3216,
+  "alto": 2136,
+  "titulo": "Széchenyi thermal bath"
+ },
+ "hungria/3": {
+  "imagen": "Balaton Hungary Landscape.jpg",
+  "autor": "txd",
+  "licencia": "CC BY 2.0",
+  "ancho": 3036,
+  "alto": 2010,
+  "titulo": "Lake Balaton"
+ },
+ "hungria/4": {
+  "imagen": "Halászbástya 2017.jpg",
+  "autor": "Brian Adamson",
+  "licencia": "CC BY 2.0",
+  "ancho": 3456,
+  "alto": 4608,
+  "titulo": "Fisherman's Bastion"
+ },
+ "hungria/5": {
+  "imagen": "Hortobagy-ziehbrunnen.jpg",
+  "autor": "Andreas Poeschek , fotografikus.hu",
+  "licencia": "CC BY 2.0 at",
+  "ancho": 800,
+  "alto": 533,
+  "titulo": "Hortobágy National Park"
+ },
+ "hungria/6": {
+  "imagen": "Pannonhalma - Bencés apátság.jpg",
+  "autor": "Unknown author Unknown author",
+  "licencia": "CC BY-SA 2.5",
+  "ancho": 1030,
+  "alto": 723,
+  "titulo": "Pannonhalma Archabbey"
+ },
+ "hungria/7": {
+  "imagen": "Széchenyi Chain Bridge in Budapest at night.jpg",
+  "autor": "Wilfredor",
+  "licencia": "CC0",
+  "ancho": 3580,
+  "alto": 2000,
+  "titulo": "Széchenyi Chain Bridge"
+ },
+ "hungria/8": {
+  "imagen": "Erődrendszer romjai (17237. számú műemlék).jpg",
+  "autor": "krokophoto",
+  "licencia": "CC BY-SA 2.5 hu",
+  "ancho": 1200,
+  "alto": 1600,
+  "titulo": "Eger Castle"
+ },
+ "croacia/0": {
+  "imagen": "The walls of the fortress and View of the old city. panorama.jpg",
+  "autor": "Zysko serhii",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 3543,
+  "alto": 2198,
+  "titulo": "Dubrovnik"
+ },
+ "croacia/1": {
+  "imagen": "View in Plitvice Lakes National Park.jpg",
+  "autor": "Zysko serhii",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 2437,
+  "alto": 3459,
+  "titulo": "Plitvice Lakes National Park"
+ },
+ "croacia/2": {
+  "imagen": "Croatia-01239 - The Peristil (9551533404).jpg",
+  "autor": "Dennis G. Jarvis",
+  "licencia": "CC BY-SA 2.0",
+  "ancho": 4000,
+  "alto": 6000,
+  "titulo": "Diocletian's Palace"
+ },
+ "croacia/3": {
+  "imagen": "View of Hvar 02.jpg",
+  "autor": "Bernard Gagnon",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4280,
+  "alto": 2853,
+  "titulo": "Hvar"
+ },
+ "croacia/4": {
+  "imagen": "Krkawatervallen.jpg",
+  "autor": "Rkoster",
+  "licencia": "CC BY 4.0",
+  "ancho": 4000,
+  "alto": 3000,
+  "titulo": "Krka National Park"
+ },
+ "croacia/5": {
+  "imagen": "Pula Arena (2024-10-10 1).jpg",
+  "autor": "Olgierd Rudak",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4032,
+  "alto": 3024,
+  "titulo": "Pula Arena"
+ },
+ "croacia/6": {
+  "imagen": "Rovinj, Croatia.jpg",
+  "autor": "Florian Hirzinger - http://www.fh-ap.com",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 1200,
+  "alto": 800,
+  "titulo": "Rovinj"
+ },
+ "croacia/7": {
+  "imagen": "Trogir (20611290808).jpg",
+  "autor": "Nick Savchenko from Kiev, Ukraine",
+  "licencia": "CC BY-SA 2.0",
+  "ancho": 4608,
+  "alto": 3072,
+  "titulo": "Trogir"
+ },
+ "croacia/8": {
+  "imagen": "2025 Atrium Euphrasius-Basilika.jpg",
+  "autor": "Aquamunda",
+  "licencia": "CC BY 4.0",
+  "ancho": 1882,
+  "alto": 2586,
+  "titulo": "Euphrasian Basilica"
+ },
+ "rumania/0": {
+  "imagen": "Castelul Bran2.jpg",
+  "autor": "Dobre Cezar",
+  "licencia": "CC BY-SA 3.0 ro",
+  "ancho": 3791,
+  "alto": 2516,
+  "titulo": "Bran Castle"
+ },
+ "rumania/1": {
+  "imagen": "01 Chateau Peles.jpg",
+  "autor": "Myrabella",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 3986,
+  "alto": 2848,
+  "titulo": "Peleș Castle"
+ },
+ "rumania/2": {
+  "imagen": "Romania-roads-DN7C.png",
+  "autor": "No machine-readable author provided. Qyd assumed (based on copyright claims).",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 646,
+  "alto": 454,
+  "titulo": "Transfăgărășan"
+ },
+ "rumania/3": {
+  "imagen": "Danube Delta ESA23450088.jpeg",
+  "autor": "European Space Agency",
+  "licencia": "Attribution",
+  "ancho": 15404,
+  "alto": 15404,
+  "titulo": "Danube Delta"
+ },
+ "rumania/4": {
+  "imagen": "Casa cu cerbi.JPG",
+  "autor": "Fridolin68",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 3568,
+  "alto": 2000,
+  "titulo": "Sighișoara"
+ },
+ "rumania/5": {
+  "imagen": "Voronet Intrare.JPG",
+  "autor": "Dstefanescu",
+  "licencia": "dominio público",
+  "ancho": 3008,
+  "alto": 2000,
+  "titulo": "Voroneț Monastery"
+ },
+ "rumania/7": {
+  "imagen": "Cimitirul Vesel, Săpânța, Maramureș - (2023) - IMG 18.jpg",
+  "autor": "Chainwit.",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 3024,
+  "alto": 4235,
+  "titulo": "Merry Cemetery"
+ },
+ "rumania/8": {
+  "imagen": "Hunedoara castle.jpg",
+  "autor": "Paszczur01",
+  "licencia": "CC BY-SA 3.0 ro",
+  "ancho": 2144,
+  "alto": 1424,
+  "titulo": "Corvin Castle"
+ },
+ "ucrania/0": {
+  "imagen": "Лавра.jpg",
+  "autor": "Falin",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 4830,
+  "alto": 3034,
+  "titulo": "Kyiv Pechersk Lavra"
+ },
+ "ucrania/1": {
+  "imagen": "80-391-0151 Kyiv St.Sophia's Cathedral RB 18 2 (cropped).jpg",
+  "autor": "Rbrechko",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4800,
+  "alto": 3603,
+  "titulo": "Saint Sophia Cathedral, Kyiv"
+ },
+ "ucrania/2": {
+  "imagen": "Латинський кафедральний собор (Львів) 16.jpg",
+  "autor": "Konstantin Brizhnichenko",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 2000,
+  "alto": 1335,
+  "titulo": "Lviv"
+ },
+ "ucrania/3": {
+  "imagen": "Зимова фортеця.jpg",
+  "autor": "Moahim",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 3755,
+  "alto": 2500,
+  "titulo": "Kamianets-Podilskyi Castle"
+ },
+ "ucrania/4": {
+  "imagen": "Потьомкінські сходи 11.jpg",
+  "autor": "Oleksandr Malyon",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 5018,
+  "alto": 3165,
+  "titulo": "Potemkin Stairs"
+ },
+ "ucrania/5": {
+  "imagen": "13.Парк „Софіївка\" з комплексом водойм, паркових будівель, споруд і скульптур.JPG",
+  "autor": "Folkerman",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 2304,
+  "alto": 3072,
+  "titulo": "Sofiyivka Park"
+ },
+ "ucrania/6": {
+  "imagen": "Chernivtsi National University arms.png",
+  "autor": "The original uploader was Andrew J.Kurbiko at Ukrainian Wikipedia .",
+  "licencia": "dominio público",
+  "ancho": 201,
+  "alto": 247,
+  "titulo": "Chernivtsi University"
+ },
+ "ucrania/7": {
+  "imagen": "Зимовий виднокрай.jpg",
+  "autor": "Robert-Erik",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 3888,
+  "alto": 2592,
+  "titulo": "Hoverla"
+ },
+ "ucrania/8": {
+  "imagen": "73-250-0001 Khotyn Fortress RB 18.jpg",
+  "autor": "Rbrechko",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 6000,
+  "alto": 4000,
+  "titulo": "Khotyn Fortress"
+ },
+ "bulgaria/0": {
+  "imagen": "Rila Monastery, August 2013.jpg",
+  "autor": "Raggatt2000",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 3690,
+  "alto": 2460,
+  "titulo": "Rila Monastery"
+ },
+ "bulgaria/1": {
+  "imagen": "Catedral de Alejandro Nevski -- 2019 -- Sofía, Bulgaria.jpg",
+  "autor": "Jose Ligero Loarte",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 5917,
+  "alto": 3945,
+  "titulo": "Alexander Nevsky Cathedral, Sofia"
+ },
+ "bulgaria/2": {
+  "imagen": "Пловдив.jpg",
+  "autor": "Община Пловдив",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 3992,
+  "alto": 2242,
+  "titulo": "Plovdiv"
+ },
+ "bulgaria/3": {
+  "imagen": "Collage of views of VT G.png",
+  "autor": "File:Tsarevets-Panorama.jpg , www.vacacionesbulgaria.com (Infobgv) File:Church o",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 790,
+  "alto": 1165,
+  "titulo": "Veliko Tarnovo"
+ },
+ "bulgaria/4": {
+  "imagen": "Vr-ezeren-pan-sm.jpg",
+  "autor": "Aski at en.wikipedia",
+  "licencia": "CC BY 3.0",
+  "ancho": 2584,
+  "alto": 870,
+  "titulo": "Seven Rila Lakes"
+ },
+ "bulgaria/5": {
+  "imagen": "Nessebar lead collage.jpg",
+  "autor": "NightBlade151",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 1553,
+  "alto": 2000,
+  "titulo": "Nesebar"
+ },
+ "bulgaria/6": {
+  "imagen": "Област Видин - Белоградчик - Белоградчишки скали - (12).jpg",
+  "autor": "Камен Ханджиев",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 7514,
+  "alto": 2552,
+  "titulo": "Belogradchik Rocks"
+ },
+ "bulgaria/7": {
+  "imagen": "Pirin - Gergiyski ezera - IMG 4439.jpg",
+  "autor": "Dido3",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4368,
+  "alto": 2912,
+  "titulo": "Pirin National Park"
+ },
+ "bulgaria/8": {
+  "imagen": "Boyana Church 2 TB.JPG",
+  "autor": "Todor Bozhinov / Тодор Божинов",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 3648,
+  "alto": 2736,
+  "titulo": "Boyana Church"
+ },
+ "georgia/0": {
+  "imagen": "Gergeti Trinity Church 09.23.jpg",
+  "autor": "This Photo was taken by Supanut Arunoprayote . Feel free to use any of my images",
+  "licencia": "CC BY 4.0",
+  "ancho": 6520,
+  "alto": 4347,
+  "titulo": "Gergeti Trinity Church"
+ },
+ "georgia/1": {
+  "imagen": "View of Tbilisi from Tabori Church 2023-10-08-2.jpg",
+  "autor": "Alexey Komarov",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4753,
+  "alto": 3169,
+  "titulo": "Tbilisi"
+ },
+ "georgia/2": {
+  "imagen": "Ushguli Svaneti Georgia.JPG",
+  "autor": "Florian Pinel",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 3872,
+  "alto": 2592,
+  "titulo": "Ushguli"
+ },
+ "georgia/3": {
+  "imagen": "2025-05-25 Vardzia 9.jpg",
+  "autor": "Alexkom000",
+  "licencia": "CC BY 4.0",
+  "ancho": 4934,
+  "alto": 3290,
+  "titulo": "Vardzia"
+ },
+ "georgia/4": {
+  "imagen": "Middle ages Basilica on the top of the cave, Uplistsikhe 20230920 (II).jpg",
+  "autor": "This Photo was taken by Supanut Arunoprayote . Feel free to use any of my images",
+  "licencia": "CC BY 4.0",
+  "ancho": 6574,
+  "alto": 4383,
+  "titulo": "Uplistsikhe"
+ },
+ "georgia/5": {
+  "imagen": "Georgia Jvari monastery IMG 9345 2070.jpg",
+  "autor": "Alexxx1979",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 3105,
+  "alto": 2070,
+  "titulo": "Jvari Monastery"
+ },
+ "georgia/6": {
+  "imagen": "Georgian Fortress Ananuri.jpg",
+  "autor": "Vadim Tolbatov",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 2048,
+  "alto": 1308,
+  "titulo": "Ananuri"
+ },
+ "georgia/7": {
+  "imagen": "Svetitskhoveli Cathedral 09.23 (3).jpg",
+  "autor": "This Photo was taken by Supanut Arunoprayote . Feel free to use any of my images",
+  "licencia": "CC BY 4.0",
+  "ancho": 6532,
+  "alto": 4355,
+  "titulo": "Svetitskhoveli Cathedral"
+ },
+ "georgia/8": {
+  "imagen": "Tbilisi IMG 8846 1920.jpg",
+  "autor": "Alexxx1979",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 3421,
+  "alto": 1920,
+  "titulo": "Narikala"
+ },
+ "uzbekistan/0": {
+  "imagen": "Islam Khodja Madrasa 01.jpg",
+  "autor": "Bgag",
+  "licencia": "CC0",
+  "ancho": 3144,
+  "alto": 1902,
+  "titulo": "Itchan Kala"
+ },
+ "uzbekistan/1": {
+  "imagen": "Shah-i-Zinda, Samarkand (Shohi-Zinda majmuasi, Samarqand, Шахи Зинда).jpg",
+  "autor": "Petar Milošević",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 8160,
+  "alto": 5512,
+  "titulo": "Shah-i-Zinda"
+ },
+ "uzbekistan/2": {
+  "imagen": "Poi Kalon.jpg",
+  "autor": "Официальный веб-сайт Агентства культурного наследия Республики Узбекистан",
+  "licencia": "CC BY 4.0",
+  "ancho": 1035,
+  "alto": 690,
+  "titulo": "Po-i-Kalyan"
+ },
+ "uzbekistan/3": {
+  "imagen": "ShrineofAmirTimur.jpg",
+  "autor": "Willard84",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4272,
+  "alto": 2848,
+  "titulo": "Gur-e-Amir"
+ },
+ "uzbekistan/4": {
+  "imagen": "Мечеть Биби Ханум. Самарканд.jpg",
+  "autor": "Шухрат Саъдиев",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4160,
+  "alto": 2741,
+  "titulo": "Bibi-Khanym Mosque"
+ },
+ "uzbekistan/5": {
+  "imagen": "Nadir Divan-Beghi Madrassah.JPG",
+  "autor": "Mario J. Schwaiger",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 7360,
+  "alto": 4912,
+  "titulo": "Lyab-i Hauz"
+ },
+ "uzbekistan/6": {
+  "imagen": "Ark of Bukhara 2023.9.jpg",
+  "autor": "ほっきー",
+  "licencia": "CC0",
+  "ancho": 4032,
+  "alto": 3024,
+  "titulo": "Ark of Bukhara"
+ },
+ "uzbekistan/7": {
+  "imagen": "Aral Sea 1964 vs. August 25, 2026.png",
+  "autor": "National Aeronautics and Space Administration (NASA), collage by Dylan240 .",
+  "licencia": "dominio público",
+  "ancho": 7888,
+  "alto": 3847,
+  "titulo": "Aral Sea"
+ },
+ "uzbekistan/8": {
+  "imagen": "A model of Ulug Beg obsrvatory in the Uzbek National Muzeum.jpg",
+  "autor": "Victoria",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4000,
+  "alto": 3000,
+  "titulo": "Ulugh Beg Observatory"
+ },
+ "kazajistan/0": {
+  "imagen": "Charyn Canyon, Kazakhstan 03.jpg",
+  "autor": "Bgag",
+  "licencia": "CC0",
+  "ancho": 5184,
+  "alto": 3323,
+  "titulo": "Charyn Canyon"
+ },
+ "kazajistan/1": {
+  "imagen": "Big Almaty Lake (2511 m) and snowy peak of Soviets (4317 m) in September, 2, 2017.jpg",
+  "autor": "МаратД",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 1632,
+  "alto": 1224,
+  "titulo": "Big Almaty Lake"
+ },
+ "kazajistan/2": {
+  "imagen": "Маузолеј Ходже Ахмеда Јасавија (град Туркестан, Казахстан).jpg",
+  "autor": "Petar Milošević",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 4264,
+  "alto": 2728,
+  "titulo": "Mausoleum of Khoja Ahmed Yasawi"
+ },
+ "kazajistan/4": {
+  "imagen": "Altynemel landscape.jpg",
+  "autor": "Kalpak Travel",
+  "licencia": "CC BY 2.0",
+  "ancho": 4896,
+  "alto": 3672,
+  "titulo": "Altyn-Emel National Park"
+ },
+ "kazajistan/5": {
+  "imagen": "Baikonur Cosmodrome Soyuz launch pad.jpg",
+  "autor": "Bill Ingalls",
+  "licencia": "dominio público",
+  "ancho": 4256,
+  "alto": 2832,
+  "titulo": "Baikonur Cosmodrome"
+ },
+ "kazajistan/7": {
+  "imagen": "Zenkov cathedral.jpg",
+  "autor": "Petar Milošević",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 3056,
+  "alto": 3912,
+  "titulo": "Zenkov Cathedral"
+ },
+ "kazajistan/8": {
+  "imagen": "Kaindy lake south-east Kazakhstan.jpg",
+  "autor": "Jonas Satkauskas",
+  "licencia": "Attribution",
+  "ancho": 1600,
+  "alto": 1200,
+  "titulo": "Kaindy Lake"
+ },
+ "mongolia/0": {
+  "imagen": "Gobi Desert.jpg",
+  "autor": "autor desconocido",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 1600,
+  "alto": 1200,
+  "titulo": "Gobi Desert"
+ },
+ "mongolia/1": {
+  "imagen": "Świątynia Zachodnia w klasztorze Erdene Dzuu 01.jpg",
+  "autor": "Marcin Konsek",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 3188,
+  "alto": 2129,
+  "titulo": "Erdene Zuu Monastery"
+ },
+ "mongolia/2": {
+  "imagen": "ISS067-E-879 - View of Earth.jpg",
+  "autor": "Earth Science and Remote Sensing Unit , Lyndon B. Johnson Space Center",
+  "licencia": "dominio público",
+  "ancho": 5568,
+  "alto": 3712,
+  "titulo": "Khövsgöl Nuur"
+ },
+ "mongolia/3": {
+  "imagen": "Flaming cliffs 5.jpg",
+  "autor": "Christopher Michel",
+  "licencia": "CC BY 2.0",
+  "ancho": 8147,
+  "alto": 5431,
+  "titulo": "Flaming Cliffs"
+ },
+ "mongolia/4": {
+  "imagen": "Gorkhi-Terelj National Park.jpg",
+  "autor": "Chongkian",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4000,
+  "alto": 3000,
+  "titulo": "Gorkhi-Terelj National Park"
+ },
+ "mongolia/5": {
+  "imagen": "Khongoryn Els 04.jpg",
+  "autor": "Bernard Gagnon",
+  "licencia": "CC0",
+  "ancho": 5184,
+  "alto": 3290,
+  "titulo": "Khongoryn Els"
+ },
+ "mongolia/6": {
+  "imagen": "Orchon-mongolei.JPG",
+  "autor": "He-ba-mue",
+  "licencia": "CC BY-SA 2.5",
+  "ancho": 1600,
+  "alto": 1200,
+  "titulo": "Orkhon Valley"
+ },
+ "mongolia/7": {
+  "imagen": "Gandantegchinlen Monastery (2024).jpg",
+  "autor": "Chongkian",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4000,
+  "alto": 3000,
+  "titulo": "Gandantegchinlen Monastery"
+ },
+ "mongolia/8": {
+  "imagen": "Tavan Bogd Mountain.jpg",
+  "autor": "Altaihunters",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 1024,
+  "alto": 707,
+  "titulo": "Altai Tavan Bogd National Park"
+ },
+ "corea-del-sur/1": {
+  "imagen": "Lotus Flower Bridge and Seven Treasure Bridge at Bulguksa in Gyeongju, Korea.jpg",
+  "autor": "Unknown author Unknown author",
+  "licencia": "dominio público",
+  "ancho": 2148,
+  "alto": 1652,
+  "titulo": "Bulguksa"
+ },
+ "corea-del-sur/3": {
+  "imagen": "Hallasan Above.jpg",
+  "autor": "LG전자",
+  "licencia": "CC BY 2.0",
+  "ancho": 1134,
+  "alto": 749,
+  "titulo": "Hallasan"
+ },
+ "corea-del-sur/5": {
+  "imagen": "Bukchon Hanok Village 01.jpg",
+  "autor": "Bgag",
+  "licencia": "CC0",
+  "ancho": 4898,
+  "alto": 3265,
+  "titulo": "Bukchon Hanok Village"
+ },
+ "corea-del-sur/6": {
+  "imagen": "Hwaseong Fortress, Suwon, Gyeonggi-do, Republic of Korea (2).jpg",
+  "autor": "Lance Vanlewen",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4096,
+  "alto": 3072,
+  "titulo": "Hwaseong Fortress"
+ },
+ "corea-del-sur/7": {
+  "imagen": "한국 문화 여행 음식 해인사003.jpg",
+  "autor": "한국교육방송공사",
+  "licencia": "CC BY 4.0",
+  "ancho": 1920,
+  "alto": 1080,
+  "titulo": "Haeinsa"
+ },
+ "corea-del-sur/8": {
+  "imagen": "Seongsan Ilchulbong from the air.jpg",
+  "autor": "Korea.net / Korean Culture and Information Service",
+  "licencia": "CC BY-SA 2.0",
+  "ancho": 5641,
+  "alto": 3675,
+  "titulo": "Seongsan Ilchulbong"
+ },
+ "filipinas/0": {
+  "imagen": "Banaue-terrace.JPG",
+  "autor": "User: (WT-shared) Roundtheworld at wts wikivoyage",
+  "licencia": "dominio público",
+  "ancho": 3888,
+  "alto": 2592,
+  "titulo": "Banaue Rice Terraces"
+ },
+ "filipinas/1": {
+  "imagen": "Chocolate Hills Bohol.JPG",
+  "autor": "P199",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 1441,
+  "alto": 1095,
+  "titulo": "Chocolate Hills"
+ },
+ "filipinas/2": {
+  "imagen": "Mount Mayon Cagsawa field view close-up (Busay, Daraga, Albay; 04-21-2023).jpg",
+  "autor": "Patrickroque01",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 3552,
+  "alto": 2664,
+  "titulo": "Mayon"
+ },
+ "filipinas/3": {
+  "imagen": "Baluartillo de San José, Manila, Filipinas, 2023-08-26, DD 41.jpg",
+  "autor": "Diego Delso",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 8182,
+  "alto": 4567,
+  "titulo": "Intramuros"
+ },
+ "filipinas/4": {
+  "imagen": "Calle Crisologo, Vigan, Ilocos Sur, Apr 2026 (2).jpg",
+  "autor": "Ralff Nestor Nacor",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 3877,
+  "alto": 2919,
+  "titulo": "Vigan"
+ },
+ "filipinas/5": {
+  "imagen": "Puerto-Princesa Subterranean River National Park-112012.jpg",
+  "autor": "Ron Van Oers",
+  "licencia": "CC BY-SA 3.0 igo",
+  "ancho": 3008,
+  "alto": 2000,
+  "titulo": "Puerto Princesa Subterranean River National Park"
+ },
+ "filipinas/6": {
+  "imagen": "Taal Lake and Volcano, Tagaytay, Philippines.jpg",
+  "autor": "Ray in Manila",
+  "licencia": "CC BY 2.0",
+  "ancho": 4958,
+  "alto": 2962,
+  "titulo": "Taal Volcano"
+ },
+ "filipinas/7": {
+  "imagen": "El Nido Bay December 2018.jpg",
+  "autor": "Kalithecat00",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 6000,
+  "alto": 4000,
+  "titulo": "El Nido, Palawan"
+ },
+ "filipinas/8": {
+  "imagen": "Tubbataha Shark.jpg",
+  "autor": "Simon Hefti, Schweiz ( de:User:Nikswieweg )",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 800,
+  "alto": 530,
+  "titulo": "Tubbataha Reefs Natural Park"
+ },
+ "malasia/1": {
+  "imagen": "Kinabalu Sabah Borneo Kampong Kundasang panorama 2.jpg",
+  "autor": "kallerna",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 5180,
+  "alto": 2010,
+  "titulo": "Mount Kinabalu"
+ },
+ "malasia/2": {
+  "imagen": "Batu Caves stairs 2022-05.jpg",
+  "autor": "Chainwit.",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4032,
+  "alto": 3024,
+  "titulo": "Batu Caves"
+ },
+ "malasia/3": {
+  "imagen": "Skyline of George Town, Penang at night Nov2024-29-17.jpg",
+  "autor": "HundenvonPenang",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 7994,
+  "alto": 4496,
+  "titulo": "George Town, Penang"
+ },
+ "malasia/4": {
+  "imagen": "Melaka View.jpg",
+  "autor": "Atlasmotor",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 5312,
+  "alto": 2988,
+  "titulo": "Malacca City"
+ },
+ "malasia/5": {
+  "imagen": "Taman Negara Sungai Tembeling.JPG",
+  "autor": "RoB",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 2112,
+  "alto": 2816,
+  "titulo": "Taman Negara"
+ },
+ "malasia/6": {
+  "imagen": "Tea fields (Will Ellis).jpg",
+  "autor": "Will Ellis from Reading, England",
+  "licencia": "CC BY 2.0",
+  "ancho": 2816,
+  "alto": 2112,
+  "titulo": "Cameron Highlands"
+ },
+ "malasia/7": {
+  "imagen": "Mulu.JPG",
+  "autor": "Juanita at the Japanese wikpedia",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 640,
+  "alto": 480,
+  "titulo": "Gunung Mulu National Park"
+ },
+ "malasia/8": {
+  "imagen": "Kinabatangan River (14154417142).jpg",
+  "autor": "Mike Prince from Bangalore, India",
+  "licencia": "CC BY 2.0",
+  "ancho": 2048,
+  "alto": 1044,
+  "titulo": "Kinabatangan River"
+ },
+ "camboya/0": {
+  "imagen": "Bayon, Angkor Thom, Camboya, 2013-08-17, DD 37.JPG",
+  "autor": "Diego Delso",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 5533,
+  "alto": 2499,
+  "titulo": "Bayon"
+ },
+ "camboya/1": {
+  "imagen": "Ta Prohm (III).jpg",
+  "autor": "This Photo was taken by Supanut Arunoprayote . Feel free to use any of my images",
+  "licencia": "CC BY 4.0",
+  "ancho": 5071,
+  "alto": 3381,
+  "titulo": "Ta Prohm"
+ },
+ "camboya/2": {
+  "imagen": "Le Palais Royal (Phnom Penh) (6997773481).jpg",
+  "autor": "Jean-Pierre Dalbéra from Paris, France",
+  "licencia": "CC BY 2.0",
+  "ancho": 1536,
+  "alto": 1024,
+  "titulo": "Royal Palace, Phnom Penh"
+ },
+ "camboya/3": {
+  "imagen": "Cambodia, Tonle Sap IMG 3285.JPG",
+  "autor": "Deror_avi",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 3456,
+  "alto": 2304,
+  "titulo": "Tonlé Sap"
+ },
+ "camboya/4": {
+  "imagen": "Banteay Srei full2.jpg",
+  "autor": "Tsui",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 1368,
+  "alto": 952,
+  "titulo": "Banteay Srei"
+ },
+ "camboya/5": {
+  "imagen": "03 Prasat Preah Vihear-nX-06478.jpg",
+  "autor": "PsamatheM",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 5472,
+  "alto": 3648,
+  "titulo": "Prasat Preah Vihear"
+ },
+ "camboya/6": {
+  "imagen": "0505280017PThompyramid.jpg",
+  "autor": "(WT-en) Peaceofangkor at English Wikivoyage",
+  "licencia": "dominio público",
+  "ancho": 798,
+  "alto": 503,
+  "titulo": "Koh Ker"
+ },
+ "camboya/7": {
+  "imagen": "Angkor Thom (II).jpg",
+  "autor": "This Photo was taken by Supanut Arunoprayote . Feel free to use any of my images",
+  "licencia": "CC BY 4.0",
+  "ancho": 5382,
+  "alto": 3588,
+  "titulo": "Angkor Thom"
+ },
+ "camboya/8": {
+  "imagen": "Silverpagoda.jpg",
+  "autor": "plusgood",
+  "licencia": "CC BY 2.0",
+  "ancho": 3888,
+  "alto": 2592,
+  "titulo": "Silver Pagoda"
+ },
+ "sri-lanka/0": {
+  "imagen": "Sigiriya (141688197).jpeg",
+  "autor": "Wrobell",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 2048,
+  "alto": 1365,
+  "titulo": "Sigiriya"
+ },
+ "sri-lanka/2": {
+  "imagen": "Dambulla-buddhastupa.jpg",
+  "autor": "Lankapic",
+  "licencia": "CC BY 2.5",
+  "ancho": 1500,
+  "alto": 1347,
+  "titulo": "Dambulla cave temple"
+ },
+ "sri-lanka/3": {
+  "imagen": "Galle Fort.jpg",
+  "autor": "Rovin Shanila",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4048,
+  "alto": 3032,
+  "titulo": "Galle Fort"
+ },
+ "sri-lanka/4": {
+  "imagen": "Sri Pada.JPG",
+  "autor": "Bourgeois",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 2272,
+  "alto": 1704,
+  "titulo": "Adam's Peak"
+ },
+ "sri-lanka/6": {
+  "imagen": "Polonnaruwa 01.jpg",
+  "autor": "Bernard Gagnon",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 2108,
+  "alto": 1462,
+  "titulo": "Polonnaruwa"
+ },
+ "sri-lanka/7": {
+  "imagen": "The Nine Arches Bridge.jpg",
+  "autor": "MichaelJames2468",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 2610,
+  "alto": 2853,
+  "titulo": "Nine Arch Bridge"
+ },
+ "sri-lanka/8": {
+  "imagen": "Yala Beach.jpg",
+  "autor": "Ranmith Welikala",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 10998,
+  "alto": 6186,
+  "titulo": "Yala National Park"
+ },
+ "pakistan/0": {
+  "imagen": "Badshahi Mosque front picture.jpg",
+  "autor": "Romero Maia",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 2592,
+  "alto": 1728,
+  "titulo": "Badshahi Mosque"
+ },
+ "pakistan/1": {
+  "imagen": "Chogori.jpg",
+  "autor": "Zacharie Grossen",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4000,
+  "alto": 3000,
+  "titulo": "K2"
+ },
+ "pakistan/2": {
+  "imagen": "Hunza Valley HDR.jpg",
+  "autor": "FaizanAhmad",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 3000,
+  "alto": 1989,
+  "titulo": "Hunza Valley"
+ },
+ "pakistan/3": {
+  "imagen": "Ali Mujtaba WLM2017 FAISAL MOSQUE 019.jpg",
+  "autor": "Ali Mujtaba",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 5392,
+  "alto": 3392,
+  "titulo": "Faisal Mosque"
+ },
+ "pakistan/4": {
+  "imagen": "Lahore Fort view from Baradari.jpg",
+  "autor": "Rohaan Bhatti",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 1626,
+  "alto": 1191,
+  "titulo": "Lahore Fort"
+ },
+ "pakistan/5": {
+  "imagen": "Fairy Meadows and the view of Nanga Parbat.jpg",
+  "autor": "Imrankhakwani",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 2048,
+  "alto": 1334,
+  "titulo": "Nanga Parbat"
+ },
+ "pakistan/6": {
+  "imagen": "KKH.png",
+  "autor": "de:Benutzer:Grag , User:Tevatron~commonswiki , User:Lexicon",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 595,
+  "alto": 851,
+  "titulo": "Karakoram Highway"
+ },
+ "pakistan/8": {
+  "imagen": "Kabuli Gate - Rohtas Fort by Usman Ghani.jpg",
+  "autor": "Usman.pg",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 3008,
+  "alto": 2000,
+  "titulo": "Rohtas Fort"
+ },
+ "senegal/0": {
+  "imagen": "Ile-de-goree.jpg",
+  "autor": "Gregor Rom",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4117,
+  "alto": 3091,
+  "titulo": "Gorée"
+ },
+ "senegal/1": {
+  "imagen": "RetbaLakeShore.jpg",
+  "autor": "Jjm2311",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 6000,
+  "alto": 4000,
+  "titulo": "Lake Retba"
+ },
+ "senegal/2": {
+  "imagen": "Island of Saint-Louis-113799.jpg",
+  "autor": "Jim Williams",
+  "licencia": "CC BY-SA 3.0 igo",
+  "ancho": 2816,
+  "alto": 2112,
+  "titulo": "Saint-Louis, Senegal"
+ },
+ "senegal/3": {
+  "imagen": "CormoransDjoudj.JPG",
+  "autor": "Ji-Elle",
+  "licencia": "dominio público",
+  "ancho": 2048,
+  "alto": 1536,
+  "titulo": "Djoudj National Bird Sanctuary"
+ },
+ "senegal/4": {
+  "imagen": "Touba (senegal) 2006.JPG",
+  "autor": "zivax",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 2048,
+  "alto": 1536,
+  "titulo": "Great Mosque of Touba"
+ },
+ "senegal/8": {
+  "imagen": "Saintlouis pont Faidherbe.jpg",
+  "autor": "Manu25",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 2048,
+  "alto": 1365,
+  "titulo": "Faidherbe Bridge"
+ },
+ "ghana/0": {
+  "imagen": "Cape Coast Castle, Cape Coast, Ghana.JPG",
+  "autor": "Rjruiziii",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 1600,
+  "alto": 1201,
+  "titulo": "Cape Coast Castle"
+ },
+ "ghana/1": {
+  "imagen": "Elmina Castle - Ghana.jpg",
+  "autor": "Damien Halleux Radermecker",
+  "licencia": "CC BY-SA 2.0",
+  "ancho": 6300,
+  "alto": 4200,
+  "titulo": "Elmina Castle"
+ },
+ "ghana/2": {
+  "imagen": "Kakum.jpg",
+  "autor": "Original uploader was Chiappinik at it.wikipedia",
+  "licencia": "CC BY 2.5 it",
+  "ancho": 1280,
+  "alto": 853,
+  "titulo": "Kakum National Park"
+ },
+ "ghana/3": {
+  "imagen": "Adomi-bridge 0418.png",
+  "autor": "Eggi",
+  "licencia": "CC BY-SA 3.0 de",
+  "ancho": 5472,
+  "alto": 3078,
+  "titulo": "Lake Volta"
+ },
+ "ghana/4": {
+  "imagen": "Kwame Nkrumah Memorial Park.jpg",
+  "autor": "Erik B. Anderson",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 961,
+  "alto": 671,
+  "titulo": "Kwame Nkrumah Mausoleum"
+ },
+ "ghana/5": {
+  "imagen": "Elefant Ghana.jpg",
+  "autor": "Stig Nygaard",
+  "licencia": "CC BY 2.0",
+  "ancho": 2560,
+  "alto": 1920,
+  "titulo": "Mole National Park"
+ },
+ "ghana/6": {
+  "imagen": "Wli Lower Fall-4.jpg",
+  "autor": "Stig Nygaard",
+  "licencia": "CC BY 2.0",
+  "ancho": 1920,
+  "alto": 2560,
+  "titulo": "Wli Waterfalls"
+ },
+ "ghana/7": {
+  "imagen": "Larabanga Mosque Ghana.jpg",
+  "autor": "Sathyan Velumani",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 2194,
+  "alto": 1457,
+  "titulo": "Larabanga Mosque"
+ },
+ "ghana/8": {
+  "imagen": "Independence Arch Accra Ghana.jpg",
+  "autor": "Flowizm",
+  "licencia": "CC BY 2.0",
+  "ancho": 784,
+  "alto": 1136,
+  "titulo": "Independence Arch"
+ },
+ "mali/0": {
+  "imagen": "Djingareiber cour.jpg",
+  "autor": "KaTeznik",
+  "licencia": "CC BY-SA 2.0 fr",
+  "ancho": 1200,
+  "alto": 1600,
+  "titulo": "Djinguereber Mosque"
+ },
+ "mali/1": {
+  "imagen": "Les Falaises de Bandiagara.jpg",
+  "autor": "Timm Guenther",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 1600,
+  "alto": 1200,
+  "titulo": "Bandiagara Escarpment"
+ },
+ "mali/2": {
+  "imagen": "Askia.jpg",
+  "autor": "Taguelmoust",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 530,
+  "alto": 398,
+  "titulo": "Tomb of Askia"
+ },
+ "mali/3": {
+  "imagen": "2007 Sankore Mosque Timbuktu 02.jpg",
+  "autor": "Anne and David",
+  "licencia": "dominio público",
+  "ancho": 1600,
+  "alto": 1200,
+  "titulo": "Sankore Madrasah"
+ },
+ "mali/4": {
+  "imagen": "Donkeys, Timbuktu.jpg",
+  "autor": "Flickr user: Emilio Labrador Santiago de Chile https://www.flickr.com/people/305",
+  "licencia": "CC BY 2.0",
+  "ancho": 1519,
+  "alto": 1044,
+  "titulo": "Timbuktu"
+ },
+ "mali/5": {
+  "imagen": "Hombori Tondo from Hombori.JPG",
+  "autor": "VladaQ",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 512,
+  "alto": 384,
+  "titulo": "Hombori Tondo"
+ },
+ "mali/6": {
+  "imagen": "Niger, Niamey, Pont Kennedy (1).jpg",
+  "autor": "NigerTZai",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4288,
+  "alto": 2124,
+  "titulo": "Niger River"
+ },
+ "mali/7": {
+  "imagen": "Sidi Yahya.jpg",
+  "autor": "John Archer, photographer, “Sidi Yahia Mosque, Timbuktu, Mali,” Highlights from ",
+  "licencia": "CC BY 4.0",
+  "ancho": 200,
+  "alto": 200,
+  "titulo": "Sidi Yahya Mosque"
+ },
+ "mali/8": {
+  "imagen": "Roundabout in Segou 1.jpg",
+  "autor": "Lyfengine",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4160,
+  "alto": 3120,
+  "titulo": "Ségou"
+ },
+ "namibia/2": {
+  "imagen": "Dust Cloud in Etosha National Park.jpg",
+  "autor": "Yathin S Krishnappa",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 3199,
+  "alto": 2133,
+  "titulo": "Etosha National Park"
+ },
+ "namibia/3": {
+  "imagen": "Fish River Canyon from Main View Point.jpg",
+  "autor": "RudiBosbouer",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 10130,
+  "alto": 3365,
+  "titulo": "Fish River Canyon"
+ },
+ "namibia/4": {
+  "imagen": "Otavi 1945.jpg",
+  "autor": "Hp.Baumeler",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 5472,
+  "alto": 3648,
+  "titulo": "Skeleton Coast"
+ },
+ "namibia/5": {
+  "imagen": "Kolmanskop Ghost Town.jpg",
+  "autor": "SkyPixels",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4000,
+  "alto": 2250,
+  "titulo": "Kolmanskop"
+ },
+ "namibia/6": {
+  "imagen": "Spitzkoppe year 2006.jpg",
+  "autor": "Hp.Baumeler",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 2592,
+  "alto": 1944,
+  "titulo": "Spitzkoppe"
+ },
+ "namibia/7": {
+  "imagen": "Twyfelfontein 16.jpg",
+  "autor": "Mike from Vancouver, Canada",
+  "licencia": "CC BY 2.0",
+  "ancho": 2048,
+  "alto": 1536,
+  "titulo": "Twyfelfontein"
+ },
+ "namibia/8": {
+  "imagen": "Namib desert MODIS.jpg",
+  "autor": "Jeff Schmaltz, MODIS Land Rapid Response Team, NASA GSFC",
+  "licencia": "dominio público",
+  "ancho": 4000,
+  "alto": 5600,
+  "titulo": "Namib"
+ },
+ "botsuana/0": {
+  "imagen": "Okavango Delta, Botswana1.jpg",
+  "autor": "Joachim Huber",
+  "licencia": "CC BY-SA 2.0",
+  "ancho": 3008,
+  "alto": 2000,
+  "titulo": "Okavango Delta"
+ },
+ "botsuana/1": {
+  "imagen": "Gnus zebras chobe national park.jpg",
+  "autor": "Gorgo",
+  "licencia": "dominio público",
+  "ancho": 2816,
+  "alto": 2112,
+  "titulo": "Chobe National Park"
+ },
+ "botsuana/2": {
+  "imagen": "DeltaOkawango.jpg",
+  "autor": "The SeaWiFS Project, NASA/Goddard Space Flight Center, and ORBIMAGE",
+  "licencia": "dominio público",
+  "ancho": 790,
+  "alto": 636,
+  "titulo": "Makgadikgadi Pan"
+ },
+ "botsuana/3": {
+  "imagen": "Tsodilo rock paintings 1.jpg",
+  "autor": "cj Huo",
+  "licencia": "CC BY-SA 1.0",
+  "ancho": 380,
+  "alto": 438,
+  "titulo": "Tsodilo"
+ },
+ "botsuana/5": {
+  "imagen": "Moremi elephant.jpg",
+  "autor": "Ian Sewell",
+  "licencia": "CC BY-SA 2.5",
+  "ancho": 969,
+  "alto": 639,
+  "titulo": "Moremi Game Reserve"
+ },
+ "botsuana/6": {
+  "imagen": "KubuIsland 02.jpg",
+  "autor": "Stefan Huchler, stefan.huchler@gmx.net, Genehmigung liegt vor",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 1072,
+  "alto": 712,
+  "titulo": "Kubu Island"
+ },
+ "botsuana/7": {
+  "imagen": "Botswana Nxai Pan NP Baynes Baobabs.jpg",
+  "autor": "Ralf Ellerich",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 1200,
+  "alto": 800,
+  "titulo": "Nxai Pan National Park"
+ },
+ "botsuana/8": {
+  "imagen": "View from I-Tower SE 20200712.jpg",
+  "autor": "CNJerem",
+  "licencia": "CC BY 4.0",
+  "ancho": 2360,
+  "alto": 1327,
+  "titulo": "Gaborone"
+ },
+ "ruanda/1": {
+  "imagen": "LakeKivu satellite.jpg",
+  "autor": "NASA",
+  "licencia": "dominio público",
+  "ancho": 296,
+  "alto": 464,
+  "titulo": "Lake Kivu"
+ },
+ "ruanda/3": {
+  "imagen": "Parc National d'Akagera.jpg",
+  "autor": "Louis Dewame",
+  "licencia": "CC BY 3.0",
+  "ancho": 1600,
+  "alto": 1063,
+  "titulo": "Akagera National Park"
+ },
+ "ruanda/4": {
+  "imagen": "Karisimbi2.jpg",
+  "autor": "No machine-readable author provided. Amakuru assumed (based on copyright claims)",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 1134,
+  "alto": 504,
+  "titulo": "Mount Karisimbi"
+ },
+ "ruanda/5": {
+  "imagen": "High Angle View Of Kigali City Street on November 29, 2018. Emmanuel Kwizera.jpg",
+  "autor": "Emmanuelkwizera",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 2047,
+  "alto": 1409,
+  "titulo": "Kigali"
+ },
+ "ruanda/7": {
+  "imagen": "Susa group, mountain gorilla.jpg",
+  "autor": "https://www.flickr.com/photos/deepphoto/ d_proffer",
+  "licencia": "CC BY 2.0",
+  "ancho": 1552,
+  "alto": 1632,
+  "titulo": "Mountain gorilla"
+ },
+ "ruanda/8": {
+  "imagen": "Visoke.jpg",
+  "autor": "Nickolayvladim",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 895,
+  "alto": 622,
+  "titulo": "Mount Bisoke"
+ },
+ "uganda/0": {
+  "imagen": "Bwindi.JPG",
+  "autor": "autor desconocido",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 2272,
+  "alto": 1704,
+  "titulo": "Bwindi Impenetrable National Park"
+ },
+ "uganda/1": {
+  "imagen": "Murchison Falls - by Boschlech.jpg",
+  "autor": "Boschlech",
+  "licencia": "dominio público",
+  "ancho": 2048,
+  "alto": 1536,
+  "titulo": "Murchison Falls National Park"
+ },
+ "uganda/2": {
+  "imagen": "1172 ruwenzori.jpg",
+  "autor": "Nick06",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 800,
+  "alto": 529,
+  "titulo": "Rwenzori Mountains"
+ },
+ "uganda/3": {
+  "imagen": "Kampala Kasubi Tombs.jpg",
+  "autor": "not not phil from SF, CA, US",
+  "licencia": "CC BY-SA 2.0",
+  "ancho": 2592,
+  "alto": 1944,
+  "titulo": "Kasubi Tombs"
+ },
+ "uganda/4": {
+  "imagen": "Crater lake in Queen Elizabeth National Park.jpg",
+  "autor": "Robert Weinkove using Minolta Dynax 4 camera",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 1543,
+  "alto": 803,
+  "titulo": "Queen Elizabeth National Park"
+ },
+ "uganda/5": {
+  "imagen": "Lake Bunyonyi (8146148093).jpg",
+  "autor": "Carine06 from UK",
+  "licencia": "CC BY-SA 2.0",
+  "ancho": 2816,
+  "alto": 2112,
+  "titulo": "Lake Bunyonyi"
+ },
+ "uganda/6": {
+  "imagen": "Sipi Falls2.jpg",
+  "autor": "Dixon099",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4800,
+  "alto": 3200,
+  "titulo": "Sipi Falls"
+ },
+ "uganda/7": {
+  "imagen": "Urban Rising, KAMPALA, Uganda.jpg",
+  "autor": "Chapelle musa",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 6000,
+  "alto": 4000,
+  "titulo": "Kampala"
+ },
+ "uganda/8": {
+  "imagen": "Murchison Twin Falls, Uganda (16093084916).jpg",
+  "autor": "Rod Waddington",
+  "licencia": "CC BY-SA 2.0",
+  "ancho": 1024,
+  "alto": 677,
+  "titulo": "Murchison Falls"
+ },
+ "argelia/0": {
+  "imagen": "Map of Tassili n'Ajjer and surroundings-en.jpg",
+  "autor": "Heribertus2",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 7828,
+  "alto": 7456,
+  "titulo": "Tassili n'Ajjer"
+ },
+ "argelia/1": {
+  "imagen": "Roman Ruins of Djemila in Sétif, Algeria.jpg",
+  "autor": "Alioueche Mokhtar",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4288,
+  "alto": 2848,
+  "titulo": "Djémila"
+ },
+ "argelia/2": {
+  "imagen": "Timgad (15685889550).jpg",
+  "autor": "Dan Sloan",
+  "licencia": "CC BY-SA 2.0",
+  "ancho": 4912,
+  "alto": 3264,
+  "titulo": "Timgad"
+ },
+ "argelia/3": {
+  "imagen": "Panoramic view of Ksar Ghardaïa, Algeria 2006.jpg",
+  "autor": "Addounya (original uploader at en.wikipedia )",
+  "licencia": "dominio público",
+  "ancho": 1981,
+  "alto": 900,
+  "titulo": "M'zab"
+ },
+ "argelia/4": {
+  "imagen": "Notre Dame d'Afrique2 cropped.jpg",
+  "autor": "Chettouh Nabil",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 3896,
+  "alto": 3512,
+  "titulo": "Notre-Dame d'Afrique"
+ },
+ "argelia/5": {
+  "imagen": "AlgerCasbah.jpg",
+  "autor": "toufik Lerari",
+  "licencia": "CC BY-SA 2.0",
+  "ancho": 3744,
+  "alto": 5188,
+  "titulo": "Casbah of Algiers"
+ },
+ "argelia/6": {
+  "imagen": "اسكرام 2 - تمنراست.jpg",
+  "autor": "Mohammed Amri",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 3395,
+  "alto": 2266,
+  "titulo": "Hoggar Mountains"
+ },
+ "argelia/7": {
+  "imagen": "Porte de Tipaza الميناء - panoramio.jpg",
+  "autor": "habib kaki",
+  "licencia": "CC BY 3.0",
+  "ancho": 3000,
+  "alto": 1687,
+  "titulo": "Tipaza"
+ },
+ "argelia/8": {
+  "imagen": "Constantine bridge in spring.jpg",
+  "autor": "Abdousid",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4208,
+  "alto": 2368,
+  "titulo": "Constantine, Algeria"
+ },
+ "bolivia/1": {
+  "imagen": "Lake Titicaca ESA22522896.jpeg",
+  "autor": "European Space Agency",
+  "licencia": "Attribution",
+  "ancho": 2956,
+  "alto": 2956,
+  "titulo": "Lake Titicaca"
+ },
+ "bolivia/2": {
+  "imagen": "PUERTA DEL SOL TIWANAKU.jpg",
+  "autor": "CLAUDIOLD",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4000,
+  "alto": 3200,
+  "titulo": "Tiwanaku"
+ },
+ "bolivia/3": {
+  "imagen": "Cerro ricco.jpg",
+  "autor": "Mhwater at Dutch Wikipedia",
+  "licencia": "dominio público",
+  "ancho": 1800,
+  "alto": 1200,
+  "titulo": "Cerro Rico"
+ },
+ "bolivia/4": {
+  "imagen": "Sucre, Capital de Bolivia.jpg",
+  "autor": "Parallelepiped09",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4096,
+  "alto": 2304,
+  "titulo": "Sucre"
+ },
+ "bolivia/5": {
+  "imagen": "Vista del centro de La Paz.jpg",
+  "autor": "Parallelepiped09",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 4096,
+  "alto": 2730,
+  "titulo": "La Paz"
+ },
+ "bolivia/6": {
+  "imagen": "Laguna Colorada (15764090609).jpg",
+  "autor": "madras91",
+  "licencia": "CC BY 2.0",
+  "ancho": 4766,
+  "alto": 3177,
+  "titulo": "Laguna Colorada"
+ },
+ "bolivia/7": {
+  "imagen": "Isladelsol.jpg",
+  "autor": "autor desconocido",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 1600,
+  "alto": 1200,
+  "titulo": "Isla del Sol"
+ },
+ "bolivia/8": {
+  "imagen": "Madidi park.JPG",
+  "autor": "Gareth Fabbro",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 2257,
+  "alto": 1668,
+  "titulo": "Madidi National Park"
+ },
+ "ecuador/0": {
+  "imagen": "Lobo marino (Zalophus californianus wollebaeki), Punta Pitt, isla de San Cristóbal, islas Galápagos, Ecuador, 2015-07-24, DD 11.JPG",
+  "autor": "Diego Delso",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 8642,
+  "alto": 5762,
+  "titulo": "Galápagos Islands"
+ },
+ "ecuador/1": {
+  "imagen": "Cotopaxi volcano 2008-06-27T1322.jpg",
+  "autor": "Gerard Prins",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 900,
+  "alto": 462,
+  "titulo": "Cotopaxi"
+ },
+ "ecuador/2": {
+  "imagen": "FACHADA ASAMBLEA NACIONAL. QUITO, 20 DE FEBRERO 2020. 01.jpg",
+  "autor": "Asamblea Nacional del Ecuador",
+  "licencia": "CC BY-SA 2.0",
+  "ancho": 4000,
+  "alto": 1950,
+  "titulo": "Quito"
+ },
+ "ecuador/3": {
+  "imagen": "Chimborazo, aspecto norte, Ecuador. (26354503702).jpg",
+  "autor": "Dick Culbert from Gibsons, B.C., Canada",
+  "licencia": "CC BY 2.0",
+  "ancho": 1200,
+  "alto": 787,
+  "titulo": "Chimborazo"
+ },
+ "ecuador/4": {
+  "imagen": "Collage Cuenca.png",
+  "autor": "David C. S.",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 2363,
+  "alto": 3160,
+  "titulo": "Cuenca, Ecuador"
+ },
+ "ecuador/6": {
+  "imagen": "Ecuador ingapirca inca ruins.jpg",
+  "autor": "Delphine Ménard",
+  "licencia": "CC BY-SA 2.0 fr",
+  "ancho": 1720,
+  "alto": 1148,
+  "titulo": "Ingapirca"
+ },
+ "ecuador/7": {
+  "imagen": "Panorama quilotoa crater lake ecuador.jpg",
+  "autor": "Annom",
+  "licencia": "dominio público",
+  "ancho": 2554,
+  "alto": 1901,
+  "titulo": "Quilotoa"
+ },
+ "ecuador/8": {
+  "imagen": "FACHADA ASAMBLEA NACIONAL. QUITO, 20 DE FEBRERO 2020. 01.jpg",
+  "autor": "Asamblea Nacional del Ecuador",
+  "licencia": "CC BY-SA 2.0",
+  "ancho": 4000,
+  "alto": 1950,
+  "titulo": "Historic Center of Quito"
+ },
+ "venezuela/0": {
+  "imagen": "SaltoAngel1.jpg",
+  "autor": "Rich Childs",
+  "licencia": "CC BY 2.0",
+  "ancho": 392,
+  "alto": 598,
+  "titulo": "Angel Falls"
+ },
+ "venezuela/1": {
+  "imagen": "Roraima3 (79).JPG",
+  "autor": "Paolo Costa Baldi",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 4253,
+  "alto": 2246,
+  "titulo": "Mount Roraima"
+ },
+ "venezuela/2": {
+  "imagen": "Gran Roque from plane.jpg",
+  "autor": "BIT1982",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 1300,
+  "alto": 867,
+  "titulo": "Los Roques archipelago"
+ },
+ "venezuela/3": {
+  "imagen": "Wadakapiapo Yuruani tepuy 2010.jpg",
+  "autor": "Paolo Costa Baldi",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 3910,
+  "alto": 2388,
+  "titulo": "Canaima National Park"
+ },
+ "venezuela/4": {
+  "imagen": "Catatumbo Lightning (141677107).jpeg",
+  "autor": "Fernando Flores",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 2048,
+  "alto": 1365,
+  "titulo": "Catatumbo lightning"
+ },
+ "venezuela/5": {
+  "imagen": "PicoBolivar2.jpg",
+  "autor": "Gerardo Sánchez (gerardoant)",
+  "licencia": "CC BY 2.0",
+  "ancho": 663,
+  "alto": 426,
+  "titulo": "Pico Bolívar"
+ },
+ "venezuela/6": {
+  "imagen": "Orinoco Bridge.jpg",
+  "autor": "jkaiser",
+  "licencia": "CC BY 2.0",
+  "ancho": 1024,
+  "alto": 683,
+  "titulo": "Orinoco"
+ },
+ "venezuela/7": {
+  "imagen": "Cocotero en Cayo Sombrero.jpg",
+  "autor": "Jorge Paparoni",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 2526,
+  "alto": 3198,
+  "titulo": "Morrocoy National Park"
+ },
+ "venezuela/8": {
+  "imagen": "MedanosdeCoro.jpg",
+  "autor": "Carlos Adampol Galindo from DF, México",
+  "licencia": "CC BY-SA 2.0",
+  "ancho": 1944,
+  "alto": 1296,
+  "titulo": "Médanos de Coro National Park"
+ },
+ "uruguay/0": {
+  "imagen": "Basilica del Sanctísimo Sacramento.jpg",
+  "autor": "JGHowes , photographer ( Canon AE-1 camera).",
+  "licencia": "Attribution",
+  "ancho": 1500,
+  "alto": 1000,
+  "titulo": "Colonia del Sacramento"
+ },
+ "uruguay/1": {
+  "imagen": "PALACIO LEGISLATIVO 01.JPG",
+  "autor": "Eduardo Ruggieri",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 1504,
+  "alto": 1000,
+  "titulo": "Montevideo"
+ },
+ "uruguay/2": {
+  "imagen": "Пунта-дель-Эсте.jpg",
+  "autor": "Марсело Кампи",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 900,
+  "alto": 505,
+  "titulo": "Punta del Este"
+ },
+ "uruguay/3": {
+  "imagen": "Palacio Salvo Logo.jpg",
+  "autor": "Coquimbo58",
+  "licencia": "CC0",
+  "ancho": 198,
+  "alto": 141,
+  "titulo": "Palacio Salvo"
+ },
+ "uruguay/4": {
+  "imagen": "Cabo Polonio desde el faro.jpg",
+  "autor": "Pablofor",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 4288,
+  "alto": 2719,
+  "titulo": "Cabo Polonio"
+ },
+ "uruguay/5": {
+  "imagen": "2016 Uruguay Rambla Gandhi Montevideo.jpg",
+  "autor": "Felipe Restrepo Acosta",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 5184,
+  "alto": 3888,
+  "titulo": "Rambla of Montevideo"
+ },
+ "uruguay/7": {
+  "imagen": "2016 Fachada del Palacio Legislativo de Montevideo.jpg",
+  "autor": "Felipe Restrepo Acosta",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 5184,
+  "alto": 3888,
+  "titulo": "Legislative Palace of Uruguay"
+ },
+ "uruguay/8": {
+  "imagen": "Casapueblo.JPG",
+  "autor": "Talkingheads",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 2560,
+  "alto": 1920,
+  "titulo": "Casapueblo"
+ },
+ "costa-rica/0": {
+  "imagen": "Arenal volcano (70785p) (cropped).jpg",
+  "autor": "Rhododendrites",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 5435,
+  "alto": 3002,
+  "titulo": "Arenal Volcano"
+ },
+ "costa-rica/1": {
+  "imagen": "Monteverde bosque.jpg",
+  "autor": "Haakon S. Krohn",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 2400,
+  "alto": 1800,
+  "titulo": "Monteverde Cloud Forest Reserve"
+ },
+ "costa-rica/2": {
+  "imagen": "Manuel antonio 06 april 2005.jpeg",
+  "autor": "No machine-readable author provided. Jakes19 assumed (based on copyright claims)",
+  "licencia": "dominio público",
+  "ancho": 1024,
+  "alto": 768,
+  "titulo": "Manuel Antonio National Park"
+ },
+ "costa-rica/3": {
+  "imagen": "Tortuguero Nationalpark.jpg",
+  "autor": "Leyo",
+  "licencia": "CC BY-SA 2.5 ch",
+  "ancho": 2816,
+  "alto": 2112,
+  "titulo": "Tortuguero National Park"
+ },
+ "costa-rica/4": {
+  "imagen": "Poas crater.jpg",
+  "autor": "Peter Andersen",
+  "licencia": "CC BY 2.5",
+  "ancho": 2592,
+  "alto": 1944,
+  "titulo": "Poás Volcano"
+ },
+ "costa-rica/5": {
+  "imagen": "Irazu Volcano.JPG",
+  "autor": "Rafael Golan",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 4368,
+  "alto": 2912,
+  "titulo": "Irazú Volcano"
+ },
+ "costa-rica/6": {
+  "imagen": "Sirena Station at Corcovado National Park Costa Rica.jpg",
+  "autor": "Julio-César Chávez",
+  "licencia": "CC BY 4.0",
+  "ancho": 6157,
+  "alto": 4105,
+  "titulo": "Corcovado National Park"
+ },
+ "costa-rica/7": {
+  "imagen": "Costa Rica-Teatro Nacional.JPG",
+  "autor": "Andres Alvarez",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 2816,
+  "alto": 2112,
+  "titulo": "National Theatre of Costa Rica"
+ },
+ "costa-rica/8": {
+  "imagen": "Isla del coco.jpg",
+  "autor": "J RAWLS",
+  "licencia": "CC BY 2.0",
+  "ancho": 640,
+  "alto": 479,
+  "titulo": "Cocos Island"
+ },
+ "guatemala/0": {
+  "imagen": "Lago de Atitlan seen from orbit.jpg",
+  "autor": "NASA",
+  "licencia": "dominio público",
+  "ancho": 1000,
+  "alto": 1000,
+  "titulo": "Lake Atitlán"
+ },
+ "guatemala/1": {
+  "imagen": "Antigua - Arco.jpg",
+  "autor": "Juan Francisco",
+  "licencia": "CC BY-SA 2.0",
+  "ancho": 5895,
+  "alto": 3930,
+  "titulo": "Antigua Guatemala"
+ },
+ "guatemala/2": {
+  "imagen": "In Antigua Guatemala-Volcan de Fuego (6849909334).jpg",
+  "autor": "Murray Foubister",
+  "licencia": "CC BY-SA 2.0",
+  "ancho": 2121,
+  "alto": 1414,
+  "titulo": "Volcán de Fuego"
+ },
+ "guatemala/3": {
+  "imagen": "Semuc Champey, Guatemala.jpg",
+  "autor": "Christopher Crouzet",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 3916,
+  "alto": 2203,
+  "titulo": "Semuc Champey"
+ },
+ "guatemala/4": {
+  "imagen": "Santo Tomas Church, Chichicastenango.jpg",
+  "autor": "Manfredwinslow",
+  "licencia": "dominio público",
+  "ancho": 450,
+  "alto": 600,
+  "titulo": "Chichicastenango"
+ },
+ "guatemala/5": {
+  "imagen": "Flores Island.jpg",
+  "autor": "Juan Francisco",
+  "licencia": "CC BY-SA 2.0",
+  "ancho": 3961,
+  "alto": 2971,
+  "titulo": "Flores, Petén"
+ },
+ "guatemala/6": {
+  "imagen": "GT Quirigua StelaE.JPG",
+  "autor": "Jan Pešula",
+  "licencia": "CC BY 2.5",
+  "ancho": 1872,
+  "alto": 2496,
+  "titulo": "Quiriguá"
+ },
+ "guatemala/7": {
+  "imagen": "Pacaya erupting in 1976.jpg",
+  "autor": "USGS",
+  "licencia": "dominio público",
+  "ancho": 969,
+  "alto": 632,
+  "titulo": "Pacaya"
+ },
+ "guatemala/8": {
+  "imagen": "YaxhaNorthAcropolis.jpg",
+  "autor": "Marie Carianna",
+  "licencia": "CC BY-SA 2.0",
+  "ancho": 3264,
+  "alto": 2448,
+  "titulo": "Yaxhá"
+ },
+ "panama/0": {
+  "imagen": "Casco Antiguo (San Felipe) - Pamama.jpg",
+  "autor": "Garcia.dennis",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 3968,
+  "alto": 2976,
+  "titulo": "Casco Viejo, Panama"
+ },
+ "panama/1": {
+  "imagen": "Kuna Yala beach 2003.jpg",
+  "autor": "Olosipu at English Wikipedia",
+  "licencia": "dominio público",
+  "ancho": 1184,
+  "alto": 788,
+  "titulo": "Guna Yala"
+ },
+ "panama/2": {
+  "imagen": "Bocas del Toro Archipelago map.png",
+  "autor": "Alexrk",
+  "licencia": "CC BY 3.0",
+  "ancho": 1500,
+  "alto": 1285,
+  "titulo": "Bocas del Toro Archipelago"
+ },
+ "panama/3": {
+  "imagen": "Volcan baru.jpg",
+  "autor": "en:User:Halbinger",
+  "licencia": "dominio público",
+  "ancho": 825,
+  "alto": 528,
+  "titulo": "Volcán Barú"
+ },
+ "panama/4": {
+  "imagen": "Portobelo Ruins and bay.jpg",
+  "autor": "en:User:Tedder",
+  "licencia": "CC BY 3.0",
+  "ancho": 1200,
+  "alto": 900,
+  "titulo": "Portobelo, Colón"
+ },
+ "panama/5": {
+  "imagen": "Pteroglossus-torquatus-001.jpg",
+  "autor": "Mdf",
+  "licencia": "CC BY-SA 3.0",
+  "ancho": 1920,
+  "alto": 1200,
+  "titulo": "Darién National Park"
+ },
+ "panama/6": {
+  "imagen": "Coiba.JPG",
+  "autor": "Seibert",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 2048,
+  "alto": 1536,
+  "titulo": "Coiba"
+ },
+ "panama/7": {
+  "imagen": "Torre de panama viejo.jpg",
+  "autor": "Melpanama",
+  "licencia": "CC BY 3.0",
+  "ancho": 1000,
+  "alto": 1500,
+  "titulo": "Panamá Viejo"
+ },
+ "panama/8": {
+  "imagen": "Panama Papers (148830809).jpeg",
+  "autor": "Dronepicr",
+  "licencia": "CC BY 3.0",
+  "ancho": 2048,
+  "alto": 1152,
+  "titulo": "Panama City"
+ },
+ "oman/1": {
+  "imagen": "Nizwa (5).jpg",
+  "autor": "Andries Oudshoorn",
+  "licencia": "CC BY-SA 2.0",
+  "ancho": 4368,
+  "alto": 2912,
+  "titulo": "Nizwa Fort"
+ },
+ "oman/3": {
+  "imagen": "Jebel Shams.jpg",
+  "autor": "Andries Oudshoorn",
+  "licencia": "CC BY-SA 2.0",
+  "ancho": 4368,
+  "alto": 2912,
+  "titulo": "Jebel Shams"
+ },
+ "oman/5": {
+  "imagen": "Bahla Fort.jpg",
+  "autor": "Francisco Anzola",
+  "licencia": "CC BY 2.0",
+  "ancho": 4416,
+  "alto": 3312,
+  "titulo": "Bahla Fort"
+ },
+ "oman/7": {
+  "imagen": "Aerial view of the coastline of Muttrah.jpg",
+  "autor": "Izeberg007",
+  "licencia": "CC0",
+  "ancho": 5184,
+  "alto": 3888,
+  "titulo": "Muttrah"
+ },
+ "oman/8": {
+  "imagen": "Opera house Muscat.jpg",
+  "autor": "Arsalaan Ahmad",
+  "licencia": "CC BY-SA 4.0",
+  "ancho": 1062,
+  "alto": 653,
+  "titulo": "Royal Opera House Muscat"
+ }
+}

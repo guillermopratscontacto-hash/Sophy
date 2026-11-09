@@ -1,5 +1,3 @@
-<!-- resumen: La noche del 9 de noviembre de 1938, el régimen nazi lanzó un pogromo contra los judíos de Alemania que anunciaba lo que vendría después. -->
-
 ## La Noche de los Cristales Rotos: el pogromo que anunció el Holocausto
 
 *Alemania, 9 y 10 de noviembre de 1938*

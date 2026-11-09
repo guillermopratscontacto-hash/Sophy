@@ -1,5 +1,3 @@
-<!-- resumen: Una institutriz pobre y sin belleza que reclama ser tratada como igual: «Jane Eyre» revolucionó la novela victoriana en 1847. -->
-
 ## «Jane Eyre»: la institutriz que exigió ser tratada como un igual
 
 *Inglaterra, 1847*

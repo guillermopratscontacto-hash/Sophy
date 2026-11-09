@@ -1,5 +1,3 @@
-<!-- resumen: Dos herramientas para decidir si una inversión merece la pena que a veces dan respuestas opuestas. Saber cuál usar evita errores caros. -->
-
 ## Valor actual neto frente a tasa interna de retorno
 
 ### NPV versus IRR

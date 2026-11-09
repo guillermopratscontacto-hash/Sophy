@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-11-09",
+      "tema": "economia",
+      "titulo": "Nvidia abre una investigación independiente sobre su consejero delegado por su relación con una presunta espía china",
+      "resumen": "La junta de Nvidia investiga a Jensen Huang tras admitir una relación con una ejecutiva china señalada como espía.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/NVIDIA%20Headquarters.jpg?width=1200",
+      "archivo": "contenido/2026-11-09/economia.md"
+    },
+    {
+      "fecha": "2026-11-09",
+      "tema": "politica-espanola",
+      "titulo": "Cuatro ministros piden el voto de los moderados en un acto de campaña del PSOE sin Sánchez",
+      "resumen": "Bolaños, Robles, Marlaska y López piden el voto de moderados en el primer acto de campaña del PSOE sin Sánchez.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Madrid%20-%20Congreso%20de%20los%20Diputados%2001.jpg?width=1200",
+      "archivo": "contenido/2026-11-09/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-11-09",
+      "tema": "politica-internacional",
+      "titulo": "Eisenkot recibe el encargo de formar Gobierno en Israel y propone un «Gobierno de emergencia nacional»",
+      "resumen": "Herzog encarga a Gadi Eisenkot formar Gobierno en Israel; tiene 28 días para reunir una mayoría de 61 escaños.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerusalem%20Dome%20of%20the%20rock%20BW%2014.JPG?width=1200",
+      "archivo": "contenido/2026-11-09/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-11-09",
+      "tema": "internacional",
+      "titulo": "Trump ve «muy improbable» reanudar los ataques a Irán mientras Teherán habla de negociaciones estancadas",
+      "resumen": "Trump ve «muy improbable» reanudar la guerra con Irán mientras Teherán dice que las negociaciones están paradas.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Azadi%20Tower%20at%20night%20in%20low%20angle.jpg?width=1200",
+      "archivo": "contenido/2026-11-09/internacional.md"
+    },
+    {
+      "fecha": "2026-11-09",
+      "tema": "arte",
+      "titulo": "«La vocación de san Mateo»: el rayo de luz con el que Caravaggio cambió la pintura",
+      "resumen": "Un rayo de luz, un dedo que señala y un recaudador sorprendido: así inventó Caravaggio una nueva manera de pintar lo sagrado.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Caravaggio%2C%20Michelangelo%20Merisi%20da%20-%20The%20Calling%20of%20Saint%20Matthew%20-%201599-1600%20%28hi%20res%29.jpg?width=1200",
+      "archivo": "contenido/2026-11-09/arte.md",
+      "asunto": "vocacion-caravaggio"
+    },
+    {
+      "fecha": "2026-11-09",
+      "tema": "historia",
+      "titulo": "La Noche de los Cristales Rotos: el pogromo que anunció el Holocausto",
+      "resumen": "La noche del 9 de noviembre de 1938, el régimen nazi lanzó un pogromo contra los judíos de Alemania que anunciaba lo que vendría después.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Interior%20view%20of%20the%20destroyed%20Fasanenstrasse%20Synagogue%2C%20Berlin.jpg?width=1200",
+      "archivo": "contenido/2026-11-09/historia.md",
+      "asunto": "noche-cristales-rotos"
+    },
+    {
+      "fecha": "2026-11-09",
+      "tema": "literatura",
+      "titulo": "«Jane Eyre»: la institutriz que exigió ser tratada como un igual",
+      "resumen": "Una institutriz pobre y sin belleza que reclama ser tratada como igual: «Jane Eyre» revolucionó la novela victoriana en 1847.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Jane%20Eyre%20title%20page.jpg?width=1200",
+      "archivo": "contenido/2026-11-09/literatura.md",
+      "asunto": "jane-eyre"
+    },
+    {
+      "fecha": "2026-11-09",
+      "tema": "musica",
+      "titulo": "London Calling",
+      "resumen": "Punk, reggae, rockabilly y ska en un doble álbum furioso: The Clash demostró en 1979 que el punk podía ser mucho más que tres acordes.",
+      "imagen": "https://coverartarchive.org/release-group/8d73e45e-7ca1-3cb4-ae28-6da76196c17c/front-500",
+      "archivo": "contenido/2026-11-09/musica.md",
+      "subtitulo": "The Clash",
+      "estilo": "Punk rock",
+      "asunto": "album-london-calling"
+    },
+    {
+      "fecha": "2026-11-09",
+      "tema": "aprende-finanzas",
+      "titulo": "Valor actual neto frente a tasa interna de retorno",
+      "subtitulo": "NPV versus IRR",
+      "estilo": "Finanzas corporativas",
+      "resumen": "Dos herramientas para decidir si una inversión merece la pena que a veces dan respuestas opuestas. Saber cuál usar evita errores caros.",
+      "asunto": "fin-valor-actual-neto-frente-a-tasa-interna-de-retorno",
+      "archivo": "contenido/2026-11-09/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-11-08",
       "tema": "economia",
       "titulo": "El BOE obliga a mantener abierto el 20% de las gasolineras durante la huelga general del 11N",

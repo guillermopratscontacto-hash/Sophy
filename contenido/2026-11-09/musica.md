@@ -1,5 +1,3 @@
-<!-- resumen: Punk, reggae, rockabilly y ska en un doble álbum furioso: The Clash demostró en 1979 que el punk podía ser mucho más que tres acordes. -->
-
 ## London Calling
 
 ### The Clash

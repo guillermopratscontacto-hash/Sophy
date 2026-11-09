@@ -1,5 +1,3 @@
-<!-- resumen: Un rayo de luz, un dedo que señala y un recaudador sorprendido: así inventó Caravaggio una nueva manera de pintar lo sagrado. -->
-
 ## «La vocación de san Mateo»: el rayo de luz con el que Caravaggio cambió la pintura
 
 *Roma, 1599-1600*

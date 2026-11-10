@@ -1,5 +1,3 @@
-<!-- resumen: Encontrada en 1820 en una isla griega, la Venus de Milo se convirtió en icono del Louvre sin brazos y con muchas preguntas sin respuesta. -->
-
 ## La Venus de Milo: la belleza sin brazos que Francia convirtió en emblema
 
 *Grecia, hacia 150-125 a. C.*

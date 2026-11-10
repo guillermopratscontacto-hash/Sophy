@@ -1,5 +1,3 @@
-<!-- resumen: Una mujer de provincias que se aburre y sueña con las novelas románticas: Flaubert la retrató con tanta precisión que acabó en los tribunales. -->
-
 ## «Madame Bovary»: la novela que llevó a Flaubert ante un tribunal
 
 *Francia, 1856-1857*

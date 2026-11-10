@@ -1,5 +1,3 @@
-<!-- resumen: El disco que inventó el rock progresivo en 1969: mellotrones, saxofones y una canción sobre el miedo nuclear que abre con un grito. -->
-
 ## In the Court of the Crimson King
 
 ### King Crimson

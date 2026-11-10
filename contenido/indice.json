@@ -93,6 +93,62 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-11-10",
+      "tema": "economia",
+      "titulo": "China prorroga hasta enero la suspensión de los aranceles adicionales a Estados Unidos",
+      "resumen": "China prorroga hasta el 10 de enero de 2027 la suspensión de aranceles y tasas portuarias a EE. UU., pero mantiene un gravamen del 10%.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Historical%20Series%20of%20Renminbi%2C%20Hangzhou%20National%20Archives%2071.jpg?width=1200",
+      "archivo": "contenido/2026-11-10/economia.md"
+    },
+    {
+      "fecha": "2026-11-10",
+      "tema": "arte",
+      "titulo": "La Venus de Milo: la belleza sin brazos que Francia convirtió en emblema",
+      "resumen": "Encontrada en 1820 en una isla griega, la Venus de Milo se convirtió en icono del Louvre sin brazos y con muchas preguntas sin respuesta.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Front%20views%20of%20the%20Venus%20de%20Milo.jpg?width=1200",
+      "archivo": "contenido/2026-11-10/arte.md",
+      "asunto": "venus-milo"
+    },
+    {
+      "fecha": "2026-11-10",
+      "tema": "historia",
+      "titulo": "Petra: la ciudad de los nabateos tallada en la roca del desierto",
+      "resumen": "Una ciudad tallada en la roca rosada del desierto jordano: los nabateos se hicieron ricos con el incienso y el agua bien guardada.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Al%20Khazneh%20Petra%20edit%202.jpg?width=1200",
+      "archivo": "contenido/2026-11-10/historia.md",
+      "asunto": "petra"
+    },
+    {
+      "fecha": "2026-11-10",
+      "tema": "literatura",
+      "titulo": "«Madame Bovary»: la novela que llevó a Flaubert ante un tribunal",
+      "resumen": "Una mujer de provincias que se aburre y sueña con las novelas románticas: Flaubert la retrató con tanta precisión que acabó en los tribunales.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Madame%20Bovary%201857%20%28hi-res%29.jpg?width=1200",
+      "archivo": "contenido/2026-11-10/literatura.md",
+      "asunto": "madame-bovary"
+    },
+    {
+      "fecha": "2026-11-10",
+      "tema": "musica",
+      "titulo": "In the Court of the Crimson King",
+      "resumen": "El disco que inventó el rock progresivo en 1969: mellotrones, saxofones y una canción sobre el miedo nuclear que abre con un grito.",
+      "imagen": "https://coverartarchive.org/release-group/a50636b5-5233-3329-a7f3-dba3d0e00ef7/front-500",
+      "archivo": "contenido/2026-11-10/musica.md",
+      "subtitulo": "King Crimson",
+      "estilo": "Rock progresivo",
+      "asunto": "album-in-the-court-of-the-crimson-king"
+    },
+    {
+      "fecha": "2026-11-10",
+      "tema": "aprende-finanzas",
+      "titulo": "Diferencial de crédito y prima por impago",
+      "subtitulo": "Credit spread and default premium",
+      "estilo": "Crédito",
+      "resumen": "Por qué un bono de empresa paga más que uno del Estado, y por qué esa diferencia no se explica solo por el riesgo de impago.",
+      "asunto": "fin-diferencial-de-credito-y-prima-por-impago",
+      "archivo": "contenido/2026-11-10/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-11-09",
       "tema": "economia",
       "titulo": "Nvidia abre una investigación independiente sobre su consejero delegado por su relación con una presunta espía china",

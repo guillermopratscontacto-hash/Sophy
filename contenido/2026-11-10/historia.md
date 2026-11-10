@@ -1,5 +1,3 @@
-<!-- resumen: Una ciudad tallada en la roca rosada del desierto jordano: los nabateos se hicieron ricos con el incienso y el agua bien guardada. -->
-
 ## Petra: la ciudad de los nabateos tallada en la roca del desierto
 
 *Jordania, siglo IV a. C.-siglo II d. C.*

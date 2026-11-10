@@ -1,5 +1,3 @@
-<!-- resumen: Por qué un bono de empresa paga más que uno del Estado, y por qué esa diferencia no se explica solo por el riesgo de impago. -->
-
 ## Diferencial de crédito y prima por impago
 
 ### Credit spread and default premium

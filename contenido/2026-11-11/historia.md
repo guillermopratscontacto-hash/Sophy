@@ -1,5 +1,3 @@
-<!-- resumen: A las once de la mañana del 11 de noviembre de 1918 callaron los cañones en el frente occidental: así terminó la Primera Guerra Mundial. -->
-
 ## El armisticio de 1918: el vagón de tren donde terminó la Primera Guerra Mundial
 
 *Compiègne (Francia), 11 de noviembre de 1918*

@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-11-11",
+      "tema": "economia",
+      "titulo": "La huelga general del 11N costaría unos 1.700 millones si el seguimiento es escaso",
+      "resumen": "Los expertos prevén un impacto de solo el 0,1% del PIB en la huelga general del 11N, con un coste de unos 1.700 millones.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Container%20Terminal%20Tollerort%2C%20Vorhafen%2C%20Hamburg%20%28P1080405%29.jpg?width=1200",
+      "archivo": "contenido/2026-11-11/economia.md"
+    },
+    {
+      "fecha": "2026-11-11",
+      "tema": "politica-espanola",
+      "titulo": "Los Reyes presiden en Toledo el funeral por las 69 víctimas de Urda sin la presencia de Sánchez",
+      "resumen": "Toledo despide a las 69 víctimas del accidente de Urda en un funeral presidido por los Reyes, sin Pedro Sánchez.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Reflejo%20Catedral%20de%20Toledo%20en%20Fuente%20Tres%20Aguas%20--%202014%20--%20Toledo%2C%20Espa%C3%B1a%2008.JPG?width=1200",
+      "archivo": "contenido/2026-11-11/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-11-11",
+      "tema": "politica-internacional",
+      "titulo": "Rusia y Ucrania concluyen en Abu Dabi la primera ronda de negociaciones sin acuerdo",
+      "resumen": "Rusia, Ucrania y EE. UU. cierran en Abu Dabi una primera jornada sin acuerdo, pero con apertura a una mayor presencia europea.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Headquarters%20of%20the%20United%20Nations%2C%20New%20York%20City%2C%2020231001%201103%201006.jpg?width=1200",
+      "archivo": "contenido/2026-11-11/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-11-11",
+      "tema": "internacional",
+      "titulo": "La borrasca Charles pone en aviso a casi toda España y suspende las clases presenciales en varias regiones",
+      "resumen": "La borrasca Charles pone en aviso a 15 comunidades y ciudades autónomas y suspende las clases en varias zonas.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/F5%20tornado%20Elie%20Manitoba%202007.jpg?width=1200",
+      "archivo": "contenido/2026-11-11/internacional.md"
+    },
+    {
+      "fecha": "2026-11-11",
+      "tema": "arte",
+      "titulo": "«La escuela de Atenas»: el fresco en el que Rafael reunió a todos los sabios de la Antigüedad",
+      "resumen": "Platón, Aristóteles y medio centenar de sabios reunidos en una misma sala: el fresco con el que Rafael celebró la filosofía.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/%22The%20School%20of%20Athens%22%20by%20Raffaello%20Sanzio%20da%20Urbino.jpg?width=1200",
+      "archivo": "contenido/2026-11-11/arte.md",
+      "asunto": "escuela-atenas"
+    },
+    {
+      "fecha": "2026-11-11",
+      "tema": "historia",
+      "titulo": "El armisticio de 1918: el vagón de tren donde terminó la Primera Guerra Mundial",
+      "resumen": "A las once de la mañana del 11 de noviembre de 1918 callaron los cañones en el frente occidental: así terminó la Primera Guerra Mundial.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Scenes%20in%20connection%20with%20the%20signing%20of%20the%20Armistice%20Nov.%2011.%20Marshall%20Foch%27s%20train%20arrives%20at%20Compiegne.%20It%20was%20in%20this%20train%20that%20the%20Allied%20Commander%20in%20Chief%20held%20conference%20w%20-%20DPLA%20-%20ac9c1c3dbbcf2a9b71756dedcddf2a2d.jpg?width=1200",
+      "archivo": "contenido/2026-11-11/historia.md",
+      "asunto": "armisticio-1918"
+    },
+    {
+      "fecha": "2026-11-11",
+      "tema": "literatura",
+      "titulo": "«Veinte poemas de amor y una canción desesperada»: el libro con el que un joven Neruda conquistó a millones",
+      "resumen": "Neruda tenía 19 años cuando publicó los «Veinte poemas de amor», el libro de poesía en español más vendido del siglo XX.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Pablo%20Neruda%201963.jpg?width=1200",
+      "archivo": "contenido/2026-11-11/literatura.md",
+      "asunto": "veinte-poemas-neruda"
+    },
+    {
+      "fecha": "2026-11-11",
+      "tema": "musica",
+      "titulo": "Led Zeppelin IV",
+      "resumen": "Un disco sin título en la portada que incluye «Stairway to Heaven»: el cuarto álbum de Led Zeppelin es una cumbre del hard rock.",
+      "imagen": "https://coverartarchive.org/release-group/2e61da88-39e9-3473-81d2-c964cb394952/front-500",
+      "archivo": "contenido/2026-11-11/musica.md",
+      "subtitulo": "Led Zeppelin",
+      "estilo": "Hard rock",
+      "asunto": "album-led-zeppelin-iv"
+    },
+    {
+      "fecha": "2026-11-11",
+      "tema": "aprende-finanzas",
+      "titulo": "Trilema de Mundell-Fleming",
+      "subtitulo": "Mundell-Fleming trilemma",
+      "estilo": "Macroeconomía internacional",
+      "resumen": "Un país no puede tener a la vez tipo de cambio fijo, libre movimiento de capitales y política monetaria propia. Debe renunciar a uno.",
+      "asunto": "fin-trilema-de-mundell-fleming",
+      "archivo": "contenido/2026-11-11/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-11-10",
       "tema": "economia",
       "titulo": "China prorroga hasta enero la suspensión de los aranceles adicionales a Estados Unidos",

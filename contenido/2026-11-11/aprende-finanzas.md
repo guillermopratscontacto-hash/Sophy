@@ -1,5 +1,3 @@
-<!-- resumen: Un país no puede tener a la vez tipo de cambio fijo, libre movimiento de capitales y política monetaria propia. Debe renunciar a uno. -->
-
 ## Trilema de Mundell-Fleming
 
 ### Mundell-Fleming trilemma

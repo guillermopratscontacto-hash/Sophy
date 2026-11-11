@@ -1,5 +1,3 @@
-<!-- resumen: Platón, Aristóteles y medio centenar de sabios reunidos en una misma sala: el fresco con el que Rafael celebró la filosofía. -->
-
 ## «La escuela de Atenas»: el fresco en el que Rafael reunió a todos los sabios de la Antigüedad
 
 *Vaticano, 1509-1511*

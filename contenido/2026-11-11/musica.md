@@ -1,5 +1,3 @@
-<!-- resumen: Un disco sin título en la portada que incluye «Stairway to Heaven»: el cuarto álbum de Led Zeppelin es una cumbre del hard rock. -->
-
 ## Led Zeppelin IV
 
 ### Led Zeppelin

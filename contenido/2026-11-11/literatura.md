@@ -1,5 +1,3 @@
-<!-- resumen: Neruda tenía 19 años cuando publicó los «Veinte poemas de amor», el libro de poesía en español más vendido del siglo XX. -->
-
 ## «Veinte poemas de amor y una canción desesperada»: el libro con el que un joven Neruda conquistó a millones
 
 *Chile, 1924*

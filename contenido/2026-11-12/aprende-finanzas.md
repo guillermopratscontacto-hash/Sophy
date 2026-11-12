@@ -1,5 +1,3 @@
-<!-- resumen: Delta, gamma, vega y theta miden cómo cambia el precio de una opción cuando se mueven el mercado, la volatilidad o el tiempo. -->
-
 ## Griegas de las opciones: delta, gamma, vega y theta
 
 ### Option Greeks

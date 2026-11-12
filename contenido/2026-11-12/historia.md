@@ -1,5 +1,3 @@
-<!-- resumen: Los reyes persas construyeron en Persépolis una capital ceremonial para recibir los tributos de un imperio que iba del Indo al Egeo. -->
-
 ## Persépolis: la capital ceremonial de los reyes persas
 
 *Irán, siglos VI-IV a. C.*

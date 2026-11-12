@@ -1,5 +1,3 @@
-<!-- resumen: Tras triunfar con novelas en inglés, Ngũgĩ wa Thiong'o decidió escribir en kikuyu, su lengua materna. Su primera novela en ella la escribió en la cárcel. -->
-
 ## Ngũgĩ wa Thiong'o: la novela escrita en papel higiénico que cambió de lengua
 
 *Kenia, 1977-1986*

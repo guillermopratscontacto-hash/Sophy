@@ -1,5 +1,3 @@
-<!-- resumen: Más de mil paneles de piedra narran en Java la vida de Buda: Borobudur es un libro esculpido que se lee caminando. -->
-
 ## Los relieves de Borobudur: un libro de piedra que se lee subiendo hacia la iluminación
 
 *Java (Indonesia), siglos VIII-IX*

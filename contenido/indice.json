@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-11-12",
+      "tema": "economia",
+      "titulo": "Sindicatos y patronal chocan en el balance de la primera huelga general en 14 años",
+      "resumen": "La patronal habla de seguimiento inferior al 5% y los sindicatos de «éxito rotundo»: la huelga del 11N deja cifras irreconciliables.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Container%20lorry%20on%20the%20M8%20motorway%20-%20geograph.org.uk%20-%206690366.jpg?width=1200",
+      "archivo": "contenido/2026-11-12/economia.md"
+    },
+    {
+      "fecha": "2026-11-12",
+      "tema": "politica-espanola",
+      "titulo": "PP y Vox tachan de «electoral» la huelga general y el Gobierno condena la actitud del PP",
+      "resumen": "PP y Vox ven en la huelga general un acto electoral; el Gobierno respeta a quienes la secundaron y condena la actitud del PP.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Madrid.%20Carrera%20de%20San%20Jer%C3%B3nimo%20street.%20Congress%20building.%20Spain%20%282745721089%29.jpg?width=1200",
+      "archivo": "contenido/2026-11-12/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-11-12",
+      "tema": "politica-internacional",
+      "titulo": "Rusia y Ucrania pactan en Abu Dabi el mayor canje de prisioneros de la guerra",
+      "resumen": "Rusia y Ucrania acuerdan en Abu Dabi un canje de prisioneros a gran escala, mientras la seguridad europea apenas avanza.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Dubai%20Skyline%20mit%20Burj%20Khalifa%20%2818241030269%29.jpg?width=1200",
+      "archivo": "contenido/2026-11-12/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-11-12",
+      "tema": "internacional",
+      "titulo": "Octavi Vilà, monje de Poblet, sucederá al cardenal Omella como arzobispo de Barcelona",
+      "resumen": "León XIV nombra al monje y obispo de Girona Octavi Vilà arzobispo de Barcelona en sustitución del cardenal Omella.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Skyline%20Barcelona%2C%20December%202025.jpg?width=1200",
+      "archivo": "contenido/2026-11-12/internacional.md"
+    },
+    {
+      "fecha": "2026-11-12",
+      "tema": "arte",
+      "titulo": "Los relieves de Borobudur: un libro de piedra que se lee subiendo hacia la iluminación",
+      "resumen": "Más de mil paneles de piedra narran en Java la vida de Buda: Borobudur es un libro esculpido que se lee caminando.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Borobudur%20Relief%20Panel%200979.jpg?width=1200",
+      "archivo": "contenido/2026-11-12/arte.md",
+      "asunto": "borobudur-relieves"
+    },
+    {
+      "fecha": "2026-11-12",
+      "tema": "historia",
+      "titulo": "Persépolis: la capital ceremonial de los reyes persas",
+      "resumen": "Los reyes persas construyeron en Persépolis una capital ceremonial para recibir los tributos de un imperio que iba del Indo al Egeo.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/20101229%20Gates%20of%20the%20nations%20Persepolis%20Iran.jpg?width=1200",
+      "archivo": "contenido/2026-11-12/historia.md",
+      "asunto": "persepolis"
+    },
+    {
+      "fecha": "2026-11-12",
+      "tema": "literatura",
+      "titulo": "Ngũgĩ wa Thiong'o: la novela escrita en papel higiénico que cambió de lengua",
+      "resumen": "Tras triunfar con novelas en inglés, Ngũgĩ wa Thiong'o decidió escribir en kikuyu, su lengua materna. Su primera novela en ella la escribió en la cárcel.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Ngugi%20wa%20Thiong%27o%20-%20Festivaletteratura%202012.JPG?width=1200",
+      "archivo": "contenido/2026-11-12/literatura.md",
+      "asunto": "ngugi"
+    },
+    {
+      "fecha": "2026-11-12",
+      "tema": "musica",
+      "titulo": "Senderos de traición",
+      "resumen": "Héroes del Silencio grabó en 1990 el disco que llevó el rock español a media Europa: guitarras épicas y la voz de Enrique Bunbury.",
+      "imagen": "https://coverartarchive.org/release-group/5e0ebe19-fed7-3379-a1cd-3e038f511821/front-500",
+      "archivo": "contenido/2026-11-12/musica.md",
+      "subtitulo": "Héroes del Silencio",
+      "estilo": "Rock",
+      "asunto": "album-senderos-de-traicion"
+    },
+    {
+      "fecha": "2026-11-12",
+      "tema": "aprende-finanzas",
+      "titulo": "Griegas de las opciones: delta, gamma, vega y theta",
+      "subtitulo": "Option Greeks",
+      "estilo": "Derivados",
+      "resumen": "Delta, gamma, vega y theta miden cómo cambia el precio de una opción cuando se mueven el mercado, la volatilidad o el tiempo.",
+      "asunto": "fin-griegas-de-las-opciones-delta-gamma-vega-y-theta",
+      "archivo": "contenido/2026-11-12/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-11-11",
       "tema": "economia",
       "titulo": "La huelga general del 11N costaría unos 1.700 millones si el seguimiento es escaso",

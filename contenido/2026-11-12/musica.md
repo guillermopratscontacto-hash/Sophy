@@ -1,5 +1,3 @@
-<!-- resumen: Héroes del Silencio grabó en 1990 el disco que llevó el rock español a media Europa: guitarras épicas y la voz de Enrique Bunbury. -->
-
 ## Senderos de traición
 
 ### Héroes del Silencio

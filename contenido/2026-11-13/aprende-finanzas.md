@@ -1,5 +1,3 @@
-<!-- resumen: Perder 100 euros duele el doble de lo que alegra ganarlos. Kahneman y Tversky mostraron cómo ese sesgo distorsiona las decisiones financieras. -->
-
 ## Teoría de prospecto y sesgos en los mercados
 
 ### Prospect theory in markets

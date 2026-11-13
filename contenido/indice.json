@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-11-13",
+      "tema": "economia",
+      "titulo": "Jensen Huang renuncia como consejero delegado de Nvidia y la acción se hunde",
+      "resumen": "Jensen Huang deja la dirección de Nvidia tras el escándalo por sus infidelidades; Colette Kress asume de forma interina y la acción cae hasta un 9%.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Microsoft%20Redmond%20Campus%20redevelopment%20aerial%20view%2C%20Sept.%202021.jpg?width=1200",
+      "archivo": "contenido/2026-11-13/economia.md"
+    },
+    {
+      "fecha": "2026-11-13",
+      "tema": "politica-espanola",
+      "titulo": "La Fiscalía Europea investiga un presunto fraude con fondos de la UE en las pulseras antimaltrato",
+      "resumen": "La Fiscalía Europea investiga un presunto fraude en la compra de pulseras antimaltrato y la UCO pide documentación en Igualdad; el Ministerio niega un registro.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Ministerio%20de%20Igualdad%20%28Octubre%202023%29%2008%20%28cropped%29.png?width=1200",
+      "archivo": "contenido/2026-11-13/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-11-13",
+      "tema": "politica-internacional",
+      "titulo": "Europa rechaza en Dublín que Rusia revise la arquitectura de seguridad europea",
+      "resumen": "En Dublín, los líderes europeos rechazan que Rusia reabra la arquitectura de seguridad del continente en las negociaciones sobre Ucrania.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20Parliament%20Strasbourg%20Hemicycle%20-%20Diliff.jpg?width=1200",
+      "archivo": "contenido/2026-11-13/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-11-13",
+      "tema": "internacional",
+      "titulo": "Ocho muertos al derrumbarse un edificio de tres pisos en Brooklyn",
+      "resumen": "Ocho muertos en el derrumbe de un edificio en Flatbush, Brooklyn, junto a una obra suspendida en marzo; el alcalde ordena inspeccionar unas 100 obras.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Manhattan%20from%20Weehawken%2C%20NJ.jpg?width=1200",
+      "archivo": "contenido/2026-11-13/internacional.md"
+    },
+    {
+      "fecha": "2026-11-13",
+      "tema": "arte",
+      "titulo": "«El matrimonio Arnolfini»: el espejo en el que Jan van Eyck firmó su presencia",
+      "resumen": "Un espejo diminuto, un perro y una firma en la pared: los secretos del retrato con el que Van Eyck llevó el óleo a otra dimensión.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Arnolfini%20portrait%20%281434%29.jpg?width=1200",
+      "archivo": "contenido/2026-11-13/arte.md",
+      "asunto": "matrimonio-arnolfini"
+    },
+    {
+      "fecha": "2026-11-13",
+      "tema": "historia",
+      "titulo": "La batalla de Lepanto: el combate naval que frenó al Imperio otomano en el Mediterráneo",
+      "resumen": "El 7 de octubre de 1571, más de 400 galeras se enfrentaron en el golfo de Lepanto. Cervantes perdió allí el uso de la mano izquierda.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Laureys%20a%20Castro%20-%20The%20Battle%20of%20Lepanto.jpeg?width=1200",
+      "archivo": "contenido/2026-11-13/historia.md",
+      "asunto": "lepanto"
+    },
+    {
+      "fecha": "2026-11-13",
+      "tema": "literatura",
+      "titulo": "La «Ilíada»: la cólera de Aquiles y el primer gran poema de Europa",
+      "resumen": "Cuarenta y nueve días de la guerra de Troya bastaron a Homero para crear el primer gran poema de la literatura europea.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Illiad%20fragmented%20papyrus.png?width=1200",
+      "archivo": "contenido/2026-11-13/literatura.md",
+      "asunto": "iliada"
+    },
+    {
+      "fecha": "2026-11-13",
+      "tema": "musica",
+      "titulo": "The Rise and Fall of Ziggy Stardust and the Spiders From Mars",
+      "resumen": "Un extraterrestre que viene a salvar el mundo con el rock: con Ziggy Stardust, David Bowie creó su personaje más famoso.",
+      "imagen": "https://coverartarchive.org/release-group/6c9ae3dd-32ad-472c-96be-69d0a3536261/front-500",
+      "archivo": "contenido/2026-11-13/musica.md",
+      "subtitulo": "David Bowie",
+      "estilo": "Glam rock",
+      "asunto": "album-the-rise-and-fall-of-ziggy-stardust-and-the-spiders-from-mars"
+    },
+    {
+      "fecha": "2026-11-13",
+      "tema": "aprende-finanzas",
+      "titulo": "Teoría de prospecto y sesgos en los mercados",
+      "subtitulo": "Prospect theory in markets",
+      "estilo": "Finanzas del comportamiento",
+      "resumen": "Perder 100 euros duele el doble de lo que alegra ganarlos. Kahneman y Tversky mostraron cómo ese sesgo distorsiona las decisiones financieras.",
+      "asunto": "fin-teoria-de-prospecto-y-sesgos-en-los-mercados",
+      "archivo": "contenido/2026-11-13/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-11-12",
       "tema": "economia",
       "titulo": "Sindicatos y patronal chocan en el balance de la primera huelga general en 14 años",

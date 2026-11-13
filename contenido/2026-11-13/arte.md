@@ -1,5 +1,3 @@
-<!-- resumen: Un espejo diminuto, un perro y una firma en la pared: los secretos del retrato con el que Van Eyck llevó el óleo a otra dimensión. -->
-
 ## «El matrimonio Arnolfini»: el espejo en el que Jan van Eyck firmó su presencia
 
 *Brujas, 1434*

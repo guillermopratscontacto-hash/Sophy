@@ -1,5 +1,3 @@
-<!-- resumen: El 7 de octubre de 1571, más de 400 galeras se enfrentaron en el golfo de Lepanto. Cervantes perdió allí el uso de la mano izquierda. -->
-
 ## La batalla de Lepanto: el combate naval que frenó al Imperio otomano en el Mediterráneo
 
 *Golfo de Patras (Grecia), 7 de octubre de 1571*

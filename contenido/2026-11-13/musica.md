@@ -1,5 +1,3 @@
-<!-- resumen: Un extraterrestre que viene a salvar el mundo con el rock: con Ziggy Stardust, David Bowie creó su personaje más famoso. -->
-
 ## The Rise and Fall of Ziggy Stardust and the Spiders From Mars
 
 ### David Bowie

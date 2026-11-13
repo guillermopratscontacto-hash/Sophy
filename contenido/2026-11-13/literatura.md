@@ -1,5 +1,3 @@
-<!-- resumen: Cuarenta y nueve días de la guerra de Troya bastaron a Homero para crear el primer gran poema de la literatura europea. -->
-
 ## La «Ilíada»: la cólera de Aquiles y el primer gran poema de Europa
 
 *Grecia, siglo VIII a. C.*

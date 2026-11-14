@@ -1,5 +1,3 @@
-<!-- resumen: Una suite de casi diecinueve minutos que ocupa toda una cara del vinilo: Yes alcanzó en 1972 la cima del rock progresivo sinfónico. -->
-
 ## Close to the Edge
 
 ### Yes

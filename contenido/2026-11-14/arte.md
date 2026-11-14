@@ -1,5 +1,3 @@
-<!-- resumen: Hallado en una viña de Roma en 1506, el grupo del Laocoonte enseñó a Miguel Ángel y a sus contemporáneos cómo esculpir el dolor. -->
-
 ## El Laocoonte: la escultura del dolor que deslumbró a Miguel Ángel
 
 *Roma, siglo I a. C.-siglo I d. C.*

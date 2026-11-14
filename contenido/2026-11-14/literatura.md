@@ -1,5 +1,3 @@
-<!-- resumen: «Todas las familias felices se parecen»: Tolstói abrió así una novela sobre el amor, la sociedad rusa y el sentido de la vida. -->
-
 ## «Anna Karénina»: la novela de Tolstói que empieza con la frase más famosa de la literatura rusa
 
 *Rusia, 1873-1877*

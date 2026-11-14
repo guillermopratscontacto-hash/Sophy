@@ -1,5 +1,3 @@
-<!-- resumen: En 1893, Nueva Zelanda se convirtió en el primer país del mundo en reconocer el voto a las mujeres. Lo logró una campaña de firmas sin precedentes. -->
-
 ## Nueva Zelanda, 1893: el primer país donde votaron las mujeres
 
 *Nueva Zelanda, 1893*

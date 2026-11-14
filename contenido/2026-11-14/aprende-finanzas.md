@@ -1,5 +1,3 @@
-<!-- resumen: En una valoración por descuento de flujos, el valor terminal suele pesar más de la mitad del resultado. Hay dos formas de calcularlo. -->
-
 ## Valor terminal: Gordon frente a múltiplo de salida
 
 ### Terminal value in a DCF

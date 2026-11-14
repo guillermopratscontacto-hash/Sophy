@@ -93,6 +93,102 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-11-14",
+      "tema": "economia",
+      "titulo": "Una caída de Microsoft 365 deja sin correo a empresas de 74 países durante más de 20 horas",
+      "resumen": "Una caída de Exchange Online dejó sin Outlook, Teams ni Copilot a usuarios de 74 países durante más de 20 horas.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasdaq%20MarketSite%20%2851494550508%29.jpg?width=1200",
+      "archivo": "contenido/2026-11-14/economia.md"
+    },
+    {
+      "fecha": "2026-11-14",
+      "tema": "politica-espanola",
+      "titulo": "Arranca la campaña del 29N con PP y Vox en el horizonte de la mayoría absoluta según las encuestas",
+      "resumen": "Arranca la campaña del 29N con las encuestas dando a PP y Vox en torno a 190 escaños y una polarización récord.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Elecciones%20CyL%202022%2005.jpg?width=1200",
+      "archivo": "contenido/2026-11-14/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-11-14",
+      "tema": "politica-internacional",
+      "titulo": "Europa designa un grupo con la UE y cinco países para negociar la paz en Ucrania",
+      "resumen": "Europa designa un equipo coral para negociar la paz en Ucrania y el Kremlin dice que hablará si hay un interlocutor autorizado.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20parliament%20%28Espace%20L%C3%A9opold%2C%20Brussels%29.jpg?width=1200",
+      "archivo": "contenido/2026-11-14/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-11-14",
+      "tema": "internacional",
+      "titulo": "EE. UU. suspende todos los despegues del país por un fallo de comunicaciones en el control aéreo",
+      "resumen": "La FAA ordenó parar todos los despegues en EE. UU. por un problema de comunicaciones; cerca de 7.000 vuelos se retrasaron o cancelaron.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Flight%20departure%20board%20at%20Brisbane%20Airport%2C%20December%202022.jpg?width=1200",
+      "archivo": "contenido/2026-11-14/internacional.md"
+    },
+    {
+      "fecha": "2026-11-14",
+      "tema": "politica-monetaria",
+      "titulo": "Alemania y Francia ultiman el pacto para la cúpula del BCE con Hernández de Cos como favorito",
+      "resumen": "Tres claves de la sucesión de Lagarde: el pacto franco-alemán, el reparto de la cúpula y el reto de la deuda francesa.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Seat%20of%20the%20European%20Central%20Bank%20and%20Frankfurt%20Skyline%20at%20dawn%2020150422%201.jpg?width=1200",
+      "archivo": "contenido/2026-11-14/politica-monetaria.md"
+    },
+    {
+      "fecha": "2026-11-14",
+      "tema": "fusiones",
+      "titulo": "Santander integra a 1.000 empleados de TSB y prevé culminar la fusión en 2027",
+      "resumen": "Santander traspasa 1.000 empleados de TSB y espera sinergias de 400 millones de libras con la fusión prevista para 2027.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/City%20of%20London%20skyline%20from%20London%20City%20Hall%20-%20Oct%202008%20-%20Aligned.jpg?width=1200",
+      "archivo": "contenido/2026-11-14/fusiones.md"
+    },
+    {
+      "fecha": "2026-11-14",
+      "tema": "arte",
+      "titulo": "El Laocoonte: la escultura del dolor que deslumbró a Miguel Ángel",
+      "resumen": "Hallado en una viña de Roma en 1506, el grupo del Laocoonte enseñó a Miguel Ángel y a sus contemporáneos cómo esculpir el dolor.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Laoco%C3%B6n%20and%20his%20sons%20group.jpg?width=1200",
+      "archivo": "contenido/2026-11-14/arte.md",
+      "asunto": "laocoonte"
+    },
+    {
+      "fecha": "2026-11-14",
+      "tema": "historia",
+      "titulo": "Nueva Zelanda, 1893: el primer país donde votaron las mujeres",
+      "resumen": "En 1893, Nueva Zelanda se convirtió en el primer país del mundo en reconocer el voto a las mujeres. Lo logró una campaña de firmas sin precedentes.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Tribute%20to%20the%20Suffragettes%2C%20Christchurch%2C%20NZ%20-%20cropped.jpg?width=1200",
+      "archivo": "contenido/2026-11-14/historia.md",
+      "asunto": "sufragio-nueva-zelanda"
+    },
+    {
+      "fecha": "2026-11-14",
+      "tema": "literatura",
+      "titulo": "«Anna Karénina»: la novela de Tolstói que empieza con la frase más famosa de la literatura rusa",
+      "resumen": "«Todas las familias felices se parecen»: Tolstói abrió así una novela sobre el amor, la sociedad rusa y el sentido de la vida.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/AnnaKareninaTitle.jpg?width=1200",
+      "archivo": "contenido/2026-11-14/literatura.md",
+      "asunto": "anna-karenina"
+    },
+    {
+      "fecha": "2026-11-14",
+      "tema": "musica",
+      "titulo": "Close to the Edge",
+      "resumen": "Una suite de casi diecinueve minutos que ocupa toda una cara del vinilo: Yes alcanzó en 1972 la cima del rock progresivo sinfónico.",
+      "imagen": "https://coverartarchive.org/release-group/5a59b948-1961-32ff-80d9-e970c7d4ebe9/front-500",
+      "archivo": "contenido/2026-11-14/musica.md",
+      "subtitulo": "Yes",
+      "estilo": "Rock progresivo",
+      "asunto": "album-close-to-the-edge"
+    },
+    {
+      "fecha": "2026-11-14",
+      "tema": "aprende-finanzas",
+      "titulo": "Valor terminal: Gordon frente a múltiplo de salida",
+      "subtitulo": "Terminal value in a DCF",
+      "estilo": "Valoración",
+      "resumen": "En una valoración por descuento de flujos, el valor terminal suele pesar más de la mitad del resultado. Hay dos formas de calcularlo.",
+      "asunto": "fin-valor-terminal-gordon-frente-a-multiplo-de-salid",
+      "archivo": "contenido/2026-11-14/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-11-13",
       "tema": "economia",
       "titulo": "Jensen Huang renuncia como consejero delegado de Nvidia y la acción se hunde",

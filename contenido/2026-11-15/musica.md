@@ -1,5 +1,3 @@
-<!-- resumen: Dos guitarras que dialogan como en una conversación: «Marquee Moon» salió del punk neoyorquino y sonaba a algo completamente distinto. -->
-
 ## Marquee Moon
 
 ### Television

@@ -1,5 +1,3 @@
-<!-- resumen: No es una sola muralla ni se ve desde el espacio, pero durante dos mil años fue la gran frontera de China frente a los pueblos nómadas. -->
-
 ## La Gran Muralla china: dos mil años de fronteras frente a la estepa
 
 *China, siglo VII a. C.-siglo XVII*

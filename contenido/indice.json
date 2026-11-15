@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-11-15",
+      "tema": "economia",
+      "titulo": "Plus Ultra entra en preconcurso de acreedores y pone en riesgo el rescate de 53 millones de la SEPI",
+      "resumen": "Plus Ultra entra en preconcurso de acreedores y pone en riesgo los 53 millones del rescate público de 2021.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Terminal%204%20del%20aeropuerto%20de%20Madrid-Barajas%2C%20Espa%C3%B1a%2C%202013-01-09%2C%20DD%2008.jpg?width=1200",
+      "archivo": "contenido/2026-11-15/economia.md"
+    },
+    {
+      "fecha": "2026-11-15",
+      "tema": "politica-espanola",
+      "titulo": "Feijóo presenta su programa en Santiago y promete una auditoría del Gobierno en su primer Consejo de Ministros",
+      "resumen": "Feijóo presenta su programa en Santiago ante 8.000 personas y promete una auditoría en su primer Consejo de Ministros.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Verxa%20e%20porta%20de%20entrada%20do%20Parlamento%20galego.%20Santiago%20de%20Compostela.%20Galiza.jpg?width=1200",
+      "archivo": "contenido/2026-11-15/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-11-15",
+      "tema": "politica-internacional",
+      "titulo": "Hungría halla 18 millones de dólares en efectivo, parte enterrados, en la investigación a un exministro de Orbán",
+      "resumen": "La nueva oficina anticorrupción húngara halla 18 millones de dólares en efectivo, parte enterrados, en la investigación a un exministro de Orbán.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Hungarian%20Parliament%20Building%202023-9.jpg?width=1200",
+      "archivo": "contenido/2026-11-15/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-11-15",
+      "tema": "internacional",
+      "titulo": "EE. UU. atribuye la paralización aérea a un cambio de cables de cobre a fibra óptica en una instalación de la FAA",
+      "resumen": "El Gobierno de EE. UU. atribuye la mayor paralización aérea desde el 11S a un cambio de cables de cobre a fibra óptica.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20FAA%20air%20traffic%20control%20tower%20at%20Philadelphia%20International%20Airport.jpg?width=1200",
+      "archivo": "contenido/2026-11-15/internacional.md"
+    },
+    {
+      "fecha": "2026-11-15",
+      "tema": "arte",
+      "titulo": "«La ronda de noche»: el retrato de grupo que Rembrandt convirtió en escena de acción",
+      "resumen": "No es de noche ni es una ronda: el gran retrato colectivo de Rembrandt rompió todas las convenciones de su género.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/La%20ronda%20de%20noche%2C%20por%20Rembrandt%20van%20Rijn.jpg?width=1200",
+      "archivo": "contenido/2026-11-15/arte.md",
+      "asunto": "ronda-noche"
+    },
+    {
+      "fecha": "2026-11-15",
+      "tema": "historia",
+      "titulo": "La Gran Muralla china: dos mil años de fronteras frente a la estepa",
+      "resumen": "No es una sola muralla ni se ve desde el espacio, pero durante dos mil años fue la gran frontera de China frente a los pueblos nómadas.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Great%20Wall%20of%20China%20at%20Jinshanling-edit.jpg?width=1200",
+      "archivo": "contenido/2026-11-15/historia.md",
+      "asunto": "gran-muralla"
+    },
+    {
+      "fecha": "2026-11-15",
+      "tema": "literatura",
+      "titulo": "Las «Rimas» de Bécquer: los poemas que salvaron sus amigos después de su muerte",
+      "resumen": "«Volverán las oscuras golondrinas»: las «Rimas» de Bécquer, publicadas tras su muerte, son los poemas de amor más recitados del español.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Gustavo%20Adolfo%20B%C3%A9cquer%2C%20by%20his%20brother%20Valeriano%20%281862%29.jpg?width=1200",
+      "archivo": "contenido/2026-11-15/literatura.md",
+      "asunto": "rimas-becquer"
+    },
+    {
+      "fecha": "2026-11-15",
+      "tema": "musica",
+      "titulo": "Marquee Moon",
+      "resumen": "Dos guitarras que dialogan como en una conversación: «Marquee Moon» salió del punk neoyorquino y sonaba a algo completamente distinto.",
+      "imagen": "https://coverartarchive.org/release-group/2b9f99d8-becf-3fc3-86a6-2bdd4cef93fe/front-500",
+      "archivo": "contenido/2026-11-15/musica.md",
+      "subtitulo": "Television",
+      "estilo": "Art punk",
+      "asunto": "album-marquee-moon"
+    },
+    {
+      "fecha": "2026-11-15",
+      "tema": "aprende-finanzas",
+      "titulo": "Ratio de Sharpe y sus límites",
+      "subtitulo": "Sharpe ratio",
+      "estilo": "Gestión de carteras",
+      "resumen": "El ratio de Sharpe mide cuánto rinde una inversión por cada unidad de riesgo asumida. Es útil, pero puede engañar si se usa sin cuidado.",
+      "asunto": "fin-ratio-de-sharpe-y-sus-limites",
+      "archivo": "contenido/2026-11-15/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-11-14",
       "tema": "economia",
       "titulo": "Una caída de Microsoft 365 deja sin correo a empresas de 74 países durante más de 20 horas",

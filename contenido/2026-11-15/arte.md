@@ -1,5 +1,3 @@
-<!-- resumen: No es de noche ni es una ronda: el gran retrato colectivo de Rembrandt rompió todas las convenciones de su género. -->
-
 ## «La ronda de noche»: el retrato de grupo que Rembrandt convirtió en escena de acción
 
 *Ámsterdam, 1642*

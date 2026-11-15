@@ -1,5 +1,3 @@
-<!-- resumen: El ratio de Sharpe mide cuánto rinde una inversión por cada unidad de riesgo asumida. Es útil, pero puede engañar si se usa sin cuidado. -->
-
 ## Ratio de Sharpe y sus límites
 
 ### Sharpe ratio

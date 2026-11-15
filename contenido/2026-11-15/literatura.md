@@ -1,5 +1,3 @@
-<!-- resumen: «Volverán las oscuras golondrinas»: las «Rimas» de Bécquer, publicadas tras su muerte, son los poemas de amor más recitados del español. -->
-
 ## Las «Rimas» de Bécquer: los poemas que salvaron sus amigos después de su muerte
 
 *España, 1871*

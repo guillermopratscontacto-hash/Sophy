@@ -1,5 +1,3 @@
-<!-- resumen: Los bancos centrales no solo fijan los tipos de hoy: también anuncian los de mañana. Para que funcione, tienen que ser creíbles. -->
-
 ## Guía prospectiva (forward guidance) y compromiso creíble
 
 ### Forward guidance and credibility

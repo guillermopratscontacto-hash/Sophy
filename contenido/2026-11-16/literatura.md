@@ -1,5 +1,3 @@
-<!-- resumen: Un poeta nicaragüense renovó la lengua poética del español con «Azul...» y «Prosas profanas»: así nació el modernismo. -->
-
 ## Rubén Darío: el poeta que trajo la música nueva a la lengua española
 
 *América y España, 1888-1905*

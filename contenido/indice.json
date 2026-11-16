@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-11-16",
+      "tema": "economia",
+      "titulo": "Yolanda Díaz aspira a dirigir la OIT frente a un Houngbo que parte como favorito",
+      "resumen": "Yolanda Díaz disputa hoy en Ginebra la dirección de la OIT a Gilbert Houngbo, favorito por el respaldo de patronal y sindicatos.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/WIPO%20Director%20General%20Meets%20Malaysia%27s%20Minister%20of%20Domestic%20Trade%20and%20Consumer%20Affairs.jpg?width=1200",
+      "archivo": "contenido/2026-11-16/economia.md"
+    },
+    {
+      "fecha": "2026-11-16",
+      "tema": "politica-espanola",
+      "titulo": "El PSOE presenta su programa con el 1 % del PIB para vivienda y la jornada de 37,5 horas",
+      "resumen": "El PSOE presenta 500 compromisos: 1 % del PIB a vivienda, prestación por crianza y jornada de 37,5 horas, con guiños a Sumar.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Sede%20del%20PSOE%20%28Madrid%29%2001.jpg?width=1200",
+      "archivo": "contenido/2026-11-16/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-11-16",
+      "tema": "politica-internacional",
+      "titulo": "Estonia cerrará su frontera con Rusia el 1 de diciembre tras un presunto sabotaje",
+      "resumen": "Tallin cerrará sus tres pasos fronterizos con Rusia el 1 de diciembre tras atribuir al GRU un intento de sabotaje contra una fábrica de drones.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Brussels%20NATO%20Headquarters.jpg?width=1200",
+      "archivo": "contenido/2026-11-16/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-11-16",
+      "tema": "internacional",
+      "titulo": "León XIV reza el Ángelus en Cuzco y defiende las tradiciones populares como «un tesoro»",
+      "resumen": "León XIV reza el Ángelus en Cuzco ante más de 30.000 personas y defiende las tradiciones populares, en plena gira por Perú.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/St%20Peter%27s%20Square%2C%20Vatican%20City%20-%20April%202007.jpg?width=1200",
+      "archivo": "contenido/2026-11-16/internacional.md"
+    },
+    {
+      "fecha": "2026-11-16",
+      "tema": "arte",
+      "titulo": "El busto de Nefertiti: el rostro que salió de un taller de escultor en Amarna",
+      "resumen": "Hallado en 1912 en el taller de un escultor egipcio, el busto de Nefertiti es tan célebre como la reina a la que retrata.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Nofretete%20Neues%20Museum.jpg?width=1200",
+      "archivo": "contenido/2026-11-16/arte.md",
+      "asunto": "busto-nefertiti"
+    },
+    {
+      "fecha": "2026-11-16",
+      "tema": "historia",
+      "titulo": "La máquina de vapor: el motor que puso en marcha la Revolución Industrial",
+      "resumen": "Una máquina que convertía carbón en movimiento cambió la forma de producir, de viajar y de vivir. Así empezó la Revolución Industrial.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Maquina%20vapor%20Watt%20ETSIIM.jpg?width=1200",
+      "archivo": "contenido/2026-11-16/historia.md",
+      "asunto": "maquina-vapor"
+    },
+    {
+      "fecha": "2026-11-16",
+      "tema": "literatura",
+      "titulo": "Rubén Darío: el poeta que trajo la música nueva a la lengua española",
+      "resumen": "Un poeta nicaragüense renovó la lengua poética del español con «Azul...» y «Prosas profanas»: así nació el modernismo.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Rub%C3%A9n%20Dar%C3%ADo.jpg?width=1200",
+      "archivo": "contenido/2026-11-16/literatura.md",
+      "asunto": "ruben-dario"
+    },
+    {
+      "fecha": "2026-11-16",
+      "tema": "musica",
+      "titulo": "Paranoid",
+      "resumen": "Grabado en pocos días en 1970, «Paranoid» de Black Sabbath convirtió un sonido grave y oscuro en el origen del heavy metal.",
+      "imagen": "https://coverartarchive.org/release-group/cc053745-c447-3566-8f27-bed5438c9133/front-500",
+      "archivo": "contenido/2026-11-16/musica.md",
+      "subtitulo": "Black Sabbath",
+      "estilo": "Heavy metal",
+      "asunto": "album-paranoid"
+    },
+    {
+      "fecha": "2026-11-16",
+      "tema": "aprende-finanzas",
+      "titulo": "Guía prospectiva (forward guidance) y compromiso creíble",
+      "subtitulo": "Forward guidance and credibility",
+      "estilo": "Política monetaria",
+      "resumen": "Los bancos centrales no solo fijan los tipos de hoy: también anuncian los de mañana. Para que funcione, tienen que ser creíbles.",
+      "asunto": "fin-guia-prospectiva-forward-guidance-y-compromiso-c",
+      "archivo": "contenido/2026-11-16/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-11-15",
       "tema": "economia",
       "titulo": "Plus Ultra entra en preconcurso de acreedores y pone en riesgo el rescate de 53 millones de la SEPI",

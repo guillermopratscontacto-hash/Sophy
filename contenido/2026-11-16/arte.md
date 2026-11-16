@@ -1,5 +1,3 @@
-<!-- resumen: Hallado en 1912 en el taller de un escultor egipcio, el busto de Nefertiti es tan célebre como la reina a la que retrata. -->
-
 ## El busto de Nefertiti: el rostro que salió de un taller de escultor en Amarna
 
 *Egipto, hacia 1345 a. C.*

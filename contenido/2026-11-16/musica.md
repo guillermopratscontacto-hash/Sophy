@@ -1,5 +1,3 @@
-<!-- resumen: Grabado en pocos días en 1970, «Paranoid» de Black Sabbath convirtió un sonido grave y oscuro en el origen del heavy metal. -->
-
 ## Paranoid
 
 ### Black Sabbath

@@ -1,5 +1,3 @@
-<!-- resumen: Una máquina que convertía carbón en movimiento cambió la forma de producir, de viajar y de vivir. Así empezó la Revolución Industrial. -->
-
 ## La máquina de vapor: el motor que puso en marcha la Revolución Industrial
 
 *Gran Bretaña, siglo XVIII*

@@ -1,5 +1,3 @@
-<!-- resumen: Un entierro del siglo XIV, santos que bajan del cielo y vecinos de Toledo como testigos: la obra maestra de El Greco cabe en dos mundos. -->
-
 ## «El entierro del señor de Orgaz»: el cuadro en el que El Greco unió el cielo y la tierra
 
 *Toledo, 1586-1588*

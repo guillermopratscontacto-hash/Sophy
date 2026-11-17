@@ -1,5 +1,3 @@
-<!-- resumen: En once años, un joven rey macedonio conquistó desde Grecia hasta el Indo. Su imperio duró poco, pero cambió para siempre el mundo antiguo. -->
-
 ## Alejandro Magno: el imperio que un joven rey conquistó en once años
 
 *Macedonia, Asia y Egipto, 336-323 a. C.*

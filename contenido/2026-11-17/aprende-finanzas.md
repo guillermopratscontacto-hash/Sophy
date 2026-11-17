@@ -1,5 +1,3 @@
-<!-- resumen: Invertir en petróleo o en trigo a través de futuros no da la misma rentabilidad que el precio al contado: la diferencia está en la curva. -->
-
 ## Contango, backwardation y rendimiento del roll
 
 ### Contango, backwardation and roll yield

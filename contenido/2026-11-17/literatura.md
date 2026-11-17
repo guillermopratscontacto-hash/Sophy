@@ -1,5 +1,3 @@
-<!-- resumen: Un presidiario que roba unos candelabros y un obispo que lo perdona: «Los miserables» es la gran novela de la injusticia y la redención. -->
-
 ## «Los miserables»: la novela de Victor Hugo que convirtió a un presidiario en héroe
 
 *Francia, 1862*

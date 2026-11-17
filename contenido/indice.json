@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-11-17",
+      "tema": "economia",
+      "titulo": "El Gobierno aprobará la subida salarial del 4,5 % para los empleados públicos en 2027",
+      "resumen": "El Consejo de Ministros aprueba hoy la subida del 4,5 % para los empleados públicos en 2027, a la que se sumará un 0,5 % en el primer trimestre.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Nuevos%20Ministerios%20%28Madrid%29%2001.jpg?width=1200",
+      "archivo": "contenido/2026-11-17/economia.md"
+    },
+    {
+      "fecha": "2026-11-17",
+      "tema": "politica-espanola",
+      "titulo": "Frente Amplio propone la jornada de 32 horas y una tasa del 3 % a los grandes patrimonios",
+      "resumen": "La coalición liderada por Ada Colau propone la jornada de 32 horas, jubilarse a los 65 y una tasa del 3 % a patrimonios de más de 50 millones.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Palacio%20de%20las%20Cortes%2C%20Madrid%20%28Ank%20Kumar%2C%20Infosys%20Limited%29%2001.jpg?width=1200",
+      "archivo": "contenido/2026-11-17/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-11-17",
+      "tema": "politica-internacional",
+      "titulo": "Cinco países de la UE firman con Ruanda el primer «centro de retorno» para migrantes expulsados",
+      "resumen": "Alemania, Dinamarca, Países Bajos, Grecia y Austria firman con Ruanda el primer «centro de retorno» para migrantes expulsados de la UE.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Grand-Place%2C%20Brussels%20-%20panorama%2C%20June%202018.jpg?width=1200",
+      "archivo": "contenido/2026-11-17/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-11-17",
+      "tema": "internacional",
+      "titulo": "Una variante genética heredada de los neandertales reduce el volumen cerebral y el riesgo de esquizofrenia",
+      "resumen": "Un estudio liderado por Svante Pääbo halla una variante neandertal que reduce el volumen cerebral y hasta un 10 % el riesgo de esquizofrenia.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Scanning%20electron%20micrograph%20of%20a%20human%20H9%20T%20cell%20infected%20with%20HIV%20virus%20particles.jpg?width=1200",
+      "archivo": "contenido/2026-11-17/internacional.md"
+    },
+    {
+      "fecha": "2026-11-17",
+      "tema": "arte",
+      "titulo": "«El entierro del señor de Orgaz»: el cuadro en el que El Greco unió el cielo y la tierra",
+      "resumen": "Un entierro del siglo XIV, santos que bajan del cielo y vecinos de Toledo como testigos: la obra maestra de El Greco cabe en dos mundos.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/El%20Greco%20-%20The%20Burial%20of%20the%20Count%20of%20Orgaz.JPG?width=1200",
+      "archivo": "contenido/2026-11-17/arte.md",
+      "asunto": "entierro-orgaz"
+    },
+    {
+      "fecha": "2026-11-17",
+      "tema": "historia",
+      "titulo": "Alejandro Magno: el imperio que un joven rey conquistó en once años",
+      "resumen": "En once años, un joven rey macedonio conquistó desde Grecia hasta el Indo. Su imperio duró poco, pero cambió para siempre el mundo antiguo.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexander%20Mosaic%20detail%20of%20Alexander%20the%20Great%20%283x4%20cropped%29.jpg?width=1200",
+      "archivo": "contenido/2026-11-17/historia.md",
+      "asunto": "alejandro-magno"
+    },
+    {
+      "fecha": "2026-11-17",
+      "tema": "literatura",
+      "titulo": "«Los miserables»: la novela de Victor Hugo que convirtió a un presidiario en héroe",
+      "resumen": "Un presidiario que roba unos candelabros y un obispo que lo perdona: «Los miserables» es la gran novela de la injusticia y la redención.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Monsieur%20Madeleine%20par%20Gustave%20Brion.jpg?width=1200",
+      "archivo": "contenido/2026-11-17/literatura.md",
+      "asunto": "miserables"
+    },
+    {
+      "fecha": "2026-11-17",
+      "tema": "musica",
+      "titulo": "Wish You Were Here",
+      "resumen": "Un homenaje a un amigo perdido y una crítica a la industria musical: Pink Floyd grabó en 1975 su disco más emotivo.",
+      "imagen": "https://coverartarchive.org/release-group/1a272023-10d3-38ee-bab3-317b55fcc21d/front-500",
+      "archivo": "contenido/2026-11-17/musica.md",
+      "subtitulo": "Pink Floyd",
+      "estilo": "Rock progresivo",
+      "asunto": "album-wish-you-were-here"
+    },
+    {
+      "fecha": "2026-11-17",
+      "tema": "aprende-finanzas",
+      "titulo": "Contango, backwardation y rendimiento del roll",
+      "subtitulo": "Contango, backwardation and roll yield",
+      "estilo": "Materias primas",
+      "resumen": "Invertir en petróleo o en trigo a través de futuros no da la misma rentabilidad que el precio al contado: la diferencia está en la curva.",
+      "asunto": "fin-contango-backwardation-y-rendimiento-del-roll",
+      "archivo": "contenido/2026-11-17/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-11-16",
       "tema": "economia",
       "titulo": "Yolanda Díaz aspira a dirigir la OIT frente a un Houngbo que parte como favorito",

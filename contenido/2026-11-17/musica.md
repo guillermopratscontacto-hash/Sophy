@@ -1,5 +1,3 @@
-<!-- resumen: Un homenaje a un amigo perdido y una crítica a la industria musical: Pink Floyd grabó en 1975 su disco más emotivo. -->
-
 ## Wish You Were Here
 
 ### Pink Floyd

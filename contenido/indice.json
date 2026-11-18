@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-11-18",
+      "tema": "economia",
+      "titulo": "El Gobierno sube el SMI un 5,3 % y suprime las retenciones del IRPF a quien lo cobre",
+      "resumen": "El Gobierno sube el salario mínimo un 5,3 % en 2027, hasta 1.286 euros, y elimina las retenciones de IRPF para quien lo cobre.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Palacio%20de%20la%20Moncloa%2C%20Madrid%2C%20Espa%C3%B1a%20edited.jpg?width=1200",
+      "archivo": "contenido/2026-11-18/economia.md"
+    },
+    {
+      "fecha": "2026-11-18",
+      "tema": "politica-espanola",
+      "titulo": "Unos 113.000 nacionalizados por la «ley de nietos» no podrán votar el 29N por la suspensión del Supremo",
+      "resumen": "La Abogacía del Estado cifra en 113.326 los nacionalizados por la «ley de nietos» que no podrán votar el 29N por la suspensión del Supremo.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Sede%20del%20C.G.P.J.%20de%20Espa%C3%B1a%20%28Madrid%29%2001.jpg?width=1200",
+      "archivo": "contenido/2026-11-18/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-11-18",
+      "tema": "politica-internacional",
+      "titulo": "Ucrania golpea el puente de Crimea y Rusia asegura que los daños son «insignificantes»",
+      "resumen": "Ucrania reivindica un ataque con misiles y drones contra el puente de Crimea; el Kremlin admite el impacto pero habla de daños «insignificantes».",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Maidan%20Nezalezhnosti%2020190505-2.jpg?width=1200",
+      "archivo": "contenido/2026-11-18/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-11-18",
+      "tema": "internacional",
+      "titulo": "Un ciberataque a través de Optimizely compromete unas 178 webs, entre ellas BBC, CNN, IKEA y Zoom",
+      "resumen": "Hackers inyectaron código malicioso en 178 webs, entre ellas BBC, CNN, IKEA o Zoom, a través de la plataforma Optimizely.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Black%20smartphone%20in%20hand%20%28Unsplash%29.jpg?width=1200",
+      "archivo": "contenido/2026-11-18/internacional.md"
+    },
+    {
+      "fecha": "2026-11-18",
+      "tema": "arte",
+      "titulo": "«Apolo y Dafne»: el instante en que Bernini convirtió el mármol en laurel",
+      "resumen": "Bernini tenía unos veinticinco años cuando convirtió el mármol en corteza, hojas y cabello en movimiento: el instante exacto de una metamorfosis.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Apollo%20and%20Daphne%20%28Bernini%29%20%28cropped%29.jpg?width=1200",
+      "archivo": "contenido/2026-11-18/arte.md",
+      "asunto": "apolo-dafne"
+    },
+    {
+      "fecha": "2026-11-18",
+      "tema": "historia",
+      "titulo": "La Ruta de la Seda: los caminos que unieron China con el Mediterráneo",
+      "resumen": "Por la Ruta de la Seda no solo viajó la seda: también el papel, las religiones, las ideas y, por desgracia, las epidemias.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Registan%20Samarkand%20Uzbekistan.JPG?width=1200",
+      "archivo": "contenido/2026-11-18/historia.md",
+      "asunto": "ruta-seda"
+    },
+    {
+      "fecha": "2026-11-18",
+      "tema": "literatura",
+      "titulo": "«Campos de Castilla»: el paisaje castellano según Antonio Machado",
+      "resumen": "Soria, el Duero y una tierra dura y pobre: con «Campos de Castilla», Antonio Machado convirtió el paisaje en una meditación sobre España.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/AntonioMachado.JPG?width=1200",
+      "archivo": "contenido/2026-11-18/literatura.md",
+      "asunto": "campos-castilla"
+    },
+    {
+      "fecha": "2026-11-18",
+      "tema": "musica",
+      "titulo": "Artaud",
+      "resumen": "Luis Alberto Spinetta tenía 23 años cuando grabó «Artaud», uno de los discos más venerados del rock argentino, con una portada imposible.",
+      "imagen": "https://coverartarchive.org/release-group/8e50433a-c1d5-3019-a48d-0d6b97a5f32b/front-500",
+      "archivo": "contenido/2026-11-18/musica.md",
+      "subtitulo": "Pescado Rabioso",
+      "estilo": "Rock argentino",
+      "asunto": "album-artaud"
+    },
+    {
+      "fecha": "2026-11-18",
+      "tema": "aprende-finanzas",
+      "titulo": "EBITDA ajustado y sus trampas",
+      "subtitulo": "Adjusted EBITDA",
+      "estilo": "Análisis contable",
+      "resumen": "Las empresas presentan un beneficio «ajustado» que excluye gastos extraordinarios. A veces aclara; otras, maquilla. Cómo distinguirlo.",
+      "asunto": "fin-ebitda-ajustado-y-sus-trampas",
+      "archivo": "contenido/2026-11-18/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-11-17",
       "tema": "economia",
       "titulo": "El Gobierno aprobará la subida salarial del 4,5 % para los empleados públicos en 2027",

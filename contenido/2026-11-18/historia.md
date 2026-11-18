@@ -1,5 +1,3 @@
-<!-- resumen: Por la Ruta de la Seda no solo viajó la seda: también el papel, las religiones, las ideas y, por desgracia, las epidemias. -->
-
 ## La Ruta de la Seda: los caminos que unieron China con el Mediterráneo
 
 *Asia, siglo II a. C.-siglo XV*

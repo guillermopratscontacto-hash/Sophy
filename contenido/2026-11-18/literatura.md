@@ -1,5 +1,3 @@
-<!-- resumen: Soria, el Duero y una tierra dura y pobre: con «Campos de Castilla», Antonio Machado convirtió el paisaje en una meditación sobre España. -->
-
 ## «Campos de Castilla»: el paisaje castellano según Antonio Machado
 
 *España, 1912*

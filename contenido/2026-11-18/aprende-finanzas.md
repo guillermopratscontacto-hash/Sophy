@@ -1,5 +1,3 @@
-<!-- resumen: Las empresas presentan un beneficio «ajustado» que excluye gastos extraordinarios. A veces aclara; otras, maquilla. Cómo distinguirlo. -->
-
 ## EBITDA ajustado y sus trampas
 
 ### Adjusted EBITDA

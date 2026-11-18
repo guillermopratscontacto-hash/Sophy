@@ -1,5 +1,3 @@
-<!-- resumen: Luis Alberto Spinetta tenía 23 años cuando grabó «Artaud», uno de los discos más venerados del rock argentino, con una portada imposible. -->
-
 ## Artaud
 
 ### Pescado Rabioso

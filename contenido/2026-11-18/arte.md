@@ -1,5 +1,3 @@
-<!-- resumen: Bernini tenía unos veinticinco años cuando convirtió el mármol en corteza, hojas y cabello en movimiento: el instante exacto de una metamorfosis. -->
-
 ## «Apolo y Dafne»: el instante en que Bernini convirtió el mármol en laurel
 
 *Roma, 1622-1625*

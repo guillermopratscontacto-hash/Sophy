@@ -1,5 +1,3 @@
-<!-- resumen: Una mujer con gorro frigio guía a los parisinos sobre las barricadas: Delacroix pintó la revolución de 1830 y creó un símbolo de Francia. -->
-
 ## «La Libertad guiando al pueblo»: el cuadro de Delacroix que se convirtió en el rostro de Francia
 
 *París, 1830*

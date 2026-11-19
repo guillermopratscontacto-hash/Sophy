@@ -1,5 +1,3 @@
-<!-- resumen: En menos de tres minutos, Abraham Lincoln explicó en Gettysburg para qué se luchaba en la guerra de Secesión. Su discurso es historia. -->
-
 ## El discurso de Gettysburg: los tres minutos con los que Lincoln redefinió la guerra de Secesión
 
 *Gettysburg (Pensilvania), 19 de noviembre de 1863*

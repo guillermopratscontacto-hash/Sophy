@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-11-19",
+      "tema": "economia",
+      "titulo": "El Eurogrupo aplaza dos días el plazo de candidaturas a la cúpula del BCE y Hernández de Cos mantiene el favoritismo",
+      "resumen": "El Eurogrupo aplaza hasta el 20 de noviembre el plazo de candidaturas al BCE; Hernández de Cos sigue como favorito a la presidencia.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Frankfurt-Eurotower-ECB.png?width=1200",
+      "archivo": "contenido/2026-11-19/economia.md"
+    },
+    {
+      "fecha": "2026-11-19",
+      "tema": "politica-espanola",
+      "titulo": "Sánchez y Feijóo llegan al cara a cara televisivo tras despejar la agenda para prepararlo",
+      "resumen": "Sánchez y Feijóo se enfrentan hoy en el primer cara a cara de la campaña del 29N, tras dos días de preparación.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Congreso%20de%20los%20Diputados%2C%20Leones%2C%20Madrid%2C%20Espa%C3%B1a%2C%202015.JPG?width=1200",
+      "archivo": "contenido/2026-11-19/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-11-19",
+      "tema": "politica-internacional",
+      "titulo": "Xi Jinping recibe a Trump y a Putin en Shenzhen en vísperas de una cumbre trilateral inédita",
+      "resumen": "Xi recibe en Shenzhen a Trump y Putin en la víspera de la primera cumbre trilateral entre las tres potencias nucleares.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Great%20Hall%20of%20the%20People%20Beijing%20China.jpg?width=1200",
+      "archivo": "contenido/2026-11-19/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-11-19",
+      "tema": "internacional",
+      "titulo": "Los nacimientos en España suben un 1,2 % en 2025, el primer repunte en más de una década",
+      "resumen": "Los nacimientos suben un 1,2 % en 2025, el primer aumento en más de una década, con un tercio de madres nacidas en el extranjero.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Breast%20Surgery%20Procedure%20in%20Modern%20Operating%20Room.jpg?width=1200",
+      "archivo": "contenido/2026-11-19/internacional.md"
+    },
+    {
+      "fecha": "2026-11-19",
+      "tema": "arte",
+      "titulo": "«La Libertad guiando al pueblo»: el cuadro de Delacroix que se convirtió en el rostro de Francia",
+      "resumen": "Una mujer con gorro frigio guía a los parisinos sobre las barricadas: Delacroix pintó la revolución de 1830 y creó un símbolo de Francia.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/La%20Libert%C3%A9%20guidant%20le%20peuple%20-%20Eug%C3%A8ne%20Delacroix%20-%20Mus%C3%A9e%20du%20Louvre%20Peintures%20RF%20129%20-%20apr%C3%A8s%20restauration%202024.jpg?width=1200",
+      "archivo": "contenido/2026-11-19/arte.md",
+      "asunto": "libertad-pueblo"
+    },
+    {
+      "fecha": "2026-11-19",
+      "tema": "historia",
+      "titulo": "El discurso de Gettysburg: los tres minutos con los que Lincoln redefinió la guerra de Secesión",
+      "resumen": "En menos de tres minutos, Abraham Lincoln explicó en Gettysburg para qué se luchaba en la guerra de Secesión. Su discurso es historia.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Lincolnatgettysburg.jpg?width=1200",
+      "archivo": "contenido/2026-11-19/historia.md",
+      "asunto": "gettysburg"
+    },
+    {
+      "fecha": "2026-11-19",
+      "tema": "literatura",
+      "titulo": "El «Lazarillo de Tormes»: la novela anónima que inventó la picaresca",
+      "resumen": "Un niño pobre, un ciego astuto y un hidalgo sin dinero: el «Lazarillo de Tormes», anónimo, inauguró la novela picaresca en 1554.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Lazarillo%20de%20Tormes.png?width=1200",
+      "archivo": "contenido/2026-11-19/literatura.md",
+      "asunto": "lazarillo"
+    },
+    {
+      "fecha": "2026-11-19",
+      "tema": "musica",
+      "titulo": "Who's Next",
+      "resumen": "Sintetizadores, guitarras rabiosas y un grito final legendario: «Who's Next» nació de un proyecto fallido y acabó siendo la obra maestra de The Who.",
+      "imagen": "https://coverartarchive.org/release-group/9584e28b-66a7-3846-8d52-b3008a283539/front-500",
+      "archivo": "contenido/2026-11-19/musica.md",
+      "subtitulo": "The Who",
+      "estilo": "Rock",
+      "asunto": "album-who-s-next"
+    },
+    {
+      "fecha": "2026-11-19",
+      "tema": "aprende-finanzas",
+      "titulo": "Estructura de una compra apalancada y la TIR del fondo",
+      "subtitulo": "LBO structure and sponsor IRR",
+      "estilo": "Capital privado",
+      "resumen": "Un fondo compra una empresa poniendo poco dinero propio y mucha deuda. Así funciona una compra apalancada y así se multiplica la TIR.",
+      "asunto": "fin-estructura-de-una-compra-apalancada-y-la-tir-del",
+      "archivo": "contenido/2026-11-19/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-11-18",
       "tema": "economia",
       "titulo": "El Gobierno sube el SMI un 5,3 % y suprime las retenciones del IRPF a quien lo cobre",

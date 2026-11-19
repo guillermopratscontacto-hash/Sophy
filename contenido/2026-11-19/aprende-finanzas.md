@@ -1,5 +1,3 @@
-<!-- resumen: Un fondo compra una empresa poniendo poco dinero propio y mucha deuda. Así funciona una compra apalancada y así se multiplica la TIR. -->
-
 ## Estructura de una compra apalancada y la TIR del fondo
 
 ### LBO structure and sponsor IRR

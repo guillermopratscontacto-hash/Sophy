@@ -1,5 +1,3 @@
-<!-- resumen: Sintetizadores, guitarras rabiosas y un grito final legendario: «Who's Next» nació de un proyecto fallido y acabó siendo la obra maestra de The Who. -->
-
 ## Who's Next
 
 ### The Who

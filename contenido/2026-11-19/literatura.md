@@ -1,5 +1,3 @@
-<!-- resumen: Un niño pobre, un ciego astuto y un hidalgo sin dinero: el «Lazarillo de Tormes», anónimo, inauguró la novela picaresca en 1554. -->
-
 ## El «Lazarillo de Tormes»: la novela anónima que inventó la picaresca
 
 *España, 1554*

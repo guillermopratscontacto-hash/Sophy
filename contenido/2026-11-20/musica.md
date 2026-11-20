@@ -1,5 +1,3 @@
-<!-- resumen: Inglaterra, mitos y humor en un disco de rock progresivo exquisito: con «Selling England by the Pound», Genesis alcanzó su madurez. -->
-
 ## Selling England by the Pound
 
 ### Genesis

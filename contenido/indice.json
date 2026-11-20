@@ -93,6 +93,78 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-11-20",
+      "tema": "economia",
+      "titulo": "Anthropic debuta en el Nasdaq con la mayor salida a bolsa de la historia y cierra su primera sesión un 17 % al alza",
+      "resumen": "Anthropic debuta en el Nasdaq con la mayor salida a bolsa de la historia y cierra su primera sesión con un alza del 17 %.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/New%20York%20Stock%20Exchange%20August%202017%2002.jpg?width=1200",
+      "archivo": "contenido/2026-11-20/economia.md"
+    },
+    {
+      "fecha": "2026-11-20",
+      "tema": "politica-espanola",
+      "titulo": "Sánchez pide perdón a las víctimas ferroviarias y Feijóo le acusa de corrupción en el cara a cara televisivo",
+      "resumen": "Sánchez y Feijóo se enfrentan en el cara a cara televisivo, con la corrupción y los accidentes ferroviarios como momentos más tensos.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/News%20Microphones%20at%20Press%20Conference.jpg?width=1200",
+      "archivo": "contenido/2026-11-20/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-11-20",
+      "tema": "politica-internacional",
+      "titulo": "El Tribunal Internacional de Justicia concluye que Myanmar cometió genocidio contra los rohinyás",
+      "resumen": "El Tribunal Internacional de Justicia declara por primera vez a un Estado, Myanmar, responsable de genocidio, contra los rohinyás.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/La%20haye%20palais%20paix%20jardin%20face.JPG?width=1200",
+      "archivo": "contenido/2026-11-20/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-11-20",
+      "tema": "arte",
+      "titulo": "La Dama de Elche: el enigmático rostro de los iberos",
+      "resumen": "Encontrada por un joven jornalero en 1897, la Dama de Elche es el gran retrato de la cultura ibera y una escultura llena de incógnitas.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Dama%20de%20Elche%20-%20MAN%20-%2020241220e.jpg?width=1200",
+      "archivo": "contenido/2026-11-20/arte.md",
+      "asunto": "dama-elche"
+    },
+    {
+      "fecha": "2026-11-20",
+      "tema": "historia",
+      "titulo": "La Revolución mexicana: la década de guerras que transformó México",
+      "resumen": "El 20 de noviembre de 1910 empezó una revolución contra Porfirio Díaz que se convirtió en una larga guerra civil y transformó México.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Decena%20tr%C3%A1gica.JPG?width=1200",
+      "archivo": "contenido/2026-11-20/historia.md",
+      "asunto": "revolucion-mexicana"
+    },
+    {
+      "fecha": "2026-11-20",
+      "tema": "literatura",
+      "titulo": "«El sabueso de los Baskerville»: la novela con la que Sherlock Holmes volvió de entre los muertos",
+      "resumen": "Una leyenda familiar, un perro monstruoso y los páramos de Devon: Conan Doyle resucitó a Sherlock Holmes en su novela más famosa.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Cover%20%28Hound%20of%20Baskervilles%2C%201902%29.jpg?width=1200",
+      "archivo": "contenido/2026-11-20/literatura.md",
+      "asunto": "sabueso-baskerville"
+    },
+    {
+      "fecha": "2026-11-20",
+      "tema": "musica",
+      "titulo": "Selling England by the Pound",
+      "resumen": "Inglaterra, mitos y humor en un disco de rock progresivo exquisito: con «Selling England by the Pound», Genesis alcanzó su madurez.",
+      "imagen": "https://coverartarchive.org/release-group/1fadec3d-7451-32e8-9194-ad7e5312cb9b/front-500",
+      "archivo": "contenido/2026-11-20/musica.md",
+      "subtitulo": "Genesis",
+      "estilo": "Rock progresivo",
+      "asunto": "album-selling-england-by-the-pound"
+    },
+    {
+      "fecha": "2026-11-20",
+      "tema": "aprende-finanzas",
+      "titulo": "Paridad put-call",
+      "subtitulo": "Put-call parity",
+      "estilo": "Derivados",
+      "resumen": "Comprar una acción, comprar una opción de venta y vender una de compra con el mismo precio: la paridad put-call ata sus precios entre sí.",
+      "asunto": "fin-paridad-put-call",
+      "archivo": "contenido/2026-11-20/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-11-19",
       "tema": "economia",
       "titulo": "El Eurogrupo aplaza dos días el plazo de candidaturas a la cúpula del BCE y Hernández de Cos mantiene el favoritismo",

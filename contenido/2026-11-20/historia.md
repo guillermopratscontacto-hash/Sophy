@@ -1,5 +1,3 @@
-<!-- resumen: El 20 de noviembre de 1910 empezó una revolución contra Porfirio Díaz que se convirtió en una larga guerra civil y transformó México. -->
-
 ## La Revolución mexicana: la década de guerras que transformó México
 
 *México, 1910-1920*

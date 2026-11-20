@@ -1,5 +1,3 @@
-<!-- resumen: Comprar una acción, comprar una opción de venta y vender una de compra con el mismo precio: la paridad put-call ata sus precios entre sí. -->
-
 ## Paridad put-call
 
 ### Put-call parity

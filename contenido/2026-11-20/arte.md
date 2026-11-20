@@ -1,5 +1,3 @@
-<!-- resumen: Encontrada por un joven jornalero en 1897, la Dama de Elche es el gran retrato de la cultura ibera y una escultura llena de incógnitas. -->
-
 ## La Dama de Elche: el enigmático rostro de los iberos
 
 *Elche, siglos V-IV a. C.*

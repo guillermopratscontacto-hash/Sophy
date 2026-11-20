@@ -1,5 +1,3 @@
-<!-- resumen: Una leyenda familiar, un perro monstruoso y los páramos de Devon: Conan Doyle resucitó a Sherlock Holmes en su novela más famosa. -->
-
 ## «El sabueso de los Baskerville»: la novela con la que Sherlock Holmes volvió de entre los muertos
 
 *Inglaterra, 1901-1902*

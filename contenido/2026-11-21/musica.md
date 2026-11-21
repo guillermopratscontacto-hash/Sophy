@@ -1,5 +1,3 @@
-<!-- resumen: Patti Smith mezcló poesía y rock en un debut crudo que empieza con una frase sobre Jesús y abrió el camino al punk. -->
-
 ## Horses
 
 ### Patti Smith

@@ -1,5 +1,3 @@
-<!-- resumen: Comparando un bono normal con uno protegido contra la inflación, el mercado revela cuánta inflación espera. Con algunos matices. -->
-
 ## Inflación implícita y bonos ligados a inflación
 
 ### Breakeven inflation and TIPS

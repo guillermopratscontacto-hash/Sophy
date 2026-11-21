@@ -1,5 +1,3 @@
-<!-- resumen: Por primera vez, los dirigentes de un Estado fueron juzgados por un tribunal internacional por crímenes contra la humanidad. -->
-
 ## Los juicios de Núremberg: cuando los jerarcas nazis se sentaron en el banquillo
 
 *Núremberg (Alemania), 1945-1946*

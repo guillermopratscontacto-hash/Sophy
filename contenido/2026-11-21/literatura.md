@@ -1,5 +1,3 @@
-<!-- resumen: Augusto encargó a Virgilio un poema sobre los orígenes de Roma. El resultado fue la «Eneida», que el poeta pidió quemar antes de morir. -->
-
 ## La «Eneida»: el poema que Virgilio quiso quemar
 
 *Roma, 29-19 a. C.*

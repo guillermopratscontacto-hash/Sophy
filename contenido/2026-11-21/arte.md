@@ -1,5 +1,3 @@
-<!-- resumen: Un naufragio real, quince supervivientes y un escándalo político: Géricault convirtió una tragedia en el gran manifiesto del romanticismo. -->
-
 ## «La balsa de la Medusa»: el naufragio que Géricault convirtió en denuncia
 
 *París, 1818-1819*

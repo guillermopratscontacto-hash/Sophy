@@ -93,6 +93,102 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-11-21",
+      "tema": "economia",
+      "titulo": "El Gobierno aprueba el decreto de centros de datos y la patronal y Madrid lo recurrirán ante el Supremo",
+      "resumen": "El Gobierno aprueba un decreto que exige energía renovable a los centros de datos; la patronal y Madrid lo llevarán al Supremo.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Lon%20D.%20Wright%20Power%20Plant%20Solar%20Panels.jpg?width=1200",
+      "archivo": "contenido/2026-11-21/economia.md"
+    },
+    {
+      "fecha": "2026-11-21",
+      "tema": "politica-espanola",
+      "titulo": "Un sondeo de 40dB. da la victoria del debate a Feijóo por diez puntos, aunque Sánchez gana en carisma",
+      "resumen": "Un sondeo de 40dB. da a Feijóo el debate por 43 % frente a 33,3 %, aunque Sánchez es visto como más carismático.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Madrid%20-%20Senado%20de%20Espa%C3%B1a%202.jpg?width=1200",
+      "archivo": "contenido/2026-11-21/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-11-21",
+      "tema": "politica-internacional",
+      "titulo": "Dos misiles y un dron rusos caen en el este de Polonia durante unas maniobras de once ejércitos europeos",
+      "resumen": "Dos misiles de crucero y un dron rusos cayeron en Polonia durante unas maniobras de once ejércitos europeos; Varsovia pide más defensa a la OTAN.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/US%20and%20British%20Soldiers%20conduct%20recon%20exercise%20during%20eFP%20NATO%20BG-P%20%286201131%29.jpg?width=1200",
+      "archivo": "contenido/2026-11-21/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-11-21",
+      "tema": "internacional",
+      "titulo": "Alerta por salmonela en huevos de la marca Eroski distribuidos en ocho comunidades",
+      "resumen": "La Aesan alerta de salmonela en lotes de huevos Eroski distribuidos en ocho comunidades y pide no consumirlos.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Desa%20Cattle%20Dairy%20Farm%20cows%20roaming.jpg?width=1200",
+      "archivo": "contenido/2026-11-21/internacional.md"
+    },
+    {
+      "fecha": "2026-11-21",
+      "tema": "politica-monetaria",
+      "titulo": "Francia y Alemania formalizan sus candidatos y allanan el camino de Hernández de Cos a la presidencia del BCE",
+      "resumen": "Francia y Alemania cierran sus candidatos al BCE, Knot se resiste a retirarse y Trump vuelve a criticar a la Fed por los tipos.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Visit%20of%20Christine%20Lagarde%2C%20President%20of%20the%20European%20Central%20Bank%20%28ECB%29%2C%20to%20the%20European%20Commission%20%28P-067330-00-05%29.jpg?width=1200",
+      "archivo": "contenido/2026-11-21/politica-monetaria.md"
+    },
+    {
+      "fecha": "2026-11-21",
+      "tema": "fusiones",
+      "titulo": "UniCredit pacta con Berlín el futuro de Commerzbank y se acerca al control del banco alemán",
+      "resumen": "UniCredit pacta con el Gobierno alemán el futuro de Commerzbank y está a punto de controlar casi la mitad del banco tras su opa.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Commerzbank%20Tower%20Frankfurt.jpg?width=1200",
+      "archivo": "contenido/2026-11-21/fusiones.md"
+    },
+    {
+      "fecha": "2026-11-21",
+      "tema": "arte",
+      "titulo": "«La balsa de la Medusa»: el naufragio que Géricault convirtió en denuncia",
+      "resumen": "Un naufragio real, quince supervivientes y un escándalo político: Géricault convirtió una tragedia en el gran manifiesto del romanticismo.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/JEAN%20LOUIS%20TH%C3%89ODORE%20G%C3%89RICAULT%20-%20La%20Balsa%20de%20la%20Medusa%20%28Museo%20del%20Louvre%2C%201818-19%29.jpg?width=1200",
+      "archivo": "contenido/2026-11-21/arte.md",
+      "asunto": "balsa-medusa"
+    },
+    {
+      "fecha": "2026-11-21",
+      "tema": "historia",
+      "titulo": "Los juicios de Núremberg: cuando los jerarcas nazis se sentaron en el banquillo",
+      "resumen": "Por primera vez, los dirigentes de un Estado fueron juzgados por un tribunal internacional por crímenes contra la humanidad.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Defendants%20in%20the%20dock%20at%20the%20Nuremberg%20Trials.jpg?width=1200",
+      "archivo": "contenido/2026-11-21/historia.md",
+      "asunto": "juicios-nuremberg"
+    },
+    {
+      "fecha": "2026-11-21",
+      "tema": "literatura",
+      "titulo": "La «Eneida»: el poema que Virgilio quiso quemar",
+      "resumen": "Augusto encargó a Virgilio un poema sobre los orígenes de Roma. El resultado fue la «Eneida», que el poeta pidió quemar antes de morir.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Aeneas%27%20Flight%20from%20Troy%20by%20Federico%20Barocci.jpg?width=1200",
+      "archivo": "contenido/2026-11-21/literatura.md",
+      "asunto": "eneida"
+    },
+    {
+      "fecha": "2026-11-21",
+      "tema": "musica",
+      "titulo": "Horses",
+      "resumen": "Patti Smith mezcló poesía y rock en un debut crudo que empieza con una frase sobre Jesús y abrió el camino al punk.",
+      "imagen": "https://coverartarchive.org/release-group/ff8f533c-3cb3-3877-9209-11f433edaad2/front-500",
+      "archivo": "contenido/2026-11-21/musica.md",
+      "subtitulo": "Patti Smith",
+      "estilo": "Punk rock",
+      "asunto": "album-horses"
+    },
+    {
+      "fecha": "2026-11-21",
+      "tema": "aprende-finanzas",
+      "titulo": "Inflación implícita y bonos ligados a inflación",
+      "subtitulo": "Breakeven inflation and TIPS",
+      "estilo": "Renta fija",
+      "resumen": "Comparando un bono normal con uno protegido contra la inflación, el mercado revela cuánta inflación espera. Con algunos matices.",
+      "asunto": "fin-inflacion-implicita-y-bonos-ligados-a-inflacion",
+      "archivo": "contenido/2026-11-21/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-11-20",
       "tema": "economia",
       "titulo": "Anthropic debuta en el Nasdaq con la mayor salida a bolsa de la historia y cierra su primera sesión un 17 % al alza",

@@ -1,5 +1,3 @@
-<!-- resumen: Una magdalena mojada en té despierta los recuerdos de toda una vida: Proust dedicó siete volúmenes a recuperar el tiempo perdido. -->
-
 ## «En busca del tiempo perdido»: la novela en la que Proust reconstruyó una vida a partir de una magdalena
 
 *Francia, 1913-1927*

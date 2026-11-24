@@ -1,5 +1,3 @@
-<!-- resumen: Pedir prestado en una divisa barata para invertir en otra que paga más: el carry trade funciona hasta que de pronto deja de hacerlo. -->
-
 ## Carry trade y riesgo de liquidación brusca
 
 ### Carry trade unwind

@@ -1,5 +1,3 @@
-<!-- resumen: David Byrne y Brian Eno llevaron la música africana a Nueva York: «Remain in Light» es rock que se baila en espiral. -->
-
 ## Remain in Light
 
 ### Talking Heads

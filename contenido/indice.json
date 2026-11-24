@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-11-24",
+      "tema": "economia",
+      "titulo": "Nvidia restituye a Jensen Huang como consejero delegado y su acción se dispara más de un 30 %",
+      "resumen": "Nvidia repone a Jensen Huang como consejero delegado y la acción se dispara más de un 30 % en Wall Street.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20semiconductor%20wafer%20being%20removed%20from%20processing%20equipment.jpg?width=1200",
+      "archivo": "contenido/2026-11-24/economia.md"
+    },
+    {
+      "fecha": "2026-11-24",
+      "tema": "politica-espanola",
+      "titulo": "Dos encuestas mantienen la mayoría de PP y Vox a una semana del 29-N",
+      "resumen": "Dos sondeos a una semana del 29-N mantienen la mayoría de PP y Vox, con el PSOE recortando distancias.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Madrid%20-%20Hemiciclo%20del%20Congreso%20-%20141203%20100648.jpg?width=1200",
+      "archivo": "contenido/2026-11-24/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-11-24",
+      "tema": "politica-internacional",
+      "titulo": "Ucrania golpea una corbeta rusa en Libia y dos refinerías a más de 1.500 kilómetros del frente",
+      "resumen": "Ucrania reivindica un ataque naval a una corbeta rusa en Libia y nuevos golpes a refinerías a más de 1.500 km.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/MQ-9%20Reaper%20UAV%20%28cropped%29.jpg?width=1200",
+      "archivo": "contenido/2026-11-24/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-11-24",
+      "tema": "internacional",
+      "titulo": "Diez años del acuerdo de paz con las FARC: Santos y Londoño lo defienden pese a los incumplimientos",
+      "resumen": "Santos y Timochenko defienden el acuerdo de paz con las FARC, firmado hace diez años, ante un Gobierno que lo cuestiona.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Skyline%20downtown%20Bogota.jpg?width=1200",
+      "archivo": "contenido/2026-11-24/internacional.md"
+    },
+    {
+      "fecha": "2026-11-24",
+      "tema": "arte",
+      "titulo": "La Victoria de Samotracia: el viento convertido en mármol",
+      "resumen": "Una diosa alada que se posa en la proa de un barco: la Victoria de Samotracia es puro movimiento tallado en mármol.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Victoire%20de%20Samothrace%20-%20Musee%20du%20Louvre%20-%2020190812.jpg?width=1200",
+      "archivo": "contenido/2026-11-24/arte.md",
+      "asunto": "victoria-samotracia"
+    },
+    {
+      "fecha": "2026-11-24",
+      "tema": "historia",
+      "titulo": "Darwin y el Beagle: el viaje que acabaría cambiando la biología",
+      "resumen": "Un joven naturalista de 22 años se embarcó en un viaje de cinco años alrededor del mundo. Volvió con las preguntas que llevarían a la evolución.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/HMS%20Beagle%20by%20Conrad%20Martens.jpg?width=1200",
+      "archivo": "contenido/2026-11-24/historia.md",
+      "asunto": "darwin-beagle"
+    },
+    {
+      "fecha": "2026-11-24",
+      "tema": "literatura",
+      "titulo": "«En busca del tiempo perdido»: la novela en la que Proust reconstruyó una vida a partir de una magdalena",
+      "resumen": "Una magdalena mojada en té despierta los recuerdos de toda una vida: Proust dedicó siete volúmenes a recuperar el tiempo perdido.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Marcel%20Proust%201895.jpg?width=1200",
+      "archivo": "contenido/2026-11-24/literatura.md",
+      "asunto": "busca-tiempo-perdido"
+    },
+    {
+      "fecha": "2026-11-24",
+      "tema": "musica",
+      "titulo": "Remain in Light",
+      "resumen": "David Byrne y Brian Eno llevaron la música africana a Nueva York: «Remain in Light» es rock que se baila en espiral.",
+      "imagen": "https://coverartarchive.org/release-group/f6b1b900-6108-32f0-abbd-2855af9151eb/front-500",
+      "archivo": "contenido/2026-11-24/musica.md",
+      "subtitulo": "Talking Heads",
+      "estilo": "New wave",
+      "asunto": "album-remain-in-light"
+    },
+    {
+      "fecha": "2026-11-24",
+      "tema": "aprende-finanzas",
+      "titulo": "Carry trade y riesgo de liquidación brusca",
+      "subtitulo": "Carry trade unwind",
+      "estilo": "Divisas",
+      "resumen": "Pedir prestado en una divisa barata para invertir en otra que paga más: el carry trade funciona hasta que de pronto deja de hacerlo.",
+      "asunto": "fin-carry-trade-y-riesgo-de-liquidacion-brusca",
+      "archivo": "contenido/2026-11-24/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-11-21",
       "tema": "economia",
       "titulo": "El Gobierno aprueba el decreto de centros de datos y la patronal y Madrid lo recurrirán ante el Supremo",

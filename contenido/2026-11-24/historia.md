@@ -1,5 +1,3 @@
-<!-- resumen: Un joven naturalista de 22 años se embarcó en un viaje de cinco años alrededor del mundo. Volvió con las preguntas que llevarían a la evolución. -->
-
 ## Darwin y el Beagle: el viaje que acabaría cambiando la biología
 
 *Alrededor del mundo, 1831-1836*

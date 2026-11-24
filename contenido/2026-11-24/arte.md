@@ -1,5 +1,3 @@
-<!-- resumen: Una diosa alada que se posa en la proa de un barco: la Victoria de Samotracia es puro movimiento tallado en mármol. -->
-
 ## La Victoria de Samotracia: el viento convertido en mármol
 
 *Grecia, hacia 200-190 a. C.*

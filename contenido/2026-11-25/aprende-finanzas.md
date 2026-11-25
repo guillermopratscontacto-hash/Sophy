@@ -1,5 +1,3 @@
-<!-- resumen: Casi todas las fusiones prometen sinergias. Valorarlas bien es clave para no pagar de más, porque muchas no llegan nunca. -->
-
 ## Valoración de las sinergias en una fusión
 
 ### Synergy valuation in M&A

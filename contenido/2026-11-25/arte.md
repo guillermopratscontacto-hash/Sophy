@@ -1,5 +1,3 @@
-<!-- resumen: Leonardo experimentó con una técnica nueva en una pared de Milán y casi pierde su obra: así sobrevivió «La última cena». -->
-
 ## «La última cena»: el instante de conmoción que Leonardo pintó en una pared de Milán
 
 *Milán, 1495-1498*

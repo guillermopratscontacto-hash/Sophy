@@ -1,5 +1,3 @@
-<!-- resumen: Platón la llamó la décima musa. De los nueve libros que escribió Safo solo nos han llegado fragmentos, pero bastan para conmovernos. -->
-
 ## Safo de Lesbos: la poeta griega cuyos versos sobreviven en fragmentos
 
 *Lesbos (Grecia), hacia 600 a. C.*

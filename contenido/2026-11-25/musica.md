@@ -1,5 +1,3 @@
-<!-- resumen: Jimi Hendrix llegó a Londres siendo un desconocido y en pocos meses grabó el debut que cambió para siempre la guitarra eléctrica. -->
-
 ## Are You Experienced
 
 ### The Jimi Hendrix Experience

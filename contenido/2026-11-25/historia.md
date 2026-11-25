@@ -1,5 +1,3 @@
-<!-- resumen: Un monje alemán publicó en 1517 noventa y cinco tesis contra la venta de indulgencias. La imprenta las difundió y Europa se dividió. -->
-
 ## Lutero y las 95 tesis: la protesta que partió en dos la cristiandad occidental
 
 *Wittenberg (Alemania), 1517*

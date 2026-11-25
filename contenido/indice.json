@@ -93,6 +93,70 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-11-25",
+      "tema": "economia",
+      "titulo": "Argentina entra en recesión técnica con el riesgo país por encima de los 1.000 puntos",
+      "resumen": "Argentina confirma dos trimestres seguidos de caída del PIB mientras el peso se deprecia y el riesgo país supera los 1.000 puntos.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Casa%20Rosada%2C%20Buenos%20Aires%2C%20Argentina.jpg?width=1200",
+      "archivo": "contenido/2026-11-25/economia.md"
+    },
+    {
+      "fecha": "2026-11-25",
+      "tema": "politica-espanola",
+      "titulo": "El Gobierno amplía a 20 semanas el permiso por nacimiento a cinco días de las elecciones",
+      "resumen": "El Consejo de Ministros amplía a 20 semanas el permiso por nacimiento, a cinco días del 29-N; el decreto deberá convalidarse tras las elecciones.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Palacio%20de%20la%20Zarzuela%20%28An%C3%B3nimo%20madrile%C3%B1o%2C%20s.%20XVII%29.jpg?width=1200",
+      "archivo": "contenido/2026-11-25/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-11-25",
+      "tema": "arte",
+      "titulo": "«La última cena»: el instante de conmoción que Leonardo pintó en una pared de Milán",
+      "resumen": "Leonardo experimentó con una técnica nueva en una pared de Milán y casi pierde su obra: así sobrevivió «La última cena».",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Last%20Supper%20-%20Leonardo%20Da%20Vinci%20-%20High%20Resolution%2032x16.jpg?width=1200",
+      "archivo": "contenido/2026-11-25/arte.md",
+      "asunto": "ultima-cena"
+    },
+    {
+      "fecha": "2026-11-25",
+      "tema": "historia",
+      "titulo": "Lutero y las 95 tesis: la protesta que partió en dos la cristiandad occidental",
+      "resumen": "Un monje alemán publicó en 1517 noventa y cinco tesis contra la venta de indulgencias. La imprenta las difundió y Europa se dividió.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Luther%2095%20Thesen.png?width=1200",
+      "archivo": "contenido/2026-11-25/historia.md",
+      "asunto": "lutero-reforma"
+    },
+    {
+      "fecha": "2026-11-25",
+      "tema": "literatura",
+      "titulo": "Safo de Lesbos: la poeta griega cuyos versos sobreviven en fragmentos",
+      "resumen": "Platón la llamó la décima musa. De los nueve libros que escribió Safo solo nos han llegado fragmentos, pero bastan para conmovernos.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Malarz%20Safony%20-%20Kalpis%20wykonana%20technik%C4%85%20Six.jpg?width=1200",
+      "archivo": "contenido/2026-11-25/literatura.md",
+      "asunto": "safo"
+    },
+    {
+      "fecha": "2026-11-25",
+      "tema": "musica",
+      "titulo": "Are You Experienced",
+      "resumen": "Jimi Hendrix llegó a Londres siendo un desconocido y en pocos meses grabó el debut que cambió para siempre la guitarra eléctrica.",
+      "imagen": "https://coverartarchive.org/release-group/da40e720-2097-3730-8a7f-0c2ddbff4a96/front-500",
+      "archivo": "contenido/2026-11-25/musica.md",
+      "subtitulo": "The Jimi Hendrix Experience",
+      "estilo": "Rock psicodélico",
+      "asunto": "album-are-you-experienced"
+    },
+    {
+      "fecha": "2026-11-25",
+      "tema": "aprende-finanzas",
+      "titulo": "Valoración de las sinergias en una fusión",
+      "subtitulo": "Synergy valuation in M&A",
+      "estilo": "Fusiones y adquisiciones",
+      "resumen": "Casi todas las fusiones prometen sinergias. Valorarlas bien es clave para no pagar de más, porque muchas no llegan nunca.",
+      "asunto": "fin-valoracion-de-las-sinergias-en-una-fusion",
+      "archivo": "contenido/2026-11-25/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-11-24",
       "tema": "economia",
       "titulo": "Nvidia restituye a Jensen Huang como consejero delegado y su acción se dispara más de un 30 %",

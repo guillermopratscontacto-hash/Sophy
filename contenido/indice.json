@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-11-26",
+      "tema": "economia",
+      "titulo": "Estados Unidos propone nuevos aranceles de hasta el 20 % a 14 socios comerciales, entre ellos China y la UE",
+      "resumen": "EE. UU. propone aranceles de hasta el 20 % a 14 socios por «exceso de capacidad»; la UE, con un 15 %, rechaza la premisa.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20White%20House%20June%202024.jpg?width=1200",
+      "archivo": "contenido/2026-11-26/economia.md"
+    },
+    {
+      "fecha": "2026-11-26",
+      "tema": "politica-espanola",
+      "titulo": "Feijóo pide en un mitin con 10.000 asistentes en Madrid movilizarse el domingo para que gane «la decencia»",
+      "resumen": "Feijóo cierra su gira madrileña con un mitin de 10.000 personas en la Caja Mágica y pide movilización a cuatro días del 29-N.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Madrid%20-%20La%20sede%20nacional%20del%20Partido%20Popular%20%28PP%29%2C%20en%20la%20calle%20G%C3%A9nova%2C%2013.jpg?width=1200",
+      "archivo": "contenido/2026-11-26/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-11-26",
+      "tema": "politica-internacional",
+      "titulo": "Kilmar Ábrego García llega a Madrid tras abandonar Estados Unidos para evitar ser deportado a Liberia",
+      "resumen": "El salvadoreño Kilmar Ábrego García, símbolo del pulso con Trump por las deportaciones, llega a Madrid como turista.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Puerta%20del%20Sol%2C%20placa%20de%20la%20Puerta%20del%20Sol%20en%20la%20Real%20Casa%20de%20Correos%2C%20Madrid%2C%20Espa%C3%B1a%2C%202015.JPG?width=1200",
+      "archivo": "contenido/2026-11-26/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-11-26",
+      "tema": "internacional",
+      "titulo": "Al menos 31 muertos en El Cairo al volcar un camión de gas e incendiarse en una autopista",
+      "resumen": "Al menos 31 personas mueren en El Cairo cuando un camión con bombonas de gas vuelca y provoca un gran incendio en una circunvalación.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Cairo%20skyline%2C%20Nile%20River%2C%20Egypt.jpg?width=1200",
+      "archivo": "contenido/2026-11-26/internacional.md"
+    },
+    {
+      "fecha": "2026-11-26",
+      "tema": "arte",
+      "titulo": "El Pórtico de la Gloria: la gran puerta del románico al final del Camino de Santiago",
+      "resumen": "Doscientas figuras talladas en granito recibían a los peregrinos en Santiago: el Pórtico de la Gloria es la cumbre del románico.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/T%C3%ADmpano%20del%20p%C3%B3rtico%20de%20la%20gloria.%20catedral%20de%20Santiago%20de%20Compostela%20.jpg?width=1200",
+      "archivo": "contenido/2026-11-26/arte.md",
+      "asunto": "portico-gloria"
+    },
+    {
+      "fecha": "2026-11-26",
+      "tema": "historia",
+      "titulo": "Tutankamón: la tumba intacta que asombró al mundo en 1922",
+      "resumen": "El 26 de noviembre de 1922, Howard Carter se asomó por un agujero a la tumba de Tutankamón y vio «cosas maravillosas».",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/CairoEgMuseumTaaMaskMostlyPhotographed.jpg?width=1200",
+      "archivo": "contenido/2026-11-26/historia.md",
+      "asunto": "tutankamon"
+    },
+    {
+      "fecha": "2026-11-26",
+      "tema": "literatura",
+      "titulo": "«La Regenta»: la novela de Clarín que retrató la asfixia de una ciudad de provincias",
+      "resumen": "Una mujer insatisfecha en una ciudad de provincias asfixiante: «La Regenta», de Clarín, es la gran novela española del siglo XIX.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Portada%20de%20La%20Regenta%20%281884-1885%29.jpg?width=1200",
+      "archivo": "contenido/2026-11-26/literatura.md",
+      "asunto": "la-regenta"
+    },
+    {
+      "fecha": "2026-11-26",
+      "tema": "musica",
+      "titulo": "Tubular Bells",
+      "resumen": "Un joven de 19 años tocó casi todos los instrumentos de un disco instrumental que salvó a una nueva discográfica: «Tubular Bells».",
+      "imagen": "https://coverartarchive.org/release-group/d3f057b4-7e89-3018-9f84-9835ed9b4732/front-500",
+      "archivo": "contenido/2026-11-26/musica.md",
+      "subtitulo": "Mike Oldfield",
+      "estilo": "Rock progresivo",
+      "asunto": "album-tubular-bells"
+    },
+    {
+      "fecha": "2026-11-26",
+      "tema": "aprende-finanzas",
+      "titulo": "Beta y riesgo sistemático",
+      "subtitulo": "Beta and systematic risk",
+      "estilo": "Gestión de carteras",
+      "resumen": "La beta mide cuánto se mueve una acción con el mercado. Explica qué riesgo se paga y cuál se puede eliminar diversificando.",
+      "asunto": "fin-beta-y-riesgo-sistematico",
+      "archivo": "contenido/2026-11-26/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-11-25",
       "tema": "economia",
       "titulo": "Argentina entra en recesión técnica con el riesgo país por encima de los 1.000 puntos",

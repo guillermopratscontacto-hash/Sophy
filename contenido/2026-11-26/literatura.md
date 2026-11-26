@@ -1,5 +1,3 @@
-<!-- resumen: Una mujer insatisfecha en una ciudad de provincias asfixiante: «La Regenta», de Clarín, es la gran novela española del siglo XIX. -->
-
 ## «La Regenta»: la novela de Clarín que retrató la asfixia de una ciudad de provincias
 
 *España, 1884-1885*

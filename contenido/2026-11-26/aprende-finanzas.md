@@ -1,5 +1,3 @@
-<!-- resumen: La beta mide cuánto se mueve una acción con el mercado. Explica qué riesgo se paga y cuál se puede eliminar diversificando. -->
-
 ## Beta y riesgo sistemático
 
 ### Beta and systematic risk

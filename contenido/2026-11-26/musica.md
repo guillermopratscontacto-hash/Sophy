@@ -1,5 +1,3 @@
-<!-- resumen: Un joven de 19 años tocó casi todos los instrumentos de un disco instrumental que salvó a una nueva discográfica: «Tubular Bells». -->
-
 ## Tubular Bells
 
 ### Mike Oldfield

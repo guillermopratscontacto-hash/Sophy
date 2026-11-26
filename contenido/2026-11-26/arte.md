@@ -1,5 +1,3 @@
-<!-- resumen: Doscientas figuras talladas en granito recibían a los peregrinos en Santiago: el Pórtico de la Gloria es la cumbre del románico. -->
-
 ## El Pórtico de la Gloria: la gran puerta del románico al final del Camino de Santiago
 
 *Santiago de Compostela, 1168-1188*

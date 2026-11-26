@@ -1,5 +1,3 @@
-<!-- resumen: El 26 de noviembre de 1922, Howard Carter se asomó por un agujero a la tumba de Tutankamón y vio «cosas maravillosas». -->
-
 ## Tutankamón: la tumba intacta que asombró al mundo en 1922
 
 *Valle de los Reyes (Egipto), 1922*

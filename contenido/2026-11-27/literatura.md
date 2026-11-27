@@ -1,5 +1,3 @@
-<!-- resumen: Soldado, cortesano y poeta, Garcilaso murió con unos 35 años y dejó una obra breve que cambió para siempre la poesía en castellano. -->
-
 ## Garcilaso de la Vega: el soldado que trajo el soneto italiano al castellano
 
 *España e Italia, 1526-1536*

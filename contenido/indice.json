@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-11-27",
+      "tema": "economia",
+      "titulo": "Hernández de Cos será el primer español al frente del Banco Central Europeo",
+      "resumen": "Los líderes de la zona euro recomiendan a Pablo Hernández de Cos para suceder a Lagarde al frente del BCE; sería el primer español en el cargo.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Skyline%20Frankfurt%20am%20Main%202015.jpg?width=1200",
+      "archivo": "contenido/2026-11-27/economia.md"
+    },
+    {
+      "fecha": "2026-11-27",
+      "tema": "politica-espanola",
+      "titulo": "Sánchez, Feijóo, Abascal y Colau chocan en el último debate a cuatro antes del 29-N",
+      "resumen": "Sánchez, Feijóo, Abascal y Colau chocan por vivienda, migración y corrupción en el último debate a cuatro antes del 29-N.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Torre%20Sacyr%20Vallehermoso%20%26%20Torre%20Caja%20Madrid%20de%20noche%20-%20at%20night.jpg?width=1200",
+      "archivo": "contenido/2026-11-27/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-11-27",
+      "tema": "politica-internacional",
+      "titulo": "La UE abre una negociación contrarreloj sobre su presupuesto 2028-2034 con la sombra de Le Pen",
+      "resumen": "Los líderes de la UE abren en Bruselas la negociación del presupuesto 2028-2034 con el temor puesto en una posible victoria de Le Pen en Francia.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Europa%20Building%20in%20Brussels.jpg?width=1200",
+      "archivo": "contenido/2026-11-27/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-11-27",
+      "tema": "internacional",
+      "titulo": "Un marinero muerto al volcar y hundirse el buque Med Emre con 7.000 toneladas de gasóleo cerca de Ibiza",
+      "resumen": "El quimiquero Med Emre, con 7.000 toneladas de gasóleo, se dio la vuelta al noroeste de Ibiza; hay un marinero muerto y sin vertido relevante por ahora.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20rescue%20ship%20near%20the%20beach%20of%20Palam%C3%B3s.jpg?width=1200",
+      "archivo": "contenido/2026-11-27/internacional.md"
+    },
+    {
+      "fecha": "2026-11-27",
+      "tema": "arte",
+      "titulo": "«Saturno devorando a su hijo»: el cuadro que Goya pintó para su comedor",
+      "resumen": "Goya lo pintó en la pared de su comedor y nunca pensó mostrarlo: «Saturno» es el más terrible de los cuadros de la Quinta del Sordo.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Francisco%20de%20Goya%2C%20Saturno%20devorando%20a%20su%20hijo%20%281819-1823%29.jpg?width=1200",
+      "archivo": "contenido/2026-11-27/arte.md",
+      "asunto": "saturno-goya"
+    },
+    {
+      "fecha": "2026-11-27",
+      "tema": "historia",
+      "titulo": "La Armada Invencible: la flota de Felipe II que nunca llegó a desembarcar en Inglaterra",
+      "resumen": "Felipe II envió en 1588 una gran flota para invadir Inglaterra. La derrota, las tormentas y los naufragios acabaron con el proyecto.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Loutherbourg-Spanish%20Armada.jpg?width=1200",
+      "archivo": "contenido/2026-11-27/historia.md",
+      "asunto": "armada-invencible"
+    },
+    {
+      "fecha": "2026-11-27",
+      "tema": "literatura",
+      "titulo": "Garcilaso de la Vega: el soldado que trajo el soneto italiano al castellano",
+      "resumen": "Soldado, cortesano y poeta, Garcilaso murió con unos 35 años y dejó una obra breve que cambió para siempre la poesía en castellano.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Garcilaso%20de%20la%20Vega%20y%20Guzm%C3%A1n%20%28Museo%20del%20Prado%29.jpg?width=1200",
+      "archivo": "contenido/2026-11-27/literatura.md",
+      "asunto": "garcilaso"
+    },
+    {
+      "fecha": "2026-11-27",
+      "tema": "musica",
+      "titulo": "El patio",
+      "resumen": "Desde Sevilla, Triana mezcló flamenco y rock progresivo en 1975 y creó un sonido que todavía hoy suena único.",
+      "imagen": "https://coverartarchive.org/release-group/0ed0557a-bb8b-34e6-b4cc-05c76da2c7fd/front-500",
+      "archivo": "contenido/2026-11-27/musica.md",
+      "subtitulo": "Triana",
+      "estilo": "Rock andaluz",
+      "asunto": "album-el-patio"
+    },
+    {
+      "fecha": "2026-11-27",
+      "tema": "aprende-finanzas",
+      "titulo": "Canales de transmisión de la expansión cuantitativa",
+      "subtitulo": "Quantitative easing transmission channels",
+      "estilo": "Política monetaria",
+      "resumen": "Cuando un banco central compra bonos en masa, ¿cómo llega ese dinero a la economía? Hay varios canales, y no todos funcionan igual.",
+      "asunto": "fin-canales-de-transmision-de-la-expansion-cuantitat",
+      "archivo": "contenido/2026-11-27/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-11-26",
       "tema": "economia",
       "titulo": "Estados Unidos propone nuevos aranceles de hasta el 20 % a 14 socios comerciales, entre ellos China y la UE",

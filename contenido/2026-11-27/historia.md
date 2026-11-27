@@ -1,5 +1,3 @@
-<!-- resumen: Felipe II envió en 1588 una gran flota para invadir Inglaterra. La derrota, las tormentas y los naufragios acabaron con el proyecto. -->
-
 ## La Armada Invencible: la flota de Felipe II que nunca llegó a desembarcar en Inglaterra
 
 *Canal de la Mancha y costas de Irlanda, 1588*

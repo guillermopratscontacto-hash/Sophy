@@ -1,5 +1,3 @@
-<!-- resumen: Desde Sevilla, Triana mezcló flamenco y rock progresivo en 1975 y creó un sonido que todavía hoy suena único. -->
-
 ## El patio
 
 ### Triana

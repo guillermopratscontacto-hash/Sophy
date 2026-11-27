@@ -1,5 +1,3 @@
-<!-- resumen: Cuando un banco central compra bonos en masa, ¿cómo llega ese dinero a la economía? Hay varios canales, y no todos funcionan igual. -->
-
 ## Canales de transmisión de la expansión cuantitativa
 
 ### Quantitative easing transmission channels

@@ -1,5 +1,3 @@
-<!-- resumen: Goya lo pintó en la pared de su comedor y nunca pensó mostrarlo: «Saturno» es el más terrible de los cuadros de la Quinta del Sordo. -->
-
 ## «Saturno devorando a su hijo»: el cuadro que Goya pintó para su comedor
 
 *Madrid, 1819-1823*

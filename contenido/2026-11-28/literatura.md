@@ -1,5 +1,3 @@
-<!-- resumen: Un Estado que vigila cada gesto y reescribe el pasado: Orwell imaginó en «1984» el totalitarismo perfecto y nos dio palabras para nombrarlo. -->
-
 ## «1984»: la novela de Orwell que nos enseñó a decir «Gran Hermano»
 
 *Reino Unido, 1949*

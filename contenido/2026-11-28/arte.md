@@ -1,5 +1,3 @@
-<!-- resumen: Un atleta congelado en el instante antes de lanzar: el Discóbolo de Mirón sobrevive solo en copias, pero fijó el ideal griego del cuerpo. -->
-
 ## El Discóbolo: el atleta que Mirón congeló justo antes del lanzamiento
 
 *Grecia, hacia 450 a. C.*

@@ -1,5 +1,3 @@
-<!-- resumen: El primer disco de The Doors abrió con un grito y cerró con un viaje de once minutos: Jim Morrison y el rock más oscuro de los sesenta. -->
-
 ## The Doors
 
 ### The Doors

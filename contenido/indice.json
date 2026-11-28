@@ -93,6 +93,86 @@
   ],
   "entradas": [
     {
+      "fecha": "2026-11-28",
+      "tema": "economia",
+      "titulo": "Las pensiones contributivas subirán un 3,5 % en 2027 tras un IPC adelantado del 4,1 % en noviembre",
+      "resumen": "Las pensiones contributivas subirán un 3,5 % en 2027 y las mínimas hasta un 14,2 %, tras el IPC adelantado de noviembre (4,1 %).",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/One%20stands%20out%20002%202025%2001%2001.jpg?width=1200",
+      "archivo": "contenido/2026-11-28/economia.md"
+    },
+    {
+      "fecha": "2026-11-28",
+      "tema": "politica-espanola",
+      "titulo": "Sánchez y Feijóo cierran la campaña del 29-N con mítines en Madrid y Sevilla",
+      "resumen": "PSOE y PP cierran la campaña del 29-N con mítines multitudinarios en Madrid y Sevilla y peticiones de voto a los indecisos.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/ES%20Madrid%20Cibeles%2020230325%20Mani%20por%20el%20derecho%20a%20la%20ciudad%20012.jpg?width=1200",
+      "archivo": "contenido/2026-11-28/politica-espanola.md"
+    },
+    {
+      "fecha": "2026-11-28",
+      "tema": "politica-internacional",
+      "titulo": "El Bundestag aprueba el mayor presupuesto de la historia de Alemania, con más gasto en defensa",
+      "resumen": "El Bundestag aprueba el mayor presupuesto de la historia de Alemania, con el mayor gasto en defensa desde la Guerra Fría.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Reichstag%20Dome%2C%20Berlin%20%28Ank%20Kumar%29%2001.jpg?width=1200",
+      "archivo": "contenido/2026-11-28/politica-internacional.md"
+    },
+    {
+      "fecha": "2026-11-28",
+      "tema": "fusiones",
+      "titulo": "Puig adquiere el 75 % de Artessence, matriz de Parfums de Marly e Initio, por 1.200 millones de euros",
+      "resumen": "Puig compra el 75 % de Artessence, dueña de Parfums de Marly e Initio, por unos 1.200 millones de euros en efectivo.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Torre%20Puig%20-%2020240511%20210454.jpg?width=1200",
+      "archivo": "contenido/2026-11-28/fusiones.md"
+    },
+    {
+      "fecha": "2026-11-28",
+      "tema": "arte",
+      "titulo": "El Discóbolo: el atleta que Mirón congeló justo antes del lanzamiento",
+      "resumen": "Un atleta congelado en el instante antes de lanzar: el Discóbolo de Mirón sobrevive solo en copias, pero fijó el ideal griego del cuerpo.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Roman%20bronze%20copy%20of%20Myron%E2%80%99s%20Discobolos%2C%202nd%20century%20CE%20%28Glyptothek%20Munich%29.jpg?width=1200",
+      "archivo": "contenido/2026-11-28/arte.md",
+      "asunto": "discobolo"
+    },
+    {
+      "fecha": "2026-11-28",
+      "tema": "historia",
+      "titulo": "De Maratón a Salamina: cómo los griegos frenaron al Imperio persa",
+      "resumen": "Las ciudades griegas, divididas y pequeñas, resistieron dos invasiones del Imperio persa. Salamina, en el 480 a. C., fue la batalla decisiva.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Kaulbach%2C%20Wilhelm%20von%20-%20Die%20Seeschlacht%20bei%20Salamis%20-%201868.JPG?width=1200",
+      "archivo": "contenido/2026-11-28/historia.md",
+      "asunto": "salamina"
+    },
+    {
+      "fecha": "2026-11-28",
+      "tema": "literatura",
+      "titulo": "«1984»: la novela de Orwell que nos enseñó a decir «Gran Hermano»",
+      "resumen": "Un Estado que vigila cada gesto y reescribe el pasado: Orwell imaginó en «1984» el totalitarismo perfecto y nos dio palabras para nombrarlo.",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/George%20Orwell%20press%20photo.jpg?width=1200",
+      "archivo": "contenido/2026-11-28/literatura.md",
+      "asunto": "orwell-1984"
+    },
+    {
+      "fecha": "2026-11-28",
+      "tema": "musica",
+      "titulo": "The Doors",
+      "resumen": "El primer disco de The Doors abrió con un grito y cerró con un viaje de once minutos: Jim Morrison y el rock más oscuro de los sesenta.",
+      "imagen": "https://coverartarchive.org/release-group/8ebffd15-06c3-3b88-a761-ec18c5513287/front-500",
+      "archivo": "contenido/2026-11-28/musica.md",
+      "subtitulo": "The Doors",
+      "estilo": "Rock psicodélico",
+      "asunto": "album-the-doors"
+    },
+    {
+      "fecha": "2026-11-28",
+      "tema": "aprende-finanzas",
+      "titulo": "Microestructura de mercado: diferencial y selección adversa",
+      "subtitulo": "Bid-ask spread and adverse selection",
+      "estilo": "Microestructura",
+      "resumen": "Por qué siempre hay una diferencia entre el precio de compra y el de venta: el creador de mercado se protege de quien sabe más que él.",
+      "asunto": "fin-microestructura-de-mercado-diferencial-y-selecci",
+      "archivo": "contenido/2026-11-28/aprende-finanzas.md"
+    },
+    {
       "fecha": "2026-11-27",
       "tema": "economia",
       "titulo": "Hernández de Cos será el primer español al frente del Banco Central Europeo",

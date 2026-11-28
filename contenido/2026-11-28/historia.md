@@ -1,5 +1,3 @@
-<!-- resumen: Las ciudades griegas, divididas y pequeñas, resistieron dos invasiones del Imperio persa. Salamina, en el 480 a. C., fue la batalla decisiva. -->
-
 ## De Maratón a Salamina: cómo los griegos frenaron al Imperio persa
 
 *Grecia, 490-479 a. C.*

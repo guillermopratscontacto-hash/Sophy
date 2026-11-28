@@ -1,5 +1,3 @@
-<!-- resumen: Por qué siempre hay una diferencia entre el precio de compra y el de venta: el creador de mercado se protege de quien sabe más que él. -->
-
 ## Microestructura de mercado: diferencial y selección adversa
 
 ### Bid-ask spread and adverse selection
